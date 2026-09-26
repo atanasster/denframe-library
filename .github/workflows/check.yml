@@ -9,13 +9,15 @@ jobs:
   validate:
     runs-on: ubuntu-latest
     timeout-minutes: 10
+    # The pinned release environment (format/release-environment.json): the rebuild gate
+    # refuses any other runtime.
+    container: python:3.13-slim@sha256:9d2e5553305c7c7b0097999bb17187c69b921ccd6bc9d40e4bb5ebe652c00285
     steps:
       - uses: actions/checkout@v4
         with:
           persist-credentials: false
-      - uses: actions/setup-python@v5
-        with:
-          python-version: '3.13'
-      - run: python -m pip install --require-hashes -r format/requirements.lock
-      - run: python -m pip install --no-deps ./format
+      - run: python -m pip install --root-user-action=ignore --require-hashes -r format/requirements.lock
+      - run: python -m pip install --root-user-action=ignore --no-deps ./format
       - run: python tools/check.py
+      - name: Rebuild every reviewed asset byte-for-byte
+        run: python tools/rebuild.py
