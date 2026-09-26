@@ -23,6 +23,15 @@ runtime. See [format/README.md](format/README.md) and the
 - `packs/`: activity sources, exact media, credits and review-candidate records.
 - `contracts/`: schemas, vocabulary and the valid/invalid conformance corpus.
 - `publishers.json`: registered handles and their numeric GitHub account IDs.
+- `reviews.json`: the review ledger (schema v2), one record per exact release; see below.
+
+Every shipped definition and bundled activity has a `reviews.json` record naming the exact
+archive and source SHA-256, the submitter, the reviewer and date, eight review statuses and a
+verdict (`approved`, `preview`, `changes-requested` or `rejected`). Included items need
+`approved`; library items need `approved` or `preview`. `tools/check.py` refuses any shipped
+release without a record for its exact bytes, and host builds refuse to sign one. Only a person
+approves: a `preview` may rest on automated checks, but never names a reviewer who did not
+review. Reports follow [reviews/report-template.md](reviews/report-template.md).
 
 The activity sources are **preview material**, awaiting human content, language and
 listening review. A build or a signature is not a content endorsement. The source seed
@@ -45,6 +54,7 @@ and run `python tools/check.py`. The host pins a tagged source subtree at `libra
 its signed runtime catalogs are generated from those sources.
 
 `python tools/mirror-from-host.py --host /path/to/host --destination . --check`
-checks the one-way toolchain/contract mirror. Omit `--check` only while preparing a
+checks the one-way toolchain/contract mirror against the host commit `MIRROR.json` records;
+pass `--revision <host-commit>` to check or mirror another commit. Omit `--check` only while preparing a
 reviewed format release. The script never replaces asset sources or copies host data.
 Run `python tools/privacy-check.py .` on the concrete tree before any first push.

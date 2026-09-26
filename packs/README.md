@@ -2,9 +2,10 @@
 
 These three self-contained sources contain 20 Bulgarian/English vocabulary items,
 12 real animal-recording items, and 12 short thinking puzzles. They are **review
-candidates, not approved teaching material**. `reviews.json` pins each source hash;
-fluent, content and listening reviews are pending. Never promote them as reviewed
-language learning packs or remove this distinction from the public catalog.
+candidates, not approved teaching material**. The root `reviews.json` ledger pins each
+source and archive hash with a `preview` verdict; fluent, content and listening reviews
+are pending. Never promote them as reviewed language learning packs or remove this
+distinction from the public catalog.
 
 Text selection and puzzles were drafted for Mantel with AI assistance and are
 provided under CC0-1.0. Vocabulary words and mathematical facts remain ordinary
