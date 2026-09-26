@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "host_commit": "ceb7fad034e3e5e911ec54664eae90fa578aab38",
+  "host_commit": "e0040cde087c63b5c1539a3e7b760e2876d79324",
   "files": {
     "contracts/composition/appearance-cases.json": "f785173ef2025f5b6e36a41ed2d932e32640dc021601b3e765f6fb049bd27618",
     "contracts/composition/block-instance.schema.json": "3787b4542a036dd2ecff8faf6d4ba165c01271346490812432ea5a265e545f51",
@@ -185,6 +185,7 @@
     "format/src/mantel_format/validation.py": "ab49f05c116babf622d8fbed8cd8e66820fc932077e9ff38ba60683389e2ead3",
     "format/src/mantel_format/vocabulary.py": "9017b25dddea0aa38cd834714d0320fd5b6eb9db5a3aea661ad97c671bcff2dd",
     "format/tools/release_environment.py": "16958c488400287408ff8f124fd0a8546866b5a544b7a7f404715c471056a58e",
-    "format/tools/ruff.toml": "f161da412b3185f6a2ac1138948f31ec452ac7091268c64dc8bff3107266ca22"
+    "format/tools/ruff.toml": "f161da412b3185f6a2ac1138948f31ec452ac7091268c64dc8bff3107266ca22",
+    "tools/tuf_repository.py": "0fb85cfb0d8d5e692a777453fc2f0bee54131320e0e769bd4bf808953cfaaca8"
   }
 }

@@ -71,3 +71,13 @@ checks the one-way toolchain/contract mirror against the host commit `MIRROR.jso
 pass `--revision <host-commit>` to check or mirror another commit. Omit `--check` only while
 preparing a reviewed format release. The script never replaces asset sources or copies host data.
 Run `python tools/privacy-check.py .` on the concrete tree before any first push.
+
+`tools/tuf_repository.py` (mirrored from the host) operates the online library's TUF
+repository: `init`, `publish`, `revoke`, `renew`, `rotate-root` and `status`. The
+`Renew library metadata` workflow runs `renew` and `status` daily against the staging
+repository on the `metadata-staging` branch, with only the online key from the protected
+`release` environment, and opens or comments on an issue labelled `metadata-renewal` when it
+fails. It stays off until the repository variable `LIBRARY_RENEWAL` is `on`, which the owner
+sets at the pre-launch gate. Its runtime is `tools/requirements-release.lock`. The host's
+`docs/operations/LIBRARY_TUF_OPERATIONS.md` is the runbook: roles, keys, rotation, key loss,
+lapse and takedown.
