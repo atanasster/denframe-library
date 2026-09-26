@@ -1,0 +1,131 @@
+{
+  "$defs": {
+    "ContentFormDeclaration": {
+      "additionalProperties": false,
+      "description": "A form: its rows, printed top to bottom for the first `items` entry (or, with `items`\nabove one, one set of rows per item up to that many).",
+      "properties": {
+        "rows": {
+          "items": {
+            "$ref": "#/$defs/ContentRowDeclaration"
+          },
+          "maxItems": 6,
+          "minItems": 1,
+          "title": "Rows",
+          "type": "array"
+        },
+        "items": {
+          "default": 1,
+          "maximum": 6,
+          "minimum": 1,
+          "title": "Items",
+          "type": "integer"
+        },
+        "show_title": {
+          "default": false,
+          "description": "Print the preset's title as a caption below the rows, where it fits.",
+          "title": "Show Title",
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "rows"
+      ],
+      "title": "ContentFormDeclaration",
+      "type": "object"
+    },
+    "ContentRowDeclaration": {
+      "additionalProperties": false,
+      "description": "One row of a declared form: an item field, optionally joined with another (`value ·\nunit`), from the first `items` entries. `lines` bounds the row; the host measures it.",
+      "properties": {
+        "field": {
+          "pattern": "^[a-z][a-z_]{0,23}$",
+          "title": "Field",
+          "type": "string"
+        },
+        "join": {
+          "items": {
+            "pattern": "^[a-z][a-z_]{0,23}$",
+            "type": "string"
+          },
+          "maxItems": 3,
+          "title": "Join",
+          "type": "array"
+        },
+        "lines": {
+          "default": 1,
+          "maximum": 4,
+          "minimum": 1,
+          "title": "Lines",
+          "type": "integer"
+        },
+        "role": {
+          "default": "essential",
+          "enum": [
+            "vital",
+            "essential",
+            "incidental",
+            "hero",
+            "secondary"
+          ],
+          "title": "Role",
+          "type": "string"
+        }
+      },
+      "required": [
+        "field"
+      ],
+      "title": "ContentRowDeclaration",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "description": "A preset's own forms, by variant. A variant not declared keeps the presentation's\ndefault form; `glance` is the one worth declaring most (what the block shows in a cell\nwith room for a single row).",
+  "properties": {
+    "glance": {
+      "anyOf": [
+        {
+          "$ref": "#/$defs/ContentFormDeclaration"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null
+    },
+    "line": {
+      "anyOf": [
+        {
+          "$ref": "#/$defs/ContentFormDeclaration"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null
+    },
+    "compact": {
+      "anyOf": [
+        {
+          "$ref": "#/$defs/ContentFormDeclaration"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null
+    },
+    "full": {
+      "anyOf": [
+        {
+          "$ref": "#/$defs/ContentFormDeclaration"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null
+    }
+  },
+  "title": "ContentLadderDeclaration",
+  "type": "object"
+}

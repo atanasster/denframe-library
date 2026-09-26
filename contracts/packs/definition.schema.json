@@ -1,0 +1,557 @@
+{
+  "$defs": {
+    "PackActivity": {
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "pattern": "^[a-z][a-z0-9-]{0,39}$",
+          "title": "Id",
+          "type": "string"
+        },
+        "name": {
+          "maxLength": 100,
+          "minLength": 1,
+          "pattern": "\\S",
+          "title": "Name",
+          "type": "string"
+        },
+        "kind": {
+          "const": "reveal-sequence-v1",
+          "default": "reveal-sequence-v1",
+          "title": "Kind",
+          "type": "string"
+        },
+        "item_ids": {
+          "items": {
+            "pattern": "^[a-z][a-z0-9-]{0,39}$",
+            "type": "string"
+          },
+          "maxItems": 1000,
+          "minItems": 1,
+          "title": "Item Ids",
+          "type": "array",
+          "uniqueItems": true
+        },
+        "locale": {
+          "maxLength": 6,
+          "pattern": "^[a-z]{2,3}(?:-[A-Z]{2})?$",
+          "title": "Locale",
+          "type": "string"
+        },
+        "loop": {
+          "default": false,
+          "title": "Loop",
+          "type": "boolean"
+        },
+        "timing": {
+          "$ref": "#/$defs/PackTiming"
+        }
+      },
+      "required": [
+        "id",
+        "name",
+        "item_ids",
+        "locale"
+      ],
+      "title": "PackActivity",
+      "type": "object"
+    },
+    "PackAudioCue": {
+      "additionalProperties": false,
+      "properties": {
+        "resource": {
+          "pattern": "^assets/[a-f0-9]{64}\\.(?:png|jpg|webp|mp3)$",
+          "title": "Resource",
+          "type": "string"
+        },
+        "locale": {
+          "maxLength": 6,
+          "pattern": "^[a-z]{2,3}(?:-[A-Z]{2})?$",
+          "title": "Locale",
+          "type": "string"
+        },
+        "phase": {
+          "enum": [
+            "prompt",
+            "reveal"
+          ],
+          "title": "Phase",
+          "type": "string"
+        },
+        "role": {
+          "enum": [
+            "narration",
+            "effect"
+          ],
+          "title": "Role",
+          "type": "string"
+        },
+        "transcript": {
+          "maxLength": 240,
+          "minLength": 1,
+          "pattern": "\\S",
+          "title": "Transcript",
+          "type": "string"
+        }
+      },
+      "required": [
+        "resource",
+        "locale",
+        "phase",
+        "role",
+        "transcript"
+      ],
+      "title": "PackAudioCue",
+      "type": "object"
+    },
+    "PackCredit": {
+      "additionalProperties": false,
+      "if": {
+        "properties": {
+          "license": {
+            "enum": [
+              "CC-BY-4.0",
+              "MIT"
+            ]
+          }
+        }
+      },
+      "properties": {
+        "creator": {
+          "maxLength": 100,
+          "minLength": 1,
+          "pattern": "\\S",
+          "title": "Creator",
+          "type": "string"
+        },
+        "license": {
+          "enum": [
+            "CC0-1.0",
+            "CC-BY-4.0",
+            "MIT"
+          ],
+          "title": "License",
+          "type": "string"
+        },
+        "attribution": {
+          "default": "",
+          "maxLength": 500,
+          "title": "Attribution",
+          "type": "string"
+        },
+        "source": {
+          "default": "",
+          "maxLength": 500,
+          "title": "Source",
+          "type": "string"
+        },
+        "modified": {
+          "default": false,
+          "title": "Modified",
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "creator",
+        "license"
+      ],
+      "then": {
+        "properties": {
+          "attribution": {
+            "pattern": "\\S"
+          }
+        },
+        "required": [
+          "attribution"
+        ]
+      },
+      "title": "PackCredit",
+      "type": "object"
+    },
+    "PackFace": {
+      "additionalProperties": false,
+      "else": {
+        "properties": {
+          "alt_text": {
+            "type": "null"
+          }
+        }
+      },
+      "if": {
+        "properties": {
+          "image": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "image"
+        ]
+      },
+      "properties": {
+        "text": {
+          "maxLength": 240,
+          "minLength": 1,
+          "pattern": "\\S",
+          "title": "Text",
+          "type": "string"
+        },
+        "image": {
+          "anyOf": [
+            {
+              "pattern": "^assets/[a-f0-9]{64}\\.(?:png|jpg|webp|mp3)$",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Image"
+        },
+        "alt_text": {
+          "anyOf": [
+            {
+              "maxLength": 240,
+              "minLength": 1,
+              "pattern": "\\S",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Alt Text"
+        }
+      },
+      "required": [
+        "text"
+      ],
+      "then": {
+        "properties": {
+          "alt_text": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "alt_text"
+        ]
+      },
+      "title": "PackFace",
+      "type": "object"
+    },
+    "PackItem": {
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "pattern": "^[a-z][a-z0-9-]{0,39}$",
+          "title": "Id",
+          "type": "string"
+        },
+        "content_revision": {
+          "maximum": 2147483647,
+          "minimum": 1,
+          "title": "Content Revision",
+          "type": "integer"
+        },
+        "translations": {
+          "additionalProperties": false,
+          "maxProperties": 8,
+          "minProperties": 1,
+          "patternProperties": {
+            "^[a-z]{2,3}(?:-[A-Z]{2})?$": {
+              "$ref": "#/$defs/PackTranslation"
+            }
+          },
+          "propertyNames": {
+            "maxLength": 6,
+            "pattern": "^[a-z]{2,3}(?:-[A-Z]{2})?$"
+          },
+          "title": "Translations",
+          "type": "object"
+        },
+        "audio_cues": {
+          "items": {
+            "$ref": "#/$defs/PackAudioCue"
+          },
+          "maxItems": 4,
+          "title": "Audio Cues",
+          "type": "array"
+        }
+      },
+      "required": [
+        "id",
+        "content_revision",
+        "translations"
+      ],
+      "title": "PackItem",
+      "type": "object"
+    },
+    "PackResource": {
+      "additionalProperties": false,
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "media_type": {
+                "const": "image/png"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "path": {
+                "pattern": "\\.png$"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "media_type": {
+                "const": "image/jpeg"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "path": {
+                "pattern": "\\.jpg$"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "media_type": {
+                "const": "image/webp"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "path": {
+                "pattern": "\\.webp$"
+              }
+            }
+          }
+        }
+      ],
+      "else": {
+        "properties": {
+          "duration_seconds": {
+            "type": "null"
+          }
+        }
+      },
+      "if": {
+        "properties": {
+          "media_type": {
+            "const": "audio/mpeg"
+          }
+        }
+      },
+      "properties": {
+        "path": {
+          "pattern": "^assets/[a-f0-9]{64}\\.(?:png|jpg|webp|mp3)$",
+          "title": "Path",
+          "type": "string"
+        },
+        "sha256": {
+          "pattern": "^[a-f0-9]{64}$",
+          "title": "Sha256",
+          "type": "string"
+        },
+        "length": {
+          "maximum": 8388608,
+          "minimum": 1,
+          "title": "Length",
+          "type": "integer"
+        },
+        "media_type": {
+          "enum": [
+            "image/png",
+            "image/jpeg",
+            "image/webp",
+            "audio/mpeg"
+          ],
+          "title": "Media Type",
+          "type": "string"
+        },
+        "duration_seconds": {
+          "anyOf": [
+            {
+              "maximum": 30,
+              "minimum": 0.01,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Duration Seconds"
+        },
+        "credit": {
+          "$ref": "#/$defs/PackCredit"
+        }
+      },
+      "required": [
+        "path",
+        "sha256",
+        "length",
+        "media_type",
+        "credit"
+      ],
+      "then": {
+        "properties": {
+          "length": {
+            "maximum": 2097152
+          },
+          "duration_seconds": {
+            "type": "number"
+          },
+          "path": {
+            "pattern": "\\.mp3$"
+          }
+        },
+        "required": [
+          "duration_seconds"
+        ]
+      },
+      "title": "PackResource",
+      "type": "object"
+    },
+    "PackTiming": {
+      "additionalProperties": false,
+      "properties": {
+        "prompt_seconds": {
+          "default": 3,
+          "maximum": 30,
+          "minimum": 1,
+          "title": "Prompt Seconds",
+          "type": "integer"
+        },
+        "recall_seconds": {
+          "default": 3,
+          "maximum": 30,
+          "minimum": 0,
+          "title": "Recall Seconds",
+          "type": "integer"
+        },
+        "reveal_seconds": {
+          "default": 4,
+          "maximum": 30,
+          "minimum": 1,
+          "title": "Reveal Seconds",
+          "type": "integer"
+        },
+        "dwell_seconds": {
+          "default": 2,
+          "maximum": 30,
+          "minimum": 1,
+          "title": "Dwell Seconds",
+          "type": "integer"
+        }
+      },
+      "title": "PackTiming",
+      "type": "object"
+    },
+    "PackTranslation": {
+      "additionalProperties": false,
+      "properties": {
+        "prompt": {
+          "$ref": "#/$defs/PackFace"
+        },
+        "reveal": {
+          "$ref": "#/$defs/PackFace"
+        }
+      },
+      "required": [
+        "prompt",
+        "reveal"
+      ],
+      "title": "PackTranslation",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "schema_version": {
+      "const": 2,
+      "default": 2,
+      "title": "Schema Version",
+      "type": "integer"
+    },
+    "kind": {
+      "const": "pack",
+      "default": "pack",
+      "title": "Kind",
+      "type": "string"
+    },
+    "name": {
+      "maxLength": 100,
+      "minLength": 1,
+      "pattern": "\\S",
+      "title": "Name",
+      "type": "string"
+    },
+    "description": {
+      "maxLength": 240,
+      "minLength": 1,
+      "pattern": "\\S",
+      "title": "Description",
+      "type": "string"
+    },
+    "locales": {
+      "items": {
+        "maxLength": 6,
+        "pattern": "^[a-z]{2,3}(?:-[A-Z]{2})?$",
+        "type": "string"
+      },
+      "maxItems": 8,
+      "minItems": 1,
+      "title": "Locales",
+      "type": "array",
+      "uniqueItems": true
+    },
+    "resources": {
+      "items": {
+        "$ref": "#/$defs/PackResource"
+      },
+      "maxItems": 2046,
+      "title": "Resources",
+      "type": "array"
+    },
+    "items": {
+      "items": {
+        "$ref": "#/$defs/PackItem"
+      },
+      "maxItems": 1000,
+      "minItems": 1,
+      "title": "Items",
+      "type": "array"
+    },
+    "activities": {
+      "items": {
+        "$ref": "#/$defs/PackActivity"
+      },
+      "maxItems": 32,
+      "minItems": 1,
+      "title": "Activities",
+      "type": "array"
+    }
+  },
+  "required": [
+    "name",
+    "description",
+    "locales",
+    "items",
+    "activities"
+  ],
+  "title": "PackDefinition",
+  "type": "object",
+  "$schema": "https://json-schema.org/draft/2020-12/schema"
+}

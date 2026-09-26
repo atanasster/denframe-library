@@ -1,0 +1,20 @@
+name: Takedown request
+description: Report a rights or privacy concern about an asset.
+body:
+  - type: markdown
+    attributes:
+      value: "This issue is public. Remove personal data and credentials. Read https://smart.meggy.com/terms and https://smart.meggy.com/privacy."
+  - type: textarea
+    id: asset
+    attributes:
+      label: Asset
+      description: Give the ID, version and public link.
+    validations:
+      required: true
+  - type: textarea
+    id: grounds
+    attributes:
+      label: Concern
+      description: Explain the rights or privacy concern and requested remedy. Do not include private identity documents.
+    validations:
+      required: true

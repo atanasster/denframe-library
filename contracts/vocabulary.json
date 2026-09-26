@@ -1,0 +1,489 @@
+{
+  "DISPLAY_EVENT_TYPES": [
+    "devices.changed",
+    "provider.changed",
+    "display.session.changed",
+    "display.scene.changed",
+    "playlist.changed",
+    "alert.changed",
+    "rule.evaluated",
+    "privacy.changed",
+    "context_rule.changed",
+    "household_mode.changed",
+    "task.changed",
+    "routine.changed",
+    "meal.changed",
+    "note.changed",
+    "local_album.changed",
+    "gallery.changed",
+    "media.changed",
+    "display.group.changed",
+    "stream.reset"
+  ],
+  "DISPLAY_PURPOSES": [
+    "ambient",
+    "today",
+    "home",
+    "media",
+    "alert"
+  ],
+  "DISPLAY_THEMES": [
+    "painting",
+    "modern",
+    "glass",
+    "ink",
+    "linen",
+    "botanical"
+  ],
+  "DASHBOARD_RECIPE_IDS": [
+    "daily-brief",
+    "art-weather",
+    "world-desk",
+    "quiet-gallery",
+    "family-kitchen",
+    "welcome-home"
+  ],
+  "SOURCE_CONNECTION_EFFORTS": [
+    "no_account",
+    "existing_account",
+    "api_key"
+  ],
+  "SOURCE_CAPABILITY_AVAILABILITIES": [
+    "available",
+    "deployment_dependent",
+    "verification_required"
+  ],
+  "DASHBOARD_RECIPE_INPUTS": [
+    "location",
+    "weather_units",
+    "base_currency",
+    "watchlist",
+    "headline_feed"
+  ],
+  "DASHBOARD_RECIPE_BINDINGS": [
+    "builtin",
+    "required_source",
+    "optional_source"
+  ],
+  "ONBOARDING_STATUSES": [
+    "not_started",
+    "in_progress",
+    "completed",
+    "dismissed"
+  ],
+  "DISPLAY_BLOCK_KINDS": [
+    "clock",
+    "weather",
+    "calendar",
+    "image",
+    "home",
+    "media",
+    "alert",
+    "news",
+    "market",
+    "transport",
+    "package",
+    "tasks",
+    "meal",
+    "notes",
+    "guest",
+    "custom",
+    "card"
+  ],
+  "CONTENT_STATUSES": [
+    "fresh",
+    "stale",
+    "unavailable",
+    "error"
+  ],
+  "PROVIDER_HEALTH_STATES": [
+    "healthy",
+    "degraded",
+    "unavailable",
+    "circuit_open"
+  ],
+  "PRIVATE_EVENT_MODES": [
+    "show",
+    "title_redacted",
+    "time_only",
+    "hidden"
+  ],
+  "SENSITIVITY_LEVELS": [
+    "public",
+    "household",
+    "private"
+  ],
+  "HOUSEHOLD_PROFILE_COLORS": [
+    "#F4B942",
+    "#62C6A8",
+    "#8AB4F8",
+    "#E58FAF",
+    "#C7A0F5",
+    "#FF8A65"
+  ],
+  "HOUSEHOLD_ICONS": [
+    "person",
+    "home",
+    "star",
+    "paw",
+    "briefcase",
+    "book"
+  ],
+  "TASK_RECURRENCES": [
+    "none",
+    "daily",
+    "weekly"
+  ],
+  "TASK_ITEM_TYPES": [
+    "task",
+    "grocery",
+    "supply"
+  ],
+  "WEEKDAY_ABBREVIATIONS": [
+    "Mon",
+    "Tue",
+    "Wed",
+    "Thu",
+    "Fri",
+    "Sat",
+    "Sun"
+  ],
+  "MEAL_TYPES": [
+    "breakfast",
+    "lunch",
+    "dinner",
+    "snack"
+  ],
+  "HANDOFF_ACTIONS": [
+    "event_details",
+    "directions",
+    "article_details",
+    "edit",
+    "device_control",
+    "continue_media"
+  ],
+  "HOME_ASSISTANT_ROLES": [
+    "entry",
+    "opening",
+    "leak",
+    "climate",
+    "light",
+    "battery",
+    "energy"
+  ],
+  "SAMSUNG_CAST_PATHS": [
+    "external_chromecast",
+    "built_in_cast"
+  ],
+  "OAUTH_CALENDAR_PROVIDERS": [
+    "google",
+    "microsoft"
+  ],
+  "MAT_STYLES": [
+    "full_bleed",
+    "modern",
+    "museum",
+    "shadow_box"
+  ],
+  "PICTURE_EDGES": [
+    "bleed",
+    "inside"
+  ],
+  "IMAGE_FITS": [
+    "fit",
+    "fill",
+    "smart"
+  ],
+  "HOUSEHOLD_MODES": [
+    "home",
+    "away",
+    "night"
+  ],
+  "CONTEXT_RULE_ACTION_KINDS": [
+    "select_playlist",
+    "select_scene",
+    "enter_privacy",
+    "dim",
+    "blackout",
+    "suspend_scheduling"
+  ],
+  "GRID_COLLISIONS": [
+    "block",
+    "push"
+  ],
+  "REGIONS": [
+    "auto",
+    "header",
+    "main",
+    "secondary",
+    "stage",
+    "side"
+  ],
+  "IMPORTANCE": [
+    "required",
+    "normal",
+    "optional"
+  ],
+  "GRID_SHAPES": [
+    "portrait"
+  ],
+  "DISPLAY_LAYOUTS": [
+    "stack",
+    "stage",
+    "focus",
+    "calibration"
+  ],
+  "DISPLAY_AREAS": [
+    "anchor",
+    "primary",
+    "secondary",
+    "stage",
+    "side",
+    "focus",
+    "calibration"
+  ],
+  "READING_ROLES": [
+    "vital",
+    "essential",
+    "incidental"
+  ],
+  "OVERLAY_CORNERS": [
+    "bottom-left",
+    "bottom-right",
+    "top-left",
+    "top-right"
+  ],
+  "OVERLAY_SCRIMS": [
+    "soft",
+    "standard",
+    "strong"
+  ],
+  "DISPLAY_DIAGNOSTIC_IDS": [
+    "discovery",
+    "receiver",
+    "public_url",
+    "custom_receiver",
+    "paired",
+    "connected",
+    "session",
+    "media"
+  ],
+  "BACKGROUND_KINDS": [
+    "theme",
+    "solid",
+    "aurora",
+    "canopy",
+    "dunes",
+    "artwork",
+    "album",
+    "weather"
+  ],
+  "LAYOUTS": [
+    "auto",
+    "flow",
+    "columns",
+    "stage",
+    "grid",
+    "overlay"
+  ],
+  "FONTS": [
+    "theme",
+    "sans",
+    "serif"
+  ],
+  "SPACINGS": [
+    "tight",
+    "standard",
+    "relaxed"
+  ],
+  "MARGINS": [
+    "none",
+    "tight",
+    "standard",
+    "wide"
+  ],
+  "FACES": [
+    "look",
+    "card",
+    "transparent",
+    "outlined"
+  ],
+  "RADII": [
+    "look",
+    "square",
+    "soft",
+    "round"
+  ],
+  "BLOCK_PADDINGS": [
+    "inherit",
+    "none",
+    "tight",
+    "standard",
+    "roomy"
+  ],
+  "BLOCK_FACES": [
+    "inherit",
+    "card",
+    "transparent",
+    "outlined"
+  ],
+  "TEXT_SIZES": [
+    "smaller",
+    "inherit",
+    "larger"
+  ],
+  "DETAILS": [
+    "auto",
+    "compact",
+    "line",
+    "glance"
+  ],
+  "HEADINGS": [
+    "inherit",
+    "hidden"
+  ],
+  "ALIGNS": [
+    "start",
+    "center",
+    "end"
+  ],
+  "ACCENTS": [
+    "inherit",
+    "accent",
+    "muted"
+  ],
+  "DISPLAY_VARIANTS": [
+    "glance",
+    "line",
+    "compact",
+    "full"
+  ],
+  "DISPLAY_PROTOCOL_VERSION": 2,
+  "PLACEMENT_KEYS": [
+    "region",
+    "importance",
+    "col_span",
+    "row_span",
+    "col_start",
+    "row_start"
+  ],
+  "GRID_COLUMNS": 12,
+  "GRID_ROWS": 6,
+  "MAX_PLACEMENTS": 12,
+  "DEFAULT_COL_SPAN": 12,
+  "DEFAULT_ROW_SPAN": 1,
+  "PORTRAIT_GRID_COLUMNS": 6,
+  "PORTRAIT_GRID_ROWS": 12,
+  "MIN_BACKGROUND_CADENCE_SECONDS": 15,
+  "MAX_BACKGROUND_CADENCE_SECONDS": 86400,
+  "BACKGROUND_SOURCE_ID_MAX": 200,
+  "LAYOUT_CAPABILITY": {
+    "auto": "responsive-layout-v1",
+    "grid": "grid-placement-v1",
+    "overlay": "overlay-layout-v1"
+  },
+  "BACKGROUND_CANVAS_CAPABILITY": "background-canvas-v1",
+  "BLOCK_STYLE_CAPABILITY": "block-style-v1",
+  "OVERLAY_LAYOUT_CAPABILITY": "overlay-layout-v1",
+  "PICTURE_FILL_CAPABILITY": "picture-fill-v1",
+  "GATED_BACKGROUND_KINDS": [
+    "artwork",
+    "album",
+    "weather"
+  ],
+  "DEFAULT_BLOCK_STYLE": {
+    "padding": "inherit",
+    "face": "inherit",
+    "text_size": "inherit",
+    "detail": "auto",
+    "heading": "inherit",
+    "align": "start",
+    "accent": "inherit"
+  },
+  "DEFAULT_APPEARANCE": {
+    "layout": "flow",
+    "background": "theme",
+    "font": "theme",
+    "spacing": "standard",
+    "tokens": {},
+    "background_source_id": null,
+    "background_mat": "museum",
+    "background_motion": false,
+    "background_cadence_seconds": 45,
+    "grid_collision": "push",
+    "margin": "standard",
+    "face": "look",
+    "radius": "look",
+    "overlay_corner": "bottom-left",
+    "overlay_scrim": "standard"
+  },
+  "RECEIVER_REQUIREMENTS": [
+    "background-canvas-v1",
+    "block-style-v1",
+    "card-v1",
+    "composition-v2",
+    "grid-placement-v1",
+    "layout-arrangement-v1",
+    "layout-setup-v1",
+    "library-provenance-v1",
+    "overlay-layout-v1",
+    "pack-audio-v1",
+    "pack-window-v1",
+    "picture-fill-v1",
+    "responsive-layout-v1"
+  ],
+  "CARD_MM": {
+    "width": 85.6,
+    "height": 53.98
+  },
+  "SCREEN_MODEL_DIAGONALS": [
+    {
+      "match": "nest hub max",
+      "inches": 10.0,
+      "distance": "counter"
+    },
+    {
+      "match": "nest hub",
+      "inches": 7.0,
+      "distance": "counter"
+    },
+    {
+      "match": "google home hub",
+      "inches": 7.0,
+      "distance": "counter"
+    }
+  ],
+  "TV_DIAGONALS": [
+    43,
+    50,
+    55,
+    65,
+    75
+  ],
+  "READING_DISTANCES_MM": {
+    "arm": 600,
+    "counter": 2000,
+    "room": 4000
+  },
+  "VISUAL_ANGLES_ARCMIN": {
+    "vital": {
+      "target": 29,
+      "floor": 20
+    },
+    "essential": {
+      "target": 20,
+      "floor": 16
+    }
+  },
+  "FONT_CAP_HEIGHTS": {
+    "sans": 0.7275,
+    "serif": 0.67,
+    "hyperlegible": 0.682
+  },
+  "NUMERAL_FONTS": [
+    "look",
+    "hyperlegible"
+  ],
+  "MIN_READING_PX": 18,
+  "MAX_READING_PX": 192
+}

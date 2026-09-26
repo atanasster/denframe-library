@@ -1,0 +1,36 @@
+{
+  "additionalProperties": false,
+  "properties": {
+    "schema_version": {
+      "const": 1,
+      "default": 1,
+      "title": "Schema Version",
+      "type": "integer"
+    },
+    "enabled": {
+      "default": false,
+      "title": "Enabled",
+      "type": "boolean"
+    },
+    "volume": {
+      "default": 0.5,
+      "maximum": 1,
+      "minimum": 0,
+      "title": "Volume",
+      "type": "number"
+    },
+    "narration": {
+      "default": true,
+      "title": "Narration",
+      "type": "boolean"
+    },
+    "effects": {
+      "default": true,
+      "title": "Effects",
+      "type": "boolean"
+    }
+  },
+  "title": "PackAudioPolicy",
+  "type": "object",
+  "$schema": "https://json-schema.org/draft/2020-12/schema"
+}

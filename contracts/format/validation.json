@@ -1,0 +1,2057 @@
+{
+  "coercions": {
+    "ContentFormDeclaration": {
+      "items": "integer",
+      "show_title": "boolean"
+    },
+    "ContentRowDeclaration": {
+      "lines": "integer"
+    },
+    "PortableBlock": {
+      "enabled": "boolean"
+    },
+    "SetupPrompt": {
+      "required": "boolean"
+    },
+    "SourceSlot": {
+      "required": "boolean"
+    }
+  },
+  "factories": {
+    "Appearance": {
+      "tokens": {}
+    },
+    "CompositionDocument": {
+      "appearance": {
+        "background": "theme",
+        "font": "theme",
+        "layout": "flow",
+        "spacing": "standard",
+        "tokens": {}
+      },
+      "bindings": {},
+      "block_origins": {},
+      "dependencies": [],
+      "legacy_dependencies": [],
+      "library_applications": {},
+      "placements": {},
+      "required_capabilities": [],
+      "shape_placements": {},
+      "styles": {}
+    },
+    "ContentRowDeclaration": {
+      "join": []
+    },
+    "Definition": {
+      "appearance": {
+        "background": "theme",
+        "font": "theme",
+        "layout": "flow",
+        "spacing": "standard",
+        "tokens": {}
+      },
+      "blocks": [],
+      "setup": [],
+      "source_slots": []
+    },
+    "InstanceBinding": {
+      "sources": []
+    },
+    "LayoutArrangement": {
+      "portrait": {}
+    },
+    "LibraryApplication": {
+      "blocks": {}
+    },
+    "Manifest": {
+      "dependencies": [],
+      "required_capabilities": [
+        "composition-v2"
+      ]
+    },
+    "PackActivity": {
+      "timing": {
+        "dwell_seconds": 2,
+        "prompt_seconds": 3,
+        "recall_seconds": 3,
+        "reveal_seconds": 4
+      }
+    },
+    "PackDefinition": {
+      "resources": []
+    },
+    "PackItem": {
+      "audio_cues": []
+    },
+    "PackManifest": {
+      "required_capabilities": [
+        "pack-format-v2",
+        "reveal-sequence-v1"
+      ]
+    },
+    "PortableAppearance": {
+      "tokens": {}
+    },
+    "PortableBlock": {
+      "placement": {
+        "importance": "normal",
+        "region": "auto"
+      },
+      "settings": {},
+      "style": {}
+    },
+    "PortableBlockInstance": {
+      "inputs": {},
+      "placement": {
+        "importance": "normal",
+        "region": "auto"
+      },
+      "query": {}
+    }
+  },
+  "kinds": [
+    "calendar",
+    "card",
+    "clock",
+    "custom",
+    "guest",
+    "home",
+    "image",
+    "market",
+    "meal",
+    "media",
+    "news",
+    "notes",
+    "package",
+    "tasks",
+    "transport",
+    "weather"
+  ],
+  "omitDefaults": {
+    "BlockStyle": [
+      "padding",
+      "face",
+      "text_size",
+      "detail",
+      "heading",
+      "align",
+      "accent"
+    ],
+    "PortableAppearance": [
+      "background_mat",
+      "background_motion",
+      "background_cadence_seconds",
+      "margin",
+      "face",
+      "radius",
+      "overlay_corner",
+      "overlay_scrim"
+    ]
+  },
+  "publicSourcePresets": {
+    "image": [
+      "bundled-open-art",
+      "the-met-open-access-highlights"
+    ],
+    "news": [
+      "nasa-jpl-space"
+    ]
+  },
+  "schemas": {
+    "cardSettings": {
+      "$defs": {
+        "PackContentRef": {
+          "additionalProperties": false,
+          "properties": {
+            "activity_id": {
+              "pattern": "^[a-z][a-z0-9-]{0,39}$",
+              "title": "Activity Id",
+              "type": "string"
+            },
+            "archive_sha256": {
+              "pattern": "^[a-f0-9]{64}$",
+              "title": "Archive Sha256",
+              "type": "string"
+            },
+            "definition_sha256": {
+              "pattern": "^[a-f0-9]{64}$",
+              "title": "Definition Sha256",
+              "type": "string"
+            },
+            "id": {
+              "maxLength": 100,
+              "pattern": "^[a-z0-9][a-z0-9.-]*/[a-z0-9][a-z0-9.-]*$",
+              "title": "Id",
+              "type": "string"
+            },
+            "version": {
+              "maxLength": 30,
+              "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$",
+              "title": "Version",
+              "type": "string"
+            }
+          },
+          "required": [
+            "id",
+            "version",
+            "definition_sha256",
+            "archive_sha256",
+            "activity_id"
+          ],
+          "title": "PackContentRef",
+          "type": "object"
+        }
+      },
+      "additionalProperties": false,
+      "properties": {
+        "content_ref": {
+          "$ref": "#/$defs/PackContentRef"
+        },
+        "item_ids": {
+          "anyOf": [
+            {
+              "items": {
+                "pattern": "^[a-z][a-z0-9-]{0,39}$",
+                "type": "string"
+              },
+              "maxItems": 1000,
+              "minItems": 1,
+              "type": "array"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Item Ids",
+          "uniqueItems": true
+        },
+        "locale": {
+          "maxLength": 6,
+          "pattern": "^[a-z]{2,3}(?:-[A-Z]{2})?$",
+          "title": "Locale",
+          "type": "string"
+        },
+        "schema_version": {
+          "const": 1,
+          "default": 1,
+          "title": "Schema Version",
+          "type": "integer"
+        }
+      },
+      "required": [
+        "content_ref",
+        "locale"
+      ],
+      "title": "CardBlockSettings",
+      "type": "object"
+    },
+    "definition": {
+      "$defs": {
+        "ArrangementCell": {
+          "additionalProperties": false,
+          "description": "A complete landscape cell; region and importance remain on the block's hint.",
+          "properties": {
+            "col_span": {
+              "maximum": 12,
+              "minimum": 1,
+              "title": "Col Span",
+              "type": "integer"
+            },
+            "col_start": {
+              "maximum": 12,
+              "minimum": 1,
+              "title": "Col Start",
+              "type": "integer"
+            },
+            "row_span": {
+              "maximum": 6,
+              "minimum": 1,
+              "title": "Row Span",
+              "type": "integer"
+            },
+            "row_start": {
+              "maximum": 6,
+              "minimum": 1,
+              "title": "Row Start",
+              "type": "integer"
+            }
+          },
+          "required": [
+            "col_span",
+            "row_span",
+            "col_start",
+            "row_start"
+          ],
+          "title": "ArrangementCell",
+          "type": "object"
+        },
+        "BlockStyle": {
+          "additionalProperties": false,
+          "description": "One block's own design, kept beside its placement in `CompositionDocument.styles` rather\nthan in the block's `settings`: settings are content and are merged with a provider's match\nsettings at resolve time, and a style must never be something a payload can restate.\n\nEvery field's default means \"whatever the dashboard does\", so a style at its defaults is\nno style: `is_default` says so and the document's serializer drops it, keeping an\nunstyled document byte-identical to one written before styles existed.",
+          "properties": {
+            "accent": {
+              "default": "inherit",
+              "enum": [
+                "inherit",
+                "accent",
+                "muted"
+              ],
+              "title": "Accent",
+              "type": "string"
+            },
+            "align": {
+              "default": "start",
+              "enum": [
+                "start",
+                "center",
+                "end"
+              ],
+              "title": "Align",
+              "type": "string"
+            },
+            "detail": {
+              "default": "auto",
+              "enum": [
+                "auto",
+                "compact",
+                "line",
+                "glance"
+              ],
+              "title": "Detail",
+              "type": "string"
+            },
+            "face": {
+              "default": "inherit",
+              "enum": [
+                "inherit",
+                "card",
+                "transparent",
+                "outlined"
+              ],
+              "title": "Face",
+              "type": "string"
+            },
+            "heading": {
+              "default": "inherit",
+              "enum": [
+                "inherit",
+                "hidden"
+              ],
+              "title": "Heading",
+              "type": "string"
+            },
+            "padding": {
+              "default": "inherit",
+              "enum": [
+                "inherit",
+                "none",
+                "tight",
+                "standard",
+                "roomy"
+              ],
+              "title": "Padding",
+              "type": "string"
+            },
+            "text_size": {
+              "default": "inherit",
+              "enum": [
+                "smaller",
+                "inherit",
+                "larger"
+              ],
+              "title": "Text Size",
+              "type": "string"
+            }
+          },
+          "title": "BlockStyle",
+          "type": "object"
+        },
+        "LayoutArrangement": {
+          "additionalProperties": false,
+          "properties": {
+            "landscape": {
+              "maxProperties": 12,
+              "minProperties": 1,
+              "patternProperties": {
+                "^[a-z][a-z0-9-]{0,39}$": {
+                  "$ref": "#/$defs/ArrangementCell"
+                }
+              },
+              "title": "Landscape",
+              "type": "object"
+            },
+            "portrait": {
+              "maxProperties": 12,
+              "patternProperties": {
+                "^[a-z][a-z0-9-]{0,39}$": {
+                  "$ref": "#/$defs/PortraitArrangementCell"
+                }
+              },
+              "title": "Portrait",
+              "type": "object"
+            }
+          },
+          "required": [
+            "landscape"
+          ],
+          "title": "LayoutArrangement",
+          "type": "object"
+        },
+        "PortableAppearance": {
+          "additionalProperties": false,
+          "description": "The paint a shared definition may carry: everything except a local media key.\n\n`Appearance.background_source_id` names a *household* gallery collection or personal album.\nA downloadable definition must not carry one — the module docstring of\n`app/composition.py` states that portable packages never contain local bindings, and the\nsame rule already narrows `PortablePlacement`. Importing a package applies its appearance\nto the importer's dashboard, so a foreign key here would point the importer at a source its\nhousehold does not own.\n\nThis is its own model rather than a narrowed subclass so the field does not appear in the\ncommitted public schema at all: an author reading `portable-definition.schema.json` must not\nbe told the field is available. `Definition` embeds this record, and published package bytes\nare immutable, so the field list here is a release-compatibility surface — do not widen it\nwithout deciding to re-version the published catalog.",
+          "properties": {
+            "background": {
+              "default": "theme",
+              "enum": [
+                "theme",
+                "solid",
+                "aurora",
+                "canopy",
+                "dunes",
+                "artwork",
+                "album",
+                "weather"
+              ],
+              "title": "Background",
+              "type": "string"
+            },
+            "background_cadence_seconds": {
+              "default": 45,
+              "maximum": 86400,
+              "minimum": 15,
+              "title": "Background Cadence Seconds",
+              "type": "integer"
+            },
+            "background_mat": {
+              "default": "museum",
+              "enum": [
+                "full_bleed",
+                "modern",
+                "museum",
+                "shadow_box"
+              ],
+              "title": "Background Mat",
+              "type": "string"
+            },
+            "background_motion": {
+              "default": false,
+              "title": "Background Motion",
+              "type": "boolean"
+            },
+            "face": {
+              "default": "look",
+              "enum": [
+                "look",
+                "card",
+                "transparent",
+                "outlined"
+              ],
+              "title": "Face",
+              "type": "string"
+            },
+            "font": {
+              "default": "theme",
+              "enum": [
+                "theme",
+                "sans",
+                "serif"
+              ],
+              "title": "Font",
+              "type": "string"
+            },
+            "layout": {
+              "default": "flow",
+              "enum": [
+                "auto",
+                "flow",
+                "columns",
+                "stage",
+                "grid",
+                "overlay"
+              ],
+              "title": "Layout",
+              "type": "string"
+            },
+            "margin": {
+              "default": "standard",
+              "enum": [
+                "none",
+                "tight",
+                "standard",
+                "wide"
+              ],
+              "title": "Margin",
+              "type": "string"
+            },
+            "overlay_corner": {
+              "default": "bottom-left",
+              "enum": [
+                "bottom-left",
+                "bottom-right",
+                "top-left",
+                "top-right"
+              ],
+              "title": "Overlay Corner",
+              "type": "string"
+            },
+            "overlay_scrim": {
+              "default": "standard",
+              "enum": [
+                "soft",
+                "standard",
+                "strong"
+              ],
+              "title": "Overlay Scrim",
+              "type": "string"
+            },
+            "radius": {
+              "default": "look",
+              "enum": [
+                "look",
+                "square",
+                "soft",
+                "round"
+              ],
+              "title": "Radius",
+              "type": "string"
+            },
+            "spacing": {
+              "default": "standard",
+              "enum": [
+                "tight",
+                "standard",
+                "relaxed"
+              ],
+              "title": "Spacing",
+              "type": "string"
+            },
+            "tokens": {
+              "additionalProperties": {
+                "pattern": "^#[0-9a-fA-F]{6}$",
+                "type": "string"
+              },
+              "maxProperties": 10,
+              "title": "Tokens",
+              "type": "object"
+            }
+          },
+          "title": "PortableAppearance",
+          "type": "object"
+        },
+        "PortableBlock": {
+          "additionalProperties": false,
+          "properties": {
+            "enabled": {
+              "default": true,
+              "title": "Enabled",
+              "type": "boolean"
+            },
+            "id": {
+              "pattern": "^[a-z][a-z0-9-]{0,39}$",
+              "title": "Id",
+              "type": "string"
+            },
+            "kind": {
+              "maxLength": 100,
+              "minLength": 1,
+              "title": "Kind",
+              "type": "string"
+            },
+            "placement": {
+              "$ref": "#/$defs/PortablePlacement"
+            },
+            "settings": {
+              "additionalProperties": true,
+              "maxProperties": 4,
+              "title": "Settings",
+              "type": "object"
+            },
+            "source_slot": {
+              "anyOf": [
+                {
+                  "pattern": "^[a-z][a-z0-9-]{0,39}$",
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "default": null,
+              "title": "Source Slot"
+            },
+            "style": {
+              "$ref": "#/$defs/BlockStyle"
+            },
+            "symbols": {
+              "anyOf": [
+                {
+                  "items": {
+                    "maxLength": 10,
+                    "minLength": 1,
+                    "pattern": "^[A-Z][A-Z0-9]*(?:[.\\-][A-Z0-9]+)*$",
+                    "type": "string"
+                  },
+                  "maxItems": 6,
+                  "type": "array"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "default": null,
+              "title": "Symbols"
+            }
+          },
+          "required": [
+            "id",
+            "kind"
+          ],
+          "title": "PortableBlock",
+          "type": "object"
+        },
+        "PortablePlacement": {
+          "additionalProperties": false,
+          "description": "Region and importance hints, also used when no explicit arrangement is carried.\n\nGrid coordinates live in the layout's optional arrangement. Keeping these hints unchanged\npreserves the bytes of releases published before layout-arrangement-v1.",
+          "properties": {
+            "importance": {
+              "default": "normal",
+              "enum": [
+                "required",
+                "normal",
+                "optional"
+              ],
+              "title": "Importance",
+              "type": "string"
+            },
+            "region": {
+              "default": "auto",
+              "enum": [
+                "auto",
+                "header",
+                "main",
+                "secondary",
+                "stage",
+                "side"
+              ],
+              "title": "Region",
+              "type": "string"
+            }
+          },
+          "title": "PortablePlacement",
+          "type": "object"
+        },
+        "PortraitArrangementCell": {
+          "additionalProperties": false,
+          "description": "A complete cell on the transposed portrait grid.",
+          "properties": {
+            "col_span": {
+              "maximum": 6,
+              "minimum": 1,
+              "title": "Col Span",
+              "type": "integer"
+            },
+            "col_start": {
+              "maximum": 6,
+              "minimum": 1,
+              "title": "Col Start",
+              "type": "integer"
+            },
+            "row_span": {
+              "maximum": 12,
+              "minimum": 1,
+              "title": "Row Span",
+              "type": "integer"
+            },
+            "row_start": {
+              "maximum": 12,
+              "minimum": 1,
+              "title": "Row Start",
+              "type": "integer"
+            }
+          },
+          "required": [
+            "col_span",
+            "row_span",
+            "col_start",
+            "row_start"
+          ],
+          "title": "PortraitArrangementCell",
+          "type": "object"
+        },
+        "SetupPrompt": {
+          "additionalProperties": false,
+          "properties": {
+            "field": {
+              "enum": [
+                "city",
+                "units",
+                "watchlist"
+              ],
+              "title": "Field",
+              "type": "string"
+            },
+            "required": {
+              "default": false,
+              "title": "Required",
+              "type": "boolean"
+            },
+            "source_slot": {
+              "pattern": "^[a-z][a-z0-9-]{0,39}$",
+              "title": "Source Slot",
+              "type": "string"
+            }
+          },
+          "required": [
+            "source_slot",
+            "field"
+          ],
+          "title": "SetupPrompt",
+          "type": "object"
+        },
+        "SourceSlot": {
+          "additionalProperties": false,
+          "properties": {
+            "id": {
+              "pattern": "^[a-z][a-z0-9-]{0,39}$",
+              "title": "Id",
+              "type": "string"
+            },
+            "kind": {
+              "maxLength": 100,
+              "minLength": 1,
+              "title": "Kind",
+              "type": "string"
+            },
+            "required": {
+              "default": true,
+              "title": "Required",
+              "type": "boolean"
+            },
+            "suggested_source": {
+              "anyOf": [
+                {
+                  "$ref": "#/$defs/SuggestedSource"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "default": null
+            }
+          },
+          "required": [
+            "id",
+            "kind"
+          ],
+          "title": "SourceSlot",
+          "type": "object"
+        },
+        "SuggestedSource": {
+          "additionalProperties": false,
+          "properties": {
+            "kind": {
+              "maxLength": 100,
+              "minLength": 1,
+              "title": "Kind",
+              "type": "string"
+            },
+            "preset_id": {
+              "anyOf": [
+                {
+                  "pattern": "^[a-z][a-z0-9-]{0,39}$",
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "default": null,
+              "title": "Preset Id"
+            }
+          },
+          "required": [
+            "kind"
+          ],
+          "title": "SuggestedSource",
+          "type": "object"
+        }
+      },
+      "additionalProperties": false,
+      "properties": {
+        "appearance": {
+          "$ref": "#/$defs/PortableAppearance"
+        },
+        "arrangement": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/LayoutArrangement"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "blocks": {
+          "items": {
+            "$ref": "#/$defs/PortableBlock"
+          },
+          "maxItems": 12,
+          "title": "Blocks",
+          "type": "array"
+        },
+        "kind": {
+          "enum": [
+            "theme",
+            "block",
+            "content"
+          ],
+          "title": "Kind",
+          "type": "string"
+        },
+        "look": {
+          "default": "modern",
+          "enum": [
+            "painting",
+            "modern",
+            "glass",
+            "ink",
+            "linen",
+            "botanical"
+          ],
+          "title": "Look",
+          "type": "string"
+        },
+        "name": {
+          "maxLength": 100,
+          "minLength": 1,
+          "title": "Name",
+          "type": "string"
+        },
+        "purpose": {
+          "anyOf": [
+            {
+              "enum": [
+                "glance",
+                "gallery",
+                "home",
+                "media"
+              ],
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Purpose"
+        },
+        "schema_version": {
+          "const": 1,
+          "default": 1,
+          "title": "Schema Version",
+          "type": "integer"
+        },
+        "setup": {
+          "items": {
+            "$ref": "#/$defs/SetupPrompt"
+          },
+          "maxItems": 24,
+          "title": "Setup",
+          "type": "array"
+        },
+        "source_slots": {
+          "items": {
+            "$ref": "#/$defs/SourceSlot"
+          },
+          "maxItems": 12,
+          "title": "Source Slots",
+          "type": "array"
+        }
+      },
+      "required": [
+        "kind",
+        "name"
+      ],
+      "title": "Definition",
+      "type": "object"
+    },
+    "ladder": {
+      "$defs": {
+        "ContentFormDeclaration": {
+          "additionalProperties": false,
+          "description": "A form: its rows, printed top to bottom for the first `items` entry (or, with `items`\nabove one, one set of rows per item up to that many).",
+          "properties": {
+            "items": {
+              "default": 1,
+              "maximum": 6,
+              "minimum": 1,
+              "title": "Items",
+              "type": "integer"
+            },
+            "rows": {
+              "items": {
+                "$ref": "#/$defs/ContentRowDeclaration"
+              },
+              "maxItems": 6,
+              "minItems": 1,
+              "title": "Rows",
+              "type": "array"
+            },
+            "show_title": {
+              "default": false,
+              "description": "Print the preset's title as a caption below the rows, where it fits.",
+              "title": "Show Title",
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "rows"
+          ],
+          "title": "ContentFormDeclaration",
+          "type": "object"
+        },
+        "ContentRowDeclaration": {
+          "additionalProperties": false,
+          "description": "One row of a declared form: an item field, optionally joined with another (`value ·\nunit`), from the first `items` entries. `lines` bounds the row; the host measures it.",
+          "properties": {
+            "field": {
+              "pattern": "^[a-z][a-z_]{0,23}$",
+              "title": "Field",
+              "type": "string"
+            },
+            "join": {
+              "items": {
+                "pattern": "^[a-z][a-z_]{0,23}$",
+                "type": "string"
+              },
+              "maxItems": 3,
+              "title": "Join",
+              "type": "array"
+            },
+            "lines": {
+              "default": 1,
+              "maximum": 4,
+              "minimum": 1,
+              "title": "Lines",
+              "type": "integer"
+            },
+            "role": {
+              "default": "essential",
+              "enum": [
+                "vital",
+                "essential",
+                "incidental",
+                "hero",
+                "secondary"
+              ],
+              "title": "Role",
+              "type": "string"
+            }
+          },
+          "required": [
+            "field"
+          ],
+          "title": "ContentRowDeclaration",
+          "type": "object"
+        }
+      },
+      "additionalProperties": false,
+      "description": "A preset's own forms, by variant. A variant not declared keeps the presentation's\ndefault form; `glance` is the one worth declaring most (what the block shows in a cell\nwith room for a single row).",
+      "properties": {
+        "compact": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/ContentFormDeclaration"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "full": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/ContentFormDeclaration"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "glance": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/ContentFormDeclaration"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "line": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/ContentFormDeclaration"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        }
+      },
+      "title": "ContentLadderDeclaration",
+      "type": "object"
+    },
+    "manifest": {
+      "$defs": {
+        "DefinitionRef": {
+          "additionalProperties": false,
+          "properties": {
+            "digest": {
+              "pattern": "^[a-f0-9]{64}$",
+              "title": "Digest",
+              "type": "string"
+            },
+            "id": {
+              "maxLength": 100,
+              "pattern": "^[a-z0-9][a-z0-9.-]*/[a-z0-9][a-z0-9.-]*$",
+              "title": "Id",
+              "type": "string"
+            },
+            "version": {
+              "maxLength": 30,
+              "pattern": "^\\d+\\.\\d+\\.\\d+$",
+              "title": "Version",
+              "type": "string"
+            }
+          },
+          "required": [
+            "id",
+            "version",
+            "digest"
+          ],
+          "title": "DefinitionRef",
+          "type": "object"
+        }
+      },
+      "additionalProperties": false,
+      "properties": {
+        "attribution": {
+          "default": "",
+          "maxLength": 500,
+          "title": "Attribution",
+          "type": "string"
+        },
+        "definition_sha256": {
+          "pattern": "^[a-f0-9]{64}$",
+          "title": "Definition Sha256",
+          "type": "string"
+        },
+        "dependencies": {
+          "items": {
+            "$ref": "#/$defs/DefinitionRef"
+          },
+          "maxItems": 32,
+          "title": "Dependencies",
+          "type": "array"
+        },
+        "entrypoint": {
+          "const": "definition.json",
+          "default": "definition.json",
+          "title": "Entrypoint",
+          "type": "string"
+        },
+        "format": {
+          "const": "mantelpack",
+          "default": "mantelpack",
+          "title": "Format",
+          "type": "string"
+        },
+        "id": {
+          "maxLength": 100,
+          "pattern": "^[a-z0-9][a-z0-9.-]*/[a-z0-9][a-z0-9.-]*$",
+          "title": "Id",
+          "type": "string"
+        },
+        "license": {
+          "enum": [
+            "MIT",
+            "CC0-1.0",
+            "CC-BY-4.0"
+          ],
+          "title": "License",
+          "type": "string"
+        },
+        "publisher": {
+          "default": "Local author",
+          "maxLength": 100,
+          "minLength": 1,
+          "title": "Publisher",
+          "type": "string"
+        },
+        "required_capabilities": {
+          "items": {
+            "maxLength": 100,
+            "minLength": 1,
+            "type": "string"
+          },
+          "maxItems": 16,
+          "title": "Required Capabilities",
+          "type": "array"
+        },
+        "schema_version": {
+          "const": 1,
+          "default": 1,
+          "title": "Schema Version",
+          "type": "integer"
+        },
+        "version": {
+          "maxLength": 30,
+          "pattern": "^\\d+\\.\\d+\\.\\d+$",
+          "title": "Version",
+          "type": "string"
+        }
+      },
+      "required": [
+        "id",
+        "version",
+        "license",
+        "definition_sha256"
+      ],
+      "title": "Manifest",
+      "type": "object"
+    },
+    "overrides_calendar": {
+      "additionalProperties": false,
+      "properties": {
+        "horizon_days": {
+          "anyOf": [
+            {
+              "maximum": 90,
+              "minimum": 1,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Horizon Days"
+        },
+        "private_events": {
+          "anyOf": [
+            {
+              "enum": [
+                "show",
+                "title_redacted",
+                "time_only",
+                "hidden"
+              ],
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Private Events"
+        },
+        "show_all_day": {
+          "anyOf": [
+            {
+              "type": "boolean"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Show All Day"
+        }
+      },
+      "title": "CalendarOverrides",
+      "type": "object"
+    },
+    "overrides_market": {
+      "additionalProperties": false,
+      "properties": {
+        "focus_symbol": {
+          "anyOf": [
+            {
+              "maxLength": 12,
+              "minLength": 1,
+              "pattern": "^[A-Z][A-Z0-9]*(?:[.\\-][A-Z0-9]+)*(?:/[A-Z]{3})?$",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Focus Symbol"
+        }
+      },
+      "title": "MarketOverrides",
+      "type": "object"
+    },
+    "overrides_news": {
+      "additionalProperties": false,
+      "properties": {
+        "max_stories": {
+          "anyOf": [
+            {
+              "maximum": 3,
+              "minimum": 1,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Max Stories"
+        },
+        "show_summary": {
+          "anyOf": [
+            {
+              "type": "boolean"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Show Summary"
+        }
+      },
+      "title": "NewsOverrides",
+      "type": "object"
+    },
+    "overrides_notes": {
+      "additionalProperties": false,
+      "properties": {
+        "max_visible": {
+          "anyOf": [
+            {
+              "maximum": 4,
+              "minimum": 1,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Max Visible"
+        },
+        "profile_ids": {
+          "anyOf": [
+            {
+              "items": {
+                "maxLength": 100,
+                "minLength": 1,
+                "type": "string"
+              },
+              "maxItems": 20,
+              "minItems": 1,
+              "type": "array"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Profile Ids"
+        }
+      },
+      "title": "NotesOverrides",
+      "type": "object"
+    },
+    "overrides_tasks": {
+      "additionalProperties": false,
+      "properties": {
+        "max_visible": {
+          "anyOf": [
+            {
+              "maximum": 3,
+              "minimum": 1,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Max Visible"
+        },
+        "profile_ids": {
+          "anyOf": [
+            {
+              "items": {
+                "maxLength": 100,
+                "minLength": 1,
+                "type": "string"
+              },
+              "maxItems": 20,
+              "minItems": 1,
+              "type": "array"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Profile Ids"
+        }
+      },
+      "title": "TasksOverrides",
+      "type": "object"
+    },
+    "overrides_weather": {
+      "additionalProperties": false,
+      "properties": {
+        "forecast_days": {
+          "anyOf": [
+            {
+              "enum": [
+                3,
+                7
+              ],
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Forecast Days"
+        },
+        "show_air_quality": {
+          "anyOf": [
+            {
+              "type": "boolean"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Show Air Quality"
+        },
+        "show_wear_guidance": {
+          "anyOf": [
+            {
+              "type": "boolean"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Show Wear Guidance"
+        },
+        "unit_system": {
+          "anyOf": [
+            {
+              "enum": [
+                "metric",
+                "imperial"
+              ],
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Unit System"
+        }
+      },
+      "title": "WeatherOverrides",
+      "type": "object"
+    },
+    "packDefinition": {
+      "$defs": {
+        "PackActivity": {
+          "additionalProperties": false,
+          "properties": {
+            "id": {
+              "pattern": "^[a-z][a-z0-9-]{0,39}$",
+              "title": "Id",
+              "type": "string"
+            },
+            "item_ids": {
+              "items": {
+                "pattern": "^[a-z][a-z0-9-]{0,39}$",
+                "type": "string"
+              },
+              "maxItems": 1000,
+              "minItems": 1,
+              "title": "Item Ids",
+              "type": "array",
+              "uniqueItems": true
+            },
+            "kind": {
+              "const": "reveal-sequence-v1",
+              "default": "reveal-sequence-v1",
+              "title": "Kind",
+              "type": "string"
+            },
+            "locale": {
+              "maxLength": 6,
+              "pattern": "^[a-z]{2,3}(?:-[A-Z]{2})?$",
+              "title": "Locale",
+              "type": "string"
+            },
+            "loop": {
+              "default": false,
+              "title": "Loop",
+              "type": "boolean"
+            },
+            "name": {
+              "maxLength": 100,
+              "minLength": 1,
+              "pattern": "\\S",
+              "title": "Name",
+              "type": "string"
+            },
+            "timing": {
+              "$ref": "#/$defs/PackTiming"
+            }
+          },
+          "required": [
+            "id",
+            "name",
+            "item_ids",
+            "locale"
+          ],
+          "title": "PackActivity",
+          "type": "object"
+        },
+        "PackAudioCue": {
+          "additionalProperties": false,
+          "properties": {
+            "locale": {
+              "maxLength": 6,
+              "pattern": "^[a-z]{2,3}(?:-[A-Z]{2})?$",
+              "title": "Locale",
+              "type": "string"
+            },
+            "phase": {
+              "enum": [
+                "prompt",
+                "reveal"
+              ],
+              "title": "Phase",
+              "type": "string"
+            },
+            "resource": {
+              "pattern": "^assets/[a-f0-9]{64}\\.(?:png|jpg|webp|mp3)$",
+              "title": "Resource",
+              "type": "string"
+            },
+            "role": {
+              "enum": [
+                "narration",
+                "effect"
+              ],
+              "title": "Role",
+              "type": "string"
+            },
+            "transcript": {
+              "maxLength": 240,
+              "minLength": 1,
+              "pattern": "\\S",
+              "title": "Transcript",
+              "type": "string"
+            }
+          },
+          "required": [
+            "resource",
+            "locale",
+            "phase",
+            "role",
+            "transcript"
+          ],
+          "title": "PackAudioCue",
+          "type": "object"
+        },
+        "PackCredit": {
+          "additionalProperties": false,
+          "if": {
+            "properties": {
+              "license": {
+                "enum": [
+                  "CC-BY-4.0",
+                  "MIT"
+                ]
+              }
+            }
+          },
+          "properties": {
+            "attribution": {
+              "default": "",
+              "maxLength": 500,
+              "title": "Attribution",
+              "type": "string"
+            },
+            "creator": {
+              "maxLength": 100,
+              "minLength": 1,
+              "pattern": "\\S",
+              "title": "Creator",
+              "type": "string"
+            },
+            "license": {
+              "enum": [
+                "CC0-1.0",
+                "CC-BY-4.0",
+                "MIT"
+              ],
+              "title": "License",
+              "type": "string"
+            },
+            "modified": {
+              "default": false,
+              "title": "Modified",
+              "type": "boolean"
+            },
+            "source": {
+              "default": "",
+              "maxLength": 500,
+              "title": "Source",
+              "type": "string"
+            }
+          },
+          "required": [
+            "creator",
+            "license"
+          ],
+          "then": {
+            "properties": {
+              "attribution": {
+                "pattern": "\\S"
+              }
+            },
+            "required": [
+              "attribution"
+            ]
+          },
+          "title": "PackCredit",
+          "type": "object"
+        },
+        "PackFace": {
+          "additionalProperties": false,
+          "else": {
+            "properties": {
+              "alt_text": {
+                "type": "null"
+              }
+            }
+          },
+          "if": {
+            "properties": {
+              "image": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "image"
+            ]
+          },
+          "properties": {
+            "alt_text": {
+              "anyOf": [
+                {
+                  "maxLength": 240,
+                  "minLength": 1,
+                  "pattern": "\\S",
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "default": null,
+              "title": "Alt Text"
+            },
+            "image": {
+              "anyOf": [
+                {
+                  "pattern": "^assets/[a-f0-9]{64}\\.(?:png|jpg|webp|mp3)$",
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "default": null,
+              "title": "Image"
+            },
+            "text": {
+              "maxLength": 240,
+              "minLength": 1,
+              "pattern": "\\S",
+              "title": "Text",
+              "type": "string"
+            }
+          },
+          "required": [
+            "text"
+          ],
+          "then": {
+            "properties": {
+              "alt_text": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "alt_text"
+            ]
+          },
+          "title": "PackFace",
+          "type": "object"
+        },
+        "PackItem": {
+          "additionalProperties": false,
+          "properties": {
+            "audio_cues": {
+              "items": {
+                "$ref": "#/$defs/PackAudioCue"
+              },
+              "maxItems": 4,
+              "title": "Audio Cues",
+              "type": "array"
+            },
+            "content_revision": {
+              "maximum": 2147483647,
+              "minimum": 1,
+              "title": "Content Revision",
+              "type": "integer"
+            },
+            "id": {
+              "pattern": "^[a-z][a-z0-9-]{0,39}$",
+              "title": "Id",
+              "type": "string"
+            },
+            "translations": {
+              "additionalProperties": false,
+              "maxProperties": 8,
+              "minProperties": 1,
+              "patternProperties": {
+                "^[a-z]{2,3}(?:-[A-Z]{2})?$": {
+                  "$ref": "#/$defs/PackTranslation"
+                }
+              },
+              "propertyNames": {
+                "maxLength": 6,
+                "pattern": "^[a-z]{2,3}(?:-[A-Z]{2})?$"
+              },
+              "title": "Translations",
+              "type": "object"
+            }
+          },
+          "required": [
+            "id",
+            "content_revision",
+            "translations"
+          ],
+          "title": "PackItem",
+          "type": "object"
+        },
+        "PackResource": {
+          "additionalProperties": false,
+          "allOf": [
+            {
+              "if": {
+                "properties": {
+                  "media_type": {
+                    "const": "image/png"
+                  }
+                }
+              },
+              "then": {
+                "properties": {
+                  "path": {
+                    "pattern": "\\.png$"
+                  }
+                }
+              }
+            },
+            {
+              "if": {
+                "properties": {
+                  "media_type": {
+                    "const": "image/jpeg"
+                  }
+                }
+              },
+              "then": {
+                "properties": {
+                  "path": {
+                    "pattern": "\\.jpg$"
+                  }
+                }
+              }
+            },
+            {
+              "if": {
+                "properties": {
+                  "media_type": {
+                    "const": "image/webp"
+                  }
+                }
+              },
+              "then": {
+                "properties": {
+                  "path": {
+                    "pattern": "\\.webp$"
+                  }
+                }
+              }
+            }
+          ],
+          "else": {
+            "properties": {
+              "duration_seconds": {
+                "type": "null"
+              }
+            }
+          },
+          "if": {
+            "properties": {
+              "media_type": {
+                "const": "audio/mpeg"
+              }
+            }
+          },
+          "properties": {
+            "credit": {
+              "$ref": "#/$defs/PackCredit"
+            },
+            "duration_seconds": {
+              "anyOf": [
+                {
+                  "maximum": 30,
+                  "minimum": 0.01,
+                  "type": "number"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "default": null,
+              "title": "Duration Seconds"
+            },
+            "length": {
+              "maximum": 8388608,
+              "minimum": 1,
+              "title": "Length",
+              "type": "integer"
+            },
+            "media_type": {
+              "enum": [
+                "image/png",
+                "image/jpeg",
+                "image/webp",
+                "audio/mpeg"
+              ],
+              "title": "Media Type",
+              "type": "string"
+            },
+            "path": {
+              "pattern": "^assets/[a-f0-9]{64}\\.(?:png|jpg|webp|mp3)$",
+              "title": "Path",
+              "type": "string"
+            },
+            "sha256": {
+              "pattern": "^[a-f0-9]{64}$",
+              "title": "Sha256",
+              "type": "string"
+            }
+          },
+          "required": [
+            "path",
+            "sha256",
+            "length",
+            "media_type",
+            "credit"
+          ],
+          "then": {
+            "properties": {
+              "duration_seconds": {
+                "type": "number"
+              },
+              "length": {
+                "maximum": 2097152
+              },
+              "path": {
+                "pattern": "\\.mp3$"
+              }
+            },
+            "required": [
+              "duration_seconds"
+            ]
+          },
+          "title": "PackResource",
+          "type": "object"
+        },
+        "PackTiming": {
+          "additionalProperties": false,
+          "properties": {
+            "dwell_seconds": {
+              "default": 2,
+              "maximum": 30,
+              "minimum": 1,
+              "title": "Dwell Seconds",
+              "type": "integer"
+            },
+            "prompt_seconds": {
+              "default": 3,
+              "maximum": 30,
+              "minimum": 1,
+              "title": "Prompt Seconds",
+              "type": "integer"
+            },
+            "recall_seconds": {
+              "default": 3,
+              "maximum": 30,
+              "minimum": 0,
+              "title": "Recall Seconds",
+              "type": "integer"
+            },
+            "reveal_seconds": {
+              "default": 4,
+              "maximum": 30,
+              "minimum": 1,
+              "title": "Reveal Seconds",
+              "type": "integer"
+            }
+          },
+          "title": "PackTiming",
+          "type": "object"
+        },
+        "PackTranslation": {
+          "additionalProperties": false,
+          "properties": {
+            "prompt": {
+              "$ref": "#/$defs/PackFace"
+            },
+            "reveal": {
+              "$ref": "#/$defs/PackFace"
+            }
+          },
+          "required": [
+            "prompt",
+            "reveal"
+          ],
+          "title": "PackTranslation",
+          "type": "object"
+        }
+      },
+      "additionalProperties": false,
+      "properties": {
+        "activities": {
+          "items": {
+            "$ref": "#/$defs/PackActivity"
+          },
+          "maxItems": 32,
+          "minItems": 1,
+          "title": "Activities",
+          "type": "array"
+        },
+        "description": {
+          "maxLength": 240,
+          "minLength": 1,
+          "pattern": "\\S",
+          "title": "Description",
+          "type": "string"
+        },
+        "items": {
+          "items": {
+            "$ref": "#/$defs/PackItem"
+          },
+          "maxItems": 1000,
+          "minItems": 1,
+          "title": "Items",
+          "type": "array"
+        },
+        "kind": {
+          "const": "pack",
+          "default": "pack",
+          "title": "Kind",
+          "type": "string"
+        },
+        "locales": {
+          "items": {
+            "maxLength": 6,
+            "pattern": "^[a-z]{2,3}(?:-[A-Z]{2})?$",
+            "type": "string"
+          },
+          "maxItems": 8,
+          "minItems": 1,
+          "title": "Locales",
+          "type": "array",
+          "uniqueItems": true
+        },
+        "name": {
+          "maxLength": 100,
+          "minLength": 1,
+          "pattern": "\\S",
+          "title": "Name",
+          "type": "string"
+        },
+        "resources": {
+          "items": {
+            "$ref": "#/$defs/PackResource"
+          },
+          "maxItems": 2046,
+          "title": "Resources",
+          "type": "array"
+        },
+        "schema_version": {
+          "const": 2,
+          "default": 2,
+          "title": "Schema Version",
+          "type": "integer"
+        }
+      },
+      "required": [
+        "name",
+        "description",
+        "locales",
+        "items",
+        "activities"
+      ],
+      "title": "PackDefinition",
+      "type": "object"
+    },
+    "packManifest": {
+      "additionalProperties": false,
+      "properties": {
+        "definition_sha256": {
+          "pattern": "^[a-f0-9]{64}$",
+          "title": "Definition Sha256",
+          "type": "string"
+        },
+        "entrypoint": {
+          "const": "definition.json",
+          "default": "definition.json",
+          "title": "Entrypoint",
+          "type": "string"
+        },
+        "format": {
+          "const": "mantelpack",
+          "default": "mantelpack",
+          "title": "Format",
+          "type": "string"
+        },
+        "id": {
+          "maxLength": 100,
+          "pattern": "^[a-z0-9][a-z0-9.-]*/[a-z0-9][a-z0-9.-]*$",
+          "title": "Id",
+          "type": "string"
+        },
+        "publisher": {
+          "maxLength": 100,
+          "minLength": 1,
+          "pattern": "\\S",
+          "title": "Publisher",
+          "type": "string"
+        },
+        "required_capabilities": {
+          "items": {
+            "enum": [
+              "pack-format-v2",
+              "reveal-sequence-v1"
+            ],
+            "type": "string"
+          },
+          "maxItems": 2,
+          "minItems": 2,
+          "title": "Required Capabilities",
+          "type": "array",
+          "uniqueItems": true
+        },
+        "schema_version": {
+          "const": 2,
+          "default": 2,
+          "title": "Schema Version",
+          "type": "integer"
+        },
+        "version": {
+          "maxLength": 30,
+          "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$",
+          "title": "Version",
+          "type": "string"
+        }
+      },
+      "required": [
+        "id",
+        "version",
+        "publisher",
+        "definition_sha256"
+      ],
+      "title": "PackManifest",
+      "type": "object"
+    }
+  },
+  "settings": {
+    "calendar": {
+      "view": [
+        "day",
+        "week"
+      ]
+    },
+    "clock": {
+      "hour_format": [
+        "12",
+        "24"
+      ],
+      "meridiem": [
+        "auto",
+        "hide",
+        "show"
+      ],
+      "show_seconds": [
+        false,
+        true
+      ]
+    },
+    "image": {
+      "edges": [
+        "bleed",
+        "inside"
+      ],
+      "fit": [
+        "fill",
+        "fit",
+        "smart"
+      ],
+      "mat_style": [
+        "full_bleed",
+        "modern",
+        "museum",
+        "shadow_box"
+      ]
+    },
+    "media": {
+      "edges": [
+        "bleed",
+        "inside"
+      ],
+      "fit": [
+        "fill",
+        "fit",
+        "smart"
+      ]
+    }
+  }
+}

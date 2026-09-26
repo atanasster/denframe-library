@@ -1,0 +1,559 @@
+[
+  {
+    "_comment": "Input/acceptance parity cases for one Appearance record. Consumed by backend/tests/test_composition_documents.py and frontend/src/composition/appearance.test.ts so the Python and TypeScript parsers cannot drift. Cases where accept is false must be refused by all three gates: the Pydantic model, the browser parser, and the generated JSON Schema. JSON has one number type, so `45.0` and `45` are the same document to a browser; integral floats are accepted and fractional ones are not. Several cases exist because lax Pydantic would coerce a value the browser rejects (`\"45\"` for an int, `\"yes\"`/`1` for a bool), which is why those fields are declared `strict=True`. Lengths are counted in CODE POINTS on every gate: the browser must not use `.length`, which counts UTF-16 units and diverges on astral characters.",
+    "name": "empty appearance takes defaults",
+    "input": {},
+    "accept": true
+  },
+  {
+    "name": "layout flow",
+    "input": {
+      "layout": "flow"
+    },
+    "accept": true
+  },
+  {
+    "name": "layout auto",
+    "input": {
+      "layout": "auto"
+    },
+    "accept": true
+  },
+  {
+    "name": "layout columns",
+    "input": {
+      "layout": "columns"
+    },
+    "accept": true
+  },
+  {
+    "name": "layout stage",
+    "input": {
+      "layout": "stage"
+    },
+    "accept": true
+  },
+  {
+    "name": "layout grid",
+    "input": {
+      "layout": "grid"
+    },
+    "accept": true
+  },
+  {
+    "name": "retired bento layout",
+    "input": {
+      "layout": "bento"
+    },
+    "accept": false
+  },
+  {
+    "name": "array layout",
+    "input": {
+      "layout": [
+        "flow"
+      ]
+    },
+    "accept": false
+  },
+  {
+    "name": "background theme",
+    "input": {
+      "background": "theme"
+    },
+    "accept": true
+  },
+  {
+    "name": "background solid",
+    "input": {
+      "background": "solid"
+    },
+    "accept": true
+  },
+  {
+    "name": "background aurora",
+    "input": {
+      "background": "aurora"
+    },
+    "accept": true
+  },
+  {
+    "name": "background canopy",
+    "input": {
+      "background": "canopy"
+    },
+    "accept": true
+  },
+  {
+    "name": "background dunes",
+    "input": {
+      "background": "dunes"
+    },
+    "accept": true
+  },
+  {
+    "name": "background artwork",
+    "input": {
+      "background": "artwork"
+    },
+    "accept": true
+  },
+  {
+    "name": "background album",
+    "input": {
+      "background": "album"
+    },
+    "accept": true
+  },
+  {
+    "name": "background weather",
+    "input": {
+      "background": "weather"
+    },
+    "accept": true
+  },
+  {
+    "name": "unknown background",
+    "input": {
+      "background": "plasma"
+    },
+    "accept": false
+  },
+  {
+    "name": "array background",
+    "input": {
+      "background": [
+        "aurora"
+      ]
+    },
+    "accept": false
+  },
+  {
+    "name": "font sans",
+    "input": {
+      "font": "sans"
+    },
+    "accept": true
+  },
+  {
+    "name": "font serif",
+    "input": {
+      "font": "serif"
+    },
+    "accept": true
+  },
+  {
+    "name": "unknown font",
+    "input": {
+      "font": "comic"
+    },
+    "accept": false
+  },
+  {
+    "name": "spacing relaxed",
+    "input": {
+      "spacing": "relaxed"
+    },
+    "accept": true
+  },
+  {
+    "name": "unknown spacing",
+    "input": {
+      "spacing": "airy"
+    },
+    "accept": false
+  },
+  {
+    "name": "mat full bleed",
+    "input": {
+      "background_mat": "full_bleed"
+    },
+    "accept": true
+  },
+  {
+    "name": "mat modern",
+    "input": {
+      "background_mat": "modern"
+    },
+    "accept": true
+  },
+  {
+    "name": "mat museum",
+    "input": {
+      "background_mat": "museum"
+    },
+    "accept": true
+  },
+  {
+    "name": "mat shadow box",
+    "input": {
+      "background_mat": "shadow_box"
+    },
+    "accept": true
+  },
+  {
+    "name": "retired wide mat",
+    "input": {
+      "background_mat": "wide"
+    },
+    "accept": false
+  },
+  {
+    "name": "motion true",
+    "input": {
+      "background_motion": true
+    },
+    "accept": true
+  },
+  {
+    "name": "motion false",
+    "input": {
+      "background_motion": false
+    },
+    "accept": true
+  },
+  {
+    "name": "motion string",
+    "input": {
+      "background_motion": "yes"
+    },
+    "accept": false
+  },
+  {
+    "name": "motion number",
+    "input": {
+      "background_motion": 1
+    },
+    "accept": false
+  },
+  {
+    "name": "cadence default",
+    "input": {
+      "background_cadence_seconds": 45
+    },
+    "accept": true
+  },
+  {
+    "name": "cadence integral float",
+    "input": {
+      "background_cadence_seconds": 45.0
+    },
+    "accept": true
+  },
+  {
+    "name": "cadence lower bound",
+    "input": {
+      "background_cadence_seconds": 15
+    },
+    "accept": true
+  },
+  {
+    "name": "cadence upper bound",
+    "input": {
+      "background_cadence_seconds": 86400
+    },
+    "accept": true
+  },
+  {
+    "name": "cadence below the floor",
+    "input": {
+      "background_cadence_seconds": 14
+    },
+    "accept": false
+  },
+  {
+    "name": "cadence above the ceiling",
+    "input": {
+      "background_cadence_seconds": 86401
+    },
+    "accept": false
+  },
+  {
+    "name": "cadence numeric string",
+    "input": {
+      "background_cadence_seconds": "45"
+    },
+    "accept": false
+  },
+  {
+    "name": "cadence boolean",
+    "input": {
+      "background_cadence_seconds": true
+    },
+    "accept": false
+  },
+  {
+    "name": "cadence fractional",
+    "input": {
+      "background_cadence_seconds": 45.5
+    },
+    "accept": false
+  },
+  {
+    "name": "source null",
+    "input": {
+      "background": "album",
+      "background_source_id": null
+    },
+    "accept": true
+  },
+  {
+    "name": "source identifier",
+    "input": {
+      "background": "artwork",
+      "background_source_id": "aic/landscapes"
+    },
+    "accept": true
+  },
+  {
+    "name": "source empty string",
+    "input": {
+      "background": "album",
+      "background_source_id": ""
+    },
+    "accept": false
+  },
+  {
+    "name": "source number",
+    "input": {
+      "background": "album",
+      "background_source_id": 5
+    },
+    "accept": false
+  },
+  {
+    "name": "allowlisted theme token",
+    "input": {
+      "tokens": {
+        "text": "#ffeedd"
+      }
+    },
+    "accept": true
+  },
+  {
+    "name": "arbitrary theme token",
+    "input": {
+      "tokens": {
+        "arbitrary": "#ffeedd"
+      }
+    },
+    "accept": false
+  },
+  {
+    "name": "named colour token",
+    "input": {
+      "tokens": {
+        "text": "red"
+      }
+    },
+    "accept": false
+  },
+  {
+    "name": "unknown appearance setting",
+    "input": {
+      "background": "artwork",
+      "unknown": 1
+    },
+    "accept": false
+  },
+  {
+    "name": "fully authored photographic background",
+    "input": {
+      "layout": "grid",
+      "background": "album",
+      "font": "serif",
+      "spacing": "relaxed",
+      "background_source_id": "albums/kids",
+      "background_mat": "shadow_box",
+      "background_motion": true,
+      "background_cadence_seconds": 120
+    },
+    "accept": true
+  },
+  {
+    "name": "source id at the code point limit",
+    "input": {
+      "background": "album",
+      "background_source_id": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+    },
+    "accept": true
+  },
+  {
+    "name": "source id over the code point limit",
+    "input": {
+      "background": "album",
+      "background_source_id": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+    },
+    "accept": false
+  },
+  {
+    "name": "astral source id within the limit",
+    "input": {
+      "background": "artwork",
+      "background_source_id": "😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀"
+    },
+    "accept": true
+  },
+  {
+    "name": "astral source id exactly at the limit",
+    "input": {
+      "background": "artwork",
+      "background_source_id": "😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀"
+    },
+    "accept": true
+  },
+  {
+    "name": "astral source id over the limit",
+    "input": {
+      "background": "artwork",
+      "background_source_id": "😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀"
+    },
+    "accept": false
+  },
+  {
+    "name": "source id with a non-photographic background",
+    "input": {
+      "background": "aurora",
+      "background_source_id": "aic/landscapes"
+    },
+    "accept": false
+  },
+  {
+    "name": "source id with a theme background",
+    "input": {
+      "background": "theme",
+      "background_source_id": "albums/kids"
+    },
+    "accept": false
+  },
+  {
+    "name": "artwork background with no source yet",
+    "input": {
+      "background": "artwork"
+    },
+    "accept": true
+  },
+  {
+    "name": "spacing tight",
+    "input": {
+      "spacing": "tight"
+    },
+    "accept": true
+  },
+  {
+    "name": "spacing relaxed still parses",
+    "input": {
+      "spacing": "relaxed"
+    },
+    "accept": true
+  },
+  {
+    "name": "margin none",
+    "input": {
+      "margin": "none"
+    },
+    "accept": true
+  },
+  {
+    "name": "margin wide",
+    "input": {
+      "margin": "wide"
+    },
+    "accept": true
+  },
+  {
+    "name": "unknown margin",
+    "input": {
+      "margin": "huge"
+    },
+    "accept": false
+  },
+  {
+    "name": "face transparent",
+    "input": {
+      "face": "transparent"
+    },
+    "accept": true
+  },
+  {
+    "name": "face outlined",
+    "input": {
+      "face": "outlined"
+    },
+    "accept": true
+  },
+  {
+    "name": "unknown face",
+    "input": {
+      "face": "glass"
+    },
+    "accept": false
+  },
+  {
+    "name": "radius square",
+    "input": {
+      "radius": "square"
+    },
+    "accept": true
+  },
+  {
+    "name": "radius round",
+    "input": {
+      "radius": "round"
+    },
+    "accept": true
+  },
+  {
+    "name": "unknown radius",
+    "input": {
+      "radius": "pill"
+    },
+    "accept": false
+  },
+  {
+    "name": "margin as a number",
+    "input": {
+      "margin": 3
+    },
+    "accept": false
+  },
+  {
+    "name": "margin null",
+    "input": {
+      "margin": null
+    },
+    "accept": false
+  },
+  {
+    "name": "face as an array",
+    "input": {
+      "face": [
+        "card"
+      ]
+    },
+    "accept": false
+  },
+  {
+    "name": "radius as a number",
+    "input": {
+      "radius": 2
+    },
+    "accept": false
+  },
+  {
+    "name": "canvas authored at its defaults",
+    "input": {
+      "margin": "standard",
+      "face": "look",
+      "radius": "look"
+    },
+    "accept": true
+  },
+  {
+    "name": "an explicit soft radius (2u since fill step 4)",
+    "input": {
+      "radius": "soft"
+    },
+    "accept": true
+  }
+]

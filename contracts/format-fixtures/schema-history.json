@@ -1,0 +1,109 @@
+[
+  {
+    "schema_sha256": "cc7d739ccaf3a409baafed826738d1787987da26abfa56825da2e3b58967f534",
+    "introduced": [
+      "attribution",
+      "bad-id",
+      "bad-license",
+      "bad-version",
+      "bidi-isolate",
+      "bidi-override",
+      "c0-control",
+      "c1-control",
+      "case-collision",
+      "clock-block",
+      "compression-bomb",
+      "duplicate-entry",
+      "duplicate-json-key",
+      "duration-above-max",
+      "duration-below-min",
+      "duration-max",
+      "duration-min",
+      "extra-entry",
+      "failing-palette",
+      "forbidden-setting",
+      "id3-title",
+      "local-shared",
+      "mantel-unsigned",
+      "missing-attribution",
+      "missing-document",
+      "missing-layout-capability",
+      "missing-source-slot",
+      "mp3-duration-mismatch",
+      "mp3-truncated",
+      "nonfinite-json",
+      "pack-defaults",
+      "pack-missing-default",
+      "pack-missing-resource",
+      "pack-valid",
+      "png-metadata",
+      "resource-hash",
+      "rtl-name",
+      "scrim-contrast",
+      "split-zip",
+      "symlink",
+      "theme-defaults",
+      "theme-deflate",
+      "traversal",
+      "unbounded-directory",
+      "unicode-rtl",
+      "unknown-look",
+      "unneeded-capability",
+      "utf16-json",
+      "v1-raw-definition-digest",
+      "wrong-definition-hash",
+      "zip-bzip2",
+      "zip-comment",
+      "zip64-count",
+      "zip64-masked-directory"
+    ]
+  },
+  {
+    "schema_sha256": "d363ddd8fa3ec36414bbb8035b825b2c713b2426a0b2d4a7e626c264cd766ad9",
+    "introduced": [
+      "duration-subcentisecond",
+      "duration-exponent"
+    ]
+  },
+  {
+    "schema_sha256": "1a3a3dae20ff3cf779a27d15a82c5683c078a5074cd814e6a3313093117b51c0",
+    "introduced": [
+      "layout-arrangement",
+      "layout-landscape",
+      "layout-purpose",
+      "layout-missing-capability",
+      "layout-arrangement-canonical",
+      "layout-landscape-canonical",
+      "layout-purpose-canonical"
+    ]
+  },
+  {
+    "schema_sha256": "216d09ff3156af1989befa640f67f085bd4c4bd83697e33f849baefdffdd7eb3",
+    "introduced": [
+      "layout-setup",
+      "layout-public-preset",
+      "layout-setup-missing-capability",
+      "layout-private-preset",
+      "layout-setup-canonical",
+      "layout-preset-canonical"
+    ]
+  },
+  {
+    "schema_sha256": "ed6b9f33a8dd41a71db0b75966fc443539118ff3ec929bde565d65c6eb671290",
+    "introduced": [
+      "provenance-canonical",
+      "provenance-empty-canonical",
+      "provenance-valid",
+      "provenance-missing-capability",
+      "portable-refuses-block-origins",
+      "portable-refuses-library-applications",
+      "portable-refuses-legacy-dependencies",
+      "provenance-normalized-canonical",
+      "provenance-null-blocks",
+      "provenance-normalized-applications-invalid",
+      "provenance-normalized-applications-valid",
+      "provenance-normalized-authored-invalid",
+      "provenance-normalized-authored-valid"
+    ]
+  }
+]

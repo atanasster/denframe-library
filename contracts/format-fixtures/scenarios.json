@@ -1,0 +1,92 @@
+[
+  {
+    "id": "S1",
+    "given": "An unsigned file claims a reserved namespace.",
+    "expected": "Refuse the identity; format validity does not grant trust.",
+    "tests": [
+      "backend/tests/test_library_identity.py::test_unsigned_reserved_design_identity_is_refused",
+      "backend/tests/test_library_identity.py::test_unsigned_reserved_pack_identity_is_refused"
+    ],
+    "browser": "not checked"
+  },
+  {
+    "id": "S2",
+    "given": "A legacy impostor occupies the genuine id and version.",
+    "expected": "Quarantine the impostor and admit the exact signed release.",
+    "tests": [
+      "backend/tests/test_library_identity.py::test_legacy_claim_does_not_block_signed_release_and_offline_resolution"
+    ],
+    "browser": "not checked"
+  },
+  {
+    "id": "S3",
+    "given": "The catalog is offline and a higher unsigned version exists.",
+    "expected": "Resolve only exact remembered trusted bytes; do not hide the genuine update.",
+    "tests": [
+      "backend/tests/test_format_conformance.py::test_higher_unsigned_version_cannot_hide_genuine_update_or_win_offline"
+    ],
+    "browser": "not checked"
+  },
+  {
+    "id": "S4",
+    "given": "A local/ file crosses between two household data roots.",
+    "expected": "The receiving host says shared; the exporting host recognizes its own receipt.",
+    "tests": [
+      "backend/tests/test_library_identity.py::test_shared_file_between_hosts_and_own_backup_keep_local_provenance"
+    ],
+    "browser": "not checked"
+  },
+  {
+    "id": "S5",
+    "given": "An unsigned publisher claims an existing update identity.",
+    "expected": "Expose the unverified identity and require explicit update confirmation.",
+    "tests": [
+      "backend/tests/test_library_identity.py::test_unsigned_update_requires_confirmation",
+      "backend/tests/test_library_identity.py::test_catalog_listed_non_mantel_id_is_reserved"
+    ],
+    "browser": "not checked"
+  },
+  {
+    "id": "S6",
+    "given": "Imported names or nested keys include controls or bidi formatting.",
+    "expected": "Refuse narrow forbidden characters; accept plain RTL and joiners.",
+    "tests": [
+      "backend/tests/test_library_hardening.py::test_import_text_rejects_narrow_controls_everywhere",
+      "backend/tests/test_library_hardening.py::test_plain_rtl_and_joiners_round_trip"
+    ],
+    "browser": "not checked"
+  },
+  {
+    "id": "S7",
+    "given": "A ZIP64 locator overrides a bounded legacy end record.",
+    "expected": "Refuse before constructing ZipFile or allocating its directory.",
+    "tests": [
+      "backend/tests/test_library_hardening.py::test_zip64_cannot_override_bounded_legacy_end_record",
+      "backend/tests/test_library_hardening.py::test_detection_bounds_directory_before_zipfile"
+    ],
+    "browser": "not checked"
+  },
+  {
+    "id": "S8",
+    "given": "Images or MP3s contain hidden metadata.",
+    "expected": "Refuse metadata, including JPEG metadata after scans; allow only plain TSSE encoder tags.",
+    "tests": [
+      "backend/tests/test_library_hardening.py::test_image_metadata_is_refused_and_plain_pixels_survive",
+      "backend/tests/test_library_hardening.py::test_jpeg_metadata_after_scan_is_also_refused",
+      "backend/tests/test_library_hardening.py::test_mp3_refuses_other_metadata_or_malformed_tags",
+      "backend/tests/test_library_hardening.py::test_mp3_allows_only_plain_encoder_tags_without_rewriting"
+    ],
+    "browser": "not checked"
+  },
+  {
+    "id": "S9",
+    "given": "An import declares unneeded capabilities, exhausts spool quota or exceeds worker memory.",
+    "expected": "Warn for extra capabilities, charge spool plus decoder bytes, cancel and clean up bounded workers.",
+    "tests": [
+      "backend/tests/test_library_hardening.py::test_unneeded_capability_warns_without_blocking_import",
+      "backend/tests/test_library_hardening.py::test_spool_and_decoder_share_one_quota_and_release_on_cancellation",
+      "backend/tests/test_library_hardening.py::test_parent_kills_worker_above_memory_budget"
+    ],
+    "browser": "not checked"
+  }
+]

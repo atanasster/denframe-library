@@ -1,0 +1,300 @@
+{
+  "_comment": "The one contrast gate a dashboard palette clears (fill step 15). Consumed by frontend/src/composition/paletteContrast.ts (paletteVerdict) and pinned against backend/app/display/palette_contrast.py (palette_verdict) by backend/tests/test_palette_contrast.py and frontend/src/composition/paletteContrast.test.ts, which both run every case below. The palette is the look's tokens (library/definitions/themes.json) with the override merged over them; every colour must be #rrggbb (either case) or the palette is invalid. Pairs are judged in order and the first that falls below `required` is the verdict. Contrast is WCAG 2.x: each sRGB byte b/255 is linearised (c <= 0.04045 ? c/12.92 : ((c+0.055)/1.055)^2.4), luminance is 0.2126R + 0.7152G + 0.0722B, and the ratio is (lighter + 0.05)/(darker + 0.05). `scrim` is the worst-case backdrop text reads over a picture: the palette is light-text when luminance(text) > luminance(background); the caption grey g is the inverse-linearised luminance of captionSurface as a continuous 0-255 value (l <= 0.0031308 ? 12.92l : 1.055 l^(1/2.4) - 0.055, times 255, l clamped to [0,1]); the raw alpha is 1 - g/255 for light text (a black scrim over a white pixel) and g/255 otherwise (a white scrim over a black pixel); alpha is rounded UP to two places (ceil(raw*100)/100); the scrim is the grey byte round-half-up(scrimByte*alpha + pixel*(1-alpha)), clamped to 0..255, with scrimByte 0 and pixel 255 for light text and scrimByte 255 and pixel 0 otherwise. A verdict's ratio is rounded DOWN to two places; Studio prints it rounded down to one ('Text on Background is 1.6:1; it needs 4.5:1'). A case's `scrim` pins the composited backdrop; `verdict` is null when every pair clears.",
+  "required": 4.5,
+  "pairs": [
+    [
+      "text",
+      "background"
+    ],
+    [
+      "text",
+      "surface"
+    ],
+    [
+      "text",
+      "captionSurface"
+    ],
+    [
+      "text",
+      "scrim"
+    ],
+    [
+      "mutedText",
+      "background"
+    ],
+    [
+      "mutedText",
+      "surface"
+    ],
+    [
+      "mutedText",
+      "captionSurface"
+    ],
+    [
+      "mutedText",
+      "scrim"
+    ],
+    [
+      "positive",
+      "surface"
+    ],
+    [
+      "negative",
+      "surface"
+    ],
+    [
+      "accent",
+      "surface"
+    ],
+    [
+      "accentText",
+      "accent"
+    ]
+  ],
+  "labels": {
+    "background": "Background",
+    "surface": "Surface",
+    "captionSurface": "Caption surface",
+    "text": "Text",
+    "mutedText": "Secondary text",
+    "accent": "Accent",
+    "accentText": "Accent text",
+    "border": "Border",
+    "positive": "Positive",
+    "negative": "Negative",
+    "scrim": "Picture scrim"
+  },
+  "cases": [
+    {
+      "name": "painting as the look draws it",
+      "look": "painting",
+      "tokens": {},
+      "scrim": "#1c1c1c",
+      "verdict": null
+    },
+    {
+      "name": "modern as the look draws it",
+      "look": "modern",
+      "tokens": {},
+      "scrim": "#f2f2f2",
+      "verdict": null
+    },
+    {
+      "name": "glass as the look draws it",
+      "look": "glass",
+      "tokens": {},
+      "scrim": "#383838",
+      "verdict": null
+    },
+    {
+      "name": "ink as the look draws it",
+      "look": "ink",
+      "tokens": {},
+      "scrim": "#121212",
+      "verdict": null
+    },
+    {
+      "name": "linen as the look draws it",
+      "look": "linen",
+      "tokens": {},
+      "scrim": "#e8e8e8",
+      "verdict": null
+    },
+    {
+      "name": "botanical as the look draws it",
+      "look": "botanical",
+      "tokens": {},
+      "scrim": "#1f1f1f",
+      "verdict": null
+    },
+    {
+      "name": "the reported Modern pick: a dark background under dark text",
+      "look": "modern",
+      "tokens": {
+        "background": "#7c0434"
+      },
+      "scrim": "#f2f2f2",
+      "verdict": {
+        "pair": [
+          "text",
+          "background"
+        ],
+        "ratio": 1.62,
+        "required": 4.5
+      }
+    },
+    {
+      "name": "a lighter accent on Glass that still clears",
+      "look": "glass",
+      "tokens": {
+        "accent": "#a6f0de"
+      },
+      "scrim": "#383838",
+      "verdict": null
+    },
+    {
+      "name": "Linen's secondary text too light for its background",
+      "look": "linen",
+      "tokens": {
+        "mutedText": "#8a8175"
+      },
+      "scrim": "#e8e8e8",
+      "verdict": {
+        "pair": [
+          "mutedText",
+          "background"
+        ],
+        "ratio": 3.09,
+        "required": 4.5
+      }
+    },
+    {
+      "name": "Painting's accent text that its accent cannot carry",
+      "look": "painting",
+      "tokens": {
+        "accentText": "#f4cf70"
+      },
+      "scrim": "#1c1c1c",
+      "verdict": {
+        "pair": [
+          "accentText",
+          "accent"
+        ],
+        "ratio": 1.0,
+        "required": 4.5
+      }
+    },
+    {
+      "name": "a negative too pale for Modern's surface",
+      "look": "modern",
+      "tokens": {
+        "negative": "#f08080"
+      },
+      "scrim": "#f2f2f2",
+      "verdict": {
+        "pair": [
+          "negative",
+          "surface"
+        ],
+        "ratio": 2.54,
+        "required": 4.5
+      }
+    },
+    {
+      "name": "every role on Ink replaced, clearing",
+      "look": "ink",
+      "tokens": {
+        "background": "#000000",
+        "surface": "#101010",
+        "captionSurface": "#000000",
+        "text": "#ffffff",
+        "mutedText": "#d0d0d0",
+        "accent": "#ffd166",
+        "accentText": "#000000",
+        "border": "#808080",
+        "positive": "#7ee787",
+        "negative": "#ff7b72"
+      },
+      "scrim": "#000000",
+      "verdict": null
+    },
+    {
+      "name": "a light-on-dark palette whose picture scrim alone falls short",
+      "look": "ink",
+      "tokens": {
+        "background": "#000000",
+        "surface": "#000000",
+        "text": "#757575",
+        "mutedText": "#757575",
+        "captionSurface": "#fdfdfd",
+        "positive": "#ffffff",
+        "negative": "#ffffff",
+        "accent": "#ffffff",
+        "accentText": "#000000"
+      },
+      "scrim": "#fcfcfc",
+      "verdict": {
+        "pair": [
+          "text",
+          "scrim"
+        ],
+        "ratio": 4.49,
+        "required": 4.5
+      }
+    },
+    {
+      "name": "the threshold, just met: Modern's secondary text at #6d6d6d",
+      "look": "modern",
+      "tokens": {
+        "mutedText": "#6d6d6d"
+      },
+      "scrim": "#f2f2f2",
+      "verdict": null
+    },
+    {
+      "name": "the threshold, just missed: Modern's secondary text at #6e6e6e",
+      "look": "modern",
+      "tokens": {
+        "mutedText": "#6e6e6e"
+      },
+      "scrim": "#f2f2f2",
+      "verdict": {
+        "pair": [
+          "mutedText",
+          "background"
+        ],
+        "ratio": 4.48,
+        "required": 4.5
+      }
+    },
+    {
+      "name": "upper-case hex is a colour",
+      "look": "modern",
+      "tokens": {
+        "accent": "#284C3F"
+      },
+      "scrim": "#f2f2f2",
+      "verdict": null
+    },
+    {
+      "name": "a five-digit colour",
+      "look": "modern",
+      "tokens": {
+        "text": "#12345"
+      },
+      "invalid": true
+    },
+    {
+      "name": "a named colour",
+      "look": "glass",
+      "tokens": {
+        "accent": "red"
+      },
+      "invalid": true
+    },
+    {
+      "name": "a colour that is not hex",
+      "look": "ink",
+      "tokens": {
+        "background": "#gggggg"
+      },
+      "invalid": true
+    },
+    {
+      "name": "a colour without its hash",
+      "look": "linen",
+      "tokens": {
+        "surface": "fbf7ef"
+      },
+      "invalid": true
+    },
+    {
+      "name": "a colour with a trailing newline",
+      "look": "modern",
+      "tokens": {
+        "accent": "#284c3f\n"
+      },
+      "invalid": true
+    }
+  ]
+}

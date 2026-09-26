@@ -1,0 +1,70 @@
+{
+  "additionalProperties": false,
+  "properties": {
+    "format": {
+      "const": "mantelpack",
+      "default": "mantelpack",
+      "title": "Format",
+      "type": "string"
+    },
+    "schema_version": {
+      "const": 2,
+      "default": 2,
+      "title": "Schema Version",
+      "type": "integer"
+    },
+    "id": {
+      "maxLength": 100,
+      "pattern": "^[a-z0-9][a-z0-9.-]*/[a-z0-9][a-z0-9.-]*$",
+      "title": "Id",
+      "type": "string"
+    },
+    "version": {
+      "maxLength": 30,
+      "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$",
+      "title": "Version",
+      "type": "string"
+    },
+    "publisher": {
+      "maxLength": 100,
+      "minLength": 1,
+      "pattern": "\\S",
+      "title": "Publisher",
+      "type": "string"
+    },
+    "definition_sha256": {
+      "pattern": "^[a-f0-9]{64}$",
+      "title": "Definition Sha256",
+      "type": "string"
+    },
+    "entrypoint": {
+      "const": "definition.json",
+      "default": "definition.json",
+      "title": "Entrypoint",
+      "type": "string"
+    },
+    "required_capabilities": {
+      "items": {
+        "enum": [
+          "pack-format-v2",
+          "reveal-sequence-v1"
+        ],
+        "type": "string"
+      },
+      "maxItems": 2,
+      "minItems": 2,
+      "title": "Required Capabilities",
+      "type": "array",
+      "uniqueItems": true
+    }
+  },
+  "required": [
+    "id",
+    "version",
+    "publisher",
+    "definition_sha256"
+  ],
+  "title": "PackManifest",
+  "type": "object",
+  "$schema": "https://json-schema.org/draft/2020-12/schema"
+}

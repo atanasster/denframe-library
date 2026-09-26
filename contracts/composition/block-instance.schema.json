@@ -1,0 +1,101 @@
+{
+  "$defs": {
+    "JsonValue": {},
+    "PortableInstancePlacement": {
+      "additionalProperties": false,
+      "properties": {
+        "region": {
+          "default": "auto",
+          "enum": [
+            "auto",
+            "header",
+            "main",
+            "secondary",
+            "stage",
+            "side"
+          ],
+          "title": "Region",
+          "type": "string"
+        },
+        "importance": {
+          "default": "normal",
+          "enum": [
+            "required",
+            "normal",
+            "optional"
+          ],
+          "title": "Importance",
+          "type": "string"
+        }
+      },
+      "title": "PortableInstancePlacement",
+      "type": "object"
+    }
+  },
+  "$id": "urn:mantel:composition:block-instance:1",
+  "additionalProperties": false,
+  "description": "Portable instance contract prototype, separate from local scene API records.",
+  "properties": {
+    "id": {
+      "pattern": "^[a-zA-Z0-9][a-zA-Z0-9_-]{0,99}$",
+      "title": "Id",
+      "type": "string"
+    },
+    "type": {
+      "pattern": "^[a-z0-9][a-z0-9-]{0,63}/[a-z0-9][a-z0-9-]{0,63}$",
+      "title": "Type",
+      "type": "string"
+    },
+    "configVersion": {
+      "maximum": 2147483647,
+      "minimum": 1,
+      "title": "Configversion",
+      "type": "integer"
+    },
+    "enabled": {
+      "title": "Enabled",
+      "type": "boolean"
+    },
+    "config": {
+      "additionalProperties": {
+        "$ref": "#/$defs/JsonValue"
+      },
+      "maxProperties": 64,
+      "title": "Config",
+      "type": "object"
+    },
+    "query": {
+      "additionalProperties": {
+        "$ref": "#/$defs/JsonValue"
+      },
+      "maxProperties": 64,
+      "title": "Query",
+      "type": "object"
+    },
+    "inputs": {
+      "additionalProperties": false,
+      "maxProperties": 12,
+      "patternProperties": {
+        "^[a-z][a-z0-9-]{0,63}$": {
+          "pattern": "^[a-z][a-z0-9-]{0,63}$",
+          "type": "string"
+        }
+      },
+      "title": "Inputs",
+      "type": "object"
+    },
+    "placement": {
+      "$ref": "#/$defs/PortableInstancePlacement"
+    }
+  },
+  "required": [
+    "id",
+    "type",
+    "configVersion",
+    "enabled",
+    "config"
+  ],
+  "title": "PortableBlockInstance",
+  "type": "object",
+  "$schema": "https://json-schema.org/draft/2020-12/schema"
+}

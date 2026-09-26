@@ -1,0 +1,795 @@
+{
+  "id": "mantel/animal-sounds",
+  "version": "0.1.0",
+  "publisher": "Mantel reference drafts",
+  "definition": {
+    "schema_version": 2,
+    "kind": "pack",
+    "name": "Animal sounds and names",
+    "description": "Review candidate. Content, pronunciation and listening review pending; not an approved teaching pack.",
+    "locales": [
+      "bg",
+      "en"
+    ],
+    "resources": [
+      {
+        "path": "assets/3dd939e4f3139e98587d040a45e12116facfff1ea32baa538308f4ab8103aea3.mp3",
+        "sha256": "3dd939e4f3139e98587d040a45e12116facfff1ea32baa538308f4ab8103aea3",
+        "length": 53960,
+        "media_type": "audio/mpeg",
+        "duration_seconds": 4.44,
+        "credit": {
+          "creator": "Joseph SARDIN",
+          "license": "CC0-1.0",
+          "attribution": "BigSoundBank recording; first six seconds, mono, normalized and re-encoded.",
+          "source": "https://bigsoundbank.com/chien-qui-aboie-3-s2955.html",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/a068690c67613cc1d8bd543f1cd216ea66df9da7ae46fe5bdf13417a07d5f94b.mp3",
+        "sha256": "a068690c67613cc1d8bd543f1cd216ea66df9da7ae46fe5bdf13417a07d5f94b",
+        "length": 28883,
+        "media_type": "audio/mpeg",
+        "duration_seconds": 2.35102,
+        "credit": {
+          "creator": "DenisChardonnet",
+          "license": "CC0-1.0",
+          "attribution": "BigSoundBank recording; first six seconds, mono, normalized and re-encoded.",
+          "source": "https://bigsoundbank.com/song-of-rooster-s0283.html",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/0e3814a5701675776a8240d2e741ba52ab668c2f9fb0e9cf5d1a29f4614062c6.mp3",
+        "sha256": "0e3814a5701675776a8240d2e741ba52ab668c2f9fb0e9cf5d1a29f4614062c6",
+        "length": 29196,
+        "media_type": "audio/mpeg",
+        "duration_seconds": 2.373401,
+        "credit": {
+          "creator": "Joseph SARDIN",
+          "license": "CC0-1.0",
+          "attribution": "BigSoundBank recording; first six seconds, mono, normalized and re-encoded.",
+          "source": "https://bigsoundbank.com/meow-cat-2-s1890.html",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/baa8f4d3928a424e556441e37d7eb48f1ea3435c434aa98760f70dea7c10518a.mp3",
+        "sha256": "baa8f4d3928a424e556441e37d7eb48f1ea3435c434aa98760f70dea7c10518a",
+        "length": 38600,
+        "media_type": "audio/mpeg",
+        "duration_seconds": 3.144014,
+        "credit": {
+          "creator": "Joseph SARDIN",
+          "license": "CC0-1.0",
+          "attribution": "BigSoundBank recording; first six seconds, mono, normalized and re-encoded.",
+          "source": "https://bigsoundbank.com/horse-neighing-3-s0863.html",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/307b0afd732065ce3227e4f83772bc66c8cd09cf75ad74160831e2fb6aceae2a.mp3",
+        "sha256": "307b0afd732065ce3227e4f83772bc66c8cd09cf75ad74160831e2fb6aceae2a",
+        "length": 72768,
+        "media_type": "audio/mpeg",
+        "duration_seconds": 6.0,
+        "credit": {
+          "creator": "DenisChardonnet",
+          "license": "CC0-1.0",
+          "attribution": "BigSoundBank recording; first six seconds, mono, normalized and re-encoded.",
+          "source": "https://bigsoundbank.com/ducks-s0276.html",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/1954561429bc53a578a1b965fed2058289c08789978278dc7573a14d40ac3fa3.mp3",
+        "sha256": "1954561429bc53a578a1b965fed2058289c08789978278dc7573a14d40ac3fa3",
+        "length": 15404,
+        "media_type": "audio/mpeg",
+        "duration_seconds": 1.227755,
+        "credit": {
+          "creator": "DenisChardonnet",
+          "license": "CC0-1.0",
+          "attribution": "BigSoundBank recording; first six seconds, mono, normalized and re-encoded.",
+          "source": "https://bigsoundbank.com/bleating-goat-1-s0279.html",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/acc292421bd02624b290005fb5c158653a4f1be1e0877afc2f8eca875b8f928d.mp3",
+        "sha256": "acc292421bd02624b290005fb5c158653a4f1be1e0877afc2f8eca875b8f928d",
+        "length": 72768,
+        "media_type": "audio/mpeg",
+        "duration_seconds": 6.0,
+        "credit": {
+          "creator": "Joseph SARDIN",
+          "license": "CC0-1.0",
+          "attribution": "BigSoundBank recording; first six seconds, mono, normalized and re-encoded.",
+          "source": "https://bigsoundbank.com/donkey-braying-3-s1551.html",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/0a3116185af7e421e3e8f9ad4d07bb07c03b22cb0412b103207f170a65834040.mp3",
+        "sha256": "0a3116185af7e421e3e8f9ad4d07bb07c03b22cb0412b103207f170a65834040",
+        "length": 72768,
+        "media_type": "audio/mpeg",
+        "duration_seconds": 6.0,
+        "credit": {
+          "creator": "Joseph SARDIN",
+          "license": "CC0-1.0",
+          "attribution": "BigSoundBank recording; first six seconds, mono, normalized and re-encoded.",
+          "source": "https://bigsoundbank.com/cat-purr-s0436.html",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/eacde8bc6075a8f134bcb13632699f045ce3a3e99aabe5b79d7f66289be8d528.mp3",
+        "sha256": "eacde8bc6075a8f134bcb13632699f045ce3a3e99aabe5b79d7f66289be8d528",
+        "length": 11642,
+        "media_type": "audio/mpeg",
+        "duration_seconds": 0.911995,
+        "credit": {
+          "creator": "Joseph SARDIN",
+          "license": "CC0-1.0",
+          "attribution": "BigSoundBank recording; first six seconds, mono, normalized and re-encoded.",
+          "source": "https://bigsoundbank.com/sheep-1-s2343.html",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/25499c5461624b676596e495b5a2d90b49ed788f92f52b6fb393c51e2b20b1f9.mp3",
+        "sha256": "25499c5461624b676596e495b5a2d90b49ed788f92f52b6fb393c51e2b20b1f9",
+        "length": 30764,
+        "media_type": "audio/mpeg",
+        "duration_seconds": 2.496009,
+        "credit": {
+          "creator": "Joseph SARDIN",
+          "license": "CC0-1.0",
+          "attribution": "BigSoundBank recording; first six seconds, mono, normalized and re-encoded.",
+          "source": "https://bigsoundbank.com/cow-moos-6-s2386.html",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/7d8aca7eaa316e902df497db27ed8e50844b21e04398b8c85fb2a40bd0484e27.mp3",
+        "sha256": "7d8aca7eaa316e902df497db27ed8e50844b21e04398b8c85fb2a40bd0484e27",
+        "length": 39854,
+        "media_type": "audio/mpeg",
+        "duration_seconds": 3.264014,
+        "credit": {
+          "creator": "Joseph SARDIN",
+          "license": "CC0-1.0",
+          "attribution": "BigSoundBank recording; first six seconds, mono, normalized and re-encoded.",
+          "source": "https://bigsoundbank.com/annoyed-hen-s0453.html",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/55c25972ac66be8009d04442c534c19d13249320b65345b9916484cef6792610.mp3",
+        "sha256": "55c25972ac66be8009d04442c534c19d13249320b65345b9916484cef6792610",
+        "length": 72768,
+        "media_type": "audio/mpeg",
+        "duration_seconds": 6.0,
+        "credit": {
+          "creator": "Joseph SARDIN",
+          "license": "CC0-1.0",
+          "attribution": "BigSoundBank recording; first six seconds, mono, normalized and re-encoded.",
+          "source": "https://bigsoundbank.com/hen-lays-2-s0976.html",
+          "modified": true
+        }
+      }
+    ],
+    "items": [
+      {
+        "id": "dog",
+        "content_revision": 1,
+        "translations": {
+          "en": {
+            "prompt": {
+              "text": "Which animal makes this sound? Clue: dog.",
+              "image": null,
+              "alt_text": null
+            },
+            "reveal": {
+              "text": "Dog — куче.",
+              "image": null,
+              "alt_text": null
+            }
+          },
+          "bg": {
+            "prompt": {
+              "text": "Кое животно издава този звук? Подсказка: куче.",
+              "image": null,
+              "alt_text": null
+            },
+            "reveal": {
+              "text": "Куче — dog.",
+              "image": null,
+              "alt_text": null
+            }
+          }
+        },
+        "audio_cues": [
+          {
+            "resource": "assets/3dd939e4f3139e98587d040a45e12116facfff1ea32baa538308f4ab8103aea3.mp3",
+            "locale": "bg",
+            "phase": "prompt",
+            "role": "effect",
+            "transcript": "Запис: куче"
+          },
+          {
+            "resource": "assets/3dd939e4f3139e98587d040a45e12116facfff1ea32baa538308f4ab8103aea3.mp3",
+            "locale": "en",
+            "phase": "prompt",
+            "role": "effect",
+            "transcript": "Recording: dog"
+          }
+        ]
+      },
+      {
+        "id": "rooster",
+        "content_revision": 1,
+        "translations": {
+          "en": {
+            "prompt": {
+              "text": "Which animal makes this sound? Clue: rooster.",
+              "image": null,
+              "alt_text": null
+            },
+            "reveal": {
+              "text": "Rooster — петел.",
+              "image": null,
+              "alt_text": null
+            }
+          },
+          "bg": {
+            "prompt": {
+              "text": "Кое животно издава този звук? Подсказка: петел.",
+              "image": null,
+              "alt_text": null
+            },
+            "reveal": {
+              "text": "Петел — rooster.",
+              "image": null,
+              "alt_text": null
+            }
+          }
+        },
+        "audio_cues": [
+          {
+            "resource": "assets/a068690c67613cc1d8bd543f1cd216ea66df9da7ae46fe5bdf13417a07d5f94b.mp3",
+            "locale": "bg",
+            "phase": "prompt",
+            "role": "effect",
+            "transcript": "Запис: петел"
+          },
+          {
+            "resource": "assets/a068690c67613cc1d8bd543f1cd216ea66df9da7ae46fe5bdf13417a07d5f94b.mp3",
+            "locale": "en",
+            "phase": "prompt",
+            "role": "effect",
+            "transcript": "Recording: rooster"
+          }
+        ]
+      },
+      {
+        "id": "cat",
+        "content_revision": 1,
+        "translations": {
+          "en": {
+            "prompt": {
+              "text": "Which animal makes this sound? Clue: cat.",
+              "image": null,
+              "alt_text": null
+            },
+            "reveal": {
+              "text": "Cat — котка.",
+              "image": null,
+              "alt_text": null
+            }
+          },
+          "bg": {
+            "prompt": {
+              "text": "Кое животно издава този звук? Подсказка: котка.",
+              "image": null,
+              "alt_text": null
+            },
+            "reveal": {
+              "text": "Котка — cat.",
+              "image": null,
+              "alt_text": null
+            }
+          }
+        },
+        "audio_cues": [
+          {
+            "resource": "assets/0e3814a5701675776a8240d2e741ba52ab668c2f9fb0e9cf5d1a29f4614062c6.mp3",
+            "locale": "bg",
+            "phase": "prompt",
+            "role": "effect",
+            "transcript": "Запис: котка"
+          },
+          {
+            "resource": "assets/0e3814a5701675776a8240d2e741ba52ab668c2f9fb0e9cf5d1a29f4614062c6.mp3",
+            "locale": "en",
+            "phase": "prompt",
+            "role": "effect",
+            "transcript": "Recording: cat"
+          }
+        ]
+      },
+      {
+        "id": "horse",
+        "content_revision": 1,
+        "translations": {
+          "en": {
+            "prompt": {
+              "text": "Which animal makes this sound? Clue: horse.",
+              "image": null,
+              "alt_text": null
+            },
+            "reveal": {
+              "text": "Horse — кон.",
+              "image": null,
+              "alt_text": null
+            }
+          },
+          "bg": {
+            "prompt": {
+              "text": "Кое животно издава този звук? Подсказка: кон.",
+              "image": null,
+              "alt_text": null
+            },
+            "reveal": {
+              "text": "Кон — horse.",
+              "image": null,
+              "alt_text": null
+            }
+          }
+        },
+        "audio_cues": [
+          {
+            "resource": "assets/baa8f4d3928a424e556441e37d7eb48f1ea3435c434aa98760f70dea7c10518a.mp3",
+            "locale": "bg",
+            "phase": "prompt",
+            "role": "effect",
+            "transcript": "Запис: кон"
+          },
+          {
+            "resource": "assets/baa8f4d3928a424e556441e37d7eb48f1ea3435c434aa98760f70dea7c10518a.mp3",
+            "locale": "en",
+            "phase": "prompt",
+            "role": "effect",
+            "transcript": "Recording: horse"
+          }
+        ]
+      },
+      {
+        "id": "ducks",
+        "content_revision": 1,
+        "translations": {
+          "en": {
+            "prompt": {
+              "text": "Which animal makes this sound? Clue: ducks.",
+              "image": null,
+              "alt_text": null
+            },
+            "reveal": {
+              "text": "Ducks — патици.",
+              "image": null,
+              "alt_text": null
+            }
+          },
+          "bg": {
+            "prompt": {
+              "text": "Кое животно издава този звук? Подсказка: патици.",
+              "image": null,
+              "alt_text": null
+            },
+            "reveal": {
+              "text": "Патици — ducks.",
+              "image": null,
+              "alt_text": null
+            }
+          }
+        },
+        "audio_cues": [
+          {
+            "resource": "assets/307b0afd732065ce3227e4f83772bc66c8cd09cf75ad74160831e2fb6aceae2a.mp3",
+            "locale": "bg",
+            "phase": "prompt",
+            "role": "effect",
+            "transcript": "Запис: патици"
+          },
+          {
+            "resource": "assets/307b0afd732065ce3227e4f83772bc66c8cd09cf75ad74160831e2fb6aceae2a.mp3",
+            "locale": "en",
+            "phase": "prompt",
+            "role": "effect",
+            "transcript": "Recording: ducks"
+          }
+        ]
+      },
+      {
+        "id": "goat",
+        "content_revision": 1,
+        "translations": {
+          "en": {
+            "prompt": {
+              "text": "Which animal makes this sound? Clue: goat.",
+              "image": null,
+              "alt_text": null
+            },
+            "reveal": {
+              "text": "Goat — коза.",
+              "image": null,
+              "alt_text": null
+            }
+          },
+          "bg": {
+            "prompt": {
+              "text": "Кое животно издава този звук? Подсказка: коза.",
+              "image": null,
+              "alt_text": null
+            },
+            "reveal": {
+              "text": "Коза — goat.",
+              "image": null,
+              "alt_text": null
+            }
+          }
+        },
+        "audio_cues": [
+          {
+            "resource": "assets/1954561429bc53a578a1b965fed2058289c08789978278dc7573a14d40ac3fa3.mp3",
+            "locale": "bg",
+            "phase": "prompt",
+            "role": "effect",
+            "transcript": "Запис: коза"
+          },
+          {
+            "resource": "assets/1954561429bc53a578a1b965fed2058289c08789978278dc7573a14d40ac3fa3.mp3",
+            "locale": "en",
+            "phase": "prompt",
+            "role": "effect",
+            "transcript": "Recording: goat"
+          }
+        ]
+      },
+      {
+        "id": "donkey",
+        "content_revision": 1,
+        "translations": {
+          "en": {
+            "prompt": {
+              "text": "Which animal makes this sound? Clue: donkey.",
+              "image": null,
+              "alt_text": null
+            },
+            "reveal": {
+              "text": "Donkey — магаре.",
+              "image": null,
+              "alt_text": null
+            }
+          },
+          "bg": {
+            "prompt": {
+              "text": "Кое животно издава този звук? Подсказка: магаре.",
+              "image": null,
+              "alt_text": null
+            },
+            "reveal": {
+              "text": "Магаре — donkey.",
+              "image": null,
+              "alt_text": null
+            }
+          }
+        },
+        "audio_cues": [
+          {
+            "resource": "assets/acc292421bd02624b290005fb5c158653a4f1be1e0877afc2f8eca875b8f928d.mp3",
+            "locale": "bg",
+            "phase": "prompt",
+            "role": "effect",
+            "transcript": "Запис: магаре"
+          },
+          {
+            "resource": "assets/acc292421bd02624b290005fb5c158653a4f1be1e0877afc2f8eca875b8f928d.mp3",
+            "locale": "en",
+            "phase": "prompt",
+            "role": "effect",
+            "transcript": "Recording: donkey"
+          }
+        ]
+      },
+      {
+        "id": "purring-cat",
+        "content_revision": 1,
+        "translations": {
+          "en": {
+            "prompt": {
+              "text": "Which animal makes this sound? Clue: purring cat.",
+              "image": null,
+              "alt_text": null
+            },
+            "reveal": {
+              "text": "Purring cat — мъркаща котка.",
+              "image": null,
+              "alt_text": null
+            }
+          },
+          "bg": {
+            "prompt": {
+              "text": "Кое животно издава този звук? Подсказка: мъркаща котка.",
+              "image": null,
+              "alt_text": null
+            },
+            "reveal": {
+              "text": "Мъркаща котка — purring cat.",
+              "image": null,
+              "alt_text": null
+            }
+          }
+        },
+        "audio_cues": [
+          {
+            "resource": "assets/0a3116185af7e421e3e8f9ad4d07bb07c03b22cb0412b103207f170a65834040.mp3",
+            "locale": "bg",
+            "phase": "prompt",
+            "role": "effect",
+            "transcript": "Запис: мъркаща котка"
+          },
+          {
+            "resource": "assets/0a3116185af7e421e3e8f9ad4d07bb07c03b22cb0412b103207f170a65834040.mp3",
+            "locale": "en",
+            "phase": "prompt",
+            "role": "effect",
+            "transcript": "Recording: purring cat"
+          }
+        ]
+      },
+      {
+        "id": "sheep",
+        "content_revision": 1,
+        "translations": {
+          "en": {
+            "prompt": {
+              "text": "Which animal makes this sound? Clue: sheep.",
+              "image": null,
+              "alt_text": null
+            },
+            "reveal": {
+              "text": "Sheep — овца.",
+              "image": null,
+              "alt_text": null
+            }
+          },
+          "bg": {
+            "prompt": {
+              "text": "Кое животно издава този звук? Подсказка: овца.",
+              "image": null,
+              "alt_text": null
+            },
+            "reveal": {
+              "text": "Овца — sheep.",
+              "image": null,
+              "alt_text": null
+            }
+          }
+        },
+        "audio_cues": [
+          {
+            "resource": "assets/eacde8bc6075a8f134bcb13632699f045ce3a3e99aabe5b79d7f66289be8d528.mp3",
+            "locale": "bg",
+            "phase": "prompt",
+            "role": "effect",
+            "transcript": "Запис: овца"
+          },
+          {
+            "resource": "assets/eacde8bc6075a8f134bcb13632699f045ce3a3e99aabe5b79d7f66289be8d528.mp3",
+            "locale": "en",
+            "phase": "prompt",
+            "role": "effect",
+            "transcript": "Recording: sheep"
+          }
+        ]
+      },
+      {
+        "id": "cow",
+        "content_revision": 1,
+        "translations": {
+          "en": {
+            "prompt": {
+              "text": "Which animal makes this sound? Clue: cow.",
+              "image": null,
+              "alt_text": null
+            },
+            "reveal": {
+              "text": "Cow — крава.",
+              "image": null,
+              "alt_text": null
+            }
+          },
+          "bg": {
+            "prompt": {
+              "text": "Кое животно издава този звук? Подсказка: крава.",
+              "image": null,
+              "alt_text": null
+            },
+            "reveal": {
+              "text": "Крава — cow.",
+              "image": null,
+              "alt_text": null
+            }
+          }
+        },
+        "audio_cues": [
+          {
+            "resource": "assets/25499c5461624b676596e495b5a2d90b49ed788f92f52b6fb393c51e2b20b1f9.mp3",
+            "locale": "bg",
+            "phase": "prompt",
+            "role": "effect",
+            "transcript": "Запис: крава"
+          },
+          {
+            "resource": "assets/25499c5461624b676596e495b5a2d90b49ed788f92f52b6fb393c51e2b20b1f9.mp3",
+            "locale": "en",
+            "phase": "prompt",
+            "role": "effect",
+            "transcript": "Recording: cow"
+          }
+        ]
+      },
+      {
+        "id": "hen",
+        "content_revision": 1,
+        "translations": {
+          "en": {
+            "prompt": {
+              "text": "Which animal makes this sound? Clue: hen.",
+              "image": null,
+              "alt_text": null
+            },
+            "reveal": {
+              "text": "Hen — кокошка.",
+              "image": null,
+              "alt_text": null
+            }
+          },
+          "bg": {
+            "prompt": {
+              "text": "Кое животно издава този звук? Подсказка: кокошка.",
+              "image": null,
+              "alt_text": null
+            },
+            "reveal": {
+              "text": "Кокошка — hen.",
+              "image": null,
+              "alt_text": null
+            }
+          }
+        },
+        "audio_cues": [
+          {
+            "resource": "assets/7d8aca7eaa316e902df497db27ed8e50844b21e04398b8c85fb2a40bd0484e27.mp3",
+            "locale": "bg",
+            "phase": "prompt",
+            "role": "effect",
+            "transcript": "Запис: кокошка"
+          },
+          {
+            "resource": "assets/7d8aca7eaa316e902df497db27ed8e50844b21e04398b8c85fb2a40bd0484e27.mp3",
+            "locale": "en",
+            "phase": "prompt",
+            "role": "effect",
+            "transcript": "Recording: hen"
+          }
+        ]
+      },
+      {
+        "id": "laying-hen",
+        "content_revision": 1,
+        "translations": {
+          "en": {
+            "prompt": {
+              "text": "Which animal makes this sound? Clue: laying hen.",
+              "image": null,
+              "alt_text": null
+            },
+            "reveal": {
+              "text": "Laying hen — снасяща кокошка.",
+              "image": null,
+              "alt_text": null
+            }
+          },
+          "bg": {
+            "prompt": {
+              "text": "Кое животно издава този звук? Подсказка: снасяща кокошка.",
+              "image": null,
+              "alt_text": null
+            },
+            "reveal": {
+              "text": "Снасяща кокошка — laying hen.",
+              "image": null,
+              "alt_text": null
+            }
+          }
+        },
+        "audio_cues": [
+          {
+            "resource": "assets/55c25972ac66be8009d04442c534c19d13249320b65345b9916484cef6792610.mp3",
+            "locale": "bg",
+            "phase": "prompt",
+            "role": "effect",
+            "transcript": "Запис: снасяща кокошка"
+          },
+          {
+            "resource": "assets/55c25972ac66be8009d04442c534c19d13249320b65345b9916484cef6792610.mp3",
+            "locale": "en",
+            "phase": "prompt",
+            "role": "effect",
+            "transcript": "Recording: laying hen"
+          }
+        ]
+      }
+    ],
+    "activities": [
+      {
+        "id": "learn-bg",
+        "name": "Learn (bg)",
+        "kind": "reveal-sequence-v1",
+        "item_ids": [
+          "dog",
+          "rooster",
+          "cat",
+          "horse",
+          "ducks",
+          "goat",
+          "donkey",
+          "purring-cat",
+          "sheep",
+          "cow",
+          "hen",
+          "laying-hen"
+        ],
+        "locale": "bg",
+        "loop": false,
+        "timing": {
+          "prompt_seconds": 7,
+          "recall_seconds": 3,
+          "reveal_seconds": 7,
+          "dwell_seconds": 2
+        }
+      },
+      {
+        "id": "learn-en",
+        "name": "Learn (en)",
+        "kind": "reveal-sequence-v1",
+        "item_ids": [
+          "dog",
+          "rooster",
+          "cat",
+          "horse",
+          "ducks",
+          "goat",
+          "donkey",
+          "purring-cat",
+          "sheep",
+          "cow",
+          "hen",
+          "laying-hen"
+        ],
+        "locale": "en",
+        "loop": false,
+        "timing": {
+          "prompt_seconds": 7,
+          "recall_seconds": 3,
+          "reveal_seconds": 7,
+          "dwell_seconds": 2
+        }
+      }
+    ]
+  }
+}

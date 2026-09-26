@@ -1,0 +1,18 @@
+{
+  "image": "python:3.13-slim@sha256:9d2e5553305c7c7b0097999bb17187c69b921ccd6bc9d40e4bb5ebe652c00285",
+  "platform": "linux/amd64",
+  "requirements_sha256": "29049c49d55727b671666838cb756077b8bd8fa26b6e9cd3f047b2b5b6334905",
+  "runtime": {
+    "python": "3.13.15",
+    "platform": "x86_64",
+    "zlib_build": "1.3.1",
+    "zlib_runtime": "1.3.1",
+    "pillow": "12.3.0",
+    "native": {
+      "zlib": "1.3.1",
+      "jpg": "6.2",
+      "libjpeg_turbo": "3.1.4.1",
+      "webp": "1.6.0"
+    }
+  }
+}

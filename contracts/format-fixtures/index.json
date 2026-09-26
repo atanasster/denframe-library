@@ -1,0 +1,4930 @@
+{
+  "version": 1,
+  "layers": [
+    "archive",
+    "json",
+    "schema",
+    "capabilities",
+    "contrast",
+    "media",
+    "trust"
+  ],
+  "archives": [
+    {
+      "id": "portable-refuses-block-origins",
+      "file": "archives/portable-refuses-block-origins.mantelpack",
+      "sha256": "0f4809b5b9342cfb6239bb9580d9abfbd70403a3cc6b17983d90a910ebe8e952",
+      "version": 1,
+      "expected": {
+        "host": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "fail",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        },
+        "cli": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "fail",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        },
+        "browser": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "fail",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        }
+      }
+    },
+    {
+      "id": "portable-refuses-library-applications",
+      "file": "archives/portable-refuses-library-applications.mantelpack",
+      "sha256": "ff3d73d5caf200c1414156deba0a2dc8e9a62701300314fc2d8585443e3d5f01",
+      "version": 1,
+      "expected": {
+        "host": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "fail",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        },
+        "cli": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "fail",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        },
+        "browser": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "fail",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        }
+      }
+    },
+    {
+      "id": "portable-refuses-legacy-dependencies",
+      "file": "archives/portable-refuses-legacy-dependencies.mantelpack",
+      "sha256": "703227eadf7e179da592baec21d28a26e942808f128e25cf69c7fc07ddbd93af",
+      "version": 1,
+      "expected": {
+        "host": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "fail",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        },
+        "cli": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "fail",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        },
+        "browser": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "fail",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        }
+      }
+    },
+    {
+      "id": "theme-defaults",
+      "file": "archives/theme-defaults.mantelpack",
+      "sha256": "a6b48092c35eb8987b7b9cee87f2e3063c7df3f602c3f463d61cf3bcbf91aefc",
+      "version": 1,
+      "expected": {
+        "host": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "pass",
+          "capabilities": "pass",
+          "contrast": "pass",
+          "media": "not applicable",
+          "trust": "not checked"
+        },
+        "cli": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "pass",
+          "capabilities": "pass",
+          "contrast": "pass",
+          "media": "not applicable",
+          "trust": "not checked"
+        },
+        "browser": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "pass",
+          "capabilities": "pass",
+          "contrast": "pass",
+          "media": "not checked",
+          "trust": "not checked"
+        }
+      }
+    },
+    {
+      "id": "theme-deflate",
+      "file": "archives/theme-deflate.mantelpack",
+      "sha256": "d0ac597f0ad262c9d929aa5e3d71091bb3ca15f5f7a6848c51590e87fd2843f4",
+      "version": 1,
+      "expected": {
+        "host": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "pass",
+          "capabilities": "pass",
+          "contrast": "pass",
+          "media": "not applicable",
+          "trust": "not checked"
+        },
+        "cli": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "pass",
+          "capabilities": "pass",
+          "contrast": "pass",
+          "media": "not applicable",
+          "trust": "not checked"
+        },
+        "browser": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "pass",
+          "capabilities": "pass",
+          "contrast": "pass",
+          "media": "not checked",
+          "trust": "not checked"
+        }
+      }
+    },
+    {
+      "id": "rtl-name",
+      "file": "archives/rtl-name.mantelpack",
+      "sha256": "bed4f40d1bc283081b69443aefc0c971f70c97868767b45ae4c25f36eff5c1dd",
+      "version": 1,
+      "expected": {
+        "host": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "pass",
+          "capabilities": "pass",
+          "contrast": "pass",
+          "media": "not applicable",
+          "trust": "not checked"
+        },
+        "cli": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "pass",
+          "capabilities": "pass",
+          "contrast": "pass",
+          "media": "not applicable",
+          "trust": "not checked"
+        },
+        "browser": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "pass",
+          "capabilities": "pass",
+          "contrast": "pass",
+          "media": "not checked",
+          "trust": "not checked"
+        }
+      }
+    },
+    {
+      "id": "v1-raw-definition-digest",
+      "file": "archives/v1-raw-definition-digest.mantelpack",
+      "sha256": "cc4cbbfea725baa1eea1f6f34ba351372467ac0b439675cefc9a1878e1776587",
+      "version": 1,
+      "expected": {
+        "host": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "pass",
+          "capabilities": "pass",
+          "contrast": "pass",
+          "media": "not applicable",
+          "trust": "not checked"
+        },
+        "cli": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "pass",
+          "capabilities": "pass",
+          "contrast": "pass",
+          "media": "not applicable",
+          "trust": "not checked"
+        },
+        "browser": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "pass",
+          "capabilities": "pass",
+          "contrast": "pass",
+          "media": "not checked",
+          "trust": "not checked"
+        }
+      }
+    },
+    {
+      "id": "local-shared",
+      "file": "archives/local-shared.mantelpack",
+      "sha256": "a826a3d693bb9c512486baf9fcf4fbd6b6c393751c3d7695cb0ae4497406cb33",
+      "version": 1,
+      "expected": {
+        "host": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "pass",
+          "capabilities": "pass",
+          "contrast": "pass",
+          "media": "not applicable",
+          "trust": "not checked"
+        },
+        "cli": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "pass",
+          "capabilities": "pass",
+          "contrast": "pass",
+          "media": "not applicable",
+          "trust": "not checked"
+        },
+        "browser": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "pass",
+          "capabilities": "pass",
+          "contrast": "pass",
+          "media": "not checked",
+          "trust": "not checked"
+        }
+      }
+    },
+    {
+      "id": "mantel-unsigned",
+      "file": "archives/mantel-unsigned.mantelpack",
+      "sha256": "ad57de437a072d6fd5985754baf8c912f5a92f9b3e8280cd42bef4e6dec8d2a2",
+      "version": 1,
+      "expected": {
+        "host": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "pass",
+          "capabilities": "pass",
+          "contrast": "pass",
+          "media": "not applicable",
+          "trust": "not checked"
+        },
+        "cli": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "pass",
+          "capabilities": "pass",
+          "contrast": "pass",
+          "media": "not applicable",
+          "trust": "not checked"
+        },
+        "browser": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "pass",
+          "capabilities": "pass",
+          "contrast": "pass",
+          "media": "not checked",
+          "trust": "not checked"
+        }
+      }
+    },
+    {
+      "id": "bad-id",
+      "file": "archives/bad-id.mantelpack",
+      "sha256": "3c19a08ec37da93cbaa73d02913d12fe51c56f37782534174f60d62fbbfaab93",
+      "version": 1,
+      "expected": {
+        "host": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "fail",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        },
+        "cli": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "fail",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        },
+        "browser": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "fail",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        }
+      }
+    },
+    {
+      "id": "bad-version",
+      "file": "archives/bad-version.mantelpack",
+      "sha256": "07fd67a4ea39d5af779667958538800bf3c34774e9c021f11f5c950e9d4aacf1",
+      "version": 1,
+      "expected": {
+        "host": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "fail",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        },
+        "cli": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "fail",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        },
+        "browser": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "fail",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        }
+      }
+    },
+    {
+      "id": "bad-license",
+      "file": "archives/bad-license.mantelpack",
+      "sha256": "7a36a8d45bf8af7131682d795e734c1f5b4555723c7184e54ffe510dda0a162c",
+      "version": 1,
+      "expected": {
+        "host": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "fail",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        },
+        "cli": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "fail",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        },
+        "browser": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "fail",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        }
+      }
+    },
+    {
+      "id": "missing-attribution",
+      "file": "archives/missing-attribution.mantelpack",
+      "sha256": "b301373cb90d9692f02ca85ea9668888d89fb4eb1df756bcd8c425a2ecd948be",
+      "version": 1,
+      "expected": {
+        "host": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "fail",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        },
+        "cli": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "fail",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        },
+        "browser": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "fail",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        }
+      }
+    },
+    {
+      "id": "attribution",
+      "file": "archives/attribution.mantelpack",
+      "sha256": "19c5c95e33728e75ab3ee1049ac67557c5c9b545a272dc1ade714cfe31863865",
+      "version": 1,
+      "expected": {
+        "host": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "pass",
+          "capabilities": "pass",
+          "contrast": "pass",
+          "media": "not applicable",
+          "trust": "not checked"
+        },
+        "cli": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "pass",
+          "capabilities": "pass",
+          "contrast": "pass",
+          "media": "not applicable",
+          "trust": "not checked"
+        },
+        "browser": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "pass",
+          "capabilities": "pass",
+          "contrast": "pass",
+          "media": "not checked",
+          "trust": "not checked"
+        }
+      }
+    },
+    {
+      "id": "unneeded-capability",
+      "file": "archives/unneeded-capability.mantelpack",
+      "sha256": "aa7667fe78215e37f41eeb920e6a65899ecbcff451f87c9fda51aefee2335f44",
+      "version": 1,
+      "expected": {
+        "host": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "pass",
+          "capabilities": "warning",
+          "contrast": "pass",
+          "media": "not applicable",
+          "trust": "not checked"
+        },
+        "cli": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "pass",
+          "capabilities": "warning",
+          "contrast": "pass",
+          "media": "not applicable",
+          "trust": "not checked"
+        },
+        "browser": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "pass",
+          "capabilities": "warning",
+          "contrast": "pass",
+          "media": "not checked",
+          "trust": "not checked"
+        }
+      }
+    },
+    {
+      "id": "unknown-look",
+      "file": "archives/unknown-look.mantelpack",
+      "sha256": "ae934250d9a206f37aa255f75c518f8afb73022961d5b09fb073e84ed97e56fa",
+      "version": 1,
+      "expected": {
+        "host": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "fail",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        },
+        "cli": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "fail",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        },
+        "browser": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "fail",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        }
+      }
+    },
+    {
+      "id": "bidi-override",
+      "file": "archives/bidi-override.mantelpack",
+      "sha256": "ea501b44b45dd599a288a6bbb2fadc273de3da3bc930bc04994ee9e3c6109839",
+      "version": 1,
+      "expected": {
+        "host": {
+          "archive": "pass",
+          "json": "fail",
+          "schema": "not checked",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        },
+        "cli": {
+          "archive": "pass",
+          "json": "fail",
+          "schema": "not checked",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        },
+        "browser": {
+          "archive": "pass",
+          "json": "fail",
+          "schema": "not checked",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        }
+      }
+    },
+    {
+      "id": "bidi-isolate",
+      "file": "archives/bidi-isolate.mantelpack",
+      "sha256": "3d58d9161db80b6905a45765de769589dd74dc46e25006b2e9cc81ab43b35475",
+      "version": 1,
+      "expected": {
+        "host": {
+          "archive": "pass",
+          "json": "fail",
+          "schema": "not checked",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        },
+        "cli": {
+          "archive": "pass",
+          "json": "fail",
+          "schema": "not checked",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        },
+        "browser": {
+          "archive": "pass",
+          "json": "fail",
+          "schema": "not checked",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        }
+      }
+    },
+    {
+      "id": "c0-control",
+      "file": "archives/c0-control.mantelpack",
+      "sha256": "2f877612ab842047bdec7d633cba321c660e9b06c167b60deb8b946b48b224a1",
+      "version": 1,
+      "expected": {
+        "host": {
+          "archive": "pass",
+          "json": "fail",
+          "schema": "not checked",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        },
+        "cli": {
+          "archive": "pass",
+          "json": "fail",
+          "schema": "not checked",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        },
+        "browser": {
+          "archive": "pass",
+          "json": "fail",
+          "schema": "not checked",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        }
+      }
+    },
+    {
+      "id": "c1-control",
+      "file": "archives/c1-control.mantelpack",
+      "sha256": "0df93e530a7717b67b80f13d08d9d41924468ddff79e81d65d9eeb457bdd5c9b",
+      "version": 1,
+      "expected": {
+        "host": {
+          "archive": "pass",
+          "json": "fail",
+          "schema": "not checked",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        },
+        "cli": {
+          "archive": "pass",
+          "json": "fail",
+          "schema": "not checked",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        },
+        "browser": {
+          "archive": "pass",
+          "json": "fail",
+          "schema": "not checked",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        }
+      }
+    },
+    {
+      "id": "duplicate-json-key",
+      "file": "archives/duplicate-json-key.mantelpack",
+      "sha256": "6d895e5fc243fa732675d53daa2618c447b7724d8e936b7751ed3c59dd1b777c",
+      "version": 1,
+      "expected": {
+        "host": {
+          "archive": "pass",
+          "json": "fail",
+          "schema": "not checked",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        },
+        "cli": {
+          "archive": "pass",
+          "json": "fail",
+          "schema": "not checked",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        },
+        "browser": {
+          "archive": "pass",
+          "json": "fail",
+          "schema": "not checked",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        }
+      }
+    },
+    {
+      "id": "nonfinite-json",
+      "file": "archives/nonfinite-json.mantelpack",
+      "sha256": "af9c53269e0d318df0a32b5f197da5e0bf896fe402dc83bc01a478007462797d",
+      "version": 1,
+      "expected": {
+        "host": {
+          "archive": "pass",
+          "json": "fail",
+          "schema": "not checked",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        },
+        "cli": {
+          "archive": "pass",
+          "json": "fail",
+          "schema": "not checked",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        },
+        "browser": {
+          "archive": "pass",
+          "json": "fail",
+          "schema": "not checked",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        }
+      }
+    },
+    {
+      "id": "utf16-json",
+      "file": "archives/utf16-json.mantelpack",
+      "sha256": "9e5182eb8c3739562a3ef4539994c2a370cb58bfd6872bef1b58f052727c7293",
+      "version": 1,
+      "expected": {
+        "host": {
+          "archive": "pass",
+          "json": "fail",
+          "schema": "not checked",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        },
+        "cli": {
+          "archive": "pass",
+          "json": "fail",
+          "schema": "not checked",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        },
+        "browser": {
+          "archive": "pass",
+          "json": "fail",
+          "schema": "not checked",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        }
+      }
+    },
+    {
+      "id": "wrong-definition-hash",
+      "file": "archives/wrong-definition-hash.mantelpack",
+      "sha256": "5901213420b7c28e04d4d5cec5b3ef2c7367a021deacdb1f27e8bc570caf1168",
+      "version": 1,
+      "expected": {
+        "host": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "fail",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        },
+        "cli": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "fail",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        },
+        "browser": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "fail",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        }
+      }
+    },
+    {
+      "id": "missing-document",
+      "file": "archives/missing-document.mantelpack",
+      "sha256": "0bfa4c1d1b9fcc61dd6e9477bebf2c3792772150f264bc966e1e47c60385bb14",
+      "version": 1,
+      "expected": {
+        "host": {
+          "archive": "fail",
+          "json": "not checked",
+          "schema": "not checked",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        },
+        "cli": {
+          "archive": "fail",
+          "json": "not checked",
+          "schema": "not checked",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        },
+        "browser": {
+          "archive": "fail",
+          "json": "not checked",
+          "schema": "not checked",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        }
+      }
+    },
+    {
+      "id": "extra-entry",
+      "file": "archives/extra-entry.mantelpack",
+      "sha256": "eb4ffcc55b741ee4361ac5d6f0cdbe2cb7c032d9d96b7c0ec9e9a71e096bed5e",
+      "version": 1,
+      "expected": {
+        "host": {
+          "archive": "fail",
+          "json": "not checked",
+          "schema": "not checked",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        },
+        "cli": {
+          "archive": "fail",
+          "json": "not checked",
+          "schema": "not checked",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        },
+        "browser": {
+          "archive": "fail",
+          "json": "not checked",
+          "schema": "not checked",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        }
+      }
+    },
+    {
+      "id": "traversal",
+      "file": "archives/traversal.mantelpack",
+      "sha256": "4e3655bb5346e2d73d82e49b3fc8d790fb6bac46f90ef6cc564e3694a9df31b0",
+      "version": 1,
+      "expected": {
+        "host": {
+          "archive": "fail",
+          "json": "not checked",
+          "schema": "not checked",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        },
+        "cli": {
+          "archive": "fail",
+          "json": "not checked",
+          "schema": "not checked",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        },
+        "browser": {
+          "archive": "fail",
+          "json": "not checked",
+          "schema": "not checked",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        }
+      }
+    },
+    {
+      "id": "duplicate-entry",
+      "file": "archives/duplicate-entry.mantelpack",
+      "sha256": "85f441b11ca72677f012f9cbc9924e3643a91740e54a6524a3bcb24bbced8991",
+      "version": 1,
+      "expected": {
+        "host": {
+          "archive": "fail",
+          "json": "not checked",
+          "schema": "not checked",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        },
+        "cli": {
+          "archive": "fail",
+          "json": "not checked",
+          "schema": "not checked",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        },
+        "browser": {
+          "archive": "fail",
+          "json": "not checked",
+          "schema": "not checked",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        }
+      }
+    },
+    {
+      "id": "case-collision",
+      "file": "archives/case-collision.mantelpack",
+      "sha256": "fc63b4467b70e914590d360e68743ed4e4201a8159ef0f3dacd21577041550d6",
+      "version": 1,
+      "expected": {
+        "host": {
+          "archive": "fail",
+          "json": "not checked",
+          "schema": "not checked",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        },
+        "cli": {
+          "archive": "fail",
+          "json": "not checked",
+          "schema": "not checked",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        },
+        "browser": {
+          "archive": "fail",
+          "json": "not checked",
+          "schema": "not checked",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        }
+      }
+    },
+    {
+      "id": "zip-comment",
+      "file": "archives/zip-comment.mantelpack",
+      "sha256": "22ced8db48ec433f93158f073ddb2c110c873f9f56b5efb6b5fc09786b83415a",
+      "version": 1,
+      "expected": {
+        "host": {
+          "archive": "fail",
+          "json": "not checked",
+          "schema": "not checked",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        },
+        "cli": {
+          "archive": "fail",
+          "json": "not checked",
+          "schema": "not checked",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        },
+        "browser": {
+          "archive": "fail",
+          "json": "not checked",
+          "schema": "not checked",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        }
+      }
+    },
+    {
+      "id": "zip-bzip2",
+      "file": "archives/zip-bzip2.mantelpack",
+      "sha256": "5d0443898066617148097406783caffb4cd9609959ec6366864164366a8f8f25",
+      "version": 1,
+      "expected": {
+        "host": {
+          "archive": "fail",
+          "json": "not checked",
+          "schema": "not checked",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        },
+        "cli": {
+          "archive": "fail",
+          "json": "not checked",
+          "schema": "not checked",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        },
+        "browser": {
+          "archive": "fail",
+          "json": "not checked",
+          "schema": "not checked",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        }
+      }
+    },
+    {
+      "id": "compression-bomb",
+      "file": "archives/compression-bomb.mantelpack",
+      "sha256": "7e38b50b3afb2364a5b827518700383dfccaae72b4eb536b4463dc8e9d77b1c0",
+      "version": 1,
+      "expected": {
+        "host": {
+          "archive": "fail",
+          "json": "not checked",
+          "schema": "not checked",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        },
+        "cli": {
+          "archive": "fail",
+          "json": "not checked",
+          "schema": "not checked",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        },
+        "browser": {
+          "archive": "fail",
+          "json": "not checked",
+          "schema": "not checked",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        }
+      }
+    },
+    {
+      "id": "split-zip",
+      "file": "archives/split-zip.mantelpack",
+      "sha256": "75f4edbbbe203c77e0ee05a9be03a71c3b4e1eaf8b6589f740d8c15b93dfe09f",
+      "version": 1,
+      "expected": {
+        "host": {
+          "archive": "fail",
+          "json": "not checked",
+          "schema": "not checked",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        },
+        "cli": {
+          "archive": "fail",
+          "json": "not checked",
+          "schema": "not checked",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        },
+        "browser": {
+          "archive": "fail",
+          "json": "not checked",
+          "schema": "not checked",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        }
+      }
+    },
+    {
+      "id": "unbounded-directory",
+      "file": "archives/unbounded-directory.mantelpack",
+      "sha256": "db81d394b27aa1ee7de3f8787a311ecbd209c2e6b0f6f6a1eab8243c0633b01b",
+      "version": 1,
+      "expected": {
+        "host": {
+          "archive": "fail",
+          "json": "not checked",
+          "schema": "not checked",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        },
+        "cli": {
+          "archive": "fail",
+          "json": "not checked",
+          "schema": "not checked",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        },
+        "browser": {
+          "archive": "fail",
+          "json": "not checked",
+          "schema": "not checked",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        }
+      }
+    },
+    {
+      "id": "zip64-count",
+      "file": "archives/zip64-count.mantelpack",
+      "sha256": "bfc97e6f52cee2ad051149c541e403ad9a35b3207912eed54793076e412314d4",
+      "version": 1,
+      "expected": {
+        "host": {
+          "archive": "fail",
+          "json": "not checked",
+          "schema": "not checked",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        },
+        "cli": {
+          "archive": "fail",
+          "json": "not checked",
+          "schema": "not checked",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        },
+        "browser": {
+          "archive": "fail",
+          "json": "not checked",
+          "schema": "not checked",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        }
+      }
+    },
+    {
+      "id": "zip64-masked-directory",
+      "file": "archives/zip64-masked-directory.mantelpack",
+      "sha256": "7461687572d6fd257eed2c8591d425ad836b35dbfe51bcc58d61eb5651f4c67b",
+      "version": 1,
+      "expected": {
+        "host": {
+          "archive": "fail",
+          "json": "not checked",
+          "schema": "not checked",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        },
+        "cli": {
+          "archive": "fail",
+          "json": "not checked",
+          "schema": "not checked",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        },
+        "browser": {
+          "archive": "fail",
+          "json": "not checked",
+          "schema": "not checked",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        }
+      }
+    },
+    {
+      "id": "symlink",
+      "file": "archives/symlink.mantelpack",
+      "sha256": "a761dda8679e59e072c6cc8415e6e07658257802560aa42e35ae639d6cf860bc",
+      "version": 1,
+      "expected": {
+        "host": {
+          "archive": "fail",
+          "json": "not checked",
+          "schema": "not checked",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        },
+        "cli": {
+          "archive": "fail",
+          "json": "not checked",
+          "schema": "not checked",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        },
+        "browser": {
+          "archive": "fail",
+          "json": "not checked",
+          "schema": "not checked",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        }
+      }
+    },
+    {
+      "id": "missing-layout-capability",
+      "file": "archives/missing-layout-capability.mantelpack",
+      "sha256": "15df977c8fdba41e0853fa05497840673832e21b02cb640b137fbbc9c7ac2643",
+      "version": 1,
+      "expected": {
+        "host": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "pass",
+          "capabilities": "fail",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        },
+        "cli": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "pass",
+          "capabilities": "fail",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        },
+        "browser": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "pass",
+          "capabilities": "fail",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        }
+      }
+    },
+    {
+      "id": "failing-palette",
+      "file": "archives/failing-palette.mantelpack",
+      "sha256": "8f8992f90fed6681861c8379aeabb6f7d5fd1b6f5bf1e0f6a9e255270ed0ad7e",
+      "version": 1,
+      "expected": {
+        "host": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "fail",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        },
+        "cli": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "fail",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        },
+        "browser": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "fail",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        }
+      }
+    },
+    {
+      "id": "scrim-contrast",
+      "file": "archives/scrim-contrast.mantelpack",
+      "sha256": "9d7945b5393d7ffe03929850fe7ba8da68706ea7c50fb3358f0785f73d10bc02",
+      "version": 1,
+      "expected": {
+        "host": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "pass",
+          "capabilities": "pass",
+          "contrast": "fail",
+          "media": "not checked",
+          "trust": "not checked"
+        },
+        "cli": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "pass",
+          "capabilities": "pass",
+          "contrast": "fail",
+          "media": "not checked",
+          "trust": "not checked"
+        },
+        "browser": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "pass",
+          "capabilities": "pass",
+          "contrast": "fail",
+          "media": "not checked",
+          "trust": "not checked"
+        }
+      }
+    },
+    {
+      "id": "clock-block",
+      "file": "archives/clock-block.mantelpack",
+      "sha256": "9b3f9c9d96475c1395c12d4838396db52d077933ae96259c8b4cc10198237e3b",
+      "version": 1,
+      "expected": {
+        "host": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "pass",
+          "capabilities": "pass",
+          "contrast": "pass",
+          "media": "not applicable",
+          "trust": "not checked"
+        },
+        "cli": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "pass",
+          "capabilities": "pass",
+          "contrast": "pass",
+          "media": "not applicable",
+          "trust": "not checked"
+        },
+        "browser": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "pass",
+          "capabilities": "pass",
+          "contrast": "pass",
+          "media": "not checked",
+          "trust": "not checked"
+        }
+      }
+    },
+    {
+      "id": "v1-coerced-enabled",
+      "file": "archives/v1-coerced-enabled.mantelpack",
+      "sha256": "eaaf2351c48ca32622654dd60d7d99d9c056b80bb95de8dd3f41403904c6497e",
+      "version": 1,
+      "expected": {
+        "host": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "pass",
+          "capabilities": "pass",
+          "contrast": "pass",
+          "media": "not applicable",
+          "trust": "not checked"
+        },
+        "cli": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "pass",
+          "capabilities": "pass",
+          "contrast": "pass",
+          "media": "not applicable",
+          "trust": "not checked"
+        },
+        "browser": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "pass",
+          "capabilities": "pass",
+          "contrast": "pass",
+          "media": "not checked",
+          "trust": "not checked"
+        }
+      }
+    },
+    {
+      "id": "v1-coerced-scalars",
+      "file": "archives/v1-coerced-scalars.mantelpack",
+      "sha256": "36e0034b64ab74016325708eb32d5b54b501f894dc6135c35790e08154be51ec",
+      "version": 1,
+      "expected": {
+        "host": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "pass",
+          "capabilities": "pass",
+          "contrast": "pass",
+          "media": "not applicable",
+          "trust": "not checked"
+        },
+        "cli": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "pass",
+          "capabilities": "pass",
+          "contrast": "pass",
+          "media": "not applicable",
+          "trust": "not checked"
+        },
+        "browser": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "pass",
+          "capabilities": "pass",
+          "contrast": "pass",
+          "media": "not checked",
+          "trust": "not checked"
+        }
+      }
+    },
+    {
+      "id": "strict-background-boolean",
+      "file": "archives/strict-background-boolean.mantelpack",
+      "sha256": "daecde9794aeacecccc8c974787fe49112169aa20404bf86a184a6b6d3cb655f",
+      "version": 1,
+      "expected": {
+        "host": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "fail",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        },
+        "cli": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "fail",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        },
+        "browser": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "fail",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        }
+      }
+    },
+    {
+      "id": "v1-integer-bom",
+      "file": "archives/v1-integer-bom.mantelpack",
+      "sha256": "8b33cd10bd5b174a416befbb0eb968c0a89260f6411e18f5c091d0b870fae7bc",
+      "version": 1,
+      "expected": {
+        "host": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "fail",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        },
+        "cli": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "fail",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        },
+        "browser": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "fail",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        }
+      }
+    },
+    {
+      "id": "v1-focus-bom",
+      "file": "archives/v1-focus-bom.mantelpack",
+      "sha256": "dc0e9457a992a90015c8133b5ce53443ea7b985f2aa50dddc1bad8116e137403",
+      "version": 1,
+      "expected": {
+        "host": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "fail",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        },
+        "cli": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "fail",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        },
+        "browser": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "fail",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        }
+      }
+    },
+    {
+      "id": "v1-unicode-attribution",
+      "file": "archives/v1-unicode-attribution.mantelpack",
+      "sha256": "0f590988bf96ee3ace66ef39c0984f8232b49131f9125a1f603036c8df882d18",
+      "version": 1,
+      "expected": {
+        "host": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "pass",
+          "capabilities": "pass",
+          "contrast": "pass",
+          "media": "not applicable",
+          "trust": "not checked"
+        },
+        "cli": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "pass",
+          "capabilities": "pass",
+          "contrast": "pass",
+          "media": "not applicable",
+          "trust": "not checked"
+        },
+        "browser": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "pass",
+          "capabilities": "pass",
+          "contrast": "pass",
+          "media": "not checked",
+          "trust": "not checked"
+        }
+      }
+    },
+    {
+      "id": "strict-override-boolean",
+      "file": "archives/strict-override-boolean.mantelpack",
+      "sha256": "fa9585dc144b3457266884faf20ab7951a5179bb2f966f4069a559a653a23e4d",
+      "version": 1,
+      "expected": {
+        "host": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "fail",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        },
+        "cli": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "fail",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        },
+        "browser": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "fail",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        }
+      }
+    },
+    {
+      "id": "forbidden-setting",
+      "file": "archives/forbidden-setting.mantelpack",
+      "sha256": "7bd618e48b5723444bad2bc65eddc2f0887b1b84fe7d71242d993c7b72fe40f5",
+      "version": 1,
+      "expected": {
+        "host": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "fail",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        },
+        "cli": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "fail",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        },
+        "browser": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "fail",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        }
+      }
+    },
+    {
+      "id": "missing-source-slot",
+      "file": "archives/missing-source-slot.mantelpack",
+      "sha256": "cada5c7c7e2ac92e94adc143a116d451c489274805d40395de9bc7e780a39848",
+      "version": 1,
+      "expected": {
+        "host": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "fail",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        },
+        "cli": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "fail",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        },
+        "browser": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "fail",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        }
+      }
+    },
+    {
+      "id": "pack-valid",
+      "file": "archives/pack-valid.mantelpack",
+      "sha256": "6a3e679d0b9454746adcae31bb33e075338c786bf7f5207bb4b2b52816b7c4df",
+      "version": 2,
+      "expected": {
+        "host": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "pass",
+          "capabilities": "pass",
+          "contrast": "pass",
+          "media": "pass",
+          "trust": "not checked"
+        },
+        "cli": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "pass",
+          "capabilities": "pass",
+          "contrast": "pass",
+          "media": "pass",
+          "trust": "not checked"
+        },
+        "browser": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "pass",
+          "capabilities": "pass",
+          "contrast": "pass",
+          "media": "not checked",
+          "trust": "not checked"
+        }
+      }
+    },
+    {
+      "id": "pack-unicode-credit",
+      "file": "archives/pack-unicode-credit.mantelpack",
+      "sha256": "1be6b055b54ef945a2c714039649d52848abed45c1ad60c50b6d626841e4d375",
+      "version": 2,
+      "expected": {
+        "host": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "pass",
+          "capabilities": "pass",
+          "contrast": "pass",
+          "media": "pass",
+          "trust": "not checked"
+        },
+        "cli": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "pass",
+          "capabilities": "pass",
+          "contrast": "pass",
+          "media": "pass",
+          "trust": "not checked"
+        },
+        "browser": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "pass",
+          "capabilities": "pass",
+          "contrast": "pass",
+          "media": "not checked",
+          "trust": "not checked"
+        }
+      }
+    },
+    {
+      "id": "strict-pack-number",
+      "file": "archives/strict-pack-number.mantelpack",
+      "sha256": "860b674d71ab003f676c1cff862a1055e1a783f23bd0a4195440a3a10e96b5d8",
+      "version": 2,
+      "expected": {
+        "host": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "fail",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        },
+        "cli": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "fail",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        },
+        "browser": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "fail",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        }
+      }
+    },
+    {
+      "id": "pack-missing-default",
+      "file": "archives/pack-missing-default.mantelpack",
+      "sha256": "9ab469257c0c974ffd8d9f3bb097285fcd4b389fcb8196076e3b82cddccbabb9",
+      "version": 2,
+      "expected": {
+        "host": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "fail",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        },
+        "cli": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "fail",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        },
+        "browser": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "fail",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        }
+      }
+    },
+    {
+      "id": "duration-below-min",
+      "file": "archives/duration-below-min.mantelpack",
+      "sha256": "c894ec7e03b75eba2e467da38aaf7425dde9e9107d798f2608c80bb6ab4cfe32",
+      "version": 2,
+      "expected": {
+        "host": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "fail",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        },
+        "cli": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "fail",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        },
+        "browser": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "fail",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        }
+      }
+    },
+    {
+      "id": "duration-subcentisecond",
+      "file": "archives/duration-subcentisecond.mantelpack",
+      "sha256": "4c12b1af62c59167ed44f9d3e2835fff8c34eb9b6698e6054bdc078c4fcba166",
+      "version": 2,
+      "expected": {
+        "host": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "fail",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        },
+        "cli": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "fail",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        },
+        "browser": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "fail",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        }
+      }
+    },
+    {
+      "id": "duration-exponent",
+      "file": "archives/duration-exponent.mantelpack",
+      "sha256": "03e55379df3d8a3a9e79c00f20be9b2880516136a8a9e9f3a90072d10921c741",
+      "version": 2,
+      "expected": {
+        "host": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "fail",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        },
+        "cli": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "fail",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        },
+        "browser": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "fail",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        }
+      }
+    },
+    {
+      "id": "duration-above-max",
+      "file": "archives/duration-above-max.mantelpack",
+      "sha256": "1947f52935aa940de287eff2ed64bbb50ee0a8a2ae048920feea0e8be0ba54c6",
+      "version": 2,
+      "expected": {
+        "host": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "fail",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        },
+        "cli": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "fail",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        },
+        "browser": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "fail",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        }
+      }
+    },
+    {
+      "id": "pack-missing-resource",
+      "file": "archives/pack-missing-resource.mantelpack",
+      "sha256": "786db7a8b50c4cff66b8485dee379299a0f318ca7d537f7bce950b02275d991d",
+      "version": 2,
+      "expected": {
+        "host": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "fail",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        },
+        "cli": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "fail",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        },
+        "browser": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "fail",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        }
+      }
+    },
+    {
+      "id": "resource-hash",
+      "file": "archives/resource-hash.mantelpack",
+      "sha256": "b50d460e1e77286ce41f7152363c2615fabf1b3419688c2030b093b3432c067a",
+      "version": 2,
+      "expected": {
+        "host": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "pass",
+          "capabilities": "pass",
+          "contrast": "pass",
+          "media": "fail",
+          "trust": "not checked"
+        },
+        "cli": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "pass",
+          "capabilities": "pass",
+          "contrast": "pass",
+          "media": "fail",
+          "trust": "not checked"
+        },
+        "browser": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "pass",
+          "capabilities": "pass",
+          "contrast": "pass",
+          "media": "not checked",
+          "trust": "not checked"
+        }
+      }
+    },
+    {
+      "id": "png-metadata",
+      "file": "archives/png-metadata.mantelpack",
+      "sha256": "8ebf3505c1ac17bf6267caa87a74844584454d56792e5f9e957beb6ba6b84529",
+      "version": 2,
+      "expected": {
+        "host": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "pass",
+          "capabilities": "pass",
+          "contrast": "pass",
+          "media": "fail",
+          "trust": "not checked"
+        },
+        "cli": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "pass",
+          "capabilities": "pass",
+          "contrast": "pass",
+          "media": "fail",
+          "trust": "not checked"
+        },
+        "browser": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "pass",
+          "capabilities": "pass",
+          "contrast": "pass",
+          "media": "not checked",
+          "trust": "not checked"
+        }
+      }
+    },
+    {
+      "id": "image-pixel-budget",
+      "file": "archives/image-pixel-budget.mantelpack",
+      "sha256": "9663e4065952134501454919dbcd05afadc4a59715b57ef588a85316831b8d9c",
+      "version": 2,
+      "expected": {
+        "host": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "pass",
+          "capabilities": "pass",
+          "contrast": "pass",
+          "media": "fail",
+          "trust": "not checked"
+        },
+        "cli": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "pass",
+          "capabilities": "pass",
+          "contrast": "pass",
+          "media": "fail",
+          "trust": "not checked"
+        },
+        "browser": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "pass",
+          "capabilities": "pass",
+          "contrast": "pass",
+          "media": "not checked",
+          "trust": "not checked"
+        }
+      }
+    },
+    {
+      "id": "image-pixel-warning",
+      "file": "archives/image-pixel-warning.mantelpack",
+      "sha256": "2837bafdf509bd5199028ca57dc9d3b2dc2aecc9c272e50ce7404e7da7e3b75b",
+      "version": 2,
+      "expected": {
+        "host": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "pass",
+          "capabilities": "pass",
+          "contrast": "pass",
+          "media": "fail",
+          "trust": "not checked"
+        },
+        "cli": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "pass",
+          "capabilities": "pass",
+          "contrast": "pass",
+          "media": "fail",
+          "trust": "not checked"
+        },
+        "browser": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "pass",
+          "capabilities": "pass",
+          "contrast": "pass",
+          "media": "not checked",
+          "trust": "not checked"
+        }
+      }
+    },
+    {
+      "id": "id3-title",
+      "file": "archives/id3-title.mantelpack",
+      "sha256": "8472c6d960dc993c0c555ac6fd4dc9a5684003861dcc34d1a1a0257c8b80a41a",
+      "version": 2,
+      "expected": {
+        "host": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "pass",
+          "capabilities": "pass",
+          "contrast": "pass",
+          "media": "fail",
+          "trust": "not checked"
+        },
+        "cli": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "pass",
+          "capabilities": "pass",
+          "contrast": "pass",
+          "media": "fail",
+          "trust": "not checked"
+        },
+        "browser": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "pass",
+          "capabilities": "pass",
+          "contrast": "pass",
+          "media": "not checked",
+          "trust": "not checked"
+        }
+      }
+    },
+    {
+      "id": "mp3-truncated",
+      "file": "archives/mp3-truncated.mantelpack",
+      "sha256": "e9d6f985d33edb63f11f45a51ad56f649411a2fc8ac6459f56207f43370604d1",
+      "version": 2,
+      "expected": {
+        "host": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "pass",
+          "capabilities": "pass",
+          "contrast": "pass",
+          "media": "fail",
+          "trust": "not checked"
+        },
+        "cli": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "pass",
+          "capabilities": "pass",
+          "contrast": "pass",
+          "media": "fail",
+          "trust": "not checked"
+        },
+        "browser": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "pass",
+          "capabilities": "pass",
+          "contrast": "pass",
+          "media": "not checked",
+          "trust": "not checked"
+        }
+      }
+    },
+    {
+      "id": "mp3-duration-mismatch",
+      "file": "archives/mp3-duration-mismatch.mantelpack",
+      "sha256": "433827613ee88081a6e3ec1f0fd0f7a5c084f57513b41832c0febe1c14864ac1",
+      "version": 2,
+      "expected": {
+        "host": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "pass",
+          "capabilities": "pass",
+          "contrast": "pass",
+          "media": "fail",
+          "trust": "not checked"
+        },
+        "cli": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "pass",
+          "capabilities": "pass",
+          "contrast": "pass",
+          "media": "fail",
+          "trust": "not checked"
+        },
+        "browser": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "pass",
+          "capabilities": "pass",
+          "contrast": "pass",
+          "media": "not checked",
+          "trust": "not checked"
+        }
+      }
+    },
+    {
+      "id": "layout-arrangement",
+      "file": "archives/layout-arrangement.mantelpack",
+      "sha256": "616e49301c7a782e8be3f746fa0de397d2a560e78df6fe8dcfc2684d4b667b71",
+      "version": 1,
+      "expected": {
+        "host": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "pass",
+          "capabilities": "pass",
+          "contrast": "pass",
+          "media": "not applicable",
+          "trust": "not checked"
+        },
+        "cli": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "pass",
+          "capabilities": "pass",
+          "contrast": "pass",
+          "media": "not applicable",
+          "trust": "not checked"
+        },
+        "browser": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "pass",
+          "capabilities": "pass",
+          "contrast": "pass",
+          "media": "not checked",
+          "trust": "not checked"
+        }
+      }
+    },
+    {
+      "id": "layout-landscape",
+      "file": "archives/layout-landscape.mantelpack",
+      "sha256": "e375eca6506bff2c663ea5b15dcf2fcb8f89ac7e2e4a74eabc32e2fb45427309",
+      "version": 1,
+      "expected": {
+        "host": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "pass",
+          "capabilities": "pass",
+          "contrast": "pass",
+          "media": "not applicable",
+          "trust": "not checked"
+        },
+        "cli": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "pass",
+          "capabilities": "pass",
+          "contrast": "pass",
+          "media": "not applicable",
+          "trust": "not checked"
+        },
+        "browser": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "pass",
+          "capabilities": "pass",
+          "contrast": "pass",
+          "media": "not checked",
+          "trust": "not checked"
+        }
+      }
+    },
+    {
+      "id": "layout-purpose",
+      "file": "archives/layout-purpose.mantelpack",
+      "sha256": "6269eb9e66cdcc41c1b64da7c033b8c216044d4488d185956312fa02d438251e",
+      "version": 1,
+      "expected": {
+        "host": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "pass",
+          "capabilities": "pass",
+          "contrast": "pass",
+          "media": "not applicable",
+          "trust": "not checked"
+        },
+        "cli": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "pass",
+          "capabilities": "pass",
+          "contrast": "pass",
+          "media": "not applicable",
+          "trust": "not checked"
+        },
+        "browser": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "pass",
+          "capabilities": "pass",
+          "contrast": "pass",
+          "media": "not checked",
+          "trust": "not checked"
+        }
+      }
+    },
+    {
+      "id": "layout-missing-capability",
+      "file": "archives/layout-missing-capability.mantelpack",
+      "sha256": "83da392fa54f1b255ed5ed55c317b3595db5e0dd1112f20fa5f59a2a24a352fc",
+      "version": 1,
+      "expected": {
+        "host": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "pass",
+          "capabilities": "fail",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        },
+        "cli": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "pass",
+          "capabilities": "fail",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        },
+        "browser": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "pass",
+          "capabilities": "fail",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        }
+      }
+    },
+    {
+      "id": "layout-overlap",
+      "file": "archives/layout-overlap.mantelpack",
+      "sha256": "ce6da939d2c87dcb5c09f176beeddeff94cf43130c8be0fa2de9a3b2fbbaa703",
+      "version": 1,
+      "expected": {
+        "host": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "fail",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        },
+        "cli": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "fail",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        },
+        "browser": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "fail",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        }
+      }
+    },
+    {
+      "id": "layout-bounds",
+      "file": "archives/layout-bounds.mantelpack",
+      "sha256": "b2162633eca82b88ac28b35461365f214adb6e632b0eb755be29b9c2d670ff61",
+      "version": 1,
+      "expected": {
+        "host": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "fail",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        },
+        "cli": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "fail",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        },
+        "browser": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "fail",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        }
+      }
+    },
+    {
+      "id": "layout-partial-cell",
+      "file": "archives/layout-partial-cell.mantelpack",
+      "sha256": "d7f7eb2a9f463f81d17bd6aa24e289ba431051b5c14318c8e982f43873ee60ef",
+      "version": 1,
+      "expected": {
+        "host": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "fail",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        },
+        "cli": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "fail",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        },
+        "browser": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "fail",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        }
+      }
+    },
+    {
+      "id": "layout-unknown-id",
+      "file": "archives/layout-unknown-id.mantelpack",
+      "sha256": "58992f0e3b6f141fc30d104c6df9845088af32f8d39b9290b4343104fa31364c",
+      "version": 1,
+      "expected": {
+        "host": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "fail",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        },
+        "cli": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "fail",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        },
+        "browser": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "fail",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        }
+      }
+    },
+    {
+      "id": "layout-missing-id",
+      "file": "archives/layout-missing-id.mantelpack",
+      "sha256": "6c0a2f133dc50036fbbcbcba8724170263593b2029e9121d675a71e7937f4269",
+      "version": 1,
+      "expected": {
+        "host": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "fail",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        },
+        "cli": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "fail",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        },
+        "browser": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "fail",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        }
+      }
+    },
+    {
+      "id": "layout-portrait-bounds",
+      "file": "archives/layout-portrait-bounds.mantelpack",
+      "sha256": "d98a6342ef53c52305dc9809b2014b0f2b312c7ee07b86c6e143296ab7d29a30",
+      "version": 1,
+      "expected": {
+        "host": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "fail",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        },
+        "cli": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "fail",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        },
+        "browser": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "fail",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        }
+      }
+    },
+    {
+      "id": "layout-portrait-overlap",
+      "file": "archives/layout-portrait-overlap.mantelpack",
+      "sha256": "64382ca196f8411e46db967a3f2130d8cd683c60e8a1fb2249295f5d30952af3",
+      "version": 1,
+      "expected": {
+        "host": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "fail",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        },
+        "cli": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "fail",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        },
+        "browser": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "fail",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        }
+      }
+    },
+    {
+      "id": "layout-bad-purpose",
+      "file": "archives/layout-bad-purpose.mantelpack",
+      "sha256": "7524deefb2c4112e250578285cd393a21281683e4aa75b90989fd842fce81427",
+      "version": 1,
+      "expected": {
+        "host": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "fail",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        },
+        "cli": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "fail",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        },
+        "browser": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "fail",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        }
+      }
+    },
+    {
+      "id": "layout-wrong-kind",
+      "file": "archives/layout-wrong-kind.mantelpack",
+      "sha256": "8aff0aa114a5e1a291e8f6adc994e31f0a06c85207e9419f8921f7bd8c93374a",
+      "version": 1,
+      "expected": {
+        "host": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "fail",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        },
+        "cli": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "fail",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        },
+        "browser": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "fail",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        }
+      }
+    },
+    {
+      "id": "layout-wrong-layout",
+      "file": "archives/layout-wrong-layout.mantelpack",
+      "sha256": "2b1b436ad27df78b9b371c0543e6c4e714b4670d0bae5b2e9aa40d177ce45637",
+      "version": 1,
+      "expected": {
+        "host": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "fail",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        },
+        "cli": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "fail",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        },
+        "browser": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "fail",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        }
+      }
+    },
+    {
+      "id": "layout-coerced-cell",
+      "file": "archives/layout-coerced-cell.mantelpack",
+      "sha256": "63cef6df42f60181dd6f3ee4b633d383b6f2fed40b1fc3bcab241595d770c4c8",
+      "version": 1,
+      "expected": {
+        "host": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "fail",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        },
+        "cli": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "fail",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        },
+        "browser": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "fail",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        }
+      }
+    },
+    {
+      "id": "layout-setup",
+      "file": "archives/layout-setup.mantelpack",
+      "sha256": "149825407922234533936f5521d4b622cab8d00bf50a112fb6b68381fb30ad07",
+      "version": 1,
+      "expected": {
+        "host": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "pass",
+          "capabilities": "pass",
+          "contrast": "pass",
+          "media": "not applicable",
+          "trust": "not checked"
+        },
+        "cli": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "pass",
+          "capabilities": "pass",
+          "contrast": "pass",
+          "media": "not applicable",
+          "trust": "not checked"
+        },
+        "browser": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "pass",
+          "capabilities": "pass",
+          "contrast": "pass",
+          "media": "not checked",
+          "trust": "not checked"
+        }
+      }
+    },
+    {
+      "id": "layout-setup-missing-capability",
+      "file": "archives/layout-setup-missing-capability.mantelpack",
+      "sha256": "d0207ee9e09e6e2b1c7164cca3b2db457e2f5e14317016f45ebb176bdada8953",
+      "version": 1,
+      "expected": {
+        "host": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "pass",
+          "capabilities": "fail",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        },
+        "cli": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "pass",
+          "capabilities": "fail",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        },
+        "browser": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "pass",
+          "capabilities": "fail",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        }
+      }
+    },
+    {
+      "id": "layout-public-preset",
+      "file": "archives/layout-public-preset.mantelpack",
+      "sha256": "8974284bc487915929467e71f27140625cb2d237ccebd47b4544733e11266863",
+      "version": 1,
+      "expected": {
+        "host": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "pass",
+          "capabilities": "pass",
+          "contrast": "pass",
+          "media": "not applicable",
+          "trust": "not checked"
+        },
+        "cli": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "pass",
+          "capabilities": "pass",
+          "contrast": "pass",
+          "media": "not applicable",
+          "trust": "not checked"
+        },
+        "browser": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "pass",
+          "capabilities": "pass",
+          "contrast": "pass",
+          "media": "not checked",
+          "trust": "not checked"
+        }
+      }
+    },
+    {
+      "id": "layout-setup-unknown-slot",
+      "file": "archives/layout-setup-unknown-slot.mantelpack",
+      "sha256": "e4c38e49fc55e75006df8b5c5116e74776f378dc51413a64dcd237fcdfbfc287",
+      "version": 1,
+      "expected": {
+        "host": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "fail",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        },
+        "cli": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "fail",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        },
+        "browser": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "fail",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        }
+      }
+    },
+    {
+      "id": "layout-setup-wrong-prompt-kind",
+      "file": "archives/layout-setup-wrong-prompt-kind.mantelpack",
+      "sha256": "1d0c6cbadba66e7c80caa9179008e65cfaa0eb237611641c7952734f6d8a4eb3",
+      "version": 1,
+      "expected": {
+        "host": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "fail",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        },
+        "cli": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "fail",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        },
+        "browser": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "fail",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        }
+      }
+    },
+    {
+      "id": "layout-setup-duplicate",
+      "file": "archives/layout-setup-duplicate.mantelpack",
+      "sha256": "88ebd5890141492fc762c87ad95f51b89ae8ba5a9f3d54269a2c6b353b23e751",
+      "version": 1,
+      "expected": {
+        "host": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "fail",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        },
+        "cli": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "fail",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        },
+        "browser": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "fail",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        }
+      }
+    },
+    {
+      "id": "layout-setup-household-value",
+      "file": "archives/layout-setup-household-value.mantelpack",
+      "sha256": "d0040ceda09e98718bc7fa524f723a75818f70bcddb0c234d4518d555fa92e13",
+      "version": 1,
+      "expected": {
+        "host": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "fail",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        },
+        "cli": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "fail",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        },
+        "browser": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "fail",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        }
+      }
+    },
+    {
+      "id": "layout-setup-wrong-kind",
+      "file": "archives/layout-setup-wrong-kind.mantelpack",
+      "sha256": "22995e1a0ba3805ad3a8ffe2f94eadce1f76cf033933f5a763ac0f678d6fca77",
+      "version": 1,
+      "expected": {
+        "host": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "fail",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        },
+        "cli": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "fail",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        },
+        "browser": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "fail",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        }
+      }
+    },
+    {
+      "id": "layout-setup-suggestion-kind",
+      "file": "archives/layout-setup-suggestion-kind.mantelpack",
+      "sha256": "e6074f897072033c319a9d3117c51f2faabfd5435dbe942e7c2a098f3197a598",
+      "version": 1,
+      "expected": {
+        "host": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "fail",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        },
+        "cli": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "fail",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        },
+        "browser": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "fail",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        }
+      }
+    },
+    {
+      "id": "layout-setup-suggestion-config",
+      "file": "archives/layout-setup-suggestion-config.mantelpack",
+      "sha256": "962855fc6c2aa05b39b12647e6dbacc5e08a5a9bfaaedf72fda51c57355ef30f",
+      "version": 1,
+      "expected": {
+        "host": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "fail",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        },
+        "cli": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "fail",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        },
+        "browser": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "fail",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        }
+      }
+    },
+    {
+      "id": "layout-private-preset",
+      "file": "archives/layout-private-preset.mantelpack",
+      "sha256": "6c8378fe9c707deb1c7349b2d74696abc8fe346a49ca7772c05356e700e55529",
+      "version": 1,
+      "expected": {
+        "host": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "fail",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        },
+        "cli": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "fail",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        },
+        "browser": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "fail",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        }
+      }
+    }
+  ],
+  "canonical": [
+    {
+      "id": "theme-defaults",
+      "model": "definition-v1",
+      "input": {
+        "kind": "theme",
+        "name": "Defaults"
+      },
+      "file": "canonical/theme-defaults.json",
+      "sha256": "589556f948ac884455e5b890780ece19fcec9babed90da17e6d08a351dc15487"
+    },
+    {
+      "id": "provenance-canonical",
+      "model": "composition-v2",
+      "input": {
+        "appearance": {
+          "layout": "flow",
+          "background": "theme",
+          "font": "theme",
+          "spacing": "standard",
+          "tokens": {}
+        },
+        "placements": {},
+        "schema_version": 2,
+        "state": "draft",
+        "layout_policy": "flow",
+        "origin": null,
+        "dependencies": [
+          {
+            "id": "friend/fixture",
+            "version": "1.0.0",
+            "digest": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+          }
+        ],
+        "block_origins": {
+          "clock-2": {
+            "id": "friend/fixture",
+            "version": "1.0.0",
+            "digest": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+          }
+        },
+        "library_applications": {
+          "application-1": {
+            "definition": {
+              "id": "friend/fixture",
+              "version": "1.0.0",
+              "digest": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+            },
+            "blocks": {
+              "clock": [
+                "clock-2"
+              ]
+            },
+            "look": "modern"
+          }
+        },
+        "bindings": {},
+        "required_capabilities": [
+          "composition-v2",
+          "library-provenance-v1"
+        ]
+      },
+      "file": "canonical/provenance-canonical.json",
+      "sha256": "ac8691b655658eb34c6dee25a3d0a558f18673e45ca417c3963acf0d4713621b"
+    },
+    {
+      "id": "provenance-normalized-canonical",
+      "model": "composition-v2",
+      "input": {
+        "appearance": {
+          "layout": "flow",
+          "background": "theme",
+          "font": "theme",
+          "spacing": "standard",
+          "tokens": {}
+        },
+        "placements": {},
+        "schema_version": 2,
+        "state": "draft",
+        "layout_policy": "flow",
+        "origin": null,
+        "dependencies": [
+          {
+            "id": "friend/fixture",
+            "version": "1.0.0",
+            "digest": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+          }
+        ],
+        "block_origins": {
+          "second": {
+            "id": "friend/fixture",
+            "version": "1.0.0",
+            "digest": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+          }
+        },
+        "library_applications": {
+          "same": {
+            "definition": {
+              "id": "friend/fixture",
+              "version": "1.0.0",
+              "digest": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+            },
+            "blocks": {
+              "authored": [
+                "first"
+              ]
+            }
+          },
+          " same ": {
+            "definition": {
+              "id": "friend/fixture",
+              "version": "1.0.0",
+              "digest": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+            },
+            "blocks": {
+              "authored": [
+                "second"
+              ]
+            }
+          }
+        },
+        "bindings": {},
+        "required_capabilities": [
+          "composition-v2",
+          "library-provenance-v1"
+        ]
+      },
+      "file": "canonical/provenance-normalized-canonical.json",
+      "sha256": "38e3bf758c74e9746be4eb41f20cc9695dae14f01dfabf9a98ffb78d7f85ad95"
+    },
+    {
+      "id": "provenance-empty-canonical",
+      "model": "composition-v2",
+      "input": {
+        "appearance": {
+          "layout": "flow",
+          "background": "theme",
+          "font": "theme",
+          "spacing": "standard",
+          "tokens": {}
+        },
+        "placements": {},
+        "schema_version": 2,
+        "state": "draft",
+        "layout_policy": "flow",
+        "origin": null,
+        "dependencies": [],
+        "bindings": {},
+        "required_capabilities": [],
+        "block_origins": {},
+        "library_applications": {},
+        "legacy_dependencies": []
+      },
+      "file": "canonical/provenance-empty-canonical.json",
+      "sha256": "48811f06d94e3a2ab5322e8cdb2b596e8bef0edd2e4fc27ee2fc84af7caaf229"
+    },
+    {
+      "id": "layout-setup-canonical",
+      "model": "definition-v1",
+      "input": {
+        "kind": "content",
+        "name": "Weather setup",
+        "blocks": [
+          {
+            "id": "weather",
+            "kind": "weather",
+            "source_slot": "weather"
+          }
+        ],
+        "source_slots": [
+          {
+            "id": "weather",
+            "kind": "weather",
+            "suggested_source": {
+              "kind": "weather"
+            }
+          }
+        ],
+        "setup": [
+          {
+            "source_slot": "weather",
+            "field": "city",
+            "required": true
+          },
+          {
+            "source_slot": "weather",
+            "field": "units"
+          }
+        ]
+      },
+      "file": "canonical/layout-setup-canonical.json",
+      "sha256": "3eb44bb465a3c8019a29d351df645967a29fb785e1afc915b2b0d0197d403305"
+    },
+    {
+      "id": "layout-preset-canonical",
+      "model": "definition-v1",
+      "input": {
+        "kind": "content",
+        "name": "Public artwork",
+        "blocks": [
+          {
+            "id": "art",
+            "kind": "image",
+            "source_slot": "art",
+            "settings": {
+              "mat_style": "full_bleed"
+            }
+          }
+        ],
+        "source_slots": [
+          {
+            "id": "art",
+            "kind": "image",
+            "suggested_source": {
+              "kind": "image",
+              "preset_id": "bundled-open-art"
+            }
+          }
+        ]
+      },
+      "file": "canonical/layout-preset-canonical.json",
+      "sha256": "333a243469ba4b4e1afd3cb8336bed5a8e39e16086b040627d3eb078d939607c"
+    },
+    {
+      "id": "layout-arrangement-canonical",
+      "model": "definition-v1",
+      "input": {
+        "kind": "content",
+        "name": "Two clocks",
+        "purpose": "gallery",
+        "appearance": {
+          "layout": "grid"
+        },
+        "blocks": [
+          {
+            "id": "first",
+            "kind": "clock"
+          },
+          {
+            "id": "second",
+            "kind": "clock"
+          }
+        ],
+        "arrangement": {
+          "landscape": {
+            "first": {
+              "col_start": 1,
+              "row_start": 1,
+              "col_span": 6,
+              "row_span": 6
+            },
+            "second": {
+              "col_start": 7,
+              "row_start": 1,
+              "col_span": 6,
+              "row_span": 6
+            }
+          },
+          "portrait": {
+            "first": {
+              "col_start": 1,
+              "row_start": 1,
+              "col_span": 6,
+              "row_span": 6
+            },
+            "second": {
+              "col_start": 1,
+              "row_start": 7,
+              "col_span": 6,
+              "row_span": 6
+            }
+          }
+        }
+      },
+      "file": "canonical/layout-arrangement-canonical.json",
+      "sha256": "73f17f46aafec398c72ab60b4f614b583944aa18fde2f7ad6e30e660e7cb0346"
+    },
+    {
+      "id": "layout-landscape-canonical",
+      "model": "definition-v1",
+      "input": {
+        "kind": "content",
+        "name": "Two clocks",
+        "purpose": "gallery",
+        "appearance": {
+          "layout": "grid"
+        },
+        "blocks": [
+          {
+            "id": "first",
+            "kind": "clock"
+          },
+          {
+            "id": "second",
+            "kind": "clock"
+          }
+        ],
+        "arrangement": {
+          "landscape": {
+            "first": {
+              "col_start": 1,
+              "row_start": 1,
+              "col_span": 6,
+              "row_span": 6
+            },
+            "second": {
+              "col_start": 7,
+              "row_start": 1,
+              "col_span": 6,
+              "row_span": 6
+            }
+          }
+        }
+      },
+      "file": "canonical/layout-landscape-canonical.json",
+      "sha256": "616716a32c037c9801aa2ae60e66abd623319d0ec4a1872ced77bd1707d16a05"
+    },
+    {
+      "id": "layout-purpose-canonical",
+      "model": "definition-v1",
+      "input": {
+        "kind": "content",
+        "name": "Two clocks",
+        "purpose": "gallery",
+        "blocks": [
+          {
+            "id": "first",
+            "kind": "clock"
+          },
+          {
+            "id": "second",
+            "kind": "clock"
+          }
+        ]
+      },
+      "file": "canonical/layout-purpose-canonical.json",
+      "sha256": "40cca73b07cf0b2f16a01d62c5ad461ad4f19c266705f5792c9954470514eba1"
+    },
+    {
+      "id": "v1-coerced-scalars",
+      "model": "definition-v1",
+      "input": {
+        "kind": "block",
+        "name": "Custom values",
+        "blocks": [
+          {
+            "id": "custom",
+            "kind": "custom",
+            "enabled": "OFF",
+            "source_slot": "values",
+            "settings": {
+              "responsive": {
+                "glance": {
+                  "rows": [
+                    {
+                      "field": "value",
+                      "lines": "0_1"
+                    }
+                  ],
+                  "items": true,
+                  "show_title": "yes"
+                }
+              }
+            }
+          }
+        ],
+        "source_slots": [
+          {
+            "id": "values",
+            "kind": "custom",
+            "required": 0
+          }
+        ]
+      },
+      "file": "canonical/v1-coerced-scalars.json",
+      "sha256": "0eb3aca71f47ab0401659166f2d27df137410983c44686f19801ff50c7c33f59"
+    },
+    {
+      "id": "unicode-rtl",
+      "model": "definition-v1",
+      "input": {
+        "kind": "theme",
+        "name": "لوحة הבית 👩‍👩‍👦 é é"
+      },
+      "file": "canonical/unicode-rtl.json",
+      "sha256": "fb38a1668e607273951b775b4d4fc259ea137005841be1d1a4b291a9151461a4"
+    },
+    {
+      "id": "pack-defaults",
+      "model": "definition-v2",
+      "input": {
+        "schema_version": 2,
+        "kind": "pack",
+        "name": "Shape fixture",
+        "description": "Synthetic visual and tone; no spoken pronunciation.",
+        "locales": [
+          "en-US",
+          "bg-BG"
+        ],
+        "resources": [
+          {
+            "path": "assets/5ed41d650794d2951d12b36f77f0346a669db444fcc0240fc12b93de40eeaffd.png",
+            "sha256": "5ed41d650794d2951d12b36f77f0346a669db444fcc0240fc12b93de40eeaffd",
+            "length": 489,
+            "media_type": "image/png",
+            "duration_seconds": null,
+            "credit": {
+              "creator": "Mantel test fixture",
+              "license": "CC0-1.0",
+              "attribution": "",
+              "source": ""
+            }
+          },
+          {
+            "path": "assets/f987693599988688e7a42e7b4fcd8e18b85abd2dcde5ea17a512e0595f491256.mp3",
+            "sha256": "f987693599988688e7a42e7b4fcd8e18b85abd2dcde5ea17a512e0595f491256",
+            "length": 2132,
+            "media_type": "audio/mpeg",
+            "duration_seconds": 0.2,
+            "credit": {
+              "creator": "Mantel test fixture",
+              "license": "CC0-1.0",
+              "attribution": "",
+              "source": "",
+              "modified": false
+            }
+          }
+        ],
+        "items": [
+          {
+            "id": "circle",
+            "content_revision": 1,
+            "translations": {
+              "en-US": {
+                "prompt": {
+                  "text": "Circle",
+                  "image": "assets/5ed41d650794d2951d12b36f77f0346a669db444fcc0240fc12b93de40eeaffd.png",
+                  "alt_text": "Green circle"
+                },
+                "reveal": {
+                  "text": "A green circle",
+                  "image": null,
+                  "alt_text": null
+                }
+              },
+              "bg-BG": {
+                "prompt": {
+                  "text": "Кръг",
+                  "image": "assets/5ed41d650794d2951d12b36f77f0346a669db444fcc0240fc12b93de40eeaffd.png",
+                  "alt_text": "Зелен кръг"
+                },
+                "reveal": {
+                  "text": "Зелен кръг",
+                  "image": null,
+                  "alt_text": null
+                }
+              }
+            },
+            "audio_cues": [
+              {
+                "resource": "assets/f987693599988688e7a42e7b4fcd8e18b85abd2dcde5ea17a512e0595f491256.mp3",
+                "locale": "en-US",
+                "phase": "reveal",
+                "role": "effect",
+                "transcript": "Short test tone"
+              }
+            ]
+          }
+        ],
+        "activities": [
+          {
+            "id": "shapes",
+            "name": "Shapes",
+            "kind": "reveal-sequence-v1",
+            "item_ids": [
+              "circle"
+            ],
+            "locale": "en-US",
+            "loop": false,
+            "timing": {
+              "prompt_seconds": 3,
+              "recall_seconds": 3,
+              "reveal_seconds": 4,
+              "dwell_seconds": 2
+            }
+          }
+        ]
+      },
+      "file": "canonical/pack-defaults.json",
+      "sha256": "7132e3218201ce6efdb04792af7922f0b3baaf65f0b658fe8beed1cd5f11ef55"
+    },
+    {
+      "id": "duration-min",
+      "model": "definition-v2",
+      "input": {
+        "schema_version": 2,
+        "kind": "pack",
+        "name": "Shape fixture",
+        "description": "Synthetic visual and tone; no spoken pronunciation.",
+        "locales": [
+          "en-US",
+          "bg-BG"
+        ],
+        "resources": [
+          {
+            "path": "assets/5ed41d650794d2951d12b36f77f0346a669db444fcc0240fc12b93de40eeaffd.png",
+            "sha256": "5ed41d650794d2951d12b36f77f0346a669db444fcc0240fc12b93de40eeaffd",
+            "length": 489,
+            "media_type": "image/png",
+            "duration_seconds": null,
+            "credit": {
+              "creator": "Mantel test fixture",
+              "license": "CC0-1.0",
+              "attribution": "",
+              "source": "",
+              "modified": false
+            }
+          },
+          {
+            "path": "assets/f987693599988688e7a42e7b4fcd8e18b85abd2dcde5ea17a512e0595f491256.mp3",
+            "sha256": "f987693599988688e7a42e7b4fcd8e18b85abd2dcde5ea17a512e0595f491256",
+            "length": 2132,
+            "media_type": "audio/mpeg",
+            "duration_seconds": 0.01,
+            "credit": {
+              "creator": "Mantel test fixture",
+              "license": "CC0-1.0",
+              "attribution": "",
+              "source": "",
+              "modified": false
+            }
+          }
+        ],
+        "items": [
+          {
+            "id": "circle",
+            "content_revision": 1,
+            "translations": {
+              "en-US": {
+                "prompt": {
+                  "text": "Circle",
+                  "image": "assets/5ed41d650794d2951d12b36f77f0346a669db444fcc0240fc12b93de40eeaffd.png",
+                  "alt_text": "Green circle"
+                },
+                "reveal": {
+                  "text": "A green circle",
+                  "image": null,
+                  "alt_text": null
+                }
+              },
+              "bg-BG": {
+                "prompt": {
+                  "text": "Кръг",
+                  "image": "assets/5ed41d650794d2951d12b36f77f0346a669db444fcc0240fc12b93de40eeaffd.png",
+                  "alt_text": "Зелен кръг"
+                },
+                "reveal": {
+                  "text": "Зелен кръг",
+                  "image": null,
+                  "alt_text": null
+                }
+              }
+            },
+            "audio_cues": [
+              {
+                "resource": "assets/f987693599988688e7a42e7b4fcd8e18b85abd2dcde5ea17a512e0595f491256.mp3",
+                "locale": "en-US",
+                "phase": "reveal",
+                "role": "effect",
+                "transcript": "Short test tone"
+              }
+            ]
+          }
+        ],
+        "activities": [
+          {
+            "id": "shapes",
+            "name": "Shapes",
+            "kind": "reveal-sequence-v1",
+            "item_ids": [
+              "circle"
+            ],
+            "locale": "en-US",
+            "loop": false,
+            "timing": {
+              "prompt_seconds": 3,
+              "recall_seconds": 3,
+              "reveal_seconds": 4,
+              "dwell_seconds": 2
+            }
+          }
+        ]
+      },
+      "file": "canonical/duration-min.json",
+      "sha256": "ebba583a4190ae75182a027b130d59ed92501007af3e5b6286f262b778687e97"
+    },
+    {
+      "id": "duration-max",
+      "model": "definition-v2",
+      "input": {
+        "schema_version": 2,
+        "kind": "pack",
+        "name": "Shape fixture",
+        "description": "Synthetic visual and tone; no spoken pronunciation.",
+        "locales": [
+          "en-US",
+          "bg-BG"
+        ],
+        "resources": [
+          {
+            "path": "assets/5ed41d650794d2951d12b36f77f0346a669db444fcc0240fc12b93de40eeaffd.png",
+            "sha256": "5ed41d650794d2951d12b36f77f0346a669db444fcc0240fc12b93de40eeaffd",
+            "length": 489,
+            "media_type": "image/png",
+            "duration_seconds": null,
+            "credit": {
+              "creator": "Mantel test fixture",
+              "license": "CC0-1.0",
+              "attribution": "",
+              "source": "",
+              "modified": false
+            }
+          },
+          {
+            "path": "assets/f987693599988688e7a42e7b4fcd8e18b85abd2dcde5ea17a512e0595f491256.mp3",
+            "sha256": "f987693599988688e7a42e7b4fcd8e18b85abd2dcde5ea17a512e0595f491256",
+            "length": 2132,
+            "media_type": "audio/mpeg",
+            "duration_seconds": 30.0,
+            "credit": {
+              "creator": "Mantel test fixture",
+              "license": "CC0-1.0",
+              "attribution": "",
+              "source": "",
+              "modified": false
+            }
+          }
+        ],
+        "items": [
+          {
+            "id": "circle",
+            "content_revision": 1,
+            "translations": {
+              "en-US": {
+                "prompt": {
+                  "text": "Circle",
+                  "image": "assets/5ed41d650794d2951d12b36f77f0346a669db444fcc0240fc12b93de40eeaffd.png",
+                  "alt_text": "Green circle"
+                },
+                "reveal": {
+                  "text": "A green circle",
+                  "image": null,
+                  "alt_text": null
+                }
+              },
+              "bg-BG": {
+                "prompt": {
+                  "text": "Кръг",
+                  "image": "assets/5ed41d650794d2951d12b36f77f0346a669db444fcc0240fc12b93de40eeaffd.png",
+                  "alt_text": "Зелен кръг"
+                },
+                "reveal": {
+                  "text": "Зелен кръг",
+                  "image": null,
+                  "alt_text": null
+                }
+              }
+            },
+            "audio_cues": [
+              {
+                "resource": "assets/f987693599988688e7a42e7b4fcd8e18b85abd2dcde5ea17a512e0595f491256.mp3",
+                "locale": "en-US",
+                "phase": "reveal",
+                "role": "effect",
+                "transcript": "Short test tone"
+              }
+            ]
+          }
+        ],
+        "activities": [
+          {
+            "id": "shapes",
+            "name": "Shapes",
+            "kind": "reveal-sequence-v1",
+            "item_ids": [
+              "circle"
+            ],
+            "locale": "en-US",
+            "loop": false,
+            "timing": {
+              "prompt_seconds": 3,
+              "recall_seconds": 3,
+              "reveal_seconds": 4,
+              "dwell_seconds": 2
+            }
+          }
+        ]
+      },
+      "file": "canonical/duration-max.json",
+      "sha256": "d24468fe0ef2df0dc3e2a5232083189faa94175e3cf3946ab7bb30c05f29ad72"
+    }
+  ],
+  "compositions": [
+    {
+      "id": "provenance-valid",
+      "input": {
+        "appearance": {
+          "layout": "flow",
+          "background": "theme",
+          "font": "theme",
+          "spacing": "standard",
+          "tokens": {}
+        },
+        "placements": {},
+        "schema_version": 2,
+        "state": "draft",
+        "layout_policy": "flow",
+        "origin": null,
+        "dependencies": [
+          {
+            "id": "friend/fixture",
+            "version": "1.0.0",
+            "digest": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+          }
+        ],
+        "block_origins": {
+          "clock-2": {
+            "id": "friend/fixture",
+            "version": "1.0.0",
+            "digest": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+          }
+        },
+        "library_applications": {
+          "application-1": {
+            "definition": {
+              "id": "friend/fixture",
+              "version": "1.0.0",
+              "digest": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+            },
+            "blocks": {
+              "clock": [
+                "clock-2"
+              ]
+            },
+            "look": "modern"
+          }
+        },
+        "bindings": {},
+        "required_capabilities": [
+          "composition-v2",
+          "library-provenance-v1"
+        ]
+      },
+      "valid": true
+    },
+    {
+      "id": "provenance-missing-capability",
+      "input": {
+        "appearance": {
+          "layout": "flow",
+          "background": "theme",
+          "font": "theme",
+          "spacing": "standard",
+          "tokens": {}
+        },
+        "placements": {},
+        "schema_version": 2,
+        "state": "draft",
+        "layout_policy": "flow",
+        "origin": null,
+        "dependencies": [
+          {
+            "id": "friend/fixture",
+            "version": "1.0.0",
+            "digest": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+          }
+        ],
+        "block_origins": {
+          "clock-2": {
+            "id": "friend/fixture",
+            "version": "1.0.0",
+            "digest": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+          }
+        },
+        "library_applications": {
+          "application-1": {
+            "definition": {
+              "id": "friend/fixture",
+              "version": "1.0.0",
+              "digest": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+            },
+            "blocks": {
+              "clock": [
+                "clock-2"
+              ]
+            },
+            "look": "modern"
+          }
+        },
+        "bindings": {},
+        "required_capabilities": [
+          "composition-v2"
+        ]
+      },
+      "valid": false
+    },
+    {
+      "id": "provenance-unmapped-origin",
+      "input": {
+        "appearance": {
+          "layout": "flow",
+          "background": "theme",
+          "font": "theme",
+          "spacing": "standard",
+          "tokens": {}
+        },
+        "placements": {},
+        "schema_version": 2,
+        "state": "draft",
+        "layout_policy": "flow",
+        "origin": null,
+        "dependencies": [
+          {
+            "id": "friend/fixture",
+            "version": "1.0.0",
+            "digest": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+          }
+        ],
+        "block_origins": {
+          "clock-2": {
+            "id": "friend/fixture",
+            "version": "1.0.0",
+            "digest": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+          }
+        },
+        "library_applications": {},
+        "bindings": {},
+        "required_capabilities": [
+          "composition-v2",
+          "library-provenance-v1"
+        ]
+      },
+      "valid": false
+    },
+    {
+      "id": "provenance-mismatched-origin",
+      "input": {
+        "appearance": {
+          "layout": "flow",
+          "background": "theme",
+          "font": "theme",
+          "spacing": "standard",
+          "tokens": {}
+        },
+        "placements": {},
+        "schema_version": 2,
+        "state": "draft",
+        "layout_policy": "flow",
+        "origin": null,
+        "dependencies": [
+          {
+            "id": "friend/fixture",
+            "version": "1.0.0",
+            "digest": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+          }
+        ],
+        "block_origins": {
+          "clock-2": {
+            "id": "friend/fixture",
+            "version": "1.0.0",
+            "digest": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb"
+          }
+        },
+        "library_applications": {
+          "application-1": {
+            "definition": {
+              "id": "friend/fixture",
+              "version": "1.0.0",
+              "digest": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+            },
+            "blocks": {
+              "clock": [
+                "clock-2"
+              ]
+            },
+            "look": "modern"
+          }
+        },
+        "bindings": {},
+        "required_capabilities": [
+          "composition-v2",
+          "library-provenance-v1"
+        ]
+      },
+      "valid": false
+    },
+    {
+      "id": "provenance-duplicate-application",
+      "input": {
+        "appearance": {
+          "layout": "flow",
+          "background": "theme",
+          "font": "theme",
+          "spacing": "standard",
+          "tokens": {}
+        },
+        "placements": {},
+        "schema_version": 2,
+        "state": "draft",
+        "layout_policy": "flow",
+        "origin": null,
+        "dependencies": [
+          {
+            "id": "friend/fixture",
+            "version": "1.0.0",
+            "digest": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+          }
+        ],
+        "block_origins": {
+          "clock-2": {
+            "id": "friend/fixture",
+            "version": "1.0.0",
+            "digest": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+          }
+        },
+        "library_applications": {
+          "first": {
+            "definition": {
+              "id": "friend/fixture",
+              "version": "1.0.0",
+              "digest": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+            },
+            "blocks": {
+              "clock": [
+                "clock-2"
+              ]
+            },
+            "look": "modern"
+          },
+          "second": {
+            "definition": {
+              "id": "friend/fixture",
+              "version": "1.0.0",
+              "digest": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+            },
+            "blocks": {
+              "clock": [
+                "clock-2"
+              ]
+            },
+            "look": "modern"
+          }
+        },
+        "bindings": {},
+        "required_capabilities": [
+          "composition-v2",
+          "library-provenance-v1"
+        ]
+      },
+      "valid": false
+    },
+    {
+      "id": "provenance-unknown-field",
+      "input": {
+        "appearance": {
+          "layout": "flow",
+          "background": "theme",
+          "font": "theme",
+          "spacing": "standard",
+          "tokens": {}
+        },
+        "placements": {},
+        "schema_version": 2,
+        "state": "draft",
+        "layout_policy": "flow",
+        "origin": null,
+        "dependencies": [
+          {
+            "id": "friend/fixture",
+            "version": "1.0.0",
+            "digest": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+          }
+        ],
+        "block_origins": {
+          "clock-2": {
+            "id": "friend/fixture",
+            "version": "1.0.0",
+            "digest": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+          }
+        },
+        "library_applications": {
+          "first": {
+            "definition": {
+              "id": "friend/fixture",
+              "version": "1.0.0",
+              "digest": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+            },
+            "blocks": {
+              "clock": [
+                "clock-2"
+              ]
+            },
+            "look": "modern",
+            "secret": true
+          }
+        },
+        "bindings": {},
+        "required_capabilities": [
+          "composition-v2",
+          "library-provenance-v1"
+        ]
+      },
+      "valid": false
+    },
+    {
+      "id": "provenance-too-many-locks",
+      "input": {
+        "appearance": {
+          "layout": "flow",
+          "background": "theme",
+          "font": "theme",
+          "spacing": "standard",
+          "tokens": {}
+        },
+        "placements": {},
+        "schema_version": 2,
+        "state": "draft",
+        "layout_policy": "flow",
+        "origin": null,
+        "dependencies": [
+          {
+            "id": "friend/fixture",
+            "version": "1.0.0",
+            "digest": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+          }
+        ],
+        "block_origins": {
+          "clock-2": {
+            "id": "friend/fixture",
+            "version": "1.0.0",
+            "digest": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+          }
+        },
+        "library_applications": {
+          "application-1": {
+            "definition": {
+              "id": "friend/fixture",
+              "version": "1.0.0",
+              "digest": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+            },
+            "blocks": {
+              "clock": [
+                "clock-2"
+              ]
+            },
+            "look": "modern"
+          }
+        },
+        "bindings": {},
+        "required_capabilities": [
+          "composition-v2",
+          "library-provenance-v1"
+        ],
+        "legacy_dependencies": [
+          {
+            "id": "legacy/item-0",
+            "version": "1.0.0",
+            "digest": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+          },
+          {
+            "id": "legacy/item-1",
+            "version": "1.0.0",
+            "digest": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+          },
+          {
+            "id": "legacy/item-2",
+            "version": "1.0.0",
+            "digest": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+          },
+          {
+            "id": "legacy/item-3",
+            "version": "1.0.0",
+            "digest": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+          },
+          {
+            "id": "legacy/item-4",
+            "version": "1.0.0",
+            "digest": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+          },
+          {
+            "id": "legacy/item-5",
+            "version": "1.0.0",
+            "digest": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+          },
+          {
+            "id": "legacy/item-6",
+            "version": "1.0.0",
+            "digest": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+          },
+          {
+            "id": "legacy/item-7",
+            "version": "1.0.0",
+            "digest": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+          },
+          {
+            "id": "legacy/item-8",
+            "version": "1.0.0",
+            "digest": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+          },
+          {
+            "id": "legacy/item-9",
+            "version": "1.0.0",
+            "digest": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+          },
+          {
+            "id": "legacy/item-10",
+            "version": "1.0.0",
+            "digest": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+          },
+          {
+            "id": "legacy/item-11",
+            "version": "1.0.0",
+            "digest": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+          },
+          {
+            "id": "legacy/item-12",
+            "version": "1.0.0",
+            "digest": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+          },
+          {
+            "id": "legacy/item-13",
+            "version": "1.0.0",
+            "digest": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+          },
+          {
+            "id": "legacy/item-14",
+            "version": "1.0.0",
+            "digest": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+          },
+          {
+            "id": "legacy/item-15",
+            "version": "1.0.0",
+            "digest": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+          },
+          {
+            "id": "legacy/item-16",
+            "version": "1.0.0",
+            "digest": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+          },
+          {
+            "id": "legacy/item-17",
+            "version": "1.0.0",
+            "digest": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+          },
+          {
+            "id": "legacy/item-18",
+            "version": "1.0.0",
+            "digest": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+          },
+          {
+            "id": "legacy/item-19",
+            "version": "1.0.0",
+            "digest": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+          },
+          {
+            "id": "legacy/item-20",
+            "version": "1.0.0",
+            "digest": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+          },
+          {
+            "id": "legacy/item-21",
+            "version": "1.0.0",
+            "digest": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+          },
+          {
+            "id": "legacy/item-22",
+            "version": "1.0.0",
+            "digest": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+          },
+          {
+            "id": "legacy/item-23",
+            "version": "1.0.0",
+            "digest": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+          },
+          {
+            "id": "legacy/item-24",
+            "version": "1.0.0",
+            "digest": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+          },
+          {
+            "id": "legacy/item-25",
+            "version": "1.0.0",
+            "digest": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+          },
+          {
+            "id": "legacy/item-26",
+            "version": "1.0.0",
+            "digest": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+          },
+          {
+            "id": "legacy/item-27",
+            "version": "1.0.0",
+            "digest": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+          },
+          {
+            "id": "legacy/item-28",
+            "version": "1.0.0",
+            "digest": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+          },
+          {
+            "id": "legacy/item-29",
+            "version": "1.0.0",
+            "digest": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+          },
+          {
+            "id": "legacy/item-30",
+            "version": "1.0.0",
+            "digest": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+          },
+          {
+            "id": "legacy/item-31",
+            "version": "1.0.0",
+            "digest": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+          },
+          {
+            "id": "legacy/item-32",
+            "version": "1.0.0",
+            "digest": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+          }
+        ]
+      },
+      "valid": false
+    },
+    {
+      "id": "provenance-too-many-capabilities",
+      "input": {
+        "appearance": {
+          "layout": "flow",
+          "background": "theme",
+          "font": "theme",
+          "spacing": "standard",
+          "tokens": {}
+        },
+        "placements": {},
+        "schema_version": 2,
+        "state": "draft",
+        "layout_policy": "flow",
+        "origin": null,
+        "dependencies": [
+          {
+            "id": "friend/fixture",
+            "version": "1.0.0",
+            "digest": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+          }
+        ],
+        "block_origins": {
+          "clock-2": {
+            "id": "friend/fixture",
+            "version": "1.0.0",
+            "digest": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+          }
+        },
+        "library_applications": {
+          "application-1": {
+            "definition": {
+              "id": "friend/fixture",
+              "version": "1.0.0",
+              "digest": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+            },
+            "blocks": {
+              "clock": [
+                "clock-2"
+              ]
+            },
+            "look": "modern"
+          }
+        },
+        "bindings": {},
+        "required_capabilities": [
+          "library-provenance-v1",
+          "extra-0",
+          "extra-1",
+          "extra-2",
+          "extra-3",
+          "extra-4",
+          "extra-5",
+          "extra-6",
+          "extra-7",
+          "extra-8",
+          "extra-9",
+          "extra-10",
+          "extra-11",
+          "extra-12",
+          "extra-13",
+          "extra-14",
+          "extra-15"
+        ]
+      },
+      "valid": false
+    },
+    {
+      "id": "provenance-null-origins",
+      "input": {
+        "appearance": {
+          "layout": "flow",
+          "background": "theme",
+          "font": "theme",
+          "spacing": "standard",
+          "tokens": {}
+        },
+        "placements": {},
+        "schema_version": 2,
+        "state": "draft",
+        "layout_policy": "flow",
+        "origin": null,
+        "dependencies": [
+          {
+            "id": "friend/fixture",
+            "version": "1.0.0",
+            "digest": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+          }
+        ],
+        "block_origins": null,
+        "library_applications": {
+          "application-1": {
+            "definition": {
+              "id": "friend/fixture",
+              "version": "1.0.0",
+              "digest": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+            },
+            "blocks": {
+              "clock": [
+                "clock-2"
+              ]
+            },
+            "look": "modern"
+          }
+        },
+        "bindings": {},
+        "required_capabilities": [
+          "composition-v2",
+          "library-provenance-v1"
+        ]
+      },
+      "valid": false
+    },
+    {
+      "id": "provenance-duplicate-legacy-lock",
+      "input": {
+        "appearance": {
+          "layout": "flow",
+          "background": "theme",
+          "font": "theme",
+          "spacing": "standard",
+          "tokens": {}
+        },
+        "placements": {},
+        "schema_version": 2,
+        "state": "draft",
+        "layout_policy": "flow",
+        "origin": null,
+        "dependencies": [
+          {
+            "id": "friend/fixture",
+            "version": "1.0.0",
+            "digest": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+          }
+        ],
+        "block_origins": {
+          "clock-2": {
+            "id": "friend/fixture",
+            "version": "1.0.0",
+            "digest": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+          }
+        },
+        "library_applications": {
+          "application-1": {
+            "definition": {
+              "id": "friend/fixture",
+              "version": "1.0.0",
+              "digest": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+            },
+            "blocks": {
+              "clock": [
+                "clock-2"
+              ]
+            },
+            "look": "modern"
+          }
+        },
+        "bindings": {},
+        "required_capabilities": [
+          "composition-v2",
+          "library-provenance-v1"
+        ],
+        "legacy_dependencies": [
+          {
+            "id": "friend/fixture",
+            "version": "1.0.0",
+            "digest": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+          },
+          {
+            "id": "friend/fixture",
+            "version": "1.0.0",
+            "digest": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+          }
+        ]
+      },
+      "valid": false
+    },
+    {
+      "id": "provenance-null-blocks",
+      "input": {
+        "appearance": {
+          "layout": "flow",
+          "background": "theme",
+          "font": "theme",
+          "spacing": "standard",
+          "tokens": {}
+        },
+        "placements": {},
+        "schema_version": 2,
+        "state": "draft",
+        "layout_policy": "flow",
+        "origin": null,
+        "dependencies": [
+          {
+            "id": "friend/fixture",
+            "version": "1.0.0",
+            "digest": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+          }
+        ],
+        "block_origins": {},
+        "library_applications": {
+          "one": {
+            "definition": {
+              "id": "friend/fixture",
+              "version": "1.0.0",
+              "digest": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+            },
+            "blocks": null
+          }
+        },
+        "bindings": {},
+        "required_capabilities": [
+          "composition-v2",
+          "library-provenance-v1"
+        ]
+      },
+      "valid": false
+    },
+    {
+      "id": "provenance-normalized-applications-invalid",
+      "input": {
+        "appearance": {
+          "layout": "flow",
+          "background": "theme",
+          "font": "theme",
+          "spacing": "standard",
+          "tokens": {}
+        },
+        "placements": {},
+        "schema_version": 2,
+        "state": "draft",
+        "layout_policy": "flow",
+        "origin": null,
+        "dependencies": [
+          {
+            "id": "friend/fixture",
+            "version": "1.0.0",
+            "digest": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+          }
+        ],
+        "block_origins": {
+          "first": {
+            "id": "friend/fixture",
+            "version": "1.0.0",
+            "digest": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+          },
+          "second": {
+            "id": "friend/fixture",
+            "version": "1.0.0",
+            "digest": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+          }
+        },
+        "library_applications": {
+          "same": {
+            "definition": {
+              "id": "friend/fixture",
+              "version": "1.0.0",
+              "digest": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+            },
+            "blocks": {
+              "authored": [
+                "first"
+              ]
+            }
+          },
+          " same ": {
+            "definition": {
+              "id": "friend/fixture",
+              "version": "1.0.0",
+              "digest": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+            },
+            "blocks": {
+              "authored": [
+                "second"
+              ]
+            }
+          }
+        },
+        "bindings": {},
+        "required_capabilities": [
+          "composition-v2",
+          "library-provenance-v1"
+        ]
+      },
+      "valid": false
+    },
+    {
+      "id": "provenance-normalized-applications-valid",
+      "input": {
+        "appearance": {
+          "layout": "flow",
+          "background": "theme",
+          "font": "theme",
+          "spacing": "standard",
+          "tokens": {}
+        },
+        "placements": {},
+        "schema_version": 2,
+        "state": "draft",
+        "layout_policy": "flow",
+        "origin": null,
+        "dependencies": [
+          {
+            "id": "friend/fixture",
+            "version": "1.0.0",
+            "digest": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+          }
+        ],
+        "block_origins": {
+          "second": {
+            "id": "friend/fixture",
+            "version": "1.0.0",
+            "digest": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+          }
+        },
+        "library_applications": {
+          "same": {
+            "definition": {
+              "id": "friend/fixture",
+              "version": "1.0.0",
+              "digest": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+            },
+            "blocks": {
+              "authored": [
+                "first"
+              ]
+            }
+          },
+          " same ": {
+            "definition": {
+              "id": "friend/fixture",
+              "version": "1.0.0",
+              "digest": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+            },
+            "blocks": {
+              "authored": [
+                "second"
+              ]
+            }
+          }
+        },
+        "bindings": {},
+        "required_capabilities": [
+          "composition-v2",
+          "library-provenance-v1"
+        ]
+      },
+      "valid": true
+    },
+    {
+      "id": "provenance-normalized-authored-invalid",
+      "input": {
+        "appearance": {
+          "layout": "flow",
+          "background": "theme",
+          "font": "theme",
+          "spacing": "standard",
+          "tokens": {}
+        },
+        "placements": {},
+        "schema_version": 2,
+        "state": "draft",
+        "layout_policy": "flow",
+        "origin": null,
+        "dependencies": [
+          {
+            "id": "friend/fixture",
+            "version": "1.0.0",
+            "digest": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+          }
+        ],
+        "block_origins": {
+          "first": {
+            "id": "friend/fixture",
+            "version": "1.0.0",
+            "digest": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+          },
+          "second": {
+            "id": "friend/fixture",
+            "version": "1.0.0",
+            "digest": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+          }
+        },
+        "library_applications": {
+          "one": {
+            "definition": {
+              "id": "friend/fixture",
+              "version": "1.0.0",
+              "digest": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+            },
+            "blocks": {
+              "authored": [
+                "first"
+              ],
+              " authored ": [
+                "second"
+              ]
+            }
+          }
+        },
+        "bindings": {},
+        "required_capabilities": [
+          "composition-v2",
+          "library-provenance-v1"
+        ]
+      },
+      "valid": false
+    },
+    {
+      "id": "provenance-normalized-authored-valid",
+      "input": {
+        "appearance": {
+          "layout": "flow",
+          "background": "theme",
+          "font": "theme",
+          "spacing": "standard",
+          "tokens": {}
+        },
+        "placements": {},
+        "schema_version": 2,
+        "state": "draft",
+        "layout_policy": "flow",
+        "origin": null,
+        "dependencies": [
+          {
+            "id": "friend/fixture",
+            "version": "1.0.0",
+            "digest": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+          }
+        ],
+        "block_origins": {
+          "second": {
+            "id": "friend/fixture",
+            "version": "1.0.0",
+            "digest": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+          }
+        },
+        "library_applications": {
+          "one": {
+            "definition": {
+              "id": "friend/fixture",
+              "version": "1.0.0",
+              "digest": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+            },
+            "blocks": {
+              "authored": [
+                "first"
+              ],
+              " authored ": [
+                "second"
+              ]
+            }
+          }
+        },
+        "bindings": {},
+        "required_capabilities": [
+          "composition-v2",
+          "library-provenance-v1"
+        ]
+      },
+      "valid": true
+    }
+  ]
+}

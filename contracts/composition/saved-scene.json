@@ -1,0 +1,47 @@
+{
+  "name": "Saved scene fixture",
+  "purpose": "today",
+  "theme": "ink",
+  "privacy": { "private_events": "title_redacted", "max_sensitivity": "household" },
+  "composition": {
+    "schema_version": 2,
+    "state": "active",
+    "layout_policy": "flow",
+    "bindings": {},
+    "dependencies": [],
+    "required_capabilities": []
+  },
+  "blocks": [
+    {
+      "id": "markets-first",
+      "kind": "market",
+      "provider_id": null,
+      "enabled": true,
+      "settings": {
+        "schema_version": 1,
+        "quote_style": "equity",
+        "as_of": "2026-09-10T08:00:00Z",
+        "live": false,
+        "market_open": false,
+        "delay_minutes": 15,
+        "quotes": [{ "symbol": "FIRST", "currency": "USD", "price": 100, "previous_close": 99, "change_percent": 1.01, "direction": "up", "sign": "+", "arrow": "▲" }]
+      }
+    },
+    {
+      "id": "markets-second",
+      "kind": "market",
+      "provider_id": null,
+      "enabled": true,
+      "settings": {
+        "schema_version": 1,
+        "quote_style": "equity",
+        "as_of": "2026-09-10T08:00:00Z",
+        "live": false,
+        "market_open": false,
+        "delay_minutes": 15,
+        "quotes": [{ "symbol": "SECOND", "currency": "USD", "price": 200, "previous_close": 201, "change_percent": -0.50, "direction": "down", "sign": "-", "arrow": "▼" }]
+      }
+    },
+    { "id": "clock-last", "kind": "clock", "provider_id": null, "enabled": true, "settings": { "timezone": "UTC", "hour_format": "24" } }
+  ]
+}

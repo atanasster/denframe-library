@@ -1,0 +1,41 @@
+name: Submit an asset
+description: Propose a portable asset for review.
+body:
+  - type: markdown
+    attributes:
+      value: "This issue is public. Remove personal data and credentials. Read https://smart.meggy.com/terms and https://smart.meggy.com/privacy."
+  - type: textarea
+    id: asset
+    attributes:
+      label: Asset and source
+      description: Link the source or attach the portable file; include ID and version.
+    validations:
+      required: true
+  - type: textarea
+    id: rights
+    attributes:
+      label: Licence and credits
+      description: Name the licence, all creators and resource sources, and AI-generation disclosures.
+    validations:
+      required: true
+  - type: textarea
+    id: audience
+    attributes:
+      label: Audience and review
+      description: For activities, state audience/age, languages and human checks completed.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Validation and previews
+      description: Include the format report and landscape, portrait and square previews.
+    validations:
+      required: true
+  - type: checkboxes
+    id: attestation
+    attributes:
+      label: Rights and privacy
+      options:
+        - label: I have the rights to share this material under the stated licences, retained required credits, and removed household and private data.
+          required: true

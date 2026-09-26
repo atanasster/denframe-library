@@ -1,0 +1,703 @@
+{
+  "$defs": {
+    "Appearance": {
+      "additionalProperties": false,
+      "description": "One scene's paint and layout settings.\n\n`background` names the canvas treatment. `theme`, `solid`, `aurora`, `canopy`, and `dunes`\nare the original non-photographic treatments; `weather` is a condition-keyed gradient over\nthat same system, so it needs no asset, decode, or lease. `artwork` and `album` name a\nphotographic source, whose identifier lives in `background_source_id` and is authorized as\na media lease rather than embedded here.\n\nExactly one background is configured per scene: this record is scene-level paint, not an\ninstance. It therefore takes no slot in the twelve-block limit, adds no\n`CompositionDocument.bindings` entry, and cannot expand a provider subscription.",
+      "properties": {
+        "layout": {
+          "default": "flow",
+          "enum": [
+            "auto",
+            "flow",
+            "columns",
+            "stage",
+            "grid",
+            "overlay"
+          ],
+          "title": "Layout",
+          "type": "string"
+        },
+        "background": {
+          "default": "theme",
+          "enum": [
+            "theme",
+            "solid",
+            "aurora",
+            "canopy",
+            "dunes",
+            "artwork",
+            "album",
+            "weather"
+          ],
+          "title": "Background",
+          "type": "string"
+        },
+        "font": {
+          "default": "theme",
+          "enum": [
+            "theme",
+            "sans",
+            "serif"
+          ],
+          "title": "Font",
+          "type": "string"
+        },
+        "spacing": {
+          "default": "standard",
+          "enum": [
+            "tight",
+            "standard",
+            "relaxed"
+          ],
+          "title": "Spacing",
+          "type": "string"
+        },
+        "tokens": {
+          "additionalProperties": {
+            "pattern": "^#[0-9a-fA-F]{6}$",
+            "type": "string"
+          },
+          "maxProperties": 10,
+          "title": "Tokens",
+          "type": "object"
+        },
+        "background_source_id": {
+          "anyOf": [
+            {
+              "maxLength": 200,
+              "minLength": 1,
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Background Source Id"
+        },
+        "background_mat": {
+          "default": "museum",
+          "enum": [
+            "full_bleed",
+            "modern",
+            "museum",
+            "shadow_box"
+          ],
+          "title": "Background Mat",
+          "type": "string"
+        },
+        "background_motion": {
+          "default": false,
+          "title": "Background Motion",
+          "type": "boolean"
+        },
+        "background_cadence_seconds": {
+          "default": 45,
+          "maximum": 86400,
+          "minimum": 15,
+          "title": "Background Cadence Seconds",
+          "type": "integer"
+        },
+        "grid_collision": {
+          "default": "push",
+          "enum": [
+            "block",
+            "push"
+          ],
+          "title": "Grid Collision",
+          "type": "string"
+        },
+        "margin": {
+          "default": "standard",
+          "enum": [
+            "none",
+            "tight",
+            "standard",
+            "wide"
+          ],
+          "title": "Margin",
+          "type": "string"
+        },
+        "face": {
+          "default": "look",
+          "enum": [
+            "look",
+            "card",
+            "transparent",
+            "outlined"
+          ],
+          "title": "Face",
+          "type": "string"
+        },
+        "radius": {
+          "default": "look",
+          "enum": [
+            "look",
+            "square",
+            "soft",
+            "round"
+          ],
+          "title": "Radius",
+          "type": "string"
+        },
+        "overlay_corner": {
+          "default": "bottom-left",
+          "enum": [
+            "bottom-left",
+            "bottom-right",
+            "top-left",
+            "top-right"
+          ],
+          "title": "Overlay Corner",
+          "type": "string"
+        },
+        "overlay_scrim": {
+          "default": "standard",
+          "enum": [
+            "soft",
+            "standard",
+            "strong"
+          ],
+          "title": "Overlay Scrim",
+          "type": "string"
+        }
+      },
+      "title": "Appearance",
+      "type": "object"
+    },
+    "BlockStyle": {
+      "additionalProperties": false,
+      "description": "One block's own design, kept beside its placement in `CompositionDocument.styles` rather\nthan in the block's `settings`: settings are content and are merged with a provider's match\nsettings at resolve time, and a style must never be something a payload can restate.\n\nEvery field's default means \"whatever the dashboard does\", so a style at its defaults is\nno style: `is_default` says so and the document's serializer drops it, keeping an\nunstyled document byte-identical to one written before styles existed.",
+      "properties": {
+        "padding": {
+          "default": "inherit",
+          "enum": [
+            "inherit",
+            "none",
+            "tight",
+            "standard",
+            "roomy"
+          ],
+          "title": "Padding",
+          "type": "string"
+        },
+        "face": {
+          "default": "inherit",
+          "enum": [
+            "inherit",
+            "card",
+            "transparent",
+            "outlined"
+          ],
+          "title": "Face",
+          "type": "string"
+        },
+        "text_size": {
+          "default": "inherit",
+          "enum": [
+            "smaller",
+            "inherit",
+            "larger"
+          ],
+          "title": "Text Size",
+          "type": "string"
+        },
+        "detail": {
+          "default": "auto",
+          "enum": [
+            "auto",
+            "compact",
+            "line",
+            "glance"
+          ],
+          "title": "Detail",
+          "type": "string"
+        },
+        "heading": {
+          "default": "inherit",
+          "enum": [
+            "inherit",
+            "hidden"
+          ],
+          "title": "Heading",
+          "type": "string"
+        },
+        "align": {
+          "default": "start",
+          "enum": [
+            "start",
+            "center",
+            "end"
+          ],
+          "title": "Align",
+          "type": "string"
+        },
+        "accent": {
+          "default": "inherit",
+          "enum": [
+            "inherit",
+            "accent",
+            "muted"
+          ],
+          "title": "Accent",
+          "type": "string"
+        }
+      },
+      "title": "BlockStyle",
+      "type": "object"
+    },
+    "DefinitionRef": {
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "maxLength": 100,
+          "pattern": "^[a-z0-9][a-z0-9.-]*/[a-z0-9][a-z0-9.-]*$",
+          "title": "Id",
+          "type": "string"
+        },
+        "version": {
+          "maxLength": 30,
+          "pattern": "^\\d+\\.\\d+\\.\\d+$",
+          "title": "Version",
+          "type": "string"
+        },
+        "digest": {
+          "pattern": "^[a-f0-9]{64}$",
+          "title": "Digest",
+          "type": "string"
+        }
+      },
+      "required": [
+        "id",
+        "version",
+        "digest"
+      ],
+      "title": "DefinitionRef",
+      "type": "object"
+    },
+    "InstanceBinding": {
+      "additionalProperties": false,
+      "properties": {
+        "sources": {
+          "items": {
+            "$ref": "#/$defs/InstanceSource"
+          },
+          "maxItems": 12,
+          "title": "Sources",
+          "type": "array"
+        },
+        "symbols": {
+          "anyOf": [
+            {
+              "items": {
+                "maxLength": 10,
+                "minLength": 1,
+                "pattern": "^[A-Z][A-Z0-9]*(?:[.\\-][A-Z0-9]+)*$",
+                "type": "string"
+              },
+              "maxItems": 6,
+              "type": "array"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Symbols"
+        },
+        "source_slot": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/SourceSlotHint"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        }
+      },
+      "title": "InstanceBinding",
+      "type": "object"
+    },
+    "InstanceSource": {
+      "additionalProperties": false,
+      "properties": {
+        "provider_id": {
+          "maxLength": 100,
+          "minLength": 1,
+          "title": "Provider Id",
+          "type": "string"
+        },
+        "output_id": {
+          "anyOf": [
+            {
+              "maxLength": 100,
+              "minLength": 1,
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Output Id"
+        }
+      },
+      "required": [
+        "provider_id"
+      ],
+      "title": "InstanceSource",
+      "type": "object"
+    },
+    "LibraryApplication": {
+      "additionalProperties": false,
+      "description": "One application of a release; copied instances retain their authored instance id.",
+      "properties": {
+        "definition": {
+          "$ref": "#/$defs/DefinitionRef"
+        },
+        "blocks": {
+          "additionalProperties": {
+            "items": {
+              "maxLength": 100,
+              "minLength": 1,
+              "type": "string"
+            },
+            "maxItems": 12,
+            "minItems": 1,
+            "type": "array"
+          },
+          "maxProperties": 12,
+          "propertyNames": {
+            "maxLength": 100,
+            "minLength": 1
+          },
+          "title": "Blocks",
+          "type": "object"
+        },
+        "look": {
+          "anyOf": [
+            {
+              "enum": [
+                "painting",
+                "modern",
+                "glass",
+                "ink",
+                "linen",
+                "botanical"
+              ],
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Look"
+        }
+      },
+      "required": [
+        "definition"
+      ],
+      "title": "LibraryApplication",
+      "type": "object"
+    },
+    "Placement": {
+      "additionalProperties": false,
+      "description": "One block's placement.\n\n`region` and `importance` are the legacy v2 vocabulary and keep their meaning for the\nflow/columns/auto families: importance controls survival under pressure, never reading\norder. The span fields are additive and only consulted by the authored grid family;\nevery other layout ignores them, which is why adding them cannot change an existing\ndocument's rendering.\n\nOn the grid, `col_start`/`row_start`/`col_span`/`row_span` are the block's cell rectangle\n-- authoritative coordinates on a `GRID_COLUMNS` x `GRID_ROWS` grid whose cells scale\nwith the canvas, never packing hints. A grid document names both starts on every placement it\ncarries and no two rectangles overlap; `CompositionDocument.consistent` enforces that, since it\nis a property of the map.",
+      "properties": {
+        "region": {
+          "default": "auto",
+          "enum": [
+            "auto",
+            "header",
+            "main",
+            "secondary",
+            "stage",
+            "side"
+          ],
+          "title": "Region",
+          "type": "string"
+        },
+        "importance": {
+          "default": "normal",
+          "enum": [
+            "required",
+            "normal",
+            "optional"
+          ],
+          "title": "Importance",
+          "type": "string"
+        },
+        "col_span": {
+          "default": 12,
+          "maximum": 12,
+          "minimum": 1,
+          "title": "Col Span",
+          "type": "integer"
+        },
+        "row_span": {
+          "default": 1,
+          "maximum": 6,
+          "minimum": 1,
+          "title": "Row Span",
+          "type": "integer"
+        },
+        "col_start": {
+          "anyOf": [
+            {
+              "maximum": 12,
+              "minimum": 1,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Col Start"
+        },
+        "row_start": {
+          "anyOf": [
+            {
+              "maximum": 6,
+              "minimum": 1,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Row Start"
+        }
+      },
+      "title": "Placement",
+      "type": "object"
+    },
+    "PortraitPlacement": {
+      "additionalProperties": false,
+      "description": "A placement on the portrait grid: `PORTRAIT_GRID_COLUMNS` x `PORTRAIT_GRID_ROWS`.\n\nThe same fields and rules as `Placement` with the bounds transposed. The default span is\nstill full width, which on this grid is `PORTRAIT_GRID_COLUMNS` tracks.",
+      "properties": {
+        "region": {
+          "default": "auto",
+          "enum": [
+            "auto",
+            "header",
+            "main",
+            "secondary",
+            "stage",
+            "side"
+          ],
+          "title": "Region",
+          "type": "string"
+        },
+        "importance": {
+          "default": "normal",
+          "enum": [
+            "required",
+            "normal",
+            "optional"
+          ],
+          "title": "Importance",
+          "type": "string"
+        },
+        "col_span": {
+          "default": 6,
+          "maximum": 6,
+          "minimum": 1,
+          "title": "Col Span",
+          "type": "integer"
+        },
+        "row_span": {
+          "default": 1,
+          "maximum": 12,
+          "minimum": 1,
+          "title": "Row Span",
+          "type": "integer"
+        },
+        "col_start": {
+          "anyOf": [
+            {
+              "maximum": 6,
+              "minimum": 1,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Col Start"
+        },
+        "row_start": {
+          "anyOf": [
+            {
+              "maximum": 12,
+              "minimum": 1,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Row Start"
+        }
+      },
+      "title": "PortraitPlacement",
+      "type": "object"
+    },
+    "SourceSlotHint": {
+      "additionalProperties": false,
+      "description": "Local authoring metadata; the receiver receives no instance bindings.",
+      "properties": {
+        "id": {
+          "pattern": "^[a-z][a-z0-9-]{0,39}$",
+          "title": "Id",
+          "type": "string"
+        },
+        "required": {
+          "default": true,
+          "title": "Required",
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "id"
+      ],
+      "title": "SourceSlotHint",
+      "type": "object"
+    }
+  },
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "properties": {
+    "appearance": {
+      "$ref": "#/$defs/Appearance"
+    },
+    "placements": {
+      "additionalProperties": {
+        "$ref": "#/$defs/Placement"
+      },
+      "maxProperties": 12,
+      "title": "Placements",
+      "type": "object"
+    },
+    "shape_placements": {
+      "additionalProperties": {
+        "additionalProperties": {
+          "$ref": "#/$defs/PortraitPlacement"
+        },
+        "maxProperties": 12,
+        "type": "object"
+      },
+      "propertyNames": {
+        "const": "portrait"
+      },
+      "title": "Shape Placements",
+      "type": "object"
+    },
+    "styles": {
+      "additionalProperties": {
+        "$ref": "#/$defs/BlockStyle"
+      },
+      "maxProperties": 12,
+      "title": "Styles",
+      "type": "object"
+    },
+    "schema_version": {
+      "const": 2,
+      "default": 2,
+      "title": "Schema Version",
+      "type": "integer"
+    },
+    "state": {
+      "default": "draft",
+      "enum": [
+        "draft",
+        "active"
+      ],
+      "title": "State",
+      "type": "string"
+    },
+    "layout_policy": {
+      "const": "flow",
+      "default": "flow",
+      "title": "Layout Policy",
+      "type": "string"
+    },
+    "origin": {
+      "anyOf": [
+        {
+          "$ref": "#/$defs/DefinitionRef"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null
+    },
+    "dependencies": {
+      "items": {
+        "$ref": "#/$defs/DefinitionRef"
+      },
+      "maxItems": 32,
+      "title": "Dependencies",
+      "type": "array"
+    },
+    "legacy_dependencies": {
+      "items": {
+        "$ref": "#/$defs/DefinitionRef"
+      },
+      "maxItems": 32,
+      "title": "Legacy Dependencies",
+      "type": "array"
+    },
+    "block_origins": {
+      "additionalProperties": {
+        "$ref": "#/$defs/DefinitionRef"
+      },
+      "maxProperties": 12,
+      "propertyNames": {
+        "maxLength": 100,
+        "minLength": 1
+      },
+      "title": "Block Origins",
+      "type": "object"
+    },
+    "library_applications": {
+      "additionalProperties": {
+        "$ref": "#/$defs/LibraryApplication"
+      },
+      "maxProperties": 32,
+      "propertyNames": {
+        "maxLength": 100,
+        "minLength": 1
+      },
+      "title": "Library Applications",
+      "type": "object"
+    },
+    "bindings": {
+      "additionalProperties": {
+        "$ref": "#/$defs/InstanceBinding"
+      },
+      "maxProperties": 12,
+      "title": "Bindings",
+      "type": "object"
+    },
+    "required_capabilities": {
+      "items": {
+        "maxLength": 80,
+        "minLength": 1,
+        "type": "string"
+      },
+      "maxItems": 16,
+      "title": "Required Capabilities",
+      "type": "array"
+    }
+  },
+  "title": "CompositionDocument",
+  "type": "object"
+}

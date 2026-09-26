@@ -1,0 +1,906 @@
+[
+  {
+    "slug": "daily-brief",
+    "id": "mantel/daily-brief",
+    "version": "1.0.0",
+    "mood": "Everyday",
+    "description": "Local weather and time, with headlines when you choose a feed.",
+    "recipe": {
+      "id": "daily-brief",
+      "version": 1,
+      "required_inputs": [
+        "location",
+        "weather_units"
+      ],
+      "optional_inputs": [
+        "headline_feed"
+      ],
+      "useful_content": "Clock and confirmed local weather",
+      "fallback": "Retry or save an explicitly incomplete draft; never report clock-only as ready."
+    },
+    "definition": {
+      "schema_version": 1,
+      "kind": "content",
+      "name": "Daily Brief",
+      "look": "modern",
+      "appearance": {
+        "layout": "auto",
+        "background": "theme",
+        "font": "theme",
+        "spacing": "standard",
+        "tokens": {},
+        "margin": "tight"
+      },
+      "blocks": [
+        {
+          "id": "clock",
+          "kind": "clock",
+          "enabled": true,
+          "settings": {},
+          "source_slot": null,
+          "symbols": null,
+          "placement": {
+            "region": "main",
+            "importance": "required"
+          }
+        },
+        {
+          "id": "weather",
+          "kind": "weather",
+          "enabled": true,
+          "settings": {},
+          "source_slot": "weather",
+          "symbols": null,
+          "placement": {
+            "region": "secondary",
+            "importance": "normal"
+          }
+        },
+        {
+          "id": "headlines",
+          "kind": "news",
+          "enabled": false,
+          "settings": {},
+          "source_slot": "headlines",
+          "symbols": null,
+          "placement": {
+            "region": "secondary",
+            "importance": "normal"
+          }
+        }
+      ],
+      "source_slots": [
+        {
+          "id": "weather",
+          "kind": "weather",
+          "required": true,
+          "suggested_source": {
+            "kind": "weather",
+            "preset_id": null
+          }
+        },
+        {
+          "id": "headlines",
+          "kind": "news",
+          "required": false,
+          "suggested_source": {
+            "kind": "news",
+            "preset_id": null
+          }
+        }
+      ],
+      "purpose": "glance",
+      "setup": [
+        {
+          "source_slot": "weather",
+          "field": "city",
+          "required": true
+        },
+        {
+          "source_slot": "weather",
+          "field": "units",
+          "required": true
+        }
+      ]
+    }
+  },
+  {
+    "slug": "art-weather",
+    "id": "mantel/art-weather",
+    "version": "1.0.0",
+    "mood": "Art & calm",
+    "description": "Open Access art with time and optional local weather.",
+    "recipe": {
+      "id": "art-weather",
+      "version": 1,
+      "required_inputs": [],
+      "optional_inputs": [
+        "location",
+        "weather_units"
+      ],
+      "useful_content": "A rotating attributed artwork collection",
+      "fallback": "Use the bundled open-art collection when it is available."
+    },
+    "definition": {
+      "schema_version": 1,
+      "kind": "content",
+      "name": "Art & Weather",
+      "look": "painting",
+      "appearance": {
+        "layout": "overlay",
+        "background": "theme",
+        "font": "theme",
+        "spacing": "standard",
+        "tokens": {}
+      },
+      "blocks": [
+        {
+          "id": "artwork",
+          "kind": "image",
+          "enabled": true,
+          "settings": {
+            "fit": "fill",
+            "mat_style": "full_bleed"
+          },
+          "source_slot": "artwork",
+          "symbols": null,
+          "placement": {
+            "region": "stage",
+            "importance": "normal"
+          }
+        },
+        {
+          "id": "clock",
+          "kind": "clock",
+          "enabled": true,
+          "settings": {},
+          "source_slot": null,
+          "symbols": null,
+          "placement": {
+            "region": "side",
+            "importance": "required"
+          }
+        },
+        {
+          "id": "weather",
+          "kind": "weather",
+          "enabled": false,
+          "settings": {},
+          "source_slot": "weather",
+          "symbols": null,
+          "placement": {
+            "region": "side",
+            "importance": "normal"
+          }
+        }
+      ],
+      "source_slots": [
+        {
+          "id": "artwork",
+          "kind": "image",
+          "required": false,
+          "suggested_source": {
+            "kind": "image",
+            "preset_id": "bundled-open-art"
+          }
+        },
+        {
+          "id": "weather",
+          "kind": "weather",
+          "required": false,
+          "suggested_source": {
+            "kind": "weather",
+            "preset_id": null
+          }
+        }
+      ],
+      "purpose": "gallery",
+      "setup": [
+        {
+          "source_slot": "weather",
+          "field": "city",
+          "required": false
+        },
+        {
+          "source_slot": "weather",
+          "field": "units",
+          "required": false
+        }
+      ]
+    }
+  },
+  {
+    "slug": "world-desk",
+    "id": "mantel/world-desk",
+    "version": "1.0.0",
+    "mood": "Everyday",
+    "description": "Time and daily currency reference rates for the places you follow.",
+    "recipe": {
+      "id": "world-desk",
+      "version": 1,
+      "required_inputs": [
+        "base_currency",
+        "watchlist"
+      ],
+      "optional_inputs": [],
+      "useful_content": "Clock and dated currency reference rates",
+      "fallback": "Retry or save an explicitly incomplete draft while preserving currency choices."
+    },
+    "definition": {
+      "schema_version": 1,
+      "kind": "content",
+      "name": "World Desk",
+      "look": "modern",
+      "appearance": {
+        "layout": "auto",
+        "background": "theme",
+        "font": "theme",
+        "spacing": "standard",
+        "tokens": {},
+        "margin": "tight"
+      },
+      "blocks": [
+        {
+          "id": "clock",
+          "kind": "clock",
+          "enabled": true,
+          "settings": {},
+          "source_slot": null,
+          "symbols": null,
+          "placement": {
+            "region": "main",
+            "importance": "required"
+          }
+        },
+        {
+          "id": "currency",
+          "kind": "market",
+          "enabled": true,
+          "settings": {},
+          "source_slot": "currency",
+          "symbols": null,
+          "placement": {
+            "region": "secondary",
+            "importance": "normal"
+          }
+        }
+      ],
+      "source_slots": [
+        {
+          "id": "currency",
+          "kind": "market",
+          "required": true,
+          "suggested_source": {
+            "kind": "market",
+            "preset_id": null
+          }
+        }
+      ],
+      "purpose": "glance",
+      "setup": [
+        {
+          "source_slot": "currency",
+          "field": "watchlist",
+          "required": true
+        }
+      ]
+    }
+  },
+  {
+    "slug": "quiet-gallery",
+    "id": "mantel/quiet-gallery",
+    "version": "1.0.0",
+    "mood": "Art & calm",
+    "description": "A calm rotating Open Access collection with a discreet clock.",
+    "recipe": {
+      "id": "quiet-gallery",
+      "version": 1,
+      "required_inputs": [],
+      "optional_inputs": [],
+      "useful_content": "A rotating attributed artwork collection",
+      "fallback": "Use the bundled open-art collection when it is available."
+    },
+    "definition": {
+      "schema_version": 1,
+      "kind": "content",
+      "name": "Quiet Gallery",
+      "look": "painting",
+      "appearance": {
+        "layout": "overlay",
+        "background": "theme",
+        "font": "theme",
+        "spacing": "standard",
+        "tokens": {}
+      },
+      "blocks": [
+        {
+          "id": "artwork",
+          "kind": "image",
+          "enabled": true,
+          "settings": {
+            "fit": "fill",
+            "mat_style": "full_bleed"
+          },
+          "source_slot": "artwork",
+          "symbols": null,
+          "placement": {
+            "region": "stage",
+            "importance": "normal"
+          }
+        },
+        {
+          "id": "clock",
+          "kind": "clock",
+          "enabled": true,
+          "settings": {},
+          "source_slot": null,
+          "symbols": null,
+          "placement": {
+            "region": "side",
+            "importance": "required"
+          }
+        }
+      ],
+      "source_slots": [
+        {
+          "id": "artwork",
+          "kind": "image",
+          "required": false,
+          "suggested_source": {
+            "kind": "image",
+            "preset_id": "bundled-open-art"
+          }
+        }
+      ],
+      "purpose": "gallery"
+    }
+  },
+  {
+    "slug": "family-kitchen",
+    "id": "mantel/family-kitchen",
+    "version": "1.0.0",
+    "mood": "Everyday",
+    "description": "Local weather and time, ready for the household's own reminders and plans.",
+    "recipe": {
+      "id": "family-kitchen",
+      "version": 1,
+      "required_inputs": [
+        "location",
+        "weather_units"
+      ],
+      "optional_inputs": [],
+      "useful_content": "Clock and confirmed local weather, with only household-authored additions",
+      "fallback": "Keep the weather dashboard and add personal content later."
+    },
+    "definition": {
+      "schema_version": 1,
+      "kind": "content",
+      "name": "Family Kitchen",
+      "look": "linen",
+      "appearance": {
+        "layout": "auto",
+        "background": "theme",
+        "font": "theme",
+        "spacing": "standard",
+        "tokens": {},
+        "margin": "tight"
+      },
+      "blocks": [
+        {
+          "id": "clock",
+          "kind": "clock",
+          "enabled": true,
+          "settings": {},
+          "source_slot": null,
+          "symbols": null,
+          "placement": {
+            "region": "main",
+            "importance": "required"
+          }
+        },
+        {
+          "id": "weather",
+          "kind": "weather",
+          "enabled": true,
+          "settings": {},
+          "source_slot": "weather",
+          "symbols": null,
+          "placement": {
+            "region": "secondary",
+            "importance": "normal"
+          }
+        },
+        {
+          "id": "notes",
+          "kind": "notes",
+          "enabled": false,
+          "settings": {},
+          "source_slot": "notes",
+          "symbols": null,
+          "placement": {
+            "region": "secondary",
+            "importance": "normal"
+          }
+        },
+        {
+          "id": "calendar",
+          "kind": "calendar",
+          "enabled": false,
+          "settings": {},
+          "source_slot": "calendar",
+          "symbols": null,
+          "placement": {
+            "region": "main",
+            "importance": "normal"
+          }
+        },
+        {
+          "id": "tasks",
+          "kind": "tasks",
+          "enabled": false,
+          "settings": {},
+          "source_slot": "tasks",
+          "symbols": null,
+          "placement": {
+            "region": "secondary",
+            "importance": "normal"
+          }
+        },
+        {
+          "id": "meal",
+          "kind": "meal",
+          "enabled": false,
+          "settings": {},
+          "source_slot": "meal",
+          "symbols": null,
+          "placement": {
+            "region": "main",
+            "importance": "normal"
+          }
+        }
+      ],
+      "source_slots": [
+        {
+          "id": "weather",
+          "kind": "weather",
+          "required": true,
+          "suggested_source": {
+            "kind": "weather",
+            "preset_id": null
+          }
+        },
+        {
+          "id": "notes",
+          "kind": "notes",
+          "required": false,
+          "suggested_source": {
+            "kind": "notes",
+            "preset_id": null
+          }
+        },
+        {
+          "id": "calendar",
+          "kind": "calendar",
+          "required": false,
+          "suggested_source": {
+            "kind": "calendar",
+            "preset_id": null
+          }
+        },
+        {
+          "id": "tasks",
+          "kind": "tasks",
+          "required": false,
+          "suggested_source": {
+            "kind": "tasks",
+            "preset_id": null
+          }
+        },
+        {
+          "id": "meal",
+          "kind": "meal",
+          "required": false,
+          "suggested_source": {
+            "kind": "meal",
+            "preset_id": null
+          }
+        }
+      ],
+      "purpose": "glance",
+      "setup": [
+        {
+          "source_slot": "weather",
+          "field": "city",
+          "required": true
+        },
+        {
+          "source_slot": "weather",
+          "field": "units",
+          "required": true
+        }
+      ]
+    }
+  },
+  {
+    "slug": "welcome-home",
+    "id": "mantel/welcome-home",
+    "version": "1.0.0",
+    "mood": "Art & calm",
+    "description": "A warm art display with time, ready for guest information you choose to add.",
+    "recipe": {
+      "id": "welcome-home",
+      "version": 1,
+      "required_inputs": [],
+      "optional_inputs": [],
+      "useful_content": "A rotating attributed artwork collection and clock",
+      "fallback": "Keep the bundled art and add owner-authored guest information later."
+    },
+    "definition": {
+      "schema_version": 1,
+      "kind": "content",
+      "name": "Welcome Home",
+      "look": "botanical",
+      "appearance": {
+        "layout": "overlay",
+        "background": "canopy",
+        "font": "theme",
+        "spacing": "standard",
+        "tokens": {}
+      },
+      "blocks": [
+        {
+          "id": "artwork",
+          "kind": "image",
+          "enabled": true,
+          "settings": {
+            "fit": "fill",
+            "mat_style": "full_bleed"
+          },
+          "source_slot": "artwork",
+          "symbols": null,
+          "placement": {
+            "region": "stage",
+            "importance": "normal"
+          }
+        },
+        {
+          "id": "clock",
+          "kind": "clock",
+          "enabled": true,
+          "settings": {},
+          "source_slot": null,
+          "symbols": null,
+          "placement": {
+            "region": "side",
+            "importance": "required"
+          }
+        },
+        {
+          "id": "guest",
+          "kind": "guest",
+          "enabled": false,
+          "settings": {},
+          "source_slot": "guest",
+          "symbols": null,
+          "placement": {
+            "region": "side",
+            "importance": "normal"
+          }
+        }
+      ],
+      "source_slots": [
+        {
+          "id": "artwork",
+          "kind": "image",
+          "required": false,
+          "suggested_source": {
+            "kind": "image",
+            "preset_id": "bundled-open-art"
+          }
+        },
+        {
+          "id": "guest",
+          "kind": "guest",
+          "required": false,
+          "suggested_source": {
+            "kind": "guest",
+            "preset_id": null
+          }
+        }
+      ],
+      "purpose": "gallery"
+    }
+  },
+  {
+    "slug": "starter-glass",
+    "id": "mantel/starter-glass",
+    "version": "1.0.0",
+    "mood": "A familiar starting point",
+    "description": "The Glass dashboard, ready for your sources.",
+    "definition": {
+      "schema_version": 1,
+      "kind": "content",
+      "name": "Glass",
+      "look": "glass",
+      "appearance": {
+        "layout": "stage",
+        "background": "aurora",
+        "font": "theme",
+        "spacing": "standard",
+        "tokens": {}
+      },
+      "blocks": [
+        {
+          "id": "media",
+          "kind": "media",
+          "enabled": true,
+          "settings": {},
+          "source_slot": "media",
+          "symbols": null,
+          "placement": {
+            "region": "stage",
+            "importance": "normal"
+          }
+        },
+        {
+          "id": "clock",
+          "kind": "clock",
+          "enabled": true,
+          "settings": {
+            "show_seconds": false,
+            "meridiem": "auto"
+          },
+          "source_slot": null,
+          "symbols": null,
+          "placement": {
+            "region": "side",
+            "importance": "required"
+          }
+        }
+      ],
+      "source_slots": [
+        {
+          "id": "media",
+          "kind": "media",
+          "required": false,
+          "suggested_source": {
+            "kind": "media",
+            "preset_id": null
+          }
+        }
+      ],
+      "purpose": "media"
+    }
+  },
+  {
+    "slug": "starter-modern",
+    "id": "mantel/starter-modern",
+    "version": "1.0.0",
+    "mood": "A familiar starting point",
+    "description": "The Modern dashboard, ready for your sources.",
+    "definition": {
+      "schema_version": 1,
+      "kind": "content",
+      "name": "Modern",
+      "look": "modern",
+      "appearance": {
+        "layout": "auto",
+        "background": "theme",
+        "font": "theme",
+        "spacing": "standard",
+        "tokens": {},
+        "margin": "tight"
+      },
+      "blocks": [
+        {
+          "id": "clock",
+          "kind": "clock",
+          "enabled": true,
+          "settings": {
+            "show_seconds": false,
+            "meridiem": "auto"
+          },
+          "source_slot": null,
+          "symbols": null,
+          "placement": {
+            "region": "main",
+            "importance": "required"
+          }
+        },
+        {
+          "id": "weather",
+          "kind": "weather",
+          "enabled": true,
+          "settings": {},
+          "source_slot": "weather",
+          "symbols": null,
+          "placement": {
+            "region": "secondary",
+            "importance": "normal"
+          }
+        },
+        {
+          "id": "calendar",
+          "kind": "calendar",
+          "enabled": true,
+          "settings": {},
+          "source_slot": "calendar",
+          "symbols": null,
+          "placement": {
+            "region": "main",
+            "importance": "normal"
+          }
+        },
+        {
+          "id": "news",
+          "kind": "news",
+          "enabled": true,
+          "settings": {},
+          "source_slot": "news",
+          "symbols": null,
+          "placement": {
+            "region": "secondary",
+            "importance": "normal"
+          }
+        },
+        {
+          "id": "market",
+          "kind": "market",
+          "enabled": true,
+          "settings": {},
+          "source_slot": "market",
+          "symbols": null,
+          "placement": {
+            "region": "secondary",
+            "importance": "normal"
+          }
+        },
+        {
+          "id": "tasks",
+          "kind": "tasks",
+          "enabled": true,
+          "settings": {},
+          "source_slot": "tasks",
+          "symbols": null,
+          "placement": {
+            "region": "secondary",
+            "importance": "normal"
+          }
+        }
+      ],
+      "source_slots": [
+        {
+          "id": "weather",
+          "kind": "weather",
+          "required": false,
+          "suggested_source": {
+            "kind": "weather",
+            "preset_id": null
+          }
+        },
+        {
+          "id": "calendar",
+          "kind": "calendar",
+          "required": false,
+          "suggested_source": {
+            "kind": "calendar",
+            "preset_id": null
+          }
+        },
+        {
+          "id": "news",
+          "kind": "news",
+          "required": false,
+          "suggested_source": {
+            "kind": "news",
+            "preset_id": null
+          }
+        },
+        {
+          "id": "market",
+          "kind": "market",
+          "required": false,
+          "suggested_source": {
+            "kind": "market",
+            "preset_id": null
+          }
+        },
+        {
+          "id": "tasks",
+          "kind": "tasks",
+          "required": false,
+          "suggested_source": {
+            "kind": "tasks",
+            "preset_id": null
+          }
+        }
+      ],
+      "purpose": "glance"
+    }
+  },
+  {
+    "slug": "starter-painting",
+    "id": "mantel/starter-painting",
+    "version": "1.0.0",
+    "mood": "A familiar starting point",
+    "description": "The Painting dashboard, ready for your sources.",
+    "definition": {
+      "schema_version": 1,
+      "kind": "content",
+      "name": "Painting",
+      "look": "painting",
+      "appearance": {
+        "layout": "overlay",
+        "background": "theme",
+        "font": "theme",
+        "spacing": "standard",
+        "tokens": {}
+      },
+      "blocks": [
+        {
+          "id": "artwork",
+          "kind": "image",
+          "enabled": true,
+          "settings": {
+            "fit": "fill",
+            "mat_style": "full_bleed"
+          },
+          "source_slot": "artwork",
+          "symbols": null,
+          "placement": {
+            "region": "stage",
+            "importance": "normal"
+          }
+        },
+        {
+          "id": "clock",
+          "kind": "clock",
+          "enabled": true,
+          "settings": {
+            "show_seconds": false,
+            "meridiem": "auto"
+          },
+          "source_slot": null,
+          "symbols": null,
+          "placement": {
+            "region": "side",
+            "importance": "required"
+          }
+        },
+        {
+          "id": "weather",
+          "kind": "weather",
+          "enabled": true,
+          "settings": {},
+          "source_slot": "weather",
+          "symbols": null,
+          "placement": {
+            "region": "side",
+            "importance": "normal"
+          }
+        }
+      ],
+      "source_slots": [
+        {
+          "id": "artwork",
+          "kind": "image",
+          "required": false,
+          "suggested_source": {
+            "kind": "image",
+            "preset_id": "the-met-open-access-highlights"
+          }
+        },
+        {
+          "id": "weather",
+          "kind": "weather",
+          "required": false,
+          "suggested_source": {
+            "kind": "weather",
+            "preset_id": null
+          }
+        }
+      ],
+      "purpose": "gallery"
+    }
+  }
+]

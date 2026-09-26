@@ -1,0 +1,130 @@
+[
+  {
+    "_comment": "Parity cases for the grid-coordinate migration: backend/app/composition.py::pin_grid_coordinates must give the `expected` placements for the same `blocks` and `placements` (its browser twin, shelfPackCells, was retired; the server pins before anything reaches the browser). Consumed by backend/tests/test_composition_documents.py. `blocks` lists the dashboard's blocks in document order (`enabled` defaults to true); a placement is a raw JSON object, spans default to full width x 1 row. `expected` is the complete placements map after pinning; `settled` marks an input that must come back unchanged.",
+    "name": "the shelf pack the editor showed: two half-width blocks, then a tall one that must shrink",
+    "blocks": [{ "id": "clock" }, { "id": "weather" }, { "id": "art" }],
+    "placements": {
+      "clock": { "col_span": 6, "row_span": 3 },
+      "weather": { "col_span": 6, "row_span": 3, "col_start": 7 },
+      "art": { "col_span": 4, "row_span": 6 }
+    },
+    "expected": {
+      "clock": { "col_span": 6, "row_span": 3, "col_start": 1, "row_start": 1 },
+      "weather": { "col_span": 6, "row_span": 3, "col_start": 7, "row_start": 1 },
+      "art": { "col_span": 4, "row_span": 3, "col_start": 1, "row_start": 4 }
+    }
+  },
+  {
+    "name": "a disabled block keeps its placement and gets a cell like any other; a gone block's placement is dropped",
+    "blocks": [{ "id": "clock" }, { "id": "off", "enabled": false }],
+    "placements": {
+      "clock": { "col_span": 6, "row_span": 3 },
+      "off": { "col_span": 6 },
+      "gone": { "col_span": 12 }
+    },
+    "expected": {
+      "clock": { "col_span": 6, "row_span": 3, "col_start": 1, "row_start": 1 },
+      "off": { "col_span": 6, "col_start": 7, "row_start": 1, "row_span": 1 }
+    }
+  },
+  {
+    "name": "a block with no placement gets none: placements present are the contract",
+    "blocks": [{ "id": "clock" }, { "id": "news" }],
+    "placements": { "clock": { "col_span": 12, "row_span": 2 } },
+    "expected": { "clock": { "col_span": 12, "row_span": 2, "col_start": 1, "row_start": 1 } }
+  },
+  {
+    "name": "spans default to full width and one row when absent",
+    "blocks": [{ "id": "a" }, { "id": "b" }],
+    "placements": { "a": {}, "b": {} },
+    "expected": {
+      "a": { "col_start": 1, "row_start": 1, "col_span": 12, "row_span": 1 },
+      "b": { "col_start": 1, "row_start": 2, "col_span": 12, "row_span": 1 }
+    }
+  },
+  {
+    "name": "a column hint on the first block is ignored, as the old packer ignored it",
+    "blocks": [{ "id": "a" }, { "id": "b" }],
+    "placements": { "a": { "col_span": 6, "col_start": 7 }, "b": { "col_span": 6, "col_start": 7 } },
+    "expected": {
+      "a": { "col_span": 6, "col_start": 1, "row_start": 1, "row_span": 1 },
+      "b": { "col_span": 6, "col_start": 7, "row_start": 1, "row_span": 1 }
+    }
+  },
+  {
+    "name": "a column hint after a wrap is ignored too: a fresh shelf starts at column 1",
+    "blocks": [{ "id": "a" }, { "id": "b" }],
+    "placements": { "a": { "col_span": 12 }, "b": { "col_span": 9, "col_start": 2 } },
+    "expected": {
+      "a": { "col_span": 12, "col_start": 1, "row_start": 1, "row_span": 1 },
+      "b": { "col_span": 9, "col_start": 1, "row_start": 2, "row_span": 1 }
+    }
+  },
+  {
+    "name": "starts without spans count as a cell, with the default spans",
+    "blocks": [{ "id": "a" }, { "id": "b" }],
+    "placements": { "a": { "col_start": 1, "row_start": 1 }, "b": { "col_span": 6 } },
+    "expected": {
+      "a": { "col_start": 1, "row_start": 1, "col_span": 12, "row_span": 1 },
+      "b": { "col_span": 6, "col_start": 1, "row_start": 2, "row_span": 1 }
+    }
+  },
+  {
+    "name": "two cells named on the same spot: the later one is re-flowed",
+    "blocks": [{ "id": "a" }, { "id": "b" }],
+    "placements": {
+      "a": { "col_start": 1, "row_start": 1, "col_span": 6, "row_span": 2 },
+      "b": { "col_start": 1, "row_start": 1, "col_span": 12, "row_span": 1 }
+    },
+    "expected": {
+      "a": { "col_start": 1, "row_start": 1, "col_span": 6, "row_span": 2 },
+      "b": { "col_start": 1, "row_start": 3, "col_span": 12, "row_span": 1 }
+    }
+  },
+  {
+    "name": "a named cell that the shelf flow would otherwise cover is respected; the flowed block takes the first free cell at its own size before shrinking",
+    "blocks": [{ "id": "a" }, { "id": "b" }],
+    "placements": {
+      "a": { "col_span": 12, "row_span": 1 },
+      "b": { "col_start": 1, "row_start": 1, "col_span": 6, "row_span": 3 }
+    },
+    "expected": {
+      "b": { "col_start": 1, "row_start": 1, "col_span": 6, "row_span": 3 },
+      "a": { "col_span": 12, "row_span": 1, "col_start": 1, "row_start": 4 }
+    }
+  },
+  {
+    "name": "a full grid leaves a newcomer without a placement rather than overlapping",
+    "blocks": [{ "id": "big" }, { "id": "late" }],
+    "placements": {
+      "big": { "col_start": 1, "row_start": 1, "col_span": 12, "row_span": 6 },
+      "late": { "col_span": 6 }
+    },
+    "expected": { "big": { "col_start": 1, "row_start": 1, "col_span": 12, "row_span": 6 } }
+  },
+  {
+    "name": "a settled map comes back unchanged",
+    "blocks": [{ "id": "a" }, { "id": "b" }],
+    "placements": {
+      "a": { "region": "main", "importance": "required", "col_start": 1, "row_start": 1, "col_span": 6, "row_span": 3 },
+      "b": { "col_start": 7, "row_start": 1, "col_span": 6, "row_span": 3 }
+    },
+    "settled": true,
+    "expected": {
+      "a": { "region": "main", "importance": "required", "col_start": 1, "row_start": 1, "col_span": 6, "row_span": 3 },
+      "b": { "col_start": 7, "row_start": 1, "col_span": 6, "row_span": 3 }
+    }
+  },
+  {
+    "name": "a cell that leaves the grid is not a cell; the block is re-flowed",
+    "blocks": [{ "id": "a" }],
+    "placements": { "a": { "col_start": 8, "row_start": 1, "col_span": 6, "row_span": 1 } },
+    "expected": { "a": { "col_start": 1, "row_start": 1, "col_span": 6, "row_span": 1 } }
+  },
+  {
+    "name": "a non-integer coordinate is not a cell either",
+    "blocks": [{ "id": "a" }],
+    "placements": { "a": { "col_start": "4", "row_start": 1, "col_span": 6 } },
+    "expected": { "a": { "col_start": 1, "row_start": 1, "col_span": 6, "row_span": 1 } }
+  }
+]

@@ -1,0 +1,1851 @@
+{
+  "id": "mantel/first-words",
+  "version": "0.1.0",
+  "publisher": "Mantel reference drafts",
+  "definition": {
+    "schema_version": 2,
+    "kind": "pack",
+    "name": "First words: Bulgarian and English",
+    "description": "Review candidate. Content, pronunciation and listening review pending; not an approved teaching pack.",
+    "locales": [
+      "bg",
+      "en"
+    ],
+    "resources": [
+      {
+        "path": "assets/c9eb8023ba62107c4d6ceb73ad4044036bbece8240c6fab5d7ee7f92876888b8.mp3",
+        "sha256": "c9eb8023ba62107c4d6ceb73ad4044036bbece8240c6fab5d7ee7f92876888b8",
+        "length": 10388,
+        "media_type": "audio/mpeg",
+        "duration_seconds": 0.797143,
+        "credit": {
+          "creator": "Mantel; eSpeak NG procedural speech",
+          "license": "CC0-1.0",
+          "attribution": "Original word selection; synthetic voice. Listening review pending.",
+          "source": "https://sourceforge.net/p/espeak/discussion/538920/thread/c6944a60/",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/09a73b5f9b5d8447fde6b6dc3d2f63f0b9a325ac971a3516da28a90951b27d96.mp3",
+        "sha256": "09a73b5f9b5d8447fde6b6dc3d2f63f0b9a325ac971a3516da28a90951b27d96",
+        "length": 12269,
+        "media_type": "audio/mpeg",
+        "duration_seconds": 0.94254,
+        "credit": {
+          "creator": "Mantel; eSpeak NG procedural speech",
+          "license": "CC0-1.0",
+          "attribution": "Original word selection; synthetic voice. Listening review pending.",
+          "source": "https://sourceforge.net/p/espeak/discussion/538920/thread/c6944a60/",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/7328a3a9ba33d80584ef9ba278b5af3be5a7f40d5de8103ee4b166bde90bec17.mp3",
+        "sha256": "7328a3a9ba33d80584ef9ba278b5af3be5a7f40d5de8103ee4b166bde90bec17",
+        "length": 9761,
+        "media_type": "audio/mpeg",
+        "duration_seconds": 0.737052,
+        "credit": {
+          "creator": "Mantel; eSpeak NG procedural speech",
+          "license": "CC0-1.0",
+          "attribution": "Original word selection; synthetic voice. Listening review pending.",
+          "source": "https://sourceforge.net/p/espeak/discussion/538920/thread/c6944a60/",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/1cb5a2e03a3463c2754c3c7960fdc40a455f3991b7d17bea2d706e10f49f4924.mp3",
+        "sha256": "1cb5a2e03a3463c2754c3c7960fdc40a455f3991b7d17bea2d706e10f49f4924",
+        "length": 11328,
+        "media_type": "audio/mpeg",
+        "duration_seconds": 0.86576,
+        "credit": {
+          "creator": "Mantel; eSpeak NG procedural speech",
+          "license": "CC0-1.0",
+          "attribution": "Original word selection; synthetic voice. Listening review pending.",
+          "source": "https://sourceforge.net/p/espeak/discussion/538920/thread/c6944a60/",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/8083e5bed1b7db18ef020d630e34f99cf704a87fac3a5e462ccd80097916b20d.mp3",
+        "sha256": "8083e5bed1b7db18ef020d630e34f99cf704a87fac3a5e462ccd80097916b20d",
+        "length": 10702,
+        "media_type": "audio/mpeg",
+        "duration_seconds": 0.823084,
+        "credit": {
+          "creator": "Mantel; eSpeak NG procedural speech",
+          "license": "CC0-1.0",
+          "attribution": "Original word selection; synthetic voice. Listening review pending.",
+          "source": "https://sourceforge.net/p/espeak/discussion/538920/thread/c6944a60/",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/3e7b105e5df59f124de31400f531687ee6ee3a88f6074336e6dae1752f029a30.mp3",
+        "sha256": "3e7b105e5df59f124de31400f531687ee6ee3a88f6074336e6dae1752f029a30",
+        "length": 12896,
+        "media_type": "audio/mpeg",
+        "duration_seconds": 1.000952,
+        "credit": {
+          "creator": "Mantel; eSpeak NG procedural speech",
+          "license": "CC0-1.0",
+          "attribution": "Original word selection; synthetic voice. Listening review pending.",
+          "source": "https://sourceforge.net/p/espeak/discussion/538920/thread/c6944a60/",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/1de78511ad0670a81bc1380a41035feae26b6c30c5bcb0e3cad006e140ecc6b1.mp3",
+        "sha256": "1de78511ad0670a81bc1380a41035feae26b6c30c5bcb0e3cad006e140ecc6b1",
+        "length": 11328,
+        "media_type": "audio/mpeg",
+        "duration_seconds": 0.866395,
+        "credit": {
+          "creator": "Mantel; eSpeak NG procedural speech",
+          "license": "CC0-1.0",
+          "attribution": "Original word selection; synthetic voice. Listening review pending.",
+          "source": "https://sourceforge.net/p/espeak/discussion/538920/thread/c6944a60/",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/6cf443c4535eed15accbb86edba091153189ef0549c54e080fdd68e1da02d9fc.mp3",
+        "sha256": "6cf443c4535eed15accbb86edba091153189ef0549c54e080fdd68e1da02d9fc",
+        "length": 10388,
+        "media_type": "audio/mpeg",
+        "duration_seconds": 0.791156,
+        "credit": {
+          "creator": "Mantel; eSpeak NG procedural speech",
+          "license": "CC0-1.0",
+          "attribution": "Original word selection; synthetic voice. Listening review pending.",
+          "source": "https://sourceforge.net/p/espeak/discussion/538920/thread/c6944a60/",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/16b658eee2e4f6038b83d9251c4021d4a96fa373605abdf607f2986ff979dc90.mp3",
+        "sha256": "16b658eee2e4f6038b83d9251c4021d4a96fa373605abdf607f2986ff979dc90",
+        "length": 11955,
+        "media_type": "audio/mpeg",
+        "duration_seconds": 0.929478,
+        "credit": {
+          "creator": "Mantel; eSpeak NG procedural speech",
+          "license": "CC0-1.0",
+          "attribution": "Original word selection; synthetic voice. Listening review pending.",
+          "source": "https://sourceforge.net/p/espeak/discussion/538920/thread/c6944a60/",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/425f363f2bdb49b2ed979ea61ea2d4faf50a90a30ada6856fe6d4aa04179b2ea.mp3",
+        "sha256": "425f363f2bdb49b2ed979ea61ea2d4faf50a90a30ada6856fe6d4aa04179b2ea",
+        "length": 10702,
+        "media_type": "audio/mpeg",
+        "duration_seconds": 0.832245,
+        "credit": {
+          "creator": "Mantel; eSpeak NG procedural speech",
+          "license": "CC0-1.0",
+          "attribution": "Original word selection; synthetic voice. Listening review pending.",
+          "source": "https://sourceforge.net/p/espeak/discussion/538920/thread/c6944a60/",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/afe694b31b0052ec3325133b03d62bd20d239355a5024770a5a94d244e118de2.mp3",
+        "sha256": "afe694b31b0052ec3325133b03d62bd20d239355a5024770a5a94d244e118de2",
+        "length": 9761,
+        "media_type": "audio/mpeg",
+        "duration_seconds": 0.751882,
+        "credit": {
+          "creator": "Mantel; eSpeak NG procedural speech",
+          "license": "CC0-1.0",
+          "attribution": "Original word selection; synthetic voice. Listening review pending.",
+          "source": "https://sourceforge.net/p/espeak/discussion/538920/thread/c6944a60/",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/e3451b528b20017928542ecb978fc8b82fb541017be1928ef19b122542cec4ae.mp3",
+        "sha256": "e3451b528b20017928542ecb978fc8b82fb541017be1928ef19b122542cec4ae",
+        "length": 11015,
+        "media_type": "audio/mpeg",
+        "duration_seconds": 0.851837,
+        "credit": {
+          "creator": "Mantel; eSpeak NG procedural speech",
+          "license": "CC0-1.0",
+          "attribution": "Original word selection; synthetic voice. Listening review pending.",
+          "source": "https://sourceforge.net/p/espeak/discussion/538920/thread/c6944a60/",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/7d924bbedc596f1fadfebda5ee868c071cc5bd4c174894a0ad0d5c6fd989c8cb.mp3",
+        "sha256": "7d924bbedc596f1fadfebda5ee868c071cc5bd4c174894a0ad0d5c6fd989c8cb",
+        "length": 10388,
+        "media_type": "audio/mpeg",
+        "duration_seconds": 0.792789,
+        "credit": {
+          "creator": "Mantel; eSpeak NG procedural speech",
+          "license": "CC0-1.0",
+          "attribution": "Original word selection; synthetic voice. Listening review pending.",
+          "source": "https://sourceforge.net/p/espeak/discussion/538920/thread/c6944a60/",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/7a2a46b5f3d0c2335748c618697a1859e41e00bb85a3c41d55c240e32f4e5773.mp3",
+        "sha256": "7a2a46b5f3d0c2335748c618697a1859e41e00bb85a3c41d55c240e32f4e5773",
+        "length": 13209,
+        "media_type": "audio/mpeg",
+        "duration_seconds": 1.025578,
+        "credit": {
+          "creator": "Mantel; eSpeak NG procedural speech",
+          "license": "CC0-1.0",
+          "attribution": "Original word selection; synthetic voice. Listening review pending.",
+          "source": "https://sourceforge.net/p/espeak/discussion/538920/thread/c6944a60/",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/9fd5b73a59bc3ab54016eadaea2c4431af1cee2a7e00159fd3d3f03685d5e10d.mp3",
+        "sha256": "9fd5b73a59bc3ab54016eadaea2c4431af1cee2a7e00159fd3d3f03685d5e10d",
+        "length": 9761,
+        "media_type": "audio/mpeg",
+        "duration_seconds": 0.741633,
+        "credit": {
+          "creator": "Mantel; eSpeak NG procedural speech",
+          "license": "CC0-1.0",
+          "attribution": "Original word selection; synthetic voice. Listening review pending.",
+          "source": "https://sourceforge.net/p/espeak/discussion/538920/thread/c6944a60/",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/7ad4d0c084ec26eb443db7ae7723bd78b953998bbb5582f2340fe6a1ac960909.mp3",
+        "sha256": "7ad4d0c084ec26eb443db7ae7723bd78b953998bbb5582f2340fe6a1ac960909",
+        "length": 11328,
+        "media_type": "audio/mpeg",
+        "duration_seconds": 0.88322,
+        "credit": {
+          "creator": "Mantel; eSpeak NG procedural speech",
+          "license": "CC0-1.0",
+          "attribution": "Original word selection; synthetic voice. Listening review pending.",
+          "source": "https://sourceforge.net/p/espeak/discussion/538920/thread/c6944a60/",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/6efbdae470e02fc88cc71fce3385a6234e5bff4c267885ad2c0085f896d62c90.mp3",
+        "sha256": "6efbdae470e02fc88cc71fce3385a6234e5bff4c267885ad2c0085f896d62c90",
+        "length": 11328,
+        "media_type": "audio/mpeg",
+        "duration_seconds": 0.871927,
+        "credit": {
+          "creator": "Mantel; eSpeak NG procedural speech",
+          "license": "CC0-1.0",
+          "attribution": "Original word selection; synthetic voice. Listening review pending.",
+          "source": "https://sourceforge.net/p/espeak/discussion/538920/thread/c6944a60/",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/be6f1e63a34b887fc5a14ffe87db8ef66552ae6610b552696c73220670b9ba7b.mp3",
+        "sha256": "be6f1e63a34b887fc5a14ffe87db8ef66552ae6610b552696c73220670b9ba7b",
+        "length": 11955,
+        "media_type": "audio/mpeg",
+        "duration_seconds": 0.915737,
+        "credit": {
+          "creator": "Mantel; eSpeak NG procedural speech",
+          "license": "CC0-1.0",
+          "attribution": "Original word selection; synthetic voice. Listening review pending.",
+          "source": "https://sourceforge.net/p/espeak/discussion/538920/thread/c6944a60/",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/3d2088ed9b98ef6b86883b07c19966be48d694de98601727430574dd27803ba7.mp3",
+        "sha256": "3d2088ed9b98ef6b86883b07c19966be48d694de98601727430574dd27803ba7",
+        "length": 10702,
+        "media_type": "audio/mpeg",
+        "duration_seconds": 0.828798,
+        "credit": {
+          "creator": "Mantel; eSpeak NG procedural speech",
+          "license": "CC0-1.0",
+          "attribution": "Original word selection; synthetic voice. Listening review pending.",
+          "source": "https://sourceforge.net/p/espeak/discussion/538920/thread/c6944a60/",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/d47107ea38fcf7c207500704dfaf5a4057bd7de0b652672885c50b02e67a37d8.mp3",
+        "sha256": "d47107ea38fcf7c207500704dfaf5a4057bd7de0b652672885c50b02e67a37d8",
+        "length": 11015,
+        "media_type": "audio/mpeg",
+        "duration_seconds": 0.861678,
+        "credit": {
+          "creator": "Mantel; eSpeak NG procedural speech",
+          "license": "CC0-1.0",
+          "attribution": "Original word selection; synthetic voice. Listening review pending.",
+          "source": "https://sourceforge.net/p/espeak/discussion/538920/thread/c6944a60/",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/8fa2b0b5f60b839de663b53d05257fd01a0ab2dbc32eaf46c7f61db74c6faf89.mp3",
+        "sha256": "8fa2b0b5f60b839de663b53d05257fd01a0ab2dbc32eaf46c7f61db74c6faf89",
+        "length": 11642,
+        "media_type": "audio/mpeg",
+        "duration_seconds": 0.896961,
+        "credit": {
+          "creator": "Mantel; eSpeak NG procedural speech",
+          "license": "CC0-1.0",
+          "attribution": "Original word selection; synthetic voice. Listening review pending.",
+          "source": "https://sourceforge.net/p/espeak/discussion/538920/thread/c6944a60/",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/2208b1d81b878b5fb109a96e48ef34cbfbfbcf9ad4175937ae01d4b94aa73a7a.mp3",
+        "sha256": "2208b1d81b878b5fb109a96e48ef34cbfbfbcf9ad4175937ae01d4b94aa73a7a",
+        "length": 12582,
+        "media_type": "audio/mpeg",
+        "duration_seconds": 0.971338,
+        "credit": {
+          "creator": "Mantel; eSpeak NG procedural speech",
+          "license": "CC0-1.0",
+          "attribution": "Original word selection; synthetic voice. Listening review pending.",
+          "source": "https://sourceforge.net/p/espeak/discussion/538920/thread/c6944a60/",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/c180286f429a3ec7e09e2b4f83828690267ac3bc5226b27f3637625fa2c04c4a.mp3",
+        "sha256": "c180286f429a3ec7e09e2b4f83828690267ac3bc5226b27f3637625fa2c04c4a",
+        "length": 11015,
+        "media_type": "audio/mpeg",
+        "duration_seconds": 0.836984,
+        "credit": {
+          "creator": "Mantel; eSpeak NG procedural speech",
+          "license": "CC0-1.0",
+          "attribution": "Original word selection; synthetic voice. Listening review pending.",
+          "source": "https://sourceforge.net/p/espeak/discussion/538920/thread/c6944a60/",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/bb0769b364cede56cbdcb562529f734f4562ac0d78c2f1804104fb71e0947bc5.mp3",
+        "sha256": "bb0769b364cede56cbdcb562529f734f4562ac0d78c2f1804104fb71e0947bc5",
+        "length": 13523,
+        "media_type": "audio/mpeg",
+        "duration_seconds": 1.050159,
+        "credit": {
+          "creator": "Mantel; eSpeak NG procedural speech",
+          "license": "CC0-1.0",
+          "attribution": "Original word selection; synthetic voice. Listening review pending.",
+          "source": "https://sourceforge.net/p/espeak/discussion/538920/thread/c6944a60/",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/c36dc42157f703eebcdb47742b5c4fe1dc9e272eacb81a8fff547e133a7f4135.mp3",
+        "sha256": "c36dc42157f703eebcdb47742b5c4fe1dc9e272eacb81a8fff547e133a7f4135",
+        "length": 10388,
+        "media_type": "audio/mpeg",
+        "duration_seconds": 0.784989,
+        "credit": {
+          "creator": "Mantel; eSpeak NG procedural speech",
+          "license": "CC0-1.0",
+          "attribution": "Original word selection; synthetic voice. Listening review pending.",
+          "source": "https://sourceforge.net/p/espeak/discussion/538920/thread/c6944a60/",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/11af0b54b3f1cf1732165552e60331021c9a870f8f4ef23e0a0042766bf9ac77.mp3",
+        "sha256": "11af0b54b3f1cf1732165552e60331021c9a870f8f4ef23e0a0042766bf9ac77",
+        "length": 11015,
+        "media_type": "audio/mpeg",
+        "duration_seconds": 0.83941,
+        "credit": {
+          "creator": "Mantel; eSpeak NG procedural speech",
+          "license": "CC0-1.0",
+          "attribution": "Original word selection; synthetic voice. Listening review pending.",
+          "source": "https://sourceforge.net/p/espeak/discussion/538920/thread/c6944a60/",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/0671dae3aa56f184368dcad11a5fbe5e6ccb83bbbb8946a366b500c94c9726fe.mp3",
+        "sha256": "0671dae3aa56f184368dcad11a5fbe5e6ccb83bbbb8946a366b500c94c9726fe",
+        "length": 11328,
+        "media_type": "audio/mpeg",
+        "duration_seconds": 0.886531,
+        "credit": {
+          "creator": "Mantel; eSpeak NG procedural speech",
+          "license": "CC0-1.0",
+          "attribution": "Original word selection; synthetic voice. Listening review pending.",
+          "source": "https://sourceforge.net/p/espeak/discussion/538920/thread/c6944a60/",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/d422415cf8a05776a90442916fdd443e63646ac2a7abc4afbe37c46692658857.mp3",
+        "sha256": "d422415cf8a05776a90442916fdd443e63646ac2a7abc4afbe37c46692658857",
+        "length": 10075,
+        "media_type": "audio/mpeg",
+        "duration_seconds": 0.765533,
+        "credit": {
+          "creator": "Mantel; eSpeak NG procedural speech",
+          "license": "CC0-1.0",
+          "attribution": "Original word selection; synthetic voice. Listening review pending.",
+          "source": "https://sourceforge.net/p/espeak/discussion/538920/thread/c6944a60/",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/08a4e8e5a53c1ae0fdc47eff8d76c4a4de69fd159c24134334987c7e752204ac.mp3",
+        "sha256": "08a4e8e5a53c1ae0fdc47eff8d76c4a4de69fd159c24134334987c7e752204ac",
+        "length": 11015,
+        "media_type": "audio/mpeg",
+        "duration_seconds": 0.851247,
+        "credit": {
+          "creator": "Mantel; eSpeak NG procedural speech",
+          "license": "CC0-1.0",
+          "attribution": "Original word selection; synthetic voice. Listening review pending.",
+          "source": "https://sourceforge.net/p/espeak/discussion/538920/thread/c6944a60/",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/2fd911115abb49e5ecc1d7b1e465d746e54b8111146832a7ff8126950270ea44.mp3",
+        "sha256": "2fd911115abb49e5ecc1d7b1e465d746e54b8111146832a7ff8126950270ea44",
+        "length": 11015,
+        "media_type": "audio/mpeg",
+        "duration_seconds": 0.854966,
+        "credit": {
+          "creator": "Mantel; eSpeak NG procedural speech",
+          "license": "CC0-1.0",
+          "attribution": "Original word selection; synthetic voice. Listening review pending.",
+          "source": "https://sourceforge.net/p/espeak/discussion/538920/thread/c6944a60/",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/48940d0f9ff64acad4dd5e7e52f4d9c212d14cd828ce2b0b0de38456f5a7b7be.mp3",
+        "sha256": "48940d0f9ff64acad4dd5e7e52f4d9c212d14cd828ce2b0b0de38456f5a7b7be",
+        "length": 11015,
+        "media_type": "audio/mpeg",
+        "duration_seconds": 0.85288,
+        "credit": {
+          "creator": "Mantel; eSpeak NG procedural speech",
+          "license": "CC0-1.0",
+          "attribution": "Original word selection; synthetic voice. Listening review pending.",
+          "source": "https://sourceforge.net/p/espeak/discussion/538920/thread/c6944a60/",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/ec6d45d3dbe64837a87361d3ba7a0f109c9d06b1152c2e71974a74fa2733c672.mp3",
+        "sha256": "ec6d45d3dbe64837a87361d3ba7a0f109c9d06b1152c2e71974a74fa2733c672",
+        "length": 11015,
+        "media_type": "audio/mpeg",
+        "duration_seconds": 0.83932,
+        "credit": {
+          "creator": "Mantel; eSpeak NG procedural speech",
+          "license": "CC0-1.0",
+          "attribution": "Original word selection; synthetic voice. Listening review pending.",
+          "source": "https://sourceforge.net/p/espeak/discussion/538920/thread/c6944a60/",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/9e0a7ef65a875b75a2d64a760bcd1035154aa467ae11463af528acfb54684d2f.mp3",
+        "sha256": "9e0a7ef65a875b75a2d64a760bcd1035154aa467ae11463af528acfb54684d2f",
+        "length": 9761,
+        "media_type": "audio/mpeg",
+        "duration_seconds": 0.747483,
+        "credit": {
+          "creator": "Mantel; eSpeak NG procedural speech",
+          "license": "CC0-1.0",
+          "attribution": "Original word selection; synthetic voice. Listening review pending.",
+          "source": "https://sourceforge.net/p/espeak/discussion/538920/thread/c6944a60/",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/8e4c790b12aa3c01817bfb4b67df5fe8e2b6200e55e9fa7f0c06e2b5240a3010.mp3",
+        "sha256": "8e4c790b12aa3c01817bfb4b67df5fe8e2b6200e55e9fa7f0c06e2b5240a3010",
+        "length": 9761,
+        "media_type": "audio/mpeg",
+        "duration_seconds": 0.751429,
+        "credit": {
+          "creator": "Mantel; eSpeak NG procedural speech",
+          "license": "CC0-1.0",
+          "attribution": "Original word selection; synthetic voice. Listening review pending.",
+          "source": "https://sourceforge.net/p/espeak/discussion/538920/thread/c6944a60/",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/f1ab41125fc05e92f857a168d408c38882701867126783909d75254b85d8a4a7.mp3",
+        "sha256": "f1ab41125fc05e92f857a168d408c38882701867126783909d75254b85d8a4a7",
+        "length": 9761,
+        "media_type": "audio/mpeg",
+        "duration_seconds": 0.746213,
+        "credit": {
+          "creator": "Mantel; eSpeak NG procedural speech",
+          "license": "CC0-1.0",
+          "attribution": "Original word selection; synthetic voice. Listening review pending.",
+          "source": "https://sourceforge.net/p/espeak/discussion/538920/thread/c6944a60/",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/1ce5ed344c4e8cf6078b7fa33aaf86220e46718e613d0b2437f7eb6d16d52fdc.mp3",
+        "sha256": "1ce5ed344c4e8cf6078b7fa33aaf86220e46718e613d0b2437f7eb6d16d52fdc",
+        "length": 10075,
+        "media_type": "audio/mpeg",
+        "duration_seconds": 0.765488,
+        "credit": {
+          "creator": "Mantel; eSpeak NG procedural speech",
+          "license": "CC0-1.0",
+          "attribution": "Original word selection; synthetic voice. Listening review pending.",
+          "source": "https://sourceforge.net/p/espeak/discussion/538920/thread/c6944a60/",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/19c293deb0f694169a55e96452a9162362d3d34a9cbaf64a8198e6679b41f83a.mp3",
+        "sha256": "19c293deb0f694169a55e96452a9162362d3d34a9cbaf64a8198e6679b41f83a",
+        "length": 11642,
+        "media_type": "audio/mpeg",
+        "duration_seconds": 0.912426,
+        "credit": {
+          "creator": "Mantel; eSpeak NG procedural speech",
+          "license": "CC0-1.0",
+          "attribution": "Original word selection; synthetic voice. Listening review pending.",
+          "source": "https://sourceforge.net/p/espeak/discussion/538920/thread/c6944a60/",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/d2dac7b225bf3aa623d7a62e1bc454c2e3b26e6b95f07ca647831e3fbc802985.mp3",
+        "sha256": "d2dac7b225bf3aa623d7a62e1bc454c2e3b26e6b95f07ca647831e3fbc802985",
+        "length": 9761,
+        "media_type": "audio/mpeg",
+        "duration_seconds": 0.751519,
+        "credit": {
+          "creator": "Mantel; eSpeak NG procedural speech",
+          "license": "CC0-1.0",
+          "attribution": "Original word selection; synthetic voice. Listening review pending.",
+          "source": "https://sourceforge.net/p/espeak/discussion/538920/thread/c6944a60/",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/b71543d40accc0b9b065d758ba8d97fb68f807afa44f92836ad4528b02eba83a.mp3",
+        "sha256": "b71543d40accc0b9b065d758ba8d97fb68f807afa44f92836ad4528b02eba83a",
+        "length": 10388,
+        "media_type": "audio/mpeg",
+        "duration_seconds": 0.793379,
+        "credit": {
+          "creator": "Mantel; eSpeak NG procedural speech",
+          "license": "CC0-1.0",
+          "attribution": "Original word selection; synthetic voice. Listening review pending.",
+          "source": "https://sourceforge.net/p/espeak/discussion/538920/thread/c6944a60/",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/05f1edffb963195f9d069826a2213ce633a2273c04355b5e5345a3695bcaf64e.mp3",
+        "sha256": "05f1edffb963195f9d069826a2213ce633a2273c04355b5e5345a3695bcaf64e",
+        "length": 11955,
+        "media_type": "audio/mpeg",
+        "duration_seconds": 0.924535,
+        "credit": {
+          "creator": "Mantel; eSpeak NG procedural speech",
+          "license": "CC0-1.0",
+          "attribution": "Original word selection; synthetic voice. Listening review pending.",
+          "source": "https://sourceforge.net/p/espeak/discussion/538920/thread/c6944a60/",
+          "modified": true
+        }
+      }
+    ],
+    "items": [
+      {
+        "id": "cat",
+        "content_revision": 1,
+        "translations": {
+          "bg": {
+            "prompt": {
+              "text": "котка",
+              "image": null,
+              "alt_text": null
+            },
+            "reveal": {
+              "text": "cat",
+              "image": null,
+              "alt_text": null
+            }
+          },
+          "en": {
+            "prompt": {
+              "text": "cat",
+              "image": null,
+              "alt_text": null
+            },
+            "reveal": {
+              "text": "котка",
+              "image": null,
+              "alt_text": null
+            }
+          }
+        },
+        "audio_cues": [
+          {
+            "resource": "assets/09a73b5f9b5d8447fde6b6dc3d2f63f0b9a325ac971a3516da28a90951b27d96.mp3",
+            "locale": "bg",
+            "phase": "prompt",
+            "role": "narration",
+            "transcript": "котка"
+          },
+          {
+            "resource": "assets/c9eb8023ba62107c4d6ceb73ad4044036bbece8240c6fab5d7ee7f92876888b8.mp3",
+            "locale": "bg",
+            "phase": "reveal",
+            "role": "narration",
+            "transcript": "cat"
+          },
+          {
+            "resource": "assets/c9eb8023ba62107c4d6ceb73ad4044036bbece8240c6fab5d7ee7f92876888b8.mp3",
+            "locale": "en",
+            "phase": "prompt",
+            "role": "narration",
+            "transcript": "cat"
+          },
+          {
+            "resource": "assets/09a73b5f9b5d8447fde6b6dc3d2f63f0b9a325ac971a3516da28a90951b27d96.mp3",
+            "locale": "en",
+            "phase": "reveal",
+            "role": "narration",
+            "transcript": "котка"
+          }
+        ]
+      },
+      {
+        "id": "dog",
+        "content_revision": 1,
+        "translations": {
+          "bg": {
+            "prompt": {
+              "text": "куче",
+              "image": null,
+              "alt_text": null
+            },
+            "reveal": {
+              "text": "dog",
+              "image": null,
+              "alt_text": null
+            }
+          },
+          "en": {
+            "prompt": {
+              "text": "dog",
+              "image": null,
+              "alt_text": null
+            },
+            "reveal": {
+              "text": "куче",
+              "image": null,
+              "alt_text": null
+            }
+          }
+        },
+        "audio_cues": [
+          {
+            "resource": "assets/1cb5a2e03a3463c2754c3c7960fdc40a455f3991b7d17bea2d706e10f49f4924.mp3",
+            "locale": "bg",
+            "phase": "prompt",
+            "role": "narration",
+            "transcript": "куче"
+          },
+          {
+            "resource": "assets/7328a3a9ba33d80584ef9ba278b5af3be5a7f40d5de8103ee4b166bde90bec17.mp3",
+            "locale": "bg",
+            "phase": "reveal",
+            "role": "narration",
+            "transcript": "dog"
+          },
+          {
+            "resource": "assets/7328a3a9ba33d80584ef9ba278b5af3be5a7f40d5de8103ee4b166bde90bec17.mp3",
+            "locale": "en",
+            "phase": "prompt",
+            "role": "narration",
+            "transcript": "dog"
+          },
+          {
+            "resource": "assets/1cb5a2e03a3463c2754c3c7960fdc40a455f3991b7d17bea2d706e10f49f4924.mp3",
+            "locale": "en",
+            "phase": "reveal",
+            "role": "narration",
+            "transcript": "куче"
+          }
+        ]
+      },
+      {
+        "id": "sun",
+        "content_revision": 1,
+        "translations": {
+          "bg": {
+            "prompt": {
+              "text": "слънце",
+              "image": null,
+              "alt_text": null
+            },
+            "reveal": {
+              "text": "sun",
+              "image": null,
+              "alt_text": null
+            }
+          },
+          "en": {
+            "prompt": {
+              "text": "sun",
+              "image": null,
+              "alt_text": null
+            },
+            "reveal": {
+              "text": "слънце",
+              "image": null,
+              "alt_text": null
+            }
+          }
+        },
+        "audio_cues": [
+          {
+            "resource": "assets/3e7b105e5df59f124de31400f531687ee6ee3a88f6074336e6dae1752f029a30.mp3",
+            "locale": "bg",
+            "phase": "prompt",
+            "role": "narration",
+            "transcript": "слънце"
+          },
+          {
+            "resource": "assets/8083e5bed1b7db18ef020d630e34f99cf704a87fac3a5e462ccd80097916b20d.mp3",
+            "locale": "bg",
+            "phase": "reveal",
+            "role": "narration",
+            "transcript": "sun"
+          },
+          {
+            "resource": "assets/8083e5bed1b7db18ef020d630e34f99cf704a87fac3a5e462ccd80097916b20d.mp3",
+            "locale": "en",
+            "phase": "prompt",
+            "role": "narration",
+            "transcript": "sun"
+          },
+          {
+            "resource": "assets/3e7b105e5df59f124de31400f531687ee6ee3a88f6074336e6dae1752f029a30.mp3",
+            "locale": "en",
+            "phase": "reveal",
+            "role": "narration",
+            "transcript": "слънце"
+          }
+        ]
+      },
+      {
+        "id": "moon",
+        "content_revision": 1,
+        "translations": {
+          "bg": {
+            "prompt": {
+              "text": "луна",
+              "image": null,
+              "alt_text": null
+            },
+            "reveal": {
+              "text": "moon",
+              "image": null,
+              "alt_text": null
+            }
+          },
+          "en": {
+            "prompt": {
+              "text": "moon",
+              "image": null,
+              "alt_text": null
+            },
+            "reveal": {
+              "text": "луна",
+              "image": null,
+              "alt_text": null
+            }
+          }
+        },
+        "audio_cues": [
+          {
+            "resource": "assets/6cf443c4535eed15accbb86edba091153189ef0549c54e080fdd68e1da02d9fc.mp3",
+            "locale": "bg",
+            "phase": "prompt",
+            "role": "narration",
+            "transcript": "луна"
+          },
+          {
+            "resource": "assets/1de78511ad0670a81bc1380a41035feae26b6c30c5bcb0e3cad006e140ecc6b1.mp3",
+            "locale": "bg",
+            "phase": "reveal",
+            "role": "narration",
+            "transcript": "moon"
+          },
+          {
+            "resource": "assets/1de78511ad0670a81bc1380a41035feae26b6c30c5bcb0e3cad006e140ecc6b1.mp3",
+            "locale": "en",
+            "phase": "prompt",
+            "role": "narration",
+            "transcript": "moon"
+          },
+          {
+            "resource": "assets/6cf443c4535eed15accbb86edba091153189ef0549c54e080fdd68e1da02d9fc.mp3",
+            "locale": "en",
+            "phase": "reveal",
+            "role": "narration",
+            "transcript": "луна"
+          }
+        ]
+      },
+      {
+        "id": "water",
+        "content_revision": 1,
+        "translations": {
+          "bg": {
+            "prompt": {
+              "text": "вода",
+              "image": null,
+              "alt_text": null
+            },
+            "reveal": {
+              "text": "water",
+              "image": null,
+              "alt_text": null
+            }
+          },
+          "en": {
+            "prompt": {
+              "text": "water",
+              "image": null,
+              "alt_text": null
+            },
+            "reveal": {
+              "text": "вода",
+              "image": null,
+              "alt_text": null
+            }
+          }
+        },
+        "audio_cues": [
+          {
+            "resource": "assets/425f363f2bdb49b2ed979ea61ea2d4faf50a90a30ada6856fe6d4aa04179b2ea.mp3",
+            "locale": "bg",
+            "phase": "prompt",
+            "role": "narration",
+            "transcript": "вода"
+          },
+          {
+            "resource": "assets/16b658eee2e4f6038b83d9251c4021d4a96fa373605abdf607f2986ff979dc90.mp3",
+            "locale": "bg",
+            "phase": "reveal",
+            "role": "narration",
+            "transcript": "water"
+          },
+          {
+            "resource": "assets/16b658eee2e4f6038b83d9251c4021d4a96fa373605abdf607f2986ff979dc90.mp3",
+            "locale": "en",
+            "phase": "prompt",
+            "role": "narration",
+            "transcript": "water"
+          },
+          {
+            "resource": "assets/425f363f2bdb49b2ed979ea61ea2d4faf50a90a30ada6856fe6d4aa04179b2ea.mp3",
+            "locale": "en",
+            "phase": "reveal",
+            "role": "narration",
+            "transcript": "вода"
+          }
+        ]
+      },
+      {
+        "id": "bread",
+        "content_revision": 1,
+        "translations": {
+          "bg": {
+            "prompt": {
+              "text": "хляб",
+              "image": null,
+              "alt_text": null
+            },
+            "reveal": {
+              "text": "bread",
+              "image": null,
+              "alt_text": null
+            }
+          },
+          "en": {
+            "prompt": {
+              "text": "bread",
+              "image": null,
+              "alt_text": null
+            },
+            "reveal": {
+              "text": "хляб",
+              "image": null,
+              "alt_text": null
+            }
+          }
+        },
+        "audio_cues": [
+          {
+            "resource": "assets/e3451b528b20017928542ecb978fc8b82fb541017be1928ef19b122542cec4ae.mp3",
+            "locale": "bg",
+            "phase": "prompt",
+            "role": "narration",
+            "transcript": "хляб"
+          },
+          {
+            "resource": "assets/afe694b31b0052ec3325133b03d62bd20d239355a5024770a5a94d244e118de2.mp3",
+            "locale": "bg",
+            "phase": "reveal",
+            "role": "narration",
+            "transcript": "bread"
+          },
+          {
+            "resource": "assets/afe694b31b0052ec3325133b03d62bd20d239355a5024770a5a94d244e118de2.mp3",
+            "locale": "en",
+            "phase": "prompt",
+            "role": "narration",
+            "transcript": "bread"
+          },
+          {
+            "resource": "assets/e3451b528b20017928542ecb978fc8b82fb541017be1928ef19b122542cec4ae.mp3",
+            "locale": "en",
+            "phase": "reveal",
+            "role": "narration",
+            "transcript": "хляб"
+          }
+        ]
+      },
+      {
+        "id": "apple",
+        "content_revision": 1,
+        "translations": {
+          "bg": {
+            "prompt": {
+              "text": "ябълка",
+              "image": null,
+              "alt_text": null
+            },
+            "reveal": {
+              "text": "apple",
+              "image": null,
+              "alt_text": null
+            }
+          },
+          "en": {
+            "prompt": {
+              "text": "apple",
+              "image": null,
+              "alt_text": null
+            },
+            "reveal": {
+              "text": "ябълка",
+              "image": null,
+              "alt_text": null
+            }
+          }
+        },
+        "audio_cues": [
+          {
+            "resource": "assets/7a2a46b5f3d0c2335748c618697a1859e41e00bb85a3c41d55c240e32f4e5773.mp3",
+            "locale": "bg",
+            "phase": "prompt",
+            "role": "narration",
+            "transcript": "ябълка"
+          },
+          {
+            "resource": "assets/7d924bbedc596f1fadfebda5ee868c071cc5bd4c174894a0ad0d5c6fd989c8cb.mp3",
+            "locale": "bg",
+            "phase": "reveal",
+            "role": "narration",
+            "transcript": "apple"
+          },
+          {
+            "resource": "assets/7d924bbedc596f1fadfebda5ee868c071cc5bd4c174894a0ad0d5c6fd989c8cb.mp3",
+            "locale": "en",
+            "phase": "prompt",
+            "role": "narration",
+            "transcript": "apple"
+          },
+          {
+            "resource": "assets/7a2a46b5f3d0c2335748c618697a1859e41e00bb85a3c41d55c240e32f4e5773.mp3",
+            "locale": "en",
+            "phase": "reveal",
+            "role": "narration",
+            "transcript": "ябълка"
+          }
+        ]
+      },
+      {
+        "id": "book",
+        "content_revision": 1,
+        "translations": {
+          "bg": {
+            "prompt": {
+              "text": "книга",
+              "image": null,
+              "alt_text": null
+            },
+            "reveal": {
+              "text": "book",
+              "image": null,
+              "alt_text": null
+            }
+          },
+          "en": {
+            "prompt": {
+              "text": "book",
+              "image": null,
+              "alt_text": null
+            },
+            "reveal": {
+              "text": "книга",
+              "image": null,
+              "alt_text": null
+            }
+          }
+        },
+        "audio_cues": [
+          {
+            "resource": "assets/7ad4d0c084ec26eb443db7ae7723bd78b953998bbb5582f2340fe6a1ac960909.mp3",
+            "locale": "bg",
+            "phase": "prompt",
+            "role": "narration",
+            "transcript": "книга"
+          },
+          {
+            "resource": "assets/9fd5b73a59bc3ab54016eadaea2c4431af1cee2a7e00159fd3d3f03685d5e10d.mp3",
+            "locale": "bg",
+            "phase": "reveal",
+            "role": "narration",
+            "transcript": "book"
+          },
+          {
+            "resource": "assets/9fd5b73a59bc3ab54016eadaea2c4431af1cee2a7e00159fd3d3f03685d5e10d.mp3",
+            "locale": "en",
+            "phase": "prompt",
+            "role": "narration",
+            "transcript": "book"
+          },
+          {
+            "resource": "assets/7ad4d0c084ec26eb443db7ae7723bd78b953998bbb5582f2340fe6a1ac960909.mp3",
+            "locale": "en",
+            "phase": "reveal",
+            "role": "narration",
+            "transcript": "книга"
+          }
+        ]
+      },
+      {
+        "id": "house",
+        "content_revision": 1,
+        "translations": {
+          "bg": {
+            "prompt": {
+              "text": "къща",
+              "image": null,
+              "alt_text": null
+            },
+            "reveal": {
+              "text": "house",
+              "image": null,
+              "alt_text": null
+            }
+          },
+          "en": {
+            "prompt": {
+              "text": "house",
+              "image": null,
+              "alt_text": null
+            },
+            "reveal": {
+              "text": "къща",
+              "image": null,
+              "alt_text": null
+            }
+          }
+        },
+        "audio_cues": [
+          {
+            "resource": "assets/be6f1e63a34b887fc5a14ffe87db8ef66552ae6610b552696c73220670b9ba7b.mp3",
+            "locale": "bg",
+            "phase": "prompt",
+            "role": "narration",
+            "transcript": "къща"
+          },
+          {
+            "resource": "assets/6efbdae470e02fc88cc71fce3385a6234e5bff4c267885ad2c0085f896d62c90.mp3",
+            "locale": "bg",
+            "phase": "reveal",
+            "role": "narration",
+            "transcript": "house"
+          },
+          {
+            "resource": "assets/6efbdae470e02fc88cc71fce3385a6234e5bff4c267885ad2c0085f896d62c90.mp3",
+            "locale": "en",
+            "phase": "prompt",
+            "role": "narration",
+            "transcript": "house"
+          },
+          {
+            "resource": "assets/be6f1e63a34b887fc5a14ffe87db8ef66552ae6610b552696c73220670b9ba7b.mp3",
+            "locale": "en",
+            "phase": "reveal",
+            "role": "narration",
+            "transcript": "къща"
+          }
+        ]
+      },
+      {
+        "id": "tree",
+        "content_revision": 1,
+        "translations": {
+          "bg": {
+            "prompt": {
+              "text": "дърво",
+              "image": null,
+              "alt_text": null
+            },
+            "reveal": {
+              "text": "tree",
+              "image": null,
+              "alt_text": null
+            }
+          },
+          "en": {
+            "prompt": {
+              "text": "tree",
+              "image": null,
+              "alt_text": null
+            },
+            "reveal": {
+              "text": "дърво",
+              "image": null,
+              "alt_text": null
+            }
+          }
+        },
+        "audio_cues": [
+          {
+            "resource": "assets/d47107ea38fcf7c207500704dfaf5a4057bd7de0b652672885c50b02e67a37d8.mp3",
+            "locale": "bg",
+            "phase": "prompt",
+            "role": "narration",
+            "transcript": "дърво"
+          },
+          {
+            "resource": "assets/3d2088ed9b98ef6b86883b07c19966be48d694de98601727430574dd27803ba7.mp3",
+            "locale": "bg",
+            "phase": "reveal",
+            "role": "narration",
+            "transcript": "tree"
+          },
+          {
+            "resource": "assets/3d2088ed9b98ef6b86883b07c19966be48d694de98601727430574dd27803ba7.mp3",
+            "locale": "en",
+            "phase": "prompt",
+            "role": "narration",
+            "transcript": "tree"
+          },
+          {
+            "resource": "assets/d47107ea38fcf7c207500704dfaf5a4057bd7de0b652672885c50b02e67a37d8.mp3",
+            "locale": "en",
+            "phase": "reveal",
+            "role": "narration",
+            "transcript": "дърво"
+          }
+        ]
+      },
+      {
+        "id": "flower",
+        "content_revision": 1,
+        "translations": {
+          "bg": {
+            "prompt": {
+              "text": "цвете",
+              "image": null,
+              "alt_text": null
+            },
+            "reveal": {
+              "text": "flower",
+              "image": null,
+              "alt_text": null
+            }
+          },
+          "en": {
+            "prompt": {
+              "text": "flower",
+              "image": null,
+              "alt_text": null
+            },
+            "reveal": {
+              "text": "цвете",
+              "image": null,
+              "alt_text": null
+            }
+          }
+        },
+        "audio_cues": [
+          {
+            "resource": "assets/2208b1d81b878b5fb109a96e48ef34cbfbfbcf9ad4175937ae01d4b94aa73a7a.mp3",
+            "locale": "bg",
+            "phase": "prompt",
+            "role": "narration",
+            "transcript": "цвете"
+          },
+          {
+            "resource": "assets/8fa2b0b5f60b839de663b53d05257fd01a0ab2dbc32eaf46c7f61db74c6faf89.mp3",
+            "locale": "bg",
+            "phase": "reveal",
+            "role": "narration",
+            "transcript": "flower"
+          },
+          {
+            "resource": "assets/8fa2b0b5f60b839de663b53d05257fd01a0ab2dbc32eaf46c7f61db74c6faf89.mp3",
+            "locale": "en",
+            "phase": "prompt",
+            "role": "narration",
+            "transcript": "flower"
+          },
+          {
+            "resource": "assets/2208b1d81b878b5fb109a96e48ef34cbfbfbcf9ad4175937ae01d4b94aa73a7a.mp3",
+            "locale": "en",
+            "phase": "reveal",
+            "role": "narration",
+            "transcript": "цвете"
+          }
+        ]
+      },
+      {
+        "id": "bird",
+        "content_revision": 1,
+        "translations": {
+          "bg": {
+            "prompt": {
+              "text": "птица",
+              "image": null,
+              "alt_text": null
+            },
+            "reveal": {
+              "text": "bird",
+              "image": null,
+              "alt_text": null
+            }
+          },
+          "en": {
+            "prompt": {
+              "text": "bird",
+              "image": null,
+              "alt_text": null
+            },
+            "reveal": {
+              "text": "птица",
+              "image": null,
+              "alt_text": null
+            }
+          }
+        },
+        "audio_cues": [
+          {
+            "resource": "assets/bb0769b364cede56cbdcb562529f734f4562ac0d78c2f1804104fb71e0947bc5.mp3",
+            "locale": "bg",
+            "phase": "prompt",
+            "role": "narration",
+            "transcript": "птица"
+          },
+          {
+            "resource": "assets/c180286f429a3ec7e09e2b4f83828690267ac3bc5226b27f3637625fa2c04c4a.mp3",
+            "locale": "bg",
+            "phase": "reveal",
+            "role": "narration",
+            "transcript": "bird"
+          },
+          {
+            "resource": "assets/c180286f429a3ec7e09e2b4f83828690267ac3bc5226b27f3637625fa2c04c4a.mp3",
+            "locale": "en",
+            "phase": "prompt",
+            "role": "narration",
+            "transcript": "bird"
+          },
+          {
+            "resource": "assets/bb0769b364cede56cbdcb562529f734f4562ac0d78c2f1804104fb71e0947bc5.mp3",
+            "locale": "en",
+            "phase": "reveal",
+            "role": "narration",
+            "transcript": "птица"
+          }
+        ]
+      },
+      {
+        "id": "fish",
+        "content_revision": 1,
+        "translations": {
+          "bg": {
+            "prompt": {
+              "text": "риба",
+              "image": null,
+              "alt_text": null
+            },
+            "reveal": {
+              "text": "fish",
+              "image": null,
+              "alt_text": null
+            }
+          },
+          "en": {
+            "prompt": {
+              "text": "fish",
+              "image": null,
+              "alt_text": null
+            },
+            "reveal": {
+              "text": "риба",
+              "image": null,
+              "alt_text": null
+            }
+          }
+        },
+        "audio_cues": [
+          {
+            "resource": "assets/11af0b54b3f1cf1732165552e60331021c9a870f8f4ef23e0a0042766bf9ac77.mp3",
+            "locale": "bg",
+            "phase": "prompt",
+            "role": "narration",
+            "transcript": "риба"
+          },
+          {
+            "resource": "assets/c36dc42157f703eebcdb47742b5c4fe1dc9e272eacb81a8fff547e133a7f4135.mp3",
+            "locale": "bg",
+            "phase": "reveal",
+            "role": "narration",
+            "transcript": "fish"
+          },
+          {
+            "resource": "assets/c36dc42157f703eebcdb47742b5c4fe1dc9e272eacb81a8fff547e133a7f4135.mp3",
+            "locale": "en",
+            "phase": "prompt",
+            "role": "narration",
+            "transcript": "fish"
+          },
+          {
+            "resource": "assets/11af0b54b3f1cf1732165552e60331021c9a870f8f4ef23e0a0042766bf9ac77.mp3",
+            "locale": "en",
+            "phase": "reveal",
+            "role": "narration",
+            "transcript": "риба"
+          }
+        ]
+      },
+      {
+        "id": "horse",
+        "content_revision": 1,
+        "translations": {
+          "bg": {
+            "prompt": {
+              "text": "кон",
+              "image": null,
+              "alt_text": null
+            },
+            "reveal": {
+              "text": "horse",
+              "image": null,
+              "alt_text": null
+            }
+          },
+          "en": {
+            "prompt": {
+              "text": "horse",
+              "image": null,
+              "alt_text": null
+            },
+            "reveal": {
+              "text": "кон",
+              "image": null,
+              "alt_text": null
+            }
+          }
+        },
+        "audio_cues": [
+          {
+            "resource": "assets/d422415cf8a05776a90442916fdd443e63646ac2a7abc4afbe37c46692658857.mp3",
+            "locale": "bg",
+            "phase": "prompt",
+            "role": "narration",
+            "transcript": "кон"
+          },
+          {
+            "resource": "assets/0671dae3aa56f184368dcad11a5fbe5e6ccb83bbbb8946a366b500c94c9726fe.mp3",
+            "locale": "bg",
+            "phase": "reveal",
+            "role": "narration",
+            "transcript": "horse"
+          },
+          {
+            "resource": "assets/0671dae3aa56f184368dcad11a5fbe5e6ccb83bbbb8946a366b500c94c9726fe.mp3",
+            "locale": "en",
+            "phase": "prompt",
+            "role": "narration",
+            "transcript": "horse"
+          },
+          {
+            "resource": "assets/d422415cf8a05776a90442916fdd443e63646ac2a7abc4afbe37c46692658857.mp3",
+            "locale": "en",
+            "phase": "reveal",
+            "role": "narration",
+            "transcript": "кон"
+          }
+        ]
+      },
+      {
+        "id": "milk",
+        "content_revision": 1,
+        "translations": {
+          "bg": {
+            "prompt": {
+              "text": "мляко",
+              "image": null,
+              "alt_text": null
+            },
+            "reveal": {
+              "text": "milk",
+              "image": null,
+              "alt_text": null
+            }
+          },
+          "en": {
+            "prompt": {
+              "text": "milk",
+              "image": null,
+              "alt_text": null
+            },
+            "reveal": {
+              "text": "мляко",
+              "image": null,
+              "alt_text": null
+            }
+          }
+        },
+        "audio_cues": [
+          {
+            "resource": "assets/2fd911115abb49e5ecc1d7b1e465d746e54b8111146832a7ff8126950270ea44.mp3",
+            "locale": "bg",
+            "phase": "prompt",
+            "role": "narration",
+            "transcript": "мляко"
+          },
+          {
+            "resource": "assets/08a4e8e5a53c1ae0fdc47eff8d76c4a4de69fd159c24134334987c7e752204ac.mp3",
+            "locale": "bg",
+            "phase": "reveal",
+            "role": "narration",
+            "transcript": "milk"
+          },
+          {
+            "resource": "assets/08a4e8e5a53c1ae0fdc47eff8d76c4a4de69fd159c24134334987c7e752204ac.mp3",
+            "locale": "en",
+            "phase": "prompt",
+            "role": "narration",
+            "transcript": "milk"
+          },
+          {
+            "resource": "assets/2fd911115abb49e5ecc1d7b1e465d746e54b8111146832a7ff8126950270ea44.mp3",
+            "locale": "en",
+            "phase": "reveal",
+            "role": "narration",
+            "transcript": "мляко"
+          }
+        ]
+      },
+      {
+        "id": "hand",
+        "content_revision": 1,
+        "translations": {
+          "bg": {
+            "prompt": {
+              "text": "ръка",
+              "image": null,
+              "alt_text": null
+            },
+            "reveal": {
+              "text": "hand",
+              "image": null,
+              "alt_text": null
+            }
+          },
+          "en": {
+            "prompt": {
+              "text": "hand",
+              "image": null,
+              "alt_text": null
+            },
+            "reveal": {
+              "text": "ръка",
+              "image": null,
+              "alt_text": null
+            }
+          }
+        },
+        "audio_cues": [
+          {
+            "resource": "assets/ec6d45d3dbe64837a87361d3ba7a0f109c9d06b1152c2e71974a74fa2733c672.mp3",
+            "locale": "bg",
+            "phase": "prompt",
+            "role": "narration",
+            "transcript": "ръка"
+          },
+          {
+            "resource": "assets/48940d0f9ff64acad4dd5e7e52f4d9c212d14cd828ce2b0b0de38456f5a7b7be.mp3",
+            "locale": "bg",
+            "phase": "reveal",
+            "role": "narration",
+            "transcript": "hand"
+          },
+          {
+            "resource": "assets/48940d0f9ff64acad4dd5e7e52f4d9c212d14cd828ce2b0b0de38456f5a7b7be.mp3",
+            "locale": "en",
+            "phase": "prompt",
+            "role": "narration",
+            "transcript": "hand"
+          },
+          {
+            "resource": "assets/ec6d45d3dbe64837a87361d3ba7a0f109c9d06b1152c2e71974a74fa2733c672.mp3",
+            "locale": "en",
+            "phase": "reveal",
+            "role": "narration",
+            "transcript": "ръка"
+          }
+        ]
+      },
+      {
+        "id": "eye",
+        "content_revision": 1,
+        "translations": {
+          "bg": {
+            "prompt": {
+              "text": "око",
+              "image": null,
+              "alt_text": null
+            },
+            "reveal": {
+              "text": "eye",
+              "image": null,
+              "alt_text": null
+            }
+          },
+          "en": {
+            "prompt": {
+              "text": "eye",
+              "image": null,
+              "alt_text": null
+            },
+            "reveal": {
+              "text": "око",
+              "image": null,
+              "alt_text": null
+            }
+          }
+        },
+        "audio_cues": [
+          {
+            "resource": "assets/8e4c790b12aa3c01817bfb4b67df5fe8e2b6200e55e9fa7f0c06e2b5240a3010.mp3",
+            "locale": "bg",
+            "phase": "prompt",
+            "role": "narration",
+            "transcript": "око"
+          },
+          {
+            "resource": "assets/9e0a7ef65a875b75a2d64a760bcd1035154aa467ae11463af528acfb54684d2f.mp3",
+            "locale": "bg",
+            "phase": "reveal",
+            "role": "narration",
+            "transcript": "eye"
+          },
+          {
+            "resource": "assets/9e0a7ef65a875b75a2d64a760bcd1035154aa467ae11463af528acfb54684d2f.mp3",
+            "locale": "en",
+            "phase": "prompt",
+            "role": "narration",
+            "transcript": "eye"
+          },
+          {
+            "resource": "assets/8e4c790b12aa3c01817bfb4b67df5fe8e2b6200e55e9fa7f0c06e2b5240a3010.mp3",
+            "locale": "en",
+            "phase": "reveal",
+            "role": "narration",
+            "transcript": "око"
+          }
+        ]
+      },
+      {
+        "id": "ear",
+        "content_revision": 1,
+        "translations": {
+          "bg": {
+            "prompt": {
+              "text": "ухо",
+              "image": null,
+              "alt_text": null
+            },
+            "reveal": {
+              "text": "ear",
+              "image": null,
+              "alt_text": null
+            }
+          },
+          "en": {
+            "prompt": {
+              "text": "ear",
+              "image": null,
+              "alt_text": null
+            },
+            "reveal": {
+              "text": "ухо",
+              "image": null,
+              "alt_text": null
+            }
+          }
+        },
+        "audio_cues": [
+          {
+            "resource": "assets/1ce5ed344c4e8cf6078b7fa33aaf86220e46718e613d0b2437f7eb6d16d52fdc.mp3",
+            "locale": "bg",
+            "phase": "prompt",
+            "role": "narration",
+            "transcript": "ухо"
+          },
+          {
+            "resource": "assets/f1ab41125fc05e92f857a168d408c38882701867126783909d75254b85d8a4a7.mp3",
+            "locale": "bg",
+            "phase": "reveal",
+            "role": "narration",
+            "transcript": "ear"
+          },
+          {
+            "resource": "assets/f1ab41125fc05e92f857a168d408c38882701867126783909d75254b85d8a4a7.mp3",
+            "locale": "en",
+            "phase": "prompt",
+            "role": "narration",
+            "transcript": "ear"
+          },
+          {
+            "resource": "assets/1ce5ed344c4e8cf6078b7fa33aaf86220e46718e613d0b2437f7eb6d16d52fdc.mp3",
+            "locale": "en",
+            "phase": "reveal",
+            "role": "narration",
+            "transcript": "ухо"
+          }
+        ]
+      },
+      {
+        "id": "nose",
+        "content_revision": 1,
+        "translations": {
+          "bg": {
+            "prompt": {
+              "text": "нос",
+              "image": null,
+              "alt_text": null
+            },
+            "reveal": {
+              "text": "nose",
+              "image": null,
+              "alt_text": null
+            }
+          },
+          "en": {
+            "prompt": {
+              "text": "nose",
+              "image": null,
+              "alt_text": null
+            },
+            "reveal": {
+              "text": "нос",
+              "image": null,
+              "alt_text": null
+            }
+          }
+        },
+        "audio_cues": [
+          {
+            "resource": "assets/d2dac7b225bf3aa623d7a62e1bc454c2e3b26e6b95f07ca647831e3fbc802985.mp3",
+            "locale": "bg",
+            "phase": "prompt",
+            "role": "narration",
+            "transcript": "нос"
+          },
+          {
+            "resource": "assets/19c293deb0f694169a55e96452a9162362d3d34a9cbaf64a8198e6679b41f83a.mp3",
+            "locale": "bg",
+            "phase": "reveal",
+            "role": "narration",
+            "transcript": "nose"
+          },
+          {
+            "resource": "assets/19c293deb0f694169a55e96452a9162362d3d34a9cbaf64a8198e6679b41f83a.mp3",
+            "locale": "en",
+            "phase": "prompt",
+            "role": "narration",
+            "transcript": "nose"
+          },
+          {
+            "resource": "assets/d2dac7b225bf3aa623d7a62e1bc454c2e3b26e6b95f07ca647831e3fbc802985.mp3",
+            "locale": "en",
+            "phase": "reveal",
+            "role": "narration",
+            "transcript": "нос"
+          }
+        ]
+      },
+      {
+        "id": "door",
+        "content_revision": 1,
+        "translations": {
+          "bg": {
+            "prompt": {
+              "text": "врата",
+              "image": null,
+              "alt_text": null
+            },
+            "reveal": {
+              "text": "door",
+              "image": null,
+              "alt_text": null
+            }
+          },
+          "en": {
+            "prompt": {
+              "text": "door",
+              "image": null,
+              "alt_text": null
+            },
+            "reveal": {
+              "text": "врата",
+              "image": null,
+              "alt_text": null
+            }
+          }
+        },
+        "audio_cues": [
+          {
+            "resource": "assets/05f1edffb963195f9d069826a2213ce633a2273c04355b5e5345a3695bcaf64e.mp3",
+            "locale": "bg",
+            "phase": "prompt",
+            "role": "narration",
+            "transcript": "врата"
+          },
+          {
+            "resource": "assets/b71543d40accc0b9b065d758ba8d97fb68f807afa44f92836ad4528b02eba83a.mp3",
+            "locale": "bg",
+            "phase": "reveal",
+            "role": "narration",
+            "transcript": "door"
+          },
+          {
+            "resource": "assets/b71543d40accc0b9b065d758ba8d97fb68f807afa44f92836ad4528b02eba83a.mp3",
+            "locale": "en",
+            "phase": "prompt",
+            "role": "narration",
+            "transcript": "door"
+          },
+          {
+            "resource": "assets/05f1edffb963195f9d069826a2213ce633a2273c04355b5e5345a3695bcaf64e.mp3",
+            "locale": "en",
+            "phase": "reveal",
+            "role": "narration",
+            "transcript": "врата"
+          }
+        ]
+      }
+    ],
+    "activities": [
+      {
+        "id": "learn-bg",
+        "name": "Learn (bg)",
+        "kind": "reveal-sequence-v1",
+        "item_ids": [
+          "cat",
+          "dog",
+          "sun",
+          "moon",
+          "water",
+          "bread",
+          "apple",
+          "book",
+          "house",
+          "tree",
+          "flower",
+          "bird",
+          "fish",
+          "horse",
+          "milk",
+          "hand",
+          "eye",
+          "ear",
+          "nose",
+          "door"
+        ],
+        "locale": "bg",
+        "loop": false,
+        "timing": {
+          "prompt_seconds": 7,
+          "recall_seconds": 3,
+          "reveal_seconds": 7,
+          "dwell_seconds": 2
+        }
+      },
+      {
+        "id": "learn-en",
+        "name": "Learn (en)",
+        "kind": "reveal-sequence-v1",
+        "item_ids": [
+          "cat",
+          "dog",
+          "sun",
+          "moon",
+          "water",
+          "bread",
+          "apple",
+          "book",
+          "house",
+          "tree",
+          "flower",
+          "bird",
+          "fish",
+          "horse",
+          "milk",
+          "hand",
+          "eye",
+          "ear",
+          "nose",
+          "door"
+        ],
+        "locale": "en",
+        "loop": false,
+        "timing": {
+          "prompt_seconds": 7,
+          "recall_seconds": 3,
+          "reveal_seconds": 7,
+          "dwell_seconds": 2
+        }
+      }
+    ]
+  }
+}

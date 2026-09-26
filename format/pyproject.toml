@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools==84.0.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mantel-format"
+license = "MIT"
+license-files = ["LICENSE"]
+version = "0.1.0"
+description = "Portable data-only Mantel archive models and validation."
+requires-python = ">=3.11"
+dependencies = ["pydantic>=2.9,<3", "pillow>=11,<13"]
+
+[project.scripts]
+mantel-author = "mantel_format.cli:main"
+
+[project.optional-dependencies]
+dev = ["setuptools==84.0.0"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+mantel_format = ["py.typed", "data/*.json"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+
+[tool.ruff.lint.per-file-ignores]
+"src/mantel_format/cli.py" = ["T201"] # The CLI owns human and JSON output.

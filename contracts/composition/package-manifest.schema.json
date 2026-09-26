@@ -1,0 +1,119 @@
+{
+  "$defs": {
+    "DefinitionRef": {
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "maxLength": 100,
+          "pattern": "^[a-z0-9][a-z0-9.-]*/[a-z0-9][a-z0-9.-]*$",
+          "title": "Id",
+          "type": "string"
+        },
+        "version": {
+          "maxLength": 30,
+          "pattern": "^\\d+\\.\\d+\\.\\d+$",
+          "title": "Version",
+          "type": "string"
+        },
+        "digest": {
+          "pattern": "^[a-f0-9]{64}$",
+          "title": "Digest",
+          "type": "string"
+        }
+      },
+      "required": [
+        "id",
+        "version",
+        "digest"
+      ],
+      "title": "DefinitionRef",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "format": {
+      "const": "mantelpack",
+      "default": "mantelpack",
+      "title": "Format",
+      "type": "string"
+    },
+    "schema_version": {
+      "const": 1,
+      "default": 1,
+      "title": "Schema Version",
+      "type": "integer"
+    },
+    "id": {
+      "maxLength": 100,
+      "pattern": "^[a-z0-9][a-z0-9.-]*/[a-z0-9][a-z0-9.-]*$",
+      "title": "Id",
+      "type": "string"
+    },
+    "version": {
+      "maxLength": 30,
+      "pattern": "^\\d+\\.\\d+\\.\\d+$",
+      "title": "Version",
+      "type": "string"
+    },
+    "license": {
+      "enum": [
+        "MIT",
+        "CC0-1.0",
+        "CC-BY-4.0"
+      ],
+      "title": "License",
+      "type": "string"
+    },
+    "publisher": {
+      "default": "Local author",
+      "maxLength": 100,
+      "minLength": 1,
+      "title": "Publisher",
+      "type": "string"
+    },
+    "attribution": {
+      "default": "",
+      "maxLength": 500,
+      "title": "Attribution",
+      "type": "string"
+    },
+    "entrypoint": {
+      "const": "definition.json",
+      "default": "definition.json",
+      "title": "Entrypoint",
+      "type": "string"
+    },
+    "definition_sha256": {
+      "pattern": "^[a-f0-9]{64}$",
+      "title": "Definition Sha256",
+      "type": "string"
+    },
+    "dependencies": {
+      "items": {
+        "$ref": "#/$defs/DefinitionRef"
+      },
+      "maxItems": 32,
+      "title": "Dependencies",
+      "type": "array"
+    },
+    "required_capabilities": {
+      "items": {
+        "maxLength": 100,
+        "minLength": 1,
+        "type": "string"
+      },
+      "maxItems": 16,
+      "title": "Required Capabilities",
+      "type": "array"
+    }
+  },
+  "required": [
+    "id",
+    "version",
+    "license",
+    "definition_sha256"
+  ],
+  "title": "Manifest",
+  "type": "object"
+}

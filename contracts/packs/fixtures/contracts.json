@@ -1,0 +1,2104 @@
+[
+  {
+    "name": "definition accepts valid contract",
+    "schema": "definition",
+    "valid": true,
+    "value": {
+      "schema_version": 2,
+      "kind": "pack",
+      "name": "Shape fixture",
+      "description": "Synthetic visual and tone; no spoken pronunciation.",
+      "locales": [
+        "en-US",
+        "bg-BG"
+      ],
+      "resources": [
+        {
+          "path": "assets/5ed41d650794d2951d12b36f77f0346a669db444fcc0240fc12b93de40eeaffd.png",
+          "sha256": "5ed41d650794d2951d12b36f77f0346a669db444fcc0240fc12b93de40eeaffd",
+          "length": 489,
+          "media_type": "image/png",
+          "duration_seconds": null,
+          "credit": {
+            "creator": "Mantel test fixture",
+            "license": "CC0-1.0",
+            "attribution": "",
+            "source": "",
+            "modified": false
+          }
+        },
+        {
+          "path": "assets/f987693599988688e7a42e7b4fcd8e18b85abd2dcde5ea17a512e0595f491256.mp3",
+          "sha256": "f987693599988688e7a42e7b4fcd8e18b85abd2dcde5ea17a512e0595f491256",
+          "length": 2132,
+          "media_type": "audio/mpeg",
+          "duration_seconds": 0.2,
+          "credit": {
+            "creator": "Mantel test fixture",
+            "license": "CC0-1.0",
+            "attribution": "",
+            "source": "",
+            "modified": false
+          }
+        }
+      ],
+      "items": [
+        {
+          "id": "circle",
+          "content_revision": 1,
+          "translations": {
+            "en-US": {
+              "prompt": {
+                "text": "Circle",
+                "image": "assets/5ed41d650794d2951d12b36f77f0346a669db444fcc0240fc12b93de40eeaffd.png",
+                "alt_text": "Green circle"
+              },
+              "reveal": {
+                "text": "A green circle",
+                "image": null,
+                "alt_text": null
+              }
+            },
+            "bg-BG": {
+              "prompt": {
+                "text": "Кръг",
+                "image": "assets/5ed41d650794d2951d12b36f77f0346a669db444fcc0240fc12b93de40eeaffd.png",
+                "alt_text": "Зелен кръг"
+              },
+              "reveal": {
+                "text": "Зелен кръг",
+                "image": null,
+                "alt_text": null
+              }
+            }
+          },
+          "audio_cues": [
+            {
+              "resource": "assets/f987693599988688e7a42e7b4fcd8e18b85abd2dcde5ea17a512e0595f491256.mp3",
+              "locale": "en-US",
+              "phase": "reveal",
+              "role": "effect",
+              "transcript": "Short test tone"
+            }
+          ]
+        }
+      ],
+      "activities": [
+        {
+          "id": "shapes",
+          "name": "Shapes",
+          "kind": "reveal-sequence-v1",
+          "item_ids": [
+            "circle"
+          ],
+          "locale": "en-US",
+          "loop": false,
+          "timing": {
+            "prompt_seconds": 3,
+            "recall_seconds": 3,
+            "reveal_seconds": 4,
+            "dwell_seconds": 2
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "manifest accepts valid contract",
+    "schema": "manifest",
+    "valid": true,
+    "value": {
+      "format": "mantelpack",
+      "schema_version": 2,
+      "id": "mantel/shape-fixture",
+      "version": "1.0.0",
+      "publisher": "Mantel",
+      "definition_sha256": "7132e3218201ce6efdb04792af7922f0b3baaf65f0b658fe8beed1cd5f11ef55",
+      "entrypoint": "definition.json",
+      "required_capabilities": [
+        "pack-format-v2",
+        "reveal-sequence-v1"
+      ]
+    }
+  },
+  {
+    "name": "card-settings accepts valid contract",
+    "schema": "card-settings",
+    "valid": true,
+    "value": {
+      "schema_version": 1,
+      "content_ref": {
+        "id": "mantel/shape-fixture",
+        "version": "1.0.0",
+        "definition_sha256": "7132e3218201ce6efdb04792af7922f0b3baaf65f0b658fe8beed1cd5f11ef55",
+        "archive_sha256": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+        "activity_id": "shapes"
+      },
+      "locale": "en-US",
+      "item_ids": null
+    }
+  },
+  {
+    "name": "audio-policy accepts valid contract",
+    "schema": "audio-policy",
+    "valid": true,
+    "value": {
+      "schema_version": 1,
+      "enabled": false,
+      "volume": 0.5,
+      "narration": true,
+      "effects": true
+    }
+  },
+  {
+    "name": "definition rejects unknown version",
+    "schema": "definition",
+    "valid": false,
+    "value": {
+      "schema_version": 3,
+      "kind": "pack",
+      "name": "Shape fixture",
+      "description": "Synthetic visual and tone; no spoken pronunciation.",
+      "locales": [
+        "en-US",
+        "bg-BG"
+      ],
+      "resources": [
+        {
+          "path": "assets/5ed41d650794d2951d12b36f77f0346a669db444fcc0240fc12b93de40eeaffd.png",
+          "sha256": "5ed41d650794d2951d12b36f77f0346a669db444fcc0240fc12b93de40eeaffd",
+          "length": 489,
+          "media_type": "image/png",
+          "duration_seconds": null,
+          "credit": {
+            "creator": "Mantel test fixture",
+            "license": "CC0-1.0",
+            "attribution": "",
+            "source": "",
+            "modified": false
+          }
+        },
+        {
+          "path": "assets/f987693599988688e7a42e7b4fcd8e18b85abd2dcde5ea17a512e0595f491256.mp3",
+          "sha256": "f987693599988688e7a42e7b4fcd8e18b85abd2dcde5ea17a512e0595f491256",
+          "length": 2132,
+          "media_type": "audio/mpeg",
+          "duration_seconds": 0.2,
+          "credit": {
+            "creator": "Mantel test fixture",
+            "license": "CC0-1.0",
+            "attribution": "",
+            "source": "",
+            "modified": false
+          }
+        }
+      ],
+      "items": [
+        {
+          "id": "circle",
+          "content_revision": 1,
+          "translations": {
+            "en-US": {
+              "prompt": {
+                "text": "Circle",
+                "image": "assets/5ed41d650794d2951d12b36f77f0346a669db444fcc0240fc12b93de40eeaffd.png",
+                "alt_text": "Green circle"
+              },
+              "reveal": {
+                "text": "A green circle",
+                "image": null,
+                "alt_text": null
+              }
+            },
+            "bg-BG": {
+              "prompt": {
+                "text": "Кръг",
+                "image": "assets/5ed41d650794d2951d12b36f77f0346a669db444fcc0240fc12b93de40eeaffd.png",
+                "alt_text": "Зелен кръг"
+              },
+              "reveal": {
+                "text": "Зелен кръг",
+                "image": null,
+                "alt_text": null
+              }
+            }
+          },
+          "audio_cues": [
+            {
+              "resource": "assets/f987693599988688e7a42e7b4fcd8e18b85abd2dcde5ea17a512e0595f491256.mp3",
+              "locale": "en-US",
+              "phase": "reveal",
+              "role": "effect",
+              "transcript": "Short test tone"
+            }
+          ]
+        }
+      ],
+      "activities": [
+        {
+          "id": "shapes",
+          "name": "Shapes",
+          "kind": "reveal-sequence-v1",
+          "item_ids": [
+            "circle"
+          ],
+          "locale": "en-US",
+          "loop": false,
+          "timing": {
+            "prompt_seconds": 3,
+            "recall_seconds": 3,
+            "reveal_seconds": 4,
+            "dwell_seconds": 2
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "definition rejects overlong text",
+    "schema": "definition",
+    "valid": false,
+    "value": {
+      "schema_version": 2,
+      "kind": "pack",
+      "name": "Shape fixture",
+      "description": "Synthetic visual and tone; no spoken pronunciation.",
+      "locales": [
+        "en-US",
+        "bg-BG"
+      ],
+      "resources": [
+        {
+          "path": "assets/5ed41d650794d2951d12b36f77f0346a669db444fcc0240fc12b93de40eeaffd.png",
+          "sha256": "5ed41d650794d2951d12b36f77f0346a669db444fcc0240fc12b93de40eeaffd",
+          "length": 489,
+          "media_type": "image/png",
+          "duration_seconds": null,
+          "credit": {
+            "creator": "Mantel test fixture",
+            "license": "CC0-1.0",
+            "attribution": "",
+            "source": "",
+            "modified": false
+          }
+        },
+        {
+          "path": "assets/f987693599988688e7a42e7b4fcd8e18b85abd2dcde5ea17a512e0595f491256.mp3",
+          "sha256": "f987693599988688e7a42e7b4fcd8e18b85abd2dcde5ea17a512e0595f491256",
+          "length": 2132,
+          "media_type": "audio/mpeg",
+          "duration_seconds": 0.2,
+          "credit": {
+            "creator": "Mantel test fixture",
+            "license": "CC0-1.0",
+            "attribution": "",
+            "source": "",
+            "modified": false
+          }
+        }
+      ],
+      "items": [
+        {
+          "id": "circle",
+          "content_revision": 1,
+          "translations": {
+            "en-US": {
+              "prompt": {
+                "text": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+                "image": "assets/5ed41d650794d2951d12b36f77f0346a669db444fcc0240fc12b93de40eeaffd.png",
+                "alt_text": "Green circle"
+              },
+              "reveal": {
+                "text": "A green circle",
+                "image": null,
+                "alt_text": null
+              }
+            },
+            "bg-BG": {
+              "prompt": {
+                "text": "Кръг",
+                "image": "assets/5ed41d650794d2951d12b36f77f0346a669db444fcc0240fc12b93de40eeaffd.png",
+                "alt_text": "Зелен кръг"
+              },
+              "reveal": {
+                "text": "Зелен кръг",
+                "image": null,
+                "alt_text": null
+              }
+            }
+          },
+          "audio_cues": [
+            {
+              "resource": "assets/f987693599988688e7a42e7b4fcd8e18b85abd2dcde5ea17a512e0595f491256.mp3",
+              "locale": "en-US",
+              "phase": "reveal",
+              "role": "effect",
+              "transcript": "Short test tone"
+            }
+          ]
+        }
+      ],
+      "activities": [
+        {
+          "id": "shapes",
+          "name": "Shapes",
+          "kind": "reveal-sequence-v1",
+          "item_ids": [
+            "circle"
+          ],
+          "locale": "en-US",
+          "loop": false,
+          "timing": {
+            "prompt_seconds": 3,
+            "recall_seconds": 3,
+            "reveal_seconds": 4,
+            "dwell_seconds": 2
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "definition rejects overlong timing",
+    "schema": "definition",
+    "valid": false,
+    "value": {
+      "schema_version": 2,
+      "kind": "pack",
+      "name": "Shape fixture",
+      "description": "Synthetic visual and tone; no spoken pronunciation.",
+      "locales": [
+        "en-US",
+        "bg-BG"
+      ],
+      "resources": [
+        {
+          "path": "assets/5ed41d650794d2951d12b36f77f0346a669db444fcc0240fc12b93de40eeaffd.png",
+          "sha256": "5ed41d650794d2951d12b36f77f0346a669db444fcc0240fc12b93de40eeaffd",
+          "length": 489,
+          "media_type": "image/png",
+          "duration_seconds": null,
+          "credit": {
+            "creator": "Mantel test fixture",
+            "license": "CC0-1.0",
+            "attribution": "",
+            "source": "",
+            "modified": false
+          }
+        },
+        {
+          "path": "assets/f987693599988688e7a42e7b4fcd8e18b85abd2dcde5ea17a512e0595f491256.mp3",
+          "sha256": "f987693599988688e7a42e7b4fcd8e18b85abd2dcde5ea17a512e0595f491256",
+          "length": 2132,
+          "media_type": "audio/mpeg",
+          "duration_seconds": 0.2,
+          "credit": {
+            "creator": "Mantel test fixture",
+            "license": "CC0-1.0",
+            "attribution": "",
+            "source": "",
+            "modified": false
+          }
+        }
+      ],
+      "items": [
+        {
+          "id": "circle",
+          "content_revision": 1,
+          "translations": {
+            "en-US": {
+              "prompt": {
+                "text": "Circle",
+                "image": "assets/5ed41d650794d2951d12b36f77f0346a669db444fcc0240fc12b93de40eeaffd.png",
+                "alt_text": "Green circle"
+              },
+              "reveal": {
+                "text": "A green circle",
+                "image": null,
+                "alt_text": null
+              }
+            },
+            "bg-BG": {
+              "prompt": {
+                "text": "Кръг",
+                "image": "assets/5ed41d650794d2951d12b36f77f0346a669db444fcc0240fc12b93de40eeaffd.png",
+                "alt_text": "Зелен кръг"
+              },
+              "reveal": {
+                "text": "Зелен кръг",
+                "image": null,
+                "alt_text": null
+              }
+            }
+          },
+          "audio_cues": [
+            {
+              "resource": "assets/f987693599988688e7a42e7b4fcd8e18b85abd2dcde5ea17a512e0595f491256.mp3",
+              "locale": "en-US",
+              "phase": "reveal",
+              "role": "effect",
+              "transcript": "Short test tone"
+            }
+          ]
+        }
+      ],
+      "activities": [
+        {
+          "id": "shapes",
+          "name": "Shapes",
+          "kind": "reveal-sequence-v1",
+          "item_ids": [
+            "circle"
+          ],
+          "locale": "en-US",
+          "loop": false,
+          "timing": {
+            "prompt_seconds": 3,
+            "recall_seconds": 31,
+            "reveal_seconds": 4,
+            "dwell_seconds": 2
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "definition rejects coerced boolean",
+    "schema": "definition",
+    "valid": false,
+    "value": {
+      "schema_version": 2,
+      "kind": "pack",
+      "name": "Shape fixture",
+      "description": "Synthetic visual and tone; no spoken pronunciation.",
+      "locales": [
+        "en-US",
+        "bg-BG"
+      ],
+      "resources": [
+        {
+          "path": "assets/5ed41d650794d2951d12b36f77f0346a669db444fcc0240fc12b93de40eeaffd.png",
+          "sha256": "5ed41d650794d2951d12b36f77f0346a669db444fcc0240fc12b93de40eeaffd",
+          "length": 489,
+          "media_type": "image/png",
+          "duration_seconds": null,
+          "credit": {
+            "creator": "Mantel test fixture",
+            "license": "CC0-1.0",
+            "attribution": "",
+            "source": "",
+            "modified": false
+          }
+        },
+        {
+          "path": "assets/f987693599988688e7a42e7b4fcd8e18b85abd2dcde5ea17a512e0595f491256.mp3",
+          "sha256": "f987693599988688e7a42e7b4fcd8e18b85abd2dcde5ea17a512e0595f491256",
+          "length": 2132,
+          "media_type": "audio/mpeg",
+          "duration_seconds": 0.2,
+          "credit": {
+            "creator": "Mantel test fixture",
+            "license": "CC0-1.0",
+            "attribution": "",
+            "source": "",
+            "modified": false
+          }
+        }
+      ],
+      "items": [
+        {
+          "id": "circle",
+          "content_revision": 1,
+          "translations": {
+            "en-US": {
+              "prompt": {
+                "text": "Circle",
+                "image": "assets/5ed41d650794d2951d12b36f77f0346a669db444fcc0240fc12b93de40eeaffd.png",
+                "alt_text": "Green circle"
+              },
+              "reveal": {
+                "text": "A green circle",
+                "image": null,
+                "alt_text": null
+              }
+            },
+            "bg-BG": {
+              "prompt": {
+                "text": "Кръг",
+                "image": "assets/5ed41d650794d2951d12b36f77f0346a669db444fcc0240fc12b93de40eeaffd.png",
+                "alt_text": "Зелен кръг"
+              },
+              "reveal": {
+                "text": "Зелен кръг",
+                "image": null,
+                "alt_text": null
+              }
+            }
+          },
+          "audio_cues": [
+            {
+              "resource": "assets/f987693599988688e7a42e7b4fcd8e18b85abd2dcde5ea17a512e0595f491256.mp3",
+              "locale": "en-US",
+              "phase": "reveal",
+              "role": "effect",
+              "transcript": "Short test tone"
+            }
+          ]
+        }
+      ],
+      "activities": [
+        {
+          "id": "shapes",
+          "name": "Shapes",
+          "kind": "reveal-sequence-v1",
+          "item_ids": [
+            "circle"
+          ],
+          "locale": "en-US",
+          "loop": "false",
+          "timing": {
+            "prompt_seconds": 3,
+            "recall_seconds": 3,
+            "reveal_seconds": 4,
+            "dwell_seconds": 2
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "manifest rejects invalid digest",
+    "schema": "manifest",
+    "valid": false,
+    "value": {
+      "format": "mantelpack",
+      "schema_version": 2,
+      "id": "mantel/shape-fixture",
+      "version": "1.0.0",
+      "publisher": "Mantel",
+      "definition_sha256": "not-a-digest",
+      "entrypoint": "definition.json",
+      "required_capabilities": [
+        "pack-format-v2",
+        "reveal-sequence-v1"
+      ]
+    }
+  },
+  {
+    "name": "manifest rejects executable capability",
+    "schema": "manifest",
+    "valid": false,
+    "value": {
+      "format": "mantelpack",
+      "schema_version": 2,
+      "id": "mantel/shape-fixture",
+      "version": "1.0.0",
+      "publisher": "Mantel",
+      "definition_sha256": "7132e3218201ce6efdb04792af7922f0b3baaf65f0b658fe8beed1cd5f11ef55",
+      "entrypoint": "definition.json",
+      "required_capabilities": [
+        "javascript"
+      ]
+    }
+  },
+  {
+    "name": "card-settings rejects short archive digest",
+    "schema": "card-settings",
+    "valid": false,
+    "value": {
+      "schema_version": 1,
+      "content_ref": {
+        "id": "mantel/shape-fixture",
+        "version": "1.0.0",
+        "definition_sha256": "7132e3218201ce6efdb04792af7922f0b3baaf65f0b658fe8beed1cd5f11ef55",
+        "archive_sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        "activity_id": "shapes"
+      },
+      "locale": "en-US",
+      "item_ids": null
+    }
+  },
+  {
+    "name": "audio-policy rejects excess volume",
+    "schema": "audio-policy",
+    "valid": false,
+    "value": {
+      "enabled": false,
+      "volume": 1.1
+    }
+  },
+  {
+    "name": "audio-policy rejects numeric boolean",
+    "schema": "audio-policy",
+    "valid": false,
+    "value": {
+      "enabled": 1
+    }
+  },
+  {
+    "name": "definition rejects unknown property",
+    "schema": "definition",
+    "valid": false,
+    "value": {
+      "schema_version": 2,
+      "kind": "pack",
+      "name": "Shape fixture",
+      "description": "Synthetic visual and tone; no spoken pronunciation.",
+      "locales": [
+        "en-US",
+        "bg-BG"
+      ],
+      "resources": [
+        {
+          "path": "assets/5ed41d650794d2951d12b36f77f0346a669db444fcc0240fc12b93de40eeaffd.png",
+          "sha256": "5ed41d650794d2951d12b36f77f0346a669db444fcc0240fc12b93de40eeaffd",
+          "length": 489,
+          "media_type": "image/png",
+          "duration_seconds": null,
+          "credit": {
+            "creator": "Mantel test fixture",
+            "license": "CC0-1.0",
+            "attribution": "",
+            "source": "",
+            "modified": false
+          }
+        },
+        {
+          "path": "assets/f987693599988688e7a42e7b4fcd8e18b85abd2dcde5ea17a512e0595f491256.mp3",
+          "sha256": "f987693599988688e7a42e7b4fcd8e18b85abd2dcde5ea17a512e0595f491256",
+          "length": 2132,
+          "media_type": "audio/mpeg",
+          "duration_seconds": 0.2,
+          "credit": {
+            "creator": "Mantel test fixture",
+            "license": "CC0-1.0",
+            "attribution": "",
+            "source": "",
+            "modified": false
+          }
+        }
+      ],
+      "items": [
+        {
+          "id": "circle",
+          "content_revision": 1,
+          "translations": {
+            "en-US": {
+              "prompt": {
+                "text": "Circle",
+                "image": "assets/5ed41d650794d2951d12b36f77f0346a669db444fcc0240fc12b93de40eeaffd.png",
+                "alt_text": "Green circle"
+              },
+              "reveal": {
+                "text": "A green circle",
+                "image": null,
+                "alt_text": null
+              }
+            },
+            "bg-BG": {
+              "prompt": {
+                "text": "Кръг",
+                "image": "assets/5ed41d650794d2951d12b36f77f0346a669db444fcc0240fc12b93de40eeaffd.png",
+                "alt_text": "Зелен кръг"
+              },
+              "reveal": {
+                "text": "Зелен кръг",
+                "image": null,
+                "alt_text": null
+              }
+            }
+          },
+          "audio_cues": [
+            {
+              "resource": "assets/f987693599988688e7a42e7b4fcd8e18b85abd2dcde5ea17a512e0595f491256.mp3",
+              "locale": "en-US",
+              "phase": "reveal",
+              "role": "effect",
+              "transcript": "Short test tone"
+            }
+          ]
+        }
+      ],
+      "activities": [
+        {
+          "id": "shapes",
+          "name": "Shapes",
+          "kind": "reveal-sequence-v1",
+          "item_ids": [
+            "circle"
+          ],
+          "locale": "en-US",
+          "loop": false,
+          "timing": {
+            "prompt_seconds": 3,
+            "recall_seconds": 3,
+            "reveal_seconds": 4,
+            "dwell_seconds": 2
+          }
+        }
+      ],
+      "script": "alert(1)"
+    }
+  },
+  {
+    "name": "manifest rejects unknown property",
+    "schema": "manifest",
+    "valid": false,
+    "value": {
+      "format": "mantelpack",
+      "schema_version": 2,
+      "id": "mantel/shape-fixture",
+      "version": "1.0.0",
+      "publisher": "Mantel",
+      "definition_sha256": "7132e3218201ce6efdb04792af7922f0b3baaf65f0b658fe8beed1cd5f11ef55",
+      "entrypoint": "definition.json",
+      "required_capabilities": [
+        "pack-format-v2",
+        "reveal-sequence-v1"
+      ],
+      "script": "alert(1)"
+    }
+  },
+  {
+    "name": "card-settings rejects unknown property",
+    "schema": "card-settings",
+    "valid": false,
+    "value": {
+      "schema_version": 1,
+      "content_ref": {
+        "id": "mantel/shape-fixture",
+        "version": "1.0.0",
+        "definition_sha256": "7132e3218201ce6efdb04792af7922f0b3baaf65f0b658fe8beed1cd5f11ef55",
+        "archive_sha256": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+        "activity_id": "shapes"
+      },
+      "locale": "en-US",
+      "item_ids": null,
+      "script": "alert(1)"
+    }
+  },
+  {
+    "schema": "definition",
+    "name": "definition rejects invalid translation key",
+    "valid": false,
+    "value": {
+      "schema_version": 2,
+      "kind": "pack",
+      "name": "Shape fixture",
+      "description": "Synthetic visual and tone; no spoken pronunciation.",
+      "locales": [
+        "en-US",
+        "bg-BG"
+      ],
+      "resources": [
+        {
+          "path": "assets/5ed41d650794d2951d12b36f77f0346a669db444fcc0240fc12b93de40eeaffd.png",
+          "sha256": "5ed41d650794d2951d12b36f77f0346a669db444fcc0240fc12b93de40eeaffd",
+          "length": 489,
+          "media_type": "image/png",
+          "duration_seconds": null,
+          "credit": {
+            "creator": "Mantel test fixture",
+            "license": "CC0-1.0",
+            "attribution": "",
+            "source": "",
+            "modified": false
+          }
+        },
+        {
+          "path": "assets/f987693599988688e7a42e7b4fcd8e18b85abd2dcde5ea17a512e0595f491256.mp3",
+          "sha256": "f987693599988688e7a42e7b4fcd8e18b85abd2dcde5ea17a512e0595f491256",
+          "length": 2132,
+          "media_type": "audio/mpeg",
+          "duration_seconds": 0.2,
+          "credit": {
+            "creator": "Mantel test fixture",
+            "license": "CC0-1.0",
+            "attribution": "",
+            "source": "",
+            "modified": false
+          }
+        }
+      ],
+      "items": [
+        {
+          "id": "circle",
+          "content_revision": 1,
+          "translations": {
+            "en-US": {
+              "prompt": {
+                "text": "Circle",
+                "image": "assets/5ed41d650794d2951d12b36f77f0346a669db444fcc0240fc12b93de40eeaffd.png",
+                "alt_text": "Green circle"
+              },
+              "reveal": {
+                "text": "A green circle",
+                "image": null,
+                "alt_text": null
+              }
+            },
+            "bg-BG": {
+              "prompt": {
+                "text": "Кръг",
+                "image": "assets/5ed41d650794d2951d12b36f77f0346a669db444fcc0240fc12b93de40eeaffd.png",
+                "alt_text": "Зелен кръг"
+              },
+              "reveal": {
+                "text": "Зелен кръг",
+                "image": null,
+                "alt_text": null
+              }
+            },
+            "!": null
+          },
+          "audio_cues": [
+            {
+              "resource": "assets/f987693599988688e7a42e7b4fcd8e18b85abd2dcde5ea17a512e0595f491256.mp3",
+              "locale": "en-US",
+              "phase": "reveal",
+              "role": "effect",
+              "transcript": "Short test tone"
+            }
+          ]
+        }
+      ],
+      "activities": [
+        {
+          "id": "shapes",
+          "name": "Shapes",
+          "kind": "reveal-sequence-v1",
+          "item_ids": [
+            "circle"
+          ],
+          "locale": "en-US",
+          "loop": false,
+          "timing": {
+            "prompt_seconds": 3,
+            "recall_seconds": 3,
+            "reveal_seconds": 4,
+            "dwell_seconds": 2
+          }
+        }
+      ]
+    }
+  },
+  {
+    "schema": "manifest",
+    "name": "manifest rejects Unicode release digits",
+    "valid": false,
+    "value": {
+      "format": "mantelpack",
+      "schema_version": 2,
+      "id": "mantel/shape-fixture",
+      "version": "١.٠.٠",
+      "publisher": "Mantel",
+      "definition_sha256": "7132e3218201ce6efdb04792af7922f0b3baaf65f0b658fe8beed1cd5f11ef55",
+      "entrypoint": "definition.json",
+      "required_capabilities": [
+        "pack-format-v2",
+        "reveal-sequence-v1"
+      ]
+    }
+  },
+  {
+    "schema": "card-settings",
+    "name": "card-settings rejects Unicode reference version",
+    "valid": false,
+    "value": {
+      "schema_version": 1,
+      "content_ref": {
+        "id": "mantel/shape-fixture",
+        "version": "١.٠.٠",
+        "definition_sha256": "7132e3218201ce6efdb04792af7922f0b3baaf65f0b658fe8beed1cd5f11ef55",
+        "archive_sha256": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+        "activity_id": "shapes"
+      },
+      "locale": "en-US",
+      "item_ids": null
+    }
+  },
+  {
+    "schema": "definition",
+    "name": "definition rejects missing image alternative",
+    "valid": false,
+    "value": {
+      "schema_version": 2,
+      "kind": "pack",
+      "name": "Shape fixture",
+      "description": "Synthetic visual and tone; no spoken pronunciation.",
+      "locales": [
+        "en-US",
+        "bg-BG"
+      ],
+      "resources": [
+        {
+          "path": "assets/5ed41d650794d2951d12b36f77f0346a669db444fcc0240fc12b93de40eeaffd.png",
+          "sha256": "5ed41d650794d2951d12b36f77f0346a669db444fcc0240fc12b93de40eeaffd",
+          "length": 489,
+          "media_type": "image/png",
+          "duration_seconds": null,
+          "credit": {
+            "creator": "Mantel test fixture",
+            "license": "CC0-1.0",
+            "attribution": "",
+            "source": "",
+            "modified": false
+          }
+        },
+        {
+          "path": "assets/f987693599988688e7a42e7b4fcd8e18b85abd2dcde5ea17a512e0595f491256.mp3",
+          "sha256": "f987693599988688e7a42e7b4fcd8e18b85abd2dcde5ea17a512e0595f491256",
+          "length": 2132,
+          "media_type": "audio/mpeg",
+          "duration_seconds": 0.2,
+          "credit": {
+            "creator": "Mantel test fixture",
+            "license": "CC0-1.0",
+            "attribution": "",
+            "source": "",
+            "modified": false
+          }
+        }
+      ],
+      "items": [
+        {
+          "id": "circle",
+          "content_revision": 1,
+          "translations": {
+            "en-US": {
+              "prompt": {
+                "text": "Circle",
+                "image": "assets/5ed41d650794d2951d12b36f77f0346a669db444fcc0240fc12b93de40eeaffd.png",
+                "alt_text": null
+              },
+              "reveal": {
+                "text": "A green circle",
+                "image": null,
+                "alt_text": null
+              }
+            },
+            "bg-BG": {
+              "prompt": {
+                "text": "Кръг",
+                "image": "assets/5ed41d650794d2951d12b36f77f0346a669db444fcc0240fc12b93de40eeaffd.png",
+                "alt_text": "Зелен кръг"
+              },
+              "reveal": {
+                "text": "Зелен кръг",
+                "image": null,
+                "alt_text": null
+              }
+            }
+          },
+          "audio_cues": [
+            {
+              "resource": "assets/f987693599988688e7a42e7b4fcd8e18b85abd2dcde5ea17a512e0595f491256.mp3",
+              "locale": "en-US",
+              "phase": "reveal",
+              "role": "effect",
+              "transcript": "Short test tone"
+            }
+          ]
+        }
+      ],
+      "activities": [
+        {
+          "id": "shapes",
+          "name": "Shapes",
+          "kind": "reveal-sequence-v1",
+          "item_ids": [
+            "circle"
+          ],
+          "locale": "en-US",
+          "loop": false,
+          "timing": {
+            "prompt_seconds": 3,
+            "recall_seconds": 3,
+            "reveal_seconds": 4,
+            "dwell_seconds": 2
+          }
+        }
+      ]
+    }
+  },
+  {
+    "schema": "definition",
+    "name": "definition rejects alternative without image",
+    "valid": false,
+    "value": {
+      "schema_version": 2,
+      "kind": "pack",
+      "name": "Shape fixture",
+      "description": "Synthetic visual and tone; no spoken pronunciation.",
+      "locales": [
+        "en-US",
+        "bg-BG"
+      ],
+      "resources": [
+        {
+          "path": "assets/5ed41d650794d2951d12b36f77f0346a669db444fcc0240fc12b93de40eeaffd.png",
+          "sha256": "5ed41d650794d2951d12b36f77f0346a669db444fcc0240fc12b93de40eeaffd",
+          "length": 489,
+          "media_type": "image/png",
+          "duration_seconds": null,
+          "credit": {
+            "creator": "Mantel test fixture",
+            "license": "CC0-1.0",
+            "attribution": "",
+            "source": "",
+            "modified": false
+          }
+        },
+        {
+          "path": "assets/f987693599988688e7a42e7b4fcd8e18b85abd2dcde5ea17a512e0595f491256.mp3",
+          "sha256": "f987693599988688e7a42e7b4fcd8e18b85abd2dcde5ea17a512e0595f491256",
+          "length": 2132,
+          "media_type": "audio/mpeg",
+          "duration_seconds": 0.2,
+          "credit": {
+            "creator": "Mantel test fixture",
+            "license": "CC0-1.0",
+            "attribution": "",
+            "source": "",
+            "modified": false
+          }
+        }
+      ],
+      "items": [
+        {
+          "id": "circle",
+          "content_revision": 1,
+          "translations": {
+            "en-US": {
+              "prompt": {
+                "text": "Circle",
+                "image": "assets/5ed41d650794d2951d12b36f77f0346a669db444fcc0240fc12b93de40eeaffd.png",
+                "alt_text": "Green circle"
+              },
+              "reveal": {
+                "text": "A green circle",
+                "image": null,
+                "alt_text": "Alternative"
+              }
+            },
+            "bg-BG": {
+              "prompt": {
+                "text": "Кръг",
+                "image": "assets/5ed41d650794d2951d12b36f77f0346a669db444fcc0240fc12b93de40eeaffd.png",
+                "alt_text": "Зелен кръг"
+              },
+              "reveal": {
+                "text": "Зелен кръг",
+                "image": null,
+                "alt_text": null
+              }
+            }
+          },
+          "audio_cues": [
+            {
+              "resource": "assets/f987693599988688e7a42e7b4fcd8e18b85abd2dcde5ea17a512e0595f491256.mp3",
+              "locale": "en-US",
+              "phase": "reveal",
+              "role": "effect",
+              "transcript": "Short test tone"
+            }
+          ]
+        }
+      ],
+      "activities": [
+        {
+          "id": "shapes",
+          "name": "Shapes",
+          "kind": "reveal-sequence-v1",
+          "item_ids": [
+            "circle"
+          ],
+          "locale": "en-US",
+          "loop": false,
+          "timing": {
+            "prompt_seconds": 3,
+            "recall_seconds": 3,
+            "reveal_seconds": 4,
+            "dwell_seconds": 2
+          }
+        }
+      ]
+    }
+  },
+  {
+    "schema": "definition",
+    "name": "definition rejects oversized MP3",
+    "valid": false,
+    "value": {
+      "schema_version": 2,
+      "kind": "pack",
+      "name": "Shape fixture",
+      "description": "Synthetic visual and tone; no spoken pronunciation.",
+      "locales": [
+        "en-US",
+        "bg-BG"
+      ],
+      "resources": [
+        {
+          "path": "assets/5ed41d650794d2951d12b36f77f0346a669db444fcc0240fc12b93de40eeaffd.png",
+          "sha256": "5ed41d650794d2951d12b36f77f0346a669db444fcc0240fc12b93de40eeaffd",
+          "length": 489,
+          "media_type": "image/png",
+          "duration_seconds": null,
+          "credit": {
+            "creator": "Mantel test fixture",
+            "license": "CC0-1.0",
+            "attribution": "",
+            "source": "",
+            "modified": false
+          }
+        },
+        {
+          "path": "assets/f987693599988688e7a42e7b4fcd8e18b85abd2dcde5ea17a512e0595f491256.mp3",
+          "sha256": "f987693599988688e7a42e7b4fcd8e18b85abd2dcde5ea17a512e0595f491256",
+          "length": 2097153,
+          "media_type": "audio/mpeg",
+          "duration_seconds": 0.2,
+          "credit": {
+            "creator": "Mantel test fixture",
+            "license": "CC0-1.0",
+            "attribution": "",
+            "source": "",
+            "modified": false
+          }
+        }
+      ],
+      "items": [
+        {
+          "id": "circle",
+          "content_revision": 1,
+          "translations": {
+            "en-US": {
+              "prompt": {
+                "text": "Circle",
+                "image": "assets/5ed41d650794d2951d12b36f77f0346a669db444fcc0240fc12b93de40eeaffd.png",
+                "alt_text": "Green circle"
+              },
+              "reveal": {
+                "text": "A green circle",
+                "image": null,
+                "alt_text": null
+              }
+            },
+            "bg-BG": {
+              "prompt": {
+                "text": "Кръг",
+                "image": "assets/5ed41d650794d2951d12b36f77f0346a669db444fcc0240fc12b93de40eeaffd.png",
+                "alt_text": "Зелен кръг"
+              },
+              "reveal": {
+                "text": "Зелен кръг",
+                "image": null,
+                "alt_text": null
+              }
+            }
+          },
+          "audio_cues": [
+            {
+              "resource": "assets/f987693599988688e7a42e7b4fcd8e18b85abd2dcde5ea17a512e0595f491256.mp3",
+              "locale": "en-US",
+              "phase": "reveal",
+              "role": "effect",
+              "transcript": "Short test tone"
+            }
+          ]
+        }
+      ],
+      "activities": [
+        {
+          "id": "shapes",
+          "name": "Shapes",
+          "kind": "reveal-sequence-v1",
+          "item_ids": [
+            "circle"
+          ],
+          "locale": "en-US",
+          "loop": false,
+          "timing": {
+            "prompt_seconds": 3,
+            "recall_seconds": 3,
+            "reveal_seconds": 4,
+            "dwell_seconds": 2
+          }
+        }
+      ]
+    }
+  },
+  {
+    "schema": "definition",
+    "name": "definition accepts MP3 boundary",
+    "valid": true,
+    "value": {
+      "schema_version": 2,
+      "kind": "pack",
+      "name": "Shape fixture",
+      "description": "Synthetic visual and tone; no spoken pronunciation.",
+      "locales": [
+        "en-US",
+        "bg-BG"
+      ],
+      "resources": [
+        {
+          "path": "assets/5ed41d650794d2951d12b36f77f0346a669db444fcc0240fc12b93de40eeaffd.png",
+          "sha256": "5ed41d650794d2951d12b36f77f0346a669db444fcc0240fc12b93de40eeaffd",
+          "length": 489,
+          "media_type": "image/png",
+          "duration_seconds": null,
+          "credit": {
+            "creator": "Mantel test fixture",
+            "license": "CC0-1.0",
+            "attribution": "",
+            "source": "",
+            "modified": false
+          }
+        },
+        {
+          "path": "assets/f987693599988688e7a42e7b4fcd8e18b85abd2dcde5ea17a512e0595f491256.mp3",
+          "sha256": "f987693599988688e7a42e7b4fcd8e18b85abd2dcde5ea17a512e0595f491256",
+          "length": 2097152,
+          "media_type": "audio/mpeg",
+          "duration_seconds": 0.2,
+          "credit": {
+            "creator": "Mantel test fixture",
+            "license": "CC0-1.0",
+            "attribution": "",
+            "source": "",
+            "modified": false
+          }
+        }
+      ],
+      "items": [
+        {
+          "id": "circle",
+          "content_revision": 1,
+          "translations": {
+            "en-US": {
+              "prompt": {
+                "text": "Circle",
+                "image": "assets/5ed41d650794d2951d12b36f77f0346a669db444fcc0240fc12b93de40eeaffd.png",
+                "alt_text": "Green circle"
+              },
+              "reveal": {
+                "text": "A green circle",
+                "image": null,
+                "alt_text": null
+              }
+            },
+            "bg-BG": {
+              "prompt": {
+                "text": "Кръг",
+                "image": "assets/5ed41d650794d2951d12b36f77f0346a669db444fcc0240fc12b93de40eeaffd.png",
+                "alt_text": "Зелен кръг"
+              },
+              "reveal": {
+                "text": "Зелен кръг",
+                "image": null,
+                "alt_text": null
+              }
+            }
+          },
+          "audio_cues": [
+            {
+              "resource": "assets/f987693599988688e7a42e7b4fcd8e18b85abd2dcde5ea17a512e0595f491256.mp3",
+              "locale": "en-US",
+              "phase": "reveal",
+              "role": "effect",
+              "transcript": "Short test tone"
+            }
+          ]
+        }
+      ],
+      "activities": [
+        {
+          "id": "shapes",
+          "name": "Shapes",
+          "kind": "reveal-sequence-v1",
+          "item_ids": [
+            "circle"
+          ],
+          "locale": "en-US",
+          "loop": false,
+          "timing": {
+            "prompt_seconds": 3,
+            "recall_seconds": 3,
+            "reveal_seconds": 4,
+            "dwell_seconds": 2
+          }
+        }
+      ]
+    }
+  },
+  {
+    "schema": "definition",
+    "name": "definition rejects missing MP3 duration",
+    "valid": false,
+    "value": {
+      "schema_version": 2,
+      "kind": "pack",
+      "name": "Shape fixture",
+      "description": "Synthetic visual and tone; no spoken pronunciation.",
+      "locales": [
+        "en-US",
+        "bg-BG"
+      ],
+      "resources": [
+        {
+          "path": "assets/5ed41d650794d2951d12b36f77f0346a669db444fcc0240fc12b93de40eeaffd.png",
+          "sha256": "5ed41d650794d2951d12b36f77f0346a669db444fcc0240fc12b93de40eeaffd",
+          "length": 489,
+          "media_type": "image/png",
+          "duration_seconds": null,
+          "credit": {
+            "creator": "Mantel test fixture",
+            "license": "CC0-1.0",
+            "attribution": "",
+            "source": "",
+            "modified": false
+          }
+        },
+        {
+          "path": "assets/f987693599988688e7a42e7b4fcd8e18b85abd2dcde5ea17a512e0595f491256.mp3",
+          "sha256": "f987693599988688e7a42e7b4fcd8e18b85abd2dcde5ea17a512e0595f491256",
+          "length": 2132,
+          "media_type": "audio/mpeg",
+          "duration_seconds": null,
+          "credit": {
+            "creator": "Mantel test fixture",
+            "license": "CC0-1.0",
+            "attribution": "",
+            "source": "",
+            "modified": false
+          }
+        }
+      ],
+      "items": [
+        {
+          "id": "circle",
+          "content_revision": 1,
+          "translations": {
+            "en-US": {
+              "prompt": {
+                "text": "Circle",
+                "image": "assets/5ed41d650794d2951d12b36f77f0346a669db444fcc0240fc12b93de40eeaffd.png",
+                "alt_text": "Green circle"
+              },
+              "reveal": {
+                "text": "A green circle",
+                "image": null,
+                "alt_text": null
+              }
+            },
+            "bg-BG": {
+              "prompt": {
+                "text": "Кръг",
+                "image": "assets/5ed41d650794d2951d12b36f77f0346a669db444fcc0240fc12b93de40eeaffd.png",
+                "alt_text": "Зелен кръг"
+              },
+              "reveal": {
+                "text": "Зелен кръг",
+                "image": null,
+                "alt_text": null
+              }
+            }
+          },
+          "audio_cues": [
+            {
+              "resource": "assets/f987693599988688e7a42e7b4fcd8e18b85abd2dcde5ea17a512e0595f491256.mp3",
+              "locale": "en-US",
+              "phase": "reveal",
+              "role": "effect",
+              "transcript": "Short test tone"
+            }
+          ]
+        }
+      ],
+      "activities": [
+        {
+          "id": "shapes",
+          "name": "Shapes",
+          "kind": "reveal-sequence-v1",
+          "item_ids": [
+            "circle"
+          ],
+          "locale": "en-US",
+          "loop": false,
+          "timing": {
+            "prompt_seconds": 3,
+            "recall_seconds": 3,
+            "reveal_seconds": 4,
+            "dwell_seconds": 2
+          }
+        }
+      ]
+    }
+  },
+  {
+    "schema": "definition",
+    "name": "definition accepts duration boundary",
+    "valid": true,
+    "value": {
+      "schema_version": 2,
+      "kind": "pack",
+      "name": "Shape fixture",
+      "description": "Synthetic visual and tone; no spoken pronunciation.",
+      "locales": [
+        "en-US",
+        "bg-BG"
+      ],
+      "resources": [
+        {
+          "path": "assets/5ed41d650794d2951d12b36f77f0346a669db444fcc0240fc12b93de40eeaffd.png",
+          "sha256": "5ed41d650794d2951d12b36f77f0346a669db444fcc0240fc12b93de40eeaffd",
+          "length": 489,
+          "media_type": "image/png",
+          "duration_seconds": null,
+          "credit": {
+            "creator": "Mantel test fixture",
+            "license": "CC0-1.0",
+            "attribution": "",
+            "source": "",
+            "modified": false
+          }
+        },
+        {
+          "path": "assets/f987693599988688e7a42e7b4fcd8e18b85abd2dcde5ea17a512e0595f491256.mp3",
+          "sha256": "f987693599988688e7a42e7b4fcd8e18b85abd2dcde5ea17a512e0595f491256",
+          "length": 2132,
+          "media_type": "audio/mpeg",
+          "duration_seconds": 30,
+          "credit": {
+            "creator": "Mantel test fixture",
+            "license": "CC0-1.0",
+            "attribution": "",
+            "source": "",
+            "modified": false
+          }
+        }
+      ],
+      "items": [
+        {
+          "id": "circle",
+          "content_revision": 1,
+          "translations": {
+            "en-US": {
+              "prompt": {
+                "text": "Circle",
+                "image": "assets/5ed41d650794d2951d12b36f77f0346a669db444fcc0240fc12b93de40eeaffd.png",
+                "alt_text": "Green circle"
+              },
+              "reveal": {
+                "text": "A green circle",
+                "image": null,
+                "alt_text": null
+              }
+            },
+            "bg-BG": {
+              "prompt": {
+                "text": "Кръг",
+                "image": "assets/5ed41d650794d2951d12b36f77f0346a669db444fcc0240fc12b93de40eeaffd.png",
+                "alt_text": "Зелен кръг"
+              },
+              "reveal": {
+                "text": "Зелен кръг",
+                "image": null,
+                "alt_text": null
+              }
+            }
+          },
+          "audio_cues": [
+            {
+              "resource": "assets/f987693599988688e7a42e7b4fcd8e18b85abd2dcde5ea17a512e0595f491256.mp3",
+              "locale": "en-US",
+              "phase": "reveal",
+              "role": "effect",
+              "transcript": "Short test tone"
+            }
+          ]
+        }
+      ],
+      "activities": [
+        {
+          "id": "shapes",
+          "name": "Shapes",
+          "kind": "reveal-sequence-v1",
+          "item_ids": [
+            "circle"
+          ],
+          "locale": "en-US",
+          "loop": false,
+          "timing": {
+            "prompt_seconds": 3,
+            "recall_seconds": 3,
+            "reveal_seconds": 4,
+            "dwell_seconds": 2
+          }
+        }
+      ]
+    }
+  },
+  {
+    "schema": "definition",
+    "name": "definition rejects long duration",
+    "valid": false,
+    "value": {
+      "schema_version": 2,
+      "kind": "pack",
+      "name": "Shape fixture",
+      "description": "Synthetic visual and tone; no spoken pronunciation.",
+      "locales": [
+        "en-US",
+        "bg-BG"
+      ],
+      "resources": [
+        {
+          "path": "assets/5ed41d650794d2951d12b36f77f0346a669db444fcc0240fc12b93de40eeaffd.png",
+          "sha256": "5ed41d650794d2951d12b36f77f0346a669db444fcc0240fc12b93de40eeaffd",
+          "length": 489,
+          "media_type": "image/png",
+          "duration_seconds": null,
+          "credit": {
+            "creator": "Mantel test fixture",
+            "license": "CC0-1.0",
+            "attribution": "",
+            "source": "",
+            "modified": false
+          }
+        },
+        {
+          "path": "assets/f987693599988688e7a42e7b4fcd8e18b85abd2dcde5ea17a512e0595f491256.mp3",
+          "sha256": "f987693599988688e7a42e7b4fcd8e18b85abd2dcde5ea17a512e0595f491256",
+          "length": 2132,
+          "media_type": "audio/mpeg",
+          "duration_seconds": 30.1,
+          "credit": {
+            "creator": "Mantel test fixture",
+            "license": "CC0-1.0",
+            "attribution": "",
+            "source": "",
+            "modified": false
+          }
+        }
+      ],
+      "items": [
+        {
+          "id": "circle",
+          "content_revision": 1,
+          "translations": {
+            "en-US": {
+              "prompt": {
+                "text": "Circle",
+                "image": "assets/5ed41d650794d2951d12b36f77f0346a669db444fcc0240fc12b93de40eeaffd.png",
+                "alt_text": "Green circle"
+              },
+              "reveal": {
+                "text": "A green circle",
+                "image": null,
+                "alt_text": null
+              }
+            },
+            "bg-BG": {
+              "prompt": {
+                "text": "Кръг",
+                "image": "assets/5ed41d650794d2951d12b36f77f0346a669db444fcc0240fc12b93de40eeaffd.png",
+                "alt_text": "Зелен кръг"
+              },
+              "reveal": {
+                "text": "Зелен кръг",
+                "image": null,
+                "alt_text": null
+              }
+            }
+          },
+          "audio_cues": [
+            {
+              "resource": "assets/f987693599988688e7a42e7b4fcd8e18b85abd2dcde5ea17a512e0595f491256.mp3",
+              "locale": "en-US",
+              "phase": "reveal",
+              "role": "effect",
+              "transcript": "Short test tone"
+            }
+          ]
+        }
+      ],
+      "activities": [
+        {
+          "id": "shapes",
+          "name": "Shapes",
+          "kind": "reveal-sequence-v1",
+          "item_ids": [
+            "circle"
+          ],
+          "locale": "en-US",
+          "loop": false,
+          "timing": {
+            "prompt_seconds": 3,
+            "recall_seconds": 3,
+            "reveal_seconds": 4,
+            "dwell_seconds": 2
+          }
+        }
+      ]
+    }
+  },
+  {
+    "schema": "definition",
+    "name": "definition rejects duration on image",
+    "valid": false,
+    "value": {
+      "schema_version": 2,
+      "kind": "pack",
+      "name": "Shape fixture",
+      "description": "Synthetic visual and tone; no spoken pronunciation.",
+      "locales": [
+        "en-US",
+        "bg-BG"
+      ],
+      "resources": [
+        {
+          "path": "assets/5ed41d650794d2951d12b36f77f0346a669db444fcc0240fc12b93de40eeaffd.png",
+          "sha256": "5ed41d650794d2951d12b36f77f0346a669db444fcc0240fc12b93de40eeaffd",
+          "length": 489,
+          "media_type": "image/png",
+          "duration_seconds": 1,
+          "credit": {
+            "creator": "Mantel test fixture",
+            "license": "CC0-1.0",
+            "attribution": "",
+            "source": "",
+            "modified": false
+          }
+        },
+        {
+          "path": "assets/f987693599988688e7a42e7b4fcd8e18b85abd2dcde5ea17a512e0595f491256.mp3",
+          "sha256": "f987693599988688e7a42e7b4fcd8e18b85abd2dcde5ea17a512e0595f491256",
+          "length": 2132,
+          "media_type": "audio/mpeg",
+          "duration_seconds": 0.2,
+          "credit": {
+            "creator": "Mantel test fixture",
+            "license": "CC0-1.0",
+            "attribution": "",
+            "source": "",
+            "modified": false
+          }
+        }
+      ],
+      "items": [
+        {
+          "id": "circle",
+          "content_revision": 1,
+          "translations": {
+            "en-US": {
+              "prompt": {
+                "text": "Circle",
+                "image": "assets/5ed41d650794d2951d12b36f77f0346a669db444fcc0240fc12b93de40eeaffd.png",
+                "alt_text": "Green circle"
+              },
+              "reveal": {
+                "text": "A green circle",
+                "image": null,
+                "alt_text": null
+              }
+            },
+            "bg-BG": {
+              "prompt": {
+                "text": "Кръг",
+                "image": "assets/5ed41d650794d2951d12b36f77f0346a669db444fcc0240fc12b93de40eeaffd.png",
+                "alt_text": "Зелен кръг"
+              },
+              "reveal": {
+                "text": "Зелен кръг",
+                "image": null,
+                "alt_text": null
+              }
+            }
+          },
+          "audio_cues": [
+            {
+              "resource": "assets/f987693599988688e7a42e7b4fcd8e18b85abd2dcde5ea17a512e0595f491256.mp3",
+              "locale": "en-US",
+              "phase": "reveal",
+              "role": "effect",
+              "transcript": "Short test tone"
+            }
+          ]
+        }
+      ],
+      "activities": [
+        {
+          "id": "shapes",
+          "name": "Shapes",
+          "kind": "reveal-sequence-v1",
+          "item_ids": [
+            "circle"
+          ],
+          "locale": "en-US",
+          "loop": false,
+          "timing": {
+            "prompt_seconds": 3,
+            "recall_seconds": 3,
+            "reveal_seconds": 4,
+            "dwell_seconds": 2
+          }
+        }
+      ]
+    }
+  },
+  {
+    "schema": "definition",
+    "name": "definition rejects missing license notice",
+    "valid": false,
+    "value": {
+      "schema_version": 2,
+      "kind": "pack",
+      "name": "Shape fixture",
+      "description": "Synthetic visual and tone; no spoken pronunciation.",
+      "locales": [
+        "en-US",
+        "bg-BG"
+      ],
+      "resources": [
+        {
+          "path": "assets/5ed41d650794d2951d12b36f77f0346a669db444fcc0240fc12b93de40eeaffd.png",
+          "sha256": "5ed41d650794d2951d12b36f77f0346a669db444fcc0240fc12b93de40eeaffd",
+          "length": 489,
+          "media_type": "image/png",
+          "duration_seconds": null,
+          "credit": {
+            "creator": "Mantel test fixture",
+            "license": "MIT",
+            "attribution": "",
+            "source": "",
+            "modified": false
+          }
+        },
+        {
+          "path": "assets/f987693599988688e7a42e7b4fcd8e18b85abd2dcde5ea17a512e0595f491256.mp3",
+          "sha256": "f987693599988688e7a42e7b4fcd8e18b85abd2dcde5ea17a512e0595f491256",
+          "length": 2132,
+          "media_type": "audio/mpeg",
+          "duration_seconds": 0.2,
+          "credit": {
+            "creator": "Mantel test fixture",
+            "license": "CC0-1.0",
+            "attribution": "",
+            "source": "",
+            "modified": false
+          }
+        }
+      ],
+      "items": [
+        {
+          "id": "circle",
+          "content_revision": 1,
+          "translations": {
+            "en-US": {
+              "prompt": {
+                "text": "Circle",
+                "image": "assets/5ed41d650794d2951d12b36f77f0346a669db444fcc0240fc12b93de40eeaffd.png",
+                "alt_text": "Green circle"
+              },
+              "reveal": {
+                "text": "A green circle",
+                "image": null,
+                "alt_text": null
+              }
+            },
+            "bg-BG": {
+              "prompt": {
+                "text": "Кръг",
+                "image": "assets/5ed41d650794d2951d12b36f77f0346a669db444fcc0240fc12b93de40eeaffd.png",
+                "alt_text": "Зелен кръг"
+              },
+              "reveal": {
+                "text": "Зелен кръг",
+                "image": null,
+                "alt_text": null
+              }
+            }
+          },
+          "audio_cues": [
+            {
+              "resource": "assets/f987693599988688e7a42e7b4fcd8e18b85abd2dcde5ea17a512e0595f491256.mp3",
+              "locale": "en-US",
+              "phase": "reveal",
+              "role": "effect",
+              "transcript": "Short test tone"
+            }
+          ]
+        }
+      ],
+      "activities": [
+        {
+          "id": "shapes",
+          "name": "Shapes",
+          "kind": "reveal-sequence-v1",
+          "item_ids": [
+            "circle"
+          ],
+          "locale": "en-US",
+          "loop": false,
+          "timing": {
+            "prompt_seconds": 3,
+            "recall_seconds": 3,
+            "reveal_seconds": 4,
+            "dwell_seconds": 2
+          }
+        }
+      ]
+    }
+  },
+  {
+    "schema": "definition",
+    "name": "definition rejects duplicate activity item",
+    "valid": false,
+    "value": {
+      "schema_version": 2,
+      "kind": "pack",
+      "name": "Shape fixture",
+      "description": "Synthetic visual and tone; no spoken pronunciation.",
+      "locales": [
+        "en-US",
+        "bg-BG"
+      ],
+      "resources": [
+        {
+          "path": "assets/5ed41d650794d2951d12b36f77f0346a669db444fcc0240fc12b93de40eeaffd.png",
+          "sha256": "5ed41d650794d2951d12b36f77f0346a669db444fcc0240fc12b93de40eeaffd",
+          "length": 489,
+          "media_type": "image/png",
+          "duration_seconds": null,
+          "credit": {
+            "creator": "Mantel test fixture",
+            "license": "CC0-1.0",
+            "attribution": "",
+            "source": "",
+            "modified": false
+          }
+        },
+        {
+          "path": "assets/f987693599988688e7a42e7b4fcd8e18b85abd2dcde5ea17a512e0595f491256.mp3",
+          "sha256": "f987693599988688e7a42e7b4fcd8e18b85abd2dcde5ea17a512e0595f491256",
+          "length": 2132,
+          "media_type": "audio/mpeg",
+          "duration_seconds": 0.2,
+          "credit": {
+            "creator": "Mantel test fixture",
+            "license": "CC0-1.0",
+            "attribution": "",
+            "source": "",
+            "modified": false
+          }
+        }
+      ],
+      "items": [
+        {
+          "id": "circle",
+          "content_revision": 1,
+          "translations": {
+            "en-US": {
+              "prompt": {
+                "text": "Circle",
+                "image": "assets/5ed41d650794d2951d12b36f77f0346a669db444fcc0240fc12b93de40eeaffd.png",
+                "alt_text": "Green circle"
+              },
+              "reveal": {
+                "text": "A green circle",
+                "image": null,
+                "alt_text": null
+              }
+            },
+            "bg-BG": {
+              "prompt": {
+                "text": "Кръг",
+                "image": "assets/5ed41d650794d2951d12b36f77f0346a669db444fcc0240fc12b93de40eeaffd.png",
+                "alt_text": "Зелен кръг"
+              },
+              "reveal": {
+                "text": "Зелен кръг",
+                "image": null,
+                "alt_text": null
+              }
+            }
+          },
+          "audio_cues": [
+            {
+              "resource": "assets/f987693599988688e7a42e7b4fcd8e18b85abd2dcde5ea17a512e0595f491256.mp3",
+              "locale": "en-US",
+              "phase": "reveal",
+              "role": "effect",
+              "transcript": "Short test tone"
+            }
+          ]
+        }
+      ],
+      "activities": [
+        {
+          "id": "shapes",
+          "name": "Shapes",
+          "kind": "reveal-sequence-v1",
+          "item_ids": [
+            "circle",
+            "circle"
+          ],
+          "locale": "en-US",
+          "loop": false,
+          "timing": {
+            "prompt_seconds": 3,
+            "recall_seconds": 3,
+            "reveal_seconds": 4,
+            "dwell_seconds": 2
+          }
+        }
+      ]
+    }
+  },
+  {
+    "schema": "definition",
+    "name": "definition rejects duplicate locale",
+    "valid": false,
+    "value": {
+      "schema_version": 2,
+      "kind": "pack",
+      "name": "Shape fixture",
+      "description": "Synthetic visual and tone; no spoken pronunciation.",
+      "locales": [
+        "en-US",
+        "bg-BG",
+        "bg-BG"
+      ],
+      "resources": [
+        {
+          "path": "assets/5ed41d650794d2951d12b36f77f0346a669db444fcc0240fc12b93de40eeaffd.png",
+          "sha256": "5ed41d650794d2951d12b36f77f0346a669db444fcc0240fc12b93de40eeaffd",
+          "length": 489,
+          "media_type": "image/png",
+          "duration_seconds": null,
+          "credit": {
+            "creator": "Mantel test fixture",
+            "license": "CC0-1.0",
+            "attribution": "",
+            "source": "",
+            "modified": false
+          }
+        },
+        {
+          "path": "assets/f987693599988688e7a42e7b4fcd8e18b85abd2dcde5ea17a512e0595f491256.mp3",
+          "sha256": "f987693599988688e7a42e7b4fcd8e18b85abd2dcde5ea17a512e0595f491256",
+          "length": 2132,
+          "media_type": "audio/mpeg",
+          "duration_seconds": 0.2,
+          "credit": {
+            "creator": "Mantel test fixture",
+            "license": "CC0-1.0",
+            "attribution": "",
+            "source": "",
+            "modified": false
+          }
+        }
+      ],
+      "items": [
+        {
+          "id": "circle",
+          "content_revision": 1,
+          "translations": {
+            "en-US": {
+              "prompt": {
+                "text": "Circle",
+                "image": "assets/5ed41d650794d2951d12b36f77f0346a669db444fcc0240fc12b93de40eeaffd.png",
+                "alt_text": "Green circle"
+              },
+              "reveal": {
+                "text": "A green circle",
+                "image": null,
+                "alt_text": null
+              }
+            },
+            "bg-BG": {
+              "prompt": {
+                "text": "Кръг",
+                "image": "assets/5ed41d650794d2951d12b36f77f0346a669db444fcc0240fc12b93de40eeaffd.png",
+                "alt_text": "Зелен кръг"
+              },
+              "reveal": {
+                "text": "Зелен кръг",
+                "image": null,
+                "alt_text": null
+              }
+            }
+          },
+          "audio_cues": [
+            {
+              "resource": "assets/f987693599988688e7a42e7b4fcd8e18b85abd2dcde5ea17a512e0595f491256.mp3",
+              "locale": "en-US",
+              "phase": "reveal",
+              "role": "effect",
+              "transcript": "Short test tone"
+            }
+          ]
+        }
+      ],
+      "activities": [
+        {
+          "id": "shapes",
+          "name": "Shapes",
+          "kind": "reveal-sequence-v1",
+          "item_ids": [
+            "circle"
+          ],
+          "locale": "en-US",
+          "loop": false,
+          "timing": {
+            "prompt_seconds": 3,
+            "recall_seconds": 3,
+            "reveal_seconds": 4,
+            "dwell_seconds": 2
+          }
+        }
+      ]
+    }
+  },
+  {
+    "schema": "manifest",
+    "name": "manifest rejects duplicate capability",
+    "valid": false,
+    "value": {
+      "format": "mantelpack",
+      "schema_version": 2,
+      "id": "mantel/shape-fixture",
+      "version": "1.0.0",
+      "publisher": "Mantel",
+      "definition_sha256": "7132e3218201ce6efdb04792af7922f0b3baaf65f0b658fe8beed1cd5f11ef55",
+      "entrypoint": "definition.json",
+      "required_capabilities": [
+        "pack-format-v2",
+        "pack-format-v2"
+      ]
+    }
+  },
+  {
+    "schema": "card-settings",
+    "name": "card-settings rejects duplicate subset item",
+    "valid": false,
+    "value": {
+      "schema_version": 1,
+      "content_ref": {
+        "id": "mantel/shape-fixture",
+        "version": "1.0.0",
+        "definition_sha256": "7132e3218201ce6efdb04792af7922f0b3baaf65f0b658fe8beed1cd5f11ef55",
+        "archive_sha256": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+        "activity_id": "shapes"
+      },
+      "locale": "en-US",
+      "item_ids": [
+        "circle",
+        "circle"
+      ]
+    }
+  }
+]

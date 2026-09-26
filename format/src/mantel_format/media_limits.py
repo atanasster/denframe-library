@@ -1,0 +1,4 @@
+"""Shared media decoder allocation limits."""
+
+MAX_IMAGE_WORKING_SET_BYTES = 128 * 1024 * 1024
+MAX_DECODED_PIXELS = min(12_000_000, MAX_IMAGE_WORKING_SET_BYTES // 10)

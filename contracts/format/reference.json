@@ -1,0 +1,1097 @@
+{
+  "format_tool_version": "0.1.0",
+  "host_version": "0.1.0",
+  "limits": [
+    [
+      "Installed v1 elements (current host)",
+      100
+    ],
+    [
+      "Pending v1 imports",
+      20
+    ],
+    [
+      "V1 archive bytes",
+      262144
+    ],
+    [
+      "V1 expanded bytes",
+      131072
+    ],
+    [
+      "ZIP maximum compression ratio",
+      100
+    ],
+    [
+      "MAX_PACK_ARCHIVE",
+      134217728
+    ],
+    [
+      "MAX_PACK_EXPANDED",
+      268435456
+    ],
+    [
+      "MAX_PACK_FILES",
+      2048
+    ],
+    [
+      "MAX_PACK_DOCUMENTS",
+      4194304
+    ],
+    [
+      "MAX_PACK_ITEMS",
+      1000
+    ],
+    [
+      "MAX_PACK_INSTALLED",
+      2147483648
+    ],
+    [
+      "MAX_PACK_INSTALLED_FILES",
+      16384
+    ],
+    [
+      "MAX_PACK_STAGING",
+      536870912
+    ],
+    [
+      "MAX_PACK_JOBS",
+      2
+    ],
+    [
+      "MAX_PACK_IMAGE",
+      8388608
+    ],
+    [
+      "MAX_PACK_AUDIO",
+      2097152
+    ],
+    [
+      "MAX_PACK_AUDIO_SECONDS",
+      30
+    ],
+    [
+      "MAX_PACK_COMPRESSION_RATIO",
+      100
+    ],
+    [
+      "MAX_PACK_WINDOW",
+      16384
+    ],
+    [
+      "MAX_PACK_CHECKPOINT",
+      2048
+    ],
+    [
+      "MAX_DECODED_PIXELS",
+      12000000
+    ],
+    [
+      "MAX_IMAGE_WORKING_SET_BYTES",
+      134217728
+    ]
+  ],
+  "fields": {
+    "Definition": [
+      [
+        "schema_version",
+        "integer; value: 1; default: 1",
+        "optional"
+      ],
+      [
+        "kind",
+        "string; choices: [\"theme\", \"block\", \"content\"]",
+        "required"
+      ],
+      [
+        "name",
+        "string; minimum characters: 1; maximum characters: 100",
+        "required"
+      ],
+      [
+        "look",
+        "string; choices: [\"painting\", \"modern\", \"glass\", \"ink\", \"linen\", \"botanical\"]; default: \"modern\"",
+        "optional"
+      ],
+      [
+        "appearance",
+        "PortableAppearance",
+        "optional"
+      ],
+      [
+        "blocks",
+        "array; maximum items: 12; items: PortableBlock",
+        "optional"
+      ],
+      [
+        "source_slots",
+        "array; maximum items: 12; items: SourceSlot",
+        "optional"
+      ],
+      [
+        "purpose",
+        "string; choices: [\"glance\", \"gallery\", \"home\", \"media\"] or null; default: null",
+        "optional"
+      ],
+      [
+        "arrangement",
+        "LayoutArrangement or null; default: null",
+        "optional"
+      ],
+      [
+        "setup",
+        "array; maximum items: 24; items: SetupPrompt",
+        "optional"
+      ]
+    ],
+    "ArrangementCell": [
+      [
+        "col_span",
+        "integer; minimum: 1; maximum: 12",
+        "required"
+      ],
+      [
+        "row_span",
+        "integer; minimum: 1; maximum: 6",
+        "required"
+      ],
+      [
+        "col_start",
+        "integer; minimum: 1; maximum: 12",
+        "required"
+      ],
+      [
+        "row_start",
+        "integer; minimum: 1; maximum: 6",
+        "required"
+      ]
+    ],
+    "BlockStyle": [
+      [
+        "padding",
+        "string; choices: [\"inherit\", \"none\", \"tight\", \"standard\", \"roomy\"]; default: \"inherit\"",
+        "optional"
+      ],
+      [
+        "face",
+        "string; choices: [\"inherit\", \"card\", \"transparent\", \"outlined\"]; default: \"inherit\"",
+        "optional"
+      ],
+      [
+        "text_size",
+        "string; choices: [\"smaller\", \"inherit\", \"larger\"]; default: \"inherit\"",
+        "optional"
+      ],
+      [
+        "detail",
+        "string; choices: [\"auto\", \"compact\", \"line\", \"glance\"]; default: \"auto\"",
+        "optional"
+      ],
+      [
+        "heading",
+        "string; choices: [\"inherit\", \"hidden\"]; default: \"inherit\"",
+        "optional"
+      ],
+      [
+        "align",
+        "string; choices: [\"start\", \"center\", \"end\"]; default: \"start\"",
+        "optional"
+      ],
+      [
+        "accent",
+        "string; choices: [\"inherit\", \"accent\", \"muted\"]; default: \"inherit\"",
+        "optional"
+      ]
+    ],
+    "LayoutArrangement": [
+      [
+        "landscape",
+        "object; minimum properties: 1; maximum properties: 12",
+        "required"
+      ],
+      [
+        "portrait",
+        "object; maximum properties: 12",
+        "optional"
+      ]
+    ],
+    "PortableAppearance": [
+      [
+        "layout",
+        "string; choices: [\"auto\", \"flow\", \"columns\", \"stage\", \"grid\", \"overlay\"]; default: \"flow\"",
+        "optional"
+      ],
+      [
+        "background",
+        "string; choices: [\"theme\", \"solid\", \"aurora\", \"canopy\", \"dunes\", \"artwork\", \"album\", \"weather\"]; default: \"theme\"",
+        "optional"
+      ],
+      [
+        "font",
+        "string; choices: [\"theme\", \"sans\", \"serif\"]; default: \"theme\"",
+        "optional"
+      ],
+      [
+        "spacing",
+        "string; choices: [\"tight\", \"standard\", \"relaxed\"]; default: \"standard\"",
+        "optional"
+      ],
+      [
+        "tokens",
+        "object; maximum properties: 10",
+        "optional"
+      ],
+      [
+        "background_mat",
+        "string; choices: [\"full_bleed\", \"modern\", \"museum\", \"shadow_box\"]; default: \"museum\"",
+        "optional"
+      ],
+      [
+        "background_motion",
+        "boolean; default: false",
+        "optional"
+      ],
+      [
+        "background_cadence_seconds",
+        "integer; minimum: 15; maximum: 86400; default: 45",
+        "optional"
+      ],
+      [
+        "margin",
+        "string; choices: [\"none\", \"tight\", \"standard\", \"wide\"]; default: \"standard\"",
+        "optional"
+      ],
+      [
+        "face",
+        "string; choices: [\"look\", \"card\", \"transparent\", \"outlined\"]; default: \"look\"",
+        "optional"
+      ],
+      [
+        "radius",
+        "string; choices: [\"look\", \"square\", \"soft\", \"round\"]; default: \"look\"",
+        "optional"
+      ],
+      [
+        "overlay_corner",
+        "string; choices: [\"bottom-left\", \"bottom-right\", \"top-left\", \"top-right\"]; default: \"bottom-left\"",
+        "optional"
+      ],
+      [
+        "overlay_scrim",
+        "string; choices: [\"soft\", \"standard\", \"strong\"]; default: \"standard\"",
+        "optional"
+      ]
+    ],
+    "PortableBlock": [
+      [
+        "id",
+        "string; pattern: \"^[a-z][a-z0-9-]{0,39}$\"",
+        "required"
+      ],
+      [
+        "kind",
+        "string; minimum characters: 1; maximum characters: 100",
+        "required"
+      ],
+      [
+        "enabled",
+        "boolean; default: true",
+        "optional"
+      ],
+      [
+        "settings",
+        "object; maximum properties: 4",
+        "optional"
+      ],
+      [
+        "source_slot",
+        "string; pattern: \"^[a-z][a-z0-9-]{0,39}$\" or null; default: null",
+        "optional"
+      ],
+      [
+        "symbols",
+        "array; maximum items: 6; items: string; pattern: \"^[A-Z][A-Z0-9]*(?:[.\\\\-][A-Z0-9]+)*$\"; minimum characters: 1; maximum characters: 10 or null; default: null",
+        "optional"
+      ],
+      [
+        "placement",
+        "PortablePlacement",
+        "optional"
+      ],
+      [
+        "style",
+        "BlockStyle",
+        "optional"
+      ]
+    ],
+    "PortablePlacement": [
+      [
+        "region",
+        "string; choices: [\"auto\", \"header\", \"main\", \"secondary\", \"stage\", \"side\"]; default: \"auto\"",
+        "optional"
+      ],
+      [
+        "importance",
+        "string; choices: [\"required\", \"normal\", \"optional\"]; default: \"normal\"",
+        "optional"
+      ]
+    ],
+    "PortraitArrangementCell": [
+      [
+        "col_span",
+        "integer; minimum: 1; maximum: 6",
+        "required"
+      ],
+      [
+        "row_span",
+        "integer; minimum: 1; maximum: 12",
+        "required"
+      ],
+      [
+        "col_start",
+        "integer; minimum: 1; maximum: 6",
+        "required"
+      ],
+      [
+        "row_start",
+        "integer; minimum: 1; maximum: 12",
+        "required"
+      ]
+    ],
+    "SetupPrompt": [
+      [
+        "source_slot",
+        "string; pattern: \"^[a-z][a-z0-9-]{0,39}$\"",
+        "required"
+      ],
+      [
+        "field",
+        "string; choices: [\"city\", \"units\", \"watchlist\"]",
+        "required"
+      ],
+      [
+        "required",
+        "boolean; default: false",
+        "optional"
+      ]
+    ],
+    "SourceSlot": [
+      [
+        "id",
+        "string; pattern: \"^[a-z][a-z0-9-]{0,39}$\"",
+        "required"
+      ],
+      [
+        "kind",
+        "string; minimum characters: 1; maximum characters: 100",
+        "required"
+      ],
+      [
+        "required",
+        "boolean; default: true",
+        "optional"
+      ],
+      [
+        "suggested_source",
+        "SuggestedSource or null; default: null",
+        "optional"
+      ]
+    ],
+    "SuggestedSource": [
+      [
+        "kind",
+        "string; minimum characters: 1; maximum characters: 100",
+        "required"
+      ],
+      [
+        "preset_id",
+        "string; pattern: \"^[a-z][a-z0-9-]{0,39}$\" or null; default: null",
+        "optional"
+      ]
+    ],
+    "Manifest": [
+      [
+        "format",
+        "string; value: \"mantelpack\"; default: \"mantelpack\"",
+        "optional"
+      ],
+      [
+        "schema_version",
+        "integer; value: 1; default: 1",
+        "optional"
+      ],
+      [
+        "id",
+        "string; pattern: \"^[a-z0-9][a-z0-9.-]*/[a-z0-9][a-z0-9.-]*$\"; maximum characters: 100",
+        "required"
+      ],
+      [
+        "version",
+        "string; pattern: \"^\\\\d+\\\\.\\\\d+\\\\.\\\\d+$\"; maximum characters: 30",
+        "required"
+      ],
+      [
+        "license",
+        "string; choices: [\"MIT\", \"CC0-1.0\", \"CC-BY-4.0\"]",
+        "required"
+      ],
+      [
+        "publisher",
+        "string; minimum characters: 1; maximum characters: 100; default: \"Local author\"",
+        "optional"
+      ],
+      [
+        "attribution",
+        "string; maximum characters: 500; default: \"\"",
+        "optional"
+      ],
+      [
+        "entrypoint",
+        "string; value: \"definition.json\"; default: \"definition.json\"",
+        "optional"
+      ],
+      [
+        "definition_sha256",
+        "string; pattern: \"^[a-f0-9]{64}$\"",
+        "required"
+      ],
+      [
+        "dependencies",
+        "array; maximum items: 32; items: DefinitionRef",
+        "optional"
+      ],
+      [
+        "required_capabilities",
+        "array; maximum items: 16; items: string; minimum characters: 1; maximum characters: 100",
+        "optional"
+      ]
+    ],
+    "DefinitionRef": [
+      [
+        "id",
+        "string; pattern: \"^[a-z0-9][a-z0-9.-]*/[a-z0-9][a-z0-9.-]*$\"; maximum characters: 100",
+        "required"
+      ],
+      [
+        "version",
+        "string; pattern: \"^\\\\d+\\\\.\\\\d+\\\\.\\\\d+$\"; maximum characters: 30",
+        "required"
+      ],
+      [
+        "digest",
+        "string; pattern: \"^[a-f0-9]{64}$\"",
+        "required"
+      ]
+    ],
+    "PackDefinition": [
+      [
+        "schema_version",
+        "integer; value: 2; default: 2",
+        "optional"
+      ],
+      [
+        "kind",
+        "string; value: \"pack\"; default: \"pack\"",
+        "optional"
+      ],
+      [
+        "name",
+        "string; pattern: \"\\\\S\"; minimum characters: 1; maximum characters: 100",
+        "required"
+      ],
+      [
+        "description",
+        "string; pattern: \"\\\\S\"; minimum characters: 1; maximum characters: 240",
+        "required"
+      ],
+      [
+        "locales",
+        "array; minimum items: 1; maximum items: 8; unique items: true; items: string; pattern: \"^[a-z]{2,3}(?:-[A-Z]{2})?$\"; maximum characters: 6",
+        "required"
+      ],
+      [
+        "resources",
+        "array; maximum items: 2046; items: PackResource",
+        "optional"
+      ],
+      [
+        "items",
+        "array; minimum items: 1; maximum items: 1000; items: PackItem",
+        "required"
+      ],
+      [
+        "activities",
+        "array; minimum items: 1; maximum items: 32; items: PackActivity",
+        "required"
+      ]
+    ],
+    "PackActivity": [
+      [
+        "id",
+        "string; pattern: \"^[a-z][a-z0-9-]{0,39}$\"",
+        "required"
+      ],
+      [
+        "name",
+        "string; pattern: \"\\\\S\"; minimum characters: 1; maximum characters: 100",
+        "required"
+      ],
+      [
+        "kind",
+        "string; value: \"reveal-sequence-v1\"; default: \"reveal-sequence-v1\"",
+        "optional"
+      ],
+      [
+        "item_ids",
+        "array; minimum items: 1; maximum items: 1000; unique items: true; items: string; pattern: \"^[a-z][a-z0-9-]{0,39}$\"",
+        "required"
+      ],
+      [
+        "locale",
+        "string; pattern: \"^[a-z]{2,3}(?:-[A-Z]{2})?$\"; maximum characters: 6",
+        "required"
+      ],
+      [
+        "loop",
+        "boolean; default: false",
+        "optional"
+      ],
+      [
+        "timing",
+        "PackTiming",
+        "optional"
+      ]
+    ],
+    "PackAudioCue": [
+      [
+        "resource",
+        "string; pattern: \"^assets/[a-f0-9]{64}\\\\.(?:png|jpg|webp|mp3)$\"",
+        "required"
+      ],
+      [
+        "locale",
+        "string; pattern: \"^[a-z]{2,3}(?:-[A-Z]{2})?$\"; maximum characters: 6",
+        "required"
+      ],
+      [
+        "phase",
+        "string; choices: [\"prompt\", \"reveal\"]",
+        "required"
+      ],
+      [
+        "role",
+        "string; choices: [\"narration\", \"effect\"]",
+        "required"
+      ],
+      [
+        "transcript",
+        "string; pattern: \"\\\\S\"; minimum characters: 1; maximum characters: 240",
+        "required"
+      ]
+    ],
+    "PackCredit": [
+      [
+        "creator",
+        "string; pattern: \"\\\\S\"; minimum characters: 1; maximum characters: 100",
+        "required"
+      ],
+      [
+        "license",
+        "string; choices: [\"CC0-1.0\", \"CC-BY-4.0\", \"MIT\"]",
+        "required"
+      ],
+      [
+        "attribution",
+        "string; maximum characters: 500; default: \"\"",
+        "optional"
+      ],
+      [
+        "source",
+        "string; maximum characters: 500; default: \"\"",
+        "optional"
+      ],
+      [
+        "modified",
+        "boolean; default: false",
+        "optional"
+      ]
+    ],
+    "PackFace": [
+      [
+        "text",
+        "string; pattern: \"\\\\S\"; minimum characters: 1; maximum characters: 240",
+        "required"
+      ],
+      [
+        "image",
+        "string; pattern: \"^assets/[a-f0-9]{64}\\\\.(?:png|jpg|webp|mp3)$\" or null; default: null",
+        "optional"
+      ],
+      [
+        "alt_text",
+        "string; pattern: \"\\\\S\"; minimum characters: 1; maximum characters: 240 or null; default: null",
+        "optional"
+      ]
+    ],
+    "PackItem": [
+      [
+        "id",
+        "string; pattern: \"^[a-z][a-z0-9-]{0,39}$\"",
+        "required"
+      ],
+      [
+        "content_revision",
+        "integer; minimum: 1; maximum: 2147483647",
+        "required"
+      ],
+      [
+        "translations",
+        "object; minimum properties: 1; maximum properties: 8",
+        "required"
+      ],
+      [
+        "audio_cues",
+        "array; maximum items: 4; items: PackAudioCue",
+        "optional"
+      ]
+    ],
+    "PackResource": [
+      [
+        "path",
+        "string; pattern: \"^assets/[a-f0-9]{64}\\\\.(?:png|jpg|webp|mp3)$\"",
+        "required"
+      ],
+      [
+        "sha256",
+        "string; pattern: \"^[a-f0-9]{64}$\"",
+        "required"
+      ],
+      [
+        "length",
+        "integer; minimum: 1; maximum: 8388608",
+        "required"
+      ],
+      [
+        "media_type",
+        "string; choices: [\"image/png\", \"image/jpeg\", \"image/webp\", \"audio/mpeg\"]",
+        "required"
+      ],
+      [
+        "duration_seconds",
+        "number; minimum: 0.01; maximum: 30 or null; default: null",
+        "optional"
+      ],
+      [
+        "credit",
+        "PackCredit",
+        "required"
+      ]
+    ],
+    "PackTiming": [
+      [
+        "prompt_seconds",
+        "integer; minimum: 1; maximum: 30; default: 3",
+        "optional"
+      ],
+      [
+        "recall_seconds",
+        "integer; minimum: 0; maximum: 30; default: 3",
+        "optional"
+      ],
+      [
+        "reveal_seconds",
+        "integer; minimum: 1; maximum: 30; default: 4",
+        "optional"
+      ],
+      [
+        "dwell_seconds",
+        "integer; minimum: 1; maximum: 30; default: 2",
+        "optional"
+      ]
+    ],
+    "PackTranslation": [
+      [
+        "prompt",
+        "PackFace",
+        "required"
+      ],
+      [
+        "reveal",
+        "PackFace",
+        "required"
+      ]
+    ],
+    "PackManifest": [
+      [
+        "format",
+        "string; value: \"mantelpack\"; default: \"mantelpack\"",
+        "optional"
+      ],
+      [
+        "schema_version",
+        "integer; value: 2; default: 2",
+        "optional"
+      ],
+      [
+        "id",
+        "string; pattern: \"^[a-z0-9][a-z0-9.-]*/[a-z0-9][a-z0-9.-]*$\"; maximum characters: 100",
+        "required"
+      ],
+      [
+        "version",
+        "string; pattern: \"^[0-9]+\\\\.[0-9]+\\\\.[0-9]+$\"; maximum characters: 30",
+        "required"
+      ],
+      [
+        "publisher",
+        "string; pattern: \"\\\\S\"; minimum characters: 1; maximum characters: 100",
+        "required"
+      ],
+      [
+        "definition_sha256",
+        "string; pattern: \"^[a-f0-9]{64}$\"",
+        "required"
+      ],
+      [
+        "entrypoint",
+        "string; value: \"definition.json\"; default: \"definition.json\"",
+        "optional"
+      ],
+      [
+        "required_capabilities",
+        "array; minimum items: 2; maximum items: 2; unique items: true; items: string; choices: [\"pack-format-v2\", \"reveal-sequence-v1\"]",
+        "optional"
+      ]
+    ],
+    "ContentLadderDeclaration": [
+      [
+        "glance",
+        "ContentFormDeclaration or null; default: null",
+        "optional"
+      ],
+      [
+        "line",
+        "ContentFormDeclaration or null; default: null",
+        "optional"
+      ],
+      [
+        "compact",
+        "ContentFormDeclaration or null; default: null",
+        "optional"
+      ],
+      [
+        "full",
+        "ContentFormDeclaration or null; default: null",
+        "optional"
+      ]
+    ],
+    "ContentFormDeclaration": [
+      [
+        "rows",
+        "array; minimum items: 1; maximum items: 6; items: ContentRowDeclaration",
+        "required"
+      ],
+      [
+        "items",
+        "integer; minimum: 1; maximum: 6; default: 1",
+        "optional"
+      ],
+      [
+        "show_title",
+        "boolean; default: false",
+        "optional"
+      ]
+    ],
+    "ContentRowDeclaration": [
+      [
+        "field",
+        "string; pattern: \"^[a-z][a-z_]{0,23}$\"",
+        "required"
+      ],
+      [
+        "join",
+        "array; maximum items: 3; items: string; pattern: \"^[a-z][a-z_]{0,23}$\"",
+        "optional"
+      ],
+      [
+        "lines",
+        "integer; minimum: 1; maximum: 4; default: 1",
+        "optional"
+      ],
+      [
+        "role",
+        "string; choices: [\"vital\", \"essential\", \"incidental\", \"hero\", \"secondary\"]; default: \"essential\"",
+        "optional"
+      ]
+    ]
+  },
+  "settings": [
+    [
+      "clock",
+      "hour_format",
+      "[\"12\", \"24\"]"
+    ],
+    [
+      "clock",
+      "show_seconds",
+      "[false, true]"
+    ],
+    [
+      "clock",
+      "meridiem",
+      "[\"auto\", \"hide\", \"show\"]"
+    ],
+    [
+      "calendar",
+      "view",
+      "[\"day\", \"week\"]"
+    ],
+    [
+      "image",
+      "edges",
+      "[\"bleed\", \"inside\"]"
+    ],
+    [
+      "image",
+      "fit",
+      "[\"fill\", \"fit\", \"smart\"]"
+    ],
+    [
+      "image",
+      "mat_style",
+      "[\"full_bleed\", \"modern\", \"museum\", \"shadow_box\"]"
+    ],
+    [
+      "media",
+      "edges",
+      "[\"bleed\", \"inside\"]"
+    ],
+    [
+      "media",
+      "fit",
+      "[\"fill\", \"fit\", \"smart\"]"
+    ]
+  ],
+  "overrides": [
+    [
+      "weather",
+      "unit_system",
+      "string; choices: [\"metric\", \"imperial\"] or null; default: null"
+    ],
+    [
+      "weather",
+      "forecast_days",
+      "integer; choices: [3, 7] or null; default: null"
+    ],
+    [
+      "weather",
+      "show_wear_guidance",
+      "boolean or null; default: null"
+    ],
+    [
+      "weather",
+      "show_air_quality",
+      "boolean or null; default: null"
+    ],
+    [
+      "news",
+      "max_stories",
+      "integer; minimum: 1; maximum: 3 or null; default: null"
+    ],
+    [
+      "news",
+      "show_summary",
+      "boolean or null; default: null"
+    ],
+    [
+      "tasks",
+      "max_visible",
+      "integer; minimum: 1; maximum: 3 or null; default: null"
+    ],
+    [
+      "notes",
+      "max_visible",
+      "integer; minimum: 1; maximum: 4 or null; default: null"
+    ],
+    [
+      "calendar",
+      "horizon_days",
+      "integer; minimum: 1; maximum: 90 or null; default: null"
+    ],
+    [
+      "calendar",
+      "private_events",
+      "string; choices: [\"show\", \"title_redacted\", \"time_only\", \"hidden\"] or null; default: null"
+    ],
+    [
+      "calendar",
+      "show_all_day",
+      "boolean or null; default: null"
+    ],
+    [
+      "market",
+      "focus_symbol",
+      "string; pattern: \"^[A-Z][A-Z0-9]*(?:[.\\\\-][A-Z0-9]+)*(?:/[A-Z]{3})?$\"; minimum characters: 1; maximum characters: 12 or null; default: null"
+    ]
+  ],
+  "capabilities": [
+    [
+      "background-canvas-v1",
+      "background in album, artwork, weather; or background_mat != museum; or background_motion != false; or background_cadence_seconds != 45.",
+      "0.1.0"
+    ],
+    [
+      "block-overrides-v1",
+      "At least one portable block has nonempty settings.overrides.",
+      "0.1.0"
+    ],
+    [
+      "block-style-v1",
+      "Any non-default block style; or appearance.margin != standard; or appearance.face != look; or appearance.radius != look",
+      "0.1.0"
+    ],
+    [
+      "card-v1",
+      "Any card block; its exact content_ref also requires a matching manifest dependency.",
+      "0.1.0"
+    ],
+    [
+      "composition-v2",
+      "Every portable design; emitted by the author tools.",
+      "0.1.0"
+    ],
+    [
+      "content-ladder-v1",
+      "A custom block declares responsive forms using hero/essential/secondary roles.",
+      "0.1.0"
+    ],
+    [
+      "content-ladder-v2",
+      "Any responsive row uses vital or incidental; every row is then serialized with v2 role names.",
+      "0.1.0"
+    ],
+    [
+      "grid-placement-v1",
+      "appearance.layout = grid",
+      "0.1.0"
+    ],
+    [
+      "layout-arrangement-v1",
+      "A layout declares purpose or landscape/portrait grid arrangement.",
+      "0.1.0"
+    ],
+    [
+      "layout-setup-v1",
+      "Source suggestions, setup prompts or authored picture mats.",
+      "0.1.0"
+    ],
+    [
+      "library-provenance-v1",
+      "Local exact block origins, application instance maps and look ownership; not portable definition fields",
+      "0.1.0"
+    ],
+    [
+      "overlay-layout-v1",
+      "appearance.layout = overlay; or overlay_corner != bottom-left; or overlay_scrim != standard.",
+      "0.1.0"
+    ],
+    [
+      "pack-audio-v1",
+      "Receiver audio support for card playback; the screen audio policy controls whether sound plays.",
+      "0.1.0"
+    ],
+    [
+      "pack-format-v2",
+      "Every multimedia v2 manifest.",
+      "0.1.0"
+    ],
+    [
+      "pack-window-v1",
+      "Any card block, projected to the receiver in bounded current/next windows.",
+      "0.1.0"
+    ],
+    [
+      "picture-fill-v1",
+      "appearance.radius = soft; or image/media settings.edges = bleed or settings.fit = smart.",
+      "0.1.0"
+    ],
+    [
+      "responsive-layout-v1",
+      "appearance.layout = auto",
+      "0.1.0"
+    ],
+    [
+      "reveal-sequence-v1",
+      "Every current multimedia activity and v2 manifest.",
+      "0.1.0"
+    ]
+  ],
+  "kinds": [
+    "calendar",
+    "card",
+    "clock",
+    "custom",
+    "guest",
+    "home",
+    "image",
+    "market",
+    "meal",
+    "media",
+    "news",
+    "notes",
+    "package",
+    "tasks",
+    "transport",
+    "weather"
+  ],
+  "tokens": [
+    "accent",
+    "accentText",
+    "background",
+    "border",
+    "captionSurface",
+    "mutedText",
+    "negative",
+    "positive",
+    "surface",
+    "text"
+  ],
+  "schemas": [
+    [
+      "composition/block-instance.schema.json",
+      "/format/composition/block-instance.schema.json"
+    ],
+    [
+      "composition/content-ladder.schema.json",
+      "/format/composition/content-ladder.schema.json"
+    ],
+    [
+      "composition/local-composition.schema.json",
+      "/format/composition/local-composition.schema.json"
+    ],
+    [
+      "composition/package-manifest.schema.json",
+      "/format/composition/package-manifest.schema.json"
+    ],
+    [
+      "composition/portable-definition.schema.json",
+      "/format/composition/portable-definition.schema.json"
+    ],
+    [
+      "packs/audio-policy.schema.json",
+      "/format/packs/audio-policy.schema.json"
+    ],
+    [
+      "packs/card-settings.schema.json",
+      "/format/packs/card-settings.schema.json"
+    ],
+    [
+      "packs/definition.schema.json",
+      "/format/packs/definition.schema.json"
+    ],
+    [
+      "packs/manifest.schema.json",
+      "/format/packs/manifest.schema.json"
+    ]
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "catalog_fields": {
+    "localized": {
+      "ar": {
+        "name": "مكتبة"
+      }
+    },
+    "future_field": {
+      "version": 3
+    }
+  },
+  "entry_fields": {
+    "min_host": "99.0.0",
+    "distribution": "library",
+    "localized": {
+      "he": {
+        "name": "ספרייה"
+      }
+    },
+    "future_field": true
+  }
+}

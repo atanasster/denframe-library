@@ -1,0 +1,446 @@
+{
+  "id": "mantel/tiny-puzzles",
+  "version": "0.1.0",
+  "publisher": "Mantel reference drafts",
+  "definition": {
+    "schema_version": 2,
+    "kind": "pack",
+    "name": "Tiny thinking puzzles",
+    "description": "Review candidate. Content, pronunciation and listening review pending; not an approved teaching pack.",
+    "locales": [
+      "bg",
+      "en"
+    ],
+    "resources": [],
+    "items": [
+      {
+        "id": "puzzle-1",
+        "content_revision": 1,
+        "translations": {
+          "en": {
+            "prompt": {
+              "text": "What shape has three sides?",
+              "image": null,
+              "alt_text": null
+            },
+            "reveal": {
+              "text": "Triangle.",
+              "image": null,
+              "alt_text": null
+            }
+          },
+          "bg": {
+            "prompt": {
+              "text": "Коя фигура има три страни?",
+              "image": null,
+              "alt_text": null
+            },
+            "reveal": {
+              "text": "Триъгълник.",
+              "image": null,
+              "alt_text": null
+            }
+          }
+        },
+        "audio_cues": []
+      },
+      {
+        "id": "puzzle-2",
+        "content_revision": 1,
+        "translations": {
+          "en": {
+            "prompt": {
+              "text": "What is 2 + 3?",
+              "image": null,
+              "alt_text": null
+            },
+            "reveal": {
+              "text": "5.",
+              "image": null,
+              "alt_text": null
+            }
+          },
+          "bg": {
+            "prompt": {
+              "text": "Колко е 2 + 3?",
+              "image": null,
+              "alt_text": null
+            },
+            "reveal": {
+              "text": "5.",
+              "image": null,
+              "alt_text": null
+            }
+          }
+        },
+        "audio_cues": []
+      },
+      {
+        "id": "puzzle-3",
+        "content_revision": 1,
+        "translations": {
+          "en": {
+            "prompt": {
+              "text": "What comes next: 2, 4, 6, ...?",
+              "image": null,
+              "alt_text": null
+            },
+            "reveal": {
+              "text": "8.",
+              "image": null,
+              "alt_text": null
+            }
+          },
+          "bg": {
+            "prompt": {
+              "text": "Кое следва: 2, 4, 6, ...?",
+              "image": null,
+              "alt_text": null
+            },
+            "reveal": {
+              "text": "8.",
+              "image": null,
+              "alt_text": null
+            }
+          }
+        },
+        "audio_cues": []
+      },
+      {
+        "id": "puzzle-4",
+        "content_revision": 1,
+        "translations": {
+          "en": {
+            "prompt": {
+              "text": "How many corners does a square have?",
+              "image": null,
+              "alt_text": null
+            },
+            "reveal": {
+              "text": "4.",
+              "image": null,
+              "alt_text": null
+            }
+          },
+          "bg": {
+            "prompt": {
+              "text": "Колко върха има квадратът?",
+              "image": null,
+              "alt_text": null
+            },
+            "reveal": {
+              "text": "4.",
+              "image": null,
+              "alt_text": null
+            }
+          }
+        },
+        "audio_cues": []
+      },
+      {
+        "id": "puzzle-5",
+        "content_revision": 1,
+        "translations": {
+          "en": {
+            "prompt": {
+              "text": "Which is larger: 7 or 9?",
+              "image": null,
+              "alt_text": null
+            },
+            "reveal": {
+              "text": "9.",
+              "image": null,
+              "alt_text": null
+            }
+          },
+          "bg": {
+            "prompt": {
+              "text": "Кое е по-голямо: 7 или 9?",
+              "image": null,
+              "alt_text": null
+            },
+            "reveal": {
+              "text": "9.",
+              "image": null,
+              "alt_text": null
+            }
+          }
+        },
+        "audio_cues": []
+      },
+      {
+        "id": "puzzle-6",
+        "content_revision": 1,
+        "translations": {
+          "en": {
+            "prompt": {
+              "text": "What is half of 10?",
+              "image": null,
+              "alt_text": null
+            },
+            "reveal": {
+              "text": "5.",
+              "image": null,
+              "alt_text": null
+            }
+          },
+          "bg": {
+            "prompt": {
+              "text": "Колко е половината от 10?",
+              "image": null,
+              "alt_text": null
+            },
+            "reveal": {
+              "text": "5.",
+              "image": null,
+              "alt_text": null
+            }
+          }
+        },
+        "audio_cues": []
+      },
+      {
+        "id": "puzzle-7",
+        "content_revision": 1,
+        "translations": {
+          "en": {
+            "prompt": {
+              "text": "How many minutes are in one hour?",
+              "image": null,
+              "alt_text": null
+            },
+            "reveal": {
+              "text": "60.",
+              "image": null,
+              "alt_text": null
+            }
+          },
+          "bg": {
+            "prompt": {
+              "text": "Колко минути има в един час?",
+              "image": null,
+              "alt_text": null
+            },
+            "reveal": {
+              "text": "60.",
+              "image": null,
+              "alt_text": null
+            }
+          }
+        },
+        "audio_cues": []
+      },
+      {
+        "id": "puzzle-8",
+        "content_revision": 1,
+        "translations": {
+          "en": {
+            "prompt": {
+              "text": "What comes before 20?",
+              "image": null,
+              "alt_text": null
+            },
+            "reveal": {
+              "text": "19.",
+              "image": null,
+              "alt_text": null
+            }
+          },
+          "bg": {
+            "prompt": {
+              "text": "Кое число е преди 20?",
+              "image": null,
+              "alt_text": null
+            },
+            "reveal": {
+              "text": "19.",
+              "image": null,
+              "alt_text": null
+            }
+          }
+        },
+        "audio_cues": []
+      },
+      {
+        "id": "puzzle-9",
+        "content_revision": 1,
+        "translations": {
+          "en": {
+            "prompt": {
+              "text": "What is 4 + 4?",
+              "image": null,
+              "alt_text": null
+            },
+            "reveal": {
+              "text": "8.",
+              "image": null,
+              "alt_text": null
+            }
+          },
+          "bg": {
+            "prompt": {
+              "text": "Колко е 4 + 4?",
+              "image": null,
+              "alt_text": null
+            },
+            "reveal": {
+              "text": "8.",
+              "image": null,
+              "alt_text": null
+            }
+          }
+        },
+        "audio_cues": []
+      },
+      {
+        "id": "puzzle-10",
+        "content_revision": 1,
+        "translations": {
+          "en": {
+            "prompt": {
+              "text": "How many days are in one week?",
+              "image": null,
+              "alt_text": null
+            },
+            "reveal": {
+              "text": "7.",
+              "image": null,
+              "alt_text": null
+            }
+          },
+          "bg": {
+            "prompt": {
+              "text": "Колко дни има в една седмица?",
+              "image": null,
+              "alt_text": null
+            },
+            "reveal": {
+              "text": "7.",
+              "image": null,
+              "alt_text": null
+            }
+          }
+        },
+        "audio_cues": []
+      },
+      {
+        "id": "puzzle-11",
+        "content_revision": 1,
+        "translations": {
+          "en": {
+            "prompt": {
+              "text": "What is 10 minus 3?",
+              "image": null,
+              "alt_text": null
+            },
+            "reveal": {
+              "text": "7.",
+              "image": null,
+              "alt_text": null
+            }
+          },
+          "bg": {
+            "prompt": {
+              "text": "Колко е 10 минус 3?",
+              "image": null,
+              "alt_text": null
+            },
+            "reveal": {
+              "text": "7.",
+              "image": null,
+              "alt_text": null
+            }
+          }
+        },
+        "audio_cues": []
+      },
+      {
+        "id": "puzzle-12",
+        "content_revision": 1,
+        "translations": {
+          "en": {
+            "prompt": {
+              "text": "Which shape has no corners: a circle or a square?",
+              "image": null,
+              "alt_text": null
+            },
+            "reveal": {
+              "text": "A circle.",
+              "image": null,
+              "alt_text": null
+            }
+          },
+          "bg": {
+            "prompt": {
+              "text": "Коя фигура няма върхове: кръг или квадрат?",
+              "image": null,
+              "alt_text": null
+            },
+            "reveal": {
+              "text": "Кръг.",
+              "image": null,
+              "alt_text": null
+            }
+          }
+        },
+        "audio_cues": []
+      }
+    ],
+    "activities": [
+      {
+        "id": "learn-bg",
+        "name": "Learn (bg)",
+        "kind": "reveal-sequence-v1",
+        "item_ids": [
+          "puzzle-1",
+          "puzzle-2",
+          "puzzle-3",
+          "puzzle-4",
+          "puzzle-5",
+          "puzzle-6",
+          "puzzle-7",
+          "puzzle-8",
+          "puzzle-9",
+          "puzzle-10",
+          "puzzle-11",
+          "puzzle-12"
+        ],
+        "locale": "bg",
+        "loop": false,
+        "timing": {
+          "prompt_seconds": 7,
+          "recall_seconds": 3,
+          "reveal_seconds": 7,
+          "dwell_seconds": 2
+        }
+      },
+      {
+        "id": "learn-en",
+        "name": "Learn (en)",
+        "kind": "reveal-sequence-v1",
+        "item_ids": [
+          "puzzle-1",
+          "puzzle-2",
+          "puzzle-3",
+          "puzzle-4",
+          "puzzle-5",
+          "puzzle-6",
+          "puzzle-7",
+          "puzzle-8",
+          "puzzle-9",
+          "puzzle-10",
+          "puzzle-11",
+          "puzzle-12"
+        ],
+        "locale": "en",
+        "loop": false,
+        "timing": {
+          "prompt_seconds": 7,
+          "recall_seconds": 3,
+          "reveal_seconds": 7,
+          "dwell_seconds": 2
+        }
+      }
+    ]
+  }
+}

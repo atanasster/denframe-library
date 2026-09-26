@@ -1,0 +1,20 @@
+name: Bug
+description: Report a reproducible library or format issue.
+body:
+  - type: markdown
+    attributes:
+      value: "This issue is public. Remove personal data and credentials. Read https://smart.meggy.com/terms and https://smart.meggy.com/privacy."
+  - type: textarea
+    id: version
+    attributes:
+      label: Version
+      description: Which asset and tool versions are affected?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Reproduction
+      description: Provide a small public example, expected behavior and actual behavior.
+    validations:
+      required: true

@@ -1,0 +1,156 @@
+{
+  "Archive": {
+    "archives": [
+      "theme-deflate",
+      "compression-bomb",
+      "zip64-masked-directory",
+      "symlink",
+      "zip-comment",
+      "extra-entry",
+      "case-collision"
+    ]
+  },
+  "JSON": {
+    "archives": [
+      "v1-raw-definition-digest",
+      "duplicate-json-key",
+      "nonfinite-json",
+      "utf16-json",
+      "pack-missing-default"
+    ],
+    "canonical": [
+      "theme-defaults",
+      "unicode-rtl",
+      "duration-min",
+      "duration-max",
+      "pack-defaults"
+    ]
+  },
+  "Identity": {
+    "scenarios": [
+      "S1",
+      "S2",
+      "S3",
+      "S4",
+      "S5"
+    ]
+  },
+  "Versions": {
+    "archives": [
+      "bad-version"
+    ],
+    "fixtures": [
+      "catalog-new-fields.json"
+    ],
+    "deferred": "D30 semver precedence and min_host eligibility are added at step 24; unknown catalog fields are ignored by the old reader."
+  },
+  "Text": {
+    "archives": [
+      "rtl-name",
+      "bidi-override",
+      "bidi-isolate",
+      "c0-control",
+      "c1-control"
+    ],
+    "scenarios": [
+      "S6"
+    ],
+    "deferred": "D33 localized model fields are added with new schema fixtures at step 29."
+  },
+  "Licence": {
+    "archives": [
+      "bad-license",
+      "missing-attribution",
+      "attribution",
+      "pack-valid"
+    ]
+  },
+  "Themes": {
+    "archives": [
+      "theme-defaults",
+      "unknown-look",
+      "failing-palette",
+      "scrim-contrast"
+    ],
+    "contracts": [
+      "contracts/composition/palette-contrast.json"
+    ],
+    "tests": [
+      "backend/tests/test_palette_contrast.py::test_a_look_held_before_the_scrim_joined_the_gate_is_refused_when_used"
+    ]
+  },
+  "Blocks and layouts": {
+    "archives": [
+      "clock-block",
+      "forbidden-setting",
+      "missing-source-slot"
+    ],
+    "tests": [
+      "backend/tests/test_library_packages.py::test_a_custom_preset_may_declare_its_content_ladder_and_then_requires_the_capability",
+      "backend/tests/test_library_packages.py::test_a_preset_may_carry_a_blocks_own_choices_and_then_requires_the_host_token",
+      "backend/tests/test_library_packages.py::test_styled_definition_carries_block_style_v1_and_a_styled_import_applies_it"
+    ],
+    "deferred": "Purpose, arrangement, suggested_source and setup join their owning schema revisions at steps 14-15."
+  },
+  "Capabilities": {
+    "archives": [
+      "missing-layout-capability",
+      "unneeded-capability"
+    ],
+    "scenarios": [
+      "S9"
+    ]
+  },
+  "Media (v2)": {
+    "archives": [
+      "pack-valid",
+      "resource-hash",
+      "png-metadata",
+      "id3-title",
+      "mp3-truncated",
+      "mp3-duration-mismatch"
+    ],
+    "scenarios": [
+      "S8"
+    ],
+    "tests": [
+      "backend/tests/test_pack_archives.py::test_wrong_mime_rejects_even_with_matching_inventory_hash",
+      "backend/tests/test_pack_archives.py::test_image_pixel_limit"
+    ]
+  },
+  "Motion": {
+    "runtime": "prefers-reduced-motion must disable authored animation; an archive validator cannot observe computed styles.",
+    "verdicts": {
+      "host": "not checked",
+      "cli": "not checked",
+      "browser": "not checked"
+    },
+    "contracts": [
+      "frontend/src/display/display.css"
+    ],
+    "tests": []
+  },
+  "Trust": {
+    "scenarios": [
+      "S1",
+      "S2",
+      "S3",
+      "S4",
+      "S5"
+    ],
+    "tests": [
+      "backend/tests/test_library_catalog.py::test_catalog_rejects_invalid_signature",
+      "backend/tests/test_library_catalog.py::test_catalog_rejects_tampering"
+    ],
+    "deferred": "Offline proofs and revoked lists are introduced by step 21; unsigned corpus archives carry no signatures."
+  },
+  "Host limits": {
+    "scenarios": [
+      "S9"
+    ],
+    "tests": [
+      "backend/tests/test_pack_archives.py::test_cancel_upload_and_exhausted_reservations"
+    ],
+    "runtime": "Host quotas depend on deployment and active reservations. Format validation alone reports not checked; the 500-element limit is added at its owning host step."
+  }
+}

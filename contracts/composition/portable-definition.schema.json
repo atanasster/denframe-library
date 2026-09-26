@@ -1,0 +1,632 @@
+{
+  "$defs": {
+    "ArrangementCell": {
+      "additionalProperties": false,
+      "description": "A complete landscape cell; region and importance remain on the block's hint.",
+      "properties": {
+        "col_span": {
+          "maximum": 12,
+          "minimum": 1,
+          "title": "Col Span",
+          "type": "integer"
+        },
+        "row_span": {
+          "maximum": 6,
+          "minimum": 1,
+          "title": "Row Span",
+          "type": "integer"
+        },
+        "col_start": {
+          "maximum": 12,
+          "minimum": 1,
+          "title": "Col Start",
+          "type": "integer"
+        },
+        "row_start": {
+          "maximum": 6,
+          "minimum": 1,
+          "title": "Row Start",
+          "type": "integer"
+        }
+      },
+      "required": [
+        "col_span",
+        "row_span",
+        "col_start",
+        "row_start"
+      ],
+      "title": "ArrangementCell",
+      "type": "object"
+    },
+    "BlockStyle": {
+      "additionalProperties": false,
+      "description": "One block's own design, kept beside its placement in `CompositionDocument.styles` rather\nthan in the block's `settings`: settings are content and are merged with a provider's match\nsettings at resolve time, and a style must never be something a payload can restate.\n\nEvery field's default means \"whatever the dashboard does\", so a style at its defaults is\nno style: `is_default` says so and the document's serializer drops it, keeping an\nunstyled document byte-identical to one written before styles existed.",
+      "properties": {
+        "padding": {
+          "default": "inherit",
+          "enum": [
+            "inherit",
+            "none",
+            "tight",
+            "standard",
+            "roomy"
+          ],
+          "title": "Padding",
+          "type": "string"
+        },
+        "face": {
+          "default": "inherit",
+          "enum": [
+            "inherit",
+            "card",
+            "transparent",
+            "outlined"
+          ],
+          "title": "Face",
+          "type": "string"
+        },
+        "text_size": {
+          "default": "inherit",
+          "enum": [
+            "smaller",
+            "inherit",
+            "larger"
+          ],
+          "title": "Text Size",
+          "type": "string"
+        },
+        "detail": {
+          "default": "auto",
+          "enum": [
+            "auto",
+            "compact",
+            "line",
+            "glance"
+          ],
+          "title": "Detail",
+          "type": "string"
+        },
+        "heading": {
+          "default": "inherit",
+          "enum": [
+            "inherit",
+            "hidden"
+          ],
+          "title": "Heading",
+          "type": "string"
+        },
+        "align": {
+          "default": "start",
+          "enum": [
+            "start",
+            "center",
+            "end"
+          ],
+          "title": "Align",
+          "type": "string"
+        },
+        "accent": {
+          "default": "inherit",
+          "enum": [
+            "inherit",
+            "accent",
+            "muted"
+          ],
+          "title": "Accent",
+          "type": "string"
+        }
+      },
+      "title": "BlockStyle",
+      "type": "object"
+    },
+    "LayoutArrangement": {
+      "additionalProperties": false,
+      "properties": {
+        "landscape": {
+          "maxProperties": 12,
+          "minProperties": 1,
+          "patternProperties": {
+            "^[a-z][a-z0-9-]{0,39}$": {
+              "$ref": "#/$defs/ArrangementCell"
+            }
+          },
+          "title": "Landscape",
+          "type": "object"
+        },
+        "portrait": {
+          "maxProperties": 12,
+          "patternProperties": {
+            "^[a-z][a-z0-9-]{0,39}$": {
+              "$ref": "#/$defs/PortraitArrangementCell"
+            }
+          },
+          "title": "Portrait",
+          "type": "object"
+        }
+      },
+      "required": [
+        "landscape"
+      ],
+      "title": "LayoutArrangement",
+      "type": "object"
+    },
+    "PortableAppearance": {
+      "additionalProperties": false,
+      "description": "The paint a shared definition may carry: everything except a local media key.\n\n`Appearance.background_source_id` names a *household* gallery collection or personal album.\nA downloadable definition must not carry one — the module docstring of\n`app/composition.py` states that portable packages never contain local bindings, and the\nsame rule already narrows `PortablePlacement`. Importing a package applies its appearance\nto the importer's dashboard, so a foreign key here would point the importer at a source its\nhousehold does not own.\n\nThis is its own model rather than a narrowed subclass so the field does not appear in the\ncommitted public schema at all: an author reading `portable-definition.schema.json` must not\nbe told the field is available. `Definition` embeds this record, and published package bytes\nare immutable, so the field list here is a release-compatibility surface — do not widen it\nwithout deciding to re-version the published catalog.",
+      "properties": {
+        "layout": {
+          "default": "flow",
+          "enum": [
+            "auto",
+            "flow",
+            "columns",
+            "stage",
+            "grid",
+            "overlay"
+          ],
+          "title": "Layout",
+          "type": "string"
+        },
+        "background": {
+          "default": "theme",
+          "enum": [
+            "theme",
+            "solid",
+            "aurora",
+            "canopy",
+            "dunes",
+            "artwork",
+            "album",
+            "weather"
+          ],
+          "title": "Background",
+          "type": "string"
+        },
+        "font": {
+          "default": "theme",
+          "enum": [
+            "theme",
+            "sans",
+            "serif"
+          ],
+          "title": "Font",
+          "type": "string"
+        },
+        "spacing": {
+          "default": "standard",
+          "enum": [
+            "tight",
+            "standard",
+            "relaxed"
+          ],
+          "title": "Spacing",
+          "type": "string"
+        },
+        "tokens": {
+          "additionalProperties": {
+            "pattern": "^#[0-9a-fA-F]{6}$",
+            "type": "string"
+          },
+          "maxProperties": 10,
+          "title": "Tokens",
+          "type": "object"
+        },
+        "background_mat": {
+          "default": "museum",
+          "enum": [
+            "full_bleed",
+            "modern",
+            "museum",
+            "shadow_box"
+          ],
+          "title": "Background Mat",
+          "type": "string"
+        },
+        "background_motion": {
+          "default": false,
+          "title": "Background Motion",
+          "type": "boolean"
+        },
+        "background_cadence_seconds": {
+          "default": 45,
+          "maximum": 86400,
+          "minimum": 15,
+          "title": "Background Cadence Seconds",
+          "type": "integer"
+        },
+        "margin": {
+          "default": "standard",
+          "enum": [
+            "none",
+            "tight",
+            "standard",
+            "wide"
+          ],
+          "title": "Margin",
+          "type": "string"
+        },
+        "face": {
+          "default": "look",
+          "enum": [
+            "look",
+            "card",
+            "transparent",
+            "outlined"
+          ],
+          "title": "Face",
+          "type": "string"
+        },
+        "radius": {
+          "default": "look",
+          "enum": [
+            "look",
+            "square",
+            "soft",
+            "round"
+          ],
+          "title": "Radius",
+          "type": "string"
+        },
+        "overlay_corner": {
+          "default": "bottom-left",
+          "enum": [
+            "bottom-left",
+            "bottom-right",
+            "top-left",
+            "top-right"
+          ],
+          "title": "Overlay Corner",
+          "type": "string"
+        },
+        "overlay_scrim": {
+          "default": "standard",
+          "enum": [
+            "soft",
+            "standard",
+            "strong"
+          ],
+          "title": "Overlay Scrim",
+          "type": "string"
+        }
+      },
+      "title": "PortableAppearance",
+      "type": "object"
+    },
+    "PortableBlock": {
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "pattern": "^[a-z][a-z0-9-]{0,39}$",
+          "title": "Id",
+          "type": "string"
+        },
+        "kind": {
+          "maxLength": 100,
+          "minLength": 1,
+          "title": "Kind",
+          "type": "string"
+        },
+        "enabled": {
+          "default": true,
+          "title": "Enabled",
+          "type": "boolean"
+        },
+        "settings": {
+          "additionalProperties": true,
+          "maxProperties": 4,
+          "title": "Settings",
+          "type": "object"
+        },
+        "source_slot": {
+          "anyOf": [
+            {
+              "pattern": "^[a-z][a-z0-9-]{0,39}$",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Source Slot"
+        },
+        "symbols": {
+          "anyOf": [
+            {
+              "items": {
+                "maxLength": 10,
+                "minLength": 1,
+                "pattern": "^[A-Z][A-Z0-9]*(?:[.\\-][A-Z0-9]+)*$",
+                "type": "string"
+              },
+              "maxItems": 6,
+              "type": "array"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Symbols"
+        },
+        "placement": {
+          "$ref": "#/$defs/PortablePlacement"
+        },
+        "style": {
+          "$ref": "#/$defs/BlockStyle"
+        }
+      },
+      "required": [
+        "id",
+        "kind"
+      ],
+      "title": "PortableBlock",
+      "type": "object"
+    },
+    "PortablePlacement": {
+      "additionalProperties": false,
+      "description": "Region and importance hints, also used when no explicit arrangement is carried.\n\nGrid coordinates live in the layout's optional arrangement. Keeping these hints unchanged\npreserves the bytes of releases published before layout-arrangement-v1.",
+      "properties": {
+        "region": {
+          "default": "auto",
+          "enum": [
+            "auto",
+            "header",
+            "main",
+            "secondary",
+            "stage",
+            "side"
+          ],
+          "title": "Region",
+          "type": "string"
+        },
+        "importance": {
+          "default": "normal",
+          "enum": [
+            "required",
+            "normal",
+            "optional"
+          ],
+          "title": "Importance",
+          "type": "string"
+        }
+      },
+      "title": "PortablePlacement",
+      "type": "object"
+    },
+    "PortraitArrangementCell": {
+      "additionalProperties": false,
+      "description": "A complete cell on the transposed portrait grid.",
+      "properties": {
+        "col_span": {
+          "maximum": 6,
+          "minimum": 1,
+          "title": "Col Span",
+          "type": "integer"
+        },
+        "row_span": {
+          "maximum": 12,
+          "minimum": 1,
+          "title": "Row Span",
+          "type": "integer"
+        },
+        "col_start": {
+          "maximum": 6,
+          "minimum": 1,
+          "title": "Col Start",
+          "type": "integer"
+        },
+        "row_start": {
+          "maximum": 12,
+          "minimum": 1,
+          "title": "Row Start",
+          "type": "integer"
+        }
+      },
+      "required": [
+        "col_span",
+        "row_span",
+        "col_start",
+        "row_start"
+      ],
+      "title": "PortraitArrangementCell",
+      "type": "object"
+    },
+    "SetupPrompt": {
+      "additionalProperties": false,
+      "properties": {
+        "source_slot": {
+          "pattern": "^[a-z][a-z0-9-]{0,39}$",
+          "title": "Source Slot",
+          "type": "string"
+        },
+        "field": {
+          "enum": [
+            "city",
+            "units",
+            "watchlist"
+          ],
+          "title": "Field",
+          "type": "string"
+        },
+        "required": {
+          "default": false,
+          "title": "Required",
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "source_slot",
+        "field"
+      ],
+      "title": "SetupPrompt",
+      "type": "object"
+    },
+    "SourceSlot": {
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "pattern": "^[a-z][a-z0-9-]{0,39}$",
+          "title": "Id",
+          "type": "string"
+        },
+        "kind": {
+          "maxLength": 100,
+          "minLength": 1,
+          "title": "Kind",
+          "type": "string"
+        },
+        "required": {
+          "default": true,
+          "title": "Required",
+          "type": "boolean"
+        },
+        "suggested_source": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/SuggestedSource"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        }
+      },
+      "required": [
+        "id",
+        "kind"
+      ],
+      "title": "SourceSlot",
+      "type": "object"
+    },
+    "SuggestedSource": {
+      "additionalProperties": false,
+      "properties": {
+        "kind": {
+          "maxLength": 100,
+          "minLength": 1,
+          "title": "Kind",
+          "type": "string"
+        },
+        "preset_id": {
+          "anyOf": [
+            {
+              "pattern": "^[a-z][a-z0-9-]{0,39}$",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Preset Id"
+        }
+      },
+      "required": [
+        "kind"
+      ],
+      "title": "SuggestedSource",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "schema_version": {
+      "const": 1,
+      "default": 1,
+      "title": "Schema Version",
+      "type": "integer"
+    },
+    "kind": {
+      "enum": [
+        "theme",
+        "block",
+        "content"
+      ],
+      "title": "Kind",
+      "type": "string"
+    },
+    "name": {
+      "maxLength": 100,
+      "minLength": 1,
+      "title": "Name",
+      "type": "string"
+    },
+    "look": {
+      "default": "modern",
+      "enum": [
+        "painting",
+        "modern",
+        "glass",
+        "ink",
+        "linen",
+        "botanical"
+      ],
+      "title": "Look",
+      "type": "string"
+    },
+    "appearance": {
+      "$ref": "#/$defs/PortableAppearance"
+    },
+    "blocks": {
+      "items": {
+        "$ref": "#/$defs/PortableBlock"
+      },
+      "maxItems": 12,
+      "title": "Blocks",
+      "type": "array"
+    },
+    "source_slots": {
+      "items": {
+        "$ref": "#/$defs/SourceSlot"
+      },
+      "maxItems": 12,
+      "title": "Source Slots",
+      "type": "array"
+    },
+    "purpose": {
+      "anyOf": [
+        {
+          "enum": [
+            "glance",
+            "gallery",
+            "home",
+            "media"
+          ],
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Purpose"
+    },
+    "arrangement": {
+      "anyOf": [
+        {
+          "$ref": "#/$defs/LayoutArrangement"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null
+    },
+    "setup": {
+      "items": {
+        "$ref": "#/$defs/SetupPrompt"
+      },
+      "maxItems": 24,
+      "title": "Setup",
+      "type": "array"
+    }
+  },
+  "required": [
+    "kind",
+    "name"
+  ],
+  "title": "Definition",
+  "type": "object"
+}

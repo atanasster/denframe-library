@@ -1,0 +1,701 @@
+[
+  {
+    "slug": "painting",
+    "id": "mantel/theme-painting",
+    "version": "1.0.0",
+    "mood": "Gallery · composed · timeless",
+    "description": "Museum-inspired framing, warm white type, and quiet captions that let the artwork lead.",
+    "definition": {
+      "kind": "theme",
+      "name": "Painting",
+      "look": "painting",
+      "appearance": {
+        "layout": "stage",
+        "background": "solid",
+        "font": "theme",
+        "spacing": "standard",
+        "tokens": {
+          "background": "#17201e",
+          "surface": "#24312d",
+          "captionSurface": "#17201e",
+          "text": "#fffaf0",
+          "mutedText": "#d8ded8",
+          "accent": "#f4cf72",
+          "accentText": "#1b211d",
+          "border": "#718079",
+          "positive": "#22c55e",
+          "negative": "#f87171"
+        }
+      }
+    }
+  },
+  {
+    "slug": "modern",
+    "id": "mantel/theme-modern",
+    "version": "1.0.0",
+    "mood": "Editorial · confident · clear",
+    "description": "Paper-white space, forest-green accents, and bold numerals. A morning edition for your wall.",
+    "definition": {
+      "kind": "theme",
+      "name": "Modern",
+      "look": "modern",
+      "appearance": {
+        "layout": "flow",
+        "background": "solid",
+        "font": "theme",
+        "spacing": "standard",
+        "tokens": {
+          "background": "#f4f0e6",
+          "surface": "#fffdf7",
+          "captionSurface": "#f4f0e6",
+          "text": "#171914",
+          "mutedText": "#4f554c",
+          "accent": "#284c3f",
+          "accentText": "#ffffff",
+          "border": "#777c70",
+          "positive": "#1a7f37",
+          "negative": "#cf222e"
+        }
+      }
+    }
+  },
+  {
+    "slug": "glass",
+    "id": "mantel/theme-glass",
+    "version": "1.0.0",
+    "mood": "Atmospheric · luminous · layered",
+    "description": "Mint light and translucent navy panes over a deep color field. Made for the blue hour.",
+    "definition": {
+      "kind": "theme",
+      "name": "Glass",
+      "look": "glass",
+      "appearance": {
+        "layout": "columns",
+        "background": "aurora",
+        "font": "theme",
+        "spacing": "standard",
+        "tokens": {
+          "background": "#12162b",
+          "surface": "#222b4a",
+          "captionSurface": "#183d4c",
+          "text": "#ffffff",
+          "mutedText": "#cbd3f4",
+          "accent": "#8ce6d0",
+          "accentText": "#10201d",
+          "border": "#7380aa",
+          "positive": "#22c55e",
+          "negative": "#f87171"
+        }
+      }
+    }
+  },
+  {
+    "slug": "ink",
+    "id": "mantel/theme-ink",
+    "version": "1.0.0",
+    "mood": "Precise · quiet · monochrome",
+    "description": "Near-black planes and crisp pale typography. An uncluttered desk, translated to a screen.",
+    "definition": {
+      "kind": "theme",
+      "name": "Ink",
+      "look": "ink",
+      "appearance": {
+        "layout": "flow",
+        "background": "solid",
+        "font": "theme",
+        "spacing": "standard",
+        "tokens": {
+          "background": "#111316",
+          "surface": "#1b1f24",
+          "captionSurface": "#111316",
+          "text": "#f5f7f8",
+          "mutedText": "#c3cbd2",
+          "accent": "#d7e2ea",
+          "accentText": "#111316",
+          "border": "#7b8790",
+          "positive": "#5bd18b",
+          "negative": "#ff8a8a"
+        }
+      }
+    }
+  },
+  {
+    "slug": "linen",
+    "id": "mantel/theme-linen",
+    "version": "1.0.0",
+    "mood": "Warm · welcoming · tactile",
+    "description": "Soft paper tones, brown accents, and readable serif details. A gentle center for a busy home.",
+    "definition": {
+      "kind": "theme",
+      "name": "Linen",
+      "look": "linen",
+      "appearance": {
+        "layout": "flow",
+        "background": "solid",
+        "font": "theme",
+        "spacing": "standard",
+        "tokens": {
+          "background": "#eee6d8",
+          "surface": "#fbf7ef",
+          "captionSurface": "#eee6d8",
+          "text": "#29251f",
+          "mutedText": "#5f574b",
+          "accent": "#79543a",
+          "accentText": "#ffffff",
+          "border": "#817666",
+          "positive": "#26743d",
+          "negative": "#b3393c"
+        }
+      }
+    }
+  },
+  {
+    "slug": "botanical",
+    "id": "mantel/theme-botanical",
+    "version": "1.0.0",
+    "mood": "Natural · deep · restful",
+    "description": "Forest-green surfaces and fresh leaf accents. A restful backdrop for art and everyday essentials.",
+    "definition": {
+      "kind": "theme",
+      "name": "Botanical",
+      "look": "botanical",
+      "appearance": {
+        "layout": "flow",
+        "background": "canopy",
+        "font": "theme",
+        "spacing": "standard",
+        "tokens": {
+          "background": "#10231b",
+          "surface": "#1a3428",
+          "captionSurface": "#10231b",
+          "text": "#f4f7ed",
+          "mutedText": "#c7d3c4",
+          "accent": "#b9d46a",
+          "accentText": "#18210f",
+          "border": "#748b78",
+          "positive": "#69d28b",
+          "negative": "#ff9999"
+        }
+      }
+    }
+  },
+  {
+    "slug": "market-watch",
+    "id": "mantel/market-watch",
+    "version": "1.0.0",
+    "mood": "A considered watchlist",
+    "description": "A short list of prices, signed changes, and a clear observation time. The essentials at a glance.",
+    "definition": {
+      "kind": "block",
+      "name": "Market Watch",
+      "look": "ink",
+      "appearance": {
+        "layout": "flow",
+        "background": "solid",
+        "font": "theme",
+        "spacing": "standard",
+        "tokens": {
+          "background": "#111316",
+          "surface": "#1b1f24",
+          "captionSurface": "#111316",
+          "text": "#f5f7f8",
+          "mutedText": "#c3cbd2",
+          "accent": "#d7e2ea",
+          "accentText": "#111316",
+          "border": "#7b8790",
+          "positive": "#5bd18b",
+          "negative": "#ff8a8a"
+        }
+      },
+      "blocks": [
+        {
+          "id": "market",
+          "kind": "market",
+          "source_slot": "market"
+        }
+      ],
+      "source_slots": [
+        {
+          "id": "market",
+          "kind": "market",
+          "required": true
+        }
+      ]
+    }
+  },
+  {
+    "slug": "weather-window",
+    "id": "mantel/weather-window",
+    "version": "1.0.0",
+    "mood": "A little outlook",
+    "description": "Today's temperature and a concise forecast, given the space to be read from across the room.",
+    "definition": {
+      "kind": "block",
+      "name": "Weather Window",
+      "look": "modern",
+      "appearance": {
+        "layout": "flow",
+        "background": "solid",
+        "font": "theme",
+        "spacing": "standard",
+        "tokens": {
+          "background": "#f4f0e6",
+          "surface": "#fffdf7",
+          "captionSurface": "#f4f0e6",
+          "text": "#171914",
+          "mutedText": "#4f554c",
+          "accent": "#284c3f",
+          "accentText": "#ffffff",
+          "border": "#777c70",
+          "positive": "#1a7f37",
+          "negative": "#cf222e"
+        }
+      },
+      "blocks": [
+        {
+          "id": "weather",
+          "kind": "weather",
+          "source_slot": "weather"
+        }
+      ],
+      "source_slots": [
+        {
+          "id": "weather",
+          "kind": "weather",
+          "required": true
+        }
+      ]
+    }
+  },
+  {
+    "slug": "day-ahead",
+    "id": "mantel/day-ahead",
+    "version": "1.0.0",
+    "mood": "One thing, then the next",
+    "description": "An airy agenda with a strong time column and a quiet hierarchy between now and later.",
+    "definition": {
+      "kind": "block",
+      "name": "Day Ahead",
+      "look": "linen",
+      "appearance": {
+        "layout": "flow",
+        "background": "solid",
+        "font": "theme",
+        "spacing": "standard",
+        "tokens": {
+          "background": "#eee6d8",
+          "surface": "#fbf7ef",
+          "captionSurface": "#eee6d8",
+          "text": "#29251f",
+          "mutedText": "#5f574b",
+          "accent": "#79543a",
+          "accentText": "#ffffff",
+          "border": "#817666",
+          "positive": "#26743d",
+          "negative": "#b3393c"
+        }
+      },
+      "blocks": [
+        {
+          "id": "calendar",
+          "kind": "calendar",
+          "source_slot": "calendar"
+        }
+      ],
+      "source_slots": [
+        {
+          "id": "calendar",
+          "kind": "calendar",
+          "required": false
+        }
+      ]
+    }
+  },
+  {
+    "slug": "small-victories",
+    "id": "mantel/small-victories",
+    "version": "1.0.0",
+    "mood": "A lighter to-do list",
+    "description": "A handful of household tasks with clear labels and generous rhythm. Enough for today.",
+    "definition": {
+      "kind": "block",
+      "name": "Small Victories",
+      "look": "botanical",
+      "appearance": {
+        "layout": "flow",
+        "background": "canopy",
+        "font": "theme",
+        "spacing": "standard",
+        "tokens": {
+          "background": "#10231b",
+          "surface": "#1a3428",
+          "captionSurface": "#10231b",
+          "text": "#f4f7ed",
+          "mutedText": "#c7d3c4",
+          "accent": "#b9d46a",
+          "accentText": "#18210f",
+          "border": "#748b78",
+          "positive": "#69d28b",
+          "negative": "#ff9999"
+        }
+      },
+      "blocks": [
+        {
+          "id": "tasks",
+          "kind": "tasks",
+          "source_slot": "tasks"
+        }
+      ],
+      "source_slots": [
+        {
+          "id": "tasks",
+          "kind": "tasks",
+          "required": false
+        }
+      ]
+    }
+  },
+  {
+    "slug": "quiet-clock",
+    "id": "mantel/quiet-clock",
+    "version": "1.0.0",
+    "mood": "Time, beautifully simple",
+    "description": "Large, finely balanced numerals and a single date line. A useful anchor that asks for nothing.",
+    "definition": {
+      "kind": "block",
+      "name": "Quiet Clock",
+      "look": "glass",
+      "appearance": {
+        "layout": "flow",
+        "background": "aurora",
+        "font": "theme",
+        "spacing": "standard",
+        "tokens": {
+          "background": "#12162b",
+          "surface": "#222b4a",
+          "captionSurface": "#183d4c",
+          "text": "#ffffff",
+          "mutedText": "#cbd3f4",
+          "accent": "#8ce6d0",
+          "accentText": "#10201d",
+          "border": "#7380aa",
+          "positive": "#22c55e",
+          "negative": "#f87171"
+        }
+      },
+      "blocks": [
+        {
+          "id": "clock",
+          "kind": "clock",
+          "settings": {
+            "hour_format": "24",
+            "show_seconds": false
+          }
+        }
+      ],
+      "source_slots": []
+    }
+  },
+  {
+    "slug": "gallery-piece",
+    "id": "mantel/gallery-piece",
+    "version": "1.0.0",
+    "mood": "Room for the artwork",
+    "description": "An artwork stage with a measured frame and a discreet, attributed caption.",
+    "definition": {
+      "kind": "block",
+      "name": "Gallery Piece",
+      "look": "painting",
+      "appearance": {
+        "layout": "stage",
+        "background": "solid",
+        "font": "theme",
+        "spacing": "standard",
+        "tokens": {
+          "background": "#17201e",
+          "surface": "#24312d",
+          "captionSurface": "#17201e",
+          "text": "#fffaf0",
+          "mutedText": "#d8ded8",
+          "accent": "#f4cf72",
+          "accentText": "#1b211d",
+          "border": "#718079",
+          "positive": "#22c55e",
+          "negative": "#f87171"
+        }
+      },
+      "blocks": [
+        {
+          "id": "image",
+          "kind": "image",
+          "source_slot": "image"
+        }
+      ],
+      "source_slots": [
+        {
+          "id": "image",
+          "kind": "image",
+          "required": true
+        }
+      ]
+    }
+  },
+  {
+    "slug": "morning-edition",
+    "id": "mantel/morning-edition",
+    "version": "1.1.0",
+    "mood": "A fresh start",
+    "description": "Time, weather, your next appointment, then a few headlines. An editorial rhythm for the start of the day.",
+    "definition": {
+      "kind": "content",
+      "name": "Morning Edition",
+      "look": "modern",
+      "appearance": {
+        "layout": "auto",
+        "background": "solid",
+        "font": "theme",
+        "spacing": "standard",
+        "tokens": {
+          "background": "#f4f0e6",
+          "surface": "#fffdf7",
+          "captionSurface": "#f4f0e6",
+          "text": "#171914",
+          "mutedText": "#4f554c",
+          "accent": "#284c3f",
+          "accentText": "#ffffff",
+          "border": "#777c70",
+          "positive": "#1a7f37",
+          "negative": "#cf222e"
+        }
+      },
+      "blocks": [
+        {
+          "id": "clock",
+          "kind": "clock",
+          "settings": {
+            "hour_format": "24",
+            "show_seconds": false
+          }
+        },
+        {
+          "id": "weather",
+          "kind": "weather",
+          "source_slot": "weather"
+        },
+        {
+          "id": "calendar",
+          "kind": "calendar",
+          "source_slot": "calendar"
+        },
+        {
+          "id": "news",
+          "kind": "news",
+          "source_slot": "news"
+        }
+      ],
+      "source_slots": [
+        {
+          "id": "weather",
+          "kind": "weather",
+          "required": true
+        },
+        {
+          "id": "calendar",
+          "kind": "calendar",
+          "required": false
+        },
+        {
+          "id": "news",
+          "kind": "news",
+          "required": false
+        }
+      ]
+    }
+  },
+  {
+    "slug": "kitchen-table",
+    "id": "mantel/kitchen-table",
+    "version": "1.1.0",
+    "mood": "The household, together",
+    "description": "A welcoming mix of time, weather, plans, and small tasks. Useful during the morning rush.",
+    "definition": {
+      "kind": "content",
+      "name": "Kitchen Table",
+      "look": "linen",
+      "appearance": {
+        "layout": "auto",
+        "background": "solid",
+        "font": "theme",
+        "spacing": "standard",
+        "tokens": {
+          "background": "#eee6d8",
+          "surface": "#fbf7ef",
+          "captionSurface": "#eee6d8",
+          "text": "#29251f",
+          "mutedText": "#5f574b",
+          "accent": "#79543a",
+          "accentText": "#ffffff",
+          "border": "#817666",
+          "positive": "#26743d",
+          "negative": "#b3393c"
+        }
+      },
+      "blocks": [
+        {
+          "id": "clock",
+          "kind": "clock",
+          "settings": {
+            "hour_format": "24",
+            "show_seconds": false
+          }
+        },
+        {
+          "id": "weather",
+          "kind": "weather",
+          "source_slot": "weather"
+        },
+        {
+          "id": "calendar",
+          "kind": "calendar",
+          "source_slot": "calendar"
+        },
+        {
+          "id": "tasks",
+          "kind": "tasks",
+          "source_slot": "tasks"
+        }
+      ],
+      "source_slots": [
+        {
+          "id": "weather",
+          "kind": "weather",
+          "required": true
+        },
+        {
+          "id": "calendar",
+          "kind": "calendar",
+          "required": false
+        },
+        {
+          "id": "tasks",
+          "kind": "tasks",
+          "required": false
+        }
+      ]
+    }
+  },
+  {
+    "slug": "after-hours",
+    "id": "mantel/after-hours",
+    "version": "1.0.0",
+    "mood": "Let the room exhale",
+    "description": "A generous artwork stage and a discreet clock. Just enough information for a quieter evening.",
+    "definition": {
+      "kind": "content",
+      "name": "After Hours",
+      "look": "painting",
+      "appearance": {
+        "layout": "stage",
+        "background": "solid",
+        "font": "theme",
+        "spacing": "standard",
+        "tokens": {
+          "background": "#17201e",
+          "surface": "#24312d",
+          "captionSurface": "#17201e",
+          "text": "#fffaf0",
+          "mutedText": "#d8ded8",
+          "accent": "#f4cf72",
+          "accentText": "#1b211d",
+          "border": "#718079",
+          "positive": "#22c55e",
+          "negative": "#f87171"
+        }
+      },
+      "blocks": [
+        {
+          "id": "image",
+          "kind": "image",
+          "source_slot": "image"
+        },
+        {
+          "id": "clock",
+          "kind": "clock",
+          "settings": {
+            "hour_format": "24",
+            "show_seconds": false
+          }
+        }
+      ],
+      "source_slots": [
+        {
+          "id": "image",
+          "kind": "image",
+          "required": true
+        }
+      ]
+    }
+  },
+  {
+    "slug": "market-desk",
+    "id": "mantel/market-desk",
+    "version": "1.1.0",
+    "mood": "A focused morning read",
+    "description": "A clock, one deliberate watchlist, and a short headline selection on an Ink canvas.",
+    "definition": {
+      "kind": "content",
+      "name": "Market Desk",
+      "look": "ink",
+      "appearance": {
+        "layout": "auto",
+        "background": "solid",
+        "font": "theme",
+        "spacing": "standard",
+        "tokens": {
+          "background": "#111316",
+          "surface": "#1b1f24",
+          "captionSurface": "#111316",
+          "text": "#f5f7f8",
+          "mutedText": "#c3cbd2",
+          "accent": "#d7e2ea",
+          "accentText": "#111316",
+          "border": "#7b8790",
+          "positive": "#5bd18b",
+          "negative": "#ff8a8a"
+        }
+      },
+      "blocks": [
+        {
+          "id": "clock",
+          "kind": "clock",
+          "settings": {
+            "hour_format": "24",
+            "show_seconds": false
+          }
+        },
+        {
+          "id": "market",
+          "kind": "market",
+          "source_slot": "market"
+        },
+        {
+          "id": "news",
+          "kind": "news",
+          "source_slot": "news"
+        }
+      ],
+      "source_slots": [
+        {
+          "id": "market",
+          "kind": "market",
+          "required": true
+        },
+        {
+          "id": "news",
+          "kind": "news",
+          "required": false
+        }
+      ]
+    }
+  }
+]

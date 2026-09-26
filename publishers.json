@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "publishers": [
+    {
+      "handle": "mantel",
+      "github_account_ids": [
+        6075606
+      ],
+      "github_logins": [
+        "atanasster"
+      ],
+      "display_name": "Mantel"
+    }
+  ]
+}

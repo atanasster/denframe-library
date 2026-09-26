@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "reviewed_at": "2026-09-12",
+  "review_method": "Automated primary-source license inspection and archive validation; no human listening or fluent review.",
+  "releases": [
+    {
+      "id": "mantel/animal-sounds",
+      "version": "0.1.0",
+      "source_sha256": "c3419166f4911baf3fbb68ca35060ed5fbe6ba0b422fe497bd823375942741a2",
+      "status": "review-candidate",
+      "fluent_review": "pending",
+      "listening_review": "pending",
+      "content_review": "pending",
+      "publication_approved": false
+    },
+    {
+      "id": "mantel/first-words",
+      "version": "0.1.0",
+      "source_sha256": "e60be416721cbf893819cdfe3168a8aefe179e2bab6c33b16063a7028997961d",
+      "status": "review-candidate",
+      "fluent_review": "pending",
+      "listening_review": "pending",
+      "content_review": "pending",
+      "publication_approved": false
+    },
+    {
+      "id": "mantel/tiny-puzzles",
+      "version": "0.1.0",
+      "source_sha256": "36c91f993046eb185127651b5539d87bb8355cf7005c8e2590176de8a4df669b",
+      "status": "review-candidate",
+      "fluent_review": "pending",
+      "listening_review": "pending",
+      "content_review": "pending",
+      "publication_approved": false
+    }
+  ]
+}
