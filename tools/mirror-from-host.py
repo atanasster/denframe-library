@@ -28,7 +28,13 @@ def projection(name, data):
     return data
 
 
-def mirror(host, destination, revision="HEAD", check=False):
+def mirror(host, destination, revision=None, check=False):
+    """Mirror `revision`; a check defaults to the host commit the mirror records, so unrelated
+    later host commits do not make an unchanged mirror look stale."""
+    previous = destination / "MIRROR.json"
+    if revision is None:
+        revision = json.loads(previous.read_text())["host_commit"] if check and previous.exists() else "HEAD"
+
     def git(*args):
         return subprocess.check_output(["git", "-C", str(host), *args])
     commit = git("rev-parse", "--verify", revision + "^{commit}").decode().strip()
@@ -45,7 +51,6 @@ def mirror(host, destination, revision="HEAD", check=False):
         name: hashlib.sha256(data).hexdigest() for name, data in sorted(expected.items())
     }}
     expected["MIRROR.json"] = (json.dumps(manifest, indent=2) + "\n").encode()
-    previous = destination / "MIRROR.json"
     stale = set(json.loads(previous.read_text())["files"]) - expected.keys() if previous.exists() else set()
     # A prior manifest cannot authorize deletion outside the mirrored roots.
     if any(not any(name == target or name.startswith(target + "/") for target in MAPPINGS.values())
@@ -74,7 +79,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--host", type=Path, required=True)
     parser.add_argument("--destination", type=Path, required=True)
-    parser.add_argument("--revision", default="HEAD")
+    parser.add_argument("--revision", help="host commit (default: HEAD; the recorded commit with --check)")
     parser.add_argument("--check", action="store_true")
     args = parser.parse_args()
     mirror(args.host, args.destination, args.revision, args.check)

@@ -7,7 +7,12 @@
       "symlink",
       "zip-comment",
       "extra-entry",
-      "case-collision"
+      "case-collision",
+      "v1-archive-over-limit",
+      "v1-expanded-over-limit",
+      "entry-extra-field",
+      "entry-comment",
+      "pack-undeclared-asset"
     ]
   },
   "JSON": {
@@ -27,6 +32,12 @@
     ]
   },
   "Identity": {
+    "archives": [
+      "bad-id",
+      "id-over-limit",
+      "local-shared",
+      "mantel-unsigned"
+    ],
     "scenarios": [
       "S1",
       "S2",
@@ -42,7 +53,11 @@
     "fixtures": [
       "catalog-new-fields.json"
     ],
-    "deferred": "D30 semver precedence and min_host eligibility are added at step 24; unknown catalog fields are ignored by the old reader."
+    "deferred": "D30 semver precedence and min_host eligibility are added at step 24; unknown catalog fields are ignored by the old reader.",
+    "tests": [
+      "backend/tests/test_format_conformance.py::test_old_catalog_reader_ignores_new_optional_fields_but_still_checks_hashes",
+      "backend/tests/test_format_conformance.py::test_old_element_catalog_reader_ignores_new_optional_fields_but_still_checks_hashes"
+    ]
   },
   "Text": {
     "archives": [
@@ -83,14 +98,46 @@
     "archives": [
       "clock-block",
       "forbidden-setting",
-      "missing-source-slot"
+      "missing-source-slot",
+      "layout-arrangement",
+      "layout-landscape",
+      "layout-purpose",
+      "layout-missing-capability",
+      "layout-overlap",
+      "layout-bounds",
+      "layout-partial-cell",
+      "layout-unknown-id",
+      "layout-missing-id",
+      "layout-portrait-bounds",
+      "layout-portrait-overlap",
+      "layout-bad-purpose",
+      "layout-wrong-kind",
+      "layout-wrong-layout",
+      "layout-coerced-cell",
+      "layout-setup",
+      "layout-setup-missing-capability",
+      "layout-public-preset",
+      "layout-setup-unknown-slot",
+      "layout-setup-wrong-prompt-kind",
+      "layout-setup-duplicate",
+      "layout-setup-household-value",
+      "layout-setup-wrong-kind",
+      "layout-setup-suggestion-kind",
+      "layout-setup-suggestion-config",
+      "layout-private-preset"
+    ],
+    "canonical": [
+      "layout-setup-canonical",
+      "layout-preset-canonical",
+      "layout-arrangement-canonical",
+      "layout-landscape-canonical",
+      "layout-purpose-canonical"
     ],
     "tests": [
       "backend/tests/test_library_packages.py::test_a_custom_preset_may_declare_its_content_ladder_and_then_requires_the_capability",
       "backend/tests/test_library_packages.py::test_a_preset_may_carry_a_blocks_own_choices_and_then_requires_the_host_token",
       "backend/tests/test_library_packages.py::test_styled_definition_carries_block_style_v1_and_a_styled_import_applies_it"
-    ],
-    "deferred": "Purpose, arrangement, suggested_source and setup join their owning schema revisions at steps 14-15."
+    ]
   },
   "Capabilities": {
     "archives": [
@@ -108,7 +155,15 @@
       "png-metadata",
       "id3-title",
       "mp3-truncated",
-      "mp3-duration-mismatch"
+      "mp3-duration-mismatch",
+      "image-pixel-budget",
+      "png-animated",
+      "jpeg-valid",
+      "webp-valid",
+      "jpeg-exif",
+      "webp-exif",
+      "mp3-free-bitrate",
+      "mp3-layer-ii"
     ],
     "scenarios": [
       "S8"
@@ -128,7 +183,9 @@
     "contracts": [
       "frontend/src/display/display.css"
     ],
-    "tests": []
+    "tests": [
+      "frontend/src/display/layout/pictureFit.css.test.ts::stops authored picture motion when the screen prefers reduced motion"
+    ]
   },
   "Trust": {
     "scenarios": [

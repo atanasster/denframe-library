@@ -105,5 +105,23 @@
       "provenance-normalized-authored-invalid",
       "provenance-normalized-authored-valid"
     ]
+  },
+  {
+    "schema_sha256": "647e1d603073d5b5b5dc9448e3c244a5c5f620b7e8e676debd9949b4b8190a79",
+    "introduced": [
+      "v1-archive-over-limit",
+      "v1-expanded-over-limit",
+      "entry-extra-field",
+      "entry-comment",
+      "id-over-limit",
+      "pack-undeclared-asset",
+      "png-animated",
+      "jpeg-valid",
+      "webp-valid",
+      "jpeg-exif",
+      "webp-exif",
+      "mp3-free-bitrate",
+      "mp3-layer-ii"
+    ]
   }
 ]
