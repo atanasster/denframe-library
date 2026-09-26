@@ -12,6 +12,8 @@ MAPPINGS = {
     "contracts/format": "contracts/format",
     "contracts/format-fixtures": "contracts/format-fixtures",
     "contracts/vocabulary.json": "contracts/vocabulary.json",
+    # The TUF repository operations the metadata-renewal workflow runs.
+    "scripts/scriptlib/tuf_repository.py": "tools/tuf_repository.py",
 }
 
 
