@@ -3,6 +3,7 @@
     "slug": "painting",
     "id": "mantel/theme-painting",
     "version": "1.0.0",
+    "distribution": "included",
     "mood": "Gallery · composed · timeless",
     "description": "Museum-inspired framing, warm white type, and quiet captions that let the artwork lead.",
     "definition": {
@@ -33,6 +34,7 @@
     "slug": "modern",
     "id": "mantel/theme-modern",
     "version": "1.0.0",
+    "distribution": "included",
     "mood": "Editorial · confident · clear",
     "description": "Paper-white space, forest-green accents, and bold numerals. A morning edition for your wall.",
     "definition": {
@@ -63,6 +65,7 @@
     "slug": "glass",
     "id": "mantel/theme-glass",
     "version": "1.0.0",
+    "distribution": "included",
     "mood": "Atmospheric · luminous · layered",
     "description": "Mint light and translucent navy panes over a deep color field. Made for the blue hour.",
     "definition": {
@@ -93,6 +96,7 @@
     "slug": "ink",
     "id": "mantel/theme-ink",
     "version": "1.0.0",
+    "distribution": "included",
     "mood": "Precise · quiet · monochrome",
     "description": "Near-black planes and crisp pale typography. An uncluttered desk, translated to a screen.",
     "definition": {
@@ -123,6 +127,7 @@
     "slug": "linen",
     "id": "mantel/theme-linen",
     "version": "1.0.0",
+    "distribution": "included",
     "mood": "Warm · welcoming · tactile",
     "description": "Soft paper tones, brown accents, and readable serif details. A gentle center for a busy home.",
     "definition": {
@@ -153,6 +158,7 @@
     "slug": "botanical",
     "id": "mantel/theme-botanical",
     "version": "1.0.0",
+    "distribution": "included",
     "mood": "Natural · deep · restful",
     "description": "Forest-green surfaces and fresh leaf accents. A restful backdrop for art and everyday essentials.",
     "definition": {
@@ -183,6 +189,7 @@
     "slug": "market-watch",
     "id": "mantel/market-watch",
     "version": "1.0.0",
+    "distribution": "library",
     "mood": "A considered watchlist",
     "description": "A short list of prices, signed changes, and a clear observation time. The essentials at a glance.",
     "definition": {
@@ -227,6 +234,7 @@
     "slug": "weather-window",
     "id": "mantel/weather-window",
     "version": "1.0.0",
+    "distribution": "included",
     "mood": "A little outlook",
     "description": "Today's temperature and a concise forecast, given the space to be read from across the room.",
     "definition": {
@@ -271,6 +279,7 @@
     "slug": "day-ahead",
     "id": "mantel/day-ahead",
     "version": "1.0.0",
+    "distribution": "included",
     "mood": "One thing, then the next",
     "description": "An airy agenda with a strong time column and a quiet hierarchy between now and later.",
     "definition": {
@@ -315,6 +324,7 @@
     "slug": "small-victories",
     "id": "mantel/small-victories",
     "version": "1.0.0",
+    "distribution": "included",
     "mood": "A lighter to-do list",
     "description": "A handful of household tasks with clear labels and generous rhythm. Enough for today.",
     "definition": {
@@ -359,6 +369,7 @@
     "slug": "quiet-clock",
     "id": "mantel/quiet-clock",
     "version": "1.0.0",
+    "distribution": "included",
     "mood": "Time, beautifully simple",
     "description": "Large, finely balanced numerals and a single date line. A useful anchor that asks for nothing.",
     "definition": {
@@ -400,6 +411,7 @@
     "slug": "gallery-piece",
     "id": "mantel/gallery-piece",
     "version": "1.0.0",
+    "distribution": "included",
     "mood": "Room for the artwork",
     "description": "An artwork stage with a measured frame and a discreet, attributed caption.",
     "definition": {
@@ -444,6 +456,7 @@
     "slug": "morning-edition",
     "id": "mantel/morning-edition",
     "version": "1.1.0",
+    "distribution": "included",
     "mood": "A fresh start",
     "description": "Time, weather, your next appointment, then a few headlines. An editorial rhythm for the start of the day.",
     "definition": {
@@ -516,6 +529,7 @@
     "slug": "kitchen-table",
     "id": "mantel/kitchen-table",
     "version": "1.1.0",
+    "distribution": "included",
     "mood": "The household, together",
     "description": "A welcoming mix of time, weather, plans, and small tasks. Useful during the morning rush.",
     "definition": {
@@ -588,6 +602,7 @@
     "slug": "after-hours",
     "id": "mantel/after-hours",
     "version": "1.0.0",
+    "distribution": "included",
     "mood": "Let the room exhale",
     "description": "A generous artwork stage and a discreet clock. Just enough information for a quieter evening.",
     "definition": {
@@ -640,6 +655,7 @@
     "slug": "market-desk",
     "id": "mantel/market-desk",
     "version": "1.1.0",
+    "distribution": "library",
     "mood": "A focused morning read",
     "description": "A clock, one deliberate watchlist, and a short headline selection on an Ink canvas.",
     "definition": {

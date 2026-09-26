@@ -18,20 +18,30 @@ runtime. See [format/README.md](format/README.md) and the
 
 ## Sources and contributions
 
-- `definitions/catalog.json`: the 16 shipped design definitions and editorial text.
+- `definitions/catalog.json`: the 16 design definitions and editorial text. Each entry's
+  `distribution` says where it goes: `included` ships inside Mantel, `library` is offered
+  online only.
 - `definitions/starters.json`: nine included layout sources, currently development releases.
-- `packs/`: activity sources, exact media, credits and review-candidate records.
+- `packs/`: activity sources, exact media and credits. `packs/catalog.json` lists each
+  catalogued activity by slug with its `distribution`.
 - `contracts/`: schemas, vocabulary and the valid/invalid conformance corpus.
 - `publishers.json`: registered handles and their numeric GitHub account IDs.
 - `reviews.json`: the review ledger (schema v2), one record per exact release; see below.
 
-Every shipped definition and bundled activity has a `reviews.json` record naming the exact
+Every catalogued definition and activity has a `reviews.json` record naming the exact
 archive and source SHA-256, the submitter, the reviewer and date, eight review statuses and a
-verdict (`approved`, `preview`, `changes-requested` or `rejected`). Included items need
-`approved`; library items need `approved` or `preview`. `tools/check.py` refuses any shipped
-release without a record for its exact bytes, and host builds refuse to sign one. Only a person
-approves: a `preview` may rest on automated checks, but never names a reviewer who did not
-review. Reports follow [reviews/report-template.md](reviews/report-template.md).
+verdict (`approved`, `preview`, `changes-requested` or `rejected`). A definition's source hash
+covers its catalog entry without `distribution`, so moving a release between distributions
+needs no new review of its bytes, only a verdict that admits the new one. Included items need
+`approved`; library items need `approved` or `preview`. `tools/check.py` refuses any
+catalogued release without a record for its exact bytes, and host builds refuse to sign one.
+Only a person approves: a `preview` may rest on automated checks, but never names a reviewer
+who did not review. Reports follow [reviews/report-template.md](reviews/report-template.md).
+
+What Mantel includes is what a new household needs on day one without an account. So
+`tools/check.py` also refuses an included definition that reads an account- or key-bound
+source (a market watchlist needs the Stocks key). The host build adds the last rule: the
+included previews total at most 3 MB.
 
 The activity sources are **preview material**, awaiting human content, language and
 listening review. A build or a signature is not a content endorsement. The source seed

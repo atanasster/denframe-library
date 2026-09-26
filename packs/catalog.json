@@ -1,0 +1,14 @@
+[
+  {
+    "slug": "first-words",
+    "distribution": "library"
+  },
+  {
+    "slug": "animal-sounds",
+    "distribution": "library"
+  },
+  {
+    "slug": "tiny-puzzles",
+    "distribution": "library"
+  }
+]

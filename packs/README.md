@@ -1,8 +1,9 @@
 # Reference pack review candidates
 
 These three self-contained sources contain 20 Bulgarian/English vocabulary items,
-12 real animal-recording items, and 12 short thinking puzzles. They are **review
-candidates, not approved teaching material**. The root `reviews.json` ledger pins each
+12 real animal-recording items, and 12 short thinking puzzles. `catalog.json` places all
+three in the `library` distribution: they are offered online and do not ship inside Mantel.
+They are **review candidates, not approved teaching material**. The root `reviews.json` ledger pins each
 source and archive hash with a `preview` verdict; fluent, content and listening reviews
 are pending. Never promote them as reviewed language learning packs or remove this
 distinction from the public catalog.
