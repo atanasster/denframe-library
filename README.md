@@ -50,7 +50,18 @@ Read the [website terms](https://smart.meggy.com/terms),
 ## Maintainers
 
 Install `format/requirements.lock` with `--require-hashes`, then install `./format`
-and run `python tools/check.py`. The host pins a tagged source subtree at `library/src`;
+and run `python tools/check.py`. `python tools/rebuild.py` is the rebuild gate: in the pinned
+release environment (`format/release-environment.json`) it rebuilds every reviewed asset from
+source, and again from its unpacked archive, and requires the exact bytes its review record
+names. CI runs both in that image; locally, run them in the same image:
+
+```sh
+docker run --rm --platform linux/amd64 \
+  --mount type=bind,source="$PWD",target=/repo,readonly -w /repo \
+  python:3.13-slim@sha256:9d2e5553305c7c7b0097999bb17187c69b921ccd6bc9d40e4bb5ebe652c00285 \
+  sh -c 'pip install -q --require-hashes -r format/requirements.lock && cp -r format /tmp/f &&
+    pip install -q --no-deps /tmp/f && python tools/check.py && python tools/rebuild.py'
+``` The host pins a tagged source subtree at `library/src`;
 its signed runtime catalogs are generated from those sources.
 
 `python tools/mirror-from-host.py --host /path/to/host --destination . --check`
