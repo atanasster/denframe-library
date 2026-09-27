@@ -1,0 +1,193 @@
+{
+  "pack": "mantel/moon-and-sky",
+  "drawn": "2026-09-27",
+  "authorship": "Text and drawing code drafted for Mantel with AI assistance (Claude); a person reviews every pack before it is approved (plan D26).",
+  "narration": "None. eSpeak NG, the only voice the plan allows (D26), was not installed where the pack was drawn; the cards are text-first and silent.",
+  "sources": [
+    {
+      "supports": "Phase names and order, the Moon always half lit by the Sun, and the cycle of about 29.5 days.",
+      "url": "https://science.nasa.gov/moon/moon-phases/"
+    },
+    {
+      "supports": "The two end stars of the Big Dipper's bowl (Dubhe and Merak) point to Polaris, which stays in roughly the same place while other stars circle the pole.",
+      "url": "https://science.nasa.gov/solar-system/what-is-the-north-star-and-how-do-you-find-it/"
+    },
+    {
+      "supports": "Cassiopeia's W or M shape.",
+      "url": "https://science.nasa.gov/solar-system/skywatching/night-sky-network/feb2024-night-sky-notes/"
+    },
+    {
+      "supports": "The Summer Triangle: Vega (Lyra), Deneb (Cygnus) and Altair (Aquila).",
+      "url": "https://science.nasa.gov/solar-system/skywatching/night-sky-network/the-summer-triangles-hidden-treasures/"
+    },
+    {
+      "supports": "Every star's J2000 position and V magnitude (the drawings), the Big Dipper and Cassiopeia about 12 hours of right ascension apart round the pole (opposite sides of Polaris), Betelgeuse's red (M) and Rigel's blue-white (B) spectral types. SIMBAD TAP query of the basic and allfluxes tables, 27 September 2026. This research has made use of the SIMBAD database, operated at CDS, Strasbourg, France.",
+      "url": "https://simbad.cds.unistra.fr/simbad/"
+    }
+  ],
+  "method": "SVG drawn by draw.py, rasterised by rsvg-convert, re-encoded by Pillow as an 8-bit palette PNG with no metadata chunks. Original work: no image-generation model, stock or third-party artwork.",
+  "toolchain": {
+    "rsvg-convert": "2.63.2",
+    "cairo": "1.18.6",
+    "Pillow": "12.3.0",
+    "zlib": "1.3.1.zlib-ng"
+  },
+  "assets": [
+    {
+      "picture": "full",
+      "path": "assets/b4918c1d7e6f8e33f0c339a0748027f170c90d5d34e9ca805ff8890619513875.png",
+      "bytes": 11675,
+      "media_type": "image/png",
+      "width": 800,
+      "height": 800,
+      "license": "CC0-1.0",
+      "items": [
+        "full-moon"
+      ],
+      "visual_review": "pending"
+    },
+    {
+      "picture": "first-quarter",
+      "path": "assets/2a98c9e3dbbe54ef2243dbc1c3f1ac70143d3b34f810e41643e8f60067a8ab34.png",
+      "bytes": 12578,
+      "media_type": "image/png",
+      "width": 800,
+      "height": 800,
+      "license": "CC0-1.0",
+      "items": [
+        "first-quarter"
+      ],
+      "visual_review": "pending"
+    },
+    {
+      "picture": "waxing-crescent",
+      "path": "assets/9a25f269fbb21fa8f19b74cc80b1f6b225fbc52068dc62dcf6c27b7e8e07f4a5.png",
+      "bytes": 14152,
+      "media_type": "image/png",
+      "width": 800,
+      "height": 800,
+      "license": "CC0-1.0",
+      "items": [
+        "waxing-crescent"
+      ],
+      "visual_review": "pending"
+    },
+    {
+      "picture": "waxing-gibbous",
+      "path": "assets/b77c68972db2d4a6c82c9b5022f3819ff661e16795aa4cd3de9d9534b5f0b6cd.png",
+      "bytes": 14178,
+      "media_type": "image/png",
+      "width": 800,
+      "height": 800,
+      "license": "CC0-1.0",
+      "items": [
+        "waxing-gibbous"
+      ],
+      "visual_review": "pending"
+    },
+    {
+      "picture": "last-quarter",
+      "path": "assets/e3f7f1b863119a94b28a2b7d7e74f7b1efb6117f5f73b2444c27d46f228c8d30.png",
+      "bytes": 12687,
+      "media_type": "image/png",
+      "width": 800,
+      "height": 800,
+      "license": "CC0-1.0",
+      "items": [
+        "last-quarter"
+      ],
+      "visual_review": "pending"
+    },
+    {
+      "picture": "waning-crescent",
+      "path": "assets/4d0fbb559e84e0badcd1932b5e2a48f0168fd65990dbd07f414dc2f0eabd9723.png",
+      "bytes": 14338,
+      "media_type": "image/png",
+      "width": 800,
+      "height": 800,
+      "license": "CC0-1.0",
+      "items": [
+        "waning-crescent"
+      ],
+      "visual_review": "pending"
+    },
+    {
+      "picture": "cycle",
+      "path": "assets/f65d3b3c4112f820577ef838afd41ec73a5a6c2e39e405301bab2682b0e14416.png",
+      "bytes": 25631,
+      "media_type": "image/png",
+      "width": 800,
+      "height": 800,
+      "license": "CC0-1.0",
+      "items": [
+        "moon-cycle"
+      ],
+      "visual_review": "pending"
+    },
+    {
+      "picture": "big-dipper",
+      "path": "assets/69c83a5ec688699afc27ad8b05addce4e1980fd86d1d43fa14eb0e11aceb0b35.png",
+      "bytes": 11079,
+      "media_type": "image/png",
+      "width": 800,
+      "height": 800,
+      "license": "CC0-1.0",
+      "items": [
+        "big-dipper"
+      ],
+      "visual_review": "pending"
+    },
+    {
+      "picture": "polaris",
+      "path": "assets/5275dbb6d52e3801a1e5a802d94b20410dcb748d921216efe78322ddc54cbbcd.png",
+      "bytes": 10837,
+      "media_type": "image/png",
+      "width": 800,
+      "height": 800,
+      "license": "CC0-1.0",
+      "items": [
+        "pole-star"
+      ],
+      "visual_review": "pending"
+    },
+    {
+      "picture": "cassiopeia",
+      "path": "assets/53c7e0e29330a54d5a23ccbc2d690f93c82948643733161ea05e12f1cb6f57e9.png",
+      "bytes": 9033,
+      "media_type": "image/png",
+      "width": 800,
+      "height": 800,
+      "license": "CC0-1.0",
+      "items": [
+        "cassiopeia"
+      ],
+      "visual_review": "pending"
+    },
+    {
+      "picture": "orion",
+      "path": "assets/01d65501e150addcf5bedb1a24f33366971fafb5ab2e2268aeec1a5cbb27476f.png",
+      "bytes": 14609,
+      "media_type": "image/png",
+      "width": 800,
+      "height": 800,
+      "license": "CC0-1.0",
+      "items": [
+        "orion"
+      ],
+      "visual_review": "pending"
+    },
+    {
+      "picture": "summer-triangle",
+      "path": "assets/c0788858d4c8021620ab94cf2773c98f2dcf36c7b8aa9ddae3252367127297aa.png",
+      "bytes": 13405,
+      "media_type": "image/png",
+      "width": 800,
+      "height": 800,
+      "license": "CC0-1.0",
+      "items": [
+        "summer-triangle"
+      ],
+      "visual_review": "pending"
+    }
+  ]
+}

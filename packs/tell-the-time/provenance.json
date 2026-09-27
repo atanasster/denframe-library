@@ -1,0 +1,181 @@
+{
+  "pack": "mantel/tell-the-time",
+  "drawn": "2026-09-27",
+  "authorship": "Text and drawing code drafted for Mantel with AI assistance (Claude); a person reviews every pack before it is approved (plan D26).",
+  "narration": "None. eSpeak NG, the only voice the plan allows (D26), was not installed where the pack was drawn; the cards are text-first and silent.",
+  "sources": [
+    {
+      "supports": "Clock geometry: the minute hand turns 6 degrees a minute and the hour hand 30 degrees an hour, so at half past it is halfway between two numbers. Computed, not copied: see clock() above.",
+      "url": null
+    },
+    {
+      "supports": "English and Bulgarian ways of saying the time (o'clock / часа, half past / и половина, quarter past / и четвърт, quarter to / без четвърт): ordinary language, for a fluent reader to confirm.",
+      "url": null
+    }
+  ],
+  "method": "SVG drawn by draw.py, rasterised by rsvg-convert, re-encoded by Pillow as an 8-bit palette PNG with no metadata chunks. Original work: no image-generation model, stock or third-party artwork.",
+  "toolchain": {
+    "rsvg-convert": "2.63.2",
+    "cairo": "1.18.6",
+    "Pillow": "12.3.0",
+    "zlib": "1.3.1.zlib-ng"
+  },
+  "assets": [
+    {
+      "picture": "clock-0300",
+      "path": "assets/50d23dcd89cb79ae15cda3cb964f09ff2d0d3753edfd9f7269bfa029c8575750.png",
+      "bytes": 25395,
+      "media_type": "image/png",
+      "width": 800,
+      "height": 800,
+      "license": "CC0-1.0",
+      "items": [
+        "time-0300"
+      ],
+      "visual_review": "pending"
+    },
+    {
+      "picture": "clock-0900",
+      "path": "assets/b8194b87f0e31b70a890bba96a8853eb1044c68f115cc56854e46cd8e405bd9b.png",
+      "bytes": 25391,
+      "media_type": "image/png",
+      "width": 800,
+      "height": 800,
+      "license": "CC0-1.0",
+      "items": [
+        "time-0900"
+      ],
+      "visual_review": "pending"
+    },
+    {
+      "picture": "clock-0700",
+      "path": "assets/ded10219746bc25b62a604e4ca90f5b82a9d8dfa714c449db8554b90a4aa5eda.png",
+      "bytes": 25989,
+      "media_type": "image/png",
+      "width": 800,
+      "height": 800,
+      "license": "CC0-1.0",
+      "items": [
+        "time-0700"
+      ],
+      "visual_review": "pending"
+    },
+    {
+      "picture": "clock-0630",
+      "path": "assets/92e1a7105ead60d9837dfc19248c01e1bb563095da61d63f8fce95ae246dfe31.png",
+      "bytes": 25881,
+      "media_type": "image/png",
+      "width": 800,
+      "height": 800,
+      "license": "CC0-1.0",
+      "items": [
+        "time-0630"
+      ],
+      "visual_review": "pending"
+    },
+    {
+      "picture": "clock-0230",
+      "path": "assets/fe4d4c0b1fc4032b026cf955d6a71330fa07e691bb84627f4705883c61439f28.png",
+      "bytes": 25754,
+      "media_type": "image/png",
+      "width": 800,
+      "height": 800,
+      "license": "CC0-1.0",
+      "items": [
+        "time-0230"
+      ],
+      "visual_review": "pending"
+    },
+    {
+      "picture": "clock-0415",
+      "path": "assets/49d8c8534fb0401c868080f95bb1508c4dd86d2e520870577890e9d693dc21b7.png",
+      "bytes": 25589,
+      "media_type": "image/png",
+      "width": 800,
+      "height": 800,
+      "license": "CC0-1.0",
+      "items": [
+        "time-0415"
+      ],
+      "visual_review": "pending"
+    },
+    {
+      "picture": "clock-1015",
+      "path": "assets/53f254dfdced3ecd0ae886396e7b7095503ab832bc0082ff6025a29125a880f3.png",
+      "bytes": 25651,
+      "media_type": "image/png",
+      "width": 800,
+      "height": 800,
+      "license": "CC0-1.0",
+      "items": [
+        "time-1015"
+      ],
+      "visual_review": "pending"
+    },
+    {
+      "picture": "clock-1045",
+      "path": "assets/0fa435e172d0774bf51d0db59d14f20f3c2d577b1b7f14d91884b8baed1caadd.png",
+      "bytes": 25696,
+      "media_type": "image/png",
+      "width": 800,
+      "height": 800,
+      "license": "CC0-1.0",
+      "items": [
+        "time-1045"
+      ],
+      "visual_review": "pending"
+    },
+    {
+      "picture": "clock-0145",
+      "path": "assets/90d4dfb1aa33657974568ad7e8830116982a77a7fad66569f62b84c2b3226c94.png",
+      "bytes": 25561,
+      "media_type": "image/png",
+      "width": 800,
+      "height": 800,
+      "license": "CC0-1.0",
+      "items": [
+        "time-0145"
+      ],
+      "visual_review": "pending"
+    },
+    {
+      "picture": "clock-0530",
+      "path": "assets/b0bbd5e2c770813673199a42ab69f29c987d4da862e23b5e8881cc68b9bc66b3.png",
+      "bytes": 25945,
+      "media_type": "image/png",
+      "width": 800,
+      "height": 800,
+      "license": "CC0-1.0",
+      "items": [
+        "time-0530"
+      ],
+      "visual_review": "pending"
+    },
+    {
+      "picture": "clock-0715",
+      "path": "assets/cb2547c57e1cfe6ee6ec2f975b49e2ca4fbbe13ca09518be7f7a2b53358eb115.png",
+      "bytes": 25707,
+      "media_type": "image/png",
+      "width": 800,
+      "height": 800,
+      "license": "CC0-1.0",
+      "items": [
+        "time-0715"
+      ],
+      "visual_review": "pending"
+    },
+    {
+      "picture": "clock-1145",
+      "path": "assets/69b49f8b8b11a9511c53678276c7be3bfb6d022fb269bbf1a594d947bf961cf8.png",
+      "bytes": 25557,
+      "media_type": "image/png",
+      "width": 800,
+      "height": 800,
+      "license": "CC0-1.0",
+      "items": [
+        "time-1145"
+      ],
+      "visual_review": "pending"
+    }
+  ]
+}

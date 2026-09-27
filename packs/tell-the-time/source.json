@@ -1,0 +1,615 @@
+{
+  "id": "mantel/tell-the-time",
+  "version": "1.0.0",
+  "publisher": "Mantel",
+  "definition": {
+    "schema_version": 2,
+    "kind": "pack",
+    "name": "Tell the Time",
+    "description": "Read a clock face: o'clock, half past, quarter past and quarter to. Twelve drawn clocks in English and Bulgarian, no sound. Review candidate: content and Bulgarian reading pending.",
+    "locales": [
+      "en",
+      "bg"
+    ],
+    "resources": [
+      {
+        "path": "assets/50d23dcd89cb79ae15cda3cb964f09ff2d0d3753edfd9f7269bfa029c8575750.png",
+        "sha256": "50d23dcd89cb79ae15cda3cb964f09ff2d0d3753edfd9f7269bfa029c8575750",
+        "length": 25395,
+        "media_type": "image/png",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Mantel",
+          "license": "CC0-1.0",
+          "attribution": "Original clock drawing, made in code with AI assistance.",
+          "source": "https://github.com/atanasster/mantel-library/tree/main/packs/tell-the-time",
+          "modified": false
+        }
+      },
+      {
+        "path": "assets/b8194b87f0e31b70a890bba96a8853eb1044c68f115cc56854e46cd8e405bd9b.png",
+        "sha256": "b8194b87f0e31b70a890bba96a8853eb1044c68f115cc56854e46cd8e405bd9b",
+        "length": 25391,
+        "media_type": "image/png",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Mantel",
+          "license": "CC0-1.0",
+          "attribution": "Original clock drawing, made in code with AI assistance.",
+          "source": "https://github.com/atanasster/mantel-library/tree/main/packs/tell-the-time",
+          "modified": false
+        }
+      },
+      {
+        "path": "assets/ded10219746bc25b62a604e4ca90f5b82a9d8dfa714c449db8554b90a4aa5eda.png",
+        "sha256": "ded10219746bc25b62a604e4ca90f5b82a9d8dfa714c449db8554b90a4aa5eda",
+        "length": 25989,
+        "media_type": "image/png",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Mantel",
+          "license": "CC0-1.0",
+          "attribution": "Original clock drawing, made in code with AI assistance.",
+          "source": "https://github.com/atanasster/mantel-library/tree/main/packs/tell-the-time",
+          "modified": false
+        }
+      },
+      {
+        "path": "assets/92e1a7105ead60d9837dfc19248c01e1bb563095da61d63f8fce95ae246dfe31.png",
+        "sha256": "92e1a7105ead60d9837dfc19248c01e1bb563095da61d63f8fce95ae246dfe31",
+        "length": 25881,
+        "media_type": "image/png",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Mantel",
+          "license": "CC0-1.0",
+          "attribution": "Original clock drawing, made in code with AI assistance.",
+          "source": "https://github.com/atanasster/mantel-library/tree/main/packs/tell-the-time",
+          "modified": false
+        }
+      },
+      {
+        "path": "assets/fe4d4c0b1fc4032b026cf955d6a71330fa07e691bb84627f4705883c61439f28.png",
+        "sha256": "fe4d4c0b1fc4032b026cf955d6a71330fa07e691bb84627f4705883c61439f28",
+        "length": 25754,
+        "media_type": "image/png",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Mantel",
+          "license": "CC0-1.0",
+          "attribution": "Original clock drawing, made in code with AI assistance.",
+          "source": "https://github.com/atanasster/mantel-library/tree/main/packs/tell-the-time",
+          "modified": false
+        }
+      },
+      {
+        "path": "assets/49d8c8534fb0401c868080f95bb1508c4dd86d2e520870577890e9d693dc21b7.png",
+        "sha256": "49d8c8534fb0401c868080f95bb1508c4dd86d2e520870577890e9d693dc21b7",
+        "length": 25589,
+        "media_type": "image/png",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Mantel",
+          "license": "CC0-1.0",
+          "attribution": "Original clock drawing, made in code with AI assistance.",
+          "source": "https://github.com/atanasster/mantel-library/tree/main/packs/tell-the-time",
+          "modified": false
+        }
+      },
+      {
+        "path": "assets/53f254dfdced3ecd0ae886396e7b7095503ab832bc0082ff6025a29125a880f3.png",
+        "sha256": "53f254dfdced3ecd0ae886396e7b7095503ab832bc0082ff6025a29125a880f3",
+        "length": 25651,
+        "media_type": "image/png",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Mantel",
+          "license": "CC0-1.0",
+          "attribution": "Original clock drawing, made in code with AI assistance.",
+          "source": "https://github.com/atanasster/mantel-library/tree/main/packs/tell-the-time",
+          "modified": false
+        }
+      },
+      {
+        "path": "assets/0fa435e172d0774bf51d0db59d14f20f3c2d577b1b7f14d91884b8baed1caadd.png",
+        "sha256": "0fa435e172d0774bf51d0db59d14f20f3c2d577b1b7f14d91884b8baed1caadd",
+        "length": 25696,
+        "media_type": "image/png",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Mantel",
+          "license": "CC0-1.0",
+          "attribution": "Original clock drawing, made in code with AI assistance.",
+          "source": "https://github.com/atanasster/mantel-library/tree/main/packs/tell-the-time",
+          "modified": false
+        }
+      },
+      {
+        "path": "assets/90d4dfb1aa33657974568ad7e8830116982a77a7fad66569f62b84c2b3226c94.png",
+        "sha256": "90d4dfb1aa33657974568ad7e8830116982a77a7fad66569f62b84c2b3226c94",
+        "length": 25561,
+        "media_type": "image/png",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Mantel",
+          "license": "CC0-1.0",
+          "attribution": "Original clock drawing, made in code with AI assistance.",
+          "source": "https://github.com/atanasster/mantel-library/tree/main/packs/tell-the-time",
+          "modified": false
+        }
+      },
+      {
+        "path": "assets/b0bbd5e2c770813673199a42ab69f29c987d4da862e23b5e8881cc68b9bc66b3.png",
+        "sha256": "b0bbd5e2c770813673199a42ab69f29c987d4da862e23b5e8881cc68b9bc66b3",
+        "length": 25945,
+        "media_type": "image/png",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Mantel",
+          "license": "CC0-1.0",
+          "attribution": "Original clock drawing, made in code with AI assistance.",
+          "source": "https://github.com/atanasster/mantel-library/tree/main/packs/tell-the-time",
+          "modified": false
+        }
+      },
+      {
+        "path": "assets/cb2547c57e1cfe6ee6ec2f975b49e2ca4fbbe13ca09518be7f7a2b53358eb115.png",
+        "sha256": "cb2547c57e1cfe6ee6ec2f975b49e2ca4fbbe13ca09518be7f7a2b53358eb115",
+        "length": 25707,
+        "media_type": "image/png",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Mantel",
+          "license": "CC0-1.0",
+          "attribution": "Original clock drawing, made in code with AI assistance.",
+          "source": "https://github.com/atanasster/mantel-library/tree/main/packs/tell-the-time",
+          "modified": false
+        }
+      },
+      {
+        "path": "assets/69b49f8b8b11a9511c53678276c7be3bfb6d022fb269bbf1a594d947bf961cf8.png",
+        "sha256": "69b49f8b8b11a9511c53678276c7be3bfb6d022fb269bbf1a594d947bf961cf8",
+        "length": 25557,
+        "media_type": "image/png",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Mantel",
+          "license": "CC0-1.0",
+          "attribution": "Original clock drawing, made in code with AI assistance.",
+          "source": "https://github.com/atanasster/mantel-library/tree/main/packs/tell-the-time",
+          "modified": false
+        }
+      }
+    ],
+    "items": [
+      {
+        "id": "time-0300",
+        "content_revision": 1,
+        "translations": {
+          "en": {
+            "prompt": {
+              "text": "What time is it? The short hand shows the hour; the long hand shows the minutes.",
+              "image": "assets/50d23dcd89cb79ae15cda3cb964f09ff2d0d3753edfd9f7269bfa029c8575750.png",
+              "alt_text": "A round clock with the numbers 1 to 12. The short hand points straight at 3; the long hand points at 12."
+            },
+            "reveal": {
+              "text": "Three o'clock. The long hand is on 12, so it is exactly 3. That is 3:00.",
+              "image": "assets/50d23dcd89cb79ae15cda3cb964f09ff2d0d3753edfd9f7269bfa029c8575750.png",
+              "alt_text": "A round clock with the numbers 1 to 12. The short hand points straight at 3; the long hand points at 12."
+            }
+          },
+          "bg": {
+            "prompt": {
+              "text": "Колко е часът? Малката стрелка показва часа, а голямата – минутите.",
+              "image": "assets/50d23dcd89cb79ae15cda3cb964f09ff2d0d3753edfd9f7269bfa029c8575750.png",
+              "alt_text": "Кръгъл часовник с числата от 1 до 12. Малката стрелка сочи точно 3, а голямата сочи 12."
+            },
+            "reveal": {
+              "text": "Три часа. Голямата стрелка е на 12, значи часът е точно 3. Това е 3:00.",
+              "image": "assets/50d23dcd89cb79ae15cda3cb964f09ff2d0d3753edfd9f7269bfa029c8575750.png",
+              "alt_text": "Кръгъл часовник с числата от 1 до 12. Малката стрелка сочи точно 3, а голямата сочи 12."
+            }
+          }
+        },
+        "audio_cues": []
+      },
+      {
+        "id": "time-0900",
+        "content_revision": 1,
+        "translations": {
+          "en": {
+            "prompt": {
+              "text": "What time is it? The short hand shows the hour; the long hand shows the minutes.",
+              "image": "assets/b8194b87f0e31b70a890bba96a8853eb1044c68f115cc56854e46cd8e405bd9b.png",
+              "alt_text": "A round clock with the numbers 1 to 12. The short hand points straight at 9; the long hand points at 12."
+            },
+            "reveal": {
+              "text": "Nine o'clock. The long hand is on 12, so it is exactly 9. That is 9:00.",
+              "image": "assets/b8194b87f0e31b70a890bba96a8853eb1044c68f115cc56854e46cd8e405bd9b.png",
+              "alt_text": "A round clock with the numbers 1 to 12. The short hand points straight at 9; the long hand points at 12."
+            }
+          },
+          "bg": {
+            "prompt": {
+              "text": "Колко е часът? Малката стрелка показва часа, а голямата – минутите.",
+              "image": "assets/b8194b87f0e31b70a890bba96a8853eb1044c68f115cc56854e46cd8e405bd9b.png",
+              "alt_text": "Кръгъл часовник с числата от 1 до 12. Малката стрелка сочи точно 9, а голямата сочи 12."
+            },
+            "reveal": {
+              "text": "Девет часа. Голямата стрелка е на 12, значи часът е точно 9. Това е 9:00.",
+              "image": "assets/b8194b87f0e31b70a890bba96a8853eb1044c68f115cc56854e46cd8e405bd9b.png",
+              "alt_text": "Кръгъл часовник с числата от 1 до 12. Малката стрелка сочи точно 9, а голямата сочи 12."
+            }
+          }
+        },
+        "audio_cues": []
+      },
+      {
+        "id": "time-0700",
+        "content_revision": 1,
+        "translations": {
+          "en": {
+            "prompt": {
+              "text": "What time is it? The short hand shows the hour; the long hand shows the minutes.",
+              "image": "assets/ded10219746bc25b62a604e4ca90f5b82a9d8dfa714c449db8554b90a4aa5eda.png",
+              "alt_text": "A round clock with the numbers 1 to 12. The short hand points straight at 7; the long hand points at 12."
+            },
+            "reveal": {
+              "text": "Seven o'clock. The long hand is on 12, so it is exactly 7. That is 7:00.",
+              "image": "assets/ded10219746bc25b62a604e4ca90f5b82a9d8dfa714c449db8554b90a4aa5eda.png",
+              "alt_text": "A round clock with the numbers 1 to 12. The short hand points straight at 7; the long hand points at 12."
+            }
+          },
+          "bg": {
+            "prompt": {
+              "text": "Колко е часът? Малката стрелка показва часа, а голямата – минутите.",
+              "image": "assets/ded10219746bc25b62a604e4ca90f5b82a9d8dfa714c449db8554b90a4aa5eda.png",
+              "alt_text": "Кръгъл часовник с числата от 1 до 12. Малката стрелка сочи точно 7, а голямата сочи 12."
+            },
+            "reveal": {
+              "text": "Седем часа. Голямата стрелка е на 12, значи часът е точно 7. Това е 7:00.",
+              "image": "assets/ded10219746bc25b62a604e4ca90f5b82a9d8dfa714c449db8554b90a4aa5eda.png",
+              "alt_text": "Кръгъл часовник с числата от 1 до 12. Малката стрелка сочи точно 7, а голямата сочи 12."
+            }
+          }
+        },
+        "audio_cues": []
+      },
+      {
+        "id": "time-0630",
+        "content_revision": 1,
+        "translations": {
+          "en": {
+            "prompt": {
+              "text": "What time is it? The short hand shows the hour; the long hand shows the minutes.",
+              "image": "assets/92e1a7105ead60d9837dfc19248c01e1bb563095da61d63f8fce95ae246dfe31.png",
+              "alt_text": "A round clock with the numbers 1 to 12. The short hand is halfway between 6 and 7; the long hand points at 6."
+            },
+            "reveal": {
+              "text": "Half past six. The long hand is on 6: halfway round, 30 minutes past 6. That is 6:30.",
+              "image": "assets/92e1a7105ead60d9837dfc19248c01e1bb563095da61d63f8fce95ae246dfe31.png",
+              "alt_text": "A round clock with the numbers 1 to 12. The short hand is halfway between 6 and 7; the long hand points at 6."
+            }
+          },
+          "bg": {
+            "prompt": {
+              "text": "Колко е часът? Малката стрелка показва часа, а голямата – минутите.",
+              "image": "assets/92e1a7105ead60d9837dfc19248c01e1bb563095da61d63f8fce95ae246dfe31.png",
+              "alt_text": "Кръгъл часовник с числата от 1 до 12. Малката стрелка е по средата между 6 и 7, а голямата сочи 6."
+            },
+            "reveal": {
+              "text": "Шест и половина. Голямата стрелка е на 6: половин кръг, 30 минути след 6. Това е 6:30.",
+              "image": "assets/92e1a7105ead60d9837dfc19248c01e1bb563095da61d63f8fce95ae246dfe31.png",
+              "alt_text": "Кръгъл часовник с числата от 1 до 12. Малката стрелка е по средата между 6 и 7, а голямата сочи 6."
+            }
+          }
+        },
+        "audio_cues": []
+      },
+      {
+        "id": "time-0230",
+        "content_revision": 1,
+        "translations": {
+          "en": {
+            "prompt": {
+              "text": "What time is it? The short hand shows the hour; the long hand shows the minutes.",
+              "image": "assets/fe4d4c0b1fc4032b026cf955d6a71330fa07e691bb84627f4705883c61439f28.png",
+              "alt_text": "A round clock with the numbers 1 to 12. The short hand is halfway between 2 and 3; the long hand points at 6."
+            },
+            "reveal": {
+              "text": "Half past two. The long hand is on 6: halfway round, 30 minutes past 2. That is 2:30.",
+              "image": "assets/fe4d4c0b1fc4032b026cf955d6a71330fa07e691bb84627f4705883c61439f28.png",
+              "alt_text": "A round clock with the numbers 1 to 12. The short hand is halfway between 2 and 3; the long hand points at 6."
+            }
+          },
+          "bg": {
+            "prompt": {
+              "text": "Колко е часът? Малката стрелка показва часа, а голямата – минутите.",
+              "image": "assets/fe4d4c0b1fc4032b026cf955d6a71330fa07e691bb84627f4705883c61439f28.png",
+              "alt_text": "Кръгъл часовник с числата от 1 до 12. Малката стрелка е по средата между 2 и 3, а голямата сочи 6."
+            },
+            "reveal": {
+              "text": "Два и половина. Голямата стрелка е на 6: половин кръг, 30 минути след 2. Това е 2:30.",
+              "image": "assets/fe4d4c0b1fc4032b026cf955d6a71330fa07e691bb84627f4705883c61439f28.png",
+              "alt_text": "Кръгъл часовник с числата от 1 до 12. Малката стрелка е по средата между 2 и 3, а голямата сочи 6."
+            }
+          }
+        },
+        "audio_cues": []
+      },
+      {
+        "id": "time-0415",
+        "content_revision": 1,
+        "translations": {
+          "en": {
+            "prompt": {
+              "text": "What time is it? The short hand shows the hour; the long hand shows the minutes.",
+              "image": "assets/49d8c8534fb0401c868080f95bb1508c4dd86d2e520870577890e9d693dc21b7.png",
+              "alt_text": "A round clock with the numbers 1 to 12. The short hand is just past 4; the long hand points at 3."
+            },
+            "reveal": {
+              "text": "Quarter past four. The long hand is on 3: a quarter of the way round, 15 minutes past 4. That is 4:15.",
+              "image": "assets/49d8c8534fb0401c868080f95bb1508c4dd86d2e520870577890e9d693dc21b7.png",
+              "alt_text": "A round clock with the numbers 1 to 12. The short hand is just past 4; the long hand points at 3."
+            }
+          },
+          "bg": {
+            "prompt": {
+              "text": "Колко е часът? Малката стрелка показва часа, а голямата – минутите.",
+              "image": "assets/49d8c8534fb0401c868080f95bb1508c4dd86d2e520870577890e9d693dc21b7.png",
+              "alt_text": "Кръгъл часовник с числата от 1 до 12. Малката стрелка е малко след 4, а голямата сочи 3."
+            },
+            "reveal": {
+              "text": "Четири и четвърт. Голямата стрелка е на 3: една четвърт от кръга, 15 минути след 4. Това е 4:15.",
+              "image": "assets/49d8c8534fb0401c868080f95bb1508c4dd86d2e520870577890e9d693dc21b7.png",
+              "alt_text": "Кръгъл часовник с числата от 1 до 12. Малката стрелка е малко след 4, а голямата сочи 3."
+            }
+          }
+        },
+        "audio_cues": []
+      },
+      {
+        "id": "time-1015",
+        "content_revision": 1,
+        "translations": {
+          "en": {
+            "prompt": {
+              "text": "What time is it? The short hand shows the hour; the long hand shows the minutes.",
+              "image": "assets/53f254dfdced3ecd0ae886396e7b7095503ab832bc0082ff6025a29125a880f3.png",
+              "alt_text": "A round clock with the numbers 1 to 12. The short hand is just past 10; the long hand points at 3."
+            },
+            "reveal": {
+              "text": "Quarter past ten. The long hand is on 3: a quarter of the way round, 15 minutes past 10. That is 10:15.",
+              "image": "assets/53f254dfdced3ecd0ae886396e7b7095503ab832bc0082ff6025a29125a880f3.png",
+              "alt_text": "A round clock with the numbers 1 to 12. The short hand is just past 10; the long hand points at 3."
+            }
+          },
+          "bg": {
+            "prompt": {
+              "text": "Колко е часът? Малката стрелка показва часа, а голямата – минутите.",
+              "image": "assets/53f254dfdced3ecd0ae886396e7b7095503ab832bc0082ff6025a29125a880f3.png",
+              "alt_text": "Кръгъл часовник с числата от 1 до 12. Малката стрелка е малко след 10, а голямата сочи 3."
+            },
+            "reveal": {
+              "text": "Десет и четвърт. Голямата стрелка е на 3: една четвърт от кръга, 15 минути след 10. Това е 10:15.",
+              "image": "assets/53f254dfdced3ecd0ae886396e7b7095503ab832bc0082ff6025a29125a880f3.png",
+              "alt_text": "Кръгъл часовник с числата от 1 до 12. Малката стрелка е малко след 10, а голямата сочи 3."
+            }
+          }
+        },
+        "audio_cues": []
+      },
+      {
+        "id": "time-1045",
+        "content_revision": 1,
+        "translations": {
+          "en": {
+            "prompt": {
+              "text": "What time is it? The short hand shows the hour; the long hand shows the minutes.",
+              "image": "assets/0fa435e172d0774bf51d0db59d14f20f3c2d577b1b7f14d91884b8baed1caadd.png",
+              "alt_text": "A round clock with the numbers 1 to 12. The short hand is nearly at 11; the long hand points at 9."
+            },
+            "reveal": {
+              "text": "Quarter to eleven. The long hand is on 9: 15 minutes are left until 11. That is 10:45.",
+              "image": "assets/0fa435e172d0774bf51d0db59d14f20f3c2d577b1b7f14d91884b8baed1caadd.png",
+              "alt_text": "A round clock with the numbers 1 to 12. The short hand is nearly at 11; the long hand points at 9."
+            }
+          },
+          "bg": {
+            "prompt": {
+              "text": "Колко е часът? Малката стрелка показва часа, а голямата – минутите.",
+              "image": "assets/0fa435e172d0774bf51d0db59d14f20f3c2d577b1b7f14d91884b8baed1caadd.png",
+              "alt_text": "Кръгъл часовник с числата от 1 до 12. Малката стрелка е почти на 11, а голямата сочи 9."
+            },
+            "reveal": {
+              "text": "Единайсет без четвърт. Голямата стрелка е на 9: остават 15 минути до 11. Това е 10:45.",
+              "image": "assets/0fa435e172d0774bf51d0db59d14f20f3c2d577b1b7f14d91884b8baed1caadd.png",
+              "alt_text": "Кръгъл часовник с числата от 1 до 12. Малката стрелка е почти на 11, а голямата сочи 9."
+            }
+          }
+        },
+        "audio_cues": []
+      },
+      {
+        "id": "time-0145",
+        "content_revision": 1,
+        "translations": {
+          "en": {
+            "prompt": {
+              "text": "What time is it? The short hand shows the hour; the long hand shows the minutes.",
+              "image": "assets/90d4dfb1aa33657974568ad7e8830116982a77a7fad66569f62b84c2b3226c94.png",
+              "alt_text": "A round clock with the numbers 1 to 12. The short hand is nearly at 2; the long hand points at 9."
+            },
+            "reveal": {
+              "text": "Quarter to two. The long hand is on 9: 15 minutes are left until 2. That is 1:45.",
+              "image": "assets/90d4dfb1aa33657974568ad7e8830116982a77a7fad66569f62b84c2b3226c94.png",
+              "alt_text": "A round clock with the numbers 1 to 12. The short hand is nearly at 2; the long hand points at 9."
+            }
+          },
+          "bg": {
+            "prompt": {
+              "text": "Колко е часът? Малката стрелка показва часа, а голямата – минутите.",
+              "image": "assets/90d4dfb1aa33657974568ad7e8830116982a77a7fad66569f62b84c2b3226c94.png",
+              "alt_text": "Кръгъл часовник с числата от 1 до 12. Малката стрелка е почти на 2, а голямата сочи 9."
+            },
+            "reveal": {
+              "text": "Два без четвърт. Голямата стрелка е на 9: остават 15 минути до 2. Това е 1:45.",
+              "image": "assets/90d4dfb1aa33657974568ad7e8830116982a77a7fad66569f62b84c2b3226c94.png",
+              "alt_text": "Кръгъл часовник с числата от 1 до 12. Малката стрелка е почти на 2, а голямата сочи 9."
+            }
+          }
+        },
+        "audio_cues": []
+      },
+      {
+        "id": "time-0530",
+        "content_revision": 1,
+        "translations": {
+          "en": {
+            "prompt": {
+              "text": "Your turn: what time is it?",
+              "image": "assets/b0bbd5e2c770813673199a42ab69f29c987d4da862e23b5e8881cc68b9bc66b3.png",
+              "alt_text": "A round clock with the numbers 1 to 12. The short hand is halfway between 5 and 6; the long hand points at 6."
+            },
+            "reveal": {
+              "text": "Half past five. The long hand is on 6: halfway round, 30 minutes past 5. That is 5:30.",
+              "image": "assets/b0bbd5e2c770813673199a42ab69f29c987d4da862e23b5e8881cc68b9bc66b3.png",
+              "alt_text": "A round clock with the numbers 1 to 12. The short hand is halfway between 5 and 6; the long hand points at 6."
+            }
+          },
+          "bg": {
+            "prompt": {
+              "text": "Сега ти: колко е часът?",
+              "image": "assets/b0bbd5e2c770813673199a42ab69f29c987d4da862e23b5e8881cc68b9bc66b3.png",
+              "alt_text": "Кръгъл часовник с числата от 1 до 12. Малката стрелка е по средата между 5 и 6, а голямата сочи 6."
+            },
+            "reveal": {
+              "text": "Пет и половина. Голямата стрелка е на 6: половин кръг, 30 минути след 5. Това е 5:30.",
+              "image": "assets/b0bbd5e2c770813673199a42ab69f29c987d4da862e23b5e8881cc68b9bc66b3.png",
+              "alt_text": "Кръгъл часовник с числата от 1 до 12. Малката стрелка е по средата между 5 и 6, а голямата сочи 6."
+            }
+          }
+        },
+        "audio_cues": []
+      },
+      {
+        "id": "time-0715",
+        "content_revision": 1,
+        "translations": {
+          "en": {
+            "prompt": {
+              "text": "Your turn: what time is it?",
+              "image": "assets/cb2547c57e1cfe6ee6ec2f975b49e2ca4fbbe13ca09518be7f7a2b53358eb115.png",
+              "alt_text": "A round clock with the numbers 1 to 12. The short hand is just past 7; the long hand points at 3."
+            },
+            "reveal": {
+              "text": "Quarter past seven. The long hand is on 3: a quarter of the way round, 15 minutes past 7. That is 7:15.",
+              "image": "assets/cb2547c57e1cfe6ee6ec2f975b49e2ca4fbbe13ca09518be7f7a2b53358eb115.png",
+              "alt_text": "A round clock with the numbers 1 to 12. The short hand is just past 7; the long hand points at 3."
+            }
+          },
+          "bg": {
+            "prompt": {
+              "text": "Сега ти: колко е часът?",
+              "image": "assets/cb2547c57e1cfe6ee6ec2f975b49e2ca4fbbe13ca09518be7f7a2b53358eb115.png",
+              "alt_text": "Кръгъл часовник с числата от 1 до 12. Малката стрелка е малко след 7, а голямата сочи 3."
+            },
+            "reveal": {
+              "text": "Седем и четвърт. Голямата стрелка е на 3: една четвърт от кръга, 15 минути след 7. Това е 7:15.",
+              "image": "assets/cb2547c57e1cfe6ee6ec2f975b49e2ca4fbbe13ca09518be7f7a2b53358eb115.png",
+              "alt_text": "Кръгъл часовник с числата от 1 до 12. Малката стрелка е малко след 7, а голямата сочи 3."
+            }
+          }
+        },
+        "audio_cues": []
+      },
+      {
+        "id": "time-1145",
+        "content_revision": 1,
+        "translations": {
+          "en": {
+            "prompt": {
+              "text": "Your turn: what time is it?",
+              "image": "assets/69b49f8b8b11a9511c53678276c7be3bfb6d022fb269bbf1a594d947bf961cf8.png",
+              "alt_text": "A round clock with the numbers 1 to 12. The short hand is nearly at 12; the long hand points at 9."
+            },
+            "reveal": {
+              "text": "Quarter to twelve. The long hand is on 9: 15 minutes are left until 12. That is 11:45.",
+              "image": "assets/69b49f8b8b11a9511c53678276c7be3bfb6d022fb269bbf1a594d947bf961cf8.png",
+              "alt_text": "A round clock with the numbers 1 to 12. The short hand is nearly at 12; the long hand points at 9."
+            }
+          },
+          "bg": {
+            "prompt": {
+              "text": "Сега ти: колко е часът?",
+              "image": "assets/69b49f8b8b11a9511c53678276c7be3bfb6d022fb269bbf1a594d947bf961cf8.png",
+              "alt_text": "Кръгъл часовник с числата от 1 до 12. Малката стрелка е почти на 12, а голямата сочи 9."
+            },
+            "reveal": {
+              "text": "Дванайсет без четвърт. Голямата стрелка е на 9: остават 15 минути до 12. Това е 11:45.",
+              "image": "assets/69b49f8b8b11a9511c53678276c7be3bfb6d022fb269bbf1a594d947bf961cf8.png",
+              "alt_text": "Кръгъл часовник с числата от 1 до 12. Малката стрелка е почти на 12, а голямата сочи 9."
+            }
+          }
+        },
+        "audio_cues": []
+      }
+    ],
+    "activities": [
+      {
+        "id": "clock-en",
+        "name": "Tell the time",
+        "kind": "reveal-sequence-v1",
+        "item_ids": [
+          "time-0300",
+          "time-0900",
+          "time-0700",
+          "time-0630",
+          "time-0230",
+          "time-0415",
+          "time-1015",
+          "time-1045",
+          "time-0145",
+          "time-0530",
+          "time-0715",
+          "time-1145"
+        ],
+        "locale": "en",
+        "loop": false,
+        "timing": {
+          "prompt_seconds": 8,
+          "recall_seconds": 4,
+          "reveal_seconds": 9,
+          "dwell_seconds": 2
+        }
+      },
+      {
+        "id": "clock-bg",
+        "name": "Колко е часът",
+        "kind": "reveal-sequence-v1",
+        "item_ids": [
+          "time-0300",
+          "time-0900",
+          "time-0700",
+          "time-0630",
+          "time-0230",
+          "time-0415",
+          "time-1015",
+          "time-1045",
+          "time-0145",
+          "time-0530",
+          "time-0715",
+          "time-1145"
+        ],
+        "locale": "bg",
+        "loop": false,
+        "timing": {
+          "prompt_seconds": 8,
+          "recall_seconds": 4,
+          "reveal_seconds": 9,
+          "dwell_seconds": 2
+        }
+      }
+    ]
+  }
+}
