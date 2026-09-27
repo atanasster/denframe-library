@@ -1,0 +1,615 @@
+{
+  "id": "mantel/shapes-and-colours",
+  "version": "1.0.0",
+  "publisher": "Mantel",
+  "definition": {
+    "schema_version": 2,
+    "kind": "pack",
+    "name": "Shapes & Colours",
+    "description": "Name nine shapes and six colours, then find them in a row. Each colour has its own pattern, so no card needs colour alone. English and Bulgarian, no sound. Review candidate: content and Bulgarian reading pending.",
+    "locales": [
+      "en",
+      "bg"
+    ],
+    "resources": [
+      {
+        "path": "assets/a9fb3275339ea1fbda99fa5290427aaf37768a299d8959d38785aae9ece1d3dc.png",
+        "sha256": "a9fb3275339ea1fbda99fa5290427aaf37768a299d8959d38785aae9ece1d3dc",
+        "length": 10794,
+        "media_type": "image/png",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Mantel",
+          "license": "CC0-1.0",
+          "attribution": "Original shape drawing, made in code with AI assistance.",
+          "source": "https://github.com/atanasster/mantel-library/tree/main/packs/shapes-and-colours",
+          "modified": false
+        }
+      },
+      {
+        "path": "assets/e33d8a7b66aa42d43d51159073ffa9716ac384c6b358cd32a8e854f1ee548945.png",
+        "sha256": "e33d8a7b66aa42d43d51159073ffa9716ac384c6b358cd32a8e854f1ee548945",
+        "length": 8073,
+        "media_type": "image/png",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Mantel",
+          "license": "CC0-1.0",
+          "attribution": "Original shape drawing, made in code with AI assistance.",
+          "source": "https://github.com/atanasster/mantel-library/tree/main/packs/shapes-and-colours",
+          "modified": false
+        }
+      },
+      {
+        "path": "assets/ac3d1c651b121c4826ec82d320ee51757d857c2543e287e0c4bdb93b4d599151.png",
+        "sha256": "ac3d1c651b121c4826ec82d320ee51757d857c2543e287e0c4bdb93b4d599151",
+        "length": 3981,
+        "media_type": "image/png",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Mantel",
+          "license": "CC0-1.0",
+          "attribution": "Original shape drawing, made in code with AI assistance.",
+          "source": "https://github.com/atanasster/mantel-library/tree/main/packs/shapes-and-colours",
+          "modified": false
+        }
+      },
+      {
+        "path": "assets/bfd4a988586995f75aa8d9b33d392d8b1da226d58e7725631b83c8492480e309.png",
+        "sha256": "bfd4a988586995f75aa8d9b33d392d8b1da226d58e7725631b83c8492480e309",
+        "length": 4068,
+        "media_type": "image/png",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Mantel",
+          "license": "CC0-1.0",
+          "attribution": "Original shape drawing, made in code with AI assistance.",
+          "source": "https://github.com/atanasster/mantel-library/tree/main/packs/shapes-and-colours",
+          "modified": false
+        }
+      },
+      {
+        "path": "assets/1b89bed4e30cc22c1c1c3c99505b3c2ed470b921d30c8e2b07e65c81988b9338.png",
+        "sha256": "1b89bed4e30cc22c1c1c3c99505b3c2ed470b921d30c8e2b07e65c81988b9338",
+        "length": 10682,
+        "media_type": "image/png",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Mantel",
+          "license": "CC0-1.0",
+          "attribution": "Original shape drawing, made in code with AI assistance.",
+          "source": "https://github.com/atanasster/mantel-library/tree/main/packs/shapes-and-colours",
+          "modified": false
+        }
+      },
+      {
+        "path": "assets/a64c92eed76f480bb94a6d495bbf5f62979b82cd8a02570db590cef070b1943b.png",
+        "sha256": "a64c92eed76f480bb94a6d495bbf5f62979b82cd8a02570db590cef070b1943b",
+        "length": 8617,
+        "media_type": "image/png",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Mantel",
+          "license": "CC0-1.0",
+          "attribution": "Original shape drawing, made in code with AI assistance.",
+          "source": "https://github.com/atanasster/mantel-library/tree/main/packs/shapes-and-colours",
+          "modified": false
+        }
+      },
+      {
+        "path": "assets/4370b4ecffee525154e999eff8bc319936cf36b4d8e2f5af67d477328e63291d.png",
+        "sha256": "4370b4ecffee525154e999eff8bc319936cf36b4d8e2f5af67d477328e63291d",
+        "length": 8569,
+        "media_type": "image/png",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Mantel",
+          "license": "CC0-1.0",
+          "attribution": "Original shape drawing, made in code with AI assistance.",
+          "source": "https://github.com/atanasster/mantel-library/tree/main/packs/shapes-and-colours",
+          "modified": false
+        }
+      },
+      {
+        "path": "assets/31ae1dc1ac37566537b72be1427fb4180fe1c38e72df306f850fd01e7a456790.png",
+        "sha256": "31ae1dc1ac37566537b72be1427fb4180fe1c38e72df306f850fd01e7a456790",
+        "length": 6061,
+        "media_type": "image/png",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Mantel",
+          "license": "CC0-1.0",
+          "attribution": "Original shape drawing, made in code with AI assistance.",
+          "source": "https://github.com/atanasster/mantel-library/tree/main/packs/shapes-and-colours",
+          "modified": false
+        }
+      },
+      {
+        "path": "assets/f55d9e2e5d9e53dab548c642143a3a019c8376014ac69b52b76741624d0bf1ec.png",
+        "sha256": "f55d9e2e5d9e53dab548c642143a3a019c8376014ac69b52b76741624d0bf1ec",
+        "length": 9214,
+        "media_type": "image/png",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Mantel",
+          "license": "CC0-1.0",
+          "attribution": "Original shape drawing, made in code with AI assistance.",
+          "source": "https://github.com/atanasster/mantel-library/tree/main/packs/shapes-and-colours",
+          "modified": false
+        }
+      },
+      {
+        "path": "assets/54b3811b9e02705b5ec6b9cafd0a9767d0acb277b743788c1a449d30064c23f6.png",
+        "sha256": "54b3811b9e02705b5ec6b9cafd0a9767d0acb277b743788c1a449d30064c23f6",
+        "length": 9187,
+        "media_type": "image/png",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Mantel",
+          "license": "CC0-1.0",
+          "attribution": "Original shape drawing, made in code with AI assistance.",
+          "source": "https://github.com/atanasster/mantel-library/tree/main/packs/shapes-and-colours",
+          "modified": false
+        }
+      },
+      {
+        "path": "assets/12bd7c1c527b65c011a09a6b27beaae526bddadc37456bdf0163a94ecff82781.png",
+        "sha256": "12bd7c1c527b65c011a09a6b27beaae526bddadc37456bdf0163a94ecff82781",
+        "length": 8227,
+        "media_type": "image/png",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Mantel",
+          "license": "CC0-1.0",
+          "attribution": "Original shape drawing, made in code with AI assistance.",
+          "source": "https://github.com/atanasster/mantel-library/tree/main/packs/shapes-and-colours",
+          "modified": false
+        }
+      },
+      {
+        "path": "assets/32fd532363aa742cff1765221bc6c474a5243f101ca2e0e82b5f304fed062d60.png",
+        "sha256": "32fd532363aa742cff1765221bc6c474a5243f101ca2e0e82b5f304fed062d60",
+        "length": 7990,
+        "media_type": "image/png",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Mantel",
+          "license": "CC0-1.0",
+          "attribution": "Original shape drawing, made in code with AI assistance.",
+          "source": "https://github.com/atanasster/mantel-library/tree/main/packs/shapes-and-colours",
+          "modified": false
+        }
+      }
+    ],
+    "items": [
+      {
+        "id": "circle",
+        "content_revision": 1,
+        "translations": {
+          "en": {
+            "prompt": {
+              "text": "What shape is this?",
+              "image": "assets/a9fb3275339ea1fbda99fa5290427aaf37768a299d8959d38785aae9ece1d3dc.png",
+              "alt_text": "One large shape: round all the way round, solid red."
+            },
+            "reveal": {
+              "text": "A circle. It is round and has no corners. This circle is red.",
+              "image": "assets/a9fb3275339ea1fbda99fa5290427aaf37768a299d8959d38785aae9ece1d3dc.png",
+              "alt_text": "One large shape: round, with no corners, solid red."
+            }
+          },
+          "bg": {
+            "prompt": {
+              "text": "Каква фигура е това?",
+              "image": "assets/a9fb3275339ea1fbda99fa5290427aaf37768a299d8959d38785aae9ece1d3dc.png",
+              "alt_text": "Една голяма фигура: кръгла отвсякъде, плътно червена."
+            },
+            "reveal": {
+              "text": "Кръг. Той е кръгъл и няма ъгли. Този кръг е червен.",
+              "image": "assets/a9fb3275339ea1fbda99fa5290427aaf37768a299d8959d38785aae9ece1d3dc.png",
+              "alt_text": "Една голяма фигура: кръгла, без ъгли, плътно червена."
+            }
+          }
+        },
+        "audio_cues": []
+      },
+      {
+        "id": "triangle",
+        "content_revision": 1,
+        "translations": {
+          "en": {
+            "prompt": {
+              "text": "What shape is this? Count its corners.",
+              "image": "assets/e33d8a7b66aa42d43d51159073ffa9716ac384c6b358cd32a8e854f1ee548945.png",
+              "alt_text": "One large shape: pointed at the top, with a flat bottom, blue with stripes."
+            },
+            "reveal": {
+              "text": "A triangle: three sides and three corners. This one is blue, with stripes.",
+              "image": "assets/e33d8a7b66aa42d43d51159073ffa9716ac384c6b358cd32a8e854f1ee548945.png",
+              "alt_text": "One large shape: three straight sides and three corners, blue with stripes."
+            }
+          },
+          "bg": {
+            "prompt": {
+              "text": "Каква фигура е това? Преброй ъглите ѝ.",
+              "image": "assets/e33d8a7b66aa42d43d51159073ffa9716ac384c6b358cd32a8e854f1ee548945.png",
+              "alt_text": "Една голяма фигура: заострена отгоре, с плоско дъно, синя на ивици."
+            },
+            "reveal": {
+              "text": "Триъгълник: три страни и три ъгъла. Този е син, на ивици.",
+              "image": "assets/e33d8a7b66aa42d43d51159073ffa9716ac384c6b358cd32a8e854f1ee548945.png",
+              "alt_text": "Една голяма фигура: три прави страни и три ъгъла, синя на ивици."
+            }
+          }
+        },
+        "audio_cues": []
+      },
+      {
+        "id": "square",
+        "content_revision": 1,
+        "translations": {
+          "en": {
+            "prompt": {
+              "text": "What shape is this? Look at its sides.",
+              "image": "assets/ac3d1c651b121c4826ec82d320ee51757d857c2543e287e0c4bdb93b4d599151.png",
+              "alt_text": "One large shape: straight sides, as tall as it is wide, yellow with dots."
+            },
+            "reveal": {
+              "text": "A square: four sides, all the same length, and four square corners. This one is yellow, with dots.",
+              "image": "assets/ac3d1c651b121c4826ec82d320ee51757d857c2543e287e0c4bdb93b4d599151.png",
+              "alt_text": "One large shape: four equal sides and four square corners, yellow with dots."
+            }
+          },
+          "bg": {
+            "prompt": {
+              "text": "Каква фигура е това? Разгледай страните ѝ.",
+              "image": "assets/ac3d1c651b121c4826ec82d320ee51757d857c2543e287e0c4bdb93b4d599151.png",
+              "alt_text": "Една голяма фигура: с прави страни, еднакво висока и широка, жълта на точки."
+            },
+            "reveal": {
+              "text": "Квадрат: четири еднакво дълги страни и четири прави ъгъла. Този е жълт, на точки.",
+              "image": "assets/ac3d1c651b121c4826ec82d320ee51757d857c2543e287e0c4bdb93b4d599151.png",
+              "alt_text": "Една голяма фигура: четири равни страни и четири прави ъгъла, жълта на точки."
+            }
+          }
+        },
+        "audio_cues": []
+      },
+      {
+        "id": "rectangle",
+        "content_revision": 1,
+        "translations": {
+          "en": {
+            "prompt": {
+              "text": "Four sides, but not all the same length. What shape is this?",
+              "image": "assets/bfd4a988586995f75aa8d9b33d392d8b1da226d58e7725631b83c8492480e309.png",
+              "alt_text": "One large shape: straight sides, wider than it is tall, green with slanted stripes."
+            },
+            "reveal": {
+              "text": "A rectangle: two long sides and two short sides. This one is green, with slanted stripes.",
+              "image": "assets/bfd4a988586995f75aa8d9b33d392d8b1da226d58e7725631b83c8492480e309.png",
+              "alt_text": "One large shape: four sides, two long and two short, green with slanted stripes."
+            }
+          },
+          "bg": {
+            "prompt": {
+              "text": "Четири страни, но не еднакво дълги. Каква фигура е това?",
+              "image": "assets/bfd4a988586995f75aa8d9b33d392d8b1da226d58e7725631b83c8492480e309.png",
+              "alt_text": "Една голяма фигура: с прави страни, по-широка, отколкото висока, зелена на наклонени ивици."
+            },
+            "reveal": {
+              "text": "Правоъгълник: две дълги и две къси страни. Този е зелен, на наклонени ивици.",
+              "image": "assets/bfd4a988586995f75aa8d9b33d392d8b1da226d58e7725631b83c8492480e309.png",
+              "alt_text": "Една голяма фигура: четири страни, две дълги и две къси, зелена на наклонени ивици."
+            }
+          }
+        },
+        "audio_cues": []
+      },
+      {
+        "id": "star",
+        "content_revision": 1,
+        "translations": {
+          "en": {
+            "prompt": {
+              "text": "What shape is this? Count its points.",
+              "image": "assets/1b89bed4e30cc22c1c1c3c99505b3c2ed470b921d30c8e2b07e65c81988b9338.png",
+              "alt_text": "One large shape: pointed arms around its middle, orange with checks."
+            },
+            "reveal": {
+              "text": "A star with five points. This one is orange, with checks.",
+              "image": "assets/1b89bed4e30cc22c1c1c3c99505b3c2ed470b921d30c8e2b07e65c81988b9338.png",
+              "alt_text": "One large shape: five points, orange with checks."
+            }
+          },
+          "bg": {
+            "prompt": {
+              "text": "Каква фигура е това? Преброй лъчите ѝ.",
+              "image": "assets/1b89bed4e30cc22c1c1c3c99505b3c2ed470b921d30c8e2b07e65c81988b9338.png",
+              "alt_text": "Една голяма фигура: с остри лъчи около средата, оранжева на квадратчета."
+            },
+            "reveal": {
+              "text": "Звезда с пет лъча. Тази е оранжева, на квадратчета.",
+              "image": "assets/1b89bed4e30cc22c1c1c3c99505b3c2ed470b921d30c8e2b07e65c81988b9338.png",
+              "alt_text": "Една голяма фигура: пет лъча, оранжева на квадратчета."
+            }
+          }
+        },
+        "audio_cues": []
+      },
+      {
+        "id": "oval",
+        "content_revision": 1,
+        "translations": {
+          "en": {
+            "prompt": {
+              "text": "Round, but stretched like an egg. What shape is this?",
+              "image": "assets/a64c92eed76f480bb94a6d495bbf5f62979b82cd8a02570db590cef070b1943b.png",
+              "alt_text": "One large shape: round but stretched wide, like an egg, purple with a grid."
+            },
+            "reveal": {
+              "text": "An oval. It has no corners, like a circle, but it is longer one way. This one is purple, with a grid.",
+              "image": "assets/a64c92eed76f480bb94a6d495bbf5f62979b82cd8a02570db590cef070b1943b.png",
+              "alt_text": "One large shape: round but stretched wide, like an egg, purple with a grid."
+            }
+          },
+          "bg": {
+            "prompt": {
+              "text": "Кръгла, но разтеглена като яйце. Каква фигура е това?",
+              "image": "assets/a64c92eed76f480bb94a6d495bbf5f62979b82cd8a02570db590cef070b1943b.png",
+              "alt_text": "Една голяма фигура: закръглена, но разтеглена като яйце, лилава на мрежа."
+            },
+            "reveal": {
+              "text": "Овал. Няма ъгли, като кръга, но е по-дълъг в едната посока. Този е лилав, на мрежа.",
+              "image": "assets/a64c92eed76f480bb94a6d495bbf5f62979b82cd8a02570db590cef070b1943b.png",
+              "alt_text": "Една голяма фигура: закръглена, но разтеглена като яйце, лилава на мрежа."
+            }
+          }
+        },
+        "audio_cues": []
+      },
+      {
+        "id": "hexagon",
+        "content_revision": 1,
+        "translations": {
+          "en": {
+            "prompt": {
+              "text": "Bees build honeycomb cells in this shape. How many sides does it have?",
+              "image": "assets/4370b4ecffee525154e999eff8bc319936cf36b4d8e2f5af67d477328e63291d.png",
+              "alt_text": "One large shape: straight sides, all the same length, like a honeycomb cell, blue with stripes."
+            },
+            "reveal": {
+              "text": "Six. A shape with six sides is a hexagon. This one is blue, with stripes.",
+              "image": "assets/4370b4ecffee525154e999eff8bc319936cf36b4d8e2f5af67d477328e63291d.png",
+              "alt_text": "One large shape: six equal sides, blue with stripes."
+            }
+          },
+          "bg": {
+            "prompt": {
+              "text": "Пчелите правят килийките на пчелната пита с тази форма. Колко страни има тя?",
+              "image": "assets/4370b4ecffee525154e999eff8bc319936cf36b4d8e2f5af67d477328e63291d.png",
+              "alt_text": "Една голяма фигура: с прави, еднакво дълги страни, като килийка от пчелна пита, синя на ивици."
+            },
+            "reveal": {
+              "text": "Шест. Фигура с шест страни е шестоъгълник. Този е син, на ивици.",
+              "image": "assets/4370b4ecffee525154e999eff8bc319936cf36b4d8e2f5af67d477328e63291d.png",
+              "alt_text": "Една голяма фигура: шест равни страни, синя на ивици."
+            }
+          }
+        },
+        "audio_cues": []
+      },
+      {
+        "id": "rhombus",
+        "content_revision": 1,
+        "translations": {
+          "en": {
+            "prompt": {
+              "text": "Four sides the same length, standing on a corner. What shape is this?",
+              "image": "assets/31ae1dc1ac37566537b72be1427fb4180fe1c38e72df306f850fd01e7a456790.png",
+              "alt_text": "One large shape: straight sides, standing on one corner, solid red."
+            },
+            "reveal": {
+              "text": "A rhombus, often called a diamond. It is like a square pushed over. This one is red.",
+              "image": "assets/31ae1dc1ac37566537b72be1427fb4180fe1c38e72df306f850fd01e7a456790.png",
+              "alt_text": "One large shape: four equal sides, standing on one corner, solid red."
+            }
+          },
+          "bg": {
+            "prompt": {
+              "text": "Четири еднакво дълги страни, изправена на ъгъл. Каква фигура е това?",
+              "image": "assets/31ae1dc1ac37566537b72be1427fb4180fe1c38e72df306f850fd01e7a456790.png",
+              "alt_text": "Една голяма фигура: с прави страни, изправена на единия си ъгъл, плътно червена."
+            },
+            "reveal": {
+              "text": "Ромб. Прилича на наклонен квадрат. Този е червен.",
+              "image": "assets/31ae1dc1ac37566537b72be1427fb4180fe1c38e72df306f850fd01e7a456790.png",
+              "alt_text": "Една голяма фигура: четири равни страни, изправена на единия си ъгъл, плътно червена."
+            }
+          }
+        },
+        "audio_cues": []
+      },
+      {
+        "id": "pentagon",
+        "content_revision": 1,
+        "translations": {
+          "en": {
+            "prompt": {
+              "text": "How many sides does this shape have?",
+              "image": "assets/f55d9e2e5d9e53dab548c642143a3a019c8376014ac69b52b76741624d0bf1ec.png",
+              "alt_text": "One large shape: straight sides, all the same length, with a point at the top, green with slanted stripes."
+            },
+            "reveal": {
+              "text": "Five. A shape with five sides is a pentagon. This one is green, with slanted stripes.",
+              "image": "assets/f55d9e2e5d9e53dab548c642143a3a019c8376014ac69b52b76741624d0bf1ec.png",
+              "alt_text": "One large shape: five equal sides, green with slanted stripes."
+            }
+          },
+          "bg": {
+            "prompt": {
+              "text": "Колко страни има тази фигура?",
+              "image": "assets/f55d9e2e5d9e53dab548c642143a3a019c8376014ac69b52b76741624d0bf1ec.png",
+              "alt_text": "Една голяма фигура: с прави, еднакво дълги страни и връх отгоре, зелена на наклонени ивици."
+            },
+            "reveal": {
+              "text": "Пет. Фигура с пет страни е петоъгълник. Този е зелен, на наклонени ивици.",
+              "image": "assets/f55d9e2e5d9e53dab548c642143a3a019c8376014ac69b52b76741624d0bf1ec.png",
+              "alt_text": "Една голяма фигура: пет равни страни, зелена на наклонени ивици."
+            }
+          }
+        },
+        "audio_cues": []
+      },
+      {
+        "id": "three-corners",
+        "content_revision": 1,
+        "translations": {
+          "en": {
+            "prompt": {
+              "text": "Which shape has three corners: the one on the left, in the middle or on the right?",
+              "image": "assets/54b3811b9e02705b5ec6b9cafd0a9767d0acb277b743788c1a449d30064c23f6.png",
+              "alt_text": "Three shapes in a row, left to right: round all the way round, yellow with dots; straight sides, as tall as it is wide, green with slanted stripes; pointed at the top, with a flat bottom, solid red."
+            },
+            "reveal": {
+              "text": "The triangle, on the right. It is red. The circle has no corners and the square has four.",
+              "image": "assets/54b3811b9e02705b5ec6b9cafd0a9767d0acb277b743788c1a449d30064c23f6.png",
+              "alt_text": "Three shapes in a row, left to right: round, with no corners, yellow with dots; four equal sides and four square corners, green with slanted stripes; three straight sides and three corners, solid red."
+            }
+          },
+          "bg": {
+            "prompt": {
+              "text": "Коя фигура има три ъгъла: лявата, средната или дясната?",
+              "image": "assets/54b3811b9e02705b5ec6b9cafd0a9767d0acb277b743788c1a449d30064c23f6.png",
+              "alt_text": "Три фигури в редица, отляво надясно: кръгла отвсякъде, жълта на точки; с прави страни, еднакво висока и широка, зелена на наклонени ивици; заострена отгоре, с плоско дъно, плътно червена."
+            },
+            "reveal": {
+              "text": "Триъгълникът, вдясно. Той е червен. Кръгът няма ъгли, а квадратът има четири.",
+              "image": "assets/54b3811b9e02705b5ec6b9cafd0a9767d0acb277b743788c1a449d30064c23f6.png",
+              "alt_text": "Три фигури в редица, отляво надясно: кръгла, без ъгли, жълта на точки; четири равни страни и четири прави ъгъла, зелена на наклонени ивици; три прави страни и три ъгъла, плътно червена."
+            }
+          }
+        },
+        "audio_cues": []
+      },
+      {
+        "id": "which-purple",
+        "content_revision": 1,
+        "translations": {
+          "en": {
+            "prompt": {
+              "text": "Which shape is purple: the star, the oval or the square?",
+              "image": "assets/12bd7c1c527b65c011a09a6b27beaae526bddadc37456bdf0163a94ecff82781.png",
+              "alt_text": "Three shapes in a row: a star, an oval, a square. Their colours, in another order: purple with a grid, blue with stripes, orange with checks."
+            },
+            "reveal": {
+              "text": "The oval, in the middle: purple, with a grid. The star is orange with checks; the square is blue with stripes.",
+              "image": "assets/12bd7c1c527b65c011a09a6b27beaae526bddadc37456bdf0163a94ecff82781.png",
+              "alt_text": "Three shapes in a row, left to right: five points, orange with checks; round but stretched wide, like an egg, purple with a grid; four equal sides and four square corners, blue with stripes."
+            }
+          },
+          "bg": {
+            "prompt": {
+              "text": "Коя фигура е лилава: звездата, овалът или квадратът?",
+              "image": "assets/12bd7c1c527b65c011a09a6b27beaae526bddadc37456bdf0163a94ecff82781.png",
+              "alt_text": "Три фигури в редица: звезда, овал, квадрат. Цветовете им, в друг ред: лилава на мрежа, синя на ивици, оранжева на квадратчета."
+            },
+            "reveal": {
+              "text": "Овалът, в средата: лилав, на мрежа. Звездата е оранжева на квадратчета, а квадратът е син на ивици.",
+              "image": "assets/12bd7c1c527b65c011a09a6b27beaae526bddadc37456bdf0163a94ecff82781.png",
+              "alt_text": "Три фигури в редица, отляво надясно: пет лъча, оранжева на квадратчета; закръглена, но разтеглена като яйце, лилава на мрежа; четири равни страни и четири прави ъгъла, синя на ивици."
+            }
+          }
+        },
+        "audio_cues": []
+      },
+      {
+        "id": "can-roll",
+        "content_revision": 1,
+        "translations": {
+          "en": {
+            "prompt": {
+              "text": "Which of these shapes could roll along the floor?",
+              "image": "assets/32fd532363aa742cff1765221bc6c474a5243f101ca2e0e82b5f304fed062d60.png",
+              "alt_text": "Three shapes in a row, left to right: pointed at the top, with a flat bottom, orange with checks; round all the way round, blue with stripes; straight sides, as tall as it is wide, solid red."
+            },
+            "reveal": {
+              "text": "The circle, in the middle. It has no corners, so it can roll. Corners stop the triangle and the square.",
+              "image": "assets/32fd532363aa742cff1765221bc6c474a5243f101ca2e0e82b5f304fed062d60.png",
+              "alt_text": "Three shapes in a row, left to right: three straight sides and three corners, orange with checks; round, with no corners, blue with stripes; four equal sides and four square corners, solid red."
+            }
+          },
+          "bg": {
+            "prompt": {
+              "text": "Коя от тези фигури може да се търкаля по пода?",
+              "image": "assets/32fd532363aa742cff1765221bc6c474a5243f101ca2e0e82b5f304fed062d60.png",
+              "alt_text": "Три фигури в редица, отляво надясно: заострена отгоре, с плоско дъно, оранжева на квадратчета; кръгла отвсякъде, синя на ивици; с прави страни, еднакво висока и широка, плътно червена."
+            },
+            "reveal": {
+              "text": "Кръгът, в средата. Той няма ъгли и затова може да се търкаля. Ъглите спират триъгълника и квадрата.",
+              "image": "assets/32fd532363aa742cff1765221bc6c474a5243f101ca2e0e82b5f304fed062d60.png",
+              "alt_text": "Три фигури в редица, отляво надясно: три прави страни и три ъгъла, оранжева на квадратчета; кръгла, без ъгли, синя на ивици; четири равни страни и четири прави ъгъла, плътно червена."
+            }
+          }
+        },
+        "audio_cues": []
+      }
+    ],
+    "activities": [
+      {
+        "id": "shapes-en",
+        "name": "Shapes and colours",
+        "kind": "reveal-sequence-v1",
+        "item_ids": [
+          "circle",
+          "triangle",
+          "square",
+          "rectangle",
+          "star",
+          "oval",
+          "hexagon",
+          "rhombus",
+          "pentagon",
+          "three-corners",
+          "which-purple",
+          "can-roll"
+        ],
+        "locale": "en",
+        "loop": false,
+        "timing": {
+          "prompt_seconds": 7,
+          "recall_seconds": 3,
+          "reveal_seconds": 8,
+          "dwell_seconds": 2
+        }
+      },
+      {
+        "id": "shapes-bg",
+        "name": "Фигури и цветове",
+        "kind": "reveal-sequence-v1",
+        "item_ids": [
+          "circle",
+          "triangle",
+          "square",
+          "rectangle",
+          "star",
+          "oval",
+          "hexagon",
+          "rhombus",
+          "pentagon",
+          "three-corners",
+          "which-purple",
+          "can-roll"
+        ],
+        "locale": "bg",
+        "loop": false,
+        "timing": {
+          "prompt_seconds": 7,
+          "recall_seconds": 3,
+          "reveal_seconds": 8,
+          "dwell_seconds": 2
+        }
+      }
+    ]
+  }
+}

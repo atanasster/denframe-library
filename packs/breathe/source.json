@@ -1,0 +1,183 @@
+{
+  "id": "mantel/breathe",
+  "version": "1.0.0",
+  "publisher": "Mantel",
+  "definition": {
+    "schema_version": 2,
+    "kind": "pack",
+    "name": "Breathe",
+    "description": "Six slow breaths at an even pace: in for four, hold for four, out for four, hold for four, then it ends. Drawn rings, no sound. Not medical advice; stop if you feel dizzy.",
+    "locales": [
+      "en"
+    ],
+    "resources": [
+      {
+        "path": "assets/642dedd9811627a838e911fb91e1c93f742971fccf9768f3dbf032c44840ecad.png",
+        "sha256": "642dedd9811627a838e911fb91e1c93f742971fccf9768f3dbf032c44840ecad",
+        "length": 25505,
+        "media_type": "image/png",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Mantel",
+          "license": "CC0-1.0",
+          "attribution": "Original ring drawing, made in code with AI assistance.",
+          "source": "https://github.com/atanasster/mantel-library/tree/main/packs/breathe",
+          "modified": false
+        }
+      },
+      {
+        "path": "assets/f54144b6b87492febe49c8da6d52d3086987798dce93b72f9ba908e9746d3ba9.png",
+        "sha256": "f54144b6b87492febe49c8da6d52d3086987798dce93b72f9ba908e9746d3ba9",
+        "length": 16130,
+        "media_type": "image/png",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Mantel",
+          "license": "CC0-1.0",
+          "attribution": "Original ring drawing, made in code with AI assistance.",
+          "source": "https://github.com/atanasster/mantel-library/tree/main/packs/breathe",
+          "modified": false
+        }
+      }
+    ],
+    "items": [
+      {
+        "id": "cycle-1",
+        "content_revision": 1,
+        "translations": {
+          "en": {
+            "prompt": {
+              "text": "Sit comfortably. If you feel dizzy, stop and breathe normally. Breathe in slowly for four… then hold for four.",
+              "image": "assets/642dedd9811627a838e911fb91e1c93f742971fccf9768f3dbf032c44840ecad.png",
+              "alt_text": "Five wide rings, one inside another, filling the picture, with four dots around them."
+            },
+            "reveal": {
+              "text": "Breathe out slowly for four… then hold for four.",
+              "image": "assets/f54144b6b87492febe49c8da6d52d3086987798dce93b72f9ba908e9746d3ba9.png",
+              "alt_text": "One small ring in the middle, with faint dotted rings around it and four dots."
+            }
+          }
+        },
+        "audio_cues": []
+      },
+      {
+        "id": "cycle-2",
+        "content_revision": 1,
+        "translations": {
+          "en": {
+            "prompt": {
+              "text": "Breathe in for four… hold for four.",
+              "image": "assets/642dedd9811627a838e911fb91e1c93f742971fccf9768f3dbf032c44840ecad.png",
+              "alt_text": "Five wide rings, one inside another, filling the picture, with four dots around them."
+            },
+            "reveal": {
+              "text": "Breathe out for four… hold for four.",
+              "image": "assets/f54144b6b87492febe49c8da6d52d3086987798dce93b72f9ba908e9746d3ba9.png",
+              "alt_text": "One small ring in the middle, with faint dotted rings around it and four dots."
+            }
+          }
+        },
+        "audio_cues": []
+      },
+      {
+        "id": "cycle-3",
+        "content_revision": 1,
+        "translations": {
+          "en": {
+            "prompt": {
+              "text": "Breathe in for four… hold for four.",
+              "image": "assets/642dedd9811627a838e911fb91e1c93f742971fccf9768f3dbf032c44840ecad.png",
+              "alt_text": "Five wide rings, one inside another, filling the picture, with four dots around them."
+            },
+            "reveal": {
+              "text": "Breathe out for four… hold for four.",
+              "image": "assets/f54144b6b87492febe49c8da6d52d3086987798dce93b72f9ba908e9746d3ba9.png",
+              "alt_text": "One small ring in the middle, with faint dotted rings around it and four dots."
+            }
+          }
+        },
+        "audio_cues": []
+      },
+      {
+        "id": "cycle-4",
+        "content_revision": 1,
+        "translations": {
+          "en": {
+            "prompt": {
+              "text": "Breathe in for four… hold for four.",
+              "image": "assets/642dedd9811627a838e911fb91e1c93f742971fccf9768f3dbf032c44840ecad.png",
+              "alt_text": "Five wide rings, one inside another, filling the picture, with four dots around them."
+            },
+            "reveal": {
+              "text": "Breathe out for four… hold for four.",
+              "image": "assets/f54144b6b87492febe49c8da6d52d3086987798dce93b72f9ba908e9746d3ba9.png",
+              "alt_text": "One small ring in the middle, with faint dotted rings around it and four dots."
+            }
+          }
+        },
+        "audio_cues": []
+      },
+      {
+        "id": "cycle-5",
+        "content_revision": 1,
+        "translations": {
+          "en": {
+            "prompt": {
+              "text": "Breathe in for four… hold for four.",
+              "image": "assets/642dedd9811627a838e911fb91e1c93f742971fccf9768f3dbf032c44840ecad.png",
+              "alt_text": "Five wide rings, one inside another, filling the picture, with four dots around them."
+            },
+            "reveal": {
+              "text": "Breathe out for four… hold for four.",
+              "image": "assets/f54144b6b87492febe49c8da6d52d3086987798dce93b72f9ba908e9746d3ba9.png",
+              "alt_text": "One small ring in the middle, with faint dotted rings around it and four dots."
+            }
+          }
+        },
+        "audio_cues": []
+      },
+      {
+        "id": "cycle-6",
+        "content_revision": 1,
+        "translations": {
+          "en": {
+            "prompt": {
+              "text": "Last one. Breathe in for four… hold for four.",
+              "image": "assets/642dedd9811627a838e911fb91e1c93f742971fccf9768f3dbf032c44840ecad.png",
+              "alt_text": "Five wide rings, one inside another, filling the picture, with four dots around them."
+            },
+            "reveal": {
+              "text": "Breathe out for four… hold for four. Then breathe normally.",
+              "image": "assets/f54144b6b87492febe49c8da6d52d3086987798dce93b72f9ba908e9746d3ba9.png",
+              "alt_text": "One small ring in the middle, with faint dotted rings around it and four dots."
+            }
+          }
+        },
+        "audio_cues": []
+      }
+    ],
+    "activities": [
+      {
+        "id": "breathe",
+        "name": "Breathe",
+        "kind": "reveal-sequence-v1",
+        "item_ids": [
+          "cycle-1",
+          "cycle-2",
+          "cycle-3",
+          "cycle-4",
+          "cycle-5",
+          "cycle-6"
+        ],
+        "locale": "en",
+        "loop": false,
+        "timing": {
+          "prompt_seconds": 4,
+          "recall_seconds": 4,
+          "reveal_seconds": 4,
+          "dwell_seconds": 4
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "pack": "mantel/breathe",
+  "drawn": "2026-09-27",
+  "authorship": "Text and drawing code drafted for Mantel with AI assistance (Claude); a person reviews every pack before it is approved (plan D26).",
+  "narration": "None. eSpeak NG, the only voice the plan allows (D26), was not installed where the pack was drawn; the cards are text-first and silent.",
+  "sources": [
+    {
+      "supports": "The 4-4-4-4 pattern (box breathing: in, hold, out, hold, four counts each) as a described technique only; the pack makes no health claim.",
+      "url": "https://health.clevelandclinic.org/box-breathing-benefits"
+    }
+  ],
+  "method": "SVG drawn by draw.py, rasterised by rsvg-convert, re-encoded by Pillow as an 8-bit palette PNG with no metadata chunks. Original work: no image-generation model, stock or third-party artwork.",
+  "toolchain": {
+    "rsvg-convert": "2.63.2",
+    "cairo": "1.18.6",
+    "Pillow": "12.3.0",
+    "zlib": "1.3.1.zlib-ng"
+  },
+  "assets": [
+    {
+      "picture": "in",
+      "path": "assets/642dedd9811627a838e911fb91e1c93f742971fccf9768f3dbf032c44840ecad.png",
+      "bytes": 25505,
+      "media_type": "image/png",
+      "width": 800,
+      "height": 800,
+      "license": "CC0-1.0",
+      "items": [
+        "cycle-1",
+        "cycle-2",
+        "cycle-3",
+        "cycle-4",
+        "cycle-5",
+        "cycle-6"
+      ],
+      "visual_review": "pending"
+    },
+    {
+      "picture": "out",
+      "path": "assets/f54144b6b87492febe49c8da6d52d3086987798dce93b72f9ba908e9746d3ba9.png",
+      "bytes": 16130,
+      "media_type": "image/png",
+      "width": 800,
+      "height": 800,
+      "license": "CC0-1.0",
+      "items": [
+        "cycle-1",
+        "cycle-2",
+        "cycle-3",
+        "cycle-4",
+        "cycle-5",
+        "cycle-6"
+      ],
+      "visual_review": "pending"
+    }
+  ]
+}

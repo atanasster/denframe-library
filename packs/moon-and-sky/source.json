@@ -1,0 +1,615 @@
+{
+  "id": "mantel/moon-and-sky",
+  "version": "1.0.0",
+  "publisher": "Mantel",
+  "definition": {
+    "schema_version": 2,
+    "kind": "pack",
+    "name": "Moon & Sky",
+    "description": "The Moon's phases and five star patterns to find on a clear night, drawn from catalogue positions. English and Bulgarian, no sound. Review candidate: content and Bulgarian reading pending.",
+    "locales": [
+      "en",
+      "bg"
+    ],
+    "resources": [
+      {
+        "path": "assets/b4918c1d7e6f8e33f0c339a0748027f170c90d5d34e9ca805ff8890619513875.png",
+        "sha256": "b4918c1d7e6f8e33f0c339a0748027f170c90d5d34e9ca805ff8890619513875",
+        "length": 11675,
+        "media_type": "image/png",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Mantel",
+          "license": "CC0-1.0",
+          "attribution": "Original Moon drawing, made in code with AI assistance.",
+          "source": "https://github.com/atanasster/mantel-library/tree/main/packs/moon-and-sky",
+          "modified": false
+        }
+      },
+      {
+        "path": "assets/2a98c9e3dbbe54ef2243dbc1c3f1ac70143d3b34f810e41643e8f60067a8ab34.png",
+        "sha256": "2a98c9e3dbbe54ef2243dbc1c3f1ac70143d3b34f810e41643e8f60067a8ab34",
+        "length": 12578,
+        "media_type": "image/png",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Mantel",
+          "license": "CC0-1.0",
+          "attribution": "Original Moon drawing, made in code with AI assistance.",
+          "source": "https://github.com/atanasster/mantel-library/tree/main/packs/moon-and-sky",
+          "modified": false
+        }
+      },
+      {
+        "path": "assets/9a25f269fbb21fa8f19b74cc80b1f6b225fbc52068dc62dcf6c27b7e8e07f4a5.png",
+        "sha256": "9a25f269fbb21fa8f19b74cc80b1f6b225fbc52068dc62dcf6c27b7e8e07f4a5",
+        "length": 14152,
+        "media_type": "image/png",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Mantel",
+          "license": "CC0-1.0",
+          "attribution": "Original Moon drawing, made in code with AI assistance.",
+          "source": "https://github.com/atanasster/mantel-library/tree/main/packs/moon-and-sky",
+          "modified": false
+        }
+      },
+      {
+        "path": "assets/b77c68972db2d4a6c82c9b5022f3819ff661e16795aa4cd3de9d9534b5f0b6cd.png",
+        "sha256": "b77c68972db2d4a6c82c9b5022f3819ff661e16795aa4cd3de9d9534b5f0b6cd",
+        "length": 14178,
+        "media_type": "image/png",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Mantel",
+          "license": "CC0-1.0",
+          "attribution": "Original Moon drawing, made in code with AI assistance.",
+          "source": "https://github.com/atanasster/mantel-library/tree/main/packs/moon-and-sky",
+          "modified": false
+        }
+      },
+      {
+        "path": "assets/e3f7f1b863119a94b28a2b7d7e74f7b1efb6117f5f73b2444c27d46f228c8d30.png",
+        "sha256": "e3f7f1b863119a94b28a2b7d7e74f7b1efb6117f5f73b2444c27d46f228c8d30",
+        "length": 12687,
+        "media_type": "image/png",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Mantel",
+          "license": "CC0-1.0",
+          "attribution": "Original Moon drawing, made in code with AI assistance.",
+          "source": "https://github.com/atanasster/mantel-library/tree/main/packs/moon-and-sky",
+          "modified": false
+        }
+      },
+      {
+        "path": "assets/4d0fbb559e84e0badcd1932b5e2a48f0168fd65990dbd07f414dc2f0eabd9723.png",
+        "sha256": "4d0fbb559e84e0badcd1932b5e2a48f0168fd65990dbd07f414dc2f0eabd9723",
+        "length": 14338,
+        "media_type": "image/png",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Mantel",
+          "license": "CC0-1.0",
+          "attribution": "Original Moon drawing, made in code with AI assistance.",
+          "source": "https://github.com/atanasster/mantel-library/tree/main/packs/moon-and-sky",
+          "modified": false
+        }
+      },
+      {
+        "path": "assets/f65d3b3c4112f820577ef838afd41ec73a5a6c2e39e405301bab2682b0e14416.png",
+        "sha256": "f65d3b3c4112f820577ef838afd41ec73a5a6c2e39e405301bab2682b0e14416",
+        "length": 25631,
+        "media_type": "image/png",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Mantel",
+          "license": "CC0-1.0",
+          "attribution": "Original Moon drawing, made in code with AI assistance.",
+          "source": "https://github.com/atanasster/mantel-library/tree/main/packs/moon-and-sky",
+          "modified": false
+        }
+      },
+      {
+        "path": "assets/69c83a5ec688699afc27ad8b05addce4e1980fd86d1d43fa14eb0e11aceb0b35.png",
+        "sha256": "69c83a5ec688699afc27ad8b05addce4e1980fd86d1d43fa14eb0e11aceb0b35",
+        "length": 11079,
+        "media_type": "image/png",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Mantel",
+          "license": "CC0-1.0",
+          "attribution": "Original star chart, made in code with AI assistance. Positions and brightness: SIMBAD J2000 values (SIMBAD database, operated at CDS, Strasbourg, France).",
+          "source": "https://github.com/atanasster/mantel-library/tree/main/packs/moon-and-sky",
+          "modified": false
+        }
+      },
+      {
+        "path": "assets/5275dbb6d52e3801a1e5a802d94b20410dcb748d921216efe78322ddc54cbbcd.png",
+        "sha256": "5275dbb6d52e3801a1e5a802d94b20410dcb748d921216efe78322ddc54cbbcd",
+        "length": 10837,
+        "media_type": "image/png",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Mantel",
+          "license": "CC0-1.0",
+          "attribution": "Original star chart, made in code with AI assistance. Positions and brightness: SIMBAD J2000 values (SIMBAD database, operated at CDS, Strasbourg, France).",
+          "source": "https://github.com/atanasster/mantel-library/tree/main/packs/moon-and-sky",
+          "modified": false
+        }
+      },
+      {
+        "path": "assets/53c7e0e29330a54d5a23ccbc2d690f93c82948643733161ea05e12f1cb6f57e9.png",
+        "sha256": "53c7e0e29330a54d5a23ccbc2d690f93c82948643733161ea05e12f1cb6f57e9",
+        "length": 9033,
+        "media_type": "image/png",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Mantel",
+          "license": "CC0-1.0",
+          "attribution": "Original star chart, made in code with AI assistance. Positions and brightness: SIMBAD J2000 values (SIMBAD database, operated at CDS, Strasbourg, France).",
+          "source": "https://github.com/atanasster/mantel-library/tree/main/packs/moon-and-sky",
+          "modified": false
+        }
+      },
+      {
+        "path": "assets/01d65501e150addcf5bedb1a24f33366971fafb5ab2e2268aeec1a5cbb27476f.png",
+        "sha256": "01d65501e150addcf5bedb1a24f33366971fafb5ab2e2268aeec1a5cbb27476f",
+        "length": 14609,
+        "media_type": "image/png",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Mantel",
+          "license": "CC0-1.0",
+          "attribution": "Original star chart, made in code with AI assistance. Positions and brightness: SIMBAD J2000 values (SIMBAD database, operated at CDS, Strasbourg, France).",
+          "source": "https://github.com/atanasster/mantel-library/tree/main/packs/moon-and-sky",
+          "modified": false
+        }
+      },
+      {
+        "path": "assets/c0788858d4c8021620ab94cf2773c98f2dcf36c7b8aa9ddae3252367127297aa.png",
+        "sha256": "c0788858d4c8021620ab94cf2773c98f2dcf36c7b8aa9ddae3252367127297aa",
+        "length": 13405,
+        "media_type": "image/png",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Mantel",
+          "license": "CC0-1.0",
+          "attribution": "Original star chart, made in code with AI assistance. Positions and brightness: SIMBAD J2000 values (SIMBAD database, operated at CDS, Strasbourg, France).",
+          "source": "https://github.com/atanasster/mantel-library/tree/main/packs/moon-and-sky",
+          "modified": false
+        }
+      }
+    ],
+    "items": [
+      {
+        "id": "full-moon",
+        "content_revision": 1,
+        "translations": {
+          "en": {
+            "prompt": {
+              "text": "Which phase of the Moon is this?",
+              "image": "assets/b4918c1d7e6f8e33f0c339a0748027f170c90d5d34e9ca805ff8890619513875.png",
+              "alt_text": "A round Moon, lit all over, on a dark sky."
+            },
+            "reveal": {
+              "text": "Full moon. The whole side of the Moon that faces us is lit by the Sun.",
+              "image": "assets/b4918c1d7e6f8e33f0c339a0748027f170c90d5d34e9ca805ff8890619513875.png",
+              "alt_text": "A round Moon, lit all over, on a dark sky."
+            }
+          },
+          "bg": {
+            "prompt": {
+              "text": "Коя фаза на Луната е това?",
+              "image": "assets/b4918c1d7e6f8e33f0c339a0748027f170c90d5d34e9ca805ff8890619513875.png",
+              "alt_text": "Кръгла Луна, осветена изцяло, на тъмно небе."
+            },
+            "reveal": {
+              "text": "Пълнолуние. Цялата страна на Луната, обърната към нас, е осветена от Слънцето.",
+              "image": "assets/b4918c1d7e6f8e33f0c339a0748027f170c90d5d34e9ca805ff8890619513875.png",
+              "alt_text": "Кръгла Луна, осветена изцяло, на тъмно небе."
+            }
+          }
+        },
+        "audio_cues": []
+      },
+      {
+        "id": "first-quarter",
+        "content_revision": 1,
+        "translations": {
+          "en": {
+            "prompt": {
+              "text": "Which phase is this? The right half is lit.",
+              "image": "assets/2a98c9e3dbbe54ef2243dbc1c3f1ac70143d3b34f810e41643e8f60067a8ab34.png",
+              "alt_text": "The Moon with its right half lit and its left half dark."
+            },
+            "reveal": {
+              "text": "First quarter: half of the disc is lit, and the Moon is growing (waxing). Seen from the Northern Hemisphere, a growing Moon is lit on the right.",
+              "image": "assets/2a98c9e3dbbe54ef2243dbc1c3f1ac70143d3b34f810e41643e8f60067a8ab34.png",
+              "alt_text": "The Moon with its right half lit and its left half dark."
+            }
+          },
+          "bg": {
+            "prompt": {
+              "text": "Коя фаза е това? Осветена е дясната половина.",
+              "image": "assets/2a98c9e3dbbe54ef2243dbc1c3f1ac70143d3b34f810e41643e8f60067a8ab34.png",
+              "alt_text": "Луна с осветена дясна половина и тъмна лява половина."
+            },
+            "reveal": {
+              "text": "Първа четвърт: осветена е половината от диска и Луната расте. В Северното полукълбо растящата Луна е осветена отдясно.",
+              "image": "assets/2a98c9e3dbbe54ef2243dbc1c3f1ac70143d3b34f810e41643e8f60067a8ab34.png",
+              "alt_text": "Луна с осветена дясна половина и тъмна лява половина."
+            }
+          }
+        },
+        "audio_cues": []
+      },
+      {
+        "id": "waxing-crescent",
+        "content_revision": 1,
+        "translations": {
+          "en": {
+            "prompt": {
+              "text": "A thin curve of light on the right. Is the Moon growing or shrinking?",
+              "image": "assets/9a25f269fbb21fa8f19b74cc80b1f6b225fbc52068dc62dcf6c27b7e8e07f4a5.png",
+              "alt_text": "A thin curved sliver of light on the right edge of the Moon; the rest is dark."
+            },
+            "reveal": {
+              "text": "Growing. This is a waxing crescent: a few days after the new moon, the lit part gets bigger each night. (Seen from the Northern Hemisphere; south of the equator it is lit on the left.)",
+              "image": "assets/9a25f269fbb21fa8f19b74cc80b1f6b225fbc52068dc62dcf6c27b7e8e07f4a5.png",
+              "alt_text": "A thin curved sliver of light on the right edge of the Moon; the rest is dark."
+            }
+          },
+          "bg": {
+            "prompt": {
+              "text": "Тънък светъл сърп отдясно. Луната расте ли, или намалява?",
+              "image": "assets/9a25f269fbb21fa8f19b74cc80b1f6b225fbc52068dc62dcf6c27b7e8e07f4a5.png",
+              "alt_text": "Тънък светъл сърп по десния край на Луната; останалата част е тъмна."
+            },
+            "reveal": {
+              "text": "Расте. Това е растящ сърп: няколко дни след новолунието осветената част става по-голяма всяка нощ. (Така я виждаме в Северното полукълбо; на юг от екватора е осветена отляво.)",
+              "image": "assets/9a25f269fbb21fa8f19b74cc80b1f6b225fbc52068dc62dcf6c27b7e8e07f4a5.png",
+              "alt_text": "Тънък светъл сърп по десния край на Луната; останалата част е тъмна."
+            }
+          }
+        },
+        "audio_cues": []
+      },
+      {
+        "id": "waxing-gibbous",
+        "content_revision": 1,
+        "translations": {
+          "en": {
+            "prompt": {
+              "text": "More than half of the Moon is lit, on the right. What comes next?",
+              "image": "assets/b77c68972db2d4a6c82c9b5022f3819ff661e16795aa4cd3de9d9534b5f0b6cd.png",
+              "alt_text": "The Moon lit on its right side and across more than half of its face; a narrow dark part on the left."
+            },
+            "reveal": {
+              "text": "The full moon. This is a waxing gibbous Moon: it keeps growing until the whole face is lit. (Seen from the Northern Hemisphere; south of the equator it is lit on the left.)",
+              "image": "assets/b77c68972db2d4a6c82c9b5022f3819ff661e16795aa4cd3de9d9534b5f0b6cd.png",
+              "alt_text": "The Moon lit on its right side and across more than half of its face; a narrow dark part on the left."
+            }
+          },
+          "bg": {
+            "prompt": {
+              "text": "Осветена е повече от половината Луна, отдясно. Какво следва?",
+              "image": "assets/b77c68972db2d4a6c82c9b5022f3819ff661e16795aa4cd3de9d9534b5f0b6cd.png",
+              "alt_text": "Луна, осветена отдясно и повече от наполовина; тясна тъмна част отляво."
+            },
+            "reveal": {
+              "text": "Пълнолуние. Това е растяща изпъкнала Луна: расте, докато се освети целият ѝ диск. (Така я виждаме в Северното полукълбо; на юг от екватора е осветена отляво.)",
+              "image": "assets/b77c68972db2d4a6c82c9b5022f3819ff661e16795aa4cd3de9d9534b5f0b6cd.png",
+              "alt_text": "Луна, осветена отдясно и повече от наполовина; тясна тъмна част отляво."
+            }
+          }
+        },
+        "audio_cues": []
+      },
+      {
+        "id": "last-quarter",
+        "content_revision": 1,
+        "translations": {
+          "en": {
+            "prompt": {
+              "text": "Which phase is this? The left half is lit.",
+              "image": "assets/e3f7f1b863119a94b28a2b7d7e74f7b1efb6117f5f73b2444c27d46f228c8d30.png",
+              "alt_text": "The Moon with its left half lit and its right half dark."
+            },
+            "reveal": {
+              "text": "Last quarter (also called third quarter): half of the disc is lit, and the Moon is shrinking (waning). Seen from the Northern Hemisphere, a shrinking Moon is lit on the left.",
+              "image": "assets/e3f7f1b863119a94b28a2b7d7e74f7b1efb6117f5f73b2444c27d46f228c8d30.png",
+              "alt_text": "The Moon with its left half lit and its right half dark."
+            }
+          },
+          "bg": {
+            "prompt": {
+              "text": "Коя фаза е това? Осветена е лявата половина.",
+              "image": "assets/e3f7f1b863119a94b28a2b7d7e74f7b1efb6117f5f73b2444c27d46f228c8d30.png",
+              "alt_text": "Луна с осветена лява половина и тъмна дясна половина."
+            },
+            "reveal": {
+              "text": "Последна четвърт: осветена е половината от диска и Луната намалява. В Северното полукълбо намаляващата Луна е осветена отляво.",
+              "image": "assets/e3f7f1b863119a94b28a2b7d7e74f7b1efb6117f5f73b2444c27d46f228c8d30.png",
+              "alt_text": "Луна с осветена лява половина и тъмна дясна половина."
+            }
+          }
+        },
+        "audio_cues": []
+      },
+      {
+        "id": "waning-crescent",
+        "content_revision": 1,
+        "translations": {
+          "en": {
+            "prompt": {
+              "text": "A thin curve of light on the left. What phase comes after it?",
+              "image": "assets/4d0fbb559e84e0badcd1932b5e2a48f0168fd65990dbd07f414dc2f0eabd9723.png",
+              "alt_text": "A thin curved sliver of light on the left edge of the Moon; the rest is dark."
+            },
+            "reveal": {
+              "text": "The new moon, when we cannot see the lit side at all. This is a waning crescent, the last thin sliver before it. (Seen from the Northern Hemisphere; south of the equator it is on the right.)",
+              "image": "assets/4d0fbb559e84e0badcd1932b5e2a48f0168fd65990dbd07f414dc2f0eabd9723.png",
+              "alt_text": "A thin curved sliver of light on the left edge of the Moon; the rest is dark."
+            }
+          },
+          "bg": {
+            "prompt": {
+              "text": "Тънък светъл сърп отляво. Коя фаза идва след него?",
+              "image": "assets/4d0fbb559e84e0badcd1932b5e2a48f0168fd65990dbd07f414dc2f0eabd9723.png",
+              "alt_text": "Тънък светъл сърп по левия край на Луната; останалата част е тъмна."
+            },
+            "reveal": {
+              "text": "Новолунието, когато изобщо не виждаме осветената страна. Това е намаляващ сърп – последната тънка ивица преди него. (Така го виждаме в Северното полукълбо; на юг от екватора е отдясно.)",
+              "image": "assets/4d0fbb559e84e0badcd1932b5e2a48f0168fd65990dbd07f414dc2f0eabd9723.png",
+              "alt_text": "Тънък светъл сърп по левия край на Луната; останалата част е тъмна."
+            }
+          }
+        },
+        "audio_cues": []
+      },
+      {
+        "id": "moon-cycle",
+        "content_revision": 1,
+        "translations": {
+          "en": {
+            "prompt": {
+              "text": "About how many days pass from one full moon to the next?",
+              "image": "assets/f65d3b3c4112f820577ef838afd41ec73a5a6c2e39e405301bab2682b0e14416.png",
+              "alt_text": "Eight small Moons in a ring, in order clockwise from the top: dark, then a growing sliver, half, more than half, full, and shrinking back."
+            },
+            "reveal": {
+              "text": "About 29 and a half days. The Moon goes through all its phases in that time: new, crescent, quarter, gibbous, full, and back.",
+              "image": "assets/f65d3b3c4112f820577ef838afd41ec73a5a6c2e39e405301bab2682b0e14416.png",
+              "alt_text": "Eight small Moons in a ring, in order clockwise from the top: dark, then a growing sliver, half, more than half, full, and shrinking back."
+            }
+          },
+          "bg": {
+            "prompt": {
+              "text": "Колко дни минават приблизително от едно пълнолуние до следващото?",
+              "image": "assets/f65d3b3c4112f820577ef838afd41ec73a5a6c2e39e405301bab2682b0e14416.png",
+              "alt_text": "Осем малки Луни в кръг, по реда на часовниковата стрелка отгоре: тъмна, растящ сърп, половина, повече от половина, пълна и отново намаляваща."
+            },
+            "reveal": {
+              "text": "Около 29 дни и половина. За това време Луната минава през всичките си фази: новолуние, сърп, четвърт, изпъкнала Луна, пълнолуние и обратно.",
+              "image": "assets/f65d3b3c4112f820577ef838afd41ec73a5a6c2e39e405301bab2682b0e14416.png",
+              "alt_text": "Осем малки Луни в кръг, по реда на часовниковата стрелка отгоре: тъмна, растящ сърп, половина, повече от половина, пълна и отново намаляваща."
+            }
+          }
+        },
+        "audio_cues": []
+      },
+      {
+        "id": "big-dipper",
+        "content_revision": 1,
+        "translations": {
+          "en": {
+            "prompt": {
+              "text": "Seven stars make a shape like a big ladle. What is it called?",
+              "image": "assets/69c83a5ec688699afc27ad8b05addce4e1980fd86d1d43fa14eb0e11aceb0b35.png",
+              "alt_text": "Seven stars joined by lines: four make a bowl and three make a bent handle."
+            },
+            "reveal": {
+              "text": "The Big Dipper, also called the Plough. It is part of the constellation Ursa Major, the Great Bear.",
+              "image": "assets/69c83a5ec688699afc27ad8b05addce4e1980fd86d1d43fa14eb0e11aceb0b35.png",
+              "alt_text": "Seven stars joined by lines: four make a bowl and three make a bent handle."
+            }
+          },
+          "bg": {
+            "prompt": {
+              "text": "Седем звезди образуват нещо като голям черпак. Как се нарича?",
+              "image": "assets/69c83a5ec688699afc27ad8b05addce4e1980fd86d1d43fa14eb0e11aceb0b35.png",
+              "alt_text": "Седем звезди, свързани с линии: четири образуват купа, а три – извита дръжка."
+            },
+            "reveal": {
+              "text": "Голямата кола. Тя е част от съзвездието Голямата мечка.",
+              "image": "assets/69c83a5ec688699afc27ad8b05addce4e1980fd86d1d43fa14eb0e11aceb0b35.png",
+              "alt_text": "Седем звезди, свързани с линии: четири образуват купа, а три – извита дръжка."
+            }
+          }
+        },
+        "audio_cues": []
+      },
+      {
+        "id": "pole-star",
+        "content_revision": 1,
+        "translations": {
+          "en": {
+            "prompt": {
+              "text": "Draw a line from the bottom of the bowl through its two end stars, out past the top of the bowl. Which star does it reach?",
+              "image": "assets/5275dbb6d52e3801a1e5a802d94b20410dcb748d921216efe78322ddc54cbbcd.png",
+              "alt_text": "The seven stars of the ladle, with a dotted line from the bottom of the bowl through its two end stars and out of the bowl to one star on its own."
+            },
+            "reveal": {
+              "text": "Polaris, the North Star. It stays almost still above the northern horizon while the other stars turn around it.",
+              "image": "assets/5275dbb6d52e3801a1e5a802d94b20410dcb748d921216efe78322ddc54cbbcd.png",
+              "alt_text": "The seven stars of the ladle, with a dotted line from the bottom of the bowl through its two end stars and out of the bowl to one star on its own."
+            }
+          },
+          "bg": {
+            "prompt": {
+              "text": "Продължи линията от дъното на купата през двете ѝ крайни звезди, нагоре извън купата. До коя звезда стига?",
+              "image": "assets/5275dbb6d52e3801a1e5a802d94b20410dcb748d921216efe78322ddc54cbbcd.png",
+              "alt_text": "Седемте звезди на черпака и пунктирна линия от дъното на купата през двете ѝ крайни звезди и извън купата до една самотна звезда."
+            },
+            "reveal": {
+              "text": "До Полярната звезда. Тя стои почти неподвижно над северния хоризонт, а другите звезди се въртят около нея.",
+              "image": "assets/5275dbb6d52e3801a1e5a802d94b20410dcb748d921216efe78322ddc54cbbcd.png",
+              "alt_text": "Седемте звезди на черпака и пунктирна линия от дъното на купата през двете ѝ крайни звезди и извън купата до една самотна звезда."
+            }
+          }
+        },
+        "audio_cues": []
+      },
+      {
+        "id": "cassiopeia",
+        "content_revision": 1,
+        "translations": {
+          "en": {
+            "prompt": {
+              "text": "Five bright stars make a W (or an M). Which constellation is it?",
+              "image": "assets/53c7e0e29330a54d5a23ccbc2d690f93c82948643733161ea05e12f1cb6f57e9.png",
+              "alt_text": "Five stars joined in a zigzag line shaped like the letter W."
+            },
+            "reveal": {
+              "text": "Cassiopeia. It sits on the other side of the North Star from the Big Dipper.",
+              "image": "assets/53c7e0e29330a54d5a23ccbc2d690f93c82948643733161ea05e12f1cb6f57e9.png",
+              "alt_text": "Five stars joined in a zigzag line shaped like the letter W."
+            }
+          },
+          "bg": {
+            "prompt": {
+              "text": "Пет ярки звезди образуват буквата W (или M). Кое съзвездие е това?",
+              "image": "assets/53c7e0e29330a54d5a23ccbc2d690f93c82948643733161ea05e12f1cb6f57e9.png",
+              "alt_text": "Пет звезди, свързани в зигзагообразна линия с формата на буквата W."
+            },
+            "reveal": {
+              "text": "Касиопея. Тя е от другата страна на Полярната звезда спрямо Голямата кола.",
+              "image": "assets/53c7e0e29330a54d5a23ccbc2d690f93c82948643733161ea05e12f1cb6f57e9.png",
+              "alt_text": "Пет звезди, свързани в зигзагообразна линия с формата на буквата W."
+            }
+          }
+        },
+        "audio_cues": []
+      },
+      {
+        "id": "orion",
+        "content_revision": 1,
+        "translations": {
+          "en": {
+            "prompt": {
+              "text": "Three stars in a short straight row are this hunter's belt. Who is he?",
+              "image": "assets/01d65501e150addcf5bedb1a24f33366971fafb5ab2e2268aeec1a5cbb27476f.png",
+              "alt_text": "Seven stars: three in a short straight row in the middle, two above it and two below; the top left star is reddish and the bottom right one blue-white."
+            },
+            "reveal": {
+              "text": "Orion. Look for his belt, reddish Betelgeuse at one shoulder and bright blue-white Rigel at one foot.",
+              "image": "assets/01d65501e150addcf5bedb1a24f33366971fafb5ab2e2268aeec1a5cbb27476f.png",
+              "alt_text": "Seven stars: three in a short straight row in the middle, two above it and two below; the top left star is reddish and the bottom right one blue-white."
+            }
+          },
+          "bg": {
+            "prompt": {
+              "text": "Три звезди в къса права редица са коланът на този ловец. Кой е той?",
+              "image": "assets/01d65501e150addcf5bedb1a24f33366971fafb5ab2e2268aeec1a5cbb27476f.png",
+              "alt_text": "Седем звезди: три в къса права редица по средата, две над нея и две под нея; горната лява звезда е червеникава, а долната дясна – синьо-бяла."
+            },
+            "reveal": {
+              "text": "Орион. Потърси колана му, червеникавата Бетелгейзе на едното рамо и ярката синьо-бяла Ригел при единия крак.",
+              "image": "assets/01d65501e150addcf5bedb1a24f33366971fafb5ab2e2268aeec1a5cbb27476f.png",
+              "alt_text": "Седем звезди: три в къса права редица по средата, две над нея и две под нея; горната лява звезда е червеникава, а долната дясна – синьо-бяла."
+            }
+          }
+        },
+        "audio_cues": []
+      },
+      {
+        "id": "summer-triangle",
+        "content_revision": 1,
+        "translations": {
+          "en": {
+            "prompt": {
+              "text": "Three bright stars, each in a different constellation, make a big triangle on summer nights. What is it called?",
+              "image": "assets/c0788858d4c8021620ab94cf2773c98f2dcf36c7b8aa9ddae3252367127297aa.png",
+              "alt_text": "Three bright stars joined by lines into a tall triangle."
+            },
+            "reveal": {
+              "text": "The Summer Triangle: Vega, Deneb and Altair.",
+              "image": "assets/c0788858d4c8021620ab94cf2773c98f2dcf36c7b8aa9ddae3252367127297aa.png",
+              "alt_text": "Three bright stars joined by lines into a tall triangle."
+            }
+          },
+          "bg": {
+            "prompt": {
+              "text": "Три ярки звезди, всяка от различно съзвездие, образуват голям триъгълник през летните нощи. Как се нарича?",
+              "image": "assets/c0788858d4c8021620ab94cf2773c98f2dcf36c7b8aa9ddae3252367127297aa.png",
+              "alt_text": "Три ярки звезди, свързани с линии във висок триъгълник."
+            },
+            "reveal": {
+              "text": "Летният триъгълник: Вега, Денеб и Алтаир.",
+              "image": "assets/c0788858d4c8021620ab94cf2773c98f2dcf36c7b8aa9ddae3252367127297aa.png",
+              "alt_text": "Три ярки звезди, свързани с линии във висок триъгълник."
+            }
+          }
+        },
+        "audio_cues": []
+      }
+    ],
+    "activities": [
+      {
+        "id": "sky-en",
+        "name": "Moon and sky",
+        "kind": "reveal-sequence-v1",
+        "item_ids": [
+          "full-moon",
+          "first-quarter",
+          "waxing-crescent",
+          "waxing-gibbous",
+          "last-quarter",
+          "waning-crescent",
+          "moon-cycle",
+          "big-dipper",
+          "pole-star",
+          "cassiopeia",
+          "orion",
+          "summer-triangle"
+        ],
+        "locale": "en",
+        "loop": false,
+        "timing": {
+          "prompt_seconds": 9,
+          "recall_seconds": 4,
+          "reveal_seconds": 11,
+          "dwell_seconds": 2
+        }
+      },
+      {
+        "id": "sky-bg",
+        "name": "Луната и небето",
+        "kind": "reveal-sequence-v1",
+        "item_ids": [
+          "full-moon",
+          "first-quarter",
+          "waxing-crescent",
+          "waxing-gibbous",
+          "last-quarter",
+          "waning-crescent",
+          "moon-cycle",
+          "big-dipper",
+          "pole-star",
+          "cassiopeia",
+          "orion",
+          "summer-triangle"
+        ],
+        "locale": "bg",
+        "loop": false,
+        "timing": {
+          "prompt_seconds": 9,
+          "recall_seconds": 4,
+          "reveal_seconds": 11,
+          "dwell_seconds": 2
+        }
+      }
+    ]
+  }
+}

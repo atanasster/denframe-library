@@ -1,0 +1,177 @@
+{
+  "pack": "mantel/shapes-and-colours",
+  "drawn": "2026-09-27",
+  "authorship": "Text and drawing code drafted for Mantel with AI assistance (Claude); a person reviews every pack before it is approved (plan D26).",
+  "narration": "None. eSpeak NG, the only voice the plan allows (D26), was not installed where the pack was drawn; the cards are text-first and silent.",
+  "sources": [
+    {
+      "supports": "Shape names and properties (sides, corners) are elementary geometry; the colour-and-pattern pairing is this pack's own design so no card depends on colour alone.",
+      "url": null
+    }
+  ],
+  "method": "SVG drawn by draw.py, rasterised by rsvg-convert, re-encoded by Pillow as an 8-bit palette PNG with no metadata chunks. Original work: no image-generation model, stock or third-party artwork.",
+  "toolchain": {
+    "rsvg-convert": "2.63.2",
+    "cairo": "1.18.6",
+    "Pillow": "12.3.0",
+    "zlib": "1.3.1.zlib-ng"
+  },
+  "assets": [
+    {
+      "picture": "circle",
+      "path": "assets/a9fb3275339ea1fbda99fa5290427aaf37768a299d8959d38785aae9ece1d3dc.png",
+      "bytes": 10794,
+      "media_type": "image/png",
+      "width": 800,
+      "height": 800,
+      "license": "CC0-1.0",
+      "items": [
+        "circle"
+      ],
+      "visual_review": "pending"
+    },
+    {
+      "picture": "triangle",
+      "path": "assets/e33d8a7b66aa42d43d51159073ffa9716ac384c6b358cd32a8e854f1ee548945.png",
+      "bytes": 8073,
+      "media_type": "image/png",
+      "width": 800,
+      "height": 800,
+      "license": "CC0-1.0",
+      "items": [
+        "triangle"
+      ],
+      "visual_review": "pending"
+    },
+    {
+      "picture": "square",
+      "path": "assets/ac3d1c651b121c4826ec82d320ee51757d857c2543e287e0c4bdb93b4d599151.png",
+      "bytes": 3981,
+      "media_type": "image/png",
+      "width": 800,
+      "height": 800,
+      "license": "CC0-1.0",
+      "items": [
+        "square"
+      ],
+      "visual_review": "pending"
+    },
+    {
+      "picture": "rectangle",
+      "path": "assets/bfd4a988586995f75aa8d9b33d392d8b1da226d58e7725631b83c8492480e309.png",
+      "bytes": 4068,
+      "media_type": "image/png",
+      "width": 800,
+      "height": 800,
+      "license": "CC0-1.0",
+      "items": [
+        "rectangle"
+      ],
+      "visual_review": "pending"
+    },
+    {
+      "picture": "star",
+      "path": "assets/1b89bed4e30cc22c1c1c3c99505b3c2ed470b921d30c8e2b07e65c81988b9338.png",
+      "bytes": 10682,
+      "media_type": "image/png",
+      "width": 800,
+      "height": 800,
+      "license": "CC0-1.0",
+      "items": [
+        "star"
+      ],
+      "visual_review": "pending"
+    },
+    {
+      "picture": "oval",
+      "path": "assets/a64c92eed76f480bb94a6d495bbf5f62979b82cd8a02570db590cef070b1943b.png",
+      "bytes": 8617,
+      "media_type": "image/png",
+      "width": 800,
+      "height": 800,
+      "license": "CC0-1.0",
+      "items": [
+        "oval"
+      ],
+      "visual_review": "pending"
+    },
+    {
+      "picture": "hexagon",
+      "path": "assets/4370b4ecffee525154e999eff8bc319936cf36b4d8e2f5af67d477328e63291d.png",
+      "bytes": 8569,
+      "media_type": "image/png",
+      "width": 800,
+      "height": 800,
+      "license": "CC0-1.0",
+      "items": [
+        "hexagon"
+      ],
+      "visual_review": "pending"
+    },
+    {
+      "picture": "rhombus",
+      "path": "assets/31ae1dc1ac37566537b72be1427fb4180fe1c38e72df306f850fd01e7a456790.png",
+      "bytes": 6061,
+      "media_type": "image/png",
+      "width": 800,
+      "height": 800,
+      "license": "CC0-1.0",
+      "items": [
+        "rhombus"
+      ],
+      "visual_review": "pending"
+    },
+    {
+      "picture": "pentagon",
+      "path": "assets/f55d9e2e5d9e53dab548c642143a3a019c8376014ac69b52b76741624d0bf1ec.png",
+      "bytes": 9214,
+      "media_type": "image/png",
+      "width": 800,
+      "height": 800,
+      "license": "CC0-1.0",
+      "items": [
+        "pentagon"
+      ],
+      "visual_review": "pending"
+    },
+    {
+      "picture": "three-corners",
+      "path": "assets/54b3811b9e02705b5ec6b9cafd0a9767d0acb277b743788c1a449d30064c23f6.png",
+      "bytes": 9187,
+      "media_type": "image/png",
+      "width": 800,
+      "height": 800,
+      "license": "CC0-1.0",
+      "items": [
+        "three-corners"
+      ],
+      "visual_review": "pending"
+    },
+    {
+      "picture": "which-purple",
+      "path": "assets/12bd7c1c527b65c011a09a6b27beaae526bddadc37456bdf0163a94ecff82781.png",
+      "bytes": 8227,
+      "media_type": "image/png",
+      "width": 800,
+      "height": 800,
+      "license": "CC0-1.0",
+      "items": [
+        "which-purple"
+      ],
+      "visual_review": "pending"
+    },
+    {
+      "picture": "can-roll",
+      "path": "assets/32fd532363aa742cff1765221bc6c474a5243f101ca2e0e82b5f304fed062d60.png",
+      "bytes": 7990,
+      "media_type": "image/png",
+      "width": 800,
+      "height": 800,
+      "license": "CC0-1.0",
+      "items": [
+        "can-roll"
+      ],
+      "visual_review": "pending"
+    }
+  ]
+}

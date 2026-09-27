@@ -10,5 +10,21 @@
   {
     "slug": "tiny-puzzles",
     "distribution": "library"
+  },
+  {
+    "slug": "tell-the-time",
+    "distribution": "library"
+  },
+  {
+    "slug": "moon-and-sky",
+    "distribution": "library"
+  },
+  {
+    "slug": "breathe",
+    "distribution": "library"
+  },
+  {
+    "slug": "shapes-and-colours",
+    "distribution": "library"
   }
 ]

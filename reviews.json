@@ -946,6 +946,94 @@
       },
       "verdict": "preview",
       "notes": "Automated review in the mantel-asset-review sandbox (plan step 38, layout): recommend approve, no findings above note. Identity, design, content, licence and the fluent (bg) reading await the owner."
+    },
+    {
+      "id": "mantel/tell-the-time",
+      "version": "1.0.0",
+      "kind": "pack",
+      "archive_sha256": "5cf51d3732b7456cd692bfa9021ec63bf3ce30f983e378749463c2e4a769f472",
+      "source_sha256": "1cd9e3578ca61125e4432a432d243a462a54aabd89e7be5eee48fac80b328e26",
+      "submitter_handle": "mantel",
+      "reviewer": null,
+      "reviewed_at": "2026-09-27",
+      "statuses": {
+        "identity": "pending",
+        "structure": "pass",
+        "security": "pass",
+        "design": "pending",
+        "content": "pending",
+        "licence": "pending",
+        "listening": "not-applicable",
+        "fluent": "pending"
+      },
+      "verdict": "preview",
+      "notes": "Automated review in the mantel-asset-review sandbox (plan step 39, activity; re-run after the content review): recommend approve; findings only minor SEC-TEXT-URL (the credits' own source links) and notes. Identity, design, content, licence and the fluent (bg) reading await the owner, whose review decides whether it becomes included (D5, step 40). Drawn in code, no audio; text drafted with AI assistance."
+    },
+    {
+      "id": "mantel/moon-and-sky",
+      "version": "1.0.0",
+      "kind": "pack",
+      "archive_sha256": "22d22fa9fdd133b30b0067cd3b77403427f03f090802eb78afbfb6c119a5b1fb",
+      "source_sha256": "ef96aa8231e336d77439dd6271a3bb7c2ff1364908c0b58f5d343d01328f550b",
+      "submitter_handle": "mantel",
+      "reviewer": null,
+      "reviewed_at": "2026-09-27",
+      "statuses": {
+        "identity": "pending",
+        "structure": "pass",
+        "security": "pass",
+        "design": "pending",
+        "content": "pending",
+        "licence": "pending",
+        "listening": "not-applicable",
+        "fluent": "pending"
+      },
+      "verdict": "preview",
+      "notes": "Automated review in the mantel-asset-review sandbox (plan step 39, activity; re-run after the content review): recommend approve; findings only minor SEC-TEXT-URL (the credits' own source links) and notes. Identity, design, content (facts against NASA and SIMBAD, brief.md), licence and the fluent (bg) reading await the owner. Drawn in code, no audio; text drafted with AI assistance."
+    },
+    {
+      "id": "mantel/breathe",
+      "version": "1.0.0",
+      "kind": "pack",
+      "archive_sha256": "ff38500af2f594bf74b6b87e7b2912e45722ccff453ce9afe7412f1559cc5669",
+      "source_sha256": "c91e95d19a71bf966b7e87f3953618e06b2af386ae19afc83ce732d1835147af",
+      "submitter_handle": "mantel",
+      "reviewer": null,
+      "reviewed_at": "2026-09-27",
+      "statuses": {
+        "identity": "pending",
+        "structure": "pass",
+        "security": "pass",
+        "design": "pending",
+        "content": "pending",
+        "licence": "pending",
+        "listening": "not-applicable",
+        "fluent": "not-applicable"
+      },
+      "verdict": "preview",
+      "notes": "Automated review in the mantel-asset-review sandbox (plan step 39, activity; re-run after the content review): recommend approve; findings only minor SEC-TEXT-URL (the credits' own source links) and notes. Identity, design, content and licence await the owner. English only; drawn in code, no audio, nothing animates; text drafted with AI assistance."
+    },
+    {
+      "id": "mantel/shapes-and-colours",
+      "version": "1.0.0",
+      "kind": "pack",
+      "archive_sha256": "2b54c818ba7e95329fad39a760287be4717ea7c30b2a3c9cc00e210bf77f265b",
+      "source_sha256": "82cd85cd4ff24b1dff6781f14bd00f747981c2f3988e6344065a35b3a86b95aa",
+      "submitter_handle": "mantel",
+      "reviewer": null,
+      "reviewed_at": "2026-09-27",
+      "statuses": {
+        "identity": "pending",
+        "structure": "pass",
+        "security": "pass",
+        "design": "pending",
+        "content": "pending",
+        "licence": "pending",
+        "listening": "not-applicable",
+        "fluent": "pending"
+      },
+      "verdict": "preview",
+      "notes": "Automated review in the mantel-asset-review sandbox (plan step 39, activity; re-run after the content review): recommend approve; findings only minor SEC-TEXT-URL (the credits' own source links) and notes. Identity, design (incl. colour-vision), content, licence and the fluent (bg) reading await the owner. Drawn in code, no audio; text drafted with AI assistance."
     }
   ]
 }

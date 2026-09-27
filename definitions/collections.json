@@ -53,11 +53,15 @@
     {
       "id": "learning",
       "title": "Learning together",
-      "description": "Short activities to share with a child: first words, animal sounds and small puzzles.",
+      "description": "Short activities to share with a child: first words, animal sounds, small puzzles, telling the time, the Moon and stars, shapes and colours, and a slow breath.",
       "items": [
         "mantel/first-words",
         "mantel/animal-sounds",
-        "mantel/tiny-puzzles"
+        "mantel/tiny-puzzles",
+        "mantel/tell-the-time",
+        "mantel/moon-and-sky",
+        "mantel/shapes-and-colours",
+        "mantel/breathe"
       ]
     },
     {
