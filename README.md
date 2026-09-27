@@ -22,6 +22,9 @@ runtime. See [format/README.md](format/README.md) and the
   `distribution` says where it goes: `included` ships inside Mantel, `library` is offered
   online only.
 - `definitions/starters.json`: nine included layout sources, currently development releases.
+- `definitions/collections.json`: the collections the online library shows on *Get more*: an
+  id, a title, one sentence and, in order, 2 to 24 ids the two catalogs list (definitions and
+  activities alike). Host builds sign it as a target of its own; see *Collections* below.
 - `packs/`: activity sources, exact media and credits. `packs/catalog.json` lists each
   catalogued activity by slug with its `distribution`.
 - `contracts/`: schemas, vocabulary and the valid/invalid conformance corpus.
@@ -46,6 +49,15 @@ included previews total at most 3 MB.
 The activity sources are **preview material**, awaiting human content, language and
 listening review. A build or a signature is not a content endorsement. The source seed
 and tool release do not publish a new catalog to household hosts.
+
+### Collections
+
+A collection is a short, editorial group: *Calm and quiet*, *For the kitchen*. Keep a title
+under 60 characters and the sentence under 200, in plain words about what the group is for,
+not a list of what it holds. Order matters: the first four are what a household sees before
+*See all*. `tools/check.py` refuses an unknown or repeated id, an item no catalog lists, and
+control or bidirectional formatting characters. A collection may name included items as well as
+library ones; hosts mark what a household already has.
 
 Use [Submit an asset](https://github.com/atanasster/mantel-library/issues/new?template=submit-asset.yml).
 Issues and pull requests are public: remove household data, private paths, credentials,
