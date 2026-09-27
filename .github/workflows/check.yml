@@ -3,10 +3,39 @@ on:
   push:
     branches: [main]
   pull_request:
+    branches: [main]
 permissions:
   contents: read
 jobs:
+  # Who may change what (tools/pr_gate.py). The base commit is checked out and the head is
+  # fetched as git objects only: nothing from the head is installed, imported or run, and the
+  # author's numeric id comes from the event (set by GitHub) through the environment. This is an
+  # early, ADVISORY signal: a pull_request workflow comes from the pull request, which can edit
+  # it. The gate that decides is the owner's merge command, tools/merge_pr.py (README).
+  # pull_request only, never pull_request_target: no secret or write token is in reach.
+  gate:
+    if: github.event_name == 'pull_request'
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.base.sha }}
+          fetch-depth: 0
+          persist-credentials: false
+      - name: Fetch the head commit as data
+        env:
+          PR_NUMBER: ${{ github.event.pull_request.number }}
+        run: git fetch --no-tags --quiet origin "+refs/pull/${PR_NUMBER}/head:refs/remotes/pr/head"
+      - name: Publisher and maintainer gate (advisory)
+        env:
+          PR_AUTHOR_ID: ${{ github.event.pull_request.user.id }}
+          BASE_SHA: ${{ github.event.pull_request.base.sha }}
+          HEAD_SHA: ${{ github.event.pull_request.head.sha }}
+        run: python3 -I tools/pr_gate.py --repo . --base-sha "$BASE_SHA" --head-sha "$HEAD_SHA" --author-id "$PR_AUTHOR_ID"
   validate:
+    needs: gate
+    if: ${{ always() && (needs.gate.result == 'success' || needs.gate.result == 'skipped') }}
     runs-on: ubuntu-latest
     timeout-minutes: 10
     # The pinned release environment (format/release-environment.json): the rebuild gate
