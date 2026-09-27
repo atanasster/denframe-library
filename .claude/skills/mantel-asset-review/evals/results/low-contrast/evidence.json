@@ -10,7 +10,8 @@
       "id": 7700002
     },
     "source": "local",
-    "number": null
+    "number": null,
+    "head_sha": null
   },
   "release": {
     "id": "quill/pale-morning",
@@ -119,7 +120,7 @@
     "submitted_archive_sha256": "97ce5768da721ad5d374e1cca05f89d04dbe3852426d04440ea0e3ec6a1968da",
     "rebuild": "not run",
     "unpacked_source_sha256": null,
-    "source_sha256": "pending: A definition's source hash is its catalog entry's (tools/check.py `reviewed_source`: the entry without `distribution`), and the entry gains its slug, mood and description when it is added in step 36; set `source_sha256` then.",
+    "source_sha256": "pending: A definition's source hash is its catalog entry's (tools/check.py `reviewed_source`: the entry without `distribution`); the entry gains its slug, mood and description when `tools/intake.py unpack` adds it, and `tools/intake.py approve` computes `source_sha256` from the tree when the owner records their decision.",
     "submitter_account": {
       "login": "quill-author",
       "id": 7700002

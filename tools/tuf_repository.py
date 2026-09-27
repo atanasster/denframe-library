@@ -62,6 +62,11 @@ from tuf.api.metadata import (
 EXPIRY_DAYS = {"timestamp": 7, "snapshot": 30, "targets": 365, "root": 730}
 # `status` fails this many days before targets or root lapse, so the owner has time to sign.
 WARNING_DAYS = {"targets": 60, "root": 90}
+# D32: once targets metadata passes 1 MB, it is split into hash-bin delegations. This tool does
+# not make delegations yet, so signing a larger top-level targets file is refused (a host would
+# download all of it on every check), and `status` fails when the current one nears the limit.
+HASH_BIN_THRESHOLD = 1024 * 1024
+HASH_BIN_WARNING = 0.8
 PREFIXES = ("definitions", "packs", "previews")
 PUBLIC_KEY_ROLES = ("root", "targets", "online")
 _NAME = re.compile(r"[A-Za-z0-9][A-Za-z0-9._-]{0,199}")
@@ -444,9 +449,12 @@ def _stage_chain(
     plan: _Plan,
     targets: Metadata[Targets] | None = None,
     targets_signer: CryptoSigner | None = None,
+    after: int = 0,
 ) -> State:
     """Sign, against `root`, new targets (when given), a new snapshot and a timestamp that names
-    that exact snapshot; add them to `plan` and verify them before anything is written."""
+    that exact snapshot; add them to `plan` and verify them before anything is written. Snapshot
+    and timestamp are numbered past `after` too: the versions the website already serves, which
+    the daily renewal may have moved past this directory's (`library_served.py`)."""
     _require(root, "snapshot", online, "online")
     _require(root, "timestamp", online, "online")
     targets_versioned: list[tuple[Path, bytes]] = []
@@ -457,6 +465,7 @@ def _stage_chain(
         targets.signatures.clear()
         targets.sign(targets_signer)
         target_bytes = targets.to_bytes()
+        _within_hash_bin_threshold(targets, len(target_bytes))
         targets_versioned.append(
             (state.metadata / f"{targets.signed.version}.targets.json", target_bytes)
         )
@@ -466,7 +475,9 @@ def _stage_chain(
         targets = state.targets
         target_bytes = _bytes(state.metadata / f"{targets.signed.version}.targets.json")
     version = max(
-        state.snapshot.signed.version if state.snapshot else 0, _highest(state.metadata, "snapshot")
+        state.snapshot.signed.version if state.snapshot else 0,
+        _highest(state.metadata, "snapshot"),
+        after,
     )
     snapshot = Metadata(
         Snapshot(
@@ -483,7 +494,7 @@ def _stage_chain(
     snapshot_bytes = snapshot.to_bytes()
     timestamp = Metadata(
         Timestamp(
-            version=(state.timestamp.signed.version if state.timestamp else 0) + 1,
+            version=max(state.timestamp.signed.version if state.timestamp else 0, after) + 1,
             expires=_expires("timestamp", now),
             snapshot_meta=MetaFile(
                 snapshot.signed.version, len(snapshot_bytes), {"sha256": _sha256(snapshot_bytes)}
@@ -499,6 +510,16 @@ def _stage_chain(
     ]
     plan.timestamp = timestamp.to_bytes()
     return State(state.directory, state.roots, targets, snapshot, timestamp)
+
+
+def _within_hash_bin_threshold(targets: Metadata[Targets], length: int) -> None:
+    """D32: a top-level targets file past the threshold needs hash-bin delegations first."""
+    if length > HASH_BIN_THRESHOLD and targets.signed.delegations is None:
+        raise RepositoryError(
+            f"targets v{targets.signed.version} would be {length:,} bytes, over D32's "
+            f"{HASH_BIN_THRESHOLD:,}-byte limit for one targets file: split it into hash-bin "
+            "delegations before publishing more (docs/operations/LIBRARY_TUF_OPERATIONS.md)."
+        )
 
 
 def _next_targets(state: State, now: datetime) -> Metadata[Targets]:
@@ -626,9 +647,11 @@ def revoke(
     *,
     development: bool = False,
     now: datetime | None = None,
+    after: int = 0,
 ) -> State:
     """Add `{id, version, reason, date}` to the signed revoked list, then re-sign targets,
-    snapshot and timestamp. Entries are never removed."""
+    snapshot and timestamp (numbered past `after`, see `_stage_chain`). Entries are never
+    removed."""
     state = _open(directory, development=development)
     if state.targets is None:
         raise RepositoryError("Nothing is published yet; run publish first.")
@@ -655,7 +678,7 @@ def revoke(
         [*current, entry], key=lambda item: (item["id"], item["version"])
     )
     plan = _Plan()
-    result = _stage_chain(state, state.root, online, moment, plan, targets, targets_signer)
+    result = _stage_chain(state, state.root, online, moment, plan, targets, targets_signer, after)
     _commit(state, plan)
     return result
 
@@ -807,6 +830,14 @@ def status(
     ]
     if state.timestamp is None:
         problems.append("Nothing is published yet.")
+    if state.targets is not None and state.targets.signed.delegations is None:
+        size = (state.metadata / f"{state.targets.signed.version}.targets.json").stat().st_size
+        if size > HASH_BIN_THRESHOLD * HASH_BIN_WARNING:
+            problems.append(
+                f"targets is {size:,} bytes, {size * 100 // HASH_BIN_THRESHOLD}% of D32's "
+                f"{HASH_BIN_THRESHOLD:,}-byte limit; add hash-bin delegations before the next "
+                "publish crosses it (publish refuses past it)."
+            )
     for row in rows:
         if row.days <= 0:
             problems.append(f"{row.role} expired on {row.expires.isoformat()}.")

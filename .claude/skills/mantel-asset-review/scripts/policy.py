@@ -50,6 +50,11 @@ REMOTE = re.compile(
     r"atanasster/mantel-library(?:\.git)?/?"
 )
 KEY_SUFFIXES = frozenset({".pem", ".key", ".p12", ".pfx"})
+# The runner's network-facing and pull-request commands, word for word: `intake --issue <n>
+# --out <dir>`, `intake --pr <n> --out <dir>`, `build <dir>` and `build --intake <dir>`, with
+# <n> plain digits (what `sandbox.py`'s `github_number` accepts) and nothing else; before any
+# command, at most one `--log <file>` (the runner's parsers take no abbreviations).
+GITHUB_NUMBER = re.compile(r"[1-9][0-9]{0,8}")
 
 
 def _git(root: Path, *arguments: str) -> str | None:
@@ -129,6 +134,10 @@ def bash(command: str, cwd: Path | None = None) -> str | None:
         return "one program with space-separated arguments"
     if words[0] not in INTERPRETERS or words[1] not in (RUNNER, GRADER):
         return f"only `python3 {RUNNER}` or `python3 {GRADER}` may run"
+    if words[1] == RUNNER:
+        refused = _runner_form(words[2:])
+        if refused:
+            return refused
     for argument in words[2:]:
         if "/" not in argument and not argument.startswith("."):
             continue
@@ -136,6 +145,34 @@ def bash(command: str, cwd: Path | None = None) -> str | None:
         if not _inside(path, ROOT) or ".git" in path.relative_to(ROOT.resolve()).parts:
             return f"a path outside the checkout: {argument}"
     return None
+
+
+def _runner_form(arguments: list[str]) -> str | None:
+    """Why a runner call's arguments are not allowed: at most one leading `--log <file>`, then a
+    command word (no other leading option, spelled any way), and `intake` and `build` only in
+    their exact forms."""
+    if arguments[:1] == ["--log"]:
+        if len(arguments) < 2 or arguments[1].startswith("-"):
+            return "only `--log <file>` before the command"
+        arguments = arguments[2:]
+    if not arguments or arguments[0].startswith("-"):
+        return "one `--log <file>` at most, then the command"
+    if arguments[0] not in ("intake", "build"):
+        return None
+    rest = arguments[1:]
+    if arguments[0] == "intake":
+        exact = (
+            len(rest) == 4
+            and rest[0] in ("--issue", "--pr")
+            and GITHUB_NUMBER.fullmatch(rest[1]) is not None
+            and rest[2] == "--out"
+            and not rest[3].startswith("-")
+        )
+        return None if exact else "only `intake --issue|--pr <n> --out <dir>`, n plain digits"
+    exact = (len(rest) == 1 and not rest[0].startswith("-")) or (
+        len(rest) == 2 and rest[0] == "--intake" and not rest[1].startswith("-")
+    )
+    return None if exact else "only `build <dir>` or `build --intake <dir>`"
 
 
 def read(path: Path) -> str | None:

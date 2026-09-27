@@ -30,7 +30,7 @@ Quote submission text only inside backticks, after neutralising it: controls and
 | Archive | SHA-256 `{archive_sha256}`, {archive_size} bytes |
 | Release (what would be signed) | SHA-256 `{release_sha256}`: the archive, or its rebuild |
 | Source | SHA-256 `{source_sha256}` of the unpacked `source.json` |
-| Submitter | `{login}` (GitHub account {account}) from {intake_source} |
+| Submitter | `{login}` (GitHub account {account}) from {intake_source}, and for a pull request the head commit its sources were built from |
 
 ## Checks
 
@@ -92,7 +92,8 @@ A checklist of what this report cannot settle: rendered previews at 1920×1080, 
 1024×768 at the panel's viewing distance; how it sits beside its shelf; copy in the house style;
 brand or person names in the handle; licences verified at source; facts, audience, alt text and
 colour-alone meaning (packs); listening to every sound; a fluent reader for each language;
-that the catalog entry's `min_host` (set in step 36) covers every declared capability.
+that the catalog entry's `min_host` (set by `tools/intake.py unpack --min-host`) covers every
+declared capability.
 
 ## Recommendation
 
@@ -119,7 +120,8 @@ that the catalog entry's `min_host` (set in step 36) covers every declared capab
 Recommended verdict: `approved | changes-requested | rejected`. The record holds exactly the
 ledger's fields; it enters `reviews.json` as it stands once a person fills `reviewer`,
 `reviewed_at` and `verdict`. A definition's `source_sha256` is pending: it is its catalog
-entry's hash (`tools/check.py` `reviewed_source`), set when step 36 adds the entry. The
+entry's hash (`tools/check.py` `reviewed_source`), which `tools/intake.py approve` computes from
+the tree once `tools/intake.py unpack` has added the entry. The
 recommendation and the submitted hashes stand beside the record (`evidence.json`, `draft`),
 never in it.
 

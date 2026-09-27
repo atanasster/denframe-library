@@ -42,12 +42,10 @@ below 2.0. An update is never compared with the release it replaces (same id).
   above carries the decision; the perceptual reading only says what the number means.
 - The measure compares palettes only: a look that swaps its background and surface for the
   opposite family scores high, and a person still judges whether it reads as new.
-- Against plan §5.1's ten planned looks: every planned look clears every catalogued look (the
-  closest are Riso–Modern 2.01 and Fjord–Modern 2.20), but three planned looks sit under 2.0 of
-  *each other*: **Fjord–Riso 1.84** and **Fjord–Harbour 1.87** (Harbour–Riso 2.08 passes).
-  Whichever of them is reviewed after another is catalogued fails `DES-NOT-DISTINCT` until its
-  palette moves -- a decision for step 37 (move Fjord's surfaces or type, or have the owner accept
-  the pair with its different background and layout as the difference).
+- Against plan §5.1's ten looks as first drawn: each cleared every catalogued look (the closest
+  Riso–Modern 2.01), but **Fjord–Riso 1.84** and **Fjord–Harbour 1.87** failed each other. The
+  threshold held and the palette moved instead: Fjord's `mutedText` became `#365c62` (2.21 and
+  2.26), and all ten joined the catalog clearing 2.0 against every other look.
 
 The report also names the base look, background kind and layout. A person may weigh a
 different illustrated background or layout as distinctness the palette measure cannot see, but
@@ -59,7 +57,10 @@ records that as their decision; the finding stays.
   images. The sandbox does not render; use the website's own renderer offline -- the local
   build of `/library/submit` checks the file and draws the three shapes in the browser without
   uploading it (`npm --prefix frontend run dev:site`) -- or, for a catalog candidate, the
-  preview captures step 36 makes. Never import into the household host to look at it.
+  previews the host captures before signing (the `library-release.spec.ts` Playwright spec with
+  `UPDATE_LIBRARY_PREVIEWS=1` for definitions, `pack-release.spec.ts` with
+  `UPDATE_PACK_PREVIEWS=1` for packs; the host's `docs/operations/LIBRARY_PUBLISHING.md`).
+  Never import into the household host to look at it.
 - **Fit and geometry**: nothing clipped, overlapping or scrolling at the three shapes; a layout's
   landscape and portrait arrangements both read.
 - **Legibility at the panel's default distance** (the dashboard-design skill's type scale).

@@ -10,7 +10,8 @@
       "id": 7700002
     },
     "source": "local",
-    "number": null
+    "number": null,
+    "head_sha": null
   },
   "release": {
     "id": "quill/garden-shapes",

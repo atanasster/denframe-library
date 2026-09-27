@@ -171,10 +171,16 @@ Run `python tools/privacy-check.py .` on the concrete tree before any first push
 
 `tools/tuf_repository.py` (mirrored from the host) operates the online library's TUF
 repository: `init`, `publish`, `revoke`, `renew`, `rotate-root` and `status`. The
-`Renew library metadata` workflow runs `renew` and `status` daily against the staging
-repository on the `metadata-staging` branch, with only the online key from the protected
-`release` environment, and opens or comments on an issue labelled `metadata-renewal` when it
-fails. It stays off until the repository variable `LIBRARY_RENEWAL` is `on`, which the owner
-sets at the pre-launch gate. Its runtime is `tools/requirements-release.lock`. The host's
-`docs/operations/LIBRARY_TUF_OPERATIONS.md` is the runbook: roles, keys, rotation, key loss,
-lapse and takedown.
+repository households verify is the one the website serves
+(`https://smart.meggy.com/library/metadata/`), and that served copy is the one source of truth;
+nothing in this repository holds a copy of it. The `Renew library metadata` workflow runs daily:
+`tools/library_served.py pull` reads the served metadata and verifies it from the pinned root
+(the repository variable `LIBRARY_ROOT_SHA256`), `renew` signs a new snapshot and timestamp
+with only the online key from the protected `release` environment, `library_served.py publish`
+adds just those two files to the live Firebase Hosting site through its REST API (a clone of the
+live version plus the two files, released; the site is never redeployed), and `status` checks
+every role's expiry. It opens or comments on an issue labelled `metadata-renewal` when it fails.
+It stays off until the repository variable `LIBRARY_RENEWAL` is `on`, which the owner sets at
+the pre-launch gate. Its runtime is `tools/requirements-release.lock`. The host's
+`docs/operations/LIBRARY_TUF_OPERATIONS.md` is the runbook: roles, keys, the served repository,
+rotation, key loss, lapse and takedown.
