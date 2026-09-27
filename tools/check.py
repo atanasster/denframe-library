@@ -1,6 +1,7 @@
 """Validate public sources, mirror integrity and the shared standalone conformance corpus."""
 import hashlib
 import json
+import re
 import runpy
 import tempfile
 from pathlib import Path
@@ -53,6 +54,50 @@ def check_included(item, definition):
         raise ValueError(f"{item['id']}: included items must not need an account ({', '.join(bound)})")
 
 
+# Collections (`definitions/collections.json`): curated groups the online library lists in order.
+COLLECTION_ID = re.compile(r"[a-z][a-z0-9-]{0,39}")
+COLLECTION_FIELDS = {"id", "title", "description", "items"}
+MAX_COLLECTIONS = 32
+COLLECTION_ITEMS = (2, 24)
+CONTROL = re.compile(r"[\x00-\x1f\x7f-\x9f\u200e\u200f\u202a-\u202e\u2066-\u2069]")
+
+
+def plain_text(value, limit, where):
+    """One line of plain text, 1..limit characters, no control or bidi formatting."""
+    if not isinstance(value, str) or not value.strip() or len(value) > limit or CONTROL.search(value):
+        raise ValueError(f"{where}: must be plain text of 1 to {limit} characters")
+    return value
+
+
+def check_collections(known):
+    """Each collection: a unique id, a title, one sentence, and 2-24 distinct catalogued ids
+    (`known`: every id `definitions/catalog.json` and `packs/catalog.json` list), in order."""
+    document = json.loads((ROOT / "definitions/collections.json").read_text())
+    if set(document) != {"schema_version", "collections"} or document["schema_version"] != 1:
+        raise ValueError("definitions/collections.json must be {schema_version: 1, collections: [...]}")
+    collections = document["collections"]
+    if not isinstance(collections, list) or not 0 < len(collections) <= MAX_COLLECTIONS:
+        raise ValueError(f"definitions/collections.json: 1 to {MAX_COLLECTIONS} collections")
+    seen = set()
+    for collection in collections:
+        if not isinstance(collection, dict) or set(collection) != COLLECTION_FIELDS:
+            raise ValueError(f"definitions/collections.json: each collection has exactly {sorted(COLLECTION_FIELDS)}")
+        ident = collection["id"]
+        if not isinstance(ident, str) or not COLLECTION_ID.fullmatch(ident) or ident in seen:
+            raise ValueError(f"definitions/collections.json: invalid or repeated id {ident!r}")
+        seen.add(ident)
+        plain_text(collection["title"], 60, f"collection {ident} title")
+        plain_text(collection["description"], 200, f"collection {ident} description")
+        items = collection["items"]
+        low, high = COLLECTION_ITEMS
+        if not isinstance(items, list) or not low <= len(items) <= high or len(set(items)) != len(items):
+            raise ValueError(f"collection {ident}: {low} to {high} distinct items")
+        unknown = sorted(item for item in items if item not in known)
+        if unknown:
+            raise ValueError(f"collection {ident} names items the catalogs don't list: {', '.join(map(str, unknown))}")
+    return len(collections)
+
+
 def pack_catalog():
     """`packs/catalog.json`: each listed activity source's slug and distribution, once."""
     entries = json.loads((ROOT / "packs/catalog.json").read_text())
@@ -82,6 +127,7 @@ def check():
         assert inspect_archive(path).layers == case["expected"]["cli"], case["id"]
     ledger = read_ledger((ROOT / "reviews.json").read_bytes())
     count = reviewed = included = 0
+    catalogued = set()
     with tempfile.TemporaryDirectory() as temp:
         target = Path(temp) / "asset.mantelpack"
         for catalog in ("catalog.json", "starters.json"):
@@ -92,6 +138,7 @@ def check():
                 assert "fail" not in inspect_archive(target).layers.values(), item["id"]
                 # Starters are development releases until promoted; promotion needs a record.
                 if catalog == "catalog.json":
+                    catalogued.add(item["id"])
                     placed = distribution(item, f"definitions/catalog.json {item['id']}")
                     if placed == "included":
                         check_included(item, definition)
@@ -114,6 +161,7 @@ def check():
         for slug, source in sorted(sources.items()):
             item, _, archive = read_source(source)
             if slug in listed:
+                catalogued.add(item["id"])
                 require_review(
                     ledger,
                     item["id"],
@@ -125,9 +173,10 @@ def check():
                 reviewed += 1
                 included += listed[slug] == "included"
             count += 1
+    collections = check_collections(catalogued)
     print(
         f"Validated {count} sources ({reviewed} with exact review records, {included} included), "
-        f"{len(index['archives'])} conformance archives and mirror hashes."
+        f"{collections} collections, {len(index['archives'])} conformance archives and mirror hashes."
     )
 
 
