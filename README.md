@@ -55,9 +55,11 @@ What Mantel includes is what a new household needs on day one without an account
 source (a market watchlist needs the Stocks key). The host build adds the last rule: the
 included previews total at most 3 MB.
 
-The activity sources are **preview material**, awaiting human content, language and
-listening review. A build or a signature is not a content endorsement. The source seed
-and tool release do not publish a new catalog to household hosts.
+Tell the Time is the one approved activity: the owner reviewed its content and Bulgarian, and
+it is included with Mantel. The other activity sources are **preview material**, awaiting human
+content, language and listening review (`reviews.json` says which). A build or a signature is
+not a content endorsement. The source seed and tool release do not publish a new catalog to
+household hosts.
 
 ### Collections
 
