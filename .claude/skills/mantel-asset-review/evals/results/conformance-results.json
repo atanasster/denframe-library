@@ -994,6 +994,300 @@
   ]
  },
  {
+  "case": "localized-bad-locale",
+  "recommendation": "changes requested",
+  "layers": {
+   "archive": "pass",
+   "json": "pass",
+   "schema": "fail",
+   "capabilities": "not checked",
+   "contrast": "not checked",
+   "media": "not checked",
+   "trust": "not checked"
+  },
+  "findings": [
+   "STRUCT-SCHEMA",
+   "ID-HANDLE-NEW",
+   "DES-PREVIEWS-PENDING"
+  ]
+ },
+ {
+  "case": "localized-bidi",
+  "recommendation": "changes requested",
+  "layers": {
+   "archive": "pass",
+   "json": "fail",
+   "schema": "not checked",
+   "capabilities": "not checked",
+   "contrast": "not checked",
+   "media": "not checked",
+   "trust": "not checked"
+  },
+  "findings": [
+   "SEC-TEXT-ENCODING",
+   "ID-HANDLE-NEW",
+   "DES-PREVIEWS-PENDING"
+  ]
+ },
+ {
+  "case": "localized-blank",
+  "recommendation": "changes requested",
+  "layers": {
+   "archive": "pass",
+   "json": "pass",
+   "schema": "fail",
+   "capabilities": "not checked",
+   "contrast": "not checked",
+   "media": "not checked",
+   "trust": "not checked"
+  },
+  "findings": [
+   "STRUCT-SCHEMA",
+   "ID-HANDLE-NEW",
+   "DES-PREVIEWS-PENDING"
+  ]
+ },
+ {
+  "case": "localized-control",
+  "recommendation": "changes requested",
+  "layers": {
+   "archive": "pass",
+   "json": "fail",
+   "schema": "not checked",
+   "capabilities": "not checked",
+   "contrast": "not checked",
+   "media": "not checked",
+   "trust": "not checked"
+  },
+  "findings": [
+   "SEC-TEXT-ENCODING",
+   "ID-HANDLE-NEW",
+   "DES-PREVIEWS-PENDING"
+  ]
+ },
+ {
+  "case": "localized-description-over-limit",
+  "recommendation": "changes requested",
+  "layers": {
+   "archive": "pass",
+   "json": "pass",
+   "schema": "fail",
+   "capabilities": "not checked",
+   "contrast": "not checked",
+   "media": "not checked",
+   "trust": "not checked"
+  },
+  "findings": [
+   "STRUCT-SCHEMA",
+   "ID-HANDLE-NEW",
+   "DES-PREVIEWS-PENDING"
+  ]
+ },
+ {
+  "case": "localized-empty-entry",
+  "recommendation": "changes requested",
+  "layers": {
+   "archive": "pass",
+   "json": "pass",
+   "schema": "fail",
+   "capabilities": "not checked",
+   "contrast": "not checked",
+   "media": "not checked",
+   "trust": "not checked"
+  },
+  "findings": [
+   "STRUCT-SCHEMA",
+   "ID-HANDLE-NEW",
+   "DES-PREVIEWS-PENDING"
+  ]
+ },
+ {
+  "case": "localized-empty-map",
+  "recommendation": "changes requested",
+  "layers": {
+   "archive": "pass",
+   "json": "pass",
+   "schema": "fail",
+   "capabilities": "not checked",
+   "contrast": "not checked",
+   "media": "not checked",
+   "trust": "not checked"
+  },
+  "findings": [
+   "STRUCT-SCHEMA",
+   "ID-HANDLE-NEW",
+   "DES-PREVIEWS-PENDING"
+  ]
+ },
+ {
+  "case": "localized-joined",
+  "recommendation": "changes requested",
+  "layers": {
+   "archive": "pass",
+   "json": "pass",
+   "schema": "pass",
+   "capabilities": "pass",
+   "contrast": "pass",
+   "media": "not applicable",
+   "trust": "not checked"
+  },
+  "findings": [
+   "DES-NOT-DISTINCT",
+   "ID-HANDLE-NEW",
+   "STRUCT-REBUILD-DIFFERS",
+   "DES-LOCALIZED-PARTIAL",
+   "DES-PREVIEWS-PENDING",
+   "CON-FLUENT-NEEDED"
+  ]
+ },
+ {
+  "case": "localized-missing-capability",
+  "recommendation": "changes requested",
+  "layers": {
+   "archive": "pass",
+   "json": "pass",
+   "schema": "pass",
+   "capabilities": "fail",
+   "contrast": "not checked",
+   "media": "not checked",
+   "trust": "not checked"
+  },
+  "findings": [
+   "STRUCT-CAPABILITIES",
+   "ID-HANDLE-NEW",
+   "DES-PREVIEWS-PENDING"
+  ]
+ },
+ {
+  "case": "localized-mood-over-limit",
+  "recommendation": "changes requested",
+  "layers": {
+   "archive": "pass",
+   "json": "pass",
+   "schema": "fail",
+   "capabilities": "not checked",
+   "contrast": "not checked",
+   "media": "not checked",
+   "trust": "not checked"
+  },
+  "findings": [
+   "STRUCT-SCHEMA",
+   "ID-HANDLE-NEW",
+   "DES-PREVIEWS-PENDING"
+  ]
+ },
+ {
+  "case": "localized-name-over-limit",
+  "recommendation": "changes requested",
+  "layers": {
+   "archive": "pass",
+   "json": "pass",
+   "schema": "fail",
+   "capabilities": "not checked",
+   "contrast": "not checked",
+   "media": "not checked",
+   "trust": "not checked"
+  },
+  "findings": [
+   "STRUCT-SCHEMA",
+   "ID-HANDLE-NEW",
+   "DES-PREVIEWS-PENDING"
+  ]
+ },
+ {
+  "case": "localized-too-many-locales",
+  "recommendation": "changes requested",
+  "layers": {
+   "archive": "pass",
+   "json": "pass",
+   "schema": "fail",
+   "capabilities": "not checked",
+   "contrast": "not checked",
+   "media": "not checked",
+   "trust": "not checked"
+  },
+  "findings": [
+   "STRUCT-SCHEMA",
+   "ID-HANDLE-NEW",
+   "DES-PREVIEWS-PENDING"
+  ]
+ },
+ {
+  "case": "localized-unknown-field",
+  "recommendation": "changes requested",
+  "layers": {
+   "archive": "pass",
+   "json": "pass",
+   "schema": "fail",
+   "capabilities": "not checked",
+   "contrast": "not checked",
+   "media": "not checked",
+   "trust": "not checked"
+  },
+  "findings": [
+   "STRUCT-SCHEMA",
+   "ID-HANDLE-NEW",
+   "DES-PREVIEWS-PENDING"
+  ]
+ },
+ {
+  "case": "localized-uppercase-locale",
+  "recommendation": "changes requested",
+  "layers": {
+   "archive": "pass",
+   "json": "pass",
+   "schema": "fail",
+   "capabilities": "not checked",
+   "contrast": "not checked",
+   "media": "not checked",
+   "trust": "not checked"
+  },
+  "findings": [
+   "STRUCT-SCHEMA",
+   "ID-HANDLE-NEW",
+   "DES-PREVIEWS-PENDING"
+  ]
+ },
+ {
+  "case": "localized-valid",
+  "recommendation": "changes requested",
+  "layers": {
+   "archive": "pass",
+   "json": "pass",
+   "schema": "pass",
+   "capabilities": "pass",
+   "contrast": "pass",
+   "media": "not applicable",
+   "trust": "not checked"
+  },
+  "findings": [
+   "DES-NOT-DISTINCT",
+   "ID-HANDLE-NEW",
+   "STRUCT-REBUILD-DIFFERS",
+   "DES-LOCALIZED-PARTIAL",
+   "DES-PREVIEWS-PENDING",
+   "CON-FLUENT-NEEDED"
+  ]
+ },
+ {
+  "case": "localized-zero-width",
+  "recommendation": "changes requested",
+  "layers": {
+   "archive": "pass",
+   "json": "pass",
+   "schema": "fail",
+   "capabilities": "not checked",
+   "contrast": "not checked",
+   "media": "not checked",
+   "trust": "not checked"
+  },
+  "findings": [
+   "STRUCT-SCHEMA",
+   "ID-HANDLE-NEW",
+   "DES-PREVIEWS-PENDING"
+  ]
+ },
+ {
   "case": "mantel-unsigned",
   "recommendation": "recommend reject",
   "layers": {

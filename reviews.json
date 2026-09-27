@@ -418,6 +418,226 @@
       },
       "verdict": "preview",
       "notes": "Automated primary-source license inspection and archive validation; no human listening or fluent review."
+    },
+    {
+      "id": "mantel/theme-nocturne",
+      "version": "1.0.0",
+      "kind": "definition",
+      "archive_sha256": "8f5f4c8355b59185f7554789a7f7f49aed64dd396595aa63fe62a527ec530041",
+      "source_sha256": "00198037031f8bd48723b4e5b9bb31c6a018f0408040acefb9f2c55068bfc0fb",
+      "submitter_handle": "mantel",
+      "reviewer": null,
+      "reviewed_at": "2026-09-27",
+      "statuses": {
+        "identity": "pending",
+        "structure": "pass",
+        "security": "pass",
+        "design": "pending",
+        "content": "pending",
+        "licence": "pending",
+        "listening": "not-applicable",
+        "fluent": "pending"
+      },
+      "verdict": "preview",
+      "notes": "Automated review in the mantel-asset-review sandbox (plan step 37): recommend approve, no findings above note. Identity, design, content, licence and the fluent (bg) reading await the owner."
+    },
+    {
+      "id": "mantel/theme-terracotta",
+      "version": "1.0.0",
+      "kind": "definition",
+      "archive_sha256": "408f7b6ced66e6b2ef7f8d95f523d5092f3918e0b6ec5c6ece4fc37e1de0f8bd",
+      "source_sha256": "334137623f7b5e33b00940f5cd7d4ba83317086eb3a7abe2df8ef35defc96b77",
+      "submitter_handle": "mantel",
+      "reviewer": null,
+      "reviewed_at": "2026-09-27",
+      "statuses": {
+        "identity": "pending",
+        "structure": "pass",
+        "security": "pass",
+        "design": "pending",
+        "content": "pending",
+        "licence": "pending",
+        "listening": "not-applicable",
+        "fluent": "pending"
+      },
+      "verdict": "preview",
+      "notes": "Automated review in the mantel-asset-review sandbox (plan step 37): recommend approve, no findings above note. Identity, design, content, licence and the fluent (bg) reading await the owner."
+    },
+    {
+      "id": "mantel/theme-fjord",
+      "version": "1.0.0",
+      "kind": "definition",
+      "archive_sha256": "eb06863e00f17c8b38ac0fdd516d3f93fe461c24a645c6447ed92348334cfd40",
+      "source_sha256": "05292c8611742ea41408ba7219e3bfa7af2be547fde391c7c7ed215775401489",
+      "submitter_handle": "mantel",
+      "reviewer": null,
+      "reviewed_at": "2026-09-27",
+      "statuses": {
+        "identity": "pending",
+        "structure": "pass",
+        "security": "pass",
+        "design": "pending",
+        "content": "pending",
+        "licence": "pending",
+        "listening": "not-applicable",
+        "fluent": "pending"
+      },
+      "verdict": "preview",
+      "notes": "Automated review in the mantel-asset-review sandbox (plan step 37): recommend approve, no findings above note. Identity, design, content, licence and the fluent (bg) reading await the owner."
+    },
+    {
+      "id": "mantel/theme-dusk",
+      "version": "1.0.0",
+      "kind": "definition",
+      "archive_sha256": "fbdb6ebc56dcc50a58901585a86db0e1899c42dc1080c891292dd5d6abbe655a",
+      "source_sha256": "09d7f7143e15094827b43c9d5999ff0fefb737fe8faa0be55f1475022b216f52",
+      "submitter_handle": "mantel",
+      "reviewer": null,
+      "reviewed_at": "2026-09-27",
+      "statuses": {
+        "identity": "pending",
+        "structure": "pass",
+        "security": "pass",
+        "design": "pending",
+        "content": "pending",
+        "licence": "pending",
+        "listening": "not-applicable",
+        "fluent": "pending"
+      },
+      "verdict": "preview",
+      "notes": "Automated review in the mantel-asset-review sandbox (plan step 37): recommend approve, no findings above note. Identity, design, content, licence and the fluent (bg) reading await the owner."
+    },
+    {
+      "id": "mantel/theme-moss",
+      "version": "1.0.0",
+      "kind": "definition",
+      "archive_sha256": "13dfef6d540f88db1a4e3efe54f4fc10970893cf21b55047221ae35e011c57f9",
+      "source_sha256": "711ff500bcee9068eab2eafe503de8945453cf3e0d21fa62d669db7760fe622c",
+      "submitter_handle": "mantel",
+      "reviewer": null,
+      "reviewed_at": "2026-09-27",
+      "statuses": {
+        "identity": "pending",
+        "structure": "pass",
+        "security": "pass",
+        "design": "pending",
+        "content": "pending",
+        "licence": "pending",
+        "listening": "not-applicable",
+        "fluent": "pending"
+      },
+      "verdict": "preview",
+      "notes": "Automated review in the mantel-asset-review sandbox (plan step 37): recommend approve, no findings above note. Identity, design, content, licence and the fluent (bg) reading await the owner."
+    },
+    {
+      "id": "mantel/theme-salon",
+      "version": "1.0.0",
+      "kind": "definition",
+      "archive_sha256": "9ec8293b54381f9c2e0f67c12bdd2a7c35ba7988081c77a79713f23ae2b10aa6",
+      "source_sha256": "b61b38b5a2bc17ecb2eb6b20d2fd361a8a93d9645177a4717a605892d77436d8",
+      "submitter_handle": "mantel",
+      "reviewer": null,
+      "reviewed_at": "2026-09-27",
+      "statuses": {
+        "identity": "pending",
+        "structure": "pass",
+        "security": "pass",
+        "design": "pending",
+        "content": "pending",
+        "licence": "pending",
+        "listening": "not-applicable",
+        "fluent": "pending"
+      },
+      "verdict": "preview",
+      "notes": "Automated review in the mantel-asset-review sandbox (plan step 37): recommend approve, no findings above note. Identity, design, content, licence and the fluent (bg) reading await the owner."
+    },
+    {
+      "id": "mantel/theme-harbour",
+      "version": "1.0.0",
+      "kind": "definition",
+      "archive_sha256": "591979fd8ed6e311b526f35c43a679e9da739ea8261e4768402da6441023b896",
+      "source_sha256": "de7ab27aeceed367b151f392bcf15e8cd5c574ba994a8a31fa8bf6c7575ed5eb",
+      "submitter_handle": "mantel",
+      "reviewer": null,
+      "reviewed_at": "2026-09-27",
+      "statuses": {
+        "identity": "pending",
+        "structure": "pass",
+        "security": "pass",
+        "design": "pending",
+        "content": "pending",
+        "licence": "pending",
+        "listening": "not-applicable",
+        "fluent": "pending"
+      },
+      "verdict": "preview",
+      "notes": "Automated review in the mantel-asset-review sandbox (plan step 37): recommend approve, no findings above note. Identity, design, content, licence and the fluent (bg) reading await the owner."
+    },
+    {
+      "id": "mantel/theme-clear-view",
+      "version": "1.0.0",
+      "kind": "definition",
+      "archive_sha256": "790da06ada9e10a66b524719ae13983e1a7ee25ec14553786b574386aa34cc8a",
+      "source_sha256": "a8f2d77003313a772981665cbf9c27e0bd6d34d9a4b6e3d42e1c98459102ac0f",
+      "submitter_handle": "mantel",
+      "reviewer": null,
+      "reviewed_at": "2026-09-27",
+      "statuses": {
+        "identity": "pending",
+        "structure": "pass",
+        "security": "pass",
+        "design": "pending",
+        "content": "pending",
+        "licence": "pending",
+        "listening": "not-applicable",
+        "fluent": "pending"
+      },
+      "verdict": "preview",
+      "notes": "Automated review in the mantel-asset-review sandbox (plan step 37): recommend approve, no findings above note. Identity, design, content, licence and the fluent (bg) reading await the owner."
+    },
+    {
+      "id": "mantel/theme-riso",
+      "version": "1.0.0",
+      "kind": "definition",
+      "archive_sha256": "785b2860e7d8f50730fdd27d2ca96cae8a895588b8e58d6b014dc63617424f29",
+      "source_sha256": "c7ca6710aab9233aff00637b71bdaf464e0b89fd4acf7cd35f0ee503dfea91ef",
+      "submitter_handle": "mantel",
+      "reviewer": null,
+      "reviewed_at": "2026-09-27",
+      "statuses": {
+        "identity": "pending",
+        "structure": "pass",
+        "security": "pass",
+        "design": "pending",
+        "content": "pending",
+        "licence": "pending",
+        "listening": "not-applicable",
+        "fluent": "pending"
+      },
+      "verdict": "preview",
+      "notes": "Automated review in the mantel-asset-review sandbox (plan step 37): recommend approve, no findings above note. Identity, design, content, licence and the fluent (bg) reading await the owner."
+    },
+    {
+      "id": "mantel/theme-blueprint",
+      "version": "1.0.0",
+      "kind": "definition",
+      "archive_sha256": "4219ec402ca14a6203ea485741d8b1b46b023433e24418253bea14a5b2ec7323",
+      "source_sha256": "3faca1348ebcf1b54d63f92a70d16ef2cc20b62c471c2b995075bce02b5d393b",
+      "submitter_handle": "mantel",
+      "reviewer": null,
+      "reviewed_at": "2026-09-27",
+      "statuses": {
+        "identity": "pending",
+        "structure": "pass",
+        "security": "pass",
+        "design": "pending",
+        "content": "pending",
+        "licence": "pending",
+        "listening": "not-applicable",
+        "fluent": "pending"
+      },
+      "verdict": "preview",
+      "notes": "Automated review in the mantel-asset-review sandbox (plan step 37): recommend approve, no findings above note. Identity, design, content, licence and the fluent (bg) reading await the owner."
     }
   ]
 }

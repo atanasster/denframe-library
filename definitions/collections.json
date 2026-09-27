@@ -57,6 +57,23 @@
         "mantel/market-watch",
         "mantel/theme-ink"
       ]
+    },
+    {
+      "id": "new-looks",
+      "title": "A new look for the room",
+      "description": "Colour and mood for a wall that has worn one look for a while, from a lamplit bedside to high contrast across the kitchen.",
+      "items": [
+        "mantel/theme-nocturne",
+        "mantel/theme-harbour",
+        "mantel/theme-dusk",
+        "mantel/theme-clear-view",
+        "mantel/theme-terracotta",
+        "mantel/theme-moss",
+        "mantel/theme-salon",
+        "mantel/theme-fjord",
+        "mantel/theme-riso",
+        "mantel/theme-blueprint"
+      ]
     }
   ]
 }

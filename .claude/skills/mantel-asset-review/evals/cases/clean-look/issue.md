@@ -1,6 +1,6 @@
 ### Asset and source
 
-brook/nocturne 1.0.0, a dark look with warm type. The .zip copy is attached.
+brook/lantern 1.0.0, a dark look with warm type. The .zip copy is attached.
 
 ### Licence and credits
 

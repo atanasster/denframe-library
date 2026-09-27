@@ -1,10 +1,10 @@
 {
-  "format_tool_version": "0.1.0",
+  "format_tool_version": "0.2.0",
   "host_version": "0.1.0",
   "limits": [
     [
       "Installed v1 elements (current host)",
-      100
+      500
     ],
     [
       "Pending v1 imports",
@@ -142,6 +142,11 @@
         "setup",
         "array; maximum items: 24; items: SetupPrompt",
         "optional"
+      ],
+      [
+        "localized",
+        "object; minimum properties: 1; maximum properties: 16; keys: pattern \"^[a-z]{2,3}(?:-[A-Z][a-z]{3})?(?:-(?:[A-Z]{2}|[0-9]{3}))?$\"; values: LocalizedText or null; default: null",
+        "optional"
       ]
     ],
     "ArrangementCell": [
@@ -206,12 +211,29 @@
     "LayoutArrangement": [
       [
         "landscape",
-        "object; minimum properties: 1; maximum properties: 12",
+        "object; minimum properties: 1; maximum properties: 12; keys: pattern \"^[a-z][a-z0-9-]{0,39}$\"; values: ArrangementCell",
         "required"
       ],
       [
         "portrait",
-        "object; maximum properties: 12",
+        "object; maximum properties: 12; keys: pattern \"^[a-z][a-z0-9-]{0,39}$\"; values: PortraitArrangementCell",
+        "optional"
+      ]
+    ],
+    "LocalizedText": [
+      [
+        "name",
+        "string; pattern: \"[^\\\\s\\\\p{Cf}]\"; minimum characters: 1; maximum characters: 100 or null; default: null",
+        "optional"
+      ],
+      [
+        "mood",
+        "string; pattern: \"[^\\\\s\\\\p{Cf}]\"; minimum characters: 1; maximum characters: 60 or null; default: null",
+        "optional"
+      ],
+      [
+        "description",
+        "string; pattern: \"[^\\\\s\\\\p{Cf}]\"; minimum characters: 1; maximum characters: 240 or null; default: null",
         "optional"
       ]
     ],
@@ -646,7 +668,7 @@
       ],
       [
         "translations",
-        "object; minimum properties: 1; maximum properties: 8",
+        "object; minimum properties: 1; maximum properties: 8; keys: pattern \"^[a-z]{2,3}(?:-[A-Z]{2})?$\"; values: PackTranslation",
         "required"
       ],
       [
@@ -989,6 +1011,11 @@
       "library-provenance-v1",
       "Local exact block origins, application instance maps and look ownership; not portable definition fields",
       "0.1.0"
+    ],
+    [
+      "localized-text-v1",
+      "The definition carries localized (words by locale); a host token, never sent to a screen.",
+      "0.2.0"
     ],
     [
       "overlay-layout-v1",

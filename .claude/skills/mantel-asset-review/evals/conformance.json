@@ -1273,6 +1273,218 @@
    "trust": "not checked"
   }
  },
+ "localized-valid": {
+  "recommendation": "changes requested",
+  "findings": [
+   "DES-NOT-DISTINCT"
+  ],
+  "layers": {
+   "archive": "pass",
+   "json": "pass",
+   "schema": "pass",
+   "capabilities": "pass",
+   "contrast": "pass",
+   "media": "not applicable",
+   "trust": "not checked"
+  }
+ },
+ "localized-joined": {
+  "recommendation": "changes requested",
+  "findings": [
+   "DES-NOT-DISTINCT"
+  ],
+  "layers": {
+   "archive": "pass",
+   "json": "pass",
+   "schema": "pass",
+   "capabilities": "pass",
+   "contrast": "pass",
+   "media": "not applicable",
+   "trust": "not checked"
+  }
+ },
+ "localized-missing-capability": {
+  "recommendation": "changes requested",
+  "findings": [],
+  "layers": {
+   "archive": "pass",
+   "json": "pass",
+   "schema": "pass",
+   "capabilities": "fail",
+   "contrast": "not checked",
+   "media": "not checked",
+   "trust": "not checked"
+  }
+ },
+ "localized-bad-locale": {
+  "recommendation": "changes requested",
+  "findings": [],
+  "layers": {
+   "archive": "pass",
+   "json": "pass",
+   "schema": "fail",
+   "capabilities": "not checked",
+   "contrast": "not checked",
+   "media": "not checked",
+   "trust": "not checked"
+  }
+ },
+ "localized-uppercase-locale": {
+  "recommendation": "changes requested",
+  "findings": [],
+  "layers": {
+   "archive": "pass",
+   "json": "pass",
+   "schema": "fail",
+   "capabilities": "not checked",
+   "contrast": "not checked",
+   "media": "not checked",
+   "trust": "not checked"
+  }
+ },
+ "localized-empty-entry": {
+  "recommendation": "changes requested",
+  "findings": [],
+  "layers": {
+   "archive": "pass",
+   "json": "pass",
+   "schema": "fail",
+   "capabilities": "not checked",
+   "contrast": "not checked",
+   "media": "not checked",
+   "trust": "not checked"
+  }
+ },
+ "localized-blank": {
+  "recommendation": "changes requested",
+  "findings": [],
+  "layers": {
+   "archive": "pass",
+   "json": "pass",
+   "schema": "fail",
+   "capabilities": "not checked",
+   "contrast": "not checked",
+   "media": "not checked",
+   "trust": "not checked"
+  }
+ },
+ "localized-unknown-field": {
+  "recommendation": "changes requested",
+  "findings": [],
+  "layers": {
+   "archive": "pass",
+   "json": "pass",
+   "schema": "fail",
+   "capabilities": "not checked",
+   "contrast": "not checked",
+   "media": "not checked",
+   "trust": "not checked"
+  }
+ },
+ "localized-name-over-limit": {
+  "recommendation": "changes requested",
+  "findings": [],
+  "layers": {
+   "archive": "pass",
+   "json": "pass",
+   "schema": "fail",
+   "capabilities": "not checked",
+   "contrast": "not checked",
+   "media": "not checked",
+   "trust": "not checked"
+  }
+ },
+ "localized-mood-over-limit": {
+  "recommendation": "changes requested",
+  "findings": [],
+  "layers": {
+   "archive": "pass",
+   "json": "pass",
+   "schema": "fail",
+   "capabilities": "not checked",
+   "contrast": "not checked",
+   "media": "not checked",
+   "trust": "not checked"
+  }
+ },
+ "localized-description-over-limit": {
+  "recommendation": "changes requested",
+  "findings": [],
+  "layers": {
+   "archive": "pass",
+   "json": "pass",
+   "schema": "fail",
+   "capabilities": "not checked",
+   "contrast": "not checked",
+   "media": "not checked",
+   "trust": "not checked"
+  }
+ },
+ "localized-too-many-locales": {
+  "recommendation": "changes requested",
+  "findings": [],
+  "layers": {
+   "archive": "pass",
+   "json": "pass",
+   "schema": "fail",
+   "capabilities": "not checked",
+   "contrast": "not checked",
+   "media": "not checked",
+   "trust": "not checked"
+  }
+ },
+ "localized-empty-map": {
+  "recommendation": "changes requested",
+  "findings": [],
+  "layers": {
+   "archive": "pass",
+   "json": "pass",
+   "schema": "fail",
+   "capabilities": "not checked",
+   "contrast": "not checked",
+   "media": "not checked",
+   "trust": "not checked"
+  }
+ },
+ "localized-zero-width": {
+  "recommendation": "changes requested",
+  "findings": [],
+  "layers": {
+   "archive": "pass",
+   "json": "pass",
+   "schema": "fail",
+   "capabilities": "not checked",
+   "contrast": "not checked",
+   "media": "not checked",
+   "trust": "not checked"
+  }
+ },
+ "localized-bidi": {
+  "recommendation": "changes requested",
+  "findings": [],
+  "layers": {
+   "archive": "pass",
+   "json": "fail",
+   "schema": "not checked",
+   "capabilities": "not checked",
+   "contrast": "not checked",
+   "media": "not checked",
+   "trust": "not checked"
+  }
+ },
+ "localized-control": {
+  "recommendation": "changes requested",
+  "findings": [],
+  "layers": {
+   "archive": "pass",
+   "json": "fail",
+   "schema": "not checked",
+   "capabilities": "not checked",
+   "contrast": "not checked",
+   "media": "not checked",
+   "trust": "not checked"
+  }
+ },
  "layout-setup": {
   "recommendation": "recommend approve",
   "findings": [],

@@ -713,5 +713,387 @@
         }
       ]
     }
+  },
+  {
+    "slug": "nocturne",
+    "id": "mantel/theme-nocturne",
+    "version": "1.0.0",
+    "distribution": "library",
+    "mood": "Late · hushed · lamplit",
+    "description": "A deep night-blue ground, warm parchment type and a lamplight amber accent. Blocks sit straight on the canvas, close to the edges.",
+    "definition": {
+      "kind": "theme",
+      "name": "Nocturne",
+      "look": "ink",
+      "appearance": {
+        "layout": "flow",
+        "background": "solid",
+        "font": "theme",
+        "spacing": "standard",
+        "margin": "tight",
+        "face": "transparent",
+        "tokens": {
+          "background": "#0d1117",
+          "surface": "#161b24",
+          "captionSurface": "#0d1117",
+          "text": "#f2ece1",
+          "mutedText": "#b4ada2",
+          "accent": "#e9b872",
+          "accentText": "#1b1307",
+          "border": "#39414f",
+          "positive": "#7ad19c",
+          "negative": "#ff9a8f"
+        }
+      },
+      "localized": {
+        "bg": {
+          "name": "Ноктюрно",
+          "mood": "Късно · тихо · под лампа",
+          "description": "Дълбок нощно син фон, топъл пергаментов шрифт и кехлибарен акцент като светлина от лампа. Блоковете стоят направо върху платното, близо до краищата."
+        }
+      }
+    }
+  },
+  {
+    "slug": "terracotta",
+    "id": "mantel/theme-terracotta",
+    "version": "1.0.0",
+    "distribution": "library",
+    "mood": "Earthy · sunlit · homely",
+    "description": "Sand-coloured paper, deep brown type and a fired-clay accent. The layout arranges itself to fit each screen.",
+    "definition": {
+      "kind": "theme",
+      "name": "Terracotta",
+      "look": "linen",
+      "appearance": {
+        "layout": "auto",
+        "background": "solid",
+        "font": "theme",
+        "spacing": "standard",
+        "tokens": {
+          "background": "#efe3d3",
+          "surface": "#f8f0e4",
+          "captionSurface": "#efe3d3",
+          "text": "#2a1a11",
+          "mutedText": "#5f4636",
+          "accent": "#9a3f1b",
+          "accentText": "#fff8f0",
+          "border": "#b39a86",
+          "positive": "#2f7a3c",
+          "negative": "#b3261e"
+        }
+      },
+      "localized": {
+        "bg": {
+          "name": "Теракота",
+          "mood": "Земно · слънчево · уютно",
+          "description": "Хартия в цвят на пясък, тъмнокафяв шрифт и акцент в цвят на печена глина. Подредбата сама се нагажда към всеки екран."
+        }
+      }
+    }
+  },
+  {
+    "slug": "fjord",
+    "id": "mantel/theme-fjord",
+    "version": "1.0.0",
+    "distribution": "library",
+    "mood": "Cool · clear · still",
+    "description": "Pale glacier grey, a deep fjord-blue accent and quiet teal detail. Crisp and calm, like a clear northern morning.",
+    "definition": {
+      "kind": "theme",
+      "name": "Fjord",
+      "look": "modern",
+      "appearance": {
+        "layout": "flow",
+        "background": "solid",
+        "font": "theme",
+        "spacing": "standard",
+        "tokens": {
+          "background": "#eaf0f2",
+          "surface": "#fbfdfd",
+          "captionSurface": "#eaf0f2",
+          "text": "#102029",
+          "mutedText": "#365c62",
+          "accent": "#1c5a74",
+          "accentText": "#ffffff",
+          "border": "#8ea1ab",
+          "positive": "#1a7a45",
+          "negative": "#b42318"
+        }
+      },
+      "localized": {
+        "bg": {
+          "name": "Фиорд",
+          "mood": "Хладно · ясно · спокойно",
+          "description": "Бледо ледниково сиво, дълбок синкав акцент и тихи тюркоазени подробности. Свежо и спокойно като ясна северна утрин."
+        }
+      }
+    }
+  },
+  {
+    "slug": "dusk",
+    "id": "mantel/theme-dusk",
+    "version": "1.0.0",
+    "distribution": "library",
+    "mood": "Glowing · soft · twilight",
+    "description": "Violet glass panes over the aurora background, with apricot light for the numbers that matter. Made for the hour after sunset.",
+    "definition": {
+      "kind": "theme",
+      "name": "Dusk",
+      "look": "glass",
+      "appearance": {
+        "layout": "columns",
+        "background": "aurora",
+        "font": "theme",
+        "spacing": "standard",
+        "tokens": {
+          "background": "#1a1230",
+          "surface": "#2a1f47",
+          "captionSurface": "#1f1638",
+          "text": "#fff6ee",
+          "mutedText": "#d8cbe6",
+          "accent": "#ffb48c",
+          "accentText": "#2b1405",
+          "border": "#6b5a8e",
+          "positive": "#7fe0a6",
+          "negative": "#ff9aa2"
+        }
+      },
+      "localized": {
+        "bg": {
+          "name": "Здрач",
+          "mood": "Сияйно · меко · привечер",
+          "description": "Виолетови стъклени панели върху фон от полярно сияние и кайсиева светлина за важните числа. За часа след залез."
+        }
+      }
+    }
+  },
+  {
+    "slug": "moss",
+    "id": "mantel/theme-moss",
+    "version": "1.0.0",
+    "distribution": "library",
+    "mood": "Mossy · shaded · quiet",
+    "description": "Dark forest greens under the leafy canopy background, with a pale lichen accent. The layout arranges itself to fit each screen.",
+    "definition": {
+      "kind": "theme",
+      "name": "Moss",
+      "look": "botanical",
+      "appearance": {
+        "layout": "auto",
+        "background": "canopy",
+        "font": "theme",
+        "spacing": "standard",
+        "tokens": {
+          "background": "#141b16",
+          "surface": "#1f2a22",
+          "captionSurface": "#141b16",
+          "text": "#eef1e6",
+          "mutedText": "#b9c3b0",
+          "accent": "#c3d98a",
+          "accentText": "#18200e",
+          "border": "#4d5c4f",
+          "positive": "#8fdca0",
+          "negative": "#ff9d8a"
+        }
+      },
+      "localized": {
+        "bg": {
+          "name": "Мъх",
+          "mood": "Мъхесто · сенчесто · тихо",
+          "description": "Тъмни горски зелени тонове под листна корона и бледо лишейно зелен акцент. Подредбата сама се нагажда към всеки екран."
+        }
+      }
+    }
+  },
+  {
+    "slug": "salon",
+    "id": "mantel/theme-salon",
+    "version": "1.0.0",
+    "distribution": "library",
+    "mood": "Velvet · gilded · evening",
+    "description": "Oxblood walls, ivory type and a gilt accent around an artwork stage. An evening in a picture gallery.",
+    "definition": {
+      "kind": "theme",
+      "name": "Salon",
+      "look": "painting",
+      "appearance": {
+        "layout": "stage",
+        "background": "solid",
+        "font": "theme",
+        "spacing": "standard",
+        "tokens": {
+          "background": "#23100f",
+          "surface": "#33191a",
+          "captionSurface": "#23100f",
+          "text": "#fbf1e3",
+          "mutedText": "#dccbbb",
+          "accent": "#e2bd6e",
+          "accentText": "#241706",
+          "border": "#6d4c47",
+          "positive": "#7fd79a",
+          "negative": "#ff9b8e"
+        }
+      },
+      "localized": {
+        "bg": {
+          "name": "Салон",
+          "mood": "Кадифено · позлатено · вечерно",
+          "description": "Тъмночервени стени, шрифт в цвят слонова кост и позлатен акцент около сцена за картина. Вечер в художествена галерия."
+        }
+      }
+    }
+  },
+  {
+    "slug": "harbour",
+    "id": "mantel/theme-harbour",
+    "version": "1.0.0",
+    "distribution": "library",
+    "mood": "Breezy · crisp · coastal",
+    "description": "Harbour navy on sailcloth cream, over dunes drawn in the look's own colours. The layout arranges itself to fit each screen.",
+    "definition": {
+      "kind": "theme",
+      "name": "Harbour",
+      "look": "modern",
+      "appearance": {
+        "layout": "auto",
+        "background": "dunes",
+        "font": "theme",
+        "spacing": "standard",
+        "tokens": {
+          "background": "#f1ebe0",
+          "surface": "#fbf7f0",
+          "captionSurface": "#f1ebe0",
+          "text": "#14233a",
+          "mutedText": "#46546a",
+          "accent": "#1d4e89",
+          "accentText": "#ffffff",
+          "border": "#a8a293",
+          "positive": "#1d7a43",
+          "negative": "#b3261e"
+        }
+      },
+      "localized": {
+        "bg": {
+          "name": "Пристан",
+          "mood": "Свежо · ясно · крайбрежно",
+          "description": "Тъмносиньо върху кремаво като платно на лодка, над дюни в собствените цветове на облика. Подредбата сама се нагажда към всеки екран."
+        }
+      }
+    }
+  },
+  {
+    "slug": "clear-view",
+    "id": "mantel/theme-clear-view",
+    "version": "1.0.0",
+    "distribution": "library",
+    "mood": "High contrast · plain · direct",
+    "description": "White on black with a signal-yellow accent, the most contrast a screen can give. For clearer numbers too, choose Numerals: Legibility face in the screen's settings.",
+    "definition": {
+      "kind": "theme",
+      "name": "Clear View",
+      "look": "ink",
+      "appearance": {
+        "layout": "flow",
+        "background": "solid",
+        "font": "theme",
+        "spacing": "standard",
+        "tokens": {
+          "background": "#000000",
+          "surface": "#111111",
+          "captionSurface": "#000000",
+          "text": "#ffffff",
+          "mutedText": "#e6e6e6",
+          "accent": "#ffd400",
+          "accentText": "#000000",
+          "border": "#666666",
+          "positive": "#5ee08a",
+          "negative": "#ff8080"
+        }
+      },
+      "localized": {
+        "bg": {
+          "name": "Ясен изглед",
+          "mood": "Висок контраст · просто · пряко",
+          "description": "Бяло върху черно със сигнално жълт акцент: най-силният контраст, който екранът може да даде. За още по-ясни числа изберете „Numerals: Legibility face“ в настройките на екрана."
+        }
+      }
+    }
+  },
+  {
+    "slug": "riso",
+    "id": "mantel/theme-riso",
+    "version": "1.0.0",
+    "distribution": "library",
+    "mood": "Inky · bright · playful",
+    "description": "Warm off-white paper, blue-black ink and a raspberry accent, in the spirit of a risograph print.",
+    "definition": {
+      "kind": "theme",
+      "name": "Riso",
+      "look": "modern",
+      "appearance": {
+        "layout": "flow",
+        "background": "solid",
+        "font": "theme",
+        "spacing": "standard",
+        "tokens": {
+          "background": "#f6f1e8",
+          "surface": "#fffdf8",
+          "captionSurface": "#f6f1e8",
+          "text": "#1b1b2a",
+          "mutedText": "#4a4a5c",
+          "accent": "#c2255c",
+          "accentText": "#ffffff",
+          "border": "#9a96a0",
+          "positive": "#1f7a44",
+          "negative": "#b3261e"
+        }
+      },
+      "localized": {
+        "bg": {
+          "name": "Ризо",
+          "mood": "Мастилено · ярко · игриво",
+          "description": "Топла почти бяла хартия, синьо-черно мастило и малинов акцент, в духа на ризографски печат."
+        }
+      }
+    }
+  },
+  {
+    "slug": "blueprint",
+    "id": "mantel/theme-blueprint",
+    "version": "1.0.0",
+    "distribution": "library",
+    "mood": "Technical · exact · calm",
+    "description": "Drafting-blue planes, pale linework type and a warm yellow accent, set in steady columns.",
+    "definition": {
+      "kind": "theme",
+      "name": "Blueprint",
+      "look": "ink",
+      "appearance": {
+        "layout": "columns",
+        "background": "solid",
+        "font": "theme",
+        "spacing": "standard",
+        "tokens": {
+          "background": "#0f2a4a",
+          "surface": "#163a63",
+          "captionSurface": "#0f2a4a",
+          "text": "#f4f8ff",
+          "mutedText": "#c3d4ea",
+          "accent": "#ffd27a",
+          "accentText": "#1d1400",
+          "border": "#4f6f97",
+          "positive": "#8ff0b5",
+          "negative": "#ffb3a8"
+        }
+      },
+      "localized": {
+        "bg": {
+          "name": "Чертеж",
+          "mood": "Техническо · точно · спокойно",
+          "description": "Плоскости в синьото на чертежа, светъл шрифт като линии и топъл жълт акцент, в спокойни колони."
+        }
+      }
+    }
   }
 ]

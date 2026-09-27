@@ -7,7 +7,7 @@ format implementation; tagged snapshots are mirrored here in one direction.
 ## Install the tools
 
 ```sh
-pip install "mantel-format @ git+https://github.com/atanasster/mantel-library@format-v0.1.0#subdirectory=format"
+pip install "mantel-format @ git+https://github.com/atanasster/mantel-library@format-v0.2.0#subdirectory=format"
 mantel-author --help
 ```
 

@@ -25,6 +25,9 @@ OVERLAY_LAYOUT_CAPABILITY: Final[str] = "overlay-layout-v1"
 LAYOUT_ARRANGEMENT_CAPABILITY: Final[str] = "layout-arrangement-v1"
 LAYOUT_SETUP_CAPABILITY: Final[str] = "layout-setup-v1"
 LIBRARY_PROVENANCE_CAPABILITY: Final[str] = "library-provenance-v1"
+#: A definition's optional words in other languages (D33, `localized_text.py`). A host token:
+#: the words are the Library's and never reach a screen.
+LOCALIZED_TEXT_CAPABILITY: Final[str] = "localized-text-v1"
 
 LAYOUT_CAPABILITY: Final[dict[str, str]] = {
     "auto": "responsive-layout-v1",

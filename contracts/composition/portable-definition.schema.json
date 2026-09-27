@@ -150,6 +150,60 @@
       "title": "LayoutArrangement",
       "type": "object"
     },
+    "LocalizedText": {
+      "additionalProperties": false,
+      "description": "One language's words; each field optional, at least one present.",
+      "minProperties": 1,
+      "properties": {
+        "name": {
+          "anyOf": [
+            {
+              "maxLength": 100,
+              "minLength": 1,
+              "pattern": "[^\\s\\p{Cf}]",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Name"
+        },
+        "mood": {
+          "anyOf": [
+            {
+              "maxLength": 60,
+              "minLength": 1,
+              "pattern": "[^\\s\\p{Cf}]",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Mood"
+        },
+        "description": {
+          "anyOf": [
+            {
+              "maxLength": 240,
+              "minLength": 1,
+              "pattern": "[^\\s\\p{Cf}]",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Description"
+        }
+      },
+      "title": "LocalizedText",
+      "type": "object"
+    },
     "PortableAppearance": {
       "additionalProperties": false,
       "description": "The paint a shared definition may carry: everything except a local media key.\n\n`Appearance.background_source_id` names a *household* gallery collection or personal album.\nA downloadable definition must not carry one — the module docstring of\n`app/composition.py` states that portable packages never contain local bindings, and the\nsame rule already narrows `PortablePlacement`. Importing a package applies its appearance\nto the importer's dashboard, so a foreign key here would point the importer at a source its\nhousehold does not own.\n\nThis is its own model rather than a narrowed subclass so the field does not appear in the\ncommitted public schema at all: an author reading `portable-definition.schema.json` must not\nbe told the field is available. `Definition` embeds this record, and published package bytes\nare immutable, so the field list here is a release-compatibility surface — do not widen it\nwithout deciding to re-version the published catalog.",
@@ -621,6 +675,29 @@
       "maxItems": 24,
       "title": "Setup",
       "type": "array"
+    },
+    "localized": {
+      "anyOf": [
+        {
+          "additionalProperties": false,
+          "maxProperties": 16,
+          "minProperties": 1,
+          "patternProperties": {
+            "^[a-z]{2,3}(?:-[A-Z][a-z]{3})?(?:-(?:[A-Z]{2}|[0-9]{3}))?$": {
+              "$ref": "#/$defs/LocalizedText"
+            }
+          },
+          "propertyNames": {
+            "maxLength": 16
+          },
+          "type": "object"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Localized"
     }
   },
   "required": [

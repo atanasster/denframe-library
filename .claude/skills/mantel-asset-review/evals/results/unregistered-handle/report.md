@@ -14,10 +14,10 @@
 | Name | `Dawn` |
 | Licence and publisher | MIT · `Local author` |
 | Attribution | none |
-| Submitted file | SHA-256 `4be7b1c53f9060240b856ab142a4e47fc17f82457bd4e852f037c747c07b43cb`, 951 bytes |
-| Archive | SHA-256 `4be7b1c53f9060240b856ab142a4e47fc17f82457bd4e852f037c747c07b43cb`, 951 bytes |
-| Release (what would be signed) | SHA-256 `4be7b1c53f9060240b856ab142a4e47fc17f82457bd4e852f037c747c07b43cb` (rebuild: identical) |
-| Source | SHA-256 `a82afb409f787aabf962da98d103c4f562b8e53892d453af6ad03b2226b017d9` of the unpacked `source.json` |
+| Submitted file | SHA-256 `925a0db3ef40c21da2b302e8c7f175fa7948517b044716c5eaedd054946e9b11`, 951 bytes |
+| Archive | SHA-256 `925a0db3ef40c21da2b302e8c7f175fa7948517b044716c5eaedd054946e9b11`, 951 bytes |
+| Release (what would be signed) | SHA-256 `925a0db3ef40c21da2b302e8c7f175fa7948517b044716c5eaedd054946e9b11` (rebuild: identical) |
+| Source | SHA-256 `f11fec2bf90ab5b39340f0a0516c2e1e0e4f09c56049197fb5dd49de17b6e0ee` of the unpacked `source.json` |
 | Submitter | `mallory` (GitHub account 5550999) from local |
 
 ## Checks
@@ -69,9 +69,9 @@ None.
 
 Distinctness threshold ΔE 2.0 (references/design.md); look `ink`, background `solid`, layout `flow`. Nearest catalog looks:
 
-- `mantel/theme-ink`: ΔE 3.83 (background 1.19, surface 1.8, text 3.52, mutedText 9.28, accent 14.04, accentText 3.34)
-- `mantel/theme-painting`: ΔE 6.45 (background 6.02, surface 8.29, text 4.15, mutedText 14.49, accent 8.42, accentText 5.36)
-- `mantel/theme-botanical`: ΔE 6.86 (background 6.92, surface 9.13, text 2.81, mutedText 10.54, accent 14.36, accentText 4.9)
+- `mantel/theme-salon`: ΔE 2.49 (background 3.36, surface 4.29, text 0.75, mutedText 3.09, accent 6.73, accentText 0.96)
+- `mantel/theme-moss`: ΔE 2.63 (background 2.05, surface 2.61, text 1.09, mutedText 3.06, accent 12.44, accentText 4.37)
+- `mantel/theme-dusk`: ΔE 3.82 (background 7.27, surface 9.08, text 2.35, mutedText 7.8, accent 0.0, accentText 1.67)
 
 Motion: no motion declared; the format carries no animation code.
 
@@ -98,7 +98,7 @@ Not a pack.
   "id": "aurora/dawn",
   "version": "1.0.0",
   "kind": "definition",
-  "archive_sha256": "4be7b1c53f9060240b856ab142a4e47fc17f82457bd4e852f037c747c07b43cb",
+  "archive_sha256": "925a0db3ef40c21da2b302e8c7f175fa7948517b044716c5eaedd054946e9b11",
   "source_sha256": null,
   "submitter_handle": "aurora",
   "reviewer": null,

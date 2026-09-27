@@ -24,6 +24,7 @@ from mantel_format.authoring import read_source, unpack
 from mantel_format.themes import BUILTIN_THEMES, look_palette
 from mantel_format.validation import inspect_archive
 
+LOCALIZED_FIELDS = ("name", "mood", "description")
 AREAS = ("identity", "structure", "security", "design", "content", "licence", "listening", "fluent")
 SEVERITIES = ("critical", "major", "minor", "note")
 # The recommendation a finding's severity leads to (SKILL.md phase 7). A person decides.
@@ -765,11 +766,12 @@ def motion(definition: dict) -> list[Finding]:
     return []
 
 
-def names_taken(name: str, reference: dict) -> list[Finding]:
+def names_taken(name: str, reference: dict, own_id: str = "") -> list[Finding]:
+    # An update (or a release already listed) is not compared with its own entry.
     taken = [
         package_id
         for package_id, entry in reference["catalog"].items()
-        if entry["name"].casefold() == name.casefold()
+        if package_id != own_id and entry["name"].casefold() == name.casefold()
     ]
     if not taken:
         return []
@@ -782,6 +784,44 @@ def names_taken(name: str, reference: dict) -> list[Finding]:
             f"`{neutral(name)}` is also {', '.join(taken)}",
         )
     ]
+
+
+def localized_content(definition: dict) -> tuple[dict, list[Finding]]:
+    """A definition's words in other languages (D33): the locales, for the fluent reader, and
+    any entry that leaves out one of name, mood and description (a person decides whether the
+    base words may stand in)."""
+    localized = definition.get("localized") or {}
+    if not isinstance(localized, dict) or not localized:
+        return {}, []
+    locales = sorted(localized)
+    findings = []
+    foreign = [locale for locale in locales if not locale.lower().startswith("en")]
+    if foreign:
+        findings.append(
+            Finding(
+                "CON-FLUENT-NEEDED",
+                "fluent",
+                "note",
+                "A fluent reader checks every non-English string",
+                ", ".join(neutral(x, 20) for x in foreign),
+            )
+        )
+    partial = [
+        f"{neutral(locale, 20)} ({', '.join(f for f in LOCALIZED_FIELDS if f not in words)})"
+        for locale, words in localized.items()
+        if isinstance(words, dict) and any(f not in words for f in LOCALIZED_FIELDS)
+    ]
+    if partial:
+        findings.append(
+            Finding(
+                "DES-LOCALIZED-PARTIAL",
+                "design",
+                "note",
+                "Some localized entries leave out words; the base words stand in for them",
+                "; ".join(partial[:8]),
+            )
+        )
+    return {"locales": locales, "localized": True}, findings
 
 
 # -- Phase 6: content (packs) -----------------------------------------------------------------
@@ -899,8 +939,9 @@ def statuses_for(findings: list[Finding], *, valid: bool, kind: str, content: di
                 "pending" if kind == "pack" and content.get("audio") else "not-applicable"
             )
         elif area == "fluent":
+            # A pack's locales, or a definition's localized words (D33).
             foreign = [x for x in content.get("locales", []) if not x.lower().startswith("en")]
-            result[area] = "pending" if kind == "pack" and foreign else "not-applicable"
+            result[area] = "pending" if foreign else "not-applicable"
         else:
             result[area] = "pending"
     return result
@@ -988,10 +1029,13 @@ def review(path: Path, intake: dict, reference: dict, issue_text: str | None) ->
     findings += found
     if inspection.valid:
         findings += motion(definition)
-        findings += names_taken(str(definition.get("name", "")), reference)
+        findings += names_taken(str(definition.get("name", "")), reference, package_id)
     content: dict = {}
     if kind == "pack" and inspection.valid:
         content, found = pack_content(definition)
+        findings += found
+    elif inspection.valid:
+        content, found = localized_content(definition)
         findings += found
     size = len(data)
     if (kind != "pack" and size > 32 * 1024) or (
