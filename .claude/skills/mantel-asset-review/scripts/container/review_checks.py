@@ -1077,6 +1077,12 @@ def review(path: Path, intake: dict, reference: dict, issue_text: str | None) ->
             },
             "source": intake.get("source"),
             "number": intake.get("number"),
+            # A pull request's: the exact head commit its sources were taken from.
+            "head_sha": (
+                intake["head_sha"]
+                if re.fullmatch(r"[0-9a-f]{40}", str(intake.get("head_sha", "")))
+                else None
+            ),
         },
         "release": {
             "id": neutral(package_id, 120),

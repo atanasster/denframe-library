@@ -11,8 +11,11 @@ the home directory, credential stores, agent sockets, the Docker socket and keys
 mounted. Output comes back on stdout and this runner writes the files.
 
 Host-side commands that use the network never see a submission's contents: `prepare` installs
-the locked dependencies (no submission staged) and `intake` fetches an issue's attachment as
-opaque bytes with fixed, read-only GitHub calls.
+the locked dependencies (no submission staged), `intake --issue` fetches an issue's attachment
+as opaque bytes, and `intake --pr` fetches the tarball of exactly a pull request's head commit,
+also as opaque bytes, both with fixed, read-only GitHub calls. `build --intake` then takes the
+changed asset sources out of that tarball and builds them, both in the sandbox, into the
+archives `review` reads.
 
 Every command first checks where it runs (`policy.checkout_problems`): only in a clone of the
 public atanasster/mantel-library repository with no keys in it -- never in the private host
@@ -23,7 +26,9 @@ repository. Run it from that clone's root as `python3 .claude/skills/mantel-asse
     sandbox.py probe [--out FILE]
     sandbox.py {validate,inspect,unpack,rebuild} ARCHIVE
     sandbox.py build SOURCE_DIR
+    sandbox.py build --intake DIR                    (a pull request's sources -> DIR/built/<slug>)
     sandbox.py intake --issue N --out DIR            (read-only GitHub; archive kept as bytes)
+    sandbox.py intake --pr N --out DIR               (read-only GitHub; tarball kept as bytes)
     sandbox.py intake-local --archive F --login L --account N [--issue-text F] --out DIR
     sandbox.py review --intake DIR --out DIR [--notes FILE] [--registry FILE]
     sandbox.py conformance --out DIR
@@ -33,6 +38,7 @@ repository. Run it from that clone's root as `python3 .claude/skills/mantel-asse
 from __future__ import annotations
 
 import argparse
+import base64
 import datetime
 import hashlib
 import json
@@ -56,6 +62,8 @@ import policy  # noqa: E402
 
 MAX_SUBMISSION = 128 * 1024 * 1024
 MAX_OUTPUT = 32 * 1024 * 1024
+# `build --intake` returns its archives base64-encoded: room for the largest submission.
+OUTPUT_LIMITS = {"build": MAX_SUBMISSION * 3 // 2}
 TIMEOUT_SECONDS = {"conformance": 900, "calibrate": 120, "probe": 120}
 DEFAULT_TIMEOUT = 300
 LIMITS = {
@@ -84,6 +92,17 @@ ATTACHMENT = re.compile(
 )
 ATTACHMENT_HOSTS = frozenset({"github.com", "objects.githubusercontent.com"})
 PUBLIC_REPOSITORY = "atanasster/mantel-library"
+# The pull-request route (`intake --pr`): what GitHub's metadata must look like, and the caps on
+# the head tarball and on the sources taken from it.
+GITHUB_NUMBER = re.compile(r"[1-9][0-9]{0,8}")
+HEAD_SHA = re.compile(r"[0-9a-f]{40}")
+LOGIN = re.compile(r"[A-Za-z0-9](?:[A-Za-z0-9-]{0,38})")
+SLUG = re.compile(r"[a-z0-9][a-z0-9-]{0,63}")
+DEFINITION_FILE = re.compile(r"[A-Za-z0-9][A-Za-z0-9._-]{0,122}\.json")
+TARBALL = "head.tar.gz"
+MAX_TARBALL = MAX_SUBMISSION
+MAX_CHANGED_FILES = 3000
+MAX_TEXT = 1024 * 1024
 
 
 def release_environment(library: Path = LIBRARY) -> dict:
@@ -163,6 +182,9 @@ def stage(
     review.mkdir()
     for script in sorted((SCRIPTS / "container").glob("*.py")):
         shutil.copyfile(script, review / script.name)
+    # The public tools' catalog-entry builder, so the pull-request route builds a definition
+    # exactly as `tools/intake.py` and `tools/rebuild.py` do.
+    shutil.copyfile(library / "tools/library_sources.py", review / "library_sources.py")
     ref = root / "reference"
     (ref / "definitions").mkdir(parents=True)
     (ref / "packs").mkdir()
@@ -357,7 +379,8 @@ def run(
             "network": "none",
         }
     )
-    return code, out[:MAX_OUTPUT].decode("utf-8", "replace"), err[:65536].decode("utf-8", "replace")
+    limit = OUTPUT_LIMITS.get(command, MAX_OUTPUT)
+    return code, out[:limit].decode("utf-8", "replace"), err[:65536].decode("utf-8", "replace")
 
 
 def environment_facts(library: Path = LIBRARY) -> dict:
@@ -561,6 +584,7 @@ def _write_intake(
     source: str,
     number: int | None = None,
     url: str | None = None,
+    extra: dict | None = None,
 ) -> dict:
     data = archive.read_bytes()
     intake = {
@@ -572,6 +596,7 @@ def _write_intake(
         "archive_sha256": hashlib.sha256(data).hexdigest(),
         "archive_size": len(data),
         "fetched_at": datetime.datetime.now(datetime.UTC).isoformat(timespec="seconds"),
+        **(extra or {}),
     }
     (out / "intake.json").write_text(json.dumps(intake, indent=2) + "\n", encoding="utf-8")
     return intake
@@ -589,6 +614,188 @@ def intake_local(
     _write_intake(out, target, login, account, "local")
 
 
+# -- The pull-request route ----------------------------------------------------------------------
+
+
+def github_number(text: str) -> int:
+    """An issue or pull-request number: plain decimal digits, 1 to 999999999."""
+    if not isinstance(text, str) or not GITHUB_NUMBER.fullmatch(text):
+        raise argparse.ArgumentTypeError(f"not an issue or pull-request number: {text!r}")
+    return int(text)
+
+
+def _gh_read(argv: list[str]) -> str:
+    """One fixed, read-only `gh` call; its output is data."""
+    return subprocess.run(argv, capture_output=True, check=True, text=True, timeout=120).stdout
+
+
+def _fetch_to_file(argv: list[str], target: Path, limit: int) -> None:
+    """Stream one fixed `gh` call's binary output into `target`, killed past `limit` bytes."""
+    total = 0
+    with target.open("xb") as handle, subprocess.Popen(argv, stdout=subprocess.PIPE) as process:
+        assert process.stdout is not None
+        while chunk := process.stdout.read(1024 * 1024):
+            total += len(chunk)
+            if total > limit:
+                process.kill()
+                raise SystemExit(f"The head tarball is over {limit} bytes")
+            handle.write(chunk)
+        if process.wait(timeout=300) != 0:
+            raise SystemExit("Fetching the head tarball failed")
+
+
+def _asset_paths(filenames: list[str]) -> tuple[set[str], set[str], int]:
+    """From the changed paths: the `definitions/*.json` names, the pack slugs, and a count of
+    everything else (never built). Names that are not plain count as everything else."""
+    definitions: set[str] = set()
+    slugs: set[str] = set()
+    other = 0
+    for name in filenames:
+        parts = name.split("/")
+        if len(parts) == 2 and parts[0] == "definitions" and DEFINITION_FILE.fullmatch(parts[1]):
+            definitions.add(parts[1])
+        elif len(parts) >= 3 and parts[0] == "packs" and SLUG.fullmatch(parts[1]):
+            slugs.add(parts[1])
+        else:
+            other += 1
+    return definitions, slugs, other
+
+
+def intake_pull_request(number: int, out: Path) -> dict:
+    """Fetch the tarball of exactly one pull request's head commit, as opaque bytes.
+
+    Fixed, read-only GitHub calls against atanasster/mantel-library only: the pull request's
+    metadata (head sha, author login and numeric id, body), its changed file names (which select
+    the sources `build --intake` takes), and the tarball of exactly the head sha. The tarball is
+    never opened here; the sandbox reads it."""
+    github_number(str(number))
+    out.mkdir(parents=True, exist_ok=False)
+    pull = json.loads(_gh_read(["gh", "api", f"repos/{PUBLIC_REPOSITORY}/pulls/{number}"]))
+    if not isinstance(pull, dict) or pull.get("number") != number:
+        raise SystemExit("GitHub's pull-request metadata does not name this pull request")
+    head = pull.get("head")
+    sha = head.get("sha") if isinstance(head, dict) else None
+    if not isinstance(sha, str) or not HEAD_SHA.fullmatch(sha):
+        raise SystemExit("The pull request's head is not a 40-hex commit sha")
+    user = pull.get("user")
+    login, account = (user.get("login"), user.get("id")) if isinstance(user, dict) else (None, None)
+    if not isinstance(login, str) or not LOGIN.fullmatch(login):
+        raise SystemExit("The pull request's author login is not a GitHub login")
+    if type(account) is not int or account <= 0:
+        raise SystemExit("The pull request's author has no numeric account id")
+    changed = pull.get("changed_files")
+    if type(changed) is not int or not 0 < changed <= MAX_CHANGED_FILES:
+        raise SystemExit(f"Review a pull request of 1 to {MAX_CHANGED_FILES} changed files")
+    listing = _gh_read(
+        ["gh", "api", "--paginate", f"repos/{PUBLIC_REPOSITORY}/pulls/{number}/files",
+         "--jq", ".[].filename"]
+    )  # fmt: skip
+    definitions, slugs, other = _asset_paths(listing.splitlines())
+    if not definitions and not slugs:
+        raise SystemExit("The pull request changes no asset source (definitions/, packs/<slug>/)")
+    tarball = out / TARBALL
+    _fetch_to_file(["gh", "api", f"repos/{PUBLIC_REPOSITORY}/tarball/{sha}"], tarball, MAX_TARBALL)
+    data = tarball.read_bytes()
+    tarball.chmod(0o444)
+    body = (pull.get("body") or "").encode("utf-8")[:MAX_TEXT].decode("utf-8", "ignore")
+    (out / "issue.md").write_text(body, encoding="utf-8")
+    intake = {
+        "source": "pull-request",
+        "number": number,
+        "url": f"https://github.com/{PUBLIC_REPOSITORY}/pull/{number}",
+        "head_sha": sha,
+        "submitter": {"login": login, "id": account},
+        "tarball": TARBALL,
+        "tarball_sha256": hashlib.sha256(data).hexdigest(),
+        "tarball_size": len(data),
+        "selection": {"definitions": sorted(definitions), "packs": sorted(slugs)},
+        "changed_files": changed,
+        "changes_outside_sources": other,
+        "fetched_at": datetime.datetime.now(datetime.UTC).isoformat(timespec="seconds"),
+    }
+    (out / "intake.json").write_text(json.dumps(intake, indent=2) + "\n", encoding="utf-8")
+    return intake
+
+
+def _build_lines(stdout: str) -> dict[str, list]:
+    """The sandbox's JSON lines, gathered; a cut-off or foreign line refuses the build."""
+    result: dict[str, list] = {"built": [], "failed": [], "skipped": []}
+    for line in stdout.splitlines():
+        try:
+            document = json.loads(line)
+        except ValueError as error:
+            raise SystemExit("The sandbox build's output was cut off or is not JSON") from error
+        if not isinstance(document, dict) or len(document) != 1:
+            raise SystemExit("The sandbox build sent an unexpected line")
+        ((key, value),) = document.items()
+        if key == "refused":
+            raise SystemExit(f"The sandbox refused the head tarball: {value}")
+        if key not in result:
+            raise SystemExit("The sandbox build sent an unexpected line")
+        result[key].append(value)
+    return result
+
+
+def build_pull_request(intake_dir: Path, library: Path = LIBRARY) -> list[Path]:
+    """Take a pull-request intake's changed sources out of its head tarball and build them, both
+    in the sandbox; one intake folder per archive, `DIR/built/<slug>/`, which `review --intake`
+    reads like an issue's."""
+    intake = json.loads((intake_dir / "intake.json").read_text(encoding="utf-8"))
+    if intake.get("source") != "pull-request" or intake.get("tarball") != TARBALL:
+        raise SystemExit("`build --intake` takes the folder `intake --pr` wrote")
+    tarball = intake_dir / TARBALL
+    if hashlib.sha256(tarball.read_bytes()).hexdigest() != intake.get("tarball_sha256"):
+        raise SystemExit("The head tarball differs from the one recorded at intake")
+    code, stdout, stderr = run(
+        "build",
+        [TARBALL, "selection.json"],
+        library=library,
+        files={TARBALL: tarball},
+        documents={"selection.json": intake["selection"]},
+    )
+    result = _build_lines(stdout)
+    if code != 0:
+        raise SystemExit(f"The sandbox build failed ({code}): {stderr.strip()[-2000:]}")
+    built = _ensure(intake_dir / "built")
+    written = []
+    for asset in result["built"]:
+        slug = asset.get("slug")
+        if not isinstance(slug, str) or not SLUG.fullmatch(slug):
+            raise SystemExit("The sandbox named a built asset with an invalid slug")
+        data = base64.b64decode(asset["archive"], validate=True)
+        if len(data) > MAX_SUBMISSION or hashlib.sha256(data).hexdigest() != asset["sha256"]:
+            raise SystemExit(f"The built archive for {slug} is over the limit or its hash differs")
+        folder = built / slug
+        if folder.exists():
+            raise SystemExit(f"Two built assets, or an earlier build, share the slug {slug}")
+        folder.mkdir()
+        archive = folder / "submission.mantelpack"
+        archive.write_bytes(data)
+        if (intake_dir / "issue.md").is_file():
+            shutil.copyfile(intake_dir / "issue.md", folder / "issue.md")
+        _write_intake(
+            folder,
+            archive,
+            intake["submitter"]["login"],
+            intake["submitter"]["id"],
+            "pull-request",
+            intake["number"],
+            intake["url"],
+            extra={"head_sha": intake["head_sha"], "built_from": asset["from"]},
+        )
+        written.append(folder)
+    for line in result["skipped"]:
+        print(f"skipped {line}")
+    for failure in result["failed"]:
+        print(f"FAILED {failure['source']}: {failure['error']}", file=sys.stderr)
+    if result["failed"] or not written:
+        raise SystemExit(
+            f"{len(written)} built, {len(result['failed'])} failed: every changed source must "
+            "build (ask the author to fix it)"
+        )
+    return written
+
+
 def review(
     intake_dir: Path,
     out: Path,
@@ -597,6 +804,11 @@ def review(
     library: Path = LIBRARY,
 ) -> dict:
     intake = json.loads((intake_dir / "intake.json").read_text())
+    if "archive" not in intake:
+        raise SystemExit(
+            "A pull-request intake holds sources: run `build --intake` and review each "
+            "folder it writes under built/"
+        )
     archive = intake_dir / intake["archive"]
     if hashlib.sha256(archive.read_bytes()).hexdigest() != intake["archive_sha256"]:
         raise SystemExit("The staged archive differs from the one recorded at intake")
@@ -661,33 +873,41 @@ def conformance(out: Path, library: Path = LIBRARY) -> list[dict]:
 
 
 def main(argv: list[str] | None = None) -> int:
+    # No abbreviations anywhere: the guard admits argv word for word (policy.py `_runner_form`).
     parser = argparse.ArgumentParser(
-        description=__doc__, formatter_class=argparse.RawTextHelpFormatter
+        description=__doc__, formatter_class=argparse.RawTextHelpFormatter, allow_abbrev=False
     )
     parser.add_argument("--log", type=Path, help="append one JSON line per sandbox run")
     commands = parser.add_subparsers(dest="command", required=True)
-    commands.add_parser("prepare")
-    probe_parser = commands.add_parser("probe")
+    commands.add_parser("prepare", allow_abbrev=False)
+    probe_parser = commands.add_parser("probe", allow_abbrev=False)
     probe_parser.add_argument("--out", type=Path)
     for name in ("validate", "inspect", "unpack", "rebuild"):
-        commands.add_parser(name).add_argument("archive", type=Path)
-    commands.add_parser("build").add_argument("source", type=Path)
-    issue = commands.add_parser("intake")
-    issue.add_argument("--issue", type=int, required=True)
+        commands.add_parser(name, allow_abbrev=False).add_argument("archive", type=Path)
+    build = commands.add_parser("build", allow_abbrev=False)
+    build_from = build.add_mutually_exclusive_group(required=True)
+    build_from.add_argument("source", type=Path, nargs="?")
+    build_from.add_argument("--intake", type=Path)
+    issue = commands.add_parser("intake", allow_abbrev=False)
+    route = issue.add_mutually_exclusive_group(required=True)
+    route.add_argument("--issue", type=github_number)
+    route.add_argument("--pr", type=github_number)
     issue.add_argument("--out", type=Path, required=True)
-    local = commands.add_parser("intake-local")
+    local = commands.add_parser("intake-local", allow_abbrev=False)
     local.add_argument("--archive", type=Path, required=True)
     local.add_argument("--login", required=True)
     local.add_argument("--account", type=int, required=True)
     local.add_argument("--issue-text", type=Path)
     local.add_argument("--out", type=Path, required=True)
-    review_parser = commands.add_parser("review")
+    review_parser = commands.add_parser("review", allow_abbrev=False)
     review_parser.add_argument("--intake", type=Path, required=True)
     review_parser.add_argument("--out", type=Path, required=True)
     review_parser.add_argument("--notes", type=Path)
     review_parser.add_argument("--registry", type=Path)
-    commands.add_parser("conformance").add_argument("--out", type=Path, required=True)
-    calibrate = commands.add_parser("calibrate")
+    commands.add_parser("conformance", allow_abbrev=False).add_argument(
+        "--out", type=Path, required=True
+    )
+    calibrate = commands.add_parser("calibrate", allow_abbrev=False)
     calibrate.add_argument("--extra-looks", type=Path)
     calibrate.add_argument("--out", type=Path)
     args = parser.parse_args(argv)
@@ -710,11 +930,23 @@ def main(argv: list[str] | None = None) -> int:
         print(out, end="")
         print(err, end="", file=sys.stderr)
         return code
+    if args.command == "build" and args.intake:
+        for folder in build_pull_request(args.intake):
+            print(f"built {folder}: review it with `review --intake {folder}`")
+        return 0
     if args.command == "build":
         code, out, err = run("build", trees={"source": args.source})
         print(out, end="")
         print(err, end="", file=sys.stderr)
         return code
+    if args.command == "intake" and args.pr:
+        intake = intake_pull_request(args.pr, args.out)
+        print(
+            f"head {intake['head_sha']} ({intake['tarball_size']} bytes; "
+            f"{len(intake['selection']['definitions'])} definition files and "
+            f"{len(intake['selection']['packs'])} packs changed) -> {args.out}"
+        )
+        return 0
     if args.command == "intake":
         intake_issue(args.issue, args.out)
         return 0

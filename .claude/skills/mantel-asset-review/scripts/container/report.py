@@ -79,8 +79,9 @@ def with_notes(evidence: dict, notes: list[dict]) -> dict:
 
 SOURCE_PENDING = (
     "A definition's source hash is its catalog entry's (tools/check.py `reviewed_source`: the "
-    "entry without `distribution`), and the entry gains its slug, mood and description when it "
-    "is added in step 36; set `source_sha256` then."
+    "entry without `distribution`); the entry gains its slug, mood and description when "
+    "`tools/intake.py unpack` adds it, and `tools/intake.py approve` computes `source_sha256` "
+    "from the tree when the owner records their decision."
 )
 
 
@@ -90,7 +91,7 @@ def draft_record(evidence: dict) -> dict:
     It becomes a ledger record when a person fills `reviewer`, `reviewed_at` and `verdict`
     (`mantel_format.reviews.ReviewRecord`). A pack's `source_sha256` is its unpacked
     `source.json`, which is what `tools/check.py` hashes once that file is committed; a
-    definition's is left `null` until step 36 (`SOURCE_PENDING`).
+    definition's is left `null` for `tools/intake.py approve` to compute (`SOURCE_PENDING`).
     """
     release = evidence["release"]
     pack = release["ledger_kind"] == "pack"
@@ -202,6 +203,7 @@ def render(evidence: dict, environment: dict) -> str:
         f"| Submitter | `{submission['submitter']['login']}` (GitHub account "
         f"{submission['submitter']['id']}) from {submission['source'] or 'intake'}"
         + (f" #{submission['number']}" if submission.get("number") else "")
+        + (f" at commit `{submission['head_sha']}`" if submission.get("head_sha") else "")
         + " |",
         "",
         "## Checks",
@@ -286,8 +288,8 @@ def render(evidence: dict, environment: dict) -> str:
     ] or ["- [ ] Nothing pending beyond the verdict."]
     lines += [
         "- [ ] Rendered previews at 1920x1080, 1080x1920 and 1024x768, at the panel's distance",
-        "- [ ] `min_host` (a catalog entry's, set in step 36) is at least the host version that "
-        "introduced every capability the manifest declares",
+        "- [ ] `min_host` (a catalog entry's, set by `tools/intake.py unpack --min-host`) is at "
+        "least the host version that introduced every capability the manifest declares",
         "",
         "## Recommendation",
         "",

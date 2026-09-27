@@ -10,7 +10,8 @@
       "id": 7700001
     },
     "source": "local",
-    "number": null
+    "number": null,
+    "head_sha": null
   },
   "release": {
     "id": "brook/lantern",
@@ -237,7 +238,7 @@
     "submitted_archive_sha256": "8c4c8a7d5a907c0921cb88fef77a2157c94315efd647082edc73a4e1b48e38af",
     "rebuild": "identical",
     "unpacked_source_sha256": "a4187de90a888f35a7c48a6131baa98640b381daa30532f6fec152f62a8027a3",
-    "source_sha256": "pending: A definition's source hash is its catalog entry's (tools/check.py `reviewed_source`: the entry without `distribution`), and the entry gains its slug, mood and description when it is added in step 36; set `source_sha256` then.",
+    "source_sha256": "pending: A definition's source hash is its catalog entry's (tools/check.py `reviewed_source`: the entry without `distribution`); the entry gains its slug, mood and description when `tools/intake.py unpack` adds it, and `tools/intake.py approve` computes `source_sha256` from the tree when the owner records their decision.",
     "submitter_account": {
       "login": "brook-author",
       "id": 7700001

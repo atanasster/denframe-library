@@ -1,13 +1,18 @@
-# The daily TUF renewal (host docs/operations/LIBRARY_TUF_OPERATIONS.md). It signs a new snapshot
-# of the unchanged targets, then a timestamp for that exact snapshot, with the online key only, on
-# the staging repository kept on the `metadata-staging` branch; then it checks every role's
-# expiry. It does nothing until the owner sets the repository variable LIBRARY_RENEWAL to `on`
-# at the pre-launch gate, after creating the `release` environment with the LIBRARY_ONLINE_KEY
-# and LIBRARY_ONLINE_PASSPHRASE secrets. That environment is protected by a deployment-branch
-# rule (main only) and has no required reviewers: a scheduled job cannot wait for an approval,
-# and a pending one would let the timestamp lapse with no alert. A failure opens, or comments
-# on, the one open issue labelled `metadata-renewal`. The checkout keeps no token; only the
-# push step receives one, so the step holding the online key cannot push.
+# The daily TUF renewal (host docs/operations/LIBRARY_TUF_OPERATIONS.md). The repository hosts
+# verify is the one the website serves (https://smart.meggy.com/library/metadata/): that is the
+# one source of truth. The job reads the served metadata (public data), verifies it from the
+# pinned root (the repository variable LIBRARY_ROOT_SHA256), signs a new snapshot of the unchanged
+# targets and then a timestamp for that exact snapshot with the online key only, and publishes
+# just those two files to the live Firebase Hosting site: it clones the live release's version,
+# adds them through the Hosting REST API and releases it -- never redeploying the site -- then
+# checks every role's expiry. It does nothing until the owner sets the repository variable
+# LIBRARY_RENEWAL to `on` at the pre-launch gate, after creating the `release` environment with
+# the LIBRARY_ONLINE_KEY, LIBRARY_ONLINE_PASSPHRASE and FIREBASE_HOSTING_SERVICE_ACCOUNT secrets.
+# That environment is protected by a deployment-branch rule (main only) and has no required
+# reviewers: a scheduled job cannot wait for an approval, and a pending one would let the
+# timestamp lapse with no alert. A failure opens, or comments on, the one open issue labelled
+# `metadata-renewal`. The job's token is read-only; each secret reaches only the one step that
+# needs it: the online key the renew step, the Hosting service account the publish step.
 name: Renew library metadata
 on:
   schedule:
@@ -18,14 +23,17 @@ permissions:
 concurrency:
   group: renew-metadata
   cancel-in-progress: false
+env:
+  LIBRARY_ORIGIN: https://smart.meggy.com
+  HOSTING_SITE: smart-home-cec89
 jobs:
   renew:
     if: vars.LIBRARY_RENEWAL == 'on'
     runs-on: ubuntu-24.04
-    timeout-minutes: 10
+    timeout-minutes: 15
     environment: release
     permissions:
-      contents: write
+      contents: read
     steps:
       - name: Check out the tools
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
@@ -37,32 +45,28 @@ jobs:
         with:
           python-version: '3.13'
       - run: python -m pip install --require-hashes -r tools-checkout/tools/requirements-release.lock
-      - name: Check out the staging repository
-        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
-        with:
-          ref: metadata-staging
-          path: staging
-          persist-credentials: false
+      - name: Read and verify the served metadata
+        env:
+          LIBRARY_ROOT_SHA256: ${{ vars.LIBRARY_ROOT_SHA256 }}
+        run: >-
+          python tools-checkout/tools/library_served.py pull --origin "$LIBRARY_ORIGIN"
+          --root-sha256 "$LIBRARY_ROOT_SHA256" --repository served
       - name: Renew snapshot and timestamp
         env:
           LIBRARY_ONLINE_KEY: ${{ secrets.LIBRARY_ONLINE_KEY }}
           LIBRARY_ONLINE_PASSPHRASE: ${{ secrets.LIBRARY_ONLINE_PASSPHRASE }}
         run: >-
-          python tools-checkout/tools/tuf_repository.py --repository staging renew
+          python tools-checkout/tools/tuf_repository.py --repository served renew
           --online-key-env LIBRARY_ONLINE_KEY --online-passphrase-env LIBRARY_ONLINE_PASSPHRASE
-      - name: Push the renewed metadata
-        working-directory: staging
+      - name: Publish the new snapshot and timestamp to the live site
         env:
-          GH_TOKEN: ${{ github.token }}
-        run: |
-          git add metadata
-          git -c user.name='github-actions[bot]' \
-            -c user.email='41898282+github-actions[bot]@users.noreply.github.com' \
-            commit -q -m "Renew snapshot and timestamp"
-          gh auth setup-git
-          git push -q origin HEAD:metadata-staging
+          FIREBASE_HOSTING_SERVICE_ACCOUNT: ${{ secrets.FIREBASE_HOSTING_SERVICE_ACCOUNT }}
+        run: >-
+          python tools-checkout/tools/library_served.py publish --origin "$LIBRARY_ORIGIN"
+          --site "$HOSTING_SITE" --repository served
+          --service-account-env FIREBASE_HOSTING_SERVICE_ACCOUNT
       - name: Check every role's expiry
-        run: python tools-checkout/tools/tuf_repository.py --repository staging status
+        run: python tools-checkout/tools/tuf_repository.py --repository served status
   alert:
     needs: renew
     if: failure() && vars.LIBRARY_RENEWAL == 'on'

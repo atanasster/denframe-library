@@ -10,7 +10,8 @@
       "id": 7770001
     },
     "source": "local",
-    "number": null
+    "number": null,
+    "head_sha": null
   },
   "release": {
     "id": "mantel/theme-glass",
@@ -44,6 +45,18 @@
     "threshold": 2.0,
     "nearest": [
       {
+        "look": "mantel/theme-dusk",
+        "distance": 3.52,
+        "roles": {
+          "background": 2.26,
+          "surface": 3.72,
+          "text": 2.63,
+          "mutedText": 2.7,
+          "accent": 16.78,
+          "accentText": 6.26
+        }
+      },
+      {
         "look": "mantel/theme-painting",
         "distance": 4.21,
         "roles": {
@@ -56,27 +69,15 @@
         }
       },
       {
-        "look": "mantel/theme-ink",
-        "distance": 4.79,
+        "look": "mantel/theme-blueprint",
+        "distance": 4.77,
         "roles": {
-          "background": 4.19,
-          "surface": 7.6,
-          "text": 2.52,
-          "mutedText": 4.88,
-          "accent": 7.99,
-          "accentText": 4.77
-        }
-      },
-      {
-        "look": "mantel/theme-botanical",
-        "distance": 5.44,
-        "roles": {
-          "background": 6.54,
-          "surface": 7.91,
-          "text": 3.19,
-          "mutedText": 6.83,
-          "accent": 12.14,
-          "accentText": 2.75
+          "background": 8.1,
+          "surface": 5.79,
+          "text": 2.42,
+          "mutedText": 1.91,
+          "accent": 14.7,
+          "accentText": 5.64
         }
       }
     ],
@@ -167,13 +168,6 @@
       "evidence": "mantel/theme-glass submitted by mallory (account 7770001), who is not a Mantel publisher account"
     },
     {
-      "code": "DES-NAME-TAKEN",
-      "area": "design",
-      "severity": "minor",
-      "title": "The name repeats a catalog item's",
-      "evidence": "`Glass` is also mantel/theme-glass"
-    },
-    {
       "code": "DES-PREVIEWS-PENDING",
       "area": "design",
       "severity": "note",
@@ -184,7 +178,6 @@
   "automated_findings": [
     "ID-IMPOSTOR",
     "ID-RESERVED",
-    "DES-NAME-TAKEN",
     "DES-PREVIEWS-PENDING"
   ],
   "reviewer_findings": [],
@@ -205,7 +198,7 @@
     "submitted_archive_sha256": "f1d987f5cdf6c0f7cd725eecaef146b2f0476c9d78b702a11c542c3c9dfe7ffc",
     "rebuild": "identical",
     "unpacked_source_sha256": "b62dad773dc5ef8875a4c3824e2fdfa18dc35ba292cd250d8c0f1dbed354e306",
-    "source_sha256": "pending: A definition's source hash is its catalog entry's (tools/check.py `reviewed_source`: the entry without `distribution`), and the entry gains its slug, mood and description when it is added in step 36; set `source_sha256` then.",
+    "source_sha256": "pending: A definition's source hash is its catalog entry's (tools/check.py `reviewed_source`: the entry without `distribution`); the entry gains its slug, mood and description when `tools/intake.py unpack` adds it, and `tools/intake.py approve` computes `source_sha256` from the tree when the owner records their decision.",
     "submitter_account": {
       "login": "mallory",
       "id": 7770001
@@ -213,7 +206,6 @@
     "findings": [
       "ID-IMPOSTOR",
       "ID-RESERVED",
-      "DES-NAME-TAKEN",
       "DES-PREVIEWS-PENDING"
     ],
     "layers": {

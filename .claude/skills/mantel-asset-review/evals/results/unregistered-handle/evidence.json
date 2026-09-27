@@ -10,7 +10,8 @@
       "id": 5550999
     },
     "source": "local",
-    "number": null
+    "number": null,
+    "head_sha": null
   },
   "release": {
     "id": "aurora/dawn",
@@ -225,7 +226,7 @@
     "submitted_archive_sha256": "925a0db3ef40c21da2b302e8c7f175fa7948517b044716c5eaedd054946e9b11",
     "rebuild": "identical",
     "unpacked_source_sha256": "f11fec2bf90ab5b39340f0a0516c2e1e0e4f09c56049197fb5dd49de17b6e0ee",
-    "source_sha256": "pending: A definition's source hash is its catalog entry's (tools/check.py `reviewed_source`: the entry without `distribution`), and the entry gains its slug, mood and description when it is added in step 36; set `source_sha256` then.",
+    "source_sha256": "pending: A definition's source hash is its catalog entry's (tools/check.py `reviewed_source`: the entry without `distribution`); the entry gains its slug, mood and description when `tools/intake.py unpack` adds it, and `tools/intake.py approve` computes `source_sha256` from the tree when the owner records their decision.",
     "submitter_account": {
       "login": "mallory",
       "id": 5550999

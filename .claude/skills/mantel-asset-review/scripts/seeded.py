@@ -40,8 +40,8 @@ OUTPUT = SKILL / "evals/seeded"
 PACK_FIXTURES = LIBRARY / "contracts/packs/fixtures"
 
 # A look the catalog does not have, well clear of every one (ΔE 2.49 from Salon, its nearest,
-# with the ten step-37 looks listed). It was Appendix A's Nocturne until Nocturne joined the
-# catalog in step 37, which made the control a copy.
+# with plan §5.1's ten looks listed). It was Appendix A's Nocturne until Nocturne joined the
+# catalog, which made the control a copy.
 LANTERN = {
     "background": "#1f1a12",
     "surface": "#2d261b",

@@ -12,7 +12,7 @@ logins change) and a display name. Only those accounts submit under it.
 | `ID-IMPOSTOR` | critical | The id is a catalog item's, claimed by an account the registry does not list for its handle. An unsigned claim on a signed id is refused (S1–S3). |
 | `ID-LOCAL` | major | `local/` marks a household's own export. Rebuild under the submitter's handle. |
 | `ID-HANDLE-UNREGISTERED-USE` | critical | The handle is registered, but not to the submitting account. |
-| `ID-HANDLE-NEW` | note | A new handle. If the submission is accepted, step 36 registers it to the submitting account id. |
+| `ID-HANDLE-NEW` | note | A new handle. If the submission is accepted, `tools/intake.py register` binds it to the submitting account id. |
 | `ID-HANDLE-RESERVED-WORD` | major | The handle is a brand, platform, vendor or role (`RESERVED_HANDLES` in `container/review_checks.py`). |
 | `ID-HANDLE-LOOKALIKE` | major | Against **registered publishers** (and `mantel`): the handle folds to, is one edit from, or (for a handle of five letters or more) contains theirs -- the website's submit page makes the same comparison, with the same folding (`rn`→`m`, `vv`→`w`, `cl`→`d`, `0`→`o`, `1`/`i`→`l`, `5`→`s`, `3`→`e`, `4`→`a`; separators dropped). Against **reserved words** only folded equality counts (`t3am` is `team`; `beam`, `preview` and `ecosystem` are fine); the website does not check reserved words. |
 | `ID-HANDLE-MISMATCH` | major | (Person.) The handle the issue claims differs from the id's namespace. |

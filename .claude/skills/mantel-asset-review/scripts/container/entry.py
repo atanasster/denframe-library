@@ -7,7 +7,8 @@ network, a read-only root, and only these read-only mounts:
   /toolchain/format   the pinned public `mantel_format` source, tools and release environment
   /toolchain/review   this directory
   /reference          the public publisher registry and catalog (trusted reference data)
-  /submission         the staged archive, intake and issue text (untrusted data)
+  /submission         the staged archive, intake and issue text, or a pull request's
+                      head tarball and selection (untrusted data)
 
 Output is JSON on stdout; the runner on the host writes files. Nothing here runs, imports or
 evaluates anything from /submission.
@@ -148,7 +149,25 @@ def main(argv: list[str]) -> int:
             )
         return 0
     if command == "build":
-        # The pull-request route: a staged source folder, built with the published toolchain.
+        if rest:
+            # The pull-request route (`intake --pr`): the head tarball's changed asset sources,
+            # taken out and built here with the published toolchain, one JSON line per result.
+            import pull_request
+
+            selection = json.loads(staged(rest[1]).read_text(encoding="utf-8"))
+            try:
+                for line in pull_request.build_head(
+                    staged(rest[0]),
+                    selection,
+                    REFERENCE,
+                    Path("/tmp/sources"),  # noqa: S108
+                ):
+                    print(json.dumps(line, ensure_ascii=False), flush=True)
+            except pull_request.Refused as error:
+                print(json.dumps({"refused": str(error)}, ensure_ascii=False))
+                return 1
+            return 0
+        # One staged source folder: its archive's hash and size.
         _, _, data = read_source(SUBMISSION / "source" / "source.json")
         print(json.dumps({"sha256": review_checks.sha256(data), "size": len(data)}))
         return 0

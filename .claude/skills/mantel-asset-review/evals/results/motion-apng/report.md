@@ -82,7 +82,7 @@ Not a pack.
 - [ ] a person reads the copy (and, for packs, checks facts and audience)
 - [ ] a person verifies every licence at its source
 - [ ] Rendered previews at 1920x1080, 1080x1920 and 1024x768, at the panel's distance
-- [ ] `min_host` (a catalog entry's, set in step 36) is at least the host version that introduced every capability the manifest declares
+- [ ] `min_host` (a catalog entry's, set by `tools/intake.py unpack --min-host`) is at least the host version that introduced every capability the manifest declares
 
 ## Recommendation
 
@@ -118,7 +118,7 @@ Recommended verdict: `changes-requested`. The record goes into `reviews.json` as
 
 ## How this was checked
 
-Image `python:3.13-slim@sha256:9d2e5553305c7c7b0097999bb17187c69b921ccd6bc9d40e4bb5ebe652c00285` (linux/amd64), `mantel_format` 0.1.0, Python 3.13.15; release runtime matches. Network: none (docker --network none). Limits: 512m memory, 1 CPU, 64 pids, 64m no-exec tmpfs, read-only root, uid 65534, no capabilities, no-new-privileges. Nothing from the submission ran; the household host was never used.
+Image `python:3.13-slim@sha256:9d2e5553305c7c7b0097999bb17187c69b921ccd6bc9d40e4bb5ebe652c00285` (linux/amd64), `mantel_format` 0.2.0, Python 3.13.15; release runtime matches. Network: none (docker --network none). Limits: 512m memory, 1 CPU, 64 pids, 64m no-exec tmpfs, read-only root, uid 65534, no capabilities, no-new-privileges. Nothing from the submission ran; the household host was never used.
 
 ```json review-summary
 {"id": "quill/spinning-shapes", "version": "1.0.0", "recommendation": "changes requested", "layers": {"archive": "pass", "json": "pass", "schema": "pass", "capabilities": "pass", "contrast": "pass", "media": "fail", "trust": "not checked"}, "statuses": {"identity": "pending", "structure": "fail", "security": "pending", "design": "fail", "content": "pending", "licence": "pending", "listening": "not-applicable", "fluent": "not-applicable"}, "findings": [{"code": "DES-MOTION", "severity": "major", "area": "design"}, {"code": "ID-HANDLE-NEW", "severity": "note", "area": "identity"}, {"code": "DES-PREVIEWS-PENDING", "severity": "note", "area": "design"}]}

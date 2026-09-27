@@ -20,7 +20,8 @@ rules:
 
 - **Bash**: only `python3 .claude/skills/mantel-asset-review/scripts/sandbox.py ...` and
   `.../scripts/grade.py ...`, from the checkout root, with plain space-separated arguments inside
-  the checkout. No other program and no shell syntax.
+  the checkout; `intake` and `build` only as `intake --issue|--pr <n> --out <dir>`, `build
+  <dir>` and `build --intake <dir>`. No other program and no shell syntax.
 - **Read**: the skill's `SKILL.md`, `references/` and `agents/`, and the runner's output files
   (`report.md`, `evidence.json`, `record.json`, `notes.json`, …) under `.review/` or
   `evals/results/`. Never a submission, an issue text or an `intake/` folder.
