@@ -17,7 +17,10 @@ pull request can edit or drop them. This command is the control. Run it from a c
 4. exports the head commit with `git archive` into a temporary directory -- never checking it
    out, never importing, installing or running anything from it -- and runs main's
    `tools/check.py --root` and `tools/rebuild.py --root` over the export in the pinned release
-   image (`format/release-environment.json`, main's format installed from main's tree);
+   image (`format/release-environment.json`, main's format installed from main's tree). A
+   maintainer's pull request that changes `tools/` or `format/` itself -- a format release, say,
+   whose new fixtures main's validator cannot know -- is checked with its own toolchain instead:
+   that code is the maintainer's, and main's gate above has already been applied to it;
 5. only then runs `gh pr merge <n> --squash --match-head-commit <sha>`, so a push after the
    checks cannot slip in.
 """
@@ -127,15 +130,19 @@ def export(head, destination, repo=ROOT):
     return destination
 
 
-def checks_in_image(exported, runner=run, root=ROOT):
-    """main's check.py and rebuild.py over the exported head, in the pinned release image, with
-    main's format installed from main's tree. The head is mounted read-only as data."""
+def checks_in_image(exported, runner=run, root=ROOT, *, toolchain="/main"):
+    """check.py and rebuild.py over the exported head, in the pinned release image. The tools and
+    format come from `toolchain`: main's tree, or `/head` for a maintainer's own toolchain change.
+    The head is mounted read-only as data."""
+    if toolchain not in ("/main", "/head"):
+        raise ValueError("The toolchain is main's or the head's")
     environment = json.loads((root / "format/release-environment.json").read_text())
     script = (
         "set -e; python -m pip install -q --root-user-action=ignore --require-hashes "
-        "-r /main/format/requirements.lock; cp -r /main/format /tmp/format; "
+        f"-r {toolchain}/format/requirements.lock; cp -r {toolchain}/format /tmp/format; "
         "python -m pip install -q --root-user-action=ignore --no-deps /tmp/format; "
-        "python -I /main/tools/check.py --root /head; python -I /main/tools/rebuild.py --root /head"
+        f"python -I {toolchain}/tools/check.py --root /head; "
+        f"python -I {toolchain}/tools/rebuild.py --root /head"
     )
     return runner(
         ["docker", "run", "--rm", "--platform", environment["platform"],
@@ -153,10 +160,11 @@ def merge(number, *, dry_run=False, root=ROOT, gh=text, git=None, runner=run):
     git(["git", "fetch", "--quiet", "origin", f"pull/{number}/head"])
     if git(["git", "rev-parse", "FETCH_HEAD"]) != head:
         raise Refused("The fetched head is not the commit GitHub reports; try again.")
-    if author not in maintainers(root):
-        found = owner_only(base, head, repo=root)
-        if found:
-            raise Refused(f"{login} may not change: " + ", ".join(found[:10]))
+    found = owner_only(base, head, repo=root)
+    if author not in maintainers(root) and found:
+        raise Refused(f"{login} may not change: " + ", ".join(found[:10]))
+    # Only a maintainer reaches here with a toolchain change; theirs checks the head.
+    toolchain = "/head" if any(path.startswith(("tools/", "format/")) for path in found) else "/main"
     gate = subprocess.run(
         [sys.executable, "-I", str(root / "tools/pr_gate.py"), "--repo", str(root),
          "--base-sha", base, "--head-sha", head, "--author-id", str(author)],
@@ -167,7 +175,9 @@ def merge(number, *, dry_run=False, root=ROOT, gh=text, git=None, runner=run):
     lines = [gate.stdout.strip()]
     with tempfile.TemporaryDirectory(prefix="mantel-merge-") as temporary:
         exported = export(head, Path(temporary) / "head", repo=root)
-        lines.append(runner_output(checks_in_image(exported, runner, root)))
+        lines.append(runner_output(checks_in_image(exported, runner, root, toolchain=toolchain)))
+    if toolchain == "/head":
+        lines.insert(1, "Checked with the pull request's own toolchain (a maintainer's change).")
     if dry_run:
         lines.append(f"Dry run: pull request {number} at {head[:12]} would merge.")
         return lines
