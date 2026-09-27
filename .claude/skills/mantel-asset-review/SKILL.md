@@ -14,7 +14,8 @@ hooks:
 
 Review one submitted asset for the Mantel Library and hand a person a report they can decide
 from (plan D23, D24, §6). You **recommend**; the person named as `reviewer` in `reviews.json`
-approves. Signing is a separate, human-run step on the key machine (step 36).
+approves. Signing is a separate, human-run step on the key machine (the host's
+`scripts/library-release.py`).
 
 ## Where a review runs
 
@@ -128,7 +129,7 @@ command to append one line per sandbox run.
    is present.
 3. **Structure.** `mantel-author validate` passes at the pinned version. Capabilities are the
    minimum; extras are flagged. An update raises the catalog version (checked). A person checks
-   that the catalog entry's `min_host` (set in step 36) covers the declared capabilities -- the
+   that the catalog entry's `min_host` (`tools/intake.py unpack --min-host`) covers the declared capabilities -- the
    report's checklist carries it. The archive unpacks to a source that rebuilds; when the
    rebuild differs, the release that would be signed is the rebuild and the record names it.
 4. **Security** ([security.md](references/security.md)). The ZIP profile; media re-decoded and
@@ -174,8 +175,9 @@ The worst severity decides. `evidence.json`'s `draft.recommended_verdict` maps t
 
 `record.json` holds exactly the ledger's fields (`mantel_format.reviews.ReviewRecord`) with
 `reviewer`, `reviewed_at` and `verdict` `null`. A pack's `source_sha256` is its unpacked
-`source.json` (what `tools/check.py` hashes once step 36 commits it); a definition's is `null`
-until step 36 adds its catalog entry and computes it (`tools/check.py` `reviewed_source`).
+`source.json` (what `tools/check.py` hashes once it is committed); a definition's is `null`:
+its catalog entry gains a slug, mood and description at intake, and `tools/intake.py approve`
+computes it from the tree (`reviewed_source`) when the owner records their decision.
 Everything else -- the recommendation, the submitted hashes -- is in `evidence.json` under
 `draft`, never in the record.
 

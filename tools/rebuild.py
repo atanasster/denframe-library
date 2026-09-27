@@ -2,7 +2,10 @@
 pinned release environment, is byte-identical to the release its review record names.
 
 Each source is built, then its archive is unpacked and built again, so archive-only
-submissions (which are unpacked first) are held to the same bytes.
+submissions (which `tools/intake.py unpack` turns into sources first) are held to the same
+bytes. The review record's `archive_sha256` is the submitted archive's (the intake command and
+the approval helper refuse anything else), so a pull request's sources rebuilding to it is the
+parity proof: what is merged is what was submitted and reviewed.
 """
 
 import argparse
@@ -13,9 +16,11 @@ import sys
 import tempfile
 from pathlib import Path
 
-from mantel_format.authoring import read_source, unpack
-from mantel_format.elements import Definition, build_package
-from mantel_format.reviews import read_ledger
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+
+from library_sources import definition_archive  # noqa: E402
+from mantel_format.authoring import read_source, unpack  # noqa: E402
+from mantel_format.reviews import read_ledger  # noqa: E402
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -27,8 +32,7 @@ def sha256(data):
 def sources():
     """Every authored design and activity source: (id, version, its built archive bytes)."""
     for item in json.loads((ROOT / "definitions/catalog.json").read_text()):
-        definition = Definition.model_validate(item["definition"])
-        yield item["id"], item["version"], build_package(item["id"], item["version"], definition)
+        yield item["id"], item["version"], definition_archive(item)
     for source in sorted((ROOT / "packs").glob("*/source.json")):
         item, _, archive = read_source(source)
         yield item["id"], item["version"], archive
@@ -69,9 +73,14 @@ def main():
         action="store_true",
         help="skip the pinned-runtime check (local diagnosis only; the gate never uses it)",
     )
+    parser.add_argument("--root", type=Path, help="rebuild another tree (an exported head)")
     args = parser.parse_args()
+    if args.root is not None:
+        global ROOT
+        ROOT = args.root.resolve()
     if not args.any_environment:
-        check = ROOT / "format/tools/release_environment.py"
+        # This checkout's pinned-environment check, never the checked tree's.
+        check = Path(__file__).resolve().parents[1] / "format/tools/release_environment.py"
         if subprocess.run([sys.executable, str(check), "--check"]).returncode:
             raise SystemExit("Rebuilds must run in the pinned release environment")
     print(f"Rebuilt {rebuild()} reviewed assets byte-for-byte, from source and from archive.")
