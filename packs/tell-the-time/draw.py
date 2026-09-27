@@ -230,7 +230,7 @@ def main() -> None:
         HERE,
         header={
             "id": "mantel/tell-the-time",
-            "version": "1.0.0",
+            "version": "1.0.1",
             "publisher": "Mantel",
             "definition": {
                 "schema_version": 2,
@@ -238,8 +238,7 @@ def main() -> None:
                 "name": "Tell the Time",
                 "description": (
                     "Read a clock face: o'clock, half past, quarter past and quarter to. Twelve "
-                    "drawn clocks in English and Bulgarian, no sound. Review candidate: content "
-                    "and Bulgarian reading pending."
+                    "drawn clocks in English and Bulgarian, no sound."
                 ),
                 "locales": ["en", "bg"],
             },

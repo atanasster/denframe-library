@@ -27,6 +27,8 @@ The id's grammar, controls and bidi characters are the validator's (`SEC-TEXT-EN
 
 ## Handle rules a person applies
 
+Confirmed by the owner (`atanasster`) on 27 September 2026, as written below.
+
 - **Brand and person names.** No handle names a company, product, platform or public figure the
   submitter does not represent, or a private person other than the submitter. Evidence of
   representation (an official account, a verified domain) goes in the report; without it the
