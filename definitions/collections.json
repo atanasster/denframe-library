@@ -11,7 +11,10 @@
         "mantel/theme-botanical",
         "mantel/theme-linen",
         "mantel/quiet-clock",
-        "mantel/gallery-piece"
+        "mantel/gallery-piece",
+        "mantel/salon-evening",
+        "mantel/night-stand",
+        "mantel/night-clock"
       ]
     },
     {
@@ -23,7 +26,13 @@
         "mantel/weather-window",
         "mantel/day-ahead",
         "mantel/theme-modern",
-        "mantel/quiet-clock"
+        "mantel/quiet-clock",
+        "mantel/sunday-morning",
+        "mantel/front-door",
+        "mantel/big-hour",
+        "mantel/three-day-sky",
+        "mantel/one-headline",
+        "mantel/next-departures"
       ]
     },
     {
@@ -35,7 +44,10 @@
         "mantel/small-victories",
         "mantel/day-ahead",
         "mantel/weather-window",
-        "mantel/theme-linen"
+        "mantel/theme-linen",
+        "mantel/family-week",
+        "mantel/week-ahead",
+        "mantel/shopping-list"
       ]
     },
     {
@@ -51,11 +63,13 @@
     {
       "id": "markets",
       "title": "An eye on the markets",
-      "description": "A considered watchlist and a focused morning read. Both need a Stocks key.",
+      "description": "A watchlist, a one-line ticker and a focused morning read. The market blocks need a Stocks key.",
       "items": [
         "mantel/market-desk",
         "mantel/market-watch",
-        "mantel/theme-ink"
+        "mantel/theme-ink",
+        "mantel/trading-floor",
+        "mantel/ticker"
       ]
     },
     {

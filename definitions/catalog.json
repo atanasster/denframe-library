@@ -1095,5 +1095,1550 @@
         }
       }
     }
+  },
+  {
+    "slug": "big-hour",
+    "id": "mantel/big-hour",
+    "version": "1.0.0",
+    "distribution": "library",
+    "mood": "Bold · centred · unhurried",
+    "description": "The time in large 24-hour numerals, centred, with no seconds and no card behind it. Made to be read from across the room.",
+    "definition": {
+      "kind": "block",
+      "look": "linen",
+      "appearance": {
+        "layout": "auto",
+        "background": "solid",
+        "font": "theme",
+        "spacing": "standard",
+        "tokens": {
+          "background": "#efe3d3",
+          "surface": "#f8f0e4",
+          "captionSurface": "#efe3d3",
+          "text": "#2a1a11",
+          "mutedText": "#5f4636",
+          "accent": "#9a3f1b",
+          "accentText": "#fff8f0",
+          "border": "#b39a86",
+          "positive": "#2f7a3c",
+          "negative": "#b3261e"
+        }
+      },
+      "blocks": [
+        {
+          "id": "clock",
+          "kind": "clock",
+          "settings": {
+            "hour_format": "24",
+            "show_seconds": false
+          },
+          "style": {
+            "text_size": "larger",
+            "align": "center",
+            "face": "transparent"
+          }
+        }
+      ],
+      "source_slots": [],
+      "name": "Big Hour",
+      "localized": {
+        "bg": {
+          "name": "Голям час",
+          "mood": "Смело · центрирано · спокойно",
+          "description": "Часът с едри цифри в 24-часов формат, в средата, без секунди и без карта отзад. Чете се от другия край на стаята."
+        }
+      }
+    }
+  },
+  {
+    "slug": "night-clock",
+    "id": "mantel/night-clock",
+    "version": "1.0.0",
+    "distribution": "library",
+    "mood": "Dim · simple · bedside",
+    "description": "Only the time, in 12-hour numerals with AM or PM, drawn in the muted text colour so it stays gentle in a dark room.",
+    "definition": {
+      "kind": "block",
+      "look": "ink",
+      "appearance": {
+        "layout": "auto",
+        "background": "solid",
+        "font": "theme",
+        "spacing": "standard",
+        "margin": "tight",
+        "face": "transparent",
+        "tokens": {
+          "background": "#0d1117",
+          "surface": "#161b24",
+          "captionSurface": "#0d1117",
+          "text": "#f2ece1",
+          "mutedText": "#b4ada2",
+          "accent": "#e9b872",
+          "accentText": "#1b1307",
+          "border": "#39414f",
+          "positive": "#7ad19c",
+          "negative": "#ff9a8f"
+        }
+      },
+      "blocks": [
+        {
+          "id": "clock",
+          "kind": "clock",
+          "settings": {
+            "hour_format": "12",
+            "show_seconds": false,
+            "meridiem": "show"
+          },
+          "style": {
+            "detail": "glance",
+            "accent": "muted"
+          }
+        }
+      ],
+      "source_slots": [],
+      "name": "Night Clock",
+      "localized": {
+        "bg": {
+          "name": "Нощен часовник",
+          "mood": "Приглушено · просто · до леглото",
+          "description": "Само часът, в 12-часов формат с означение преди или след обяд, в приглушения цвят на текста, за да остане мек в тъмна стая."
+        }
+      }
+    }
+  },
+  {
+    "slug": "week-ahead",
+    "id": "mantel/week-ahead",
+    "version": "1.0.0",
+    "distribution": "library",
+    "mood": "Seven days · all-day plans · discreet",
+    "description": "The next seven days from your calendar, all-day plans included. Private events stay off the wall.",
+    "definition": {
+      "kind": "block",
+      "look": "modern",
+      "appearance": {
+        "layout": "auto",
+        "background": "solid",
+        "font": "theme",
+        "spacing": "standard",
+        "tokens": {
+          "background": "#f6f1e8",
+          "surface": "#fffdf8",
+          "captionSurface": "#f6f1e8",
+          "text": "#1b1b2a",
+          "mutedText": "#4a4a5c",
+          "accent": "#c2255c",
+          "accentText": "#ffffff",
+          "border": "#9a96a0",
+          "positive": "#1f7a44",
+          "negative": "#b3261e"
+        }
+      },
+      "blocks": [
+        {
+          "id": "calendar",
+          "kind": "calendar",
+          "source_slot": "calendar",
+          "settings": {
+            "overrides": {
+              "horizon_days": 7,
+              "show_all_day": true,
+              "private_events": "hidden"
+            }
+          }
+        }
+      ],
+      "source_slots": [
+        {
+          "id": "calendar",
+          "kind": "calendar",
+          "required": false
+        }
+      ],
+      "name": "Week Ahead",
+      "localized": {
+        "bg": {
+          "name": "Седмицата напред",
+          "mood": "Седем дни · целодневни планове · дискретно",
+          "description": "Следващите седем дни от календара ви, заедно с целодневните планове. Личните събития не се показват на стената."
+        }
+      }
+    }
+  },
+  {
+    "slug": "three-day-sky",
+    "id": "mantel/three-day-sky",
+    "version": "1.0.0",
+    "distribution": "library",
+    "mood": "Outlook · practical · plain",
+    "description": "Today's weather, the next three days and a word on what to wear before you head out.",
+    "definition": {
+      "kind": "block",
+      "look": "modern",
+      "appearance": {
+        "layout": "auto",
+        "background": "dunes",
+        "font": "theme",
+        "spacing": "standard",
+        "tokens": {
+          "background": "#f1ebe0",
+          "surface": "#fbf7f0",
+          "captionSurface": "#f1ebe0",
+          "text": "#14233a",
+          "mutedText": "#46546a",
+          "accent": "#1d4e89",
+          "accentText": "#ffffff",
+          "border": "#a8a293",
+          "positive": "#1d7a43",
+          "negative": "#b3261e"
+        }
+      },
+      "blocks": [
+        {
+          "id": "weather",
+          "kind": "weather",
+          "source_slot": "weather",
+          "settings": {
+            "overrides": {
+              "forecast_days": 3,
+              "show_wear_guidance": true
+            }
+          }
+        }
+      ],
+      "source_slots": [
+        {
+          "id": "weather",
+          "kind": "weather",
+          "required": true
+        }
+      ],
+      "name": "Three-Day Sky",
+      "localized": {
+        "bg": {
+          "name": "Небето за три дни",
+          "mood": "Прогноза · практично · ясно",
+          "description": "Времето днес, следващите три дни и съвет какво да облечете, преди да излезете."
+        }
+      }
+    }
+  },
+  {
+    "slug": "one-headline",
+    "id": "mantel/one-headline",
+    "version": "1.0.0",
+    "distribution": "library",
+    "mood": "One story · calm · considered",
+    "description": "A single headline and its summary under an accented heading. One story, read properly.",
+    "definition": {
+      "kind": "block",
+      "look": "modern",
+      "appearance": {
+        "layout": "auto",
+        "background": "solid",
+        "font": "theme",
+        "spacing": "standard",
+        "tokens": {
+          "background": "#eaf0f2",
+          "surface": "#fbfdfd",
+          "captionSurface": "#eaf0f2",
+          "text": "#102029",
+          "mutedText": "#365c62",
+          "accent": "#1c5a74",
+          "accentText": "#ffffff",
+          "border": "#8ea1ab",
+          "positive": "#1a7a45",
+          "negative": "#b42318"
+        }
+      },
+      "blocks": [
+        {
+          "id": "news",
+          "kind": "news",
+          "source_slot": "news",
+          "settings": {
+            "overrides": {
+              "max_stories": 1,
+              "show_summary": true
+            }
+          },
+          "style": {
+            "accent": "accent"
+          }
+        }
+      ],
+      "source_slots": [
+        {
+          "id": "news",
+          "kind": "news",
+          "required": false
+        }
+      ],
+      "name": "One Headline",
+      "localized": {
+        "bg": {
+          "name": "Една новина",
+          "mood": "Една история · спокойно · обмислено",
+          "description": "Едно заглавие и кратко резюме под акцентиран надпис. Една новина, прочетена както трябва."
+        }
+      }
+    }
+  },
+  {
+    "slug": "next-departures",
+    "id": "mantel/next-departures",
+    "version": "1.0.0",
+    "distribution": "library",
+    "mood": "Leave-by · at a glance · essential",
+    "description": "When to leave and how long the trip takes, in one line to read on the way to the door. It stays on screen when space is tight.",
+    "definition": {
+      "kind": "block",
+      "look": "modern",
+      "appearance": {
+        "layout": "auto",
+        "background": "dunes",
+        "font": "theme",
+        "spacing": "standard",
+        "tokens": {
+          "background": "#f1ebe0",
+          "surface": "#fbf7f0",
+          "captionSurface": "#f1ebe0",
+          "text": "#14233a",
+          "mutedText": "#46546a",
+          "accent": "#1d4e89",
+          "accentText": "#ffffff",
+          "border": "#a8a293",
+          "positive": "#1d7a43",
+          "negative": "#b3261e"
+        }
+      },
+      "blocks": [
+        {
+          "id": "transport",
+          "kind": "transport",
+          "source_slot": "transport",
+          "placement": {
+            "importance": "required"
+          },
+          "style": {
+            "detail": "glance"
+          }
+        }
+      ],
+      "source_slots": [
+        {
+          "id": "transport",
+          "kind": "transport",
+          "required": true
+        }
+      ],
+      "name": "Next Departures",
+      "localized": {
+        "bg": {
+          "name": "Следващи тръгвания",
+          "mood": "Кога да тръгнете · с един поглед · важно",
+          "description": "Кога да тръгнете и колко трае пътят, на един ред, който се чете на път към вратата. Остава на екрана и когато мястото е малко."
+        }
+      }
+    }
+  },
+  {
+    "slug": "shopping-list",
+    "id": "mantel/shopping-list",
+    "version": "1.0.0",
+    "distribution": "library",
+    "mood": "Short · practical · shared",
+    "description": "The first three things on your list in a compact column, for the kitchen wall.",
+    "definition": {
+      "kind": "block",
+      "look": "modern",
+      "appearance": {
+        "layout": "auto",
+        "background": "solid",
+        "font": "theme",
+        "spacing": "standard",
+        "tokens": {
+          "background": "#f6f1e8",
+          "surface": "#fffdf8",
+          "captionSurface": "#f6f1e8",
+          "text": "#1b1b2a",
+          "mutedText": "#4a4a5c",
+          "accent": "#c2255c",
+          "accentText": "#ffffff",
+          "border": "#9a96a0",
+          "positive": "#1f7a44",
+          "negative": "#b3261e"
+        }
+      },
+      "blocks": [
+        {
+          "id": "shopping",
+          "kind": "tasks",
+          "source_slot": "shopping",
+          "settings": {
+            "overrides": {
+              "max_visible": 3
+            }
+          },
+          "style": {
+            "detail": "compact"
+          }
+        }
+      ],
+      "source_slots": [
+        {
+          "id": "shopping",
+          "kind": "tasks",
+          "required": false
+        }
+      ],
+      "name": "Shopping List",
+      "localized": {
+        "bg": {
+          "name": "Списък за пазаруване",
+          "mood": "Кратко · практично · общо",
+          "description": "Първите три неща от списъка ви в компактна колона, за стената в кухнята."
+        }
+      }
+    }
+  },
+  {
+    "slug": "ticker",
+    "id": "mantel/ticker",
+    "version": "1.0.0",
+    "distribution": "library",
+    "mood": "Four symbols · one line · focused",
+    "description": "Four index funds on one line, led by SPY. Needs a Stocks key, with the four symbols on its watchlist.",
+    "definition": {
+      "kind": "block",
+      "look": "ink",
+      "appearance": {
+        "layout": "auto",
+        "background": "solid",
+        "font": "theme",
+        "spacing": "standard",
+        "tokens": {
+          "background": "#0f2a4a",
+          "surface": "#163a63",
+          "captionSurface": "#0f2a4a",
+          "text": "#f4f8ff",
+          "mutedText": "#c3d4ea",
+          "accent": "#ffd27a",
+          "accentText": "#1d1400",
+          "border": "#4f6f97",
+          "positive": "#8ff0b5",
+          "negative": "#ffb3a8"
+        }
+      },
+      "blocks": [
+        {
+          "id": "ticker",
+          "kind": "market",
+          "source_slot": "market",
+          "symbols": [
+            "SPY",
+            "QQQ",
+            "DIA",
+            "IWM"
+          ],
+          "settings": {
+            "overrides": {
+              "focus_symbol": "SPY"
+            }
+          },
+          "style": {
+            "detail": "line"
+          }
+        }
+      ],
+      "source_slots": [
+        {
+          "id": "market",
+          "kind": "market",
+          "required": true
+        }
+      ],
+      "name": "Ticker",
+      "localized": {
+        "bg": {
+          "name": "Борсова лента",
+          "mood": "Четири символа · един ред · фокусирано",
+          "description": "Четири индексни фонда на един ред, начело с SPY. Нужен е ключ за Stocks и четирите символа в списъка му за наблюдение."
+        }
+      }
+    }
+  },
+  {
+    "slug": "night-stand",
+    "id": "mantel/night-stand",
+    "version": "1.0.0",
+    "distribution": "library",
+    "mood": "Dark · quiet · bedside",
+    "description": "A muted clock, the next 24 hours of plans and a three-day sky on a lamplit night-blue canvas. Nothing bright enough to keep you awake.",
+    "definition": {
+      "kind": "content",
+      "look": "ink",
+      "appearance": {
+        "layout": "grid",
+        "background": "solid",
+        "font": "theme",
+        "spacing": "standard",
+        "margin": "tight",
+        "face": "transparent",
+        "tokens": {
+          "background": "#0d1117",
+          "surface": "#161b24",
+          "captionSurface": "#0d1117",
+          "text": "#f2ece1",
+          "mutedText": "#b4ada2",
+          "accent": "#e9b872",
+          "accentText": "#1b1307",
+          "border": "#39414f",
+          "positive": "#7ad19c",
+          "negative": "#ff9a8f"
+        }
+      },
+      "blocks": [
+        {
+          "id": "clock",
+          "kind": "clock",
+          "settings": {
+            "hour_format": "12",
+            "show_seconds": false,
+            "meridiem": "show"
+          },
+          "style": {
+            "detail": "glance",
+            "accent": "muted",
+            "align": "center"
+          }
+        },
+        {
+          "id": "calendar",
+          "kind": "calendar",
+          "source_slot": "calendar",
+          "settings": {
+            "overrides": {
+              "horizon_days": 1,
+              "show_all_day": true,
+              "private_events": "hidden"
+            }
+          }
+        },
+        {
+          "id": "weather",
+          "kind": "weather",
+          "source_slot": "weather",
+          "settings": {
+            "overrides": {
+              "forecast_days": 3,
+              "show_wear_guidance": true
+            }
+          }
+        }
+      ],
+      "source_slots": [
+        {
+          "id": "calendar",
+          "kind": "calendar",
+          "required": false,
+          "suggested_source": {
+            "kind": "calendar",
+            "preset_id": null
+          }
+        },
+        {
+          "id": "weather",
+          "kind": "weather",
+          "required": true,
+          "suggested_source": {
+            "kind": "weather",
+            "preset_id": null
+          }
+        }
+      ],
+      "purpose": "glance",
+      "arrangement": {
+        "landscape": {
+          "clock": {
+            "col_start": 1,
+            "row_start": 1,
+            "col_span": 12,
+            "row_span": 3
+          },
+          "calendar": {
+            "col_start": 1,
+            "row_start": 4,
+            "col_span": 7,
+            "row_span": 3
+          },
+          "weather": {
+            "col_start": 8,
+            "row_start": 4,
+            "col_span": 5,
+            "row_span": 3
+          }
+        },
+        "portrait": {
+          "clock": {
+            "col_start": 1,
+            "row_start": 1,
+            "col_span": 6,
+            "row_span": 4
+          },
+          "calendar": {
+            "col_start": 1,
+            "row_start": 5,
+            "col_span": 6,
+            "row_span": 4
+          },
+          "weather": {
+            "col_start": 1,
+            "row_start": 9,
+            "col_span": 6,
+            "row_span": 4
+          }
+        }
+      },
+      "setup": [
+        {
+          "source_slot": "weather",
+          "field": "city",
+          "required": true
+        },
+        {
+          "source_slot": "weather",
+          "field": "units",
+          "required": true
+        }
+      ],
+      "name": "Night Stand",
+      "localized": {
+        "bg": {
+          "name": "Нощно шкафче",
+          "mood": "Тъмно · тихо · до леглото",
+          "description": "Приглушен часовник, плановете за следващите 24 часа и небето за три дни върху нощно синьо платно. Нищо достатъчно ярко, за да ви държи буден."
+        }
+      }
+    },
+    "manifest": {
+      "license": "MIT",
+      "dependencies": [
+        {
+          "id": "mantel/night-clock",
+          "version": "1.0.0",
+          "digest": "a3d77e0c7a646b7aeac8ad702795300c3e02da7af5b6a1ef0b428fb554d3192e"
+        },
+        {
+          "id": "mantel/week-ahead",
+          "version": "1.0.0",
+          "digest": "037b332160d50314c5c45e98b8db6a5efe24693e6de0e263ed1630ad78242996"
+        },
+        {
+          "id": "mantel/three-day-sky",
+          "version": "1.0.0",
+          "digest": "d35cbd0112cbbbeba2468d802598a2da6de326ac04b19fa608f7dd3ce539e11e"
+        },
+        {
+          "id": "mantel/theme-nocturne",
+          "version": "1.0.0",
+          "digest": "54b333ea79b28088b2f38197e24df67c71e21f501d0f22893c949ec6c33ec5bd"
+        }
+      ],
+      "required_capabilities": [
+        "composition-v2",
+        "layout-setup-v1",
+        "layout-arrangement-v1",
+        "grid-placement-v1",
+        "block-style-v1",
+        "block-overrides-v1",
+        "localized-text-v1"
+      ]
+    }
+  },
+  {
+    "slug": "sunday-morning",
+    "id": "mantel/sunday-morning",
+    "version": "1.0.0",
+    "distribution": "library",
+    "mood": "Slow · sunlit · unhurried",
+    "description": "A big clock, the weather and one story worth reading, with the day's plans beside them on warm terracotta paper.",
+    "definition": {
+      "kind": "content",
+      "look": "linen",
+      "appearance": {
+        "layout": "grid",
+        "background": "solid",
+        "font": "theme",
+        "spacing": "standard",
+        "tokens": {
+          "background": "#efe3d3",
+          "surface": "#f8f0e4",
+          "captionSurface": "#efe3d3",
+          "text": "#2a1a11",
+          "mutedText": "#5f4636",
+          "accent": "#9a3f1b",
+          "accentText": "#fff8f0",
+          "border": "#b39a86",
+          "positive": "#2f7a3c",
+          "negative": "#b3261e"
+        }
+      },
+      "blocks": [
+        {
+          "id": "clock",
+          "kind": "clock",
+          "settings": {
+            "hour_format": "24",
+            "show_seconds": false
+          },
+          "style": {
+            "text_size": "larger",
+            "align": "center",
+            "face": "transparent"
+          }
+        },
+        {
+          "id": "news",
+          "kind": "news",
+          "source_slot": "news",
+          "settings": {
+            "overrides": {
+              "max_stories": 1,
+              "show_summary": true
+            }
+          },
+          "style": {
+            "accent": "accent"
+          }
+        },
+        {
+          "id": "weather",
+          "kind": "weather",
+          "source_slot": "weather",
+          "settings": {
+            "overrides": {
+              "forecast_days": 3,
+              "show_wear_guidance": true
+            }
+          }
+        },
+        {
+          "id": "day",
+          "kind": "calendar",
+          "source_slot": "calendar"
+        }
+      ],
+      "source_slots": [
+        {
+          "id": "news",
+          "kind": "news",
+          "required": false,
+          "suggested_source": {
+            "kind": "news",
+            "preset_id": null
+          }
+        },
+        {
+          "id": "weather",
+          "kind": "weather",
+          "required": true,
+          "suggested_source": {
+            "kind": "weather",
+            "preset_id": null
+          }
+        },
+        {
+          "id": "calendar",
+          "kind": "calendar",
+          "required": false,
+          "suggested_source": {
+            "kind": "calendar",
+            "preset_id": null
+          }
+        }
+      ],
+      "purpose": "glance",
+      "arrangement": {
+        "landscape": {
+          "clock": {
+            "col_start": 1,
+            "row_start": 1,
+            "col_span": 6,
+            "row_span": 3
+          },
+          "weather": {
+            "col_start": 7,
+            "row_start": 1,
+            "col_span": 6,
+            "row_span": 3
+          },
+          "news": {
+            "col_start": 1,
+            "row_start": 4,
+            "col_span": 7,
+            "row_span": 3
+          },
+          "day": {
+            "col_start": 8,
+            "row_start": 4,
+            "col_span": 5,
+            "row_span": 3
+          }
+        },
+        "portrait": {
+          "clock": {
+            "col_start": 1,
+            "row_start": 1,
+            "col_span": 6,
+            "row_span": 3
+          },
+          "weather": {
+            "col_start": 1,
+            "row_start": 4,
+            "col_span": 6,
+            "row_span": 3
+          },
+          "news": {
+            "col_start": 1,
+            "row_start": 7,
+            "col_span": 6,
+            "row_span": 3
+          },
+          "day": {
+            "col_start": 1,
+            "row_start": 10,
+            "col_span": 6,
+            "row_span": 3
+          }
+        }
+      },
+      "setup": [
+        {
+          "source_slot": "weather",
+          "field": "city",
+          "required": true
+        },
+        {
+          "source_slot": "weather",
+          "field": "units",
+          "required": true
+        }
+      ],
+      "name": "Sunday Morning",
+      "localized": {
+        "bg": {
+          "name": "Неделна сутрин",
+          "mood": "Бавно · слънчево · без бързане",
+          "description": "Голям часовник, времето и една новина, която си струва да се прочете, до плановете за деня върху топла теракотена хартия."
+        }
+      }
+    },
+    "manifest": {
+      "license": "MIT",
+      "dependencies": [
+        {
+          "id": "mantel/big-hour",
+          "version": "1.0.0",
+          "digest": "85c24c73d9135e7c21fbd4376625b26d75a69b70e9f2beffb3ff4b5c88a489ce"
+        },
+        {
+          "id": "mantel/one-headline",
+          "version": "1.0.0",
+          "digest": "d7be61cd01aa5437e94975c357108389a947cf2f85a2698edfbdef2b552d6aff"
+        },
+        {
+          "id": "mantel/three-day-sky",
+          "version": "1.0.0",
+          "digest": "d35cbd0112cbbbeba2468d802598a2da6de326ac04b19fa608f7dd3ce539e11e"
+        },
+        {
+          "id": "mantel/day-ahead",
+          "version": "1.0.0",
+          "digest": "b9b62f0a18a3af338d36294ad3c2f0c9a73b693035141014b22f4ab1a6b6a06e"
+        },
+        {
+          "id": "mantel/theme-terracotta",
+          "version": "1.0.0",
+          "digest": "16054523bae9d52ad87132fc046c6964efeb45ef40b94a543342002235af384f"
+        }
+      ],
+      "required_capabilities": [
+        "composition-v2",
+        "layout-setup-v1",
+        "layout-arrangement-v1",
+        "grid-placement-v1",
+        "block-style-v1",
+        "block-overrides-v1",
+        "localized-text-v1"
+      ]
+    }
+  },
+  {
+    "slug": "front-door",
+    "id": "mantel/front-door",
+    "version": "1.0.0",
+    "distribution": "library",
+    "mood": "Out the door · practical · breezy",
+    "description": "What to wear, when to leave and what comes next, for the wall by the door. Harbour colours over drawn dunes.",
+    "definition": {
+      "kind": "content",
+      "look": "modern",
+      "appearance": {
+        "layout": "grid",
+        "background": "dunes",
+        "font": "theme",
+        "spacing": "standard",
+        "tokens": {
+          "background": "#f1ebe0",
+          "surface": "#fbf7f0",
+          "captionSurface": "#f1ebe0",
+          "text": "#14233a",
+          "mutedText": "#46546a",
+          "accent": "#1d4e89",
+          "accentText": "#ffffff",
+          "border": "#a8a293",
+          "positive": "#1d7a43",
+          "negative": "#b3261e"
+        }
+      },
+      "blocks": [
+        {
+          "id": "weather",
+          "kind": "weather",
+          "source_slot": "weather",
+          "settings": {
+            "overrides": {
+              "forecast_days": 3,
+              "show_wear_guidance": true
+            }
+          }
+        },
+        {
+          "id": "transport",
+          "kind": "transport",
+          "source_slot": "transport",
+          "placement": {
+            "importance": "required"
+          },
+          "style": {
+            "detail": "glance"
+          }
+        },
+        {
+          "id": "day",
+          "kind": "calendar",
+          "source_slot": "calendar"
+        }
+      ],
+      "source_slots": [
+        {
+          "id": "weather",
+          "kind": "weather",
+          "required": true,
+          "suggested_source": {
+            "kind": "weather",
+            "preset_id": null
+          }
+        },
+        {
+          "id": "transport",
+          "kind": "transport",
+          "required": true,
+          "suggested_source": {
+            "kind": "transport",
+            "preset_id": null
+          }
+        },
+        {
+          "id": "calendar",
+          "kind": "calendar",
+          "required": false,
+          "suggested_source": {
+            "kind": "calendar",
+            "preset_id": null
+          }
+        }
+      ],
+      "purpose": "glance",
+      "arrangement": {
+        "landscape": {
+          "weather": {
+            "col_start": 1,
+            "row_start": 1,
+            "col_span": 7,
+            "row_span": 6
+          },
+          "transport": {
+            "col_start": 8,
+            "row_start": 1,
+            "col_span": 5,
+            "row_span": 3
+          },
+          "day": {
+            "col_start": 8,
+            "row_start": 4,
+            "col_span": 5,
+            "row_span": 3
+          }
+        },
+        "portrait": {
+          "weather": {
+            "col_start": 1,
+            "row_start": 1,
+            "col_span": 6,
+            "row_span": 5
+          },
+          "transport": {
+            "col_start": 1,
+            "row_start": 6,
+            "col_span": 6,
+            "row_span": 3
+          },
+          "day": {
+            "col_start": 1,
+            "row_start": 9,
+            "col_span": 6,
+            "row_span": 4
+          }
+        }
+      },
+      "setup": [
+        {
+          "source_slot": "weather",
+          "field": "city",
+          "required": true
+        },
+        {
+          "source_slot": "weather",
+          "field": "units",
+          "required": true
+        }
+      ],
+      "name": "Front Door",
+      "localized": {
+        "bg": {
+          "name": "Входната врата",
+          "mood": "На излизане · практично · свежо",
+          "description": "Какво да облечете, кога да тръгнете и какво следва, за стената до вратата. Цветовете на Пристан върху рисувани дюни."
+        }
+      }
+    },
+    "manifest": {
+      "license": "MIT",
+      "dependencies": [
+        {
+          "id": "mantel/three-day-sky",
+          "version": "1.0.0",
+          "digest": "d35cbd0112cbbbeba2468d802598a2da6de326ac04b19fa608f7dd3ce539e11e"
+        },
+        {
+          "id": "mantel/next-departures",
+          "version": "1.0.0",
+          "digest": "f3865666050cd68cab7c8fc1bba9f61084c20e84b51d3bd2cb0c6d5ff6ff6ca4"
+        },
+        {
+          "id": "mantel/day-ahead",
+          "version": "1.0.0",
+          "digest": "b9b62f0a18a3af338d36294ad3c2f0c9a73b693035141014b22f4ab1a6b6a06e"
+        },
+        {
+          "id": "mantel/theme-harbour",
+          "version": "1.0.0",
+          "digest": "4eb69b7f6fff33e7ebdeff20b9c8ca24e0c53ee83de42294e27af03a93d10147"
+        }
+      ],
+      "required_capabilities": [
+        "composition-v2",
+        "layout-setup-v1",
+        "layout-arrangement-v1",
+        "grid-placement-v1",
+        "block-style-v1",
+        "block-overrides-v1",
+        "localized-text-v1"
+      ]
+    }
+  },
+  {
+    "slug": "salon-evening",
+    "id": "mantel/salon-evening",
+    "version": "1.0.0",
+    "distribution": "library",
+    "mood": "Gilded · hushed · evening",
+    "description": "An artwork out to the edges of the screen, cropped with care, and a quiet 12-hour clock over it, in Salon's oxblood and gilt.",
+    "definition": {
+      "kind": "content",
+      "look": "painting",
+      "appearance": {
+        "layout": "overlay",
+        "background": "solid",
+        "font": "theme",
+        "spacing": "standard",
+        "tokens": {
+          "background": "#23100f",
+          "surface": "#33191a",
+          "captionSurface": "#23100f",
+          "text": "#fbf1e3",
+          "mutedText": "#dccbbb",
+          "accent": "#e2bd6e",
+          "accentText": "#241706",
+          "border": "#6d4c47",
+          "positive": "#7fd79a",
+          "negative": "#ff9b8e"
+        }
+      },
+      "blocks": [
+        {
+          "id": "image",
+          "kind": "image",
+          "source_slot": "image",
+          "settings": {
+            "edges": "bleed",
+            "fit": "smart"
+          }
+        },
+        {
+          "id": "clock",
+          "kind": "clock",
+          "settings": {
+            "hour_format": "12",
+            "show_seconds": false,
+            "meridiem": "show"
+          },
+          "style": {
+            "detail": "glance",
+            "accent": "muted"
+          }
+        }
+      ],
+      "source_slots": [
+        {
+          "id": "image",
+          "kind": "image",
+          "required": true,
+          "suggested_source": {
+            "kind": "image",
+            "preset_id": "bundled-open-art"
+          }
+        }
+      ],
+      "purpose": "gallery",
+      "name": "Salon Evening",
+      "localized": {
+        "bg": {
+          "name": "Вечер в салона",
+          "mood": "Позлатено · тихо · вечерно",
+          "description": "Картина до самите краища на екрана, внимателно изрязана, и тих 12-часов часовник върху нея, в тъмночервеното и златото на Салон."
+        }
+      }
+    },
+    "manifest": {
+      "license": "MIT",
+      "dependencies": [
+        {
+          "id": "mantel/gallery-piece",
+          "version": "1.0.0",
+          "digest": "f42232212fb814d3827d424880901c2f2306c34f922cfa0cda933347d43183da"
+        },
+        {
+          "id": "mantel/night-clock",
+          "version": "1.0.0",
+          "digest": "a3d77e0c7a646b7aeac8ad702795300c3e02da7af5b6a1ef0b428fb554d3192e"
+        },
+        {
+          "id": "mantel/theme-salon",
+          "version": "1.0.0",
+          "digest": "0b507a92af6ac4f156d736c1b708e7055e4f560e2ca8ddb8556c527bd526146d"
+        }
+      ],
+      "required_capabilities": [
+        "composition-v2",
+        "layout-setup-v1",
+        "layout-arrangement-v1",
+        "overlay-layout-v1",
+        "block-style-v1",
+        "picture-fill-v1",
+        "localized-text-v1"
+      ]
+    }
+  },
+  {
+    "slug": "family-week",
+    "id": "mantel/family-week",
+    "version": "1.0.0",
+    "distribution": "library",
+    "mood": "Busy · shared · colourful",
+    "description": "The family's week, the shopping list, the day's meals and a note for everyone, in risograph colours for the kitchen.",
+    "definition": {
+      "kind": "content",
+      "look": "modern",
+      "appearance": {
+        "layout": "grid",
+        "background": "solid",
+        "font": "theme",
+        "spacing": "standard",
+        "tokens": {
+          "background": "#f6f1e8",
+          "surface": "#fffdf8",
+          "captionSurface": "#f6f1e8",
+          "text": "#1b1b2a",
+          "mutedText": "#4a4a5c",
+          "accent": "#c2255c",
+          "accentText": "#ffffff",
+          "border": "#9a96a0",
+          "positive": "#1f7a44",
+          "negative": "#b3261e"
+        }
+      },
+      "blocks": [
+        {
+          "id": "calendar",
+          "kind": "calendar",
+          "source_slot": "calendar",
+          "settings": {
+            "overrides": {
+              "horizon_days": 7,
+              "show_all_day": true,
+              "private_events": "hidden"
+            }
+          }
+        },
+        {
+          "id": "shopping",
+          "kind": "tasks",
+          "source_slot": "shopping",
+          "settings": {
+            "overrides": {
+              "max_visible": 3
+            }
+          },
+          "style": {
+            "detail": "compact"
+          }
+        },
+        {
+          "id": "meal",
+          "kind": "meal",
+          "source_slot": "meal"
+        },
+        {
+          "id": "notes",
+          "kind": "notes",
+          "source_slot": "notes"
+        }
+      ],
+      "source_slots": [
+        {
+          "id": "calendar",
+          "kind": "calendar",
+          "required": false,
+          "suggested_source": {
+            "kind": "calendar",
+            "preset_id": null
+          }
+        },
+        {
+          "id": "shopping",
+          "kind": "tasks",
+          "required": false,
+          "suggested_source": {
+            "kind": "tasks",
+            "preset_id": null
+          }
+        },
+        {
+          "id": "meal",
+          "kind": "meal",
+          "required": false,
+          "suggested_source": {
+            "kind": "meal",
+            "preset_id": null
+          }
+        },
+        {
+          "id": "notes",
+          "kind": "notes",
+          "required": false,
+          "suggested_source": {
+            "kind": "notes",
+            "preset_id": null
+          }
+        }
+      ],
+      "purpose": "glance",
+      "arrangement": {
+        "landscape": {
+          "calendar": {
+            "col_start": 1,
+            "row_start": 1,
+            "col_span": 7,
+            "row_span": 6
+          },
+          "shopping": {
+            "col_start": 8,
+            "row_start": 1,
+            "col_span": 5,
+            "row_span": 3
+          },
+          "meal": {
+            "col_start": 8,
+            "row_start": 4,
+            "col_span": 5,
+            "row_span": 2
+          },
+          "notes": {
+            "col_start": 8,
+            "row_start": 6,
+            "col_span": 5,
+            "row_span": 1
+          }
+        },
+        "portrait": {
+          "calendar": {
+            "col_start": 1,
+            "row_start": 1,
+            "col_span": 6,
+            "row_span": 5
+          },
+          "shopping": {
+            "col_start": 1,
+            "row_start": 6,
+            "col_span": 6,
+            "row_span": 3
+          },
+          "meal": {
+            "col_start": 1,
+            "row_start": 9,
+            "col_span": 6,
+            "row_span": 2
+          },
+          "notes": {
+            "col_start": 1,
+            "row_start": 11,
+            "col_span": 6,
+            "row_span": 2
+          }
+        }
+      },
+      "name": "Family Week",
+      "localized": {
+        "bg": {
+          "name": "Семейната седмица",
+          "mood": "Натоварено · общо · цветно",
+          "description": "Седмицата на семейството, списъкът за пазаруване, храненията за деня и бележка за всички, в ризографски цветове за кухнята."
+        }
+      }
+    },
+    "manifest": {
+      "license": "MIT",
+      "dependencies": [
+        {
+          "id": "mantel/week-ahead",
+          "version": "1.0.0",
+          "digest": "037b332160d50314c5c45e98b8db6a5efe24693e6de0e263ed1630ad78242996"
+        },
+        {
+          "id": "mantel/shopping-list",
+          "version": "1.0.0",
+          "digest": "506a08b364b5cfe2ab645d881228be1a1432742b4a4dfbf35d338a5c5afc7c9a"
+        },
+        {
+          "id": "mantel/theme-riso",
+          "version": "1.0.0",
+          "digest": "a0cfb78235b195afd5f878d86cddec4f01cfcc4ca759a4a4df6d8384301bab9e"
+        }
+      ],
+      "required_capabilities": [
+        "composition-v2",
+        "layout-setup-v1",
+        "layout-arrangement-v1",
+        "grid-placement-v1",
+        "block-style-v1",
+        "block-overrides-v1",
+        "localized-text-v1"
+      ]
+    }
+  },
+  {
+    "slug": "trading-floor",
+    "id": "mantel/trading-floor",
+    "version": "1.0.0",
+    "distribution": "library",
+    "mood": "Sharp · steady · focused",
+    "description": "A one-line ticker across the top, a watchlist and one headline on Blueprint's drafting blue. Needs a Stocks key.",
+    "definition": {
+      "kind": "content",
+      "look": "ink",
+      "appearance": {
+        "layout": "grid",
+        "background": "solid",
+        "font": "theme",
+        "spacing": "standard",
+        "tokens": {
+          "background": "#0f2a4a",
+          "surface": "#163a63",
+          "captionSurface": "#0f2a4a",
+          "text": "#f4f8ff",
+          "mutedText": "#c3d4ea",
+          "accent": "#ffd27a",
+          "accentText": "#1d1400",
+          "border": "#4f6f97",
+          "positive": "#8ff0b5",
+          "negative": "#ffb3a8"
+        }
+      },
+      "blocks": [
+        {
+          "id": "ticker",
+          "kind": "market",
+          "source_slot": "market",
+          "symbols": [
+            "SPY",
+            "QQQ",
+            "DIA",
+            "IWM"
+          ],
+          "settings": {
+            "overrides": {
+              "focus_symbol": "SPY"
+            }
+          },
+          "style": {
+            "detail": "line"
+          }
+        },
+        {
+          "id": "watch",
+          "kind": "market",
+          "source_slot": "market"
+        },
+        {
+          "id": "news",
+          "kind": "news",
+          "source_slot": "news",
+          "settings": {
+            "overrides": {
+              "max_stories": 1,
+              "show_summary": true
+            }
+          },
+          "style": {
+            "accent": "accent"
+          }
+        }
+      ],
+      "source_slots": [
+        {
+          "id": "market",
+          "kind": "market",
+          "required": true,
+          "suggested_source": {
+            "kind": "market",
+            "preset_id": null
+          }
+        },
+        {
+          "id": "news",
+          "kind": "news",
+          "required": false,
+          "suggested_source": {
+            "kind": "news",
+            "preset_id": null
+          }
+        }
+      ],
+      "purpose": "glance",
+      "arrangement": {
+        "landscape": {
+          "ticker": {
+            "col_start": 1,
+            "row_start": 1,
+            "col_span": 12,
+            "row_span": 2
+          },
+          "watch": {
+            "col_start": 1,
+            "row_start": 3,
+            "col_span": 6,
+            "row_span": 4
+          },
+          "news": {
+            "col_start": 7,
+            "row_start": 3,
+            "col_span": 6,
+            "row_span": 4
+          }
+        },
+        "portrait": {
+          "ticker": {
+            "col_start": 1,
+            "row_start": 1,
+            "col_span": 6,
+            "row_span": 2
+          },
+          "watch": {
+            "col_start": 1,
+            "row_start": 3,
+            "col_span": 6,
+            "row_span": 5
+          },
+          "news": {
+            "col_start": 1,
+            "row_start": 8,
+            "col_span": 6,
+            "row_span": 5
+          }
+        }
+      },
+      "setup": [
+        {
+          "source_slot": "market",
+          "field": "watchlist",
+          "required": true
+        }
+      ],
+      "name": "Trading Floor",
+      "localized": {
+        "bg": {
+          "name": "Борсова зала",
+          "mood": "Остро · стабилно · фокусирано",
+          "description": "Борсова лента на един ред отгоре, списък за наблюдение и една новина върху синьото на Чертеж. Нужен е ключ за Stocks."
+        }
+      }
+    },
+    "manifest": {
+      "license": "MIT",
+      "dependencies": [
+        {
+          "id": "mantel/ticker",
+          "version": "1.0.0",
+          "digest": "790b5b4bdf0e7cb3acd5766a648a4028f7b796e1dbe4d5290a4c64f8c93674c6"
+        },
+        {
+          "id": "mantel/market-watch",
+          "version": "1.0.0",
+          "digest": "e78e8cda4708334467c3766a8f709dee3f704c62a8d8f229787b73db715d5099"
+        },
+        {
+          "id": "mantel/one-headline",
+          "version": "1.0.0",
+          "digest": "d7be61cd01aa5437e94975c357108389a947cf2f85a2698edfbdef2b552d6aff"
+        },
+        {
+          "id": "mantel/theme-blueprint",
+          "version": "1.0.0",
+          "digest": "c6e6ce925a1632a6cf57099041907b9a02c1e6ac7225815ee1aea89dd5b07f53"
+        }
+      ],
+      "required_capabilities": [
+        "composition-v2",
+        "layout-setup-v1",
+        "layout-arrangement-v1",
+        "grid-placement-v1",
+        "block-style-v1",
+        "block-overrides-v1",
+        "localized-text-v1"
+      ]
+    }
   }
 ]
