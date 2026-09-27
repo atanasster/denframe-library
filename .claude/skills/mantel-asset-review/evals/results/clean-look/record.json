@@ -1,0 +1,21 @@
+{
+  "id": "brook/nocturne",
+  "version": "1.0.0",
+  "kind": "definition",
+  "archive_sha256": "10d2ddf17382076696b5c7656f0602f8a2f722f44e98365262e69573a7798f0d",
+  "source_sha256": null,
+  "submitter_handle": "brook",
+  "reviewer": null,
+  "reviewed_at": null,
+  "statuses": {
+    "identity": "pending",
+    "structure": "pass",
+    "security": "pass",
+    "design": "pending",
+    "content": "pending",
+    "licence": "pending",
+    "listening": "not-applicable",
+    "fluent": "not-applicable"
+  },
+  "verdict": null
+}

@@ -1,0 +1,1915 @@
+[
+ {
+  "case": "attribution",
+  "recommendation": "changes requested",
+  "layers": {
+   "archive": "pass",
+   "json": "pass",
+   "schema": "pass",
+   "capabilities": "pass",
+   "contrast": "pass",
+   "media": "not applicable",
+   "trust": "not checked"
+  },
+  "findings": [
+   "DES-NOT-DISTINCT",
+   "ID-HANDLE-NEW",
+   "STRUCT-REBUILD-DIFFERS",
+   "DES-PREVIEWS-PENDING"
+  ]
+ },
+ {
+  "case": "bad-id",
+  "recommendation": "changes requested",
+  "layers": {
+   "archive": "pass",
+   "json": "pass",
+   "schema": "fail",
+   "capabilities": "not checked",
+   "contrast": "not checked",
+   "media": "not checked",
+   "trust": "not checked"
+  },
+  "findings": [
+   "STRUCT-SCHEMA",
+   "ID-HANDLE-NEW",
+   "DES-PREVIEWS-PENDING"
+  ]
+ },
+ {
+  "case": "bad-license",
+  "recommendation": "changes requested",
+  "layers": {
+   "archive": "pass",
+   "json": "pass",
+   "schema": "fail",
+   "capabilities": "not checked",
+   "contrast": "not checked",
+   "media": "not checked",
+   "trust": "not checked"
+  },
+  "findings": [
+   "LIC-INVALID",
+   "ID-HANDLE-NEW",
+   "DES-PREVIEWS-PENDING"
+  ]
+ },
+ {
+  "case": "bad-version",
+  "recommendation": "changes requested",
+  "layers": {
+   "archive": "pass",
+   "json": "pass",
+   "schema": "fail",
+   "capabilities": "not checked",
+   "contrast": "not checked",
+   "media": "not checked",
+   "trust": "not checked"
+  },
+  "findings": [
+   "STRUCT-SCHEMA",
+   "ID-HANDLE-NEW",
+   "DES-PREVIEWS-PENDING"
+  ]
+ },
+ {
+  "case": "bidi-isolate",
+  "recommendation": "changes requested",
+  "layers": {
+   "archive": "pass",
+   "json": "fail",
+   "schema": "not checked",
+   "capabilities": "not checked",
+   "contrast": "not checked",
+   "media": "not checked",
+   "trust": "not checked"
+  },
+  "findings": [
+   "SEC-TEXT-ENCODING",
+   "ID-HANDLE-NEW",
+   "DES-PREVIEWS-PENDING"
+  ]
+ },
+ {
+  "case": "bidi-override",
+  "recommendation": "changes requested",
+  "layers": {
+   "archive": "pass",
+   "json": "fail",
+   "schema": "not checked",
+   "capabilities": "not checked",
+   "contrast": "not checked",
+   "media": "not checked",
+   "trust": "not checked"
+  },
+  "findings": [
+   "SEC-TEXT-ENCODING",
+   "ID-HANDLE-NEW",
+   "DES-PREVIEWS-PENDING"
+  ]
+ },
+ {
+  "case": "c0-control",
+  "recommendation": "changes requested",
+  "layers": {
+   "archive": "pass",
+   "json": "fail",
+   "schema": "not checked",
+   "capabilities": "not checked",
+   "contrast": "not checked",
+   "media": "not checked",
+   "trust": "not checked"
+  },
+  "findings": [
+   "SEC-TEXT-ENCODING",
+   "ID-HANDLE-NEW",
+   "DES-PREVIEWS-PENDING"
+  ]
+ },
+ {
+  "case": "c1-control",
+  "recommendation": "changes requested",
+  "layers": {
+   "archive": "pass",
+   "json": "fail",
+   "schema": "not checked",
+   "capabilities": "not checked",
+   "contrast": "not checked",
+   "media": "not checked",
+   "trust": "not checked"
+  },
+  "findings": [
+   "SEC-TEXT-ENCODING",
+   "ID-HANDLE-NEW",
+   "DES-PREVIEWS-PENDING"
+  ]
+ },
+ {
+  "case": "case-collision",
+  "recommendation": "recommend reject",
+  "layers": {
+   "archive": "fail",
+   "json": "not checked",
+   "schema": "not checked",
+   "capabilities": "not checked",
+   "contrast": "not checked",
+   "media": "not checked",
+   "trust": "not checked"
+  },
+  "findings": [
+   "SEC-ZIP-PROFILE",
+   "ID-HANDLE-NEW",
+   "DES-PREVIEWS-PENDING"
+  ]
+ },
+ {
+  "case": "clock-block",
+  "recommendation": "recommend approve",
+  "layers": {
+   "archive": "pass",
+   "json": "pass",
+   "schema": "pass",
+   "capabilities": "pass",
+   "contrast": "pass",
+   "media": "not applicable",
+   "trust": "not checked"
+  },
+  "findings": [
+   "ID-HANDLE-NEW",
+   "STRUCT-REBUILD-DIFFERS",
+   "DES-PREVIEWS-PENDING"
+  ]
+ },
+ {
+  "case": "compression-bomb",
+  "recommendation": "recommend reject",
+  "layers": {
+   "archive": "fail",
+   "json": "not checked",
+   "schema": "not checked",
+   "capabilities": "not checked",
+   "contrast": "not checked",
+   "media": "not checked",
+   "trust": "not checked"
+  },
+  "findings": [
+   "SEC-ZIP-PROFILE",
+   "ID-UNREADABLE",
+   "DES-PREVIEWS-PENDING"
+  ]
+ },
+ {
+  "case": "duplicate-entry",
+  "recommendation": "recommend reject",
+  "layers": {
+   "archive": "fail",
+   "json": "not checked",
+   "schema": "not checked",
+   "capabilities": "not checked",
+   "contrast": "not checked",
+   "media": "not checked",
+   "trust": "not checked"
+  },
+  "findings": [
+   "SEC-ZIP-PROFILE",
+   "ID-HANDLE-NEW",
+   "DES-PREVIEWS-PENDING"
+  ]
+ },
+ {
+  "case": "duplicate-json-key",
+  "recommendation": "changes requested",
+  "layers": {
+   "archive": "pass",
+   "json": "fail",
+   "schema": "not checked",
+   "capabilities": "not checked",
+   "contrast": "not checked",
+   "media": "not checked",
+   "trust": "not checked"
+  },
+  "findings": [
+   "SEC-TEXT-ENCODING",
+   "ID-HANDLE-NEW",
+   "DES-PREVIEWS-PENDING"
+  ]
+ },
+ {
+  "case": "duration-above-max",
+  "recommendation": "changes requested",
+  "layers": {
+   "archive": "pass",
+   "json": "pass",
+   "schema": "fail",
+   "capabilities": "not checked",
+   "contrast": "not checked",
+   "media": "not checked",
+   "trust": "not checked"
+  },
+  "findings": [
+   "STRUCT-SCHEMA",
+   "ID-HANDLE-NEW",
+   "DES-PREVIEWS-PENDING"
+  ]
+ },
+ {
+  "case": "duration-below-min",
+  "recommendation": "changes requested",
+  "layers": {
+   "archive": "pass",
+   "json": "pass",
+   "schema": "fail",
+   "capabilities": "not checked",
+   "contrast": "not checked",
+   "media": "not checked",
+   "trust": "not checked"
+  },
+  "findings": [
+   "STRUCT-SCHEMA",
+   "ID-HANDLE-NEW",
+   "DES-PREVIEWS-PENDING"
+  ]
+ },
+ {
+  "case": "duration-exponent",
+  "recommendation": "changes requested",
+  "layers": {
+   "archive": "pass",
+   "json": "pass",
+   "schema": "fail",
+   "capabilities": "not checked",
+   "contrast": "not checked",
+   "media": "not checked",
+   "trust": "not checked"
+  },
+  "findings": [
+   "STRUCT-SCHEMA",
+   "ID-HANDLE-NEW",
+   "DES-PREVIEWS-PENDING"
+  ]
+ },
+ {
+  "case": "duration-subcentisecond",
+  "recommendation": "changes requested",
+  "layers": {
+   "archive": "pass",
+   "json": "pass",
+   "schema": "fail",
+   "capabilities": "not checked",
+   "contrast": "not checked",
+   "media": "not checked",
+   "trust": "not checked"
+  },
+  "findings": [
+   "STRUCT-SCHEMA",
+   "ID-HANDLE-NEW",
+   "DES-PREVIEWS-PENDING"
+  ]
+ },
+ {
+  "case": "entry-comment",
+  "recommendation": "recommend reject",
+  "layers": {
+   "archive": "fail",
+   "json": "not checked",
+   "schema": "not checked",
+   "capabilities": "not checked",
+   "contrast": "not checked",
+   "media": "not checked",
+   "trust": "not checked"
+  },
+  "findings": [
+   "SEC-ZIP-PROFILE",
+   "ID-HANDLE-NEW",
+   "DES-PREVIEWS-PENDING"
+  ]
+ },
+ {
+  "case": "entry-extra-field",
+  "recommendation": "recommend reject",
+  "layers": {
+   "archive": "fail",
+   "json": "not checked",
+   "schema": "not checked",
+   "capabilities": "not checked",
+   "contrast": "not checked",
+   "media": "not checked",
+   "trust": "not checked"
+  },
+  "findings": [
+   "SEC-ZIP-PROFILE",
+   "ID-HANDLE-NEW",
+   "DES-PREVIEWS-PENDING"
+  ]
+ },
+ {
+  "case": "extra-entry",
+  "recommendation": "recommend reject",
+  "layers": {
+   "archive": "fail",
+   "json": "not checked",
+   "schema": "not checked",
+   "capabilities": "not checked",
+   "contrast": "not checked",
+   "media": "not checked",
+   "trust": "not checked"
+  },
+  "findings": [
+   "SEC-ZIP-PROFILE",
+   "ID-HANDLE-NEW",
+   "DES-PREVIEWS-PENDING"
+  ]
+ },
+ {
+  "case": "failing-palette",
+  "recommendation": "changes requested",
+  "layers": {
+   "archive": "pass",
+   "json": "pass",
+   "schema": "fail",
+   "capabilities": "not checked",
+   "contrast": "not checked",
+   "media": "not checked",
+   "trust": "not checked"
+  },
+  "findings": [
+   "DES-CONTRAST",
+   "ID-HANDLE-NEW",
+   "DES-PREVIEWS-PENDING"
+  ]
+ },
+ {
+  "case": "forbidden-setting",
+  "recommendation": "changes requested",
+  "layers": {
+   "archive": "pass",
+   "json": "pass",
+   "schema": "fail",
+   "capabilities": "not checked",
+   "contrast": "not checked",
+   "media": "not checked",
+   "trust": "not checked"
+  },
+  "findings": [
+   "STRUCT-SCHEMA",
+   "ID-HANDLE-NEW",
+   "DES-PREVIEWS-PENDING"
+  ]
+ },
+ {
+  "case": "id-over-limit",
+  "recommendation": "changes requested",
+  "layers": {
+   "archive": "pass",
+   "json": "pass",
+   "schema": "fail",
+   "capabilities": "not checked",
+   "contrast": "not checked",
+   "media": "not checked",
+   "trust": "not checked"
+  },
+  "findings": [
+   "STRUCT-SCHEMA",
+   "ID-HANDLE-NEW",
+   "DES-PREVIEWS-PENDING"
+  ]
+ },
+ {
+  "case": "id3-title",
+  "recommendation": "changes requested",
+  "layers": {
+   "archive": "pass",
+   "json": "pass",
+   "schema": "pass",
+   "capabilities": "pass",
+   "contrast": "pass",
+   "media": "fail",
+   "trust": "not checked"
+  },
+  "findings": [
+   "SEC-MEDIA-METADATA",
+   "ID-HANDLE-NEW",
+   "DES-PREVIEWS-PENDING"
+  ]
+ },
+ {
+  "case": "image-pixel-budget",
+  "recommendation": "changes requested",
+  "layers": {
+   "archive": "pass",
+   "json": "pass",
+   "schema": "pass",
+   "capabilities": "pass",
+   "contrast": "pass",
+   "media": "fail",
+   "trust": "not checked"
+  },
+  "findings": [
+   "SEC-MEDIA-INVALID",
+   "ID-HANDLE-NEW",
+   "DES-PREVIEWS-PENDING"
+  ]
+ },
+ {
+  "case": "image-pixel-warning",
+  "recommendation": "changes requested",
+  "layers": {
+   "archive": "pass",
+   "json": "pass",
+   "schema": "pass",
+   "capabilities": "pass",
+   "contrast": "pass",
+   "media": "fail",
+   "trust": "not checked"
+  },
+  "findings": [
+   "SEC-MEDIA-INVALID",
+   "ID-HANDLE-NEW",
+   "DES-PREVIEWS-PENDING"
+  ]
+ },
+ {
+  "case": "jpeg-exif",
+  "recommendation": "changes requested",
+  "layers": {
+   "archive": "pass",
+   "json": "pass",
+   "schema": "pass",
+   "capabilities": "pass",
+   "contrast": "pass",
+   "media": "fail",
+   "trust": "not checked"
+  },
+  "findings": [
+   "SEC-MEDIA-METADATA",
+   "ID-HANDLE-NEW",
+   "DES-PREVIEWS-PENDING"
+  ]
+ },
+ {
+  "case": "jpeg-valid",
+  "recommendation": "recommend approve",
+  "layers": {
+   "archive": "pass",
+   "json": "pass",
+   "schema": "pass",
+   "capabilities": "pass",
+   "contrast": "pass",
+   "media": "pass",
+   "trust": "not checked"
+  },
+  "findings": [
+   "ID-HANDLE-NEW",
+   "STRUCT-REBUILD-DIFFERS",
+   "DES-PREVIEWS-PENDING",
+   "CON-LISTENING-NEEDED",
+   "CON-FLUENT-NEEDED"
+  ]
+ },
+ {
+  "case": "layout-arrangement",
+  "recommendation": "recommend approve",
+  "layers": {
+   "archive": "pass",
+   "json": "pass",
+   "schema": "pass",
+   "capabilities": "pass",
+   "contrast": "pass",
+   "media": "not applicable",
+   "trust": "not checked"
+  },
+  "findings": [
+   "ID-HANDLE-NEW",
+   "STRUCT-REBUILD-DIFFERS",
+   "DES-PREVIEWS-PENDING"
+  ]
+ },
+ {
+  "case": "layout-bad-purpose",
+  "recommendation": "changes requested",
+  "layers": {
+   "archive": "pass",
+   "json": "pass",
+   "schema": "fail",
+   "capabilities": "not checked",
+   "contrast": "not checked",
+   "media": "not checked",
+   "trust": "not checked"
+  },
+  "findings": [
+   "STRUCT-SCHEMA",
+   "ID-HANDLE-NEW",
+   "DES-PREVIEWS-PENDING"
+  ]
+ },
+ {
+  "case": "layout-bounds",
+  "recommendation": "changes requested",
+  "layers": {
+   "archive": "pass",
+   "json": "pass",
+   "schema": "fail",
+   "capabilities": "not checked",
+   "contrast": "not checked",
+   "media": "not checked",
+   "trust": "not checked"
+  },
+  "findings": [
+   "STRUCT-SCHEMA",
+   "ID-HANDLE-NEW",
+   "DES-PREVIEWS-PENDING"
+  ]
+ },
+ {
+  "case": "layout-coerced-cell",
+  "recommendation": "changes requested",
+  "layers": {
+   "archive": "pass",
+   "json": "pass",
+   "schema": "fail",
+   "capabilities": "not checked",
+   "contrast": "not checked",
+   "media": "not checked",
+   "trust": "not checked"
+  },
+  "findings": [
+   "STRUCT-SCHEMA",
+   "ID-HANDLE-NEW",
+   "DES-PREVIEWS-PENDING"
+  ]
+ },
+ {
+  "case": "layout-landscape",
+  "recommendation": "recommend approve",
+  "layers": {
+   "archive": "pass",
+   "json": "pass",
+   "schema": "pass",
+   "capabilities": "pass",
+   "contrast": "pass",
+   "media": "not applicable",
+   "trust": "not checked"
+  },
+  "findings": [
+   "ID-HANDLE-NEW",
+   "STRUCT-REBUILD-DIFFERS",
+   "DES-PREVIEWS-PENDING"
+  ]
+ },
+ {
+  "case": "layout-missing-capability",
+  "recommendation": "changes requested",
+  "layers": {
+   "archive": "pass",
+   "json": "pass",
+   "schema": "pass",
+   "capabilities": "fail",
+   "contrast": "not checked",
+   "media": "not checked",
+   "trust": "not checked"
+  },
+  "findings": [
+   "STRUCT-CAPABILITIES",
+   "ID-HANDLE-NEW",
+   "DES-PREVIEWS-PENDING"
+  ]
+ },
+ {
+  "case": "layout-missing-id",
+  "recommendation": "changes requested",
+  "layers": {
+   "archive": "pass",
+   "json": "pass",
+   "schema": "fail",
+   "capabilities": "not checked",
+   "contrast": "not checked",
+   "media": "not checked",
+   "trust": "not checked"
+  },
+  "findings": [
+   "STRUCT-SCHEMA",
+   "ID-HANDLE-NEW",
+   "DES-PREVIEWS-PENDING"
+  ]
+ },
+ {
+  "case": "layout-overlap",
+  "recommendation": "changes requested",
+  "layers": {
+   "archive": "pass",
+   "json": "pass",
+   "schema": "fail",
+   "capabilities": "not checked",
+   "contrast": "not checked",
+   "media": "not checked",
+   "trust": "not checked"
+  },
+  "findings": [
+   "STRUCT-SCHEMA",
+   "ID-HANDLE-NEW",
+   "DES-PREVIEWS-PENDING"
+  ]
+ },
+ {
+  "case": "layout-partial-cell",
+  "recommendation": "changes requested",
+  "layers": {
+   "archive": "pass",
+   "json": "pass",
+   "schema": "fail",
+   "capabilities": "not checked",
+   "contrast": "not checked",
+   "media": "not checked",
+   "trust": "not checked"
+  },
+  "findings": [
+   "STRUCT-SCHEMA",
+   "ID-HANDLE-NEW",
+   "DES-PREVIEWS-PENDING"
+  ]
+ },
+ {
+  "case": "layout-portrait-bounds",
+  "recommendation": "changes requested",
+  "layers": {
+   "archive": "pass",
+   "json": "pass",
+   "schema": "fail",
+   "capabilities": "not checked",
+   "contrast": "not checked",
+   "media": "not checked",
+   "trust": "not checked"
+  },
+  "findings": [
+   "STRUCT-SCHEMA",
+   "ID-HANDLE-NEW",
+   "DES-PREVIEWS-PENDING"
+  ]
+ },
+ {
+  "case": "layout-portrait-overlap",
+  "recommendation": "changes requested",
+  "layers": {
+   "archive": "pass",
+   "json": "pass",
+   "schema": "fail",
+   "capabilities": "not checked",
+   "contrast": "not checked",
+   "media": "not checked",
+   "trust": "not checked"
+  },
+  "findings": [
+   "STRUCT-SCHEMA",
+   "ID-HANDLE-NEW",
+   "DES-PREVIEWS-PENDING"
+  ]
+ },
+ {
+  "case": "layout-private-preset",
+  "recommendation": "changes requested",
+  "layers": {
+   "archive": "pass",
+   "json": "pass",
+   "schema": "fail",
+   "capabilities": "not checked",
+   "contrast": "not checked",
+   "media": "not checked",
+   "trust": "not checked"
+  },
+  "findings": [
+   "STRUCT-SCHEMA",
+   "ID-HANDLE-NEW",
+   "DES-PREVIEWS-PENDING"
+  ]
+ },
+ {
+  "case": "layout-public-preset",
+  "recommendation": "recommend approve",
+  "layers": {
+   "archive": "pass",
+   "json": "pass",
+   "schema": "pass",
+   "capabilities": "pass",
+   "contrast": "pass",
+   "media": "not applicable",
+   "trust": "not checked"
+  },
+  "findings": [
+   "ID-HANDLE-NEW",
+   "STRUCT-REBUILD-DIFFERS",
+   "DES-PREVIEWS-PENDING"
+  ]
+ },
+ {
+  "case": "layout-purpose",
+  "recommendation": "recommend approve",
+  "layers": {
+   "archive": "pass",
+   "json": "pass",
+   "schema": "pass",
+   "capabilities": "pass",
+   "contrast": "pass",
+   "media": "not applicable",
+   "trust": "not checked"
+  },
+  "findings": [
+   "ID-HANDLE-NEW",
+   "STRUCT-REBUILD-DIFFERS",
+   "DES-PREVIEWS-PENDING"
+  ]
+ },
+ {
+  "case": "layout-setup-duplicate",
+  "recommendation": "changes requested",
+  "layers": {
+   "archive": "pass",
+   "json": "pass",
+   "schema": "fail",
+   "capabilities": "not checked",
+   "contrast": "not checked",
+   "media": "not checked",
+   "trust": "not checked"
+  },
+  "findings": [
+   "STRUCT-SCHEMA",
+   "ID-HANDLE-NEW",
+   "DES-PREVIEWS-PENDING"
+  ]
+ },
+ {
+  "case": "layout-setup-household-value",
+  "recommendation": "changes requested",
+  "layers": {
+   "archive": "pass",
+   "json": "pass",
+   "schema": "fail",
+   "capabilities": "not checked",
+   "contrast": "not checked",
+   "media": "not checked",
+   "trust": "not checked"
+  },
+  "findings": [
+   "STRUCT-SCHEMA",
+   "ID-HANDLE-NEW",
+   "DES-PREVIEWS-PENDING"
+  ]
+ },
+ {
+  "case": "layout-setup-missing-capability",
+  "recommendation": "changes requested",
+  "layers": {
+   "archive": "pass",
+   "json": "pass",
+   "schema": "pass",
+   "capabilities": "fail",
+   "contrast": "not checked",
+   "media": "not checked",
+   "trust": "not checked"
+  },
+  "findings": [
+   "STRUCT-CAPABILITIES",
+   "ID-HANDLE-NEW",
+   "DES-PREVIEWS-PENDING"
+  ]
+ },
+ {
+  "case": "layout-setup-suggestion-config",
+  "recommendation": "changes requested",
+  "layers": {
+   "archive": "pass",
+   "json": "pass",
+   "schema": "fail",
+   "capabilities": "not checked",
+   "contrast": "not checked",
+   "media": "not checked",
+   "trust": "not checked"
+  },
+  "findings": [
+   "STRUCT-SCHEMA",
+   "ID-HANDLE-NEW",
+   "DES-PREVIEWS-PENDING"
+  ]
+ },
+ {
+  "case": "layout-setup-suggestion-kind",
+  "recommendation": "changes requested",
+  "layers": {
+   "archive": "pass",
+   "json": "pass",
+   "schema": "fail",
+   "capabilities": "not checked",
+   "contrast": "not checked",
+   "media": "not checked",
+   "trust": "not checked"
+  },
+  "findings": [
+   "STRUCT-SCHEMA",
+   "ID-HANDLE-NEW",
+   "DES-PREVIEWS-PENDING"
+  ]
+ },
+ {
+  "case": "layout-setup-unknown-slot",
+  "recommendation": "changes requested",
+  "layers": {
+   "archive": "pass",
+   "json": "pass",
+   "schema": "fail",
+   "capabilities": "not checked",
+   "contrast": "not checked",
+   "media": "not checked",
+   "trust": "not checked"
+  },
+  "findings": [
+   "STRUCT-SCHEMA",
+   "ID-HANDLE-NEW",
+   "DES-PREVIEWS-PENDING"
+  ]
+ },
+ {
+  "case": "layout-setup-wrong-kind",
+  "recommendation": "changes requested",
+  "layers": {
+   "archive": "pass",
+   "json": "pass",
+   "schema": "fail",
+   "capabilities": "not checked",
+   "contrast": "not checked",
+   "media": "not checked",
+   "trust": "not checked"
+  },
+  "findings": [
+   "STRUCT-SCHEMA",
+   "ID-HANDLE-NEW",
+   "DES-PREVIEWS-PENDING"
+  ]
+ },
+ {
+  "case": "layout-setup-wrong-prompt-kind",
+  "recommendation": "changes requested",
+  "layers": {
+   "archive": "pass",
+   "json": "pass",
+   "schema": "fail",
+   "capabilities": "not checked",
+   "contrast": "not checked",
+   "media": "not checked",
+   "trust": "not checked"
+  },
+  "findings": [
+   "STRUCT-SCHEMA",
+   "ID-HANDLE-NEW",
+   "DES-PREVIEWS-PENDING"
+  ]
+ },
+ {
+  "case": "layout-setup",
+  "recommendation": "recommend approve",
+  "layers": {
+   "archive": "pass",
+   "json": "pass",
+   "schema": "pass",
+   "capabilities": "pass",
+   "contrast": "pass",
+   "media": "not applicable",
+   "trust": "not checked"
+  },
+  "findings": [
+   "ID-HANDLE-NEW",
+   "STRUCT-REBUILD-DIFFERS",
+   "DES-PREVIEWS-PENDING"
+  ]
+ },
+ {
+  "case": "layout-unknown-id",
+  "recommendation": "changes requested",
+  "layers": {
+   "archive": "pass",
+   "json": "pass",
+   "schema": "fail",
+   "capabilities": "not checked",
+   "contrast": "not checked",
+   "media": "not checked",
+   "trust": "not checked"
+  },
+  "findings": [
+   "STRUCT-SCHEMA",
+   "ID-HANDLE-NEW",
+   "DES-PREVIEWS-PENDING"
+  ]
+ },
+ {
+  "case": "layout-wrong-kind",
+  "recommendation": "changes requested",
+  "layers": {
+   "archive": "pass",
+   "json": "pass",
+   "schema": "fail",
+   "capabilities": "not checked",
+   "contrast": "not checked",
+   "media": "not checked",
+   "trust": "not checked"
+  },
+  "findings": [
+   "STRUCT-SCHEMA",
+   "ID-HANDLE-NEW",
+   "DES-PREVIEWS-PENDING"
+  ]
+ },
+ {
+  "case": "layout-wrong-layout",
+  "recommendation": "changes requested",
+  "layers": {
+   "archive": "pass",
+   "json": "pass",
+   "schema": "fail",
+   "capabilities": "not checked",
+   "contrast": "not checked",
+   "media": "not checked",
+   "trust": "not checked"
+  },
+  "findings": [
+   "STRUCT-SCHEMA",
+   "ID-HANDLE-NEW",
+   "DES-PREVIEWS-PENDING"
+  ]
+ },
+ {
+  "case": "local-shared",
+  "recommendation": "changes requested",
+  "layers": {
+   "archive": "pass",
+   "json": "pass",
+   "schema": "pass",
+   "capabilities": "pass",
+   "contrast": "pass",
+   "media": "not applicable",
+   "trust": "not checked"
+  },
+  "findings": [
+   "ID-LOCAL",
+   "DES-NOT-DISTINCT",
+   "STRUCT-REBUILD-DIFFERS",
+   "DES-PREVIEWS-PENDING"
+  ]
+ },
+ {
+  "case": "mantel-unsigned",
+  "recommendation": "recommend reject",
+  "layers": {
+   "archive": "pass",
+   "json": "pass",
+   "schema": "pass",
+   "capabilities": "pass",
+   "contrast": "pass",
+   "media": "not applicable",
+   "trust": "not checked"
+  },
+  "findings": [
+   "ID-RESERVED",
+   "DES-NOT-DISTINCT",
+   "STRUCT-REBUILD-DIFFERS",
+   "DES-PREVIEWS-PENDING"
+  ]
+ },
+ {
+  "case": "missing-attribution",
+  "recommendation": "changes requested",
+  "layers": {
+   "archive": "pass",
+   "json": "pass",
+   "schema": "fail",
+   "capabilities": "not checked",
+   "contrast": "not checked",
+   "media": "not checked",
+   "trust": "not checked"
+  },
+  "findings": [
+   "LIC-INVALID",
+   "ID-HANDLE-NEW",
+   "DES-PREVIEWS-PENDING"
+  ]
+ },
+ {
+  "case": "missing-document",
+  "recommendation": "recommend reject",
+  "layers": {
+   "archive": "fail",
+   "json": "not checked",
+   "schema": "not checked",
+   "capabilities": "not checked",
+   "contrast": "not checked",
+   "media": "not checked",
+   "trust": "not checked"
+  },
+  "findings": [
+   "SEC-ZIP-PROFILE",
+   "ID-HANDLE-NEW",
+   "DES-PREVIEWS-PENDING"
+  ]
+ },
+ {
+  "case": "missing-layout-capability",
+  "recommendation": "changes requested",
+  "layers": {
+   "archive": "pass",
+   "json": "pass",
+   "schema": "pass",
+   "capabilities": "fail",
+   "contrast": "not checked",
+   "media": "not checked",
+   "trust": "not checked"
+  },
+  "findings": [
+   "STRUCT-CAPABILITIES",
+   "ID-HANDLE-NEW",
+   "DES-PREVIEWS-PENDING"
+  ]
+ },
+ {
+  "case": "missing-source-slot",
+  "recommendation": "changes requested",
+  "layers": {
+   "archive": "pass",
+   "json": "pass",
+   "schema": "fail",
+   "capabilities": "not checked",
+   "contrast": "not checked",
+   "media": "not checked",
+   "trust": "not checked"
+  },
+  "findings": [
+   "STRUCT-SCHEMA",
+   "ID-HANDLE-NEW",
+   "DES-PREVIEWS-PENDING"
+  ]
+ },
+ {
+  "case": "mp3-duration-mismatch",
+  "recommendation": "changes requested",
+  "layers": {
+   "archive": "pass",
+   "json": "pass",
+   "schema": "pass",
+   "capabilities": "pass",
+   "contrast": "pass",
+   "media": "fail",
+   "trust": "not checked"
+  },
+  "findings": [
+   "SEC-MEDIA-INVALID",
+   "ID-HANDLE-NEW",
+   "DES-PREVIEWS-PENDING"
+  ]
+ },
+ {
+  "case": "mp3-free-bitrate",
+  "recommendation": "changes requested",
+  "layers": {
+   "archive": "pass",
+   "json": "pass",
+   "schema": "pass",
+   "capabilities": "pass",
+   "contrast": "pass",
+   "media": "fail",
+   "trust": "not checked"
+  },
+  "findings": [
+   "SEC-MEDIA-INVALID",
+   "ID-HANDLE-NEW",
+   "DES-PREVIEWS-PENDING"
+  ]
+ },
+ {
+  "case": "mp3-layer-ii",
+  "recommendation": "changes requested",
+  "layers": {
+   "archive": "pass",
+   "json": "pass",
+   "schema": "pass",
+   "capabilities": "pass",
+   "contrast": "pass",
+   "media": "fail",
+   "trust": "not checked"
+  },
+  "findings": [
+   "SEC-MEDIA-INVALID",
+   "ID-HANDLE-NEW",
+   "DES-PREVIEWS-PENDING"
+  ]
+ },
+ {
+  "case": "mp3-truncated",
+  "recommendation": "changes requested",
+  "layers": {
+   "archive": "pass",
+   "json": "pass",
+   "schema": "pass",
+   "capabilities": "pass",
+   "contrast": "pass",
+   "media": "fail",
+   "trust": "not checked"
+  },
+  "findings": [
+   "SEC-MEDIA-INVALID",
+   "ID-HANDLE-NEW",
+   "DES-PREVIEWS-PENDING"
+  ]
+ },
+ {
+  "case": "nonfinite-json",
+  "recommendation": "changes requested",
+  "layers": {
+   "archive": "pass",
+   "json": "fail",
+   "schema": "not checked",
+   "capabilities": "not checked",
+   "contrast": "not checked",
+   "media": "not checked",
+   "trust": "not checked"
+  },
+  "findings": [
+   "SEC-TEXT-ENCODING",
+   "ID-HANDLE-NEW",
+   "DES-PREVIEWS-PENDING"
+  ]
+ },
+ {
+  "case": "pack-missing-default",
+  "recommendation": "changes requested",
+  "layers": {
+   "archive": "pass",
+   "json": "pass",
+   "schema": "fail",
+   "capabilities": "not checked",
+   "contrast": "not checked",
+   "media": "not checked",
+   "trust": "not checked"
+  },
+  "findings": [
+   "STRUCT-SCHEMA",
+   "ID-HANDLE-NEW",
+   "DES-PREVIEWS-PENDING"
+  ]
+ },
+ {
+  "case": "pack-missing-resource",
+  "recommendation": "changes requested",
+  "layers": {
+   "archive": "pass",
+   "json": "pass",
+   "schema": "fail",
+   "capabilities": "not checked",
+   "contrast": "not checked",
+   "media": "not checked",
+   "trust": "not checked"
+  },
+  "findings": [
+   "STRUCT-SCHEMA",
+   "ID-HANDLE-NEW",
+   "DES-PREVIEWS-PENDING"
+  ]
+ },
+ {
+  "case": "pack-undeclared-asset",
+  "recommendation": "changes requested",
+  "layers": {
+   "archive": "pass",
+   "json": "pass",
+   "schema": "fail",
+   "capabilities": "not checked",
+   "contrast": "not checked",
+   "media": "not checked",
+   "trust": "not checked"
+  },
+  "findings": [
+   "STRUCT-SCHEMA",
+   "ID-HANDLE-NEW",
+   "DES-PREVIEWS-PENDING"
+  ]
+ },
+ {
+  "case": "pack-unicode-credit",
+  "recommendation": "recommend approve",
+  "layers": {
+   "archive": "pass",
+   "json": "pass",
+   "schema": "pass",
+   "capabilities": "pass",
+   "contrast": "pass",
+   "media": "pass",
+   "trust": "not checked"
+  },
+  "findings": [
+   "ID-HANDLE-NEW",
+   "STRUCT-REBUILD-DIFFERS",
+   "DES-PREVIEWS-PENDING",
+   "CON-LISTENING-NEEDED",
+   "CON-FLUENT-NEEDED"
+  ]
+ },
+ {
+  "case": "pack-valid",
+  "recommendation": "recommend approve",
+  "layers": {
+   "archive": "pass",
+   "json": "pass",
+   "schema": "pass",
+   "capabilities": "pass",
+   "contrast": "pass",
+   "media": "pass",
+   "trust": "not checked"
+  },
+  "findings": [
+   "ID-HANDLE-NEW",
+   "STRUCT-REBUILD-DIFFERS",
+   "DES-PREVIEWS-PENDING",
+   "CON-LISTENING-NEEDED",
+   "CON-FLUENT-NEEDED"
+  ]
+ },
+ {
+  "case": "png-animated",
+  "recommendation": "changes requested",
+  "layers": {
+   "archive": "pass",
+   "json": "pass",
+   "schema": "pass",
+   "capabilities": "pass",
+   "contrast": "pass",
+   "media": "fail",
+   "trust": "not checked"
+  },
+  "findings": [
+   "DES-MOTION",
+   "ID-HANDLE-NEW",
+   "DES-PREVIEWS-PENDING"
+  ]
+ },
+ {
+  "case": "png-metadata",
+  "recommendation": "changes requested",
+  "layers": {
+   "archive": "pass",
+   "json": "pass",
+   "schema": "pass",
+   "capabilities": "pass",
+   "contrast": "pass",
+   "media": "fail",
+   "trust": "not checked"
+  },
+  "findings": [
+   "SEC-MEDIA-METADATA",
+   "ID-HANDLE-NEW",
+   "DES-PREVIEWS-PENDING"
+  ]
+ },
+ {
+  "case": "portable-refuses-block-origins",
+  "recommendation": "changes requested",
+  "layers": {
+   "archive": "pass",
+   "json": "pass",
+   "schema": "fail",
+   "capabilities": "not checked",
+   "contrast": "not checked",
+   "media": "not checked",
+   "trust": "not checked"
+  },
+  "findings": [
+   "STRUCT-SCHEMA",
+   "ID-HANDLE-NEW",
+   "DES-PREVIEWS-PENDING"
+  ]
+ },
+ {
+  "case": "portable-refuses-legacy-dependencies",
+  "recommendation": "changes requested",
+  "layers": {
+   "archive": "pass",
+   "json": "pass",
+   "schema": "fail",
+   "capabilities": "not checked",
+   "contrast": "not checked",
+   "media": "not checked",
+   "trust": "not checked"
+  },
+  "findings": [
+   "STRUCT-SCHEMA",
+   "ID-HANDLE-NEW",
+   "DES-PREVIEWS-PENDING"
+  ]
+ },
+ {
+  "case": "portable-refuses-library-applications",
+  "recommendation": "changes requested",
+  "layers": {
+   "archive": "pass",
+   "json": "pass",
+   "schema": "fail",
+   "capabilities": "not checked",
+   "contrast": "not checked",
+   "media": "not checked",
+   "trust": "not checked"
+  },
+  "findings": [
+   "STRUCT-SCHEMA",
+   "ID-HANDLE-NEW",
+   "DES-PREVIEWS-PENDING"
+  ]
+ },
+ {
+  "case": "resource-hash",
+  "recommendation": "changes requested",
+  "layers": {
+   "archive": "pass",
+   "json": "pass",
+   "schema": "pass",
+   "capabilities": "pass",
+   "contrast": "pass",
+   "media": "fail",
+   "trust": "not checked"
+  },
+  "findings": [
+   "SEC-MEDIA-INVALID",
+   "ID-HANDLE-NEW",
+   "DES-PREVIEWS-PENDING"
+  ]
+ },
+ {
+  "case": "rtl-name",
+  "recommendation": "changes requested",
+  "layers": {
+   "archive": "pass",
+   "json": "pass",
+   "schema": "pass",
+   "capabilities": "pass",
+   "contrast": "pass",
+   "media": "not applicable",
+   "trust": "not checked"
+  },
+  "findings": [
+   "DES-NOT-DISTINCT",
+   "ID-HANDLE-NEW",
+   "STRUCT-REBUILD-DIFFERS",
+   "DES-PREVIEWS-PENDING"
+  ]
+ },
+ {
+  "case": "scrim-contrast",
+  "recommendation": "changes requested",
+  "layers": {
+   "archive": "pass",
+   "json": "pass",
+   "schema": "pass",
+   "capabilities": "pass",
+   "contrast": "fail",
+   "media": "not checked",
+   "trust": "not checked"
+  },
+  "findings": [
+   "DES-CONTRAST",
+   "ID-HANDLE-NEW",
+   "DES-PREVIEWS-PENDING"
+  ]
+ },
+ {
+  "case": "split-zip",
+  "recommendation": "recommend reject",
+  "layers": {
+   "archive": "fail",
+   "json": "not checked",
+   "schema": "not checked",
+   "capabilities": "not checked",
+   "contrast": "not checked",
+   "media": "not checked",
+   "trust": "not checked"
+  },
+  "findings": [
+   "SEC-ZIP-PROFILE",
+   "ID-HANDLE-NEW",
+   "DES-PREVIEWS-PENDING"
+  ]
+ },
+ {
+  "case": "strict-background-boolean",
+  "recommendation": "changes requested",
+  "layers": {
+   "archive": "pass",
+   "json": "pass",
+   "schema": "fail",
+   "capabilities": "not checked",
+   "contrast": "not checked",
+   "media": "not checked",
+   "trust": "not checked"
+  },
+  "findings": [
+   "STRUCT-SCHEMA",
+   "ID-HANDLE-NEW",
+   "DES-PREVIEWS-PENDING"
+  ]
+ },
+ {
+  "case": "strict-override-boolean",
+  "recommendation": "changes requested",
+  "layers": {
+   "archive": "pass",
+   "json": "pass",
+   "schema": "fail",
+   "capabilities": "not checked",
+   "contrast": "not checked",
+   "media": "not checked",
+   "trust": "not checked"
+  },
+  "findings": [
+   "STRUCT-SCHEMA",
+   "ID-HANDLE-NEW",
+   "DES-PREVIEWS-PENDING"
+  ]
+ },
+ {
+  "case": "strict-pack-number",
+  "recommendation": "changes requested",
+  "layers": {
+   "archive": "pass",
+   "json": "pass",
+   "schema": "fail",
+   "capabilities": "not checked",
+   "contrast": "not checked",
+   "media": "not checked",
+   "trust": "not checked"
+  },
+  "findings": [
+   "STRUCT-SCHEMA",
+   "ID-HANDLE-NEW",
+   "DES-PREVIEWS-PENDING"
+  ]
+ },
+ {
+  "case": "symlink",
+  "recommendation": "recommend reject",
+  "layers": {
+   "archive": "fail",
+   "json": "not checked",
+   "schema": "not checked",
+   "capabilities": "not checked",
+   "contrast": "not checked",
+   "media": "not checked",
+   "trust": "not checked"
+  },
+  "findings": [
+   "SEC-ZIP-PROFILE",
+   "ID-HANDLE-NEW",
+   "DES-PREVIEWS-PENDING"
+  ]
+ },
+ {
+  "case": "theme-defaults",
+  "recommendation": "changes requested",
+  "layers": {
+   "archive": "pass",
+   "json": "pass",
+   "schema": "pass",
+   "capabilities": "pass",
+   "contrast": "pass",
+   "media": "not applicable",
+   "trust": "not checked"
+  },
+  "findings": [
+   "DES-NOT-DISTINCT",
+   "ID-HANDLE-NEW",
+   "STRUCT-REBUILD-DIFFERS",
+   "DES-PREVIEWS-PENDING"
+  ]
+ },
+ {
+  "case": "theme-deflate",
+  "recommendation": "changes requested",
+  "layers": {
+   "archive": "pass",
+   "json": "pass",
+   "schema": "pass",
+   "capabilities": "pass",
+   "contrast": "pass",
+   "media": "not applicable",
+   "trust": "not checked"
+  },
+  "findings": [
+   "DES-NOT-DISTINCT",
+   "ID-HANDLE-NEW",
+   "STRUCT-REBUILD-DIFFERS",
+   "DES-PREVIEWS-PENDING"
+  ]
+ },
+ {
+  "case": "traversal",
+  "recommendation": "recommend reject",
+  "layers": {
+   "archive": "fail",
+   "json": "not checked",
+   "schema": "not checked",
+   "capabilities": "not checked",
+   "contrast": "not checked",
+   "media": "not checked",
+   "trust": "not checked"
+  },
+  "findings": [
+   "SEC-ZIP-PROFILE",
+   "ID-UNREADABLE",
+   "DES-PREVIEWS-PENDING"
+  ]
+ },
+ {
+  "case": "unbounded-directory",
+  "recommendation": "recommend reject",
+  "layers": {
+   "archive": "fail",
+   "json": "not checked",
+   "schema": "not checked",
+   "capabilities": "not checked",
+   "contrast": "not checked",
+   "media": "not checked",
+   "trust": "not checked"
+  },
+  "findings": [
+   "SEC-APPENDED-DATA",
+   "SEC-ZIP-PROFILE",
+   "ID-UNREADABLE",
+   "DES-PREVIEWS-PENDING"
+  ]
+ },
+ {
+  "case": "unknown-look",
+  "recommendation": "changes requested",
+  "layers": {
+   "archive": "pass",
+   "json": "pass",
+   "schema": "fail",
+   "capabilities": "not checked",
+   "contrast": "not checked",
+   "media": "not checked",
+   "trust": "not checked"
+  },
+  "findings": [
+   "STRUCT-SCHEMA",
+   "ID-HANDLE-NEW",
+   "DES-PREVIEWS-PENDING"
+  ]
+ },
+ {
+  "case": "unneeded-capability",
+  "recommendation": "changes requested",
+  "layers": {
+   "archive": "pass",
+   "json": "pass",
+   "schema": "pass",
+   "capabilities": "warning",
+   "contrast": "pass",
+   "media": "not applicable",
+   "trust": "not checked"
+  },
+  "findings": [
+   "DES-NOT-DISTINCT",
+   "STRUCT-CAPABILITY-EXTRA",
+   "ID-HANDLE-NEW",
+   "STRUCT-REBUILD-DIFFERS",
+   "DES-PREVIEWS-PENDING"
+  ]
+ },
+ {
+  "case": "utf16-json",
+  "recommendation": "changes requested",
+  "layers": {
+   "archive": "pass",
+   "json": "fail",
+   "schema": "not checked",
+   "capabilities": "not checked",
+   "contrast": "not checked",
+   "media": "not checked",
+   "trust": "not checked"
+  },
+  "findings": [
+   "SEC-TEXT-ENCODING",
+   "ID-HANDLE-NEW",
+   "DES-PREVIEWS-PENDING"
+  ]
+ },
+ {
+  "case": "v1-archive-over-limit",
+  "recommendation": "recommend reject",
+  "layers": {
+   "archive": "fail",
+   "json": "not checked",
+   "schema": "not checked",
+   "capabilities": "not checked",
+   "contrast": "not checked",
+   "media": "not checked",
+   "trust": "not checked"
+  },
+  "findings": [
+   "SEC-ZIP-PROFILE",
+   "SEC-SIZE",
+   "ID-HANDLE-NEW",
+   "DES-PREVIEWS-PENDING"
+  ]
+ },
+ {
+  "case": "v1-coerced-enabled",
+  "recommendation": "recommend approve",
+  "layers": {
+   "archive": "pass",
+   "json": "pass",
+   "schema": "pass",
+   "capabilities": "pass",
+   "contrast": "pass",
+   "media": "not applicable",
+   "trust": "not checked"
+  },
+  "findings": [
+   "ID-HANDLE-NEW",
+   "STRUCT-REBUILD-DIFFERS",
+   "DES-PREVIEWS-PENDING"
+  ]
+ },
+ {
+  "case": "v1-coerced-scalars",
+  "recommendation": "recommend approve",
+  "layers": {
+   "archive": "pass",
+   "json": "pass",
+   "schema": "pass",
+   "capabilities": "pass",
+   "contrast": "pass",
+   "media": "not applicable",
+   "trust": "not checked"
+  },
+  "findings": [
+   "ID-HANDLE-NEW",
+   "STRUCT-REBUILD-DIFFERS",
+   "DES-PREVIEWS-PENDING"
+  ]
+ },
+ {
+  "case": "v1-expanded-over-limit",
+  "recommendation": "recommend reject",
+  "layers": {
+   "archive": "fail",
+   "json": "not checked",
+   "schema": "not checked",
+   "capabilities": "not checked",
+   "contrast": "not checked",
+   "media": "not checked",
+   "trust": "not checked"
+  },
+  "findings": [
+   "SEC-ZIP-PROFILE",
+   "SEC-SIZE",
+   "ID-HANDLE-NEW",
+   "DES-PREVIEWS-PENDING"
+  ]
+ },
+ {
+  "case": "v1-focus-bom",
+  "recommendation": "changes requested",
+  "layers": {
+   "archive": "pass",
+   "json": "pass",
+   "schema": "fail",
+   "capabilities": "not checked",
+   "contrast": "not checked",
+   "media": "not checked",
+   "trust": "not checked"
+  },
+  "findings": [
+   "STRUCT-SCHEMA",
+   "ID-HANDLE-NEW",
+   "DES-PREVIEWS-PENDING"
+  ]
+ },
+ {
+  "case": "v1-integer-bom",
+  "recommendation": "changes requested",
+  "layers": {
+   "archive": "pass",
+   "json": "pass",
+   "schema": "fail",
+   "capabilities": "not checked",
+   "contrast": "not checked",
+   "media": "not checked",
+   "trust": "not checked"
+  },
+  "findings": [
+   "STRUCT-SCHEMA",
+   "ID-HANDLE-NEW",
+   "DES-PREVIEWS-PENDING"
+  ]
+ },
+ {
+  "case": "v1-raw-definition-digest",
+  "recommendation": "changes requested",
+  "layers": {
+   "archive": "pass",
+   "json": "pass",
+   "schema": "pass",
+   "capabilities": "pass",
+   "contrast": "pass",
+   "media": "not applicable",
+   "trust": "not checked"
+  },
+  "findings": [
+   "DES-NOT-DISTINCT",
+   "ID-HANDLE-NEW",
+   "STRUCT-REBUILD-DIFFERS",
+   "DES-PREVIEWS-PENDING"
+  ]
+ },
+ {
+  "case": "v1-unicode-attribution",
+  "recommendation": "changes requested",
+  "layers": {
+   "archive": "pass",
+   "json": "pass",
+   "schema": "pass",
+   "capabilities": "pass",
+   "contrast": "pass",
+   "media": "not applicable",
+   "trust": "not checked"
+  },
+  "findings": [
+   "DES-NOT-DISTINCT",
+   "ID-HANDLE-NEW",
+   "STRUCT-REBUILD-DIFFERS",
+   "DES-PREVIEWS-PENDING"
+  ]
+ },
+ {
+  "case": "webp-exif",
+  "recommendation": "changes requested",
+  "layers": {
+   "archive": "pass",
+   "json": "pass",
+   "schema": "pass",
+   "capabilities": "pass",
+   "contrast": "pass",
+   "media": "fail",
+   "trust": "not checked"
+  },
+  "findings": [
+   "SEC-MEDIA-METADATA",
+   "ID-HANDLE-NEW",
+   "DES-PREVIEWS-PENDING"
+  ]
+ },
+ {
+  "case": "webp-valid",
+  "recommendation": "recommend approve",
+  "layers": {
+   "archive": "pass",
+   "json": "pass",
+   "schema": "pass",
+   "capabilities": "pass",
+   "contrast": "pass",
+   "media": "pass",
+   "trust": "not checked"
+  },
+  "findings": [
+   "ID-HANDLE-NEW",
+   "STRUCT-REBUILD-DIFFERS",
+   "DES-PREVIEWS-PENDING",
+   "CON-LISTENING-NEEDED",
+   "CON-FLUENT-NEEDED"
+  ]
+ },
+ {
+  "case": "wrong-definition-hash",
+  "recommendation": "changes requested",
+  "layers": {
+   "archive": "pass",
+   "json": "pass",
+   "schema": "fail",
+   "capabilities": "not checked",
+   "contrast": "not checked",
+   "media": "not checked",
+   "trust": "not checked"
+  },
+  "findings": [
+   "STRUCT-SCHEMA",
+   "ID-HANDLE-NEW",
+   "DES-PREVIEWS-PENDING"
+  ]
+ },
+ {
+  "case": "zip-bzip2",
+  "recommendation": "recommend reject",
+  "layers": {
+   "archive": "fail",
+   "json": "not checked",
+   "schema": "not checked",
+   "capabilities": "not checked",
+   "contrast": "not checked",
+   "media": "not checked",
+   "trust": "not checked"
+  },
+  "findings": [
+   "SEC-ZIP-PROFILE",
+   "ID-HANDLE-NEW",
+   "DES-PREVIEWS-PENDING"
+  ]
+ },
+ {
+  "case": "zip-comment",
+  "recommendation": "recommend reject",
+  "layers": {
+   "archive": "fail",
+   "json": "not checked",
+   "schema": "not checked",
+   "capabilities": "not checked",
+   "contrast": "not checked",
+   "media": "not checked",
+   "trust": "not checked"
+  },
+  "findings": [
+   "SEC-APPENDED-DATA",
+   "SEC-ZIP-PROFILE",
+   "ID-HANDLE-NEW",
+   "DES-PREVIEWS-PENDING"
+  ]
+ },
+ {
+  "case": "zip64-count",
+  "recommendation": "recommend reject",
+  "layers": {
+   "archive": "fail",
+   "json": "not checked",
+   "schema": "not checked",
+   "capabilities": "not checked",
+   "contrast": "not checked",
+   "media": "not checked",
+   "trust": "not checked"
+  },
+  "findings": [
+   "SEC-ZIP-PROFILE",
+   "ID-HANDLE-NEW",
+   "DES-PREVIEWS-PENDING"
+  ]
+ },
+ {
+  "case": "zip64-masked-directory",
+  "recommendation": "recommend reject",
+  "layers": {
+   "archive": "fail",
+   "json": "not checked",
+   "schema": "not checked",
+   "capabilities": "not checked",
+   "contrast": "not checked",
+   "media": "not checked",
+   "trust": "not checked"
+  },
+  "findings": [
+   "SEC-APPENDED-DATA",
+   "SEC-ZIP-PROFILE",
+   "ID-HANDLE-NEW",
+   "DES-PREVIEWS-PENDING"
+  ]
+ }
+]

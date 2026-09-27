@@ -1,0 +1,229 @@
+{
+  "submission": {
+    "sha256": "f1d987f5cdf6c0f7cd725eecaef146b2f0476c9d78b702a11c542c3c9dfe7ffc",
+    "size": 768,
+    "archive_sha256": "f1d987f5cdf6c0f7cd725eecaef146b2f0476c9d78b702a11c542c3c9dfe7ffc",
+    "archive_size": 768,
+    "unwrapped_from_zip": null,
+    "submitter": {
+      "login": "mallory",
+      "id": 7770001
+    },
+    "source": "local",
+    "number": null
+  },
+  "release": {
+    "id": "mantel/theme-glass",
+    "version": "1.0.1",
+    "kind": "theme",
+    "ledger_kind": "definition",
+    "name": "Glass",
+    "license": "MIT",
+    "publisher": "Local author",
+    "attribution": "",
+    "release_sha256": "f1d987f5cdf6c0f7cd725eecaef146b2f0476c9d78b702a11c542c3c9dfe7ffc"
+  },
+  "layers": {
+    "archive": "pass",
+    "json": "pass",
+    "schema": "pass",
+    "capabilities": "pass",
+    "contrast": "pass",
+    "media": "not applicable",
+    "trust": "not checked"
+  },
+  "validator_error": null,
+  "rebuild": {
+    "status": "identical",
+    "rebuilt_sha256": "f1d987f5cdf6c0f7cd725eecaef146b2f0476c9d78b702a11c542c3c9dfe7ffc",
+    "rebuilt_size": 768,
+    "source_sha256": "b62dad773dc5ef8875a4c3824e2fdfa18dc35ba292cd250d8c0f1dbed354e306"
+  },
+  "distinctness": {
+    "applies": true,
+    "threshold": 2.0,
+    "nearest": [
+      {
+        "look": "mantel/theme-painting",
+        "distance": 4.21,
+        "roles": {
+          "background": 5.19,
+          "surface": 6.28,
+          "text": 1.98,
+          "mutedText": 5.84,
+          "accent": 14.2,
+          "accentText": 1.77
+        }
+      },
+      {
+        "look": "mantel/theme-ink",
+        "distance": 4.79,
+        "roles": {
+          "background": 4.19,
+          "surface": 7.6,
+          "text": 2.52,
+          "mutedText": 4.88,
+          "accent": 7.99,
+          "accentText": 4.77
+        }
+      },
+      {
+        "look": "mantel/theme-botanical",
+        "distance": 5.44,
+        "roles": {
+          "background": 6.54,
+          "surface": 7.91,
+          "text": 3.19,
+          "mutedText": 6.83,
+          "accent": 12.14,
+          "accentText": 2.75
+        }
+      }
+    ],
+    "look": "glass",
+    "background": "solid",
+    "layout": "flow"
+  },
+  "content": {},
+  "texts": [
+    {
+      "where": "manifest.format",
+      "text": "mantelpack"
+    },
+    {
+      "where": "manifest.id",
+      "text": "mantel/theme-glass"
+    },
+    {
+      "where": "manifest.version",
+      "text": "1.0.1"
+    },
+    {
+      "where": "manifest.license",
+      "text": "MIT"
+    },
+    {
+      "where": "manifest.publisher",
+      "text": "Local author"
+    },
+    {
+      "where": "manifest.attribution",
+      "text": ""
+    },
+    {
+      "where": "manifest.entrypoint",
+      "text": "definition.json"
+    },
+    {
+      "where": "manifest.required_capabilities[0]",
+      "text": "composition-v2"
+    },
+    {
+      "where": "definition.kind",
+      "text": "theme"
+    },
+    {
+      "where": "definition.name",
+      "text": "Glass"
+    },
+    {
+      "where": "definition.look",
+      "text": "glass"
+    },
+    {
+      "where": "definition.appearance.layout",
+      "text": "flow"
+    },
+    {
+      "where": "definition.appearance.background",
+      "text": "solid"
+    },
+    {
+      "where": "definition.appearance.font",
+      "text": "theme"
+    },
+    {
+      "where": "definition.appearance.spacing",
+      "text": "standard"
+    },
+    {
+      "where": "definition.appearance.tokens.accent",
+      "text": "#9ce6d4"
+    }
+  ],
+  "findings": [
+    {
+      "code": "ID-IMPOSTOR",
+      "area": "identity",
+      "severity": "critical",
+      "title": "The id is a catalog item's: an impostor",
+      "evidence": "mantel/theme-glass is Mantel's own Glass 1.0.0; an unsigned claim is refused (D19)"
+    },
+    {
+      "code": "ID-RESERVED",
+      "area": "identity",
+      "severity": "critical",
+      "title": "mantel/ is reserved for the signed Mantel catalog",
+      "evidence": "mantel/theme-glass submitted by mallory (account 7770001), who is not a Mantel publisher account"
+    },
+    {
+      "code": "DES-NAME-TAKEN",
+      "area": "design",
+      "severity": "minor",
+      "title": "The name repeats a catalog item's",
+      "evidence": "`Glass` is also mantel/theme-glass"
+    },
+    {
+      "code": "DES-PREVIEWS-PENDING",
+      "area": "design",
+      "severity": "note",
+      "title": "Previews at 1920x1080, 1080x1920 and 1024x768 are rendered by us and looked at by a person",
+      "evidence": "not rendered inside the review sandbox"
+    }
+  ],
+  "automated_findings": [
+    "ID-IMPOSTOR",
+    "ID-RESERVED",
+    "DES-NAME-TAKEN",
+    "DES-PREVIEWS-PENDING"
+  ],
+  "reviewer_findings": [],
+  "statuses": {
+    "identity": "fail",
+    "structure": "pass",
+    "security": "pass",
+    "design": "pending",
+    "content": "pending",
+    "licence": "pending",
+    "listening": "not-applicable",
+    "fluent": "not-applicable"
+  },
+  "recommendation": "recommend reject",
+  "draft": {
+    "recommended_verdict": "rejected",
+    "submitted_sha256": "f1d987f5cdf6c0f7cd725eecaef146b2f0476c9d78b702a11c542c3c9dfe7ffc",
+    "submitted_archive_sha256": "f1d987f5cdf6c0f7cd725eecaef146b2f0476c9d78b702a11c542c3c9dfe7ffc",
+    "rebuild": "identical",
+    "unpacked_source_sha256": "b62dad773dc5ef8875a4c3824e2fdfa18dc35ba292cd250d8c0f1dbed354e306",
+    "source_sha256": "pending: A definition's source hash is its catalog entry's (tools/check.py `reviewed_source`: the entry without `distribution`), and the entry gains its slug, mood and description when it is added in step 36; set `source_sha256` then.",
+    "submitter_account": {
+      "login": "mallory",
+      "id": 7770001
+    },
+    "findings": [
+      "ID-IMPOSTOR",
+      "ID-RESERVED",
+      "DES-NAME-TAKEN",
+      "DES-PREVIEWS-PENDING"
+    ],
+    "layers": {
+      "archive": "pass",
+      "json": "pass",
+      "schema": "pass",
+      "capabilities": "pass",
+      "contrast": "pass",
+      "media": "not applicable",
+      "trust": "not checked"
+    }
+  }
+}

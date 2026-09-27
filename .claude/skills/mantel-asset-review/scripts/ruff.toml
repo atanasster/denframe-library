@@ -1,0 +1,23 @@
+# Ruff for the review scripts. Self-contained, so it holds in the public repository and in the
+# host's vendored copy (`library/src`, checked by the host's `make check`).
+extend = "../../../../format/tools/ruff.toml"
+line-length = 100
+target-version = "py311"
+
+[lint]
+select = ["E", "F", "I", "UP", "B", "SIM", "RUF", "PTH", "S", "ARG", "C901", "ERA"]
+ignore = [
+  "T201",  # the tools print for a person
+  "S101",
+  "S603",  # they run named tools (docker, git, gh) with list arguments
+  "S607",
+]
+# Year ranges are written with an en dash.
+allowed-confusables = ["–"]
+
+[lint.mccabe]
+max-complexity = 20
+
+[lint.per-file-ignores]
+# The evasive eval text is Bulgarian on purpose.
+"seeded.py" = ["RUF001"]

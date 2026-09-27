@@ -1,0 +1,270 @@
+{
+  "submission": {
+    "sha256": "10d2ddf17382076696b5c7656f0602f8a2f722f44e98365262e69573a7798f0d",
+    "size": 1006,
+    "archive_sha256": "10d2ddf17382076696b5c7656f0602f8a2f722f44e98365262e69573a7798f0d",
+    "archive_size": 1006,
+    "unwrapped_from_zip": null,
+    "submitter": {
+      "login": "brook-author",
+      "id": 7700001
+    },
+    "source": "local",
+    "number": null
+  },
+  "release": {
+    "id": "brook/nocturne",
+    "version": "1.0.0",
+    "kind": "theme",
+    "ledger_kind": "definition",
+    "name": "Nocturne",
+    "license": "MIT",
+    "publisher": "Local author",
+    "attribution": "",
+    "release_sha256": "10d2ddf17382076696b5c7656f0602f8a2f722f44e98365262e69573a7798f0d"
+  },
+  "layers": {
+    "archive": "pass",
+    "json": "pass",
+    "schema": "pass",
+    "capabilities": "pass",
+    "contrast": "pass",
+    "media": "not applicable",
+    "trust": "not checked"
+  },
+  "validator_error": null,
+  "rebuild": {
+    "status": "identical",
+    "rebuilt_sha256": "10d2ddf17382076696b5c7656f0602f8a2f722f44e98365262e69573a7798f0d",
+    "rebuilt_size": 1006,
+    "source_sha256": "f258d1a48adcc17c0330c067323e2385e77bbaedacc835f305faf050042f1164"
+  },
+  "distinctness": {
+    "applies": true,
+    "threshold": 2.0,
+    "nearest": [
+      {
+        "look": "mantel/theme-ink",
+        "distance": 3.83,
+        "roles": {
+          "background": 1.19,
+          "surface": 1.8,
+          "text": 3.52,
+          "mutedText": 9.28,
+          "accent": 15.31,
+          "accentText": 3.34
+        }
+      },
+      {
+        "look": "mantel/theme-painting",
+        "distance": 6.02,
+        "roles": {
+          "background": 6.02,
+          "surface": 8.29,
+          "text": 4.15,
+          "mutedText": 14.49,
+          "accent": 6.28,
+          "accentText": 5.36
+        }
+      },
+      {
+        "look": "mantel/theme-botanical",
+        "distance": 6.74,
+        "roles": {
+          "background": 6.92,
+          "surface": 9.13,
+          "text": 2.81,
+          "mutedText": 10.54,
+          "accent": 9.96,
+          "accentText": 4.9
+        }
+      }
+    ],
+    "look": "ink",
+    "background": "dunes",
+    "layout": "flow"
+  },
+  "content": {},
+  "texts": [
+    {
+      "where": "manifest.format",
+      "text": "mantelpack"
+    },
+    {
+      "where": "manifest.id",
+      "text": "brook/nocturne"
+    },
+    {
+      "where": "manifest.version",
+      "text": "1.0.0"
+    },
+    {
+      "where": "manifest.license",
+      "text": "MIT"
+    },
+    {
+      "where": "manifest.publisher",
+      "text": "Local author"
+    },
+    {
+      "where": "manifest.attribution",
+      "text": ""
+    },
+    {
+      "where": "manifest.entrypoint",
+      "text": "definition.json"
+    },
+    {
+      "where": "manifest.required_capabilities[0]",
+      "text": "composition-v2"
+    },
+    {
+      "where": "manifest.required_capabilities[1]",
+      "text": "background-canvas-v1"
+    },
+    {
+      "where": "definition.kind",
+      "text": "theme"
+    },
+    {
+      "where": "definition.name",
+      "text": "Nocturne"
+    },
+    {
+      "where": "definition.look",
+      "text": "ink"
+    },
+    {
+      "where": "definition.appearance.layout",
+      "text": "flow"
+    },
+    {
+      "where": "definition.appearance.background",
+      "text": "dunes"
+    },
+    {
+      "where": "definition.appearance.font",
+      "text": "theme"
+    },
+    {
+      "where": "definition.appearance.spacing",
+      "text": "standard"
+    },
+    {
+      "where": "definition.appearance.tokens.accent",
+      "text": "#e9b872"
+    },
+    {
+      "where": "definition.appearance.tokens.accentText",
+      "text": "#1b1307"
+    },
+    {
+      "where": "definition.appearance.tokens.background",
+      "text": "#0d1117"
+    },
+    {
+      "where": "definition.appearance.tokens.border",
+      "text": "#39414f"
+    },
+    {
+      "where": "definition.appearance.tokens.captionSurface",
+      "text": "#0d1117"
+    },
+    {
+      "where": "definition.appearance.tokens.mutedText",
+      "text": "#b4ada2"
+    },
+    {
+      "where": "definition.appearance.tokens.negative",
+      "text": "#ff9a8f"
+    },
+    {
+      "where": "definition.appearance.tokens.positive",
+      "text": "#7ad19c"
+    },
+    {
+      "where": "definition.appearance.tokens.surface",
+      "text": "#161b24"
+    },
+    {
+      "where": "definition.appearance.tokens.text",
+      "text": "#f2ece1"
+    }
+  ],
+  "findings": [
+    {
+      "code": "AGENT-DESIGN-PLANNED-TWIN",
+      "area": "design",
+      "severity": "minor",
+      "title": "The name and palette match the Mantel look planned as Nocturne (plan section 5.1)",
+      "evidence": "Every token equals plan Appendix A's nocturne; a person decides whether this community look should stand beside, or instead of, the planned mantel/ look, and asks for a distinct name if both ship"
+    },
+    {
+      "code": "ID-HANDLE-NEW",
+      "area": "identity",
+      "severity": "note",
+      "title": "A new handle: registered to the submitting account if accepted",
+      "evidence": "brook for brook-author (account 7700001); a person checks identity.md's rules on brand and person names"
+    },
+    {
+      "code": "DES-MOTION-RENDERER",
+      "area": "design",
+      "severity": "note",
+      "title": "Background motion is on: the renderer's pan, which reduced motion stops",
+      "evidence": "appearance.background_motion = true; check the preview with reduced motion on"
+    },
+    {
+      "code": "DES-PREVIEWS-PENDING",
+      "area": "design",
+      "severity": "note",
+      "title": "Previews at 1920x1080, 1080x1920 and 1024x768 are rendered by us and looked at by a person",
+      "evidence": "not rendered inside the review sandbox"
+    }
+  ],
+  "automated_findings": [
+    "ID-HANDLE-NEW",
+    "DES-MOTION-RENDERER",
+    "DES-PREVIEWS-PENDING"
+  ],
+  "reviewer_findings": [
+    "AGENT-DESIGN-PLANNED-TWIN"
+  ],
+  "statuses": {
+    "identity": "pending",
+    "structure": "pass",
+    "security": "pass",
+    "design": "pending",
+    "content": "pending",
+    "licence": "pending",
+    "listening": "not-applicable",
+    "fluent": "not-applicable"
+  },
+  "recommendation": "recommend approve",
+  "draft": {
+    "recommended_verdict": "approved",
+    "submitted_sha256": "10d2ddf17382076696b5c7656f0602f8a2f722f44e98365262e69573a7798f0d",
+    "submitted_archive_sha256": "10d2ddf17382076696b5c7656f0602f8a2f722f44e98365262e69573a7798f0d",
+    "rebuild": "identical",
+    "unpacked_source_sha256": "f258d1a48adcc17c0330c067323e2385e77bbaedacc835f305faf050042f1164",
+    "source_sha256": "pending: A definition's source hash is its catalog entry's (tools/check.py `reviewed_source`: the entry without `distribution`), and the entry gains its slug, mood and description when it is added in step 36; set `source_sha256` then.",
+    "submitter_account": {
+      "login": "brook-author",
+      "id": 7700001
+    },
+    "findings": [
+      "AGENT-DESIGN-PLANNED-TWIN",
+      "ID-HANDLE-NEW",
+      "DES-MOTION-RENDERER",
+      "DES-PREVIEWS-PENDING"
+    ],
+    "layers": {
+      "archive": "pass",
+      "json": "pass",
+      "schema": "pass",
+      "capabilities": "pass",
+      "contrast": "pass",
+      "media": "not applicable",
+      "trust": "not checked"
+    }
+  }
+}

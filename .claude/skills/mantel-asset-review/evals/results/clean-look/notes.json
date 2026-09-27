@@ -1,0 +1,11 @@
+{
+  "findings": [
+    {
+      "code": "AGENT-DESIGN-PLANNED-TWIN",
+      "area": "design",
+      "severity": "minor",
+      "title": "The name and palette match the Mantel look planned as Nocturne (plan section 5.1)",
+      "evidence": "Every token equals plan Appendix A's nocturne; a person decides whether this community look should stand beside, or instead of, the planned mantel/ look, and asks for a distinct name if both ship"
+    }
+  ]
+}
