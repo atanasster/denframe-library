@@ -5,7 +5,7 @@
     {
       "id": 1,
       "name": "clean-look",
-      "prompt": "Review the submission of brook/nocturne (evals/seeded/clean-look.mantelpack, issue text evals/cases/clean-look/issue.md) with $mantel-asset-review, submitted by GitHub account brook-author (7700001).",
+      "prompt": "Review the submission of brook/lantern (evals/seeded/clean-look.mantelpack, issue text evals/cases/clean-look/issue.md) with $mantel-asset-review, submitted by GitHub account brook-author (7700001).",
       "expected_output": "A distinct look under a new handle: the control. Nothing blocks it; the human fields stay pending.",
       "files": [
         "evals/seeded/clean-look.mantelpack",

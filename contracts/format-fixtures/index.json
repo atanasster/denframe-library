@@ -3301,6 +3301,566 @@
       }
     },
     {
+      "id": "localized-valid",
+      "file": "archives/localized-valid.mantelpack",
+      "sha256": "6eafa59ab5afd34b332b0de7316f004084978f1fc091ed2b82a737f457a5be1d",
+      "version": 1,
+      "expected": {
+        "host": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "pass",
+          "capabilities": "pass",
+          "contrast": "pass",
+          "media": "not applicable",
+          "trust": "not checked"
+        },
+        "cli": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "pass",
+          "capabilities": "pass",
+          "contrast": "pass",
+          "media": "not applicable",
+          "trust": "not checked"
+        },
+        "browser": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "pass",
+          "capabilities": "pass",
+          "contrast": "pass",
+          "media": "not checked",
+          "trust": "not checked"
+        }
+      }
+    },
+    {
+      "id": "localized-joined",
+      "file": "archives/localized-joined.mantelpack",
+      "sha256": "c2726d401eca597cbe496454b165e742df63c013775b01e0e64a5fad521ac200",
+      "version": 1,
+      "expected": {
+        "host": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "pass",
+          "capabilities": "pass",
+          "contrast": "pass",
+          "media": "not applicable",
+          "trust": "not checked"
+        },
+        "cli": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "pass",
+          "capabilities": "pass",
+          "contrast": "pass",
+          "media": "not applicable",
+          "trust": "not checked"
+        },
+        "browser": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "pass",
+          "capabilities": "pass",
+          "contrast": "pass",
+          "media": "not checked",
+          "trust": "not checked"
+        }
+      }
+    },
+    {
+      "id": "localized-missing-capability",
+      "file": "archives/localized-missing-capability.mantelpack",
+      "sha256": "832f16a79736c1e67d9d50de3102126b4981259637e7ef6fcae01481c36d221d",
+      "version": 1,
+      "expected": {
+        "host": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "pass",
+          "capabilities": "fail",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        },
+        "cli": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "pass",
+          "capabilities": "fail",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        },
+        "browser": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "pass",
+          "capabilities": "fail",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        }
+      }
+    },
+    {
+      "id": "localized-bad-locale",
+      "file": "archives/localized-bad-locale.mantelpack",
+      "sha256": "708f6f32a2b5b30edf8cc1b45eb575faa341a834968aadc770acdc587a0a113a",
+      "version": 1,
+      "expected": {
+        "host": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "fail",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        },
+        "cli": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "fail",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        },
+        "browser": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "fail",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        }
+      }
+    },
+    {
+      "id": "localized-uppercase-locale",
+      "file": "archives/localized-uppercase-locale.mantelpack",
+      "sha256": "07c652fefb15a15a1ba18b2510440985b72623a6ce7579ede570d003793770a1",
+      "version": 1,
+      "expected": {
+        "host": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "fail",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        },
+        "cli": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "fail",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        },
+        "browser": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "fail",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        }
+      }
+    },
+    {
+      "id": "localized-empty-entry",
+      "file": "archives/localized-empty-entry.mantelpack",
+      "sha256": "5150899d9bbd8c45b150bbc47e338c692c9630e028b79dd20e05a6a2396d51d7",
+      "version": 1,
+      "expected": {
+        "host": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "fail",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        },
+        "cli": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "fail",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        },
+        "browser": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "fail",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        }
+      }
+    },
+    {
+      "id": "localized-blank",
+      "file": "archives/localized-blank.mantelpack",
+      "sha256": "77d85bd746f767c95b8a979f894c2e47010b2bd579c93d9ef78c7f8dd2982222",
+      "version": 1,
+      "expected": {
+        "host": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "fail",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        },
+        "cli": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "fail",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        },
+        "browser": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "fail",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        }
+      }
+    },
+    {
+      "id": "localized-unknown-field",
+      "file": "archives/localized-unknown-field.mantelpack",
+      "sha256": "8d9775846122862207325d06500e171cf651c25fe878669f3e76bb73591d9dd0",
+      "version": 1,
+      "expected": {
+        "host": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "fail",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        },
+        "cli": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "fail",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        },
+        "browser": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "fail",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        }
+      }
+    },
+    {
+      "id": "localized-name-over-limit",
+      "file": "archives/localized-name-over-limit.mantelpack",
+      "sha256": "c9ab8d6b5acb466cdc7515b3a8048aefbc742f33b706689bad92f1b62dcefaf4",
+      "version": 1,
+      "expected": {
+        "host": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "fail",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        },
+        "cli": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "fail",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        },
+        "browser": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "fail",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        }
+      }
+    },
+    {
+      "id": "localized-mood-over-limit",
+      "file": "archives/localized-mood-over-limit.mantelpack",
+      "sha256": "f5add069008c0d13636d071d841148a9b4361ce38f36a268c7a2fad6ed60b507",
+      "version": 1,
+      "expected": {
+        "host": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "fail",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        },
+        "cli": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "fail",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        },
+        "browser": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "fail",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        }
+      }
+    },
+    {
+      "id": "localized-description-over-limit",
+      "file": "archives/localized-description-over-limit.mantelpack",
+      "sha256": "96f2e38a383b5ee9817aa206958e2178666b3c9e67e72554c7c74a3405c61e22",
+      "version": 1,
+      "expected": {
+        "host": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "fail",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        },
+        "cli": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "fail",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        },
+        "browser": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "fail",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        }
+      }
+    },
+    {
+      "id": "localized-too-many-locales",
+      "file": "archives/localized-too-many-locales.mantelpack",
+      "sha256": "a59128ca59f2b8336ab28c6733f34a09e88d927f7c1e024eed8fc5b0ed4f3ae2",
+      "version": 1,
+      "expected": {
+        "host": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "fail",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        },
+        "cli": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "fail",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        },
+        "browser": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "fail",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        }
+      }
+    },
+    {
+      "id": "localized-empty-map",
+      "file": "archives/localized-empty-map.mantelpack",
+      "sha256": "b8779621ccad8e7ad64f4f2f4ecaef3e78b60e9d3d9fb9dda5d435b8862018cc",
+      "version": 1,
+      "expected": {
+        "host": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "fail",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        },
+        "cli": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "fail",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        },
+        "browser": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "fail",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        }
+      }
+    },
+    {
+      "id": "localized-zero-width",
+      "file": "archives/localized-zero-width.mantelpack",
+      "sha256": "fe9a2dacd4119eb4b91ca1d2c3142c65b0023f45ecb8dbeddce4db123dd29fd5",
+      "version": 1,
+      "expected": {
+        "host": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "fail",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        },
+        "cli": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "fail",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        },
+        "browser": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "fail",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        }
+      }
+    },
+    {
+      "id": "localized-bidi",
+      "file": "archives/localized-bidi.mantelpack",
+      "sha256": "d89fbda4977c994dfdc0b5e911ff4a0b283ac41298d1a4c22763cb8bec9c7e9f",
+      "version": 1,
+      "expected": {
+        "host": {
+          "archive": "pass",
+          "json": "fail",
+          "schema": "not checked",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        },
+        "cli": {
+          "archive": "pass",
+          "json": "fail",
+          "schema": "not checked",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        },
+        "browser": {
+          "archive": "pass",
+          "json": "fail",
+          "schema": "not checked",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        }
+      }
+    },
+    {
+      "id": "localized-control",
+      "file": "archives/localized-control.mantelpack",
+      "sha256": "f614f225c3425357577c346e9e378030ba1dd5c04f3fd043040893f73fee51ce",
+      "version": 1,
+      "expected": {
+        "host": {
+          "archive": "pass",
+          "json": "fail",
+          "schema": "not checked",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        },
+        "cli": {
+          "archive": "pass",
+          "json": "fail",
+          "schema": "not checked",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        },
+        "browser": {
+          "archive": "pass",
+          "json": "fail",
+          "schema": "not checked",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        }
+      }
+    },
+    {
       "id": "layout-setup",
       "file": "archives/layout-setup.mantelpack",
       "sha256": "149825407922234533936f5521d4b622cab8d00bf50a112fb6b68381fb30ad07",
@@ -4023,6 +4583,26 @@
       },
       "file": "canonical/layout-purpose-canonical.json",
       "sha256": "40cca73b07cf0b2f16a01d62c5ad461ad4f19c266705f5792c9954470514eba1"
+    },
+    {
+      "id": "localized-canonical",
+      "model": "definition-v1",
+      "input": {
+        "kind": "theme",
+        "name": "Morning",
+        "localized": {
+          "pt-BR": {
+            "mood": "Calmo",
+            "name": null
+          },
+          "bg": {
+            "description": "Часът и времето.",
+            "name": "Сутрин"
+          }
+        }
+      },
+      "file": "canonical/localized-canonical.json",
+      "sha256": "6e0506d063d5457aa576a59f3fc5ccf35abb98343a6cd0d390492f508a2e4dd0"
     },
     {
       "id": "v1-coerced-scalars",

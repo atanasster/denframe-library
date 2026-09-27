@@ -123,5 +123,27 @@
       "mp3-free-bitrate",
       "mp3-layer-ii"
     ]
+  },
+  {
+    "schema_sha256": "bb29859ee62bf92199365d6ad15506645e5668be45cad9de071c2f419a9061a6",
+    "introduced": [
+      "localized-valid",
+      "localized-missing-capability",
+      "localized-bad-locale",
+      "localized-uppercase-locale",
+      "localized-empty-entry",
+      "localized-blank",
+      "localized-unknown-field",
+      "localized-name-over-limit",
+      "localized-mood-over-limit",
+      "localized-description-over-limit",
+      "localized-too-many-locales",
+      "localized-bidi",
+      "localized-control",
+      "localized-canonical",
+      "localized-empty-map",
+      "localized-zero-width",
+      "localized-joined"
+    ]
   }
 ]

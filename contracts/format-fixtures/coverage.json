@@ -65,12 +65,30 @@
       "bidi-override",
       "bidi-isolate",
       "c0-control",
-      "c1-control"
+      "c1-control",
+      "localized-valid",
+      "localized-missing-capability",
+      "localized-bad-locale",
+      "localized-uppercase-locale",
+      "localized-empty-entry",
+      "localized-blank",
+      "localized-unknown-field",
+      "localized-name-over-limit",
+      "localized-mood-over-limit",
+      "localized-description-over-limit",
+      "localized-too-many-locales",
+      "localized-bidi",
+      "localized-control",
+      "localized-empty-map",
+      "localized-zero-width",
+      "localized-joined"
     ],
     "scenarios": [
       "S6"
     ],
-    "deferred": "D33 localized model fields are added with new schema fixtures at step 29."
+    "canonical": [
+      "localized-canonical"
+    ]
   },
   "Licence": {
     "archives": [

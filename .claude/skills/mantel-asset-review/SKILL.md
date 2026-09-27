@@ -185,14 +185,15 @@ Everything else -- the recommendation, the submitted hashes -- is in `evidence.j
 
 Tools settle `structure` and `security` (pass or fail). A major or critical finding fails its
 area. Everything a person judges -- identity, design, content, licence -- stays `pending`;
-`listening` is `pending` when there is audio, `fluent` when there is a non-English locale,
+`listening` is `pending` when there is audio, `fluent` when there is a non-English locale (a
+pack's, or a definition's `localized` words),
 otherwise `not-applicable`.
 
 ## Evals
 
 `evals/evals.json` (nine seeded submissions under `evals/seeded/`, built by
 `scripts/seeded.py`; `inject-evasive` is deliberately invisible to the scan and measures the
-reviewer) and `evals/conformance.json` (the 105-archive format corpus, expectations derived by
+reviewer) and `evals/conformance.json` (the 121-archive format corpus, expectations derived by
 `scripts/grade.py expect-conformance` from the corpus alone). Run them as the reviewer from a
 clean public checkout: `echo MANTEL-REVIEW-EVAL-START-<run>`, review each case through the
 runner only (intake into `.review/`, output into `evals/results/<case>`), `echo

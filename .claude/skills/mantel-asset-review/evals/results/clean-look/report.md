@@ -1,4 +1,4 @@
-# Review report: brook/nocturne 1.0.0
+# Review report: brook/lantern 1.0.0
 
 > **Recommend approve.** This report recommends; it approves nothing. Only the person named as
 > `reviewer` in `reviews.json` decides, and the draft record below keeps `reviewer`,
@@ -9,15 +9,15 @@
 
 | | |
 |---|---|
-| Id and version | `brook/nocturne` 1.0.0 |
+| Id and version | `brook/lantern` 1.0.0 |
 | Kind | theme |
-| Name | `Nocturne` |
+| Name | `Lantern` |
 | Licence and publisher | MIT · `Local author` |
 | Attribution | none |
-| Submitted file | SHA-256 `10d2ddf17382076696b5c7656f0602f8a2f722f44e98365262e69573a7798f0d`, 1006 bytes |
-| Archive | SHA-256 `10d2ddf17382076696b5c7656f0602f8a2f722f44e98365262e69573a7798f0d`, 1006 bytes |
-| Release (what would be signed) | SHA-256 `10d2ddf17382076696b5c7656f0602f8a2f722f44e98365262e69573a7798f0d` (rebuild: identical) |
-| Source | SHA-256 `f258d1a48adcc17c0330c067323e2385e77bbaedacc835f305faf050042f1164` of the unpacked `source.json` |
+| Submitted file | SHA-256 `8c4c8a7d5a907c0921cb88fef77a2157c94315efd647082edc73a4e1b48e38af`, 1004 bytes |
+| Archive | SHA-256 `8c4c8a7d5a907c0921cb88fef77a2157c94315efd647082edc73a4e1b48e38af`, 1004 bytes |
+| Release (what would be signed) | SHA-256 `8c4c8a7d5a907c0921cb88fef77a2157c94315efd647082edc73a4e1b48e38af` (rebuild: identical) |
+| Source | SHA-256 `a4187de90a888f35a7c48a6131baa98640b381daa30532f6fec152f62a8027a3` of the unpacked `source.json` |
 | Submitter | `brook-author` (GitHub account 7700001) from local |
 
 ## Checks
@@ -27,7 +27,7 @@
 | Identity | pending | a person confirms the handle carries no brand or person name (identity.md) |
 | Structure | pass | validator passed; unpack and rebuild: identical |
 | Security | pass | ZIP profile, media, trailers and text scan clean |
-| Design | pending | `AGENT-DESIGN-PLANNED-TWIN` |
+| Design | pending | a person looks at our rendered previews and the shelf |
 | Content | pending | a person reads the copy (and, for packs, checks facts and audience) |
 | Licence | pending | a person verifies every licence at its source |
 | Listening | not-applicable | nothing to check for this kind |
@@ -59,7 +59,7 @@ None.
 
 ### Minor
 
-- **`AGENT-DESIGN-PLANNED-TWIN`** (design) The name and palette match the Mantel look planned as Nocturne (plan section 5.1). Evidence: Every token equals plan Appendix A's nocturne; a person decides whether this community look should stand beside, or instead of, the planned mantel/ look, and asks for a distinct name if both ship
+None.
 
 ### Note
 
@@ -71,9 +71,9 @@ None.
 
 Distinctness threshold ΔE 2.0 (references/design.md); look `ink`, background `dunes`, layout `flow`. Nearest catalog looks:
 
-- `mantel/theme-ink`: ΔE 3.83 (background 1.19, surface 1.8, text 3.52, mutedText 9.28, accent 15.31, accentText 3.34)
-- `mantel/theme-painting`: ΔE 6.02 (background 6.02, surface 8.29, text 4.15, mutedText 14.49, accent 6.28, accentText 5.36)
-- `mantel/theme-botanical`: ΔE 6.74 (background 6.92, surface 9.13, text 2.81, mutedText 10.54, accent 9.96, accentText 4.9)
+- `mantel/theme-salon`: ΔE 2.49 (background 3.36, surface 4.29, text 0.75, mutedText 3.09, accent 5.64, accentText 0.96)
+- `mantel/theme-moss`: ΔE 2.63 (background 2.05, surface 2.61, text 1.09, mutedText 3.06, accent 13.19, accentText 4.37)
+- `mantel/theme-botanical`: ΔE 3.87 (background 3.66, surface 5.06, text 1.87, mutedText 4.1, accent 13.42, accentText 4.65)
 
 Motion: `background_motion` is on; the renderer stops it under prefers-reduced-motion.
 
@@ -98,10 +98,10 @@ Not a pack.
 
 ```json
 {
-  "id": "brook/nocturne",
+  "id": "brook/lantern",
   "version": "1.0.0",
   "kind": "definition",
-  "archive_sha256": "10d2ddf17382076696b5c7656f0602f8a2f722f44e98365262e69573a7798f0d",
+  "archive_sha256": "8c4c8a7d5a907c0921cb88fef77a2157c94315efd647082edc73a4e1b48e38af",
   "source_sha256": null,
   "submitter_handle": "brook",
   "reviewer": null,
@@ -127,5 +127,5 @@ Recommended verdict: `approved`. The record goes into `reviews.json` as it stand
 Image `python:3.13-slim@sha256:9d2e5553305c7c7b0097999bb17187c69b921ccd6bc9d40e4bb5ebe652c00285` (linux/amd64), `mantel_format` 0.1.0, Python 3.13.15; release runtime matches. Network: none (docker --network none). Limits: 512m memory, 1 CPU, 64 pids, 64m no-exec tmpfs, read-only root, uid 65534, no capabilities, no-new-privileges. Nothing from the submission ran; the household host was never used.
 
 ```json review-summary
-{"id": "brook/nocturne", "version": "1.0.0", "recommendation": "recommend approve", "layers": {"archive": "pass", "json": "pass", "schema": "pass", "capabilities": "pass", "contrast": "pass", "media": "not applicable", "trust": "not checked"}, "statuses": {"identity": "pending", "structure": "pass", "security": "pass", "design": "pending", "content": "pending", "licence": "pending", "listening": "not-applicable", "fluent": "not-applicable"}, "findings": [{"code": "AGENT-DESIGN-PLANNED-TWIN", "severity": "minor", "area": "design"}, {"code": "ID-HANDLE-NEW", "severity": "note", "area": "identity"}, {"code": "DES-MOTION-RENDERER", "severity": "note", "area": "design"}, {"code": "DES-PREVIEWS-PENDING", "severity": "note", "area": "design"}]}
+{"id": "brook/lantern", "version": "1.0.0", "recommendation": "recommend approve", "layers": {"archive": "pass", "json": "pass", "schema": "pass", "capabilities": "pass", "contrast": "pass", "media": "not applicable", "trust": "not checked"}, "statuses": {"identity": "pending", "structure": "pass", "security": "pass", "design": "pending", "content": "pending", "licence": "pending", "listening": "not-applicable", "fluent": "not-applicable"}, "findings": [{"code": "ID-HANDLE-NEW", "severity": "note", "area": "identity"}, {"code": "DES-MOTION-RENDERER", "severity": "note", "area": "design"}, {"code": "DES-PREVIEWS-PENDING", "severity": "note", "area": "design"}]}
 ```

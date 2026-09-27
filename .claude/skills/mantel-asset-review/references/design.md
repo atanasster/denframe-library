@@ -68,4 +68,6 @@ records that as their decision; the finding stays.
 - **Naming**: unique beside its shelf and the catalog.
 - **The shelf**: it sits well beside the looks around it in the Library.
 - **Reduced motion**: with `prefers-reduced-motion: reduce`, nothing moves.
-- **Localized strings** (`localized`, D33) complete for every locale they name.
+- **Localized strings** (`localized`, D33) complete for every locale they name: the review
+  lists the locales (`CON-FLUENT-NEEDED`, and `fluent` stays pending until a fluent reader has
+  read them) and any entry that leaves out a field (`DES-LOCALIZED-PARTIAL`).

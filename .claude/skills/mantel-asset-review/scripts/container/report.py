@@ -265,7 +265,12 @@ def render(evidence: dict, environment: dict) -> str:
         "",
     ]
     content = evidence["content"]
-    if content:
+    if content.get("localized"):
+        lines.append(
+            f"Not a pack. Localized words (D33): {', '.join(content['locales'])}; "
+            "a fluent reader checks them."
+        )
+    elif content:
         lines.append(
             f"Locales {', '.join(content['locales'])}; {content['items']} items, "
             f"{content['images']} images, {content['audio']} sounds."

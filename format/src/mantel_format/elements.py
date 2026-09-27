@@ -68,6 +68,7 @@ from .encoding import canonical as canonical
 from .encoding import digest as digest
 from .encoding import strict_json as strict_json
 from .layout_arrangement import LayoutArrangement, LayoutPurpose
+from .localized_text import LOCALIZED_TEXT_CAPABILITY, Localized
 from .pack_contracts import CardBlockSettings
 from .themes import validate_palette
 from .vocabulary import (
@@ -375,13 +376,16 @@ class Definition(BaseModel):
     purpose: LayoutPurpose | None = None
     arrangement: LayoutArrangement | None = None
     setup: list[SetupPrompt] = Field(default_factory=list, max_length=24)
+    # D33: the name (and the catalog's mood and description) in other languages. Omitted when
+    # absent, so every definition published before it keeps its bytes.
+    localized: Localized | None = None
 
     @model_serializer(mode="wrap")
     def omit_optional_layout(self, handler: SerializerFunctionWrapHandler) -> dict[str, Any]:
         data = handler(self)
         if not self.setup:
             data.pop("setup")
-        for key in ("purpose", "arrangement"):
+        for key in ("purpose", "arrangement", "localized"):
             if data[key] is None:
                 data.pop(key)
         return data
@@ -490,6 +494,11 @@ def read_package(data: bytes) -> tuple[Manifest, Definition]:
                     "Layout purpose or arrangement requires "
                     f"{LAYOUT_ARRANGEMENT_CAPABILITY} capability"
                 )
+            if (
+                definition.localized is not None
+                and LOCALIZED_TEXT_CAPABILITY not in manifest.required_capabilities
+            ):
+                raise ValueError(f"Localized words require {LOCALIZED_TEXT_CAPABILITY} capability")
             if (
                 _requires_setup(definition)
                 and LAYOUT_SETUP_CAPABILITY not in manifest.required_capabilities
@@ -635,6 +644,7 @@ def required_capabilities(definition: Definition) -> list[str]:
             if any(_block_carries_overrides(block) for block in definition.blocks)
             else []
         ),
+        *([LOCALIZED_TEXT_CAPABILITY] if definition.localized is not None else []),
     ]
 
 
