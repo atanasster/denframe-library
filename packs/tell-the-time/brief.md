@@ -31,8 +31,10 @@ twelve. The dashboard's schedule still owns how long the card stays on screen.
 **Quiz.** Self-check only: the question on the prompt, the answer and its reason on the reveal
 (`reveal-sequence-v1`; no scoring).
 
-**Review.** Included in Mantel only after a person reviews it (plan D5, step 40). Pending:
-content, a fluent Bulgarian reading, visual review. No listening review is needed (no audio).
+**Review.** The owner reviewed it on 27 September 2026 -- content, licence, design (every
+picture) and a fluent Bulgarian reading passed; no listening review is needed (no audio) -- and
+it is included in Mantel from 1.0.1 (plan D5, step 40). 1.0.1 changes only the description,
+which no longer calls it a review candidate; the cards and pictures are 1.0.0's.
 
 **For the fluent reader.** „Три часа“, „Два и половина“, „Четири и четвърт“, „Девет без
 четвърт“ and „значи часът е точно 3“; the set never says 1:00 (which would need „един часът“ /

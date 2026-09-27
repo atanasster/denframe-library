@@ -32,7 +32,8 @@
       "items": [
         "time-0300"
       ],
-      "visual_review": "pending"
+      "visual_review": "pass",
+      "visual_review_note": "Covered by the owner's design pass (atanasster, 27 September 2026) in the approved review of Tell the Time 1.0.1 (reviews.json); these pictures are unchanged since 1.0.0."
     },
     {
       "picture": "clock-0900",
@@ -45,7 +46,8 @@
       "items": [
         "time-0900"
       ],
-      "visual_review": "pending"
+      "visual_review": "pass",
+      "visual_review_note": "Covered by the owner's design pass (atanasster, 27 September 2026) in the approved review of Tell the Time 1.0.1 (reviews.json); these pictures are unchanged since 1.0.0."
     },
     {
       "picture": "clock-0700",
@@ -58,7 +60,8 @@
       "items": [
         "time-0700"
       ],
-      "visual_review": "pending"
+      "visual_review": "pass",
+      "visual_review_note": "Covered by the owner's design pass (atanasster, 27 September 2026) in the approved review of Tell the Time 1.0.1 (reviews.json); these pictures are unchanged since 1.0.0."
     },
     {
       "picture": "clock-0630",
@@ -71,7 +74,8 @@
       "items": [
         "time-0630"
       ],
-      "visual_review": "pending"
+      "visual_review": "pass",
+      "visual_review_note": "Covered by the owner's design pass (atanasster, 27 September 2026) in the approved review of Tell the Time 1.0.1 (reviews.json); these pictures are unchanged since 1.0.0."
     },
     {
       "picture": "clock-0230",
@@ -84,7 +88,8 @@
       "items": [
         "time-0230"
       ],
-      "visual_review": "pending"
+      "visual_review": "pass",
+      "visual_review_note": "Covered by the owner's design pass (atanasster, 27 September 2026) in the approved review of Tell the Time 1.0.1 (reviews.json); these pictures are unchanged since 1.0.0."
     },
     {
       "picture": "clock-0415",
@@ -97,7 +102,8 @@
       "items": [
         "time-0415"
       ],
-      "visual_review": "pending"
+      "visual_review": "pass",
+      "visual_review_note": "Covered by the owner's design pass (atanasster, 27 September 2026) in the approved review of Tell the Time 1.0.1 (reviews.json); these pictures are unchanged since 1.0.0."
     },
     {
       "picture": "clock-1015",
@@ -110,7 +116,8 @@
       "items": [
         "time-1015"
       ],
-      "visual_review": "pending"
+      "visual_review": "pass",
+      "visual_review_note": "Covered by the owner's design pass (atanasster, 27 September 2026) in the approved review of Tell the Time 1.0.1 (reviews.json); these pictures are unchanged since 1.0.0."
     },
     {
       "picture": "clock-1045",
@@ -123,7 +130,8 @@
       "items": [
         "time-1045"
       ],
-      "visual_review": "pending"
+      "visual_review": "pass",
+      "visual_review_note": "Covered by the owner's design pass (atanasster, 27 September 2026) in the approved review of Tell the Time 1.0.1 (reviews.json); these pictures are unchanged since 1.0.0."
     },
     {
       "picture": "clock-0145",
@@ -136,7 +144,8 @@
       "items": [
         "time-0145"
       ],
-      "visual_review": "pending"
+      "visual_review": "pass",
+      "visual_review_note": "Covered by the owner's design pass (atanasster, 27 September 2026) in the approved review of Tell the Time 1.0.1 (reviews.json); these pictures are unchanged since 1.0.0."
     },
     {
       "picture": "clock-0530",
@@ -149,7 +158,8 @@
       "items": [
         "time-0530"
       ],
-      "visual_review": "pending"
+      "visual_review": "pass",
+      "visual_review_note": "Covered by the owner's design pass (atanasster, 27 September 2026) in the approved review of Tell the Time 1.0.1 (reviews.json); these pictures are unchanged since 1.0.0."
     },
     {
       "picture": "clock-0715",
@@ -162,7 +172,8 @@
       "items": [
         "time-0715"
       ],
-      "visual_review": "pending"
+      "visual_review": "pass",
+      "visual_review_note": "Covered by the owner's design pass (atanasster, 27 September 2026) in the approved review of Tell the Time 1.0.1 (reviews.json); these pictures are unchanged since 1.0.0."
     },
     {
       "picture": "clock-1145",
@@ -175,7 +186,8 @@
       "items": [
         "time-1145"
       ],
-      "visual_review": "pending"
+      "visual_review": "pass",
+      "visual_review_note": "Covered by the owner's design pass (atanasster, 27 September 2026) in the approved review of Tell the Time 1.0.1 (reviews.json); these pictures are unchanged since 1.0.0."
     }
   ]
 }

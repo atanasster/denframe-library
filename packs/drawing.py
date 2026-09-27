@@ -181,6 +181,14 @@ def write_pack(
         )
         for key, path in paths.items()
     }
+    # A person's recorded verdict on a picture holds while the picture is the same bytes (its
+    # path is its content hash); a changed or new picture waits for review again.
+    kept = {}
+    if (folder / "provenance.json").exists():
+        for asset in json.loads((folder / "provenance.json").read_text())["assets"]:
+            kept[asset["path"]] = {
+                key: asset[key] for key in ("visual_review", "visual_review_note") if key in asset
+            }
     record = {
         **provenance,
         "method": "SVG drawn by draw.py, rasterised by rsvg-convert, re-encoded by Pillow as an "
@@ -198,6 +206,7 @@ def write_pack(
                 "license": credit[key]["license"],
                 "items": shown_by[key],
                 "visual_review": "pending",
+                **kept.get(paths[key], {}),
             }
             for key in pictures
         ],

@@ -948,28 +948,6 @@
       "notes": "Automated review in the mantel-asset-review sandbox (plan step 38, layout): recommend approve, no findings above note. Identity, design, content, licence and the fluent (bg) reading await the owner."
     },
     {
-      "id": "mantel/tell-the-time",
-      "version": "1.0.0",
-      "kind": "pack",
-      "archive_sha256": "5cf51d3732b7456cd692bfa9021ec63bf3ce30f983e378749463c2e4a769f472",
-      "source_sha256": "1cd9e3578ca61125e4432a432d243a462a54aabd89e7be5eee48fac80b328e26",
-      "submitter_handle": "mantel",
-      "reviewer": null,
-      "reviewed_at": "2026-09-27",
-      "statuses": {
-        "identity": "pending",
-        "structure": "pass",
-        "security": "pass",
-        "design": "pending",
-        "content": "pending",
-        "licence": "pending",
-        "listening": "not-applicable",
-        "fluent": "pending"
-      },
-      "verdict": "preview",
-      "notes": "Automated review in the mantel-asset-review sandbox (plan step 39, activity; re-run after the content review): recommend approve; findings only minor SEC-TEXT-URL (the credits' own source links) and notes. Identity, design, content, licence and the fluent (bg) reading await the owner, whose review decides whether it becomes included (D5, step 40). Drawn in code, no audio; text drafted with AI assistance."
-    },
-    {
       "id": "mantel/moon-and-sky",
       "version": "1.0.0",
       "kind": "pack",
@@ -1034,6 +1012,28 @@
       },
       "verdict": "preview",
       "notes": "Automated review in the mantel-asset-review sandbox (plan step 39, activity; re-run after the content review): recommend approve; findings only minor SEC-TEXT-URL (the credits' own source links) and notes. Identity, design (incl. colour-vision), content, licence and the fluent (bg) reading await the owner. Drawn in code, no audio; text drafted with AI assistance."
+    },
+    {
+      "id": "mantel/tell-the-time",
+      "version": "1.0.1",
+      "kind": "pack",
+      "archive_sha256": "beb57071bbb6d0ada20e6143807796c05806939cc6fea74b4a9182896d3761a8",
+      "source_sha256": "591639611dedd5492b81feb561cc8212baa7202f3dd5c8de1d49f1398856f8cc",
+      "submitter_handle": "mantel",
+      "reviewer": "atanasster",
+      "reviewed_at": "2026-09-27",
+      "statuses": {
+        "identity": "pass",
+        "structure": "pass",
+        "security": "pass",
+        "design": "pass",
+        "content": "pass",
+        "licence": "pass",
+        "listening": "not-applicable",
+        "fluent": "pass"
+      },
+      "verdict": "approved",
+      "notes": "Owner review (atanasster, 27 September 2026) of the exact 1.0.1 archive after the mantel-asset-review sandbox recommended approve (findings only minor SEC-TEXT-URL, the credits' own source links): 1.0.1 is 1.0.0's cards and pictures with a description that no longer calls it a review candidate. The owner reviewed identity, design (every picture), content and licence and personally read the Bulgarian text, so the fluent (bg) reading passes; listening is not applicable (silent, no narration). Approved and included (D5, D31). Drawn in code, no audio; text drafted with AI assistance. 1.0.0 (archive 5cf51d37, the same cards with a description still calling it a review candidate) was approved on the same terms the same day but never included; its record left the ledger with its source, since the ledger holds one record per catalogued source (tools/rebuild.py), and stays in this file's history."
     }
   ]
 }

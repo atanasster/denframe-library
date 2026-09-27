@@ -4,10 +4,15 @@ Seven self-contained sources. The first three: 20 Bulgarian/English vocabulary i
 12 real animal-recording items and 12 short thinking puzzles. Four more, drawn in code (plan
 step 39): **Tell the Time** (12 clock faces), **Moon & Sky** (12 Moon phases and star
 patterns), **Shapes & Colours** (12 shape cards) -- English and Bulgarian -- and **Breathe**
-(six breathing cycles, English, ending after the sixth). `catalog.json` places all seven in the `library`
-distribution: they are offered online and do not ship inside Mantel. Tell the Time is planned
-to become `included` only after a person reviews it (plan D5, step 40).
-They are **review candidates, not approved teaching material**. The root `reviews.json` ledger pins each
+(six breathing cycles, English, ending after the sixth). `catalog.json` places six of them in the
+`library` distribution: they are offered online and do not ship inside Mantel. **Tell the Time**
+is `included` as **1.0.1**: the owner reviewed it on 27 September 2026 (identity, design,
+content, licence and the Bulgarian reading passed; silent, so listening does not apply), and
+its `approved` record in `reviews.json` pins that exact archive (plan D5, step 40). 1.0.1 is
+1.0.0's cards and pictures with a description that no longer calls it a review candidate;
+the ledger keeps one record per catalogued source, so 1.0.0's left with it (see its history). `drawing.py` keeps a picture's
+recorded `visual_review` in `provenance.json` while its bytes are unchanged.
+The other six are **review candidates, not approved teaching material**. The root `reviews.json` ledger pins each
 source and archive hash with a `preview` verdict; fluent, content and listening reviews
 are pending. Never promote them as reviewed language learning packs or remove this
 distinction from the public catalog.
