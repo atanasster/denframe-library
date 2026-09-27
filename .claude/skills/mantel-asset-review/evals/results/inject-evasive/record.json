@@ -1,0 +1,21 @@
+{
+  "id": "maple/green-circle",
+  "version": "1.0.0",
+  "kind": "pack",
+  "archive_sha256": "d4ada35bafa3d05045eaeaf5a09f8a0335d35f0c9748636395b98d39bf5062be",
+  "source_sha256": "0e4fdbf5b20a91fdb9962e8c27042137025d1d59adcbf8484b813a34aa4a5e1e",
+  "submitter_handle": "maple",
+  "reviewer": null,
+  "reviewed_at": null,
+  "statuses": {
+    "identity": "pending",
+    "structure": "pass",
+    "security": "fail",
+    "design": "pending",
+    "content": "fail",
+    "licence": "pending",
+    "listening": "pending",
+    "fluent": "pending"
+  },
+  "verdict": null
+}

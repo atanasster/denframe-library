@@ -1,0 +1,247 @@
+{
+  "submission": {
+    "sha256": "4be7b1c53f9060240b856ab142a4e47fc17f82457bd4e852f037c747c07b43cb",
+    "size": 951,
+    "archive_sha256": "4be7b1c53f9060240b856ab142a4e47fc17f82457bd4e852f037c747c07b43cb",
+    "archive_size": 951,
+    "unwrapped_from_zip": null,
+    "submitter": {
+      "login": "mallory",
+      "id": 5550999
+    },
+    "source": "local",
+    "number": null
+  },
+  "release": {
+    "id": "aurora/dawn",
+    "version": "1.0.0",
+    "kind": "theme",
+    "ledger_kind": "definition",
+    "name": "Dawn",
+    "license": "MIT",
+    "publisher": "Local author",
+    "attribution": "",
+    "release_sha256": "4be7b1c53f9060240b856ab142a4e47fc17f82457bd4e852f037c747c07b43cb"
+  },
+  "layers": {
+    "archive": "pass",
+    "json": "pass",
+    "schema": "pass",
+    "capabilities": "pass",
+    "contrast": "pass",
+    "media": "not applicable",
+    "trust": "not checked"
+  },
+  "validator_error": null,
+  "rebuild": {
+    "status": "identical",
+    "rebuilt_sha256": "4be7b1c53f9060240b856ab142a4e47fc17f82457bd4e852f037c747c07b43cb",
+    "rebuilt_size": 951,
+    "source_sha256": "a82afb409f787aabf962da98d103c4f562b8e53892d453af6ad03b2226b017d9"
+  },
+  "distinctness": {
+    "applies": true,
+    "threshold": 2.0,
+    "nearest": [
+      {
+        "look": "mantel/theme-ink",
+        "distance": 3.83,
+        "roles": {
+          "background": 1.19,
+          "surface": 1.8,
+          "text": 3.52,
+          "mutedText": 9.28,
+          "accent": 14.04,
+          "accentText": 3.34
+        }
+      },
+      {
+        "look": "mantel/theme-painting",
+        "distance": 6.45,
+        "roles": {
+          "background": 6.02,
+          "surface": 8.29,
+          "text": 4.15,
+          "mutedText": 14.49,
+          "accent": 8.42,
+          "accentText": 5.36
+        }
+      },
+      {
+        "look": "mantel/theme-botanical",
+        "distance": 6.86,
+        "roles": {
+          "background": 6.92,
+          "surface": 9.13,
+          "text": 2.81,
+          "mutedText": 10.54,
+          "accent": 14.36,
+          "accentText": 4.9
+        }
+      }
+    ],
+    "look": "ink",
+    "background": "solid",
+    "layout": "flow"
+  },
+  "content": {},
+  "texts": [
+    {
+      "where": "manifest.format",
+      "text": "mantelpack"
+    },
+    {
+      "where": "manifest.id",
+      "text": "aurora/dawn"
+    },
+    {
+      "where": "manifest.version",
+      "text": "1.0.0"
+    },
+    {
+      "where": "manifest.license",
+      "text": "MIT"
+    },
+    {
+      "where": "manifest.publisher",
+      "text": "Local author"
+    },
+    {
+      "where": "manifest.attribution",
+      "text": ""
+    },
+    {
+      "where": "manifest.entrypoint",
+      "text": "definition.json"
+    },
+    {
+      "where": "manifest.required_capabilities[0]",
+      "text": "composition-v2"
+    },
+    {
+      "where": "definition.kind",
+      "text": "theme"
+    },
+    {
+      "where": "definition.name",
+      "text": "Dawn"
+    },
+    {
+      "where": "definition.look",
+      "text": "ink"
+    },
+    {
+      "where": "definition.appearance.layout",
+      "text": "flow"
+    },
+    {
+      "where": "definition.appearance.background",
+      "text": "solid"
+    },
+    {
+      "where": "definition.appearance.font",
+      "text": "theme"
+    },
+    {
+      "where": "definition.appearance.spacing",
+      "text": "standard"
+    },
+    {
+      "where": "definition.appearance.tokens.accent",
+      "text": "#ffb48c"
+    },
+    {
+      "where": "definition.appearance.tokens.accentText",
+      "text": "#1b1307"
+    },
+    {
+      "where": "definition.appearance.tokens.background",
+      "text": "#0d1117"
+    },
+    {
+      "where": "definition.appearance.tokens.border",
+      "text": "#39414f"
+    },
+    {
+      "where": "definition.appearance.tokens.captionSurface",
+      "text": "#0d1117"
+    },
+    {
+      "where": "definition.appearance.tokens.mutedText",
+      "text": "#b4ada2"
+    },
+    {
+      "where": "definition.appearance.tokens.negative",
+      "text": "#ff9a8f"
+    },
+    {
+      "where": "definition.appearance.tokens.positive",
+      "text": "#7ad19c"
+    },
+    {
+      "where": "definition.appearance.tokens.surface",
+      "text": "#161b24"
+    },
+    {
+      "where": "definition.appearance.tokens.text",
+      "text": "#f2ece1"
+    }
+  ],
+  "findings": [
+    {
+      "code": "ID-HANDLE-UNREGISTERED-USE",
+      "area": "identity",
+      "severity": "critical",
+      "title": "A registered handle used by an account it does not list",
+      "evidence": "aurora is registered to Aurora Studio; mallory (account 5550999) is not one of its accounts"
+    },
+    {
+      "code": "DES-PREVIEWS-PENDING",
+      "area": "design",
+      "severity": "note",
+      "title": "Previews at 1920x1080, 1080x1920 and 1024x768 are rendered by us and looked at by a person",
+      "evidence": "not rendered inside the review sandbox"
+    }
+  ],
+  "automated_findings": [
+    "ID-HANDLE-UNREGISTERED-USE",
+    "DES-PREVIEWS-PENDING"
+  ],
+  "reviewer_findings": [],
+  "statuses": {
+    "identity": "fail",
+    "structure": "pass",
+    "security": "pass",
+    "design": "pending",
+    "content": "pending",
+    "licence": "pending",
+    "listening": "not-applicable",
+    "fluent": "not-applicable"
+  },
+  "recommendation": "recommend reject",
+  "draft": {
+    "recommended_verdict": "rejected",
+    "submitted_sha256": "4be7b1c53f9060240b856ab142a4e47fc17f82457bd4e852f037c747c07b43cb",
+    "submitted_archive_sha256": "4be7b1c53f9060240b856ab142a4e47fc17f82457bd4e852f037c747c07b43cb",
+    "rebuild": "identical",
+    "unpacked_source_sha256": "a82afb409f787aabf962da98d103c4f562b8e53892d453af6ad03b2226b017d9",
+    "source_sha256": "pending: A definition's source hash is its catalog entry's (tools/check.py `reviewed_source`: the entry without `distribution`), and the entry gains its slug, mood and description when it is added in step 36; set `source_sha256` then.",
+    "submitter_account": {
+      "login": "mallory",
+      "id": 5550999
+    },
+    "findings": [
+      "ID-HANDLE-UNREGISTERED-USE",
+      "DES-PREVIEWS-PENDING"
+    ],
+    "layers": {
+      "archive": "pass",
+      "json": "pass",
+      "schema": "pass",
+      "capabilities": "pass",
+      "contrast": "pass",
+      "media": "not applicable",
+      "trust": "not checked"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "id": "sunny/evening-glow",
+  "version": "1.0.0",
+  "kind": "definition",
+  "archive_sha256": "e42014faa1a6e2b392806d82e224f6a70aee667251bc15dde2155a39b0524c69",
+  "source_sha256": null,
+  "submitter_handle": "sunny",
+  "reviewer": null,
+  "reviewed_at": null,
+  "statuses": {
+    "identity": "pending",
+    "structure": "pass",
+    "security": "fail",
+    "design": "pending",
+    "content": "pending",
+    "licence": "pending",
+    "listening": "not-applicable",
+    "fluent": "not-applicable"
+  },
+  "verdict": null
+}
