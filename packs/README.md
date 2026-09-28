@@ -1,4 +1,4 @@
-# Activity pack review candidates
+# Activity packs
 
 Seven self-contained sources. The first three: 20 Bulgarian/English vocabulary items,
 12 real animal-recording items and 12 short thinking puzzles. Four more, drawn in code (plan
@@ -12,10 +12,15 @@ its `approved` record in `reviews.json` pins that exact archive (plan D5, step 4
 1.0.0's cards and pictures with a description that no longer calls it a review candidate;
 the ledger keeps one record per catalogued source, so 1.0.0's left with it (see its history). `drawing.py` keeps a picture's
 recorded `visual_review` in `provenance.json` while its bytes are unchanged.
-The other six are **review candidates, not approved teaching material**. The root `reviews.json` ledger pins each
-source and archive hash with a `preview` verdict; fluent, content and listening reviews
-are pending. Never promote them as reviewed language learning packs or remove this
-distinction from the public catalog.
+The owner reviewed the other six on 28 September 2026 (in chat; `reviews.json` pins each
+source and archive hash). **Tiny Puzzles, Moon & Sky, Shapes & Colours and Breathe** are
+`approved` -- identity, design, content, licence and the Bulgarian reading passed (Breathe is
+English only), and they are silent, so listening does not apply; the drawn packs' pictures carry
+`visual_review: pass` in `provenance.json`. They stay in the `library` distribution.
+**First Words and Animal Sounds** keep a `preview` verdict: everything but listening passed,
+and nobody has listened to their recordings yet. They are **review candidates, not approved
+teaching material**, until a listening review; never promote them as reviewed language
+learning packs or remove this distinction from the public catalog.
 
 Text selection and puzzles were drafted for Mantel with AI assistance and are
 provided under CC0-1.0. Vocabulary words and mathematical facts remain ordinary

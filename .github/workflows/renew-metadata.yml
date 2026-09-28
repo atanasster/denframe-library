@@ -6,8 +6,15 @@
 # just those two files to the live Firebase Hosting site: it clones the live release's version,
 # adds them through the Hosting REST API and releases it -- never redeploying the site -- then
 # checks every role's expiry. It does nothing until the owner sets the repository variable
-# LIBRARY_RENEWAL to `on` at the pre-launch gate, after creating the `release` environment with
-# the LIBRARY_ONLINE_KEY, LIBRARY_ONLINE_PASSPHRASE and FIREBASE_HOSTING_SERVICE_ACCOUNT secrets.
+# LIBRARY_RENEWAL to `on`, after creating the `release` environment with the
+# FIREBASE_HOSTING_SERVICE_ACCOUNT secret (and, from the real launch on, the LIBRARY_ONLINE_KEY
+# and LIBRARY_ONLINE_PASSPHRASE secrets).
+#
+# Early testing (host plan §10): until the real launch the site serves a `channel: test`
+# repository, signed in every role by the public test key, which `tuf_repository.py --test`
+# derives from its published seed -- no key secret exists or is read. The renew step asks the
+# verified served repository for its channel: `test` renews with `--test`; production with the
+# online key secrets; anything else (a dev repository) is refused before anything is signed.
 # That environment is protected by a deployment-branch rule (main only) and has no required
 # reviewers: a scheduled job cannot wait for an approval, and a pending one would let the
 # timestamp lapse with no alert. A failure opens, or comments on, the one open issue labelled
@@ -55,9 +62,14 @@ jobs:
         env:
           LIBRARY_ONLINE_KEY: ${{ secrets.LIBRARY_ONLINE_KEY }}
           LIBRARY_ONLINE_PASSPHRASE: ${{ secrets.LIBRARY_ONLINE_PASSPHRASE }}
-        run: >-
-          python tools-checkout/tools/tuf_repository.py --repository served renew
-          --online-key-env LIBRARY_ONLINE_KEY --online-passphrase-env LIBRARY_ONLINE_PASSPHRASE
+        run: |
+          tool=tools-checkout/tools/tuf_repository.py
+          channel=$(python "$tool" --repository served channel)
+          case "$channel" in
+            test) python "$tool" --repository served --test renew ;;
+            production) python "$tool" --repository served renew --online-key-env LIBRARY_ONLINE_KEY --online-passphrase-env LIBRARY_ONLINE_PASSPHRASE ;;
+            *) echo "Refused: the site serves a $channel repository." >&2; exit 2 ;;
+          esac
       - name: Publish the new snapshot and timestamp to the live site
         env:
           FIREBASE_HOSTING_SERVICE_ACCOUNT: ${{ secrets.FIREBASE_HOSTING_SERVICE_ACCOUNT }}
@@ -66,7 +78,14 @@ jobs:
           --site "$HOSTING_SITE" --repository served
           --service-account-env FIREBASE_HOSTING_SERVICE_ACCOUNT
       - name: Check every role's expiry
-        run: python tools-checkout/tools/tuf_repository.py --repository served status
+        run: |
+          tool=tools-checkout/tools/tuf_repository.py
+          channel=$(python "$tool" --repository served channel)
+          case "$channel" in
+            test) python "$tool" --repository served --test status ;;
+            production) python "$tool" --repository served status ;;
+            *) echo "Refused: the site serves a $channel repository." >&2; exit 2 ;;
+          esac
   alert:
     needs: renew
     if: failure() && vars.LIBRARY_RENEWAL == 'on'

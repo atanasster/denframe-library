@@ -23,9 +23,22 @@ operation leaves only unreferenced files: new versions are numbered past them, a
 same command again finishes it.
 
 Keys are PEM private keys. Production keys must be passphrase-encrypted; the passphrase comes
-from an environment variable named on the command line or an interactive prompt. Unencrypted
-throwaway keys are accepted only for a repository whose root says `channel: dev`, and a dev
-repository refuses every operation that does not say `--dev` (and the reverse).
+from an environment variable named on the command line or an interactive prompt. A repository's
+root names its channel, and every operation names the channel it expects:
+
+- `channel: dev` (`--dev`): unencrypted throwaway keys, for local development only; production
+  tooling and the live site refuse it.
+- `channel: test` (`--test`): early testing, until the real launch (host plan §10). Every role --
+  root, targets, snapshot and timestamp -- is signed by one public test key that anyone can
+  reproduce: its Ed25519 private key is the SHA-256 of `PUBLIC_TEST_SEED` (committed in the host
+  as `library/test-keys/`). It is never a secret, so it protects nothing against a forger; it
+  proves only that the files are the ones this tooling signed. The live site accepts it until
+  launch. `--test` takes no key arguments.
+- production (no label): the key ceremony's passphrase-encrypted keys, from the real launch on.
+
+A repository refuses every operation that does not name its channel. A key set of one channel
+never starts or rotates a repository of another, so a test repository never becomes production:
+the real launch starts a new repository from the ceremony's keys.
 """
 
 from __future__ import annotations
@@ -44,7 +57,8 @@ from datetime import UTC, date, datetime, timedelta
 from pathlib import Path
 from typing import Any
 
-from cryptography.hazmat.primitives.asymmetric.ed25519 import Ed25519PublicKey
+from cryptography.hazmat.primitives import serialization
+from cryptography.hazmat.primitives.asymmetric.ed25519 import Ed25519PrivateKey, Ed25519PublicKey
 from cryptography.hazmat.primitives.serialization import load_pem_private_key
 from securesystemslib.signer import CryptoSigner, Key, SSlibKey
 from tuf.api.exceptions import UnsignedMetadataError
@@ -69,6 +83,15 @@ HASH_BIN_THRESHOLD = 1024 * 1024
 HASH_BIN_WARNING = 0.8
 PREFIXES = ("definitions", "packs", "previews")
 PUBLIC_KEY_ROLES = ("root", "targets", "online")
+CHANNELS = ("dev", "test", "production")
+# The channels the live website, the renewal job and a packaged app take: the public test key's
+# until the real launch, then production -- never dev. At the launch this narrows to
+# ("production",) (docs/operations/LIBRARY_TUF_OPERATIONS.md, *At the real launch*). The host
+# backend keeps its own copy (`online_catalog.RELEASABLE_CHANNELS`), pinned to this by a test.
+LIVE_CHANNELS = ("test", "production")
+# The public test key's seed text: its Ed25519 private key is the SHA-256 of these bytes (UTF-8).
+# Public and constant on purpose, so anyone can reproduce every test signature.
+PUBLIC_TEST_SEED = "mantel-library public test key v1"
 _NAME = re.compile(r"[A-Za-z0-9][A-Za-z0-9._-]{0,199}")
 _ID = re.compile(r"[a-z0-9][a-z0-9._/-]{0,199}")
 _VERSION = re.compile(r"[0-9]+\.[0-9]+\.[0-9]+(?:[-+][0-9A-Za-z.-]+)?")
@@ -78,6 +101,30 @@ Prompt = Callable[[str], str]
 
 class RepositoryError(Exception):
     """An operation refused, with a sentence that says why. It never carries key material."""
+
+
+def refuse_public_test_key(keyids: Iterable[str], channel: str, what: str) -> None:
+    """The public test key signs only `channel: test`: anyone can sign with it, so a production
+    (or dev) key set, key, release or root that holds it is refused -- the one check every
+    signer and verifier shares."""
+    if channel != "test" and public_test_key_id() in set(keyids):
+        raise RepositoryError(
+            f"{what} holds the public test key, which signs only channel test; anyone can sign "
+            "with it."
+        )
+
+
+def expected_channel(*, development: bool = False, channel: str | None = None) -> str:
+    """The channel an operation names: `dev` for `development`, else `channel` (default
+    production)."""
+    if development:
+        if channel not in (None, "dev"):
+            raise RepositoryError("An operation names one channel: dev, test or production.")
+        return "dev"
+    result = channel or "production"
+    if result not in CHANNELS:
+        raise RepositoryError(f"{result} is not a channel: dev, test or production.")
+    return result
 
 
 # ---------------------------------------------------------------------------------------------
@@ -140,6 +187,13 @@ def load_signer(
                 f"{source.label} is not passphrase-encrypted; production keys must be."
             )
         return CryptoSigner(key)
+    signer = _encrypted_signer(source, pem, prompt)
+    # A production key is never the public test key, even encrypted.
+    refuse_public_test_key([signer.public_key.keyid], "production", source.label)
+    return signer
+
+
+def _encrypted_signer(source: KeySource, pem: bytes, prompt: Prompt) -> CryptoSigner:
     if source.passphrase_env:
         passphrase = os.environ.get(source.passphrase_env, "")
         if not passphrase:
@@ -157,6 +211,50 @@ def load_signer(
     return CryptoSigner(key)
 
 
+def public_test_private_key() -> Ed25519PrivateKey:
+    """The public test key (`channel: test`): derived from `PUBLIC_TEST_SEED`, never a secret."""
+    return Ed25519PrivateKey.from_private_bytes(hashlib.sha256(PUBLIC_TEST_SEED.encode()).digest())
+
+
+def public_test_signer() -> CryptoSigner:
+    return CryptoSigner(public_test_private_key())
+
+
+def public_test_key_id() -> str:
+    return public_test_signer().public_key.keyid
+
+
+def public_test_key_set() -> dict[str, list[Key]]:
+    """A test repository's key set: the public test key in every role (the root's primary and
+    spare are the same key, so the root role lists it once)."""
+    key = public_test_signer().public_key
+    return {role: [key] for role in PUBLIC_KEY_ROLES}
+
+
+def public_test_pem() -> bytes:
+    """The public test key as an unencrypted PKCS#8 PEM, derived on demand; never committed (a
+    private-key block is what secret scanners match), written only where a caller asks."""
+    return public_test_private_key().private_bytes(
+        serialization.Encoding.PEM,
+        serialization.PrivateFormat.PKCS8,
+        serialization.NoEncryption(),
+    )
+
+
+def public_test_key_files() -> dict[str, bytes]:
+    """The committed public half of the public test key (the host's `library/test-keys/`): its
+    public-keys file, byte for byte what the seed derives. The private key is derived from the
+    seed wherever it is needed (`public_test_signer`, `public_test_pem`)."""
+    key = public_test_signer().public_key
+    document = {
+        "schema_version": 1,
+        "channel": "test",
+        "seed": PUBLIC_TEST_SEED,
+        "keys": {role: [public_key_entry("test", key)] for role in PUBLIC_KEY_ROLES},
+    }
+    return {"public-keys.json": (json.dumps(document, indent=2) + "\n").encode()}
+
+
 def public_key_entry(name: str, key: Key) -> dict[str, Any]:
     """One entry of a public-keys file: a name, the key id and the public key only."""
     return {"name": name, "keyid": key.keyid, **key.to_dict()}
@@ -164,8 +262,9 @@ def public_key_entry(name: str, key: Key) -> dict[str, Any]:
 
 def read_public_keys(path: Path) -> tuple[dict[str, list[Key]], str]:
     """The `root`, `targets` and `online` public keys of a key ceremony's public-keys file, and
-    its channel (`dev` or `production`). Each key id is recomputed from its public key, so a file
-    cannot name one key and carry another."""
+    its channel (`dev`, `test` or `production`). Each key id is recomputed from its public key, so
+    a file cannot name one key and carry another. A test key set is the public test key in every
+    role and nothing else."""
     try:
         document = json.loads(path.read_text())
         channel = document["channel"]
@@ -184,8 +283,20 @@ def read_public_keys(path: Path) -> tuple[dict[str, list[Key]], str]:
             result[role] = keys
     except (OSError, ValueError, KeyError, TypeError) as error:
         raise RepositoryError(f"{path} is not a readable public-keys file.") from error
-    if channel not in ("dev", "production"):
-        raise RepositoryError(f"{path.name} must say channel dev or production.")
+    if channel not in CHANNELS:
+        raise RepositoryError(f"{path.name} must say channel dev, test or production.")
+    if channel == "test":
+        test = public_test_signer().public_key.keyid
+        if any([key.keyid for key in keys] != [test] for keys in result.values()):
+            raise RepositoryError(
+                f"{path.name} says channel test, which is the public test key in every role."
+            )
+        return result, channel
+    refuse_public_test_key(
+        (key.keyid for keys in result.values() for key in keys),
+        channel,
+        f"{path.name} (channel {channel})",
+    )
     if len(result["root"]) != 2 or len(result["targets"]) != 1 or len(result["online"]) != 1:
         raise RepositoryError(
             f"{path.name} must list two root keys (primary and spare), one targets key and one "
@@ -197,13 +308,21 @@ def read_public_keys(path: Path) -> tuple[dict[str, list[Key]], str]:
     return result, channel
 
 
-def require_key_channel(path: Path, channel: str, *, development: bool) -> None:
-    """A dev key set only ever starts or rotates a dev repository, and a production one never."""
-    if (channel == "dev") != development:
-        raise RepositoryError(
-            f"{path.name} is a {channel} key set; "
-            + ("--dev refuses it." if development else "only --dev accepts it.")
-        )
+def require_key_channel(
+    path: Path, channel: str, *, development: bool = False, expected: str | None = None
+) -> None:
+    """A key set only ever starts or rotates a repository of its own channel: a dev key set a
+    dev repository, a test key set a test one, a production key set a production one."""
+    wanted = expected_channel(development=development, channel=expected)
+    if channel == wanted:
+        return
+    if wanted == "dev":
+        raise RepositoryError(f"{path.name} is a {channel} key set; --dev refuses it.")
+    if channel == "dev":
+        raise RepositoryError(f"{path.name} is a dev key set; only --dev accepts it.")
+    raise RepositoryError(
+        f"{path.name} is a {channel} key set; a {wanted} repository never takes it."
+    )
 
 
 # ---------------------------------------------------------------------------------------------
@@ -233,8 +352,13 @@ class State:
         return self.directory / "metadata"
 
     @property
+    def channel(self) -> str:
+        """The root's `channel` label: `dev`, `test`, or production (no label)."""
+        return str(self.root.signed.unrecognized_fields.get("channel") or "production")
+
+    @property
     def development(self) -> bool:
-        return self.root.signed.unrecognized_fields.get("channel") == "dev"
+        return self.channel == "dev"
 
 
 def _now(now: datetime | None) -> datetime:
@@ -354,15 +478,23 @@ def _settled(state: State) -> None:
         )
 
 
-def _channel(state: State, *, development: bool) -> None:
-    """A dev repository is only ever touched as dev, and a production one never as dev."""
-    if state.development and not development:
+def _channel(state: State, *, development: bool = False, channel: str | None = None) -> None:
+    """A repository is only ever touched as its own channel: a dev one as dev, a test one as
+    test, a production one as production."""
+    wanted = expected_channel(development=development, channel=channel)
+    if state.channel == wanted:
+        return
+    if state.channel == "dev":
         raise RepositoryError(
             "This repository's root is labelled channel: dev; its throwaway keys never sign "
             "production. Pass --dev for development work."
         )
-    if development and not state.development:
-        raise RepositoryError("This is a production repository; --dev operations are refused.")
+    if state.channel == "test":
+        raise RepositoryError(
+            "This repository's root is labelled channel: test (the public test key); pass "
+            "--test for it."
+        )
+    raise RepositoryError(f"This is a production repository; --{wanted} operations are refused.")
 
 
 def _require(root: Metadata[Root], role: str, signer: CryptoSigner, what: str) -> None:
@@ -565,6 +697,7 @@ def init(
     root_signers: Iterable[CryptoSigner],
     *,
     development: bool = False,
+    channel: str | None = None,
     now: datetime | None = None,
 ) -> Metadata[Root]:
     """Write 1.root.json: two root keys at threshold 1, one targets key, and the online key for
@@ -574,8 +707,9 @@ def init(
         raise RepositoryError(f"{metadata} already holds metadata; init starts a new repository.")
     moment = _now(now)
     root = Metadata(Root(version=1, expires=_expires("root", moment), consistent_snapshot=True))
-    if development:
-        root.signed.unrecognized_fields["channel"] = "dev"
+    label = expected_channel(development=development, channel=channel)
+    if label != "production":
+        root.signed.unrecognized_fields["channel"] = label
     _assign_keys(root.signed, public_keys)
     signers = list(root_signers)
     if not signers:
@@ -608,9 +742,9 @@ def _target_files(source: Path) -> dict[str, bytes]:
     return files
 
 
-def _open(directory: Path, *, development: bool) -> State:
+def _open(directory: Path, *, development: bool = False, channel: str | None = None) -> State:
     state = load(directory)
-    _channel(state, development=development)
+    _channel(state, development=development, channel=channel)
     _settled(state)
     return state
 
@@ -622,10 +756,11 @@ def publish(
     online: CryptoSigner,
     *,
     development: bool = False,
+    channel: str | None = None,
     now: datetime | None = None,
 ) -> State:
     """Add or replace the targets in `source`: blobs first, then targets, snapshot, timestamp."""
-    state = _open(directory, development=development)
+    state = _open(directory, development=development, channel=channel)
     moment = _now(now)
     files = _target_files(source)
     targets = _next_targets(state, moment)
@@ -646,13 +781,14 @@ def revoke(
     online: CryptoSigner,
     *,
     development: bool = False,
+    channel: str | None = None,
     now: datetime | None = None,
     after: int = 0,
 ) -> State:
     """Add `{id, version, reason, date}` to the signed revoked list, then re-sign targets,
     snapshot and timestamp (numbered past `after`, see `_stage_chain`). Entries are never
     removed."""
-    state = _open(directory, development=development)
+    state = _open(directory, development=development, channel=channel)
     if state.targets is None:
         raise RepositoryError("Nothing is published yet; run publish first.")
     moment = _now(now)
@@ -688,11 +824,12 @@ def renew(
     online: CryptoSigner,
     *,
     development: bool = False,
+    channel: str | None = None,
     now: datetime | None = None,
 ) -> State:
     """The daily job: a new snapshot of the unchanged current targets, then a timestamp for that
     exact snapshot. Only the online key is needed."""
-    state = _open(directory, development=development)
+    state = _open(directory, development=development, channel=channel)
     plan = _Plan()
     result = _stage_chain(state, state.root, online, _now(now), plan)
     _commit(state, plan)
@@ -715,6 +852,7 @@ def rotate_root(
     targets_signer: CryptoSigner | None = None,
     online: CryptoSigner | None = None,
     development: bool = False,
+    channel: str | None = None,
     now: datetime | None = None,
 ) -> State:
     """Write N+1.root.json with the key set in `public_keys`, signed by the current root
@@ -724,7 +862,7 @@ def rotate_root(
     timestamp, so a client never meets a root the published files do not satisfy. Everything is
     signed and verified before the first write; re-running an interrupted rotation finishes it."""
     state = load(directory)
-    _channel(state, development=development)
+    _channel(state, development=development, channel=channel)
     moment = _now(now)
     old = state.root
     new = Metadata(
@@ -796,12 +934,16 @@ class RoleStatus:
 
 
 def status(
-    directory: Path, *, development: bool = False, now: datetime | None = None
+    directory: Path,
+    *,
+    development: bool = False,
+    channel: str | None = None,
+    now: datetime | None = None,
 ) -> tuple[list[RoleStatus], list[str]]:
     """Each role's version and time to expiry, and the problems the daily job alerts on: a lapsed
     timestamp or snapshot, or targets or root inside their warning window."""
     state = load(directory)
-    _channel(state, development=development)
+    _channel(state, development=development, channel=channel)
     moment = _now(now)
     problems = []
     if state.pending is not None:
@@ -861,7 +1003,25 @@ def _key(args: argparse.Namespace, role: str) -> KeySource | None:
     return KeySource(path, env, getattr(args, f"{role}_passphrase_env", None))
 
 
+def _mode(args: argparse.Namespace) -> str | None:
+    """The channel `--test` names (dev is `development=args.dev`; production names neither)."""
+    return "test" if args.test else None
+
+
+def _no_keys_with_test(args: argparse.Namespace) -> None:
+    given = [
+        name
+        for name in ("root_key", "targets_key", "targets_key_env", "online_key", "online_key_env")
+        if getattr(args, name, None)
+    ]
+    if given:
+        raise RepositoryError("--test signs with the public test key only; give no key.")
+
+
 def _optional_signer(args: argparse.Namespace, role: str) -> CryptoSigner | None:
+    if args.test:
+        _no_keys_with_test(args)
+        return public_test_signer()
     source = _key(args, role)
     return None if source is None else load_signer(source, allow_unencrypted=args.dev)
 
@@ -874,15 +1034,22 @@ def _signer(args: argparse.Namespace, role: str) -> CryptoSigner:
 
 
 def _public_keys(args: argparse.Namespace) -> dict[str, list[Key]]:
+    if args.public_keys is None:
+        if args.test:
+            return public_test_key_set()
+        raise RepositoryError("Give the key ceremony's public keys (--public-keys).")
     keys, channel = read_public_keys(args.public_keys)
-    require_key_channel(args.public_keys, channel, development=args.dev)
+    require_key_channel(args.public_keys, channel, development=args.dev, expected=_mode(args))
     return keys
 
 
 def _root_signers(args: argparse.Namespace) -> list[CryptoSigner]:
-    return [
-        load_signer(KeySource(path), allow_unencrypted=args.dev) for path in args.root_key or []
-    ]
+    if args.test:
+        _no_keys_with_test(args)
+        return [public_test_signer()]
+    if not args.root_key:
+        raise RepositoryError("Give a root key (--root-key).")
+    return [load_signer(KeySource(path), allow_unencrypted=args.dev) for path in args.root_key]
 
 
 def _add_key(parser: argparse.ArgumentParser, role: str, *, env: bool = False) -> None:
@@ -902,13 +1069,19 @@ def _add_key(parser: argparse.ArgumentParser, role: str, *, env: bool = False) -
 def parser() -> argparse.ArgumentParser:
     result = argparse.ArgumentParser(description=(__doc__ or "").split("\n\n")[0])
     result.add_argument("--repository", type=Path, required=True, help="the repository directory")
-    result.add_argument(
+    mode = result.add_mutually_exclusive_group()
+    mode.add_argument(
         "--dev", action="store_true", help="a development repository with throwaway keys"
+    )
+    mode.add_argument(
+        "--test",
+        action="store_true",
+        help="a test repository, signed by the public test key (no key arguments)",
     )
     commands = result.add_subparsers(dest="command", required=True)
     command = commands.add_parser("init", help="write 1.root.json")
-    command.add_argument("--public-keys", type=Path, required=True)
-    command.add_argument("--root-key", type=Path, action="append", required=True)
+    command.add_argument("--public-keys", type=Path, help="not with --test")
+    command.add_argument("--root-key", type=Path, action="append", help="not with --test")
     command = commands.add_parser("publish", help="add or replace targets from a directory")
     command.add_argument("--source", type=Path, required=True)
     _add_key(command, "targets")
@@ -923,11 +1096,14 @@ def parser() -> argparse.ArgumentParser:
     command = commands.add_parser("renew", help="new snapshot and timestamp (online key only)")
     _add_key(command, "online", env=True)
     command = commands.add_parser("rotate-root", help="write N+1.root.json with a new key set")
-    command.add_argument("--public-keys", type=Path, required=True)
-    command.add_argument("--root-key", type=Path, action="append", required=True)
+    command.add_argument("--public-keys", type=Path, help="not with --test")
+    command.add_argument("--root-key", type=Path, action="append", help="not with --test")
     _add_key(command, "targets")
     _add_key(command, "online", env=True)
     commands.add_parser("status", help="versions and expiry; nonzero on a lapse or warning")
+    commands.add_parser(
+        "channel", help="print the verified repository's channel: dev, test or production"
+    )
     return result
 
 
@@ -936,13 +1112,15 @@ def main(argv: list[str] | None = None) -> int:
     try:
         directory: Path = args.repository
         if args.command == "init":
-            state = init(
+            root = init(
                 directory,
                 _public_keys(args),
                 _root_signers(args),
                 development=args.dev,
+                channel=_mode(args),
             )
-            print(f"Wrote 1.root.json{' (channel: dev)' if args.dev else ''}.")
+            label = root.signed.unrecognized_fields.get("channel")
+            print(f"Wrote 1.root.json{f' (channel: {label})' if label else ''}.")
         elif args.command == "publish":
             state = publish(
                 directory,
@@ -950,6 +1128,7 @@ def main(argv: list[str] | None = None) -> int:
                 _signer(args, "targets"),
                 _signer(args, "online"),
                 development=args.dev,
+                channel=_mode(args),
             )
             print(_summary(state))
         elif args.command == "revoke":
@@ -959,10 +1138,13 @@ def main(argv: list[str] | None = None) -> int:
                 _signer(args, "targets"),
                 _signer(args, "online"),
                 development=args.dev,
+                channel=_mode(args),
             )
             print(_summary(state))
         elif args.command == "renew":
-            state = renew(directory, _signer(args, "online"), development=args.dev)
+            state = renew(
+                directory, _signer(args, "online"), development=args.dev, channel=_mode(args)
+            )
             print(_summary(state))
         elif args.command == "rotate-root":
             state = rotate_root(
@@ -972,11 +1154,15 @@ def main(argv: list[str] | None = None) -> int:
                 targets_signer=_optional_signer(args, "targets"),
                 online=_optional_signer(args, "online"),
                 development=args.dev,
+                channel=_mode(args),
             )
             print(f"Wrote {state.root.signed.version}.root.json. {_summary(state)}")
+        elif args.command == "channel":
+            print(load(directory).channel)
         else:
-            rows, problems = status(directory, development=args.dev)
-            print(f"Mantel Library repository, channel: {'dev' if args.dev else 'production'}")
+            rows, problems = status(directory, development=args.dev, channel=_mode(args))
+            label = "dev" if args.dev else _mode(args) or "production"
+            print(f"Mantel Library repository, channel: {label}")
             for row in rows:
                 print(
                     f"{row.role:<10} v{row.version:<6} expires {row.expires.isoformat()} "

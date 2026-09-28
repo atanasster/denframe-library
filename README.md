@@ -55,9 +55,11 @@ What Mantel includes is what a new household needs on day one without an account
 source (a market watchlist needs the Stocks key). The host build adds the last rule: the
 included previews total at most 3 MB.
 
-Tell the Time is the one approved activity: the owner reviewed its content and Bulgarian, and
-it is included with Mantel. The other activity sources are **preview material**, awaiting human
-content, language and listening review (`reviews.json` says which). A build or a signature is
+Tell the Time is approved and included with Mantel. On 28 September 2026 the owner also
+reviewed and approved the other silent activities (Tiny Puzzles, Moon & Sky, Breathe, Shapes &
+Colours) and every look, block preset and layout in the catalog, the Bulgarian included; they
+stay in the `library` distribution. First Words and Animal Sounds remain **preview material**:
+their recordings await a listening review (`reviews.json` says which). A build or a signature is
 not a content endorsement. The source seed and tool release do not publish a new catalog to
 household hosts.
 

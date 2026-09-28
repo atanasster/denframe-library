@@ -28,7 +28,8 @@
       "items": [
         "circle"
       ],
-      "visual_review": "pending"
+      "visual_review": "pass",
+      "visual_review_note": "Covered by the owner's design pass (atanasster, 28 September 2026) in the approved review of Shapes & Colours 1.0.0 (reviews.json)."
     },
     {
       "picture": "triangle",
@@ -41,7 +42,8 @@
       "items": [
         "triangle"
       ],
-      "visual_review": "pending"
+      "visual_review": "pass",
+      "visual_review_note": "Covered by the owner's design pass (atanasster, 28 September 2026) in the approved review of Shapes & Colours 1.0.0 (reviews.json)."
     },
     {
       "picture": "square",
@@ -54,7 +56,8 @@
       "items": [
         "square"
       ],
-      "visual_review": "pending"
+      "visual_review": "pass",
+      "visual_review_note": "Covered by the owner's design pass (atanasster, 28 September 2026) in the approved review of Shapes & Colours 1.0.0 (reviews.json)."
     },
     {
       "picture": "rectangle",
@@ -67,7 +70,8 @@
       "items": [
         "rectangle"
       ],
-      "visual_review": "pending"
+      "visual_review": "pass",
+      "visual_review_note": "Covered by the owner's design pass (atanasster, 28 September 2026) in the approved review of Shapes & Colours 1.0.0 (reviews.json)."
     },
     {
       "picture": "star",
@@ -80,7 +84,8 @@
       "items": [
         "star"
       ],
-      "visual_review": "pending"
+      "visual_review": "pass",
+      "visual_review_note": "Covered by the owner's design pass (atanasster, 28 September 2026) in the approved review of Shapes & Colours 1.0.0 (reviews.json)."
     },
     {
       "picture": "oval",
@@ -93,7 +98,8 @@
       "items": [
         "oval"
       ],
-      "visual_review": "pending"
+      "visual_review": "pass",
+      "visual_review_note": "Covered by the owner's design pass (atanasster, 28 September 2026) in the approved review of Shapes & Colours 1.0.0 (reviews.json)."
     },
     {
       "picture": "hexagon",
@@ -106,7 +112,8 @@
       "items": [
         "hexagon"
       ],
-      "visual_review": "pending"
+      "visual_review": "pass",
+      "visual_review_note": "Covered by the owner's design pass (atanasster, 28 September 2026) in the approved review of Shapes & Colours 1.0.0 (reviews.json)."
     },
     {
       "picture": "rhombus",
@@ -119,7 +126,8 @@
       "items": [
         "rhombus"
       ],
-      "visual_review": "pending"
+      "visual_review": "pass",
+      "visual_review_note": "Covered by the owner's design pass (atanasster, 28 September 2026) in the approved review of Shapes & Colours 1.0.0 (reviews.json)."
     },
     {
       "picture": "pentagon",
@@ -132,7 +140,8 @@
       "items": [
         "pentagon"
       ],
-      "visual_review": "pending"
+      "visual_review": "pass",
+      "visual_review_note": "Covered by the owner's design pass (atanasster, 28 September 2026) in the approved review of Shapes & Colours 1.0.0 (reviews.json)."
     },
     {
       "picture": "three-corners",
@@ -145,7 +154,8 @@
       "items": [
         "three-corners"
       ],
-      "visual_review": "pending"
+      "visual_review": "pass",
+      "visual_review_note": "Covered by the owner's design pass (atanasster, 28 September 2026) in the approved review of Shapes & Colours 1.0.0 (reviews.json)."
     },
     {
       "picture": "which-purple",
@@ -158,7 +168,8 @@
       "items": [
         "which-purple"
       ],
-      "visual_review": "pending"
+      "visual_review": "pass",
+      "visual_review_note": "Covered by the owner's design pass (atanasster, 28 September 2026) in the approved review of Shapes & Colours 1.0.0 (reviews.json)."
     },
     {
       "picture": "can-roll",
@@ -171,7 +182,8 @@
       "items": [
         "can-roll"
       ],
-      "visual_review": "pending"
+      "visual_review": "pass",
+      "visual_review_note": "Covered by the owner's design pass (atanasster, 28 September 2026) in the approved review of Shapes & Colours 1.0.0 (reviews.json)."
     }
   ]
 }
