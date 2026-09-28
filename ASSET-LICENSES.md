@@ -12,8 +12,9 @@ those references and retain their own licences.
 The three reference activity sources declare CC0-1.0 for their original text and
 resources. Each `resources[].credit` names the creator, licence, source and whether
 it was modified. See [packs/README.md](packs/README.md) for synthesis and recording
-provenance. Preserve those records when copying or rebuilding assets. Human language,
-content and listening reviews remain pending; these are preview material.
+provenance. Preserve those records when copying or rebuilding assets. The owner reviewed
+them on 28 September 2026: Tiny Puzzles is approved; First Words and Animal Sounds still
+await a listening review of their recordings, so they remain preview material.
 
 New submissions must identify a supported licence and every third-party resource,
 retain required attribution, disclose AI-generated content, and attest to the rights

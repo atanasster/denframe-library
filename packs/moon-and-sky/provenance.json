@@ -44,7 +44,8 @@
       "items": [
         "full-moon"
       ],
-      "visual_review": "pending"
+      "visual_review": "pass",
+      "visual_review_note": "Covered by the owner's design pass (atanasster, 28 September 2026) in the approved review of Moon & Sky 1.0.0 (reviews.json)."
     },
     {
       "picture": "first-quarter",
@@ -57,7 +58,8 @@
       "items": [
         "first-quarter"
       ],
-      "visual_review": "pending"
+      "visual_review": "pass",
+      "visual_review_note": "Covered by the owner's design pass (atanasster, 28 September 2026) in the approved review of Moon & Sky 1.0.0 (reviews.json)."
     },
     {
       "picture": "waxing-crescent",
@@ -70,7 +72,8 @@
       "items": [
         "waxing-crescent"
       ],
-      "visual_review": "pending"
+      "visual_review": "pass",
+      "visual_review_note": "Covered by the owner's design pass (atanasster, 28 September 2026) in the approved review of Moon & Sky 1.0.0 (reviews.json)."
     },
     {
       "picture": "waxing-gibbous",
@@ -83,7 +86,8 @@
       "items": [
         "waxing-gibbous"
       ],
-      "visual_review": "pending"
+      "visual_review": "pass",
+      "visual_review_note": "Covered by the owner's design pass (atanasster, 28 September 2026) in the approved review of Moon & Sky 1.0.0 (reviews.json)."
     },
     {
       "picture": "last-quarter",
@@ -96,7 +100,8 @@
       "items": [
         "last-quarter"
       ],
-      "visual_review": "pending"
+      "visual_review": "pass",
+      "visual_review_note": "Covered by the owner's design pass (atanasster, 28 September 2026) in the approved review of Moon & Sky 1.0.0 (reviews.json)."
     },
     {
       "picture": "waning-crescent",
@@ -109,7 +114,8 @@
       "items": [
         "waning-crescent"
       ],
-      "visual_review": "pending"
+      "visual_review": "pass",
+      "visual_review_note": "Covered by the owner's design pass (atanasster, 28 September 2026) in the approved review of Moon & Sky 1.0.0 (reviews.json)."
     },
     {
       "picture": "cycle",
@@ -122,7 +128,8 @@
       "items": [
         "moon-cycle"
       ],
-      "visual_review": "pending"
+      "visual_review": "pass",
+      "visual_review_note": "Covered by the owner's design pass (atanasster, 28 September 2026) in the approved review of Moon & Sky 1.0.0 (reviews.json)."
     },
     {
       "picture": "big-dipper",
@@ -135,7 +142,8 @@
       "items": [
         "big-dipper"
       ],
-      "visual_review": "pending"
+      "visual_review": "pass",
+      "visual_review_note": "Covered by the owner's design pass (atanasster, 28 September 2026) in the approved review of Moon & Sky 1.0.0 (reviews.json)."
     },
     {
       "picture": "polaris",
@@ -148,7 +156,8 @@
       "items": [
         "pole-star"
       ],
-      "visual_review": "pending"
+      "visual_review": "pass",
+      "visual_review_note": "Covered by the owner's design pass (atanasster, 28 September 2026) in the approved review of Moon & Sky 1.0.0 (reviews.json)."
     },
     {
       "picture": "cassiopeia",
@@ -161,7 +170,8 @@
       "items": [
         "cassiopeia"
       ],
-      "visual_review": "pending"
+      "visual_review": "pass",
+      "visual_review_note": "Covered by the owner's design pass (atanasster, 28 September 2026) in the approved review of Moon & Sky 1.0.0 (reviews.json)."
     },
     {
       "picture": "orion",
@@ -174,7 +184,8 @@
       "items": [
         "orion"
       ],
-      "visual_review": "pending"
+      "visual_review": "pass",
+      "visual_review_note": "Covered by the owner's design pass (atanasster, 28 September 2026) in the approved review of Moon & Sky 1.0.0 (reviews.json)."
     },
     {
       "picture": "summer-triangle",
@@ -187,7 +198,8 @@
       "items": [
         "summer-triangle"
       ],
-      "visual_review": "pending"
+      "visual_review": "pass",
+      "visual_review_note": "Covered by the owner's design pass (atanasster, 28 September 2026) in the approved review of Moon & Sky 1.0.0 (reviews.json)."
     }
   ]
 }

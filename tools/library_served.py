@@ -26,6 +26,7 @@ whose timestamp would take the live one backwards, so neither writer undoes the 
     python tools/library_served.py pull --origin https://smart.meggy.com \\
         --root-sha256 HEX --repository served
     python tools/tuf_repository.py --repository served renew --online-key-env NAME ...
+    python tools/tuf_repository.py --repository served --test renew    # channel: test
     python tools/library_served.py publish --origin https://smart.meggy.com \\
         --site smart-home-cec89 --repository served --service-account-env NAME
 
@@ -254,7 +255,7 @@ def consistent_with(repository: Path, served: Served) -> int:
     ours, and any served snapshot we also hold the same bytes. Returns the version the release
     must number past."""
     local = tuf.load(repository)
-    if local.development != served.state.development:
+    if local.channel != served.state.channel:
         raise ServedError("The site serves another channel's repository than this one.")
     metadata = repository / "metadata"
     for name, data in {**served.files, **served.probed}.items():
@@ -493,7 +494,9 @@ def publish(
     the site changed since the pull, when it already serves that snapshot, or when a deploy lands
     while the new version is being made; then checks the site serves the new timestamp."""
     state = tuf.load(repository)
-    if state.development:
+    # The live site takes a production repository, and the public test key's (`channel: test`)
+    # until the real launch; never a dev one (`tuf_repository.LIVE_CHANNELS`).
+    if state.channel not in tuf.LIVE_CHANNELS:
         raise ServedError("Dev-signed metadata never goes to the live site.")
     if state.timestamp is None or state.snapshot is None:
         raise ServedError(f"{repository} has nothing to publish.")
