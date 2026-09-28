@@ -1,12 +1,12 @@
 {
   "id": "mantel/animal-sounds",
-  "version": "0.1.0",
-  "publisher": "Mantel reference drafts",
+  "version": "0.1.1",
+  "publisher": "Mantel",
   "definition": {
     "schema_version": 2,
     "kind": "pack",
     "name": "Animal sounds and names",
-    "description": "Review candidate. Content, pronunciation and listening review pending; not an approved teaching pack.",
+    "description": "Twelve animals by their real recorded sounds: hear one, guess the animal, then see its name in Bulgarian and English. Published without a listening review of its recordings.",
     "locales": [
       "bg",
       "en"

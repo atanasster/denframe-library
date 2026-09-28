@@ -1,12 +1,12 @@
 {
   "id": "mantel/tiny-puzzles",
-  "version": "0.1.0",
-  "publisher": "Mantel reference drafts",
+  "version": "0.1.1",
+  "publisher": "Mantel",
   "definition": {
     "schema_version": 2,
     "kind": "pack",
     "name": "Tiny thinking puzzles",
-    "description": "Review candidate. Content, pronunciation and listening review pending; not an approved teaching pack.",
+    "description": "Twelve short thinking puzzles about shapes, numbers, counting and time, in Bulgarian and English. Text only, no sound.",
     "locales": [
       "bg",
       "en"

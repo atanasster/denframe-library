@@ -462,7 +462,7 @@ def main() -> None:
         HERE,
         header={
             "id": "mantel/moon-and-sky",
-            "version": "1.0.0",
+            "version": "1.0.1",
             "publisher": "Mantel",
             "definition": {
                 "schema_version": 2,
@@ -470,8 +470,7 @@ def main() -> None:
                 "name": "Moon & Sky",
                 "description": (
                     "The Moon's phases and five star patterns to find on a clear night, drawn "
-                    "from catalogue positions. English and Bulgarian, no sound. Review "
-                    "candidate: content and Bulgarian reading pending."
+                    "from catalogue positions. English and Bulgarian, no sound."
                 ),
                 "locales": ["en", "bg"],
             },

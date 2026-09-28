@@ -44,7 +44,9 @@ names their colours.
 
 **Timing.** Prompt 9 s, recall 4 s, reveal 11 s, dwell 2 s: 26 s a card, 5 min 12 s in all.
 
-**Review.** Pending: content (facts above), fluent Bulgarian reading (Bulgarian star and phase
-names: Голямата кола, Полярната звезда, Касиопея, Орион, Летният триъгълник, пълнолуние, първа
-и последна четвърт, растящ/намаляващ сърп, растяща изпъкнала Луна; „при единия крак“ for
-Rigel), visual review.
+**Review.** The owner reviewed it on 28 September 2026 -- content (facts above), licence, design
+(every picture) and a fluent Bulgarian reading passed (the Bulgarian star and phase names:
+Голямата кола, Полярната звезда, Касиопея, Орион, Летният триъгълник, пълнолуние, първа и
+последна четвърт, растящ/намаляващ сърп, растяща изпъкнала Луна; „при единия крак“ for Rigel);
+no listening review is needed (no audio). 1.0.1 changes only the description, which no longer
+calls it a review candidate; the cards and pictures are 1.0.0's.

@@ -401,7 +401,7 @@ def main() -> None:
         HERE,
         header={
             "id": "mantel/shapes-and-colours",
-            "version": "1.0.0",
+            "version": "1.0.1",
             "publisher": "Mantel",
             "definition": {
                 "schema_version": 2,
@@ -410,7 +410,7 @@ def main() -> None:
                 "description": (
                     "Name nine shapes and six colours, then find them in a row. Each colour has "
                     "its own pattern, so no card needs colour alone. English and Bulgarian, no "
-                    "sound. Review candidate: content and Bulgarian reading pending."
+                    "sound."
                 ),
                 "locales": ["en", "bg"],
             },

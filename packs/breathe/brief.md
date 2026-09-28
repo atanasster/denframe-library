@@ -22,5 +22,5 @@ small ring with faint dotted rings to breathe out by, and four decorative dots a
 still pictures: nothing animates, so reduced-motion viewers see exactly what everyone sees; the
 only change is the card turning from prompt to reveal, as every activity does.
 
-**Review.** Pending: content, visual review. No Bulgarian (fluent not applicable), no audio
-(listening not applicable).
+**Review.** The owner reviewed it on 28 September 2026 -- content, licence and design (every
+picture) passed. No Bulgarian (fluent not applicable), no audio (listening not applicable).

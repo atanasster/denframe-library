@@ -60,7 +60,10 @@ reviewed and approved the other silent activities (Tiny Puzzles, Moon & Sky, Bre
 Colours) and every look, block preset and layout in the catalog, the Bulgarian included; they
 stay in the `library` distribution. The owner released First Words and Animal Sounds the same
 day, approved with listening **waived**: nobody has listened to their recordings, which beta
-testing covers (`reviews.json` says so in their records). A build or a signature is
+testing covers (`reviews.json` says so in their records). Five activities were re-released
+the same day as patch versions whose descriptions no longer call them review candidates
+(First Words, Animal Sounds and Tiny Puzzles 0.1.1; Moon & Sky and Shapes & Colours 1.0.1),
+approved on the same terms. A build or a signature is
 not a content endorsement. The source seed and tool release do not publish a new catalog to
 household hosts.
 
