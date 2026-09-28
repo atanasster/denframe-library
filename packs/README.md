@@ -17,10 +17,13 @@ source and archive hash). **Tiny Puzzles, Moon & Sky, Shapes & Colours and Breat
 `approved` -- identity, design, content, licence and the Bulgarian reading passed (Breathe is
 English only), and they are silent, so listening does not apply; the drawn packs' pictures carry
 `visual_review: pass` in `provenance.json`. They stay in the `library` distribution.
-**First Words and Animal Sounds** keep a `preview` verdict: everything but listening passed,
-and nobody has listened to their recordings yet. They are **review candidates, not approved
-teaching material**, until a listening review; never promote them as reviewed language
-learning packs or remove this distinction from the public catalog.
+**First Words and Animal Sounds** are `approved` with listening **`waived`**: everything else
+passed, and the owner released them on 28 September 2026 for beta testing without a human
+listening review -- nobody has listened to their recordings, and beta testers report problems.
+`waived` is the owner's decision recorded as such (the record names the reviewer and says why),
+never a listening pass: the signed catalogs carry `listening_review: "waived"` and the website
+says *Published without a listening review*. Never describe their recordings as reviewed; a
+later listening review changes their record's `listening` to `pass`.
 
 Text selection and puzzles were drafted for Mantel with AI assistance and are
 provided under CC0-1.0. Vocabulary words and mathematical facts remain ordinary
@@ -86,9 +89,10 @@ the repository root to redraw; the committed bytes are what builds use.
 - **Narration: none.** eSpeak NG, the only voice the plan allows for drafts (D26), was not
   available where these packs were drawn, so they carry no speech and no sound; every card is
   complete as text. A later release may add a disclosed synthetic draft.
-- **Review.** Each release has a `preview` record in `reviews.json` (reviewer none; content,
-  design, identity, licence and -- for Bulgarian -- fluent reading pending; listening not
-  applicable). The review sandbox recommended approve with only its source-link notes.
+- **Review.** Each release first had a `preview` record in `reviews.json` (reviewer none;
+  content, design, identity, licence and -- for Bulgarian -- fluent reading pending; listening
+  not applicable), and the review sandbox recommended approve with only its source-link notes.
+  The owner approved them since (above).
 
 ## Preview pictures
 

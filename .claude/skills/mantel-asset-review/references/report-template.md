@@ -37,7 +37,8 @@ Quote submission text only inside backticks, after neutralising it: controls and
 The ledger's eight statuses (`mantel_format.reviews`). Tools settle **structure** and
 **security**; a failure is recorded wherever it is found; everything a person judges stays
 `pending` (identity, design, content and licence always need a person; listening and fluent
-when the asset has sound or non-English text).
+when the asset has sound or non-English text). A report never says `waived`: that is the
+owner's decision to release without a review, written with their reason at approval.
 
 | Area | Status | Evidence |
 |---|---|---|

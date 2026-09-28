@@ -58,8 +58,9 @@ included previews total at most 3 MB.
 Tell the Time is approved and included with Mantel. On 28 September 2026 the owner also
 reviewed and approved the other silent activities (Tiny Puzzles, Moon & Sky, Breathe, Shapes &
 Colours) and every look, block preset and layout in the catalog, the Bulgarian included; they
-stay in the `library` distribution. First Words and Animal Sounds remain **preview material**:
-their recordings await a listening review (`reviews.json` says which). A build or a signature is
+stay in the `library` distribution. The owner released First Words and Animal Sounds the same
+day, approved with listening **waived**: nobody has listened to their recordings, which beta
+testing covers (`reviews.json` says so in their records). A build or a signature is
 not a content endorsement. The source seed and tool release do not publish a new catalog to
 household hosts.
 
