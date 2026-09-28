@@ -19,7 +19,9 @@ first-time handle to `publishers.json`, bound to the numeric GitHub account id t
 intake read from the issue or pull request (GitHub's metadata, never the submission). `approve`
 turns the skill's draft record into a ledger record in `reviews.json` once the owner names
 their verdict and statuses: it never invents a reviewer, and never approves over a pending or
-failed status. Nothing here signs, publishes or talks to the network.
+failed status. A `waived` status is the owner releasing without that review (never a review that
+happened): it needs `--notes` saying what was waived and why. Nothing here signs, publishes or
+talks to the network.
 """
 
 import argparse
@@ -63,7 +65,8 @@ ROOT = Path(__file__).resolve().parents[1]
 AREAS = ("identity", "structure", "security", "design", "content", "licence", "listening", "fluent")
 # Tools settle these two (SKILL.md, Statuses); a person does not overrule them.
 TOOL_AREAS = ("structure", "security")
-STATUSES = ("pass", "fail", "pending", "not-applicable")
+# `waived`: the owner released without that review; the record's notes say what and why.
+STATUSES = ("pass", "fail", "pending", "not-applicable", "waived")
 # Verdicts that go into the ledger with a source in the tree. Changes requested or rejected is
 # said on the issue; a source only enters the catalog with a verdict that admits it.
 LEDGER_VERDICTS = ("approved", "preview")
@@ -406,6 +409,12 @@ def approve(root, draft, evidence, *, reviewer, verdict, statuses=None, notes=No
         raise Refused(f"{', '.join(failed)} failed; a failed review is never {verdict}.")
     if verdict == "approved" and pending:
         raise Refused(f"An approval settles every status; still pending: {', '.join(pending)}.")
+    waived = sorted(area for area, status in settled.items() if status == "waived")
+    if waived and not (notes or "").strip():
+        raise Refused(
+            f"{', '.join(waived)} waived: say in --notes what was released without that review "
+            "and why."
+        )
     registered = publishers_by_handle(registry)
     if draft.get("submitter_handle") != handle_of(package_id) or handle_of(package_id) not in registered:
         raise Refused(

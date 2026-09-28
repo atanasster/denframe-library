@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "host_commit": "7ba595988cbaa87dd9462c39437327f70ed2ae8f",
+  "host_commit": "4f65aa47313120d5a211dd7cc604d92c67f8b3af",
   "files": {
     "contracts/composition/appearance-cases.json": "f785173ef2025f5b6e36a41ed2d932e32640dc021601b3e765f6fb049bd27618",
     "contracts/composition/block-instance.schema.json": "3787b4542a036dd2ecff8faf6d4ba165c01271346490812432ea5a265e545f51",
@@ -198,7 +198,7 @@
     "format/src/mantel_format/palette_contrast.py": "24c6add5417da85a47d69aaad5715bba94bfae934512ffbff49d7591ef2db28f",
     "format/src/mantel_format/provenance.py": "c489bd3191a535c421c13c9e243efd2fd959831bcaf4983bb08aea82af98382e",
     "format/src/mantel_format/py.typed": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-    "format/src/mantel_format/reviews.py": "58d751ef0934422cb54c8d9bc3a708a1641124248e85500738bf10ca34273d51",
+    "format/src/mantel_format/reviews.py": "7cc3a00b5f3ebce67e11cfc2ce4ea3af161d1939d392d2b38a1f79ff79ad6ee9",
     "format/src/mantel_format/themes.py": "a957a2ebb5564642d5b79dddaf14d07500fe41a107d6b8cc7d605eb54566cbbd",
     "format/src/mantel_format/validation.py": "ab49f05c116babf622d8fbed8cd8e66820fc932077e9ff38ba60683389e2ead3",
     "format/src/mantel_format/vocabulary.py": "9017b25dddea0aa38cd834714d0320fd5b6eb9db5a3aea661ad97c671bcff2dd",

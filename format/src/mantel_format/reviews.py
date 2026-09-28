@@ -3,6 +3,11 @@
 A record binds a verdict to the archive and source bytes a person looked at. Automated tools
 may draft records but never fill the human fields; signing requires a record whose verdict
 admits the release's distribution.
+
+A status is `pass`, `fail`, `pending`, `not-applicable` or `waived`. `waived` is the owner's
+decision to release without that review having happened -- never a review that took place -- so
+a record carrying it names its reviewer and says in its notes what was waived and why. Tools
+settle structure and security, which are never waived.
 """
 
 from __future__ import annotations
@@ -18,7 +23,9 @@ from .pack_contracts import Digest, ReleaseVersion
 
 HANDLE = r"^[a-z0-9][a-z0-9.-]{0,38}$"
 Verdict = Literal["approved", "preview", "changes-requested", "rejected"]
-Status = Literal["pass", "fail", "pending", "not-applicable"]
+Status = Literal["pass", "fail", "pending", "not-applicable", "waived"]
+# The areas the automated checks settle: a person cannot waive them.
+TOOL_AREAS = frozenset({"structure", "security"})
 # Which verdicts let a release be signed into each distribution (D24).
 ADMITS: dict[str, frozenset[str]] = {
     "included": frozenset({"approved"}),
@@ -59,11 +66,22 @@ class ReviewRecord(BaseModel):
         # Only a preview may stand on automated checks alone; every other verdict is a person's.
         if self.reviewer is None and self.verdict != "preview":
             raise ValueError(f"{self.verdict} needs a named reviewer")
-        statuses = set(self.statuses.model_dump().values())
+        by_area = self.statuses.model_dump()
+        statuses = set(by_area.values())
         if self.verdict in {"approved", "preview"} and "fail" in statuses:
             raise ValueError(f"A failed review cannot be {self.verdict}")
         if self.verdict == "approved" and "pending" in statuses:
             raise ValueError("An approved release has no pending review")
+        waived = sorted(area for area, status in by_area.items() if status == "waived")
+        if waived:
+            if waived_tools := [area for area in waived if area in TOOL_AREAS]:
+                raise ValueError(f"The checks settle {', '.join(waived_tools)}; it is never waived")
+            if self.reviewer is None:
+                raise ValueError("A waived review needs the named reviewer who waived it")
+            if not self.notes.strip():
+                raise ValueError(
+                    f"A waived review needs a note saying why {', '.join(waived)} was waived"
+                )
         return self
 
 

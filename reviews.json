@@ -369,11 +369,11 @@
         "design": "pass",
         "content": "pass",
         "licence": "pass",
-        "listening": "pending",
+        "listening": "waived",
         "fluent": "pass"
       },
-      "verdict": "preview",
-      "notes": "Owner review (atanasster, 28 September 2026, in chat) of the exact archive: identity, structure, security, design, content, licence and the copy, the Bulgarian included (fluent), pass. Listening is still pending: the owner has not listened to the recordings, so the verdict stays preview (a library item with its Preview badge) until a listening review. Earlier: Automated primary-source license inspection and archive validation; no human listening or fluent review."
+      "verdict": "approved",
+      "notes": "Released by the owner for beta testing without a human listening review; listening waived — beta testers will report problems. Owner review (atanasster, 28 September 2026, in chat) of the exact archive: identity, structure, security, design, content, licence and the copy, the Bulgarian included (fluent), pass; nobody has listened to the recordings."
     },
     {
       "id": "mantel/animal-sounds",
@@ -391,11 +391,11 @@
         "design": "pass",
         "content": "pass",
         "licence": "pass",
-        "listening": "pending",
+        "listening": "waived",
         "fluent": "pass"
       },
-      "verdict": "preview",
-      "notes": "Owner review (atanasster, 28 September 2026, in chat) of the exact archive: identity, structure, security, design, content, licence and the copy, the Bulgarian included (fluent), pass. Listening is still pending: the owner has not listened to the recordings, so the verdict stays preview (a library item with its Preview badge) until a listening review. Earlier: Automated primary-source license inspection and archive validation; no human listening or fluent review."
+      "verdict": "approved",
+      "notes": "Released by the owner for beta testing without a human listening review; listening waived — beta testers will report problems. Owner review (atanasster, 28 September 2026, in chat) of the exact archive: identity, structure, security, design, content, licence and the copy, the Bulgarian included (fluent), pass; nobody has listened to the recordings."
     },
     {
       "id": "mantel/tiny-puzzles",
