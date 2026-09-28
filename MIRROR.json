@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "host_commit": "4f65aa47313120d5a211dd7cc604d92c67f8b3af",
+  "host_commit": "90f5b07f54ae409cebe7b953d85392588855d359",
   "files": {
     "contracts/composition/appearance-cases.json": "f785173ef2025f5b6e36a41ed2d932e32640dc021601b3e765f6fb049bd27618",
     "contracts/composition/block-instance.schema.json": "3787b4542a036dd2ecff8faf6d4ba165c01271346490812432ea5a265e545f51",

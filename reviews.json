@@ -355,10 +355,10 @@
     },
     {
       "id": "mantel/first-words",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "kind": "pack",
-      "archive_sha256": "c7b1ea8e6c20d0cdbe042197c686de13da8bc482fa041e913d27738ad694f5d5",
-      "source_sha256": "e60be416721cbf893819cdfe3168a8aefe179e2bab6c33b16063a7028997961d",
+      "archive_sha256": "458a77bc7b7627e5b3f67d1ae50b7f8ceb78089d9ab08c64811e77487cf31075",
+      "source_sha256": "793c10ae0e343e21d7363c7a1928e54abdb081592a6a55f801666b33d6cd0e64",
       "submitter_handle": "mantel",
       "reviewer": "atanasster",
       "reviewed_at": "2026-09-28",
@@ -373,14 +373,14 @@
         "fluent": "pass"
       },
       "verdict": "approved",
-      "notes": "Released by the owner for beta testing without a human listening review; listening waived — beta testers will report problems. Owner review (atanasster, 28 September 2026, in chat) of the exact archive: identity, structure, security, design, content, licence and the copy, the Bulgarian included (fluent), pass; nobody has listened to the recordings."
+      "notes": "Patch release removing stale review-status wording; content unchanged. 0.1.1 is 0.1.0's cards and recordings with an honest description (no longer \"Review candidate ... not an approved teaching pack\"), the publisher \"Mantel\" (was \"Mantel reference drafts\") and credits that say the recordings were published without a listening review (was \"Listening review pending\"). The owner approved these texts (atanasster, 28 September 2026, in chat) on the terms of 0.1.0's record: released for beta testing without a human listening review; listening waived — beta testers will report problems. Identity, structure, security, design, content, licence and the copy, the Bulgarian included (fluent), pass; nobody has listened to the recordings. the mantel-asset-review sandbox re-ran on the exact 0.1.1 archive from a clean clone (intake-local, review): recommend approve, findings only minor SEC-TEXT-URL (the credits' own source links) and notes. 0.1.0 (archive c7b1ea8e, approved the same day) left the ledger with its source, since the ledger holds one record per catalogued source (tools/rebuild.py), and stays in this file's history."
     },
     {
       "id": "mantel/animal-sounds",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "kind": "pack",
-      "archive_sha256": "62b778f35c4d5ea01ef1a7ae56e4faa465b215e1e624b5dc71788789203b1412",
-      "source_sha256": "c3419166f4911baf3fbb68ca35060ed5fbe6ba0b422fe497bd823375942741a2",
+      "archive_sha256": "116bf657f239ec7c76dc569a6d8d259d0db518d40cd47bf5b29c9b97c7f39e30",
+      "source_sha256": "26717f9310c3810b8eea6df6a40ff6b9993e31fa3022367f941057f048a72dc9",
       "submitter_handle": "mantel",
       "reviewer": "atanasster",
       "reviewed_at": "2026-09-28",
@@ -395,14 +395,14 @@
         "fluent": "pass"
       },
       "verdict": "approved",
-      "notes": "Released by the owner for beta testing without a human listening review; listening waived — beta testers will report problems. Owner review (atanasster, 28 September 2026, in chat) of the exact archive: identity, structure, security, design, content, licence and the copy, the Bulgarian included (fluent), pass; nobody has listened to the recordings."
+      "notes": "Patch release removing stale review-status wording; content unchanged. 0.1.1 is 0.1.0's cards and recordings with an honest description (no longer \"Review candidate ... not an approved teaching pack\") and the publisher \"Mantel\" (was \"Mantel reference drafts\"). The owner approved these texts (atanasster, 28 September 2026, in chat) on the terms of 0.1.0's record: released for beta testing without a human listening review; listening waived — beta testers will report problems. Identity, structure, security, design, content, licence and the copy, the Bulgarian included (fluent), pass; nobody has listened to the recordings. the mantel-asset-review sandbox re-ran on the exact 0.1.1 archive from a clean clone (intake-local, review): recommend approve, findings only minor SEC-TEXT-URL (the credits' own source links) and notes. 0.1.0 (archive 62b778f3, approved the same day) left the ledger with its source, since the ledger holds one record per catalogued source (tools/rebuild.py), and stays in this file's history."
     },
     {
       "id": "mantel/tiny-puzzles",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "kind": "pack",
-      "archive_sha256": "df6138cf0617f9d7ba9c6d96ad87e547fbc549b7ca9dccea197907c4669f3304",
-      "source_sha256": "36c91f993046eb185127651b5539d87bb8355cf7005c8e2590176de8a4df669b",
+      "archive_sha256": "d4693edffd9f564ef35e0e5c66df562eafa75c0882cdde19393970d3691b4b23",
+      "source_sha256": "d54897ce1ad308d6e2f52dd69f57b1b26d43b8c77363a0258873286a8171250e",
       "submitter_handle": "mantel",
       "reviewer": "atanasster",
       "reviewed_at": "2026-09-28",
@@ -417,7 +417,7 @@
         "fluent": "pass"
       },
       "verdict": "approved",
-      "notes": "Owner review (atanasster, 28 September 2026, in chat) of the exact archive: approved. Identity, structure, security, design, content, licence and the copy, the Bulgarian included (fluent), pass; listening is not applicable (silent). Distribution unchanged. Earlier: Automated primary-source license inspection and archive validation; no human listening or fluent review."
+      "notes": "Patch release removing stale review-status wording; content unchanged. 0.1.1 is 0.1.0's puzzles with an honest description (no longer \"Review candidate ... not an approved teaching pack\") and the publisher \"Mantel\" (was \"Mantel reference drafts\"). The owner approved these texts (atanasster, 28 September 2026, in chat) on the terms of 0.1.0's record: identity, structure, security, design, content, licence and the copy, the Bulgarian included (fluent), pass; listening is not applicable (silent). Distribution unchanged. the mantel-asset-review sandbox re-ran on the exact 0.1.1 archive from a clean clone (intake-local, review): recommend approve, findings only minor SEC-TEXT-URL (the credits' own source links) and notes. 0.1.0 (archive df6138cf, approved the same day) left the ledger with its source, since the ledger holds one record per catalogued source (tools/rebuild.py), and stays in this file's history."
     },
     {
       "id": "mantel/theme-nocturne",
@@ -949,10 +949,10 @@
     },
     {
       "id": "mantel/moon-and-sky",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "kind": "pack",
-      "archive_sha256": "22d22fa9fdd133b30b0067cd3b77403427f03f090802eb78afbfb6c119a5b1fb",
-      "source_sha256": "ef96aa8231e336d77439dd6271a3bb7c2ff1364908c0b58f5d343d01328f550b",
+      "archive_sha256": "84d19673a9acbca0f7b3ffa94e66198781be4d2106312b6493d4ce977e797707",
+      "source_sha256": "b0a91e651c45b49f39c4e3996233e39704c8a1a27240206d618e4158927b77e0",
       "submitter_handle": "mantel",
       "reviewer": "atanasster",
       "reviewed_at": "2026-09-28",
@@ -967,7 +967,7 @@
         "fluent": "pass"
       },
       "verdict": "approved",
-      "notes": "Owner review (atanasster, 28 September 2026, in chat) of the exact archive: approved. Identity, structure, security, design, content, licence and the copy, the Bulgarian included (fluent), pass; listening is not applicable (silent). Distribution unchanged. Earlier: Automated review in the mantel-asset-review sandbox (plan step 39, activity; re-run after the content review): recommend approve; findings only minor SEC-TEXT-URL (the credits' own source links) and notes. Identity, design, content (facts against NASA and SIMBAD, brief.md), licence and the fluent (bg) reading await the owner. Drawn in code, no audio; text drafted with AI assistance."
+      "notes": "Patch release removing stale review-status wording; content unchanged. 1.0.1 is 1.0.0's cards and pictures (redrawn byte-identical by draw.py) with a description that no longer says \"Review candidate: content and Bulgarian reading pending.\". The owner approved these texts (atanasster, 28 September 2026, in chat) on the terms of 1.0.0's record: identity, structure, security, design, content, licence and the copy, the Bulgarian included (fluent), pass; listening is not applicable (silent). Distribution unchanged. the mantel-asset-review sandbox re-ran on the exact 1.0.1 archive from a clean clone (intake-local, review): recommend approve, findings only minor SEC-TEXT-URL (the credits' own source links) and notes. 1.0.0 (archive 22d22fa9, approved the same day) left the ledger with its source, since the ledger holds one record per catalogued source (tools/rebuild.py), and stays in this file's history."
     },
     {
       "id": "mantel/breathe",
@@ -993,10 +993,10 @@
     },
     {
       "id": "mantel/shapes-and-colours",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "kind": "pack",
-      "archive_sha256": "2b54c818ba7e95329fad39a760287be4717ea7c30b2a3c9cc00e210bf77f265b",
-      "source_sha256": "82cd85cd4ff24b1dff6781f14bd00f747981c2f3988e6344065a35b3a86b95aa",
+      "archive_sha256": "961732245763fd981a5ae536546d4b3e30ed1b6c9ba743dc5d04f263230757e3",
+      "source_sha256": "6297f0a315bd81391ce0fdf9d0fb8f4dda33f4f30b16cae8caf16d840784f864",
       "submitter_handle": "mantel",
       "reviewer": "atanasster",
       "reviewed_at": "2026-09-28",
@@ -1011,7 +1011,7 @@
         "fluent": "pass"
       },
       "verdict": "approved",
-      "notes": "Owner review (atanasster, 28 September 2026, in chat) of the exact archive: approved. Identity, structure, security, design, content, licence and the copy, the Bulgarian included (fluent), pass; listening is not applicable (silent). Distribution unchanged. Earlier: Automated review in the mantel-asset-review sandbox (plan step 39, activity; re-run after the content review): recommend approve; findings only minor SEC-TEXT-URL (the credits' own source links) and notes. Identity, design (incl. colour-vision), content, licence and the fluent (bg) reading await the owner. Drawn in code, no audio; text drafted with AI assistance."
+      "notes": "Patch release removing stale review-status wording; content unchanged. 1.0.1 is 1.0.0's cards and pictures (redrawn byte-identical by draw.py) with a description that no longer says \"Review candidate: content and Bulgarian reading pending.\". The owner approved these texts (atanasster, 28 September 2026, in chat) on the terms of 1.0.0's record: identity, structure, security, design, content, licence and the copy, the Bulgarian included (fluent), pass; listening is not applicable (silent). Distribution unchanged. the mantel-asset-review sandbox re-ran on the exact 1.0.1 archive from a clean clone (intake-local, review): recommend approve, findings only minor SEC-TEXT-URL (the credits' own source links) and notes. 1.0.0 (archive 2b54c818, approved the same day) left the ledger with its source, since the ledger holds one record per catalogued source (tools/rebuild.py), and stays in this file's history."
     },
     {
       "id": "mantel/tell-the-time",

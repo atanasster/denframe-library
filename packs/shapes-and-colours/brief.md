@@ -23,7 +23,8 @@ three corners (right), purple (middle), which can roll (middle). Answer position
 
 **Timing.** Prompt 7 s, recall 3 s, reveal 8 s, dwell 2 s: 20 s a card, 4 min in all.
 
-**Review.** Pending: content, fluent Bulgarian reading (shape names; the feminine agreement of
-the alternative text with „фигура“; whether „плътно червена“ and „лилава на мрежа“ read
-naturally, or „изцяло червена“ and „с мрежа“ would), visual review including a colour-vision
-simulation.
+**Review.** The owner reviewed it on 28 September 2026 -- content, licence, design (every
+picture, the colour-and-pattern pairing included) and a fluent Bulgarian reading passed (the
+shape names, the feminine agreement of the alternative text with „фигура“, „плътно червена“ and
+„лилава на мрежа“); no listening review is needed (no audio). 1.0.1 changes only the
+description, which no longer calls it a review candidate; the cards and pictures are 1.0.0's.

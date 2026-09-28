@@ -24,6 +24,13 @@ listening review -- nobody has listened to their recordings, and beta testers re
 never a listening pass: the signed catalogs carry `listening_review: "waived"` and the website
 says *Published without a listening review*. Never describe their recordings as reviewed; a
 later listening review changes their record's `listening` to `pass`.
+**Patch releases (28 September 2026):** First Words, Animal Sounds and Tiny Puzzles **0.1.1**
+and Moon & Sky and Shapes & Colours **1.0.1** are the approved releases' cards, pictures and
+recordings with the stale review-status wording removed -- descriptions that no longer call
+them review candidates, the publisher `Mantel` (was "Mantel reference drafts"), and First
+Words' credits saying its recordings were published without a listening review. The owner
+approved the new bytes on the same terms; each record replaced its predecessor's (one record
+per catalogued source), and the drawn packs' pictures are byte-identical.
 
 Text selection and puzzles were drafted for Mantel with AI assistance and are
 provided under CC0-1.0. Vocabulary words and mathematical facts remain ordinary
@@ -83,7 +90,7 @@ the repository root to redraw; the committed bytes are what builds use.
   the player pauses briefly between cards); its first card says to stop and breathe normally if
   dizzy.
 - **AI assistance.** The card text, briefs and drawing code were drafted with AI assistance
-  (Claude) and are review candidates. No image-generation model was used; the pictures are
+  (Claude); the owner reviewed them (above). No image-generation model was used; the pictures are
   geometry. The disclosure travels with each archive: every picture's credit says "made in code
   with AI assistance".
 - **Narration: none.** eSpeak NG, the only voice the plan allows for drafts (D26), was not
