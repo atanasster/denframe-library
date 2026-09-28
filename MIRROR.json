@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "host_commit": "90f5b07f54ae409cebe7b953d85392588855d359",
+  "host_commit": "df8b93b241f608fbfe9fbee97eee20da44817eef",
   "files": {
     "contracts/composition/appearance-cases.json": "f785173ef2025f5b6e36a41ed2d932e32640dc021601b3e765f6fb049bd27618",
     "contracts/composition/block-instance.schema.json": "3787b4542a036dd2ecff8faf6d4ba165c01271346490812432ea5a265e545f51",
@@ -159,7 +159,7 @@
     "contracts/format/validation.json": "8ec8997b8a89dc444ac451c0a74c50e133df292fecf9cf7a69dca2536291d3b8",
     "contracts/format/validators.d.mts": "8069cd7cb354f36fe52ec5ca3a0d984c179af1d1c26f8c9c04c8d0e37bb40faf",
     "contracts/format/validators.mjs": "eb38a352b0eb467e5f789fdcbc2ca17374623a761a17b1d48a2578f6259c37c4",
-    "contracts/packs/README.md": "adccb559cc7333d72ea3a90fdc5a45d1178bfcd4de5282c7be01066d34b01a59",
+    "contracts/packs/README.md": "28a610525d384b6750341bf46cb7f317102d210253e46ab1d1f83e2b016c7c29",
     "contracts/packs/audio-policy.schema.json": "f58b899480c9e7290765f85ea67bdeaef15a427e590555139694a1b8e390e3e5",
     "contracts/packs/capabilities.json": "bbafc23ac2f23c521a9db046c0bc5d4166582691743ddb195a641365522dc4ba",
     "contracts/packs/card-settings.schema.json": "746035bf31b04352fe6f7d9debf5acf5693ac6904cc2f02d0ddf1b90ad2a7964",

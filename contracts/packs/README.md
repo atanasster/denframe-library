@@ -2,8 +2,8 @@
 
 These contracts describe the first data-only multimedia format. They do not enable imports,
 card rendering or advertised receiver capabilities by themselves. Generate schemas with
-`PYTHONPATH=backend .venv/bin/python scripts/export-pack-contracts.py`; use `--check` in CI.
-Python models in `backend/app/pack_contracts.py` are authoritative. Shared fixtures run through
+`PYTHONPATH=backend .venv/bin/python scripts/export-contracts.py`; use `--check` in CI.
+Python models in `backend/app/packs/pack_contracts.py` are authoritative. Shared fixtures run through
 Pydantic and frontend JSON Schema 2020-12 validation. Reference-graph invariants are additional
 host validation, not assertions that JSON Schema can compare arbitrary resource references.
 

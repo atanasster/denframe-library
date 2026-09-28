@@ -18,9 +18,11 @@ pull request can edit or drop them. This command is the control. Run it from a c
    out, never importing, installing or running anything from it -- and runs main's
    `tools/check.py --root` and `tools/rebuild.py --root` over the export in the pinned release
    image (`format/release-environment.json`, main's format installed from main's tree). A
-   maintainer's pull request that changes `tools/` or `format/` itself -- a format release, say,
-   whose new fixtures main's validator cannot know -- is checked with its own toolchain instead:
-   that code is the maintainer's, and main's gate above has already been applied to it;
+   maintainer's pull request that changes `tools/`, `format/`, the review skill (`.claude/`) or
+   its tests (`tests/`) -- a format release, say, whose new fixtures main's validator cannot
+   know -- is checked with its own toolchain instead, and also runs the head's `tests/` in the
+   same image over a copy of the export: that code is the maintainer's, and main's gate above
+   has already been applied to it;
 5. only then runs `gh pr merge <n> --squash --match-head-commit <sha>`, so a push after the
    checks cannot slip in.
 """
@@ -36,7 +38,9 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 REPOSITORY = "atanasster/mantel-library"
 # Refused outright for anyone but a maintainer, whatever the gate says (defence in depth).
-OWNER_ONLY_PREFIXES = (".github/", "tools/", "format/", ".claude/")
+OWNER_ONLY_PREFIXES = (".github/", "tools/", "format/", ".claude/", "tests/")
+# A maintainer's change under these is checked with the head's own toolchain (and tests).
+HEAD_TOOLCHAIN_PREFIXES = ("tools/", "format/", ".claude/", "tests/")
 OWNER_ONLY_FILES = ("reviews.json",)
 
 
@@ -132,8 +136,9 @@ def export(head, destination, repo=ROOT):
 
 def checks_in_image(exported, runner=run, root=ROOT, *, toolchain="/main"):
     """check.py and rebuild.py over the exported head, in the pinned release image. The tools and
-    format come from `toolchain`: main's tree, or `/head` for a maintainer's own toolchain change.
-    The head is mounted read-only as data."""
+    format come from `toolchain`: main's tree, or `/head` for a maintainer's own toolchain change,
+    which also runs the head's skill tests over a writable copy of the export. The head is
+    mounted read-only as data."""
     if toolchain not in ("/main", "/head"):
         raise ValueError("The toolchain is main's or the head's")
     environment = json.loads((root / "format/release-environment.json").read_text())
@@ -144,6 +149,13 @@ def checks_in_image(exported, runner=run, root=ROOT, *, toolchain="/main"):
         f"python -I {toolchain}/tools/check.py --root /head; "
         f"python -I {toolchain}/tools/rebuild.py --root /head"
     )
+    if toolchain == "/head":
+        script += (
+            "; apt-get update -qq && apt-get install -y -qq --no-install-recommends git "
+            ">/dev/null; python -m pip install -q --root-user-action=ignore --require-hashes "
+            "-r /head/tests/requirements.lock; cp -r /head /tmp/tree; cd /tmp/tree; "
+            "python -m pytest -q -p no:cacheprovider tests"
+        )
     return runner(
         ["docker", "run", "--rm", "--platform", environment["platform"],
          "--mount", f"type=bind,source={root},target=/main,readonly",
@@ -164,7 +176,8 @@ def merge(number, *, dry_run=False, root=ROOT, gh=text, git=None, runner=run):
     if author not in maintainers(root) and found:
         raise Refused(f"{login} may not change: " + ", ".join(found[:10]))
     # Only a maintainer reaches here with a toolchain change; theirs checks the head.
-    toolchain = "/head" if any(path.startswith(("tools/", "format/")) for path in found) else "/main"
+    own = any(path.startswith(HEAD_TOOLCHAIN_PREFIXES) for path in found)
+    toolchain = "/head" if own else "/main"
     gate = subprocess.run(
         [sys.executable, "-I", str(root / "tools/pr_gate.py"), "--repo", str(root),
          "--base-sha", base, "--head-sha", head, "--author-id", str(author)],

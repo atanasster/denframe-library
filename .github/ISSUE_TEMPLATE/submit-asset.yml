@@ -3,12 +3,12 @@ description: Propose a portable asset for review.
 body:
   - type: markdown
     attributes:
-      value: "This issue is public. Remove personal data and credentials. Read https://smart.meggy.com/terms and https://smart.meggy.com/privacy."
+      value: "Start at https://smart.meggy.com/library/submit: it checks the file in your browser, makes the `.zip` copy GitHub accepts and fills this form. This issue is public. Remove personal data and credentials. Read https://smart.meggy.com/terms and https://smart.meggy.com/privacy."
   - type: textarea
     id: asset
     attributes:
       label: Asset and source
-      description: Link the source or attach the portable file; include ID and version.
+      description: Attach the `.zip` copy the Submit page makes (GitHub does not accept `.mantelpack`), with its ID and version. Over 20 MB, open a pull request instead.
     validations:
       required: true
   - type: textarea
@@ -29,7 +29,7 @@ body:
     id: evidence
     attributes:
       label: Validation and previews
-      description: Include the format report and landscape, portrait and square previews.
+      description: The Submit page's format report summary, and the landscape, portrait and square previews it drew.
     validations:
       required: true
   - type: checkboxes
