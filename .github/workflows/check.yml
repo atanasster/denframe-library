@@ -50,3 +50,22 @@ jobs:
       - run: python tools/check.py
       - name: Rebuild every reviewed asset byte-for-byte
         run: python tools/rebuild.py
+  # The review skill's own tests (guard, policy, sandbox, pull-request intake, report): what the
+  # host's gate runs over its vendored copy, run here over this tree too.
+  skill-tests:
+    needs: gate
+    if: ${{ always() && (needs.gate.result == 'success' || needs.gate.result == 'skipped') }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    container: python:3.13-slim@sha256:9d2e5553305c7c7b0097999bb17187c69b921ccd6bc9d40e4bb5ebe652c00285
+    steps:
+      # Before checkout, so the tree is a git clone (the tests read `git ls-files`).
+      - run: apt-get update -qq && apt-get install -y -qq --no-install-recommends git
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - run: git config --global --add safe.directory "$GITHUB_WORKSPACE"
+      - run: python -m pip install --root-user-action=ignore --require-hashes -r format/requirements.lock
+      - run: python -m pip install --root-user-action=ignore --no-deps ./format
+      - run: python -m pip install --root-user-action=ignore --require-hashes -r tests/requirements.lock
+      - run: python -m pytest -q -p no:cacheprovider tests

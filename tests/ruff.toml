@@ -1,0 +1,7 @@
+# Ruff for the review skill's tests. Self-contained, so it holds in the public repository and in
+# the host's vendored copy (`library/src`, checked by the host's `make check`).
+line-length = 100
+target-version = "py311"
+
+[lint]
+select = ["E", "F", "I", "UP", "B", "SIM", "RUF"]

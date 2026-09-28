@@ -40,7 +40,7 @@ needs no new review of its bytes, only a verdict that admits the new one. Includ
 `approved`; library items need `approved` or `preview`. `tools/check.py` refuses any
 catalogued release without a record for its exact bytes, and host builds refuse to sign one.
 Only a person approves: a `preview` may rest on automated checks, but never names a reviewer
-who did not review. Reports follow [reviews/report-template.md](reviews/report-template.md).
+who did not review. Reports follow the skill's [report template](.claude/skills/mantel-asset-review/references/report-template.md).
 
 Every submission is reviewed in an isolated container from the pinned release image: no
 network, a read-only filesystem holding only the published toolchain and the submitted file,
@@ -76,7 +76,10 @@ not a list of what it holds. Order matters: the first four are what a household 
 control or bidirectional formatting characters. A collection may name included items as well as
 library ones; hosts mark what a household already has.
 
-Use [Submit an asset](https://github.com/atanasster/mantel-library/issues/new?template=submit-asset.yml).
+Use [Submit an asset](https://smart.meggy.com/library/submit): it checks the file in your
+browser, makes the `.zip` copy GitHub accepts and prefills the
+[issue form](https://github.com/atanasster/mantel-library/issues/new?template=submit-asset.yml).
+An archive over 20 MB comes as a pull request instead.
 Issues and pull requests are public: remove household data, private paths, credentials,
 locations and unlicensed material before submitting. Later source changes use pull
 requests. Handle ownership and all checks are reviewed before acceptance.
@@ -101,6 +104,9 @@ docker run --rm --platform linux/amd64 \
   sh -c 'pip install -q --require-hashes -r format/requirements.lock && cp -r format /tmp/f &&
     pip install -q --no-deps /tmp/f && python tools/check.py && python tools/rebuild.py'
 ```
+
+The review skill's tests are in `tests/`; CI runs them in the same image, after
+`pip install --require-hashes -r tests/requirements.lock`, with `python -m pytest tests`.
 
 The host pins a tagged source subtree at `library/src`; its signed runtime catalogs are
 generated from those sources.
@@ -151,10 +157,11 @@ base commit, fetches the head as git objects, installs nothing and runs the base
 workflow. `tools/merge_pr.py` is the control: it reads the author's numeric id, the head commit
 and the base with fixed read-only `gh` calls; fetches `pull/<n>/head` and requires that exact
 commit; refuses outright, for anyone but a maintainer, changes under `.github/`, `tools/`,
-`format/`, `.claude/`, to `reviews.json` or to a `distribution`; runs *main's* `pr_gate.py` over
+`format/`, `.claude/`, `tests/`, to `reviews.json` or to a `distribution`; runs *main's* `pr_gate.py` over
 the git objects; exports the head with `git archive` (never checked out, imported, installed or
-run) and runs main's `check.py --root` and `rebuild.py --root` over it in the pinned image; and
-only then merges with `gh pr merge <n> --squash --match-head-commit <sha>`.
+run) and runs main's `check.py --root` and `rebuild.py --root` over it in the pinned image (a
+maintainer's own change to `tools/`, `format/`, `.claude/` or `tests/` is checked with the head's
+toolchain, and runs the head's `tests/` too); and only then merges with `gh pr merge <n> --squash --match-head-commit <sha>`.
 
 `tools/pr_gate.py` reads git objects only (the merge base to the head), so build products in a
 working tree are not changes and ignored names hide nothing: from anyone, a `__pycache__` path, a
