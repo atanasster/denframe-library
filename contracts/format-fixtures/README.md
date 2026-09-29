@@ -1,7 +1,7 @@
 # Format conformance corpus
 
 `index.json` describes the exact archive bytes and canonical JSON vectors shared by the host,
-`mantel-author` and browser validator. Run `.venv/bin/python scripts/build-format-fixtures.py --check`
+`denframe-author` and browser validator. Run `.venv/bin/python scripts/build-format-fixtures.py --check`
 to check reproducibility. Omit `--check` to regenerate after an intentional fixture edit.
 The tiny image and tone come from `contracts/packs/fixtures`; they are synthetic CC0 test media.
 No corpus file is signed or ready for publication.
@@ -38,6 +38,6 @@ defaults and pin UTF-8 without Unicode normalization. MP3 duration 30 is encoded
 0.01 as `0.01`; these boundary vectors test serialization, not claimed duration of the test tone.
 
 The Python reference runner is `backend/tests/test_format_conformance.py`; the CLI runner is
-`backend/tests/test_mantel_author.py`. TypeScript runs the same corpus in
+`backend/tests/test_denframe_author.py`. TypeScript runs the same corpus in
 `frontend/src/format/inspect.test.ts` and in a real worker under CSP with `make check-format`. The complete repository gate executes
 the linked host regressions; the coverage test also refuses stale node references.

@@ -19,8 +19,8 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 from library_sources import definition_archive  # noqa: E402
-from mantel_format.authoring import read_source, unpack  # noqa: E402
-from mantel_format.reviews import read_ledger  # noqa: E402
+from denframe_format.authoring import read_source, unpack  # noqa: E402
+from denframe_format.reviews import read_ledger  # noqa: E402
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -40,7 +40,7 @@ def sources():
 
 def rebuilt_from_archive(data, scratch):
     """The archive-only path: unpack to an authorable source, then build it again."""
-    archive = scratch / "submitted.mantelpack"
+    archive = scratch / "submitted.denframepack"
     archive.write_bytes(data)
     _, _, rebuilt = read_source(unpack(archive, scratch / "unpacked"))
     return rebuilt
@@ -59,7 +59,7 @@ def rebuild():
             continue
         if sha256(data) != record.archive_sha256:
             raise ValueError(f"Rebuild of {package_id} {version} differs from its reviewed release")
-        with tempfile.TemporaryDirectory(prefix="mantel-rebuild-") as temporary:
+        with tempfile.TemporaryDirectory(prefix="denframe-rebuild-") as temporary:
             if rebuilt_from_archive(data, Path(temporary)) != data:
                 raise ValueError(f"Unpacking {package_id} {version} does not rebuild its bytes")
         checked += 1

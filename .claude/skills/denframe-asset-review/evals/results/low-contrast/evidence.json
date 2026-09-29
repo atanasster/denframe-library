@@ -1,0 +1,143 @@
+{
+  "submission": {
+    "sha256": "691c5b7728d2a17aa130542f91cf217ed0eced79b4669c376bf6721a3fc283e4",
+    "size": 779,
+    "archive_sha256": "691c5b7728d2a17aa130542f91cf217ed0eced79b4669c376bf6721a3fc283e4",
+    "archive_size": 779,
+    "unwrapped_from_zip": null,
+    "submitter": {
+      "login": "quill-author",
+      "id": 7700002
+    },
+    "source": "local",
+    "number": null,
+    "head_sha": null
+  },
+  "release": {
+    "id": "quill/pale-morning",
+    "version": "1.0.0",
+    "kind": "",
+    "ledger_kind": "definition",
+    "name": "",
+    "license": "MIT",
+    "publisher": "Local author",
+    "attribution": "",
+    "release_sha256": "691c5b7728d2a17aa130542f91cf217ed0eced79b4669c376bf6721a3fc283e4"
+  },
+  "layers": {
+    "archive": "pass",
+    "json": "pass",
+    "schema": "fail",
+    "capabilities": "not checked",
+    "contrast": "not checked",
+    "media": "not checked",
+    "trust": "not checked"
+  },
+  "validator_error": "1 validation error for Definition",
+  "rebuild": {
+    "status": "not run",
+    "error": "the archive does not validate"
+  },
+  "distinctness": {},
+  "content": {},
+  "texts": [
+    {
+      "where": "manifest.attribution",
+      "text": ""
+    },
+    {
+      "where": "manifest.entrypoint",
+      "text": "definition.json"
+    },
+    {
+      "where": "manifest.format",
+      "text": "denframepack"
+    },
+    {
+      "where": "manifest.id",
+      "text": "quill/pale-morning"
+    },
+    {
+      "where": "manifest.license",
+      "text": "MIT"
+    },
+    {
+      "where": "manifest.publisher",
+      "text": "Local author"
+    },
+    {
+      "where": "manifest.required_capabilities[0]",
+      "text": "composition-v2"
+    },
+    {
+      "where": "manifest.version",
+      "text": "1.0.0"
+    }
+  ],
+  "findings": [
+    {
+      "code": "DES-CONTRAST",
+      "area": "design",
+      "severity": "major",
+      "title": "Theme colours fail the contrast gate",
+      "evidence": "schema layer: 1 validation error for Definition"
+    },
+    {
+      "code": "ID-HANDLE-NEW",
+      "area": "identity",
+      "severity": "note",
+      "title": "A new handle: registered to the submitting account if accepted",
+      "evidence": "quill for quill-author (account 7700002); a person checks identity.md's rules on brand and person names"
+    },
+    {
+      "code": "DES-PREVIEWS-PENDING",
+      "area": "design",
+      "severity": "note",
+      "title": "Previews at 1920x1080, 1080x1920 and 1024x768 are rendered by us and looked at by a person",
+      "evidence": "not rendered inside the review sandbox"
+    }
+  ],
+  "automated_findings": [
+    "DES-CONTRAST",
+    "ID-HANDLE-NEW",
+    "DES-PREVIEWS-PENDING"
+  ],
+  "reviewer_findings": [],
+  "statuses": {
+    "identity": "pending",
+    "structure": "fail",
+    "security": "pending",
+    "design": "fail",
+    "content": "pending",
+    "licence": "pending",
+    "listening": "not-applicable",
+    "fluent": "not-applicable"
+  },
+  "recommendation": "changes requested",
+  "draft": {
+    "recommended_verdict": "changes-requested",
+    "submitted_sha256": "691c5b7728d2a17aa130542f91cf217ed0eced79b4669c376bf6721a3fc283e4",
+    "submitted_archive_sha256": "691c5b7728d2a17aa130542f91cf217ed0eced79b4669c376bf6721a3fc283e4",
+    "rebuild": "not run",
+    "unpacked_source_sha256": null,
+    "source_sha256": "pending: A definition's source hash is its catalog entry's (tools/check.py `reviewed_source`: the entry without `distribution`); the entry gains its slug, mood and description when `tools/intake.py unpack` adds it, and `tools/intake.py approve` computes `source_sha256` from the tree when the owner records their decision.",
+    "submitter_account": {
+      "login": "quill-author",
+      "id": 7700002
+    },
+    "findings": [
+      "DES-CONTRAST",
+      "ID-HANDLE-NEW",
+      "DES-PREVIEWS-PENDING"
+    ],
+    "layers": {
+      "archive": "pass",
+      "json": "pass",
+      "schema": "fail",
+      "capabilities": "not checked",
+      "contrast": "not checked",
+      "media": "not checked",
+      "trust": "not checked"
+    }
+  }
+}

@@ -1,0 +1,261 @@
+{
+  "submission": {
+    "sha256": "644b60534989ebe07f402c6a6d0d583fe3b644df578e4003a83373d60545c739",
+    "size": 1004,
+    "archive_sha256": "644b60534989ebe07f402c6a6d0d583fe3b644df578e4003a83373d60545c739",
+    "archive_size": 1004,
+    "unwrapped_from_zip": null,
+    "submitter": {
+      "login": "brook-author",
+      "id": 7700001
+    },
+    "source": "local",
+    "number": null,
+    "head_sha": null
+  },
+  "release": {
+    "id": "brook/lantern",
+    "version": "1.0.0",
+    "kind": "theme",
+    "ledger_kind": "definition",
+    "name": "Lantern",
+    "license": "MIT",
+    "publisher": "Local author",
+    "attribution": "",
+    "release_sha256": "644b60534989ebe07f402c6a6d0d583fe3b644df578e4003a83373d60545c739"
+  },
+  "layers": {
+    "archive": "pass",
+    "json": "pass",
+    "schema": "pass",
+    "capabilities": "pass",
+    "contrast": "pass",
+    "media": "not applicable",
+    "trust": "not checked"
+  },
+  "validator_error": null,
+  "rebuild": {
+    "status": "identical",
+    "rebuilt_sha256": "644b60534989ebe07f402c6a6d0d583fe3b644df578e4003a83373d60545c739",
+    "rebuilt_size": 1004,
+    "source_sha256": "a4187de90a888f35a7c48a6131baa98640b381daa30532f6fec152f62a8027a3"
+  },
+  "distinctness": {
+    "applies": true,
+    "threshold": 2.0,
+    "nearest": [
+      {
+        "look": "denframe/theme-salon",
+        "distance": 2.49,
+        "roles": {
+          "background": 3.36,
+          "surface": 4.29,
+          "text": 0.75,
+          "mutedText": 3.09,
+          "accent": 5.64,
+          "accentText": 0.96
+        }
+      },
+      {
+        "look": "denframe/theme-moss",
+        "distance": 2.63,
+        "roles": {
+          "background": 2.05,
+          "surface": 2.61,
+          "text": 1.09,
+          "mutedText": 3.06,
+          "accent": 13.19,
+          "accentText": 4.37
+        }
+      },
+      {
+        "look": "denframe/theme-botanical",
+        "distance": 3.87,
+        "roles": {
+          "background": 3.66,
+          "surface": 5.06,
+          "text": 1.87,
+          "mutedText": 4.1,
+          "accent": 13.42,
+          "accentText": 4.65
+        }
+      }
+    ],
+    "look": "ink",
+    "background": "dunes",
+    "layout": "flow"
+  },
+  "content": {},
+  "texts": [
+    {
+      "where": "manifest.format",
+      "text": "denframepack"
+    },
+    {
+      "where": "manifest.id",
+      "text": "brook/lantern"
+    },
+    {
+      "where": "manifest.version",
+      "text": "1.0.0"
+    },
+    {
+      "where": "manifest.license",
+      "text": "MIT"
+    },
+    {
+      "where": "manifest.publisher",
+      "text": "Local author"
+    },
+    {
+      "where": "manifest.attribution",
+      "text": ""
+    },
+    {
+      "where": "manifest.entrypoint",
+      "text": "definition.json"
+    },
+    {
+      "where": "manifest.required_capabilities[0]",
+      "text": "composition-v2"
+    },
+    {
+      "where": "manifest.required_capabilities[1]",
+      "text": "background-canvas-v1"
+    },
+    {
+      "where": "definition.kind",
+      "text": "theme"
+    },
+    {
+      "where": "definition.name",
+      "text": "Lantern"
+    },
+    {
+      "where": "definition.look",
+      "text": "ink"
+    },
+    {
+      "where": "definition.appearance.layout",
+      "text": "flow"
+    },
+    {
+      "where": "definition.appearance.background",
+      "text": "dunes"
+    },
+    {
+      "where": "definition.appearance.font",
+      "text": "theme"
+    },
+    {
+      "where": "definition.appearance.spacing",
+      "text": "standard"
+    },
+    {
+      "where": "definition.appearance.tokens.accent",
+      "text": "#f2a65a"
+    },
+    {
+      "where": "definition.appearance.tokens.accentText",
+      "text": "#241404"
+    },
+    {
+      "where": "definition.appearance.tokens.background",
+      "text": "#1f1a12"
+    },
+    {
+      "where": "definition.appearance.tokens.border",
+      "text": "#5a4d3a"
+    },
+    {
+      "where": "definition.appearance.tokens.captionSurface",
+      "text": "#1f1a12"
+    },
+    {
+      "where": "definition.appearance.tokens.mutedText",
+      "text": "#cfc4ad"
+    },
+    {
+      "where": "definition.appearance.tokens.negative",
+      "text": "#ff9f94"
+    },
+    {
+      "where": "definition.appearance.tokens.positive",
+      "text": "#86d69d"
+    },
+    {
+      "where": "definition.appearance.tokens.surface",
+      "text": "#2d261b"
+    },
+    {
+      "where": "definition.appearance.tokens.text",
+      "text": "#f6f0e2"
+    }
+  ],
+  "findings": [
+    {
+      "code": "ID-HANDLE-NEW",
+      "area": "identity",
+      "severity": "note",
+      "title": "A new handle: registered to the submitting account if accepted",
+      "evidence": "brook for brook-author (account 7700001); a person checks identity.md's rules on brand and person names"
+    },
+    {
+      "code": "DES-MOTION-RENDERER",
+      "area": "design",
+      "severity": "note",
+      "title": "Background motion is on: the renderer's pan, which reduced motion stops",
+      "evidence": "appearance.background_motion = true; check the preview with reduced motion on"
+    },
+    {
+      "code": "DES-PREVIEWS-PENDING",
+      "area": "design",
+      "severity": "note",
+      "title": "Previews at 1920x1080, 1080x1920 and 1024x768 are rendered by us and looked at by a person",
+      "evidence": "not rendered inside the review sandbox"
+    }
+  ],
+  "automated_findings": [
+    "ID-HANDLE-NEW",
+    "DES-MOTION-RENDERER",
+    "DES-PREVIEWS-PENDING"
+  ],
+  "reviewer_findings": [],
+  "statuses": {
+    "identity": "pending",
+    "structure": "pass",
+    "security": "pass",
+    "design": "pending",
+    "content": "pending",
+    "licence": "pending",
+    "listening": "not-applicable",
+    "fluent": "not-applicable"
+  },
+  "recommendation": "recommend approve",
+  "draft": {
+    "recommended_verdict": "approved",
+    "submitted_sha256": "644b60534989ebe07f402c6a6d0d583fe3b644df578e4003a83373d60545c739",
+    "submitted_archive_sha256": "644b60534989ebe07f402c6a6d0d583fe3b644df578e4003a83373d60545c739",
+    "rebuild": "identical",
+    "unpacked_source_sha256": "a4187de90a888f35a7c48a6131baa98640b381daa30532f6fec152f62a8027a3",
+    "source_sha256": "pending: A definition's source hash is its catalog entry's (tools/check.py `reviewed_source`: the entry without `distribution`); the entry gains its slug, mood and description when `tools/intake.py unpack` adds it, and `tools/intake.py approve` computes `source_sha256` from the tree when the owner records their decision.",
+    "submitter_account": {
+      "login": "brook-author",
+      "id": 7700001
+    },
+    "findings": [
+      "ID-HANDLE-NEW",
+      "DES-MOTION-RENDERER",
+      "DES-PREVIEWS-PENDING"
+    ],
+    "layers": {
+      "archive": "pass",
+      "json": "pass",
+      "schema": "pass",
+      "capabilities": "pass",
+      "contrast": "pass",
+      "media": "not applicable",
+      "trust": "not checked"
+    }
+  }
+}

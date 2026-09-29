@@ -1,0 +1,21 @@
+{
+  "id": "denframe/theme-glass",
+  "version": "1.0.1",
+  "kind": "definition",
+  "archive_sha256": "f861d1c72552653d49c6e3fff0825993b6e98151b2f7203ad56d376fadea3823",
+  "source_sha256": null,
+  "submitter_handle": "denframe",
+  "reviewer": null,
+  "reviewed_at": null,
+  "statuses": {
+    "identity": "fail",
+    "structure": "pass",
+    "security": "pass",
+    "design": "pending",
+    "content": "pending",
+    "licence": "pending",
+    "listening": "not-applicable",
+    "fluent": "not-applicable"
+  },
+  "verdict": null
+}

@@ -5,7 +5,7 @@
 
 A `pull_request` workflow comes from the pull request itself, so its checks are advisory: a
 pull request can edit or drop them. This command is the control. Run it from a clean, up-to-date
-`main` clone of atanasster/mantel-library; it
+`main` clone of atanasster/denframe-library; it
 
 1. reads the pull request's author, head commit and base with fixed read-only `gh` calls, and the
    author's numeric account id with `gh api users/<login>` (GitHub's metadata, never the pull
@@ -36,7 +36,7 @@ import tempfile
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-REPOSITORY = "atanasster/mantel-library"
+REPOSITORY = "atanasster/denframe-library"
 # Refused outright for anyone but a maintainer, whatever the gate says (defence in depth).
 OWNER_ONLY_PREFIXES = (".github/", "tools/", "format/", ".claude/", "tests/")
 # A maintainer's change under these is checked with the head's own toolchain (and tests).
@@ -89,10 +89,10 @@ def up_to_date_main(git=text):
 
 
 def maintainers(root=ROOT):
-    """main's `mantel` handle accounts: the only authors whose pull requests carry policy."""
+    """main's `denframe` handle accounts: the only authors whose pull requests carry policy."""
     registry = json.loads((root / "publishers.json").read_text(encoding="utf-8"))
     for entry in registry["publishers"]:
-        if entry["handle"] == "mantel":
+        if entry["handle"] == "denframe":
             return set(entry["github_account_ids"])
     return set()
 
@@ -186,7 +186,7 @@ def merge(number, *, dry_run=False, root=ROOT, gh=text, git=None, runner=run):
     if gate.returncode != 0:
         raise Refused(gate.stderr.strip().removeprefix("Refused: "))
     lines = [gate.stdout.strip()]
-    with tempfile.TemporaryDirectory(prefix="mantel-merge-") as temporary:
+    with tempfile.TemporaryDirectory(prefix="denframe-merge-") as temporary:
         exported = export(head, Path(temporary) / "head", repo=root)
         lines.append(runner_output(checks_in_image(exported, runner, root, toolchain=toolchain)))
     if toolchain == "/head":

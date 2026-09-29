@@ -1,0 +1,263 @@
+{
+  "submission": {
+    "sha256": "32d417deec5f5b106dc098661a2373fc53e92695efba183e30b5c3c62d6807c3",
+    "size": 5393,
+    "archive_sha256": "32d417deec5f5b106dc098661a2373fc53e92695efba183e30b5c3c62d6807c3",
+    "archive_size": 5393,
+    "unwrapped_from_zip": null,
+    "submitter": {
+      "login": "quill-author",
+      "id": 7700002
+    },
+    "source": "local",
+    "number": null,
+    "head_sha": null
+  },
+  "release": {
+    "id": "quill/garden-shapes",
+    "version": "1.0.0",
+    "kind": "pack",
+    "ledger_kind": "pack",
+    "name": "Garden shapes",
+    "license": "",
+    "publisher": "Local author",
+    "attribution": "",
+    "release_sha256": "32d417deec5f5b106dc098661a2373fc53e92695efba183e30b5c3c62d6807c3"
+  },
+  "layers": {
+    "archive": "pass",
+    "json": "pass",
+    "schema": "pass",
+    "capabilities": "pass",
+    "contrast": "pass",
+    "media": "fail",
+    "trust": "not checked"
+  },
+  "validator_error": "Image metadata is not allowed",
+  "rebuild": {
+    "status": "not run",
+    "error": "the archive does not validate"
+  },
+  "distinctness": {},
+  "content": {},
+  "texts": [
+    {
+      "where": "manifest.format",
+      "text": "denframepack"
+    },
+    {
+      "where": "manifest.id",
+      "text": "quill/garden-shapes"
+    },
+    {
+      "where": "manifest.version",
+      "text": "1.0.0"
+    },
+    {
+      "where": "manifest.publisher",
+      "text": "Local author"
+    },
+    {
+      "where": "manifest.entrypoint",
+      "text": "definition.json"
+    },
+    {
+      "where": "manifest.required_capabilities[0]",
+      "text": "pack-format-v2"
+    },
+    {
+      "where": "manifest.required_capabilities[1]",
+      "text": "reveal-sequence-v1"
+    },
+    {
+      "where": "definition.kind",
+      "text": "pack"
+    },
+    {
+      "where": "definition.name",
+      "text": "Garden shapes"
+    },
+    {
+      "where": "definition.description",
+      "text": "Synthetic visual and tone; no spoken pronunciation."
+    },
+    {
+      "where": "definition.locales[0]",
+      "text": "en-US"
+    },
+    {
+      "where": "definition.locales[1]",
+      "text": "bg-BG"
+    },
+    {
+      "where": "definition.resources[0].media_type",
+      "text": "image/png"
+    },
+    {
+      "where": "definition.resources[0].credit.creator",
+      "text": "Denframe test fixture"
+    },
+    {
+      "where": "definition.resources[0].credit.license",
+      "text": "CC0-1.0"
+    },
+    {
+      "where": "definition.resources[0].credit.attribution",
+      "text": ""
+    },
+    {
+      "where": "definition.resources[0].credit.source",
+      "text": ""
+    },
+    {
+      "where": "definition.resources[1].media_type",
+      "text": "audio/mpeg"
+    },
+    {
+      "where": "definition.resources[1].credit.creator",
+      "text": "Denframe test fixture"
+    },
+    {
+      "where": "definition.resources[1].credit.license",
+      "text": "CC0-1.0"
+    },
+    {
+      "where": "definition.resources[1].credit.attribution",
+      "text": ""
+    },
+    {
+      "where": "definition.resources[1].credit.source",
+      "text": ""
+    },
+    {
+      "where": "definition.items[0].id",
+      "text": "circle"
+    },
+    {
+      "where": "definition.items[0].translations.bg-BG.prompt.text",
+      "text": "Кръг"
+    },
+    {
+      "where": "definition.items[0].translations.bg-BG.prompt.alt_text",
+      "text": "Зелен кръг"
+    },
+    {
+      "where": "definition.items[0].translations.bg-BG.reveal.text",
+      "text": "Зелен кръг"
+    },
+    {
+      "where": "definition.items[0].translations.en-US.prompt.text",
+      "text": "Circle"
+    },
+    {
+      "where": "definition.items[0].translations.en-US.prompt.alt_text",
+      "text": "Green circle"
+    },
+    {
+      "where": "definition.items[0].translations.en-US.reveal.text",
+      "text": "A green circle"
+    },
+    {
+      "where": "definition.items[0].audio_cues[0].locale",
+      "text": "en-US"
+    },
+    {
+      "where": "definition.items[0].audio_cues[0].phase",
+      "text": "reveal"
+    },
+    {
+      "where": "definition.items[0].audio_cues[0].role",
+      "text": "effect"
+    },
+    {
+      "where": "definition.items[0].audio_cues[0].transcript",
+      "text": "Short test tone"
+    },
+    {
+      "where": "definition.activities[0].id",
+      "text": "shapes"
+    },
+    {
+      "where": "definition.activities[0].name",
+      "text": "Shapes"
+    },
+    {
+      "where": "definition.activities[0].kind",
+      "text": "reveal-sequence-v1"
+    },
+    {
+      "where": "definition.activities[0].item_ids[0]",
+      "text": "circle"
+    },
+    {
+      "where": "definition.activities[0].locale",
+      "text": "en-US"
+    }
+  ],
+  "findings": [
+    {
+      "code": "SEC-MEDIA-METADATA",
+      "area": "security",
+      "severity": "major",
+      "title": "Media carries metadata",
+      "evidence": "media layer: Image metadata is not allowed"
+    },
+    {
+      "code": "ID-HANDLE-NEW",
+      "area": "identity",
+      "severity": "note",
+      "title": "A new handle: registered to the submitting account if accepted",
+      "evidence": "quill for quill-author (account 7700002); a person checks identity.md's rules on brand and person names"
+    },
+    {
+      "code": "DES-PREVIEWS-PENDING",
+      "area": "design",
+      "severity": "note",
+      "title": "Previews at 1920x1080, 1080x1920 and 1024x768 are rendered by us and looked at by a person",
+      "evidence": "not rendered inside the review sandbox"
+    }
+  ],
+  "automated_findings": [
+    "SEC-MEDIA-METADATA",
+    "ID-HANDLE-NEW",
+    "DES-PREVIEWS-PENDING"
+  ],
+  "reviewer_findings": [],
+  "statuses": {
+    "identity": "pending",
+    "structure": "fail",
+    "security": "fail",
+    "design": "pending",
+    "content": "pending",
+    "licence": "pending",
+    "listening": "not-applicable",
+    "fluent": "not-applicable"
+  },
+  "recommendation": "changes requested",
+  "draft": {
+    "recommended_verdict": "changes-requested",
+    "submitted_sha256": "32d417deec5f5b106dc098661a2373fc53e92695efba183e30b5c3c62d6807c3",
+    "submitted_archive_sha256": "32d417deec5f5b106dc098661a2373fc53e92695efba183e30b5c3c62d6807c3",
+    "rebuild": "not run",
+    "unpacked_source_sha256": null,
+    "source_sha256": "the unpacked source.json, committed as packs/<slug>/source.json",
+    "submitter_account": {
+      "login": "quill-author",
+      "id": 7700002
+    },
+    "findings": [
+      "SEC-MEDIA-METADATA",
+      "ID-HANDLE-NEW",
+      "DES-PREVIEWS-PENDING"
+    ],
+    "layers": {
+      "archive": "pass",
+      "json": "pass",
+      "schema": "pass",
+      "capabilities": "pass",
+      "contrast": "pass",
+      "media": "fail",
+      "trust": "not checked"
+    }
+  }
+}

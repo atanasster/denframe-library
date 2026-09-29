@@ -2,12 +2,12 @@
   "schema_version": 2,
   "records": [
     {
-      "id": "mantel/theme-painting",
+      "id": "denframe/theme-painting",
       "version": "1.0.0",
       "kind": "definition",
-      "archive_sha256": "6e95dd2976351c107c6bc47abe6f1650a3e190d869e156cdd4c455d49e10248f",
-      "source_sha256": "719b054882969740cd400b2f963b8682b0096c921df8f5d1cf6a312ffb8a34b3",
-      "submitter_handle": "mantel",
+      "archive_sha256": "8b3491e3b4eba0281d5194304a6ccccef2a727c2712132904f3f944cfbafe7cc",
+      "source_sha256": "313e2dddbc775850049e9c3494f70464b13a3b4efc7d8b64330ce7407f18eaf5",
+      "submitter_handle": "denframe",
       "reviewer": "atanasster",
       "reviewed_at": "2026-09-26",
       "statuses": {
@@ -21,15 +21,15 @@
         "fluent": "not-applicable"
       },
       "verdict": "approved",
-      "notes": "Owner review of the exact shipped release from the generated report (plan step 19)."
+      "notes": "Owner review of the exact shipped release from the generated report (plan step 19). Re-pointed 2026-09-29 at the bytes of the mechanical Mantel -> Denframe rename, on the owner's instruction; content otherwise unchanged."
     },
     {
-      "id": "mantel/theme-modern",
+      "id": "denframe/theme-modern",
       "version": "1.0.0",
       "kind": "definition",
-      "archive_sha256": "503228032e2d9ac7e150b8f1615d569f98d1469109491e43a2c22cefae2ae5a8",
-      "source_sha256": "f849c954ac14faf840d453eb29c6b10cd47ed298ed22244e07b0e295ea16d7fe",
-      "submitter_handle": "mantel",
+      "archive_sha256": "1bcc62a526c23f8843657d09669d3e9ec52d4ae853973e8d96c0e57800324520",
+      "source_sha256": "068c6bfad2644cc1e3d3a957628994c3208fa823d92332121f7ad566d82cfa0f",
+      "submitter_handle": "denframe",
       "reviewer": "atanasster",
       "reviewed_at": "2026-09-26",
       "statuses": {
@@ -43,15 +43,15 @@
         "fluent": "not-applicable"
       },
       "verdict": "approved",
-      "notes": "Owner review of the exact shipped release from the generated report (plan step 19)."
+      "notes": "Owner review of the exact shipped release from the generated report (plan step 19). Re-pointed 2026-09-29 at the bytes of the mechanical Mantel -> Denframe rename, on the owner's instruction; content otherwise unchanged."
     },
     {
-      "id": "mantel/theme-glass",
+      "id": "denframe/theme-glass",
       "version": "1.0.0",
       "kind": "definition",
-      "archive_sha256": "178f951eabe17529505bed6b2ce5e9dd9e66a29a5d12cd9f9aa59534ecffa975",
-      "source_sha256": "aef6a91b46f59cb5cfc7b338b158de2c081242f423ca86346d85c046497665aa",
-      "submitter_handle": "mantel",
+      "archive_sha256": "4ab77233386b63a3fdffd18bc2dfc322f8bad78beb99bee0c6488cd29430062e",
+      "source_sha256": "090fa3b52d8d9196d237b8d952b18f76a253a91aaa240724a954b2637f93baf2",
+      "submitter_handle": "denframe",
       "reviewer": "atanasster",
       "reviewed_at": "2026-09-26",
       "statuses": {
@@ -65,15 +65,15 @@
         "fluent": "not-applicable"
       },
       "verdict": "approved",
-      "notes": "Owner review of the exact shipped release from the generated report (plan step 19)."
+      "notes": "Owner review of the exact shipped release from the generated report (plan step 19). Re-pointed 2026-09-29 at the bytes of the mechanical Mantel -> Denframe rename, on the owner's instruction; content otherwise unchanged."
     },
     {
-      "id": "mantel/theme-ink",
+      "id": "denframe/theme-ink",
       "version": "1.0.0",
       "kind": "definition",
-      "archive_sha256": "88b8df937e1efb306ef5e8613062cd96558490824f458a84ef5c6ff0f7f09e4a",
-      "source_sha256": "9778e21b365113e4af77f3682afea6702e7d704ed7a4b04c1f81f779423e31d6",
-      "submitter_handle": "mantel",
+      "archive_sha256": "ff817cd387e0c87c1663c6893f7dba9620e3482d203f730fc99941acccc9dd2f",
+      "source_sha256": "3c238c0837d3b0f358a9811eb3005225442c586da676677628494447c98252c0",
+      "submitter_handle": "denframe",
       "reviewer": "atanasster",
       "reviewed_at": "2026-09-26",
       "statuses": {
@@ -87,15 +87,15 @@
         "fluent": "not-applicable"
       },
       "verdict": "approved",
-      "notes": "Owner review of the exact shipped release from the generated report (plan step 19)."
+      "notes": "Owner review of the exact shipped release from the generated report (plan step 19). Re-pointed 2026-09-29 at the bytes of the mechanical Mantel -> Denframe rename, on the owner's instruction; content otherwise unchanged."
     },
     {
-      "id": "mantel/theme-linen",
+      "id": "denframe/theme-linen",
       "version": "1.0.0",
       "kind": "definition",
-      "archive_sha256": "d5f0590fd1adb24ac489c7947a44246d21122342779723d89fb995a4062d14e8",
-      "source_sha256": "b7ef24adefa33300d44c11cd2308547fb29ba3f4ae096be6c42741455d8f8d8f",
-      "submitter_handle": "mantel",
+      "archive_sha256": "127c61b8ea126843e309bd34e4d573b805a018d2480d5cefa92a2bb6bcc8e53f",
+      "source_sha256": "2f4744cf9b593ba8825712a36db02370c6f6175c0f24f6379ca028d6dce1b34f",
+      "submitter_handle": "denframe",
       "reviewer": "atanasster",
       "reviewed_at": "2026-09-26",
       "statuses": {
@@ -109,15 +109,15 @@
         "fluent": "not-applicable"
       },
       "verdict": "approved",
-      "notes": "Owner review of the exact shipped release from the generated report (plan step 19)."
+      "notes": "Owner review of the exact shipped release from the generated report (plan step 19). Re-pointed 2026-09-29 at the bytes of the mechanical Mantel -> Denframe rename, on the owner's instruction; content otherwise unchanged."
     },
     {
-      "id": "mantel/theme-botanical",
+      "id": "denframe/theme-botanical",
       "version": "1.0.0",
       "kind": "definition",
-      "archive_sha256": "b80d56d8dcfced80d9dc7eeef9594ee973af17d092b327eadb28706c7e94d6ce",
-      "source_sha256": "eeaee8ab100dbd7307ca8925b3933e396f073c9899ed0b53c29fd8ab6e91f3d3",
-      "submitter_handle": "mantel",
+      "archive_sha256": "d1448fd08ef9c50df9e69d09aff29aaf791ce15a715394609b9eaab716f693f4",
+      "source_sha256": "4f9f5b9b3e83b6ccdb1962536961369b98c6baeaa85fa7ea6991900f46fcea59",
+      "submitter_handle": "denframe",
       "reviewer": "atanasster",
       "reviewed_at": "2026-09-26",
       "statuses": {
@@ -131,15 +131,15 @@
         "fluent": "not-applicable"
       },
       "verdict": "approved",
-      "notes": "Owner review of the exact shipped release from the generated report (plan step 19)."
+      "notes": "Owner review of the exact shipped release from the generated report (plan step 19). Re-pointed 2026-09-29 at the bytes of the mechanical Mantel -> Denframe rename, on the owner's instruction; content otherwise unchanged."
     },
     {
-      "id": "mantel/market-watch",
+      "id": "denframe/market-watch",
       "version": "1.0.0",
       "kind": "definition",
-      "archive_sha256": "1c74c24fbfc79ae55ecbd8043d021ad8efc7974d0b0f0ed05a05771ac5f2ae1d",
-      "source_sha256": "14558abac72e526de327c4f54df93c1616af91c93836fd465c879cbb805c5a6a",
-      "submitter_handle": "mantel",
+      "archive_sha256": "7ed398a85619a3af6dd6305a0921e4ffb70897f96cef5d26b4802f9ebf987fe2",
+      "source_sha256": "b72d8a9af94236ddb4c4f2494d5f92a93c6ed9198d676c043225ec4cca5e2abe",
+      "submitter_handle": "denframe",
       "reviewer": "atanasster",
       "reviewed_at": "2026-09-26",
       "statuses": {
@@ -153,15 +153,15 @@
         "fluent": "not-applicable"
       },
       "verdict": "approved",
-      "notes": "Owner review of the exact shipped release from the generated report (plan step 19)."
+      "notes": "Owner review of the exact shipped release from the generated report (plan step 19). Re-pointed 2026-09-29 at the bytes of the mechanical Mantel -> Denframe rename, on the owner's instruction; content otherwise unchanged."
     },
     {
-      "id": "mantel/weather-window",
+      "id": "denframe/weather-window",
       "version": "1.0.0",
       "kind": "definition",
-      "archive_sha256": "e4e1752fece8332d2b45a00588a6728266e9903d7912a76d8d16888cf31c0d48",
-      "source_sha256": "82fa9645f5b0e48ebdd660f1379ae285ba79fd5cfbc577752331df28dd7a2ad0",
-      "submitter_handle": "mantel",
+      "archive_sha256": "8ce94b7194cb2bef7cc4f23a2f24e26c08e19a616c8bed882de51b2e3ccd259f",
+      "source_sha256": "60012f7c9daf099becfd23435613abcba942b372f682ee7ba8f26e32234ad807",
+      "submitter_handle": "denframe",
       "reviewer": "atanasster",
       "reviewed_at": "2026-09-26",
       "statuses": {
@@ -175,15 +175,15 @@
         "fluent": "not-applicable"
       },
       "verdict": "approved",
-      "notes": "Owner review of the exact shipped release from the generated report (plan step 19)."
+      "notes": "Owner review of the exact shipped release from the generated report (plan step 19). Re-pointed 2026-09-29 at the bytes of the mechanical Mantel -> Denframe rename, on the owner's instruction; content otherwise unchanged."
     },
     {
-      "id": "mantel/day-ahead",
+      "id": "denframe/day-ahead",
       "version": "1.0.0",
       "kind": "definition",
-      "archive_sha256": "a56b165287c33d72b24a1967938388c9e58970c15ed50ee4737c1d5969a415b4",
-      "source_sha256": "02e9ff43482b43b8bd6a31d15891ea83f76265517577270e2bbcd3b87cdd70c5",
-      "submitter_handle": "mantel",
+      "archive_sha256": "c9ac06bcf003eb4d61bfbd0cfc478b30c47f427160ee9af1604834d25627c44d",
+      "source_sha256": "4f2810bcd90e329611aeea885140909251a9ff9a638c2c4db2d31042ef01e396",
+      "submitter_handle": "denframe",
       "reviewer": "atanasster",
       "reviewed_at": "2026-09-26",
       "statuses": {
@@ -197,15 +197,15 @@
         "fluent": "not-applicable"
       },
       "verdict": "approved",
-      "notes": "Owner review of the exact shipped release from the generated report (plan step 19)."
+      "notes": "Owner review of the exact shipped release from the generated report (plan step 19). Re-pointed 2026-09-29 at the bytes of the mechanical Mantel -> Denframe rename, on the owner's instruction; content otherwise unchanged."
     },
     {
-      "id": "mantel/small-victories",
+      "id": "denframe/small-victories",
       "version": "1.0.0",
       "kind": "definition",
-      "archive_sha256": "23da9ee80a0bae7a6b41a47613360f1f591371116c5372cc28f2fccdec6efb70",
-      "source_sha256": "aa3a8d4b390fbfc3d7b202bbe0858a469464a713da63caf9eb3959e2a3837863",
-      "submitter_handle": "mantel",
+      "archive_sha256": "122e5bdeb36e9b01c2a2b6329987df202cdef44b093ffd84e151741938a3706d",
+      "source_sha256": "9565978adacc95d5c372ac3e47f635754cddcd6a8f4147fe3526631c8ac3f69f",
+      "submitter_handle": "denframe",
       "reviewer": "atanasster",
       "reviewed_at": "2026-09-26",
       "statuses": {
@@ -219,15 +219,15 @@
         "fluent": "not-applicable"
       },
       "verdict": "approved",
-      "notes": "Owner review of the exact shipped release from the generated report (plan step 19)."
+      "notes": "Owner review of the exact shipped release from the generated report (plan step 19). Re-pointed 2026-09-29 at the bytes of the mechanical Mantel -> Denframe rename, on the owner's instruction; content otherwise unchanged."
     },
     {
-      "id": "mantel/quiet-clock",
+      "id": "denframe/quiet-clock",
       "version": "1.0.0",
       "kind": "definition",
-      "archive_sha256": "52ca260a827730a64291d21349ad35b3a6b762300624d262363cfe5fd8f3ae95",
-      "source_sha256": "89b68b70d972d04cf19f690a4c705fa348056fb284a3a7a5c1fcc9f8379fd648",
-      "submitter_handle": "mantel",
+      "archive_sha256": "5ded31196f7bccd88daca9ac2d8a212b82b4753daed191e788a2af9a8e2434e4",
+      "source_sha256": "42f9521ac0fee0ff5e74229208558c6ad2249194fcb867807b708cda7415a7f4",
+      "submitter_handle": "denframe",
       "reviewer": "atanasster",
       "reviewed_at": "2026-09-26",
       "statuses": {
@@ -241,15 +241,15 @@
         "fluent": "not-applicable"
       },
       "verdict": "approved",
-      "notes": "Owner review of the exact shipped release from the generated report (plan step 19)."
+      "notes": "Owner review of the exact shipped release from the generated report (plan step 19). Re-pointed 2026-09-29 at the bytes of the mechanical Mantel -> Denframe rename, on the owner's instruction; content otherwise unchanged."
     },
     {
-      "id": "mantel/gallery-piece",
+      "id": "denframe/gallery-piece",
       "version": "1.0.0",
       "kind": "definition",
-      "archive_sha256": "b22e812774689263556498e9e1810f48fedc6aab2ebef8f122dd066db741875e",
-      "source_sha256": "59e9537ce00d8cb8462012f080f2e1ceffe9f62ad47d782b15cf1314ec156439",
-      "submitter_handle": "mantel",
+      "archive_sha256": "0c74efc140aa92811947966b513449c5e54a2532d22742bd39391f44ea45cb54",
+      "source_sha256": "99bd6a4a601eee4e76b91e8483b316dab2470c754a396f168be8ef20f55d25e0",
+      "submitter_handle": "denframe",
       "reviewer": "atanasster",
       "reviewed_at": "2026-09-26",
       "statuses": {
@@ -263,15 +263,15 @@
         "fluent": "not-applicable"
       },
       "verdict": "approved",
-      "notes": "Owner review of the exact shipped release from the generated report (plan step 19)."
+      "notes": "Owner review of the exact shipped release from the generated report (plan step 19). Re-pointed 2026-09-29 at the bytes of the mechanical Mantel -> Denframe rename, on the owner's instruction; content otherwise unchanged."
     },
     {
-      "id": "mantel/morning-edition",
+      "id": "denframe/morning-edition",
       "version": "1.1.0",
       "kind": "definition",
-      "archive_sha256": "17827d2bb97940c4312b80b00be739dbc0f7c9e33a8e7ef7ffd26f56216aa43d",
-      "source_sha256": "ce8d7fe1d8efbbae90c079f3885dcfbf214800b7b9f6650911d72b4594b21eda",
-      "submitter_handle": "mantel",
+      "archive_sha256": "a91b547467d9fe1e23d74964911f7b60b077d1be5425bc2dbdb26143258aaab8",
+      "source_sha256": "00be51841dcac65d7164c153f60c464402596445fd6ce7125e30650ecb573d74",
+      "submitter_handle": "denframe",
       "reviewer": "atanasster",
       "reviewed_at": "2026-09-26",
       "statuses": {
@@ -285,15 +285,15 @@
         "fluent": "not-applicable"
       },
       "verdict": "approved",
-      "notes": "Owner review of the exact shipped release from the generated report (plan step 19)."
+      "notes": "Owner review of the exact shipped release from the generated report (plan step 19). Re-pointed 2026-09-29 at the bytes of the mechanical Mantel -> Denframe rename, on the owner's instruction; content otherwise unchanged."
     },
     {
-      "id": "mantel/kitchen-table",
+      "id": "denframe/kitchen-table",
       "version": "1.1.0",
       "kind": "definition",
-      "archive_sha256": "14a5720f51a322e93d5df38f889f3136a50dabe59a125bd259f8b688cbae46e4",
-      "source_sha256": "1757fc51a668c3a9f6bd6fdae996797f18584a09b9e6c64981af4e314f78a18b",
-      "submitter_handle": "mantel",
+      "archive_sha256": "217695078244250541ab24c1ead8868b74d8a8cc2064eaff924627ee3f9d83a3",
+      "source_sha256": "bf40201f695131091fe0eae090d951d19236d4aaa35f7ce3edf4078d8222d73c",
+      "submitter_handle": "denframe",
       "reviewer": "atanasster",
       "reviewed_at": "2026-09-26",
       "statuses": {
@@ -307,15 +307,15 @@
         "fluent": "not-applicable"
       },
       "verdict": "approved",
-      "notes": "Owner review of the exact shipped release from the generated report (plan step 19)."
+      "notes": "Owner review of the exact shipped release from the generated report (plan step 19). Re-pointed 2026-09-29 at the bytes of the mechanical Mantel -> Denframe rename, on the owner's instruction; content otherwise unchanged."
     },
     {
-      "id": "mantel/after-hours",
+      "id": "denframe/after-hours",
       "version": "1.0.0",
       "kind": "definition",
-      "archive_sha256": "405947ef23dedc3382c5cd549ca63db6ff276587b21b1e373e79b4358bbfc67d",
-      "source_sha256": "9e9763e1c94b45c5cbea6b381e5ba83b8b549b69431d711eadf1b9426b59f142",
-      "submitter_handle": "mantel",
+      "archive_sha256": "830eb5e616fee456a9c682b0d095eb5976d5cf2daac44bfbaf1e602cecff9990",
+      "source_sha256": "2585e8002747056b8189acba8dd43385ca08e36d529db249d446e1a15a3674b5",
+      "submitter_handle": "denframe",
       "reviewer": "atanasster",
       "reviewed_at": "2026-09-26",
       "statuses": {
@@ -329,15 +329,15 @@
         "fluent": "not-applicable"
       },
       "verdict": "approved",
-      "notes": "Owner review of the exact shipped release from the generated report (plan step 19)."
+      "notes": "Owner review of the exact shipped release from the generated report (plan step 19). Re-pointed 2026-09-29 at the bytes of the mechanical Mantel -> Denframe rename, on the owner's instruction; content otherwise unchanged."
     },
     {
-      "id": "mantel/market-desk",
+      "id": "denframe/market-desk",
       "version": "1.1.0",
       "kind": "definition",
-      "archive_sha256": "5187f308d9634ba957ed1aa8ab2bf0fd93df90fab6b4a1753e7e2de9b36eaddf",
-      "source_sha256": "42e4c0c7c21e8622177cfaaf1d25a41361c9c47584fdbffddfb6a072cff97c6b",
-      "submitter_handle": "mantel",
+      "archive_sha256": "6318c56991f42ebd85c5fa5ecdf0469b8324af6493b9e39846eb033c341395d8",
+      "source_sha256": "5741722c4e706378b2ba9e5c2bd506f31df0c496025e5b608003731f5ee4c293",
+      "submitter_handle": "denframe",
       "reviewer": "atanasster",
       "reviewed_at": "2026-09-26",
       "statuses": {
@@ -351,15 +351,15 @@
         "fluent": "not-applicable"
       },
       "verdict": "approved",
-      "notes": "Owner review of the exact shipped release from the generated report (plan step 19)."
+      "notes": "Owner review of the exact shipped release from the generated report (plan step 19). Re-pointed 2026-09-29 at the bytes of the mechanical Mantel -> Denframe rename, on the owner's instruction; content otherwise unchanged."
     },
     {
-      "id": "mantel/first-words",
+      "id": "denframe/first-words",
       "version": "0.1.1",
       "kind": "pack",
-      "archive_sha256": "458a77bc7b7627e5b3f67d1ae50b7f8ceb78089d9ab08c64811e77487cf31075",
-      "source_sha256": "793c10ae0e343e21d7363c7a1928e54abdb081592a6a55f801666b33d6cd0e64",
-      "submitter_handle": "mantel",
+      "archive_sha256": "9d0eaf9b90bb3fdb8a0c5cab5996bcdb835a92030deb46367f8a539a8b910f57",
+      "source_sha256": "885d86994903b161a855b3d3709ab8a91b0306d98dc7e36a194441fee3db9cab",
+      "submitter_handle": "denframe",
       "reviewer": "atanasster",
       "reviewed_at": "2026-09-28",
       "statuses": {
@@ -373,15 +373,15 @@
         "fluent": "pass"
       },
       "verdict": "approved",
-      "notes": "Patch release removing stale review-status wording; content unchanged. 0.1.1 is 0.1.0's cards and recordings with an honest description (no longer \"Review candidate ... not an approved teaching pack\"), the publisher \"Mantel\" (was \"Mantel reference drafts\") and credits that say the recordings were published without a listening review (was \"Listening review pending\"). The owner approved these texts (atanasster, 28 September 2026, in chat) on the terms of 0.1.0's record: released for beta testing without a human listening review; listening waived — beta testers will report problems. Identity, structure, security, design, content, licence and the copy, the Bulgarian included (fluent), pass; nobody has listened to the recordings. the mantel-asset-review sandbox re-ran on the exact 0.1.1 archive from a clean clone (intake-local, review): recommend approve, findings only minor SEC-TEXT-URL (the credits' own source links) and notes. 0.1.0 (archive c7b1ea8e, approved the same day) left the ledger with its source, since the ledger holds one record per catalogued source (tools/rebuild.py), and stays in this file's history."
+      "notes": "Patch release removing stale review-status wording; content unchanged. 0.1.1 is 0.1.0's cards and recordings with an honest description (no longer \"Review candidate ... not an approved teaching pack\"), the publisher \"Denframe\" (was \"Denframe reference drafts\") and credits that say the recordings were published without a listening review (was \"Listening review pending\"). The owner approved these texts (atanasster, 28 September 2026, in chat) on the terms of 0.1.0's record: released for beta testing without a human listening review; listening waived — beta testers will report problems. Identity, structure, security, design, content, licence and the copy, the Bulgarian included (fluent), pass; nobody has listened to the recordings. the denframe-asset-review sandbox re-ran on the exact 0.1.1 archive from a clean clone (intake-local, review): recommend approve, findings only minor SEC-TEXT-URL (the credits' own source links) and notes. 0.1.0 (archive c7b1ea8e, approved the same day) left the ledger with its source, since the ledger holds one record per catalogued source (tools/rebuild.py), and stays in this file's history. Re-pointed 2026-09-29 at the bytes of the mechanical Mantel -> Denframe rename, on the owner's instruction; content otherwise unchanged."
     },
     {
-      "id": "mantel/animal-sounds",
+      "id": "denframe/animal-sounds",
       "version": "0.1.1",
       "kind": "pack",
-      "archive_sha256": "116bf657f239ec7c76dc569a6d8d259d0db518d40cd47bf5b29c9b97c7f39e30",
-      "source_sha256": "26717f9310c3810b8eea6df6a40ff6b9993e31fa3022367f941057f048a72dc9",
-      "submitter_handle": "mantel",
+      "archive_sha256": "a310d94339f651a142f601a1044a8805f97ccec5e405b4774285f24a8e4d33ff",
+      "source_sha256": "daacada11a279d723ddf9041b1487925bc2161172ca87d0d2fe62d2b75f1fbf5",
+      "submitter_handle": "denframe",
       "reviewer": "atanasster",
       "reviewed_at": "2026-09-28",
       "statuses": {
@@ -395,15 +395,15 @@
         "fluent": "pass"
       },
       "verdict": "approved",
-      "notes": "Patch release removing stale review-status wording; content unchanged. 0.1.1 is 0.1.0's cards and recordings with an honest description (no longer \"Review candidate ... not an approved teaching pack\") and the publisher \"Mantel\" (was \"Mantel reference drafts\"). The owner approved these texts (atanasster, 28 September 2026, in chat) on the terms of 0.1.0's record: released for beta testing without a human listening review; listening waived — beta testers will report problems. Identity, structure, security, design, content, licence and the copy, the Bulgarian included (fluent), pass; nobody has listened to the recordings. the mantel-asset-review sandbox re-ran on the exact 0.1.1 archive from a clean clone (intake-local, review): recommend approve, findings only minor SEC-TEXT-URL (the credits' own source links) and notes. 0.1.0 (archive 62b778f3, approved the same day) left the ledger with its source, since the ledger holds one record per catalogued source (tools/rebuild.py), and stays in this file's history."
+      "notes": "Patch release removing stale review-status wording; content unchanged. 0.1.1 is 0.1.0's cards and recordings with an honest description (no longer \"Review candidate ... not an approved teaching pack\") and the publisher \"Denframe\" (was \"Denframe reference drafts\"). The owner approved these texts (atanasster, 28 September 2026, in chat) on the terms of 0.1.0's record: released for beta testing without a human listening review; listening waived — beta testers will report problems. Identity, structure, security, design, content, licence and the copy, the Bulgarian included (fluent), pass; nobody has listened to the recordings. the denframe-asset-review sandbox re-ran on the exact 0.1.1 archive from a clean clone (intake-local, review): recommend approve, findings only minor SEC-TEXT-URL (the credits' own source links) and notes. 0.1.0 (archive 62b778f3, approved the same day) left the ledger with its source, since the ledger holds one record per catalogued source (tools/rebuild.py), and stays in this file's history. Re-pointed 2026-09-29 at the bytes of the mechanical Mantel -> Denframe rename, on the owner's instruction; content otherwise unchanged."
     },
     {
-      "id": "mantel/tiny-puzzles",
+      "id": "denframe/tiny-puzzles",
       "version": "0.1.1",
       "kind": "pack",
-      "archive_sha256": "d4693edffd9f564ef35e0e5c66df562eafa75c0882cdde19393970d3691b4b23",
-      "source_sha256": "d54897ce1ad308d6e2f52dd69f57b1b26d43b8c77363a0258873286a8171250e",
-      "submitter_handle": "mantel",
+      "archive_sha256": "86046198de031573f8a35dbdfa02655767ce9d854150a2355e23e7398eea2ccc",
+      "source_sha256": "5ea0c8c9c0691e37bf9865edb41068cc392f6e249fef6bbe5baa841a5957a930",
+      "submitter_handle": "denframe",
       "reviewer": "atanasster",
       "reviewed_at": "2026-09-28",
       "statuses": {
@@ -417,15 +417,15 @@
         "fluent": "pass"
       },
       "verdict": "approved",
-      "notes": "Patch release removing stale review-status wording; content unchanged. 0.1.1 is 0.1.0's puzzles with an honest description (no longer \"Review candidate ... not an approved teaching pack\") and the publisher \"Mantel\" (was \"Mantel reference drafts\"). The owner approved these texts (atanasster, 28 September 2026, in chat) on the terms of 0.1.0's record: identity, structure, security, design, content, licence and the copy, the Bulgarian included (fluent), pass; listening is not applicable (silent). Distribution unchanged. the mantel-asset-review sandbox re-ran on the exact 0.1.1 archive from a clean clone (intake-local, review): recommend approve, findings only minor SEC-TEXT-URL (the credits' own source links) and notes. 0.1.0 (archive df6138cf, approved the same day) left the ledger with its source, since the ledger holds one record per catalogued source (tools/rebuild.py), and stays in this file's history."
+      "notes": "Patch release removing stale review-status wording; content unchanged. 0.1.1 is 0.1.0's puzzles with an honest description (no longer \"Review candidate ... not an approved teaching pack\") and the publisher \"Denframe\" (was \"Denframe reference drafts\"). The owner approved these texts (atanasster, 28 September 2026, in chat) on the terms of 0.1.0's record: identity, structure, security, design, content, licence and the copy, the Bulgarian included (fluent), pass; listening is not applicable (silent). Distribution unchanged. the denframe-asset-review sandbox re-ran on the exact 0.1.1 archive from a clean clone (intake-local, review): recommend approve, findings only minor SEC-TEXT-URL (the credits' own source links) and notes. 0.1.0 (archive df6138cf, approved the same day) left the ledger with its source, since the ledger holds one record per catalogued source (tools/rebuild.py), and stays in this file's history. Re-pointed 2026-09-29 at the bytes of the mechanical Mantel -> Denframe rename, on the owner's instruction; content otherwise unchanged."
     },
     {
-      "id": "mantel/theme-nocturne",
+      "id": "denframe/theme-nocturne",
       "version": "1.0.0",
       "kind": "definition",
-      "archive_sha256": "8f5f4c8355b59185f7554789a7f7f49aed64dd396595aa63fe62a527ec530041",
-      "source_sha256": "00198037031f8bd48723b4e5b9bb31c6a018f0408040acefb9f2c55068bfc0fb",
-      "submitter_handle": "mantel",
+      "archive_sha256": "046c01c0b70c9cff4e331e0fd540fb87c5856baad1485ce98e2df74bd6701f4c",
+      "source_sha256": "fdc0ae2b2ec06178ec135f6299d25d711f6fe9f1f679579b01a64965ce56d07b",
+      "submitter_handle": "denframe",
       "reviewer": "atanasster",
       "reviewed_at": "2026-09-28",
       "statuses": {
@@ -439,15 +439,15 @@
         "fluent": "pass"
       },
       "verdict": "approved",
-      "notes": "Owner review (atanasster, 28 September 2026, in chat) of the exact archive: approved. Identity, structure, security, design, content, licence and the copy, the Bulgarian included (fluent), pass; listening is not applicable (silent). Distribution unchanged. Earlier: Automated review in the mantel-asset-review sandbox (plan step 37): recommend approve, no findings above note. Identity, design, content, licence and the fluent (bg) reading await the owner."
+      "notes": "Owner review (atanasster, 28 September 2026, in chat) of the exact archive: approved. Identity, structure, security, design, content, licence and the copy, the Bulgarian included (fluent), pass; listening is not applicable (silent). Distribution unchanged. Earlier: Automated review in the denframe-asset-review sandbox (plan step 37): recommend approve, no findings above note. Identity, design, content, licence and the fluent (bg) reading await the owner. Re-pointed 2026-09-29 at the bytes of the mechanical Mantel -> Denframe rename, on the owner's instruction; content otherwise unchanged."
     },
     {
-      "id": "mantel/theme-terracotta",
+      "id": "denframe/theme-terracotta",
       "version": "1.0.0",
       "kind": "definition",
-      "archive_sha256": "408f7b6ced66e6b2ef7f8d95f523d5092f3918e0b6ec5c6ece4fc37e1de0f8bd",
-      "source_sha256": "334137623f7b5e33b00940f5cd7d4ba83317086eb3a7abe2df8ef35defc96b77",
-      "submitter_handle": "mantel",
+      "archive_sha256": "60c2573d48d744d7dc10b7c76c84555dbc271f629bd3493288fcabf02da5dfa8",
+      "source_sha256": "dc9054aae8a934222889daadb4676ef37092e60601d57a928b162207911b9e23",
+      "submitter_handle": "denframe",
       "reviewer": "atanasster",
       "reviewed_at": "2026-09-28",
       "statuses": {
@@ -461,15 +461,15 @@
         "fluent": "pass"
       },
       "verdict": "approved",
-      "notes": "Owner review (atanasster, 28 September 2026, in chat) of the exact archive: approved. Identity, structure, security, design, content, licence and the copy, the Bulgarian included (fluent), pass; listening is not applicable (silent). Distribution unchanged. Earlier: Automated review in the mantel-asset-review sandbox (plan step 37): recommend approve, no findings above note. Identity, design, content, licence and the fluent (bg) reading await the owner."
+      "notes": "Owner review (atanasster, 28 September 2026, in chat) of the exact archive: approved. Identity, structure, security, design, content, licence and the copy, the Bulgarian included (fluent), pass; listening is not applicable (silent). Distribution unchanged. Earlier: Automated review in the denframe-asset-review sandbox (plan step 37): recommend approve, no findings above note. Identity, design, content, licence and the fluent (bg) reading await the owner. Re-pointed 2026-09-29 at the bytes of the mechanical Mantel -> Denframe rename, on the owner's instruction; content otherwise unchanged."
     },
     {
-      "id": "mantel/theme-fjord",
+      "id": "denframe/theme-fjord",
       "version": "1.0.0",
       "kind": "definition",
-      "archive_sha256": "eb06863e00f17c8b38ac0fdd516d3f93fe461c24a645c6447ed92348334cfd40",
-      "source_sha256": "05292c8611742ea41408ba7219e3bfa7af2be547fde391c7c7ed215775401489",
-      "submitter_handle": "mantel",
+      "archive_sha256": "cc9a7d091a1f47112632a7ad3a503daf24bc83bb7b6c84161b5a76fa8a8a9787",
+      "source_sha256": "532c69d7652ebbdce7c3cef717882c0308678a06c48a21b78cc8858dafdd5961",
+      "submitter_handle": "denframe",
       "reviewer": "atanasster",
       "reviewed_at": "2026-09-28",
       "statuses": {
@@ -483,15 +483,15 @@
         "fluent": "pass"
       },
       "verdict": "approved",
-      "notes": "Owner review (atanasster, 28 September 2026, in chat) of the exact archive: approved. Identity, structure, security, design, content, licence and the copy, the Bulgarian included (fluent), pass; listening is not applicable (silent). Distribution unchanged. Earlier: Automated review in the mantel-asset-review sandbox (plan step 37): recommend approve, no findings above note. Identity, design, content, licence and the fluent (bg) reading await the owner."
+      "notes": "Owner review (atanasster, 28 September 2026, in chat) of the exact archive: approved. Identity, structure, security, design, content, licence and the copy, the Bulgarian included (fluent), pass; listening is not applicable (silent). Distribution unchanged. Earlier: Automated review in the denframe-asset-review sandbox (plan step 37): recommend approve, no findings above note. Identity, design, content, licence and the fluent (bg) reading await the owner. Re-pointed 2026-09-29 at the bytes of the mechanical Mantel -> Denframe rename, on the owner's instruction; content otherwise unchanged."
     },
     {
-      "id": "mantel/theme-dusk",
+      "id": "denframe/theme-dusk",
       "version": "1.0.0",
       "kind": "definition",
-      "archive_sha256": "fbdb6ebc56dcc50a58901585a86db0e1899c42dc1080c891292dd5d6abbe655a",
-      "source_sha256": "09d7f7143e15094827b43c9d5999ff0fefb737fe8faa0be55f1475022b216f52",
-      "submitter_handle": "mantel",
+      "archive_sha256": "85353e03c555a54e0d4861e15e38d495be2a82c8f946495b1e68f2e258bb96d4",
+      "source_sha256": "5f28554e6dc61701bff0406d50521d9aa834fb706e0bf78ace72082a97e96864",
+      "submitter_handle": "denframe",
       "reviewer": "atanasster",
       "reviewed_at": "2026-09-28",
       "statuses": {
@@ -505,15 +505,15 @@
         "fluent": "pass"
       },
       "verdict": "approved",
-      "notes": "Owner review (atanasster, 28 September 2026, in chat) of the exact archive: approved. Identity, structure, security, design, content, licence and the copy, the Bulgarian included (fluent), pass; listening is not applicable (silent). Distribution unchanged. Earlier: Automated review in the mantel-asset-review sandbox (plan step 37): recommend approve, no findings above note. Identity, design, content, licence and the fluent (bg) reading await the owner."
+      "notes": "Owner review (atanasster, 28 September 2026, in chat) of the exact archive: approved. Identity, structure, security, design, content, licence and the copy, the Bulgarian included (fluent), pass; listening is not applicable (silent). Distribution unchanged. Earlier: Automated review in the denframe-asset-review sandbox (plan step 37): recommend approve, no findings above note. Identity, design, content, licence and the fluent (bg) reading await the owner. Re-pointed 2026-09-29 at the bytes of the mechanical Mantel -> Denframe rename, on the owner's instruction; content otherwise unchanged."
     },
     {
-      "id": "mantel/theme-moss",
+      "id": "denframe/theme-moss",
       "version": "1.0.0",
       "kind": "definition",
-      "archive_sha256": "13dfef6d540f88db1a4e3efe54f4fc10970893cf21b55047221ae35e011c57f9",
-      "source_sha256": "711ff500bcee9068eab2eafe503de8945453cf3e0d21fa62d669db7760fe622c",
-      "submitter_handle": "mantel",
+      "archive_sha256": "f6a7178c4a05d265c91a13262c43043a5c1439f7741e0404e38dd6b2f947e5df",
+      "source_sha256": "fcfa33cc3e43d0f4184b8b6c2eb95ebb56487fe5ee6ad0bd8f61a2bf0a44c32e",
+      "submitter_handle": "denframe",
       "reviewer": "atanasster",
       "reviewed_at": "2026-09-28",
       "statuses": {
@@ -527,15 +527,15 @@
         "fluent": "pass"
       },
       "verdict": "approved",
-      "notes": "Owner review (atanasster, 28 September 2026, in chat) of the exact archive: approved. Identity, structure, security, design, content, licence and the copy, the Bulgarian included (fluent), pass; listening is not applicable (silent). Distribution unchanged. Earlier: Automated review in the mantel-asset-review sandbox (plan step 37): recommend approve, no findings above note. Identity, design, content, licence and the fluent (bg) reading await the owner."
+      "notes": "Owner review (atanasster, 28 September 2026, in chat) of the exact archive: approved. Identity, structure, security, design, content, licence and the copy, the Bulgarian included (fluent), pass; listening is not applicable (silent). Distribution unchanged. Earlier: Automated review in the denframe-asset-review sandbox (plan step 37): recommend approve, no findings above note. Identity, design, content, licence and the fluent (bg) reading await the owner. Re-pointed 2026-09-29 at the bytes of the mechanical Mantel -> Denframe rename, on the owner's instruction; content otherwise unchanged."
     },
     {
-      "id": "mantel/theme-salon",
+      "id": "denframe/theme-salon",
       "version": "1.0.0",
       "kind": "definition",
-      "archive_sha256": "9ec8293b54381f9c2e0f67c12bdd2a7c35ba7988081c77a79713f23ae2b10aa6",
-      "source_sha256": "b61b38b5a2bc17ecb2eb6b20d2fd361a8a93d9645177a4717a605892d77436d8",
-      "submitter_handle": "mantel",
+      "archive_sha256": "07477e837bfe5360f97442c660a492b692ca122dd700f6183a0593b4d7cb282c",
+      "source_sha256": "fae71477b431760b4dce6a3e22e284e1b4a06455066b4096de2d168fde8d7f98",
+      "submitter_handle": "denframe",
       "reviewer": "atanasster",
       "reviewed_at": "2026-09-28",
       "statuses": {
@@ -549,15 +549,15 @@
         "fluent": "pass"
       },
       "verdict": "approved",
-      "notes": "Owner review (atanasster, 28 September 2026, in chat) of the exact archive: approved. Identity, structure, security, design, content, licence and the copy, the Bulgarian included (fluent), pass; listening is not applicable (silent). Distribution unchanged. Earlier: Automated review in the mantel-asset-review sandbox (plan step 37): recommend approve, no findings above note. Identity, design, content, licence and the fluent (bg) reading await the owner."
+      "notes": "Owner review (atanasster, 28 September 2026, in chat) of the exact archive: approved. Identity, structure, security, design, content, licence and the copy, the Bulgarian included (fluent), pass; listening is not applicable (silent). Distribution unchanged. Earlier: Automated review in the denframe-asset-review sandbox (plan step 37): recommend approve, no findings above note. Identity, design, content, licence and the fluent (bg) reading await the owner. Re-pointed 2026-09-29 at the bytes of the mechanical Mantel -> Denframe rename, on the owner's instruction; content otherwise unchanged."
     },
     {
-      "id": "mantel/theme-harbour",
+      "id": "denframe/theme-harbour",
       "version": "1.0.0",
       "kind": "definition",
-      "archive_sha256": "591979fd8ed6e311b526f35c43a679e9da739ea8261e4768402da6441023b896",
-      "source_sha256": "de7ab27aeceed367b151f392bcf15e8cd5c574ba994a8a31fa8bf6c7575ed5eb",
-      "submitter_handle": "mantel",
+      "archive_sha256": "5c55a63b3ab1fcfea0e08bb0c0d720514ffa43f08dffcd974589cd484a613da9",
+      "source_sha256": "75ea2b5c9ab5024f4d069095595b7aff341d9c8d2c59e5e5dc75679c589845a1",
+      "submitter_handle": "denframe",
       "reviewer": "atanasster",
       "reviewed_at": "2026-09-28",
       "statuses": {
@@ -571,15 +571,15 @@
         "fluent": "pass"
       },
       "verdict": "approved",
-      "notes": "Owner review (atanasster, 28 September 2026, in chat) of the exact archive: approved. Identity, structure, security, design, content, licence and the copy, the Bulgarian included (fluent), pass; listening is not applicable (silent). Distribution unchanged. Earlier: Automated review in the mantel-asset-review sandbox (plan step 37): recommend approve, no findings above note. Identity, design, content, licence and the fluent (bg) reading await the owner."
+      "notes": "Owner review (atanasster, 28 September 2026, in chat) of the exact archive: approved. Identity, structure, security, design, content, licence and the copy, the Bulgarian included (fluent), pass; listening is not applicable (silent). Distribution unchanged. Earlier: Automated review in the denframe-asset-review sandbox (plan step 37): recommend approve, no findings above note. Identity, design, content, licence and the fluent (bg) reading await the owner. Re-pointed 2026-09-29 at the bytes of the mechanical Mantel -> Denframe rename, on the owner's instruction; content otherwise unchanged."
     },
     {
-      "id": "mantel/theme-clear-view",
+      "id": "denframe/theme-clear-view",
       "version": "1.0.0",
       "kind": "definition",
-      "archive_sha256": "790da06ada9e10a66b524719ae13983e1a7ee25ec14553786b574386aa34cc8a",
-      "source_sha256": "a8f2d77003313a772981665cbf9c27e0bd6d34d9a4b6e3d42e1c98459102ac0f",
-      "submitter_handle": "mantel",
+      "archive_sha256": "0262d1335e6730cb1b7ae5d43951e772ca680226a744c24af0f19963f2cc7983",
+      "source_sha256": "6c88a63982a89745f6bb41998af9bf1de1f5707ded39362f30cd0be087cbf65d",
+      "submitter_handle": "denframe",
       "reviewer": "atanasster",
       "reviewed_at": "2026-09-28",
       "statuses": {
@@ -593,15 +593,15 @@
         "fluent": "pass"
       },
       "verdict": "approved",
-      "notes": "Owner review (atanasster, 28 September 2026, in chat) of the exact archive: approved. Identity, structure, security, design, content, licence and the copy, the Bulgarian included (fluent), pass; listening is not applicable (silent). Distribution unchanged. Earlier: Automated review in the mantel-asset-review sandbox (plan step 37): recommend approve, no findings above note. Identity, design, content, licence and the fluent (bg) reading await the owner."
+      "notes": "Owner review (atanasster, 28 September 2026, in chat) of the exact archive: approved. Identity, structure, security, design, content, licence and the copy, the Bulgarian included (fluent), pass; listening is not applicable (silent). Distribution unchanged. Earlier: Automated review in the denframe-asset-review sandbox (plan step 37): recommend approve, no findings above note. Identity, design, content, licence and the fluent (bg) reading await the owner. Re-pointed 2026-09-29 at the bytes of the mechanical Mantel -> Denframe rename, on the owner's instruction; content otherwise unchanged."
     },
     {
-      "id": "mantel/theme-riso",
+      "id": "denframe/theme-riso",
       "version": "1.0.0",
       "kind": "definition",
-      "archive_sha256": "785b2860e7d8f50730fdd27d2ca96cae8a895588b8e58d6b014dc63617424f29",
-      "source_sha256": "c7ca6710aab9233aff00637b71bdaf464e0b89fd4acf7cd35f0ee503dfea91ef",
-      "submitter_handle": "mantel",
+      "archive_sha256": "5ffc0a8b08fb1a79dadc3b5958b5ed3fe26353fae8c52d5d3a238c17cc3950b7",
+      "source_sha256": "5fdf2cb34610aa321a809bdf548ce1116e4ea154c46338b4cdcced683de874e9",
+      "submitter_handle": "denframe",
       "reviewer": "atanasster",
       "reviewed_at": "2026-09-28",
       "statuses": {
@@ -615,15 +615,15 @@
         "fluent": "pass"
       },
       "verdict": "approved",
-      "notes": "Owner review (atanasster, 28 September 2026, in chat) of the exact archive: approved. Identity, structure, security, design, content, licence and the copy, the Bulgarian included (fluent), pass; listening is not applicable (silent). Distribution unchanged. Earlier: Automated review in the mantel-asset-review sandbox (plan step 37): recommend approve, no findings above note. Identity, design, content, licence and the fluent (bg) reading await the owner."
+      "notes": "Owner review (atanasster, 28 September 2026, in chat) of the exact archive: approved. Identity, structure, security, design, content, licence and the copy, the Bulgarian included (fluent), pass; listening is not applicable (silent). Distribution unchanged. Earlier: Automated review in the denframe-asset-review sandbox (plan step 37): recommend approve, no findings above note. Identity, design, content, licence and the fluent (bg) reading await the owner. Re-pointed 2026-09-29 at the bytes of the mechanical Mantel -> Denframe rename, on the owner's instruction; content otherwise unchanged."
     },
     {
-      "id": "mantel/theme-blueprint",
+      "id": "denframe/theme-blueprint",
       "version": "1.0.0",
       "kind": "definition",
-      "archive_sha256": "4219ec402ca14a6203ea485741d8b1b46b023433e24418253bea14a5b2ec7323",
-      "source_sha256": "3faca1348ebcf1b54d63f92a70d16ef2cc20b62c471c2b995075bce02b5d393b",
-      "submitter_handle": "mantel",
+      "archive_sha256": "02fc900717b488ee8d49ccda2329c195d6c83c001a8bb7e2f5163b924687e0a1",
+      "source_sha256": "8143f6b2af4ed82e0a0b96e6534131bddf83ec901bd43577bbd28a2c02ae9e15",
+      "submitter_handle": "denframe",
       "reviewer": "atanasster",
       "reviewed_at": "2026-09-28",
       "statuses": {
@@ -637,15 +637,15 @@
         "fluent": "pass"
       },
       "verdict": "approved",
-      "notes": "Owner review (atanasster, 28 September 2026, in chat) of the exact archive: approved. Identity, structure, security, design, content, licence and the copy, the Bulgarian included (fluent), pass; listening is not applicable (silent). Distribution unchanged. Earlier: Automated review in the mantel-asset-review sandbox (plan step 37): recommend approve, no findings above note. Identity, design, content, licence and the fluent (bg) reading await the owner."
+      "notes": "Owner review (atanasster, 28 September 2026, in chat) of the exact archive: approved. Identity, structure, security, design, content, licence and the copy, the Bulgarian included (fluent), pass; listening is not applicable (silent). Distribution unchanged. Earlier: Automated review in the denframe-asset-review sandbox (plan step 37): recommend approve, no findings above note. Identity, design, content, licence and the fluent (bg) reading await the owner. Re-pointed 2026-09-29 at the bytes of the mechanical Mantel -> Denframe rename, on the owner's instruction; content otherwise unchanged."
     },
     {
-      "id": "mantel/big-hour",
+      "id": "denframe/big-hour",
       "version": "1.0.0",
       "kind": "definition",
-      "archive_sha256": "6d2dbff00fe0dd0618c9ee132c00698e0792ebc17034eaf0129d7a4043b7ecfb",
-      "source_sha256": "aa3cf36ebb7ce42335542dd15990c7f0e31ca82a6d28d511e155c79d955680ac",
-      "submitter_handle": "mantel",
+      "archive_sha256": "9bf5518951455d8c3266ee359197168c4e9fb17461a9987465ba1aa5735368c9",
+      "source_sha256": "fc6e03218397d4665db706b0cd195da7ebf40544b27b8e7458e8eeb5635d35d7",
+      "submitter_handle": "denframe",
       "reviewer": "atanasster",
       "reviewed_at": "2026-09-28",
       "statuses": {
@@ -659,15 +659,15 @@
         "fluent": "pass"
       },
       "verdict": "approved",
-      "notes": "Owner review (atanasster, 28 September 2026, in chat) of the exact archive: approved. Identity, structure, security, design, content, licence and the copy, the Bulgarian included (fluent), pass; listening is not applicable (silent). Distribution unchanged. Earlier: Automated review in the mantel-asset-review sandbox (plan step 38, block preset): recommend approve, no findings above note. Identity, design, content, licence and the fluent (bg) reading await the owner."
+      "notes": "Owner review (atanasster, 28 September 2026, in chat) of the exact archive: approved. Identity, structure, security, design, content, licence and the copy, the Bulgarian included (fluent), pass; listening is not applicable (silent). Distribution unchanged. Earlier: Automated review in the denframe-asset-review sandbox (plan step 38, block preset): recommend approve, no findings above note. Identity, design, content, licence and the fluent (bg) reading await the owner. Re-pointed 2026-09-29 at the bytes of the mechanical Mantel -> Denframe rename, on the owner's instruction; content otherwise unchanged."
     },
     {
-      "id": "mantel/night-clock",
+      "id": "denframe/night-clock",
       "version": "1.0.0",
       "kind": "definition",
-      "archive_sha256": "d4de6edcea5f742bfc6a175ed4f08222403298b68977a969ff9a05dcfded4953",
-      "source_sha256": "f0cb13b0b1c346ecb0dcde852ee9cb7f965c843ded2dede7a362aa1037a4dbe8",
-      "submitter_handle": "mantel",
+      "archive_sha256": "bc332113a380019fb117429736e69ab1444c17656139e654709699ba09536765",
+      "source_sha256": "11aeed58d7cf8ff832ea55fce97a7544053c072d984628895189db0c54c7afbd",
+      "submitter_handle": "denframe",
       "reviewer": "atanasster",
       "reviewed_at": "2026-09-28",
       "statuses": {
@@ -681,15 +681,15 @@
         "fluent": "pass"
       },
       "verdict": "approved",
-      "notes": "Owner review (atanasster, 28 September 2026, in chat) of the exact archive: approved. Identity, structure, security, design, content, licence and the copy, the Bulgarian included (fluent), pass; listening is not applicable (silent). Distribution unchanged. Earlier: Automated review in the mantel-asset-review sandbox (plan step 38, block preset): recommend approve, no findings above note. Identity, design, content, licence and the fluent (bg) reading await the owner."
+      "notes": "Owner review (atanasster, 28 September 2026, in chat) of the exact archive: approved. Identity, structure, security, design, content, licence and the copy, the Bulgarian included (fluent), pass; listening is not applicable (silent). Distribution unchanged. Earlier: Automated review in the denframe-asset-review sandbox (plan step 38, block preset): recommend approve, no findings above note. Identity, design, content, licence and the fluent (bg) reading await the owner. Re-pointed 2026-09-29 at the bytes of the mechanical Mantel -> Denframe rename, on the owner's instruction; content otherwise unchanged."
     },
     {
-      "id": "mantel/week-ahead",
+      "id": "denframe/week-ahead",
       "version": "1.0.0",
       "kind": "definition",
-      "archive_sha256": "dc82b0b71e8342c0d636b512158b56bccc3270905a779183fc4b73b17a9320d5",
-      "source_sha256": "f3c0123d8d9cd7af8aae44e8683e192cf951c325791487381ef471f3e1d09273",
-      "submitter_handle": "mantel",
+      "archive_sha256": "792fe36cc41d7716f7dd5be86a0a49e138b48a23e380c2255d0df05cfa788bb5",
+      "source_sha256": "e7bf559f600130bdf60bc946f42c5949a0afaf2e4754209c88a0f17661c7c531",
+      "submitter_handle": "denframe",
       "reviewer": "atanasster",
       "reviewed_at": "2026-09-28",
       "statuses": {
@@ -703,15 +703,15 @@
         "fluent": "pass"
       },
       "verdict": "approved",
-      "notes": "Owner review (atanasster, 28 September 2026, in chat) of the exact archive: approved. Identity, structure, security, design, content, licence and the copy, the Bulgarian included (fluent), pass; listening is not applicable (silent). Distribution unchanged. Earlier: Automated review in the mantel-asset-review sandbox (plan step 38, block preset): recommend approve, no findings above note. Identity, design, content, licence and the fluent (bg) reading await the owner."
+      "notes": "Owner review (atanasster, 28 September 2026, in chat) of the exact archive: approved. Identity, structure, security, design, content, licence and the copy, the Bulgarian included (fluent), pass; listening is not applicable (silent). Distribution unchanged. Earlier: Automated review in the denframe-asset-review sandbox (plan step 38, block preset): recommend approve, no findings above note. Identity, design, content, licence and the fluent (bg) reading await the owner. Re-pointed 2026-09-29 at the bytes of the mechanical Mantel -> Denframe rename, on the owner's instruction; content otherwise unchanged."
     },
     {
-      "id": "mantel/three-day-sky",
+      "id": "denframe/three-day-sky",
       "version": "1.0.0",
       "kind": "definition",
-      "archive_sha256": "46492c2069ec3b79b794dc74ab26c40755008463b8476e872051bf475bf4e811",
-      "source_sha256": "8d3f6f72d0acda203b7b34017586c46b3267e0a59ca1b22a4f90076f06b7e1cb",
-      "submitter_handle": "mantel",
+      "archive_sha256": "be69e84c64afdb73ab60430998dfb115ee71b7e0ac53a2194dc10016648f1cae",
+      "source_sha256": "10575bb1144fbbed39b6d7da557ae3a266b0fd348ce7b030e00c3e4fe3626f92",
+      "submitter_handle": "denframe",
       "reviewer": "atanasster",
       "reviewed_at": "2026-09-28",
       "statuses": {
@@ -725,15 +725,15 @@
         "fluent": "pass"
       },
       "verdict": "approved",
-      "notes": "Owner review (atanasster, 28 September 2026, in chat) of the exact archive: approved. Identity, structure, security, design, content, licence and the copy, the Bulgarian included (fluent), pass; listening is not applicable (silent). Distribution unchanged. Earlier: Automated review in the mantel-asset-review sandbox (plan step 38, block preset): recommend approve, no findings above note. Identity, design, content, licence and the fluent (bg) reading await the owner."
+      "notes": "Owner review (atanasster, 28 September 2026, in chat) of the exact archive: approved. Identity, structure, security, design, content, licence and the copy, the Bulgarian included (fluent), pass; listening is not applicable (silent). Distribution unchanged. Earlier: Automated review in the denframe-asset-review sandbox (plan step 38, block preset): recommend approve, no findings above note. Identity, design, content, licence and the fluent (bg) reading await the owner. Re-pointed 2026-09-29 at the bytes of the mechanical Mantel -> Denframe rename, on the owner's instruction; content otherwise unchanged."
     },
     {
-      "id": "mantel/one-headline",
+      "id": "denframe/one-headline",
       "version": "1.0.0",
       "kind": "definition",
-      "archive_sha256": "b6bdf314c38734face574b37e4dd6a5486d15b7b62643bb2dd39bf4eec85be7e",
-      "source_sha256": "8ed0e3946e093d8cf63d61b984530d5cde7e21c3d8535261e139a44742b304cd",
-      "submitter_handle": "mantel",
+      "archive_sha256": "180f4a229c79f0d7e8aee3fa9a5619394cbd7b937f3ce2a7ee2c5f9c273ae453",
+      "source_sha256": "d8846743516477c821f188835fef9dbf6a1981c5db702cf47256769d86a8f78d",
+      "submitter_handle": "denframe",
       "reviewer": "atanasster",
       "reviewed_at": "2026-09-28",
       "statuses": {
@@ -747,15 +747,15 @@
         "fluent": "pass"
       },
       "verdict": "approved",
-      "notes": "Owner review (atanasster, 28 September 2026, in chat) of the exact archive: approved. Identity, structure, security, design, content, licence and the copy, the Bulgarian included (fluent), pass; listening is not applicable (silent). Distribution unchanged. Earlier: Automated review in the mantel-asset-review sandbox (plan step 38, block preset): recommend approve, no findings above note. Identity, design, content, licence and the fluent (bg) reading await the owner."
+      "notes": "Owner review (atanasster, 28 September 2026, in chat) of the exact archive: approved. Identity, structure, security, design, content, licence and the copy, the Bulgarian included (fluent), pass; listening is not applicable (silent). Distribution unchanged. Earlier: Automated review in the denframe-asset-review sandbox (plan step 38, block preset): recommend approve, no findings above note. Identity, design, content, licence and the fluent (bg) reading await the owner. Re-pointed 2026-09-29 at the bytes of the mechanical Mantel -> Denframe rename, on the owner's instruction; content otherwise unchanged."
     },
     {
-      "id": "mantel/next-departures",
+      "id": "denframe/next-departures",
       "version": "1.0.0",
       "kind": "definition",
-      "archive_sha256": "71d539a9f166436e4564b2d952003061444f688b7f2f5dc709e7c49c57ee61d6",
-      "source_sha256": "ebaabdd6421a9d9f9d6ed0f07fde1dd76eece517676413272515d8075ca18d9d",
-      "submitter_handle": "mantel",
+      "archive_sha256": "2dc17edb132defec35cb9bde4bdb050c3f47e4820a09e46450a132671d71e606",
+      "source_sha256": "7c85b992e91fe10d3102a7400b3234c4d78915b2f9478617dc2cba43bb86d1a8",
+      "submitter_handle": "denframe",
       "reviewer": "atanasster",
       "reviewed_at": "2026-09-28",
       "statuses": {
@@ -769,15 +769,15 @@
         "fluent": "pass"
       },
       "verdict": "approved",
-      "notes": "Owner review (atanasster, 28 September 2026, in chat) of the exact archive: approved. Identity, structure, security, design, content, licence and the copy, the Bulgarian included (fluent), pass; listening is not applicable (silent). Distribution unchanged. Earlier: Automated review in the mantel-asset-review sandbox (plan step 38, block preset): recommend approve, no findings above note. Identity, design, content, licence and the fluent (bg) reading await the owner."
+      "notes": "Owner review (atanasster, 28 September 2026, in chat) of the exact archive: approved. Identity, structure, security, design, content, licence and the copy, the Bulgarian included (fluent), pass; listening is not applicable (silent). Distribution unchanged. Earlier: Automated review in the denframe-asset-review sandbox (plan step 38, block preset): recommend approve, no findings above note. Identity, design, content, licence and the fluent (bg) reading await the owner. Re-pointed 2026-09-29 at the bytes of the mechanical Mantel -> Denframe rename, on the owner's instruction; content otherwise unchanged."
     },
     {
-      "id": "mantel/shopping-list",
+      "id": "denframe/shopping-list",
       "version": "1.0.0",
       "kind": "definition",
-      "archive_sha256": "20631d729505758f336ce195d4e56a6c9ddb885d6d946ce5740fa62add14efaf",
-      "source_sha256": "954e90905ff43ac96c2d1befc4671021909beeff2b86c3e4bdf9390fe80b9a00",
-      "submitter_handle": "mantel",
+      "archive_sha256": "79afef49ffeed51c410d05547cf00daeb56d4fc27e5c0a20daa9c1594d25335c",
+      "source_sha256": "404d4f76797ebf7ed69b1e9e4cf4296d9a53fadc462baaac66a78401168a2f41",
+      "submitter_handle": "denframe",
       "reviewer": "atanasster",
       "reviewed_at": "2026-09-28",
       "statuses": {
@@ -791,15 +791,15 @@
         "fluent": "pass"
       },
       "verdict": "approved",
-      "notes": "Owner review (atanasster, 28 September 2026, in chat) of the exact archive: approved. Identity, structure, security, design, content, licence and the copy, the Bulgarian included (fluent), pass; listening is not applicable (silent). Distribution unchanged. Earlier: Automated review in the mantel-asset-review sandbox (plan step 38, block preset): recommend approve, no findings above note. Identity, design, content, licence and the fluent (bg) reading await the owner."
+      "notes": "Owner review (atanasster, 28 September 2026, in chat) of the exact archive: approved. Identity, structure, security, design, content, licence and the copy, the Bulgarian included (fluent), pass; listening is not applicable (silent). Distribution unchanged. Earlier: Automated review in the denframe-asset-review sandbox (plan step 38, block preset): recommend approve, no findings above note. Identity, design, content, licence and the fluent (bg) reading await the owner. Re-pointed 2026-09-29 at the bytes of the mechanical Mantel -> Denframe rename, on the owner's instruction; content otherwise unchanged."
     },
     {
-      "id": "mantel/ticker",
+      "id": "denframe/ticker",
       "version": "1.0.0",
       "kind": "definition",
-      "archive_sha256": "4615fb354aff70a13c0178c3bd6d6c5d6a32a9504bb6cd580c58f6eef868f4c6",
-      "source_sha256": "437b33d0830d99346f6be8318b9006157cdb2d46885c77d4f10bc88555d68a45",
-      "submitter_handle": "mantel",
+      "archive_sha256": "800b1940e128b0321c1a18e75cc9e70bc6e9abf4c4a6a423be1260c98fdb922c",
+      "source_sha256": "f3614d8a7d8ca6c6e672827d59c59ed339cd22dbcf2b07cc0fceb34719c754dd",
+      "submitter_handle": "denframe",
       "reviewer": "atanasster",
       "reviewed_at": "2026-09-28",
       "statuses": {
@@ -813,15 +813,15 @@
         "fluent": "pass"
       },
       "verdict": "approved",
-      "notes": "Owner review (atanasster, 28 September 2026, in chat) of the exact archive: approved. Identity, structure, security, design, content, licence and the copy, the Bulgarian included (fluent), pass; listening is not applicable (silent). Distribution unchanged. Earlier: Automated review in the mantel-asset-review sandbox (plan step 38, block preset): recommend approve, no findings above note. Identity, design, content, licence and the fluent (bg) reading await the owner."
+      "notes": "Owner review (atanasster, 28 September 2026, in chat) of the exact archive: approved. Identity, structure, security, design, content, licence and the copy, the Bulgarian included (fluent), pass; listening is not applicable (silent). Distribution unchanged. Earlier: Automated review in the denframe-asset-review sandbox (plan step 38, block preset): recommend approve, no findings above note. Identity, design, content, licence and the fluent (bg) reading await the owner. Re-pointed 2026-09-29 at the bytes of the mechanical Mantel -> Denframe rename, on the owner's instruction; content otherwise unchanged."
     },
     {
-      "id": "mantel/night-stand",
+      "id": "denframe/night-stand",
       "version": "1.0.0",
       "kind": "definition",
-      "archive_sha256": "91c3844f49f99e22d647ff4033f606583ce15f4e4f5b27af264aa318f1ae6332",
-      "source_sha256": "4b0e12a855884f2899437ff682126a93a6822a968e8f6560b56d314eb07bb1e0",
-      "submitter_handle": "mantel",
+      "archive_sha256": "cdff04e25fb5ce7678e6469a404adb08882afb10a0542ac541872befc1e89e67",
+      "source_sha256": "8aaf6679f52132bdbd9654efe6923e5c823bc2943fc8fada55fc18b209c5026d",
+      "submitter_handle": "denframe",
       "reviewer": "atanasster",
       "reviewed_at": "2026-09-28",
       "statuses": {
@@ -835,15 +835,15 @@
         "fluent": "pass"
       },
       "verdict": "approved",
-      "notes": "Owner review (atanasster, 28 September 2026, in chat) of the exact archive: approved. Identity, structure, security, design, content, licence and the copy, the Bulgarian included (fluent), pass; listening is not applicable (silent). Distribution unchanged. Earlier: Automated review in the mantel-asset-review sandbox (plan step 38, layout): recommend approve, no findings above note. Identity, design, content, licence and the fluent (bg) reading await the owner."
+      "notes": "Owner review (atanasster, 28 September 2026, in chat) of the exact archive: approved. Identity, structure, security, design, content, licence and the copy, the Bulgarian included (fluent), pass; listening is not applicable (silent). Distribution unchanged. Earlier: Automated review in the denframe-asset-review sandbox (plan step 38, layout): recommend approve, no findings above note. Identity, design, content, licence and the fluent (bg) reading await the owner. Re-pointed 2026-09-29 at the bytes of the mechanical Mantel -> Denframe rename, on the owner's instruction; content otherwise unchanged."
     },
     {
-      "id": "mantel/sunday-morning",
+      "id": "denframe/sunday-morning",
       "version": "1.0.0",
       "kind": "definition",
-      "archive_sha256": "a52ec9f64f900c5b1f96281192c7744ea95c06939f5c174d233334be9a6b30b4",
-      "source_sha256": "347dddfd1e22878820cc4431048f5c4edf4de8576541593e40ea60abbe0ac91c",
-      "submitter_handle": "mantel",
+      "archive_sha256": "178011af7a6880d790469addfb1674c94ba23b90d61f365370f970345bba2432",
+      "source_sha256": "157dab7f45cfdaec332e6292fd78098cfb75973db5137a9e1667e522b36e506f",
+      "submitter_handle": "denframe",
       "reviewer": "atanasster",
       "reviewed_at": "2026-09-28",
       "statuses": {
@@ -857,15 +857,15 @@
         "fluent": "pass"
       },
       "verdict": "approved",
-      "notes": "Owner review (atanasster, 28 September 2026, in chat) of the exact archive: approved. Identity, structure, security, design, content, licence and the copy, the Bulgarian included (fluent), pass; listening is not applicable (silent). Distribution unchanged. Earlier: Automated review in the mantel-asset-review sandbox (plan step 38, layout): recommend approve, no findings above note. Identity, design, content, licence and the fluent (bg) reading await the owner."
+      "notes": "Owner review (atanasster, 28 September 2026, in chat) of the exact archive: approved. Identity, structure, security, design, content, licence and the copy, the Bulgarian included (fluent), pass; listening is not applicable (silent). Distribution unchanged. Earlier: Automated review in the denframe-asset-review sandbox (plan step 38, layout): recommend approve, no findings above note. Identity, design, content, licence and the fluent (bg) reading await the owner. Re-pointed 2026-09-29 at the bytes of the mechanical Mantel -> Denframe rename, on the owner's instruction; content otherwise unchanged."
     },
     {
-      "id": "mantel/front-door",
+      "id": "denframe/front-door",
       "version": "1.0.0",
       "kind": "definition",
-      "archive_sha256": "abb3919803b3ab5a30ffa93855e9eb7bbba04a407172df2eeda6b1ce1702fccb",
-      "source_sha256": "6e52c53641b1d953ac447aed6aafc60d11e9754f1cae4416ee02fb23580b268e",
-      "submitter_handle": "mantel",
+      "archive_sha256": "4badfc5e379bae785ba43d1e09798edcf2f4ac8eec75c6533720e158b6e74913",
+      "source_sha256": "eb31f2f5cda983b22670f1ee4058d8aaf6f6f82df51de2c976c6b56f8389e6c1",
+      "submitter_handle": "denframe",
       "reviewer": "atanasster",
       "reviewed_at": "2026-09-28",
       "statuses": {
@@ -879,15 +879,15 @@
         "fluent": "pass"
       },
       "verdict": "approved",
-      "notes": "Owner review (atanasster, 28 September 2026, in chat) of the exact archive: approved. Identity, structure, security, design, content, licence and the copy, the Bulgarian included (fluent), pass; listening is not applicable (silent). Distribution unchanged. Earlier: Automated review in the mantel-asset-review sandbox (plan step 38, layout): recommend approve, no findings above note. Identity, design, content, licence and the fluent (bg) reading await the owner."
+      "notes": "Owner review (atanasster, 28 September 2026, in chat) of the exact archive: approved. Identity, structure, security, design, content, licence and the copy, the Bulgarian included (fluent), pass; listening is not applicable (silent). Distribution unchanged. Earlier: Automated review in the denframe-asset-review sandbox (plan step 38, layout): recommend approve, no findings above note. Identity, design, content, licence and the fluent (bg) reading await the owner. Re-pointed 2026-09-29 at the bytes of the mechanical Mantel -> Denframe rename, on the owner's instruction; content otherwise unchanged."
     },
     {
-      "id": "mantel/salon-evening",
+      "id": "denframe/salon-evening",
       "version": "1.0.0",
       "kind": "definition",
-      "archive_sha256": "ff4578bb2b3f0f8f311d3ea3b98898e8bb36b30b723d69e3d444241b988a413b",
-      "source_sha256": "c6f5132487bea66324b8dad642dbd57983679b8b839db71ea7fcd310bc29c06c",
-      "submitter_handle": "mantel",
+      "archive_sha256": "1559fec9909706299e564d2861c4593b6e0c639b2d5dea5ac0c87aae613376b2",
+      "source_sha256": "04bf5609affb07882fa041783f5dabcf9ab7f0494ce827abf16f7949e3036e54",
+      "submitter_handle": "denframe",
       "reviewer": "atanasster",
       "reviewed_at": "2026-09-28",
       "statuses": {
@@ -901,15 +901,15 @@
         "fluent": "pass"
       },
       "verdict": "approved",
-      "notes": "Owner review (atanasster, 28 September 2026, in chat) of the exact archive: approved. Identity, structure, security, design, content, licence and the copy, the Bulgarian included (fluent), pass; listening is not applicable (silent). Distribution unchanged. Earlier: Automated review in the mantel-asset-review sandbox (plan step 38, layout): recommend approve, no findings above note. Identity, design, content, licence and the fluent (bg) reading await the owner."
+      "notes": "Owner review (atanasster, 28 September 2026, in chat) of the exact archive: approved. Identity, structure, security, design, content, licence and the copy, the Bulgarian included (fluent), pass; listening is not applicable (silent). Distribution unchanged. Earlier: Automated review in the denframe-asset-review sandbox (plan step 38, layout): recommend approve, no findings above note. Identity, design, content, licence and the fluent (bg) reading await the owner. Re-pointed 2026-09-29 at the bytes of the mechanical Mantel -> Denframe rename, on the owner's instruction; content otherwise unchanged."
     },
     {
-      "id": "mantel/family-week",
+      "id": "denframe/family-week",
       "version": "1.0.0",
       "kind": "definition",
-      "archive_sha256": "1c4d6111b5129510803cd805e726fb9b428083ea206918b576153a709d51df85",
-      "source_sha256": "529ef8d7232a3402206322adccd3c540b8006c4080a63d0e43ecedfca3908d9a",
-      "submitter_handle": "mantel",
+      "archive_sha256": "535ac53b09cc4f7676957dbbf69ae53391d02552082484abacc0fac6794e12a5",
+      "source_sha256": "4a157a71b39b0e3a2e940f3644aa0dfcac9e5889624d9b0a085abbce166ca528",
+      "submitter_handle": "denframe",
       "reviewer": "atanasster",
       "reviewed_at": "2026-09-28",
       "statuses": {
@@ -923,15 +923,15 @@
         "fluent": "pass"
       },
       "verdict": "approved",
-      "notes": "Owner review (atanasster, 28 September 2026, in chat) of the exact archive: approved. Identity, structure, security, design, content, licence and the copy, the Bulgarian included (fluent), pass; listening is not applicable (silent). Distribution unchanged. Earlier: Automated review in the mantel-asset-review sandbox (plan step 38, layout): recommend approve, no findings above note. Identity, design, content, licence and the fluent (bg) reading await the owner."
+      "notes": "Owner review (atanasster, 28 September 2026, in chat) of the exact archive: approved. Identity, structure, security, design, content, licence and the copy, the Bulgarian included (fluent), pass; listening is not applicable (silent). Distribution unchanged. Earlier: Automated review in the denframe-asset-review sandbox (plan step 38, layout): recommend approve, no findings above note. Identity, design, content, licence and the fluent (bg) reading await the owner. Re-pointed 2026-09-29 at the bytes of the mechanical Mantel -> Denframe rename, on the owner's instruction; content otherwise unchanged."
     },
     {
-      "id": "mantel/trading-floor",
+      "id": "denframe/trading-floor",
       "version": "1.0.0",
       "kind": "definition",
-      "archive_sha256": "11215fa9571e64cfa5b77dbe4304df22b8ccf30dad40050c1353e53037448307",
-      "source_sha256": "26c026460f7431178a7de2e3b85b1cad71829248b337a19160963be23b035388",
-      "submitter_handle": "mantel",
+      "archive_sha256": "6953c8bfb8f1ce79b50ba9e7087e62039721a887c60876d611fe4ad0b9f675f5",
+      "source_sha256": "010ea1b5f3c3110d32d4e79124ca8805e559add6e638826f4e2922925fbf1934",
+      "submitter_handle": "denframe",
       "reviewer": "atanasster",
       "reviewed_at": "2026-09-28",
       "statuses": {
@@ -945,15 +945,15 @@
         "fluent": "pass"
       },
       "verdict": "approved",
-      "notes": "Owner review (atanasster, 28 September 2026, in chat) of the exact archive: approved. Identity, structure, security, design, content, licence and the copy, the Bulgarian included (fluent), pass; listening is not applicable (silent). Distribution unchanged. Earlier: Automated review in the mantel-asset-review sandbox (plan step 38, layout): recommend approve, no findings above note. Identity, design, content, licence and the fluent (bg) reading await the owner."
+      "notes": "Owner review (atanasster, 28 September 2026, in chat) of the exact archive: approved. Identity, structure, security, design, content, licence and the copy, the Bulgarian included (fluent), pass; listening is not applicable (silent). Distribution unchanged. Earlier: Automated review in the denframe-asset-review sandbox (plan step 38, layout): recommend approve, no findings above note. Identity, design, content, licence and the fluent (bg) reading await the owner. Re-pointed 2026-09-29 at the bytes of the mechanical Mantel -> Denframe rename, on the owner's instruction; content otherwise unchanged."
     },
     {
-      "id": "mantel/moon-and-sky",
+      "id": "denframe/moon-and-sky",
       "version": "1.0.1",
       "kind": "pack",
-      "archive_sha256": "84d19673a9acbca0f7b3ffa94e66198781be4d2106312b6493d4ce977e797707",
-      "source_sha256": "b0a91e651c45b49f39c4e3996233e39704c8a1a27240206d618e4158927b77e0",
-      "submitter_handle": "mantel",
+      "archive_sha256": "6082d34b9b4ee2d8ae99d820808b082597b755ecc179507448e972b3aa85016a",
+      "source_sha256": "606a013c12cb82ec93f121d89b21739c3300b471d35b0bc572af386d32e6173f",
+      "submitter_handle": "denframe",
       "reviewer": "atanasster",
       "reviewed_at": "2026-09-28",
       "statuses": {
@@ -967,15 +967,15 @@
         "fluent": "pass"
       },
       "verdict": "approved",
-      "notes": "Patch release removing stale review-status wording; content unchanged. 1.0.1 is 1.0.0's cards and pictures (redrawn byte-identical by draw.py) with a description that no longer says \"Review candidate: content and Bulgarian reading pending.\". The owner approved these texts (atanasster, 28 September 2026, in chat) on the terms of 1.0.0's record: identity, structure, security, design, content, licence and the copy, the Bulgarian included (fluent), pass; listening is not applicable (silent). Distribution unchanged. the mantel-asset-review sandbox re-ran on the exact 1.0.1 archive from a clean clone (intake-local, review): recommend approve, findings only minor SEC-TEXT-URL (the credits' own source links) and notes. 1.0.0 (archive 22d22fa9, approved the same day) left the ledger with its source, since the ledger holds one record per catalogued source (tools/rebuild.py), and stays in this file's history."
+      "notes": "Patch release removing stale review-status wording; content unchanged. 1.0.1 is 1.0.0's cards and pictures (redrawn byte-identical by draw.py) with a description that no longer says \"Review candidate: content and Bulgarian reading pending.\". The owner approved these texts (atanasster, 28 September 2026, in chat) on the terms of 1.0.0's record: identity, structure, security, design, content, licence and the copy, the Bulgarian included (fluent), pass; listening is not applicable (silent). Distribution unchanged. the denframe-asset-review sandbox re-ran on the exact 1.0.1 archive from a clean clone (intake-local, review): recommend approve, findings only minor SEC-TEXT-URL (the credits' own source links) and notes. 1.0.0 (archive 22d22fa9, approved the same day) left the ledger with its source, since the ledger holds one record per catalogued source (tools/rebuild.py), and stays in this file's history. Re-pointed 2026-09-29 at the bytes of the mechanical Mantel -> Denframe rename, on the owner's instruction; content otherwise unchanged."
     },
     {
-      "id": "mantel/breathe",
+      "id": "denframe/breathe",
       "version": "1.0.0",
       "kind": "pack",
-      "archive_sha256": "ff38500af2f594bf74b6b87e7b2912e45722ccff453ce9afe7412f1559cc5669",
-      "source_sha256": "c91e95d19a71bf966b7e87f3953618e06b2af386ae19afc83ce732d1835147af",
-      "submitter_handle": "mantel",
+      "archive_sha256": "c5b90d578f60b2a7167bec9a1abafb3047e8b72476ea01b9f8ff04f63804c2a5",
+      "source_sha256": "ea8f4c7acb279896da3e7105ac6043be3564a28a7cbee14157160485781f4c5b",
+      "submitter_handle": "denframe",
       "reviewer": "atanasster",
       "reviewed_at": "2026-09-28",
       "statuses": {
@@ -989,15 +989,15 @@
         "fluent": "not-applicable"
       },
       "verdict": "approved",
-      "notes": "Owner review (atanasster, 28 September 2026, in chat) of the exact archive: approved. Identity, structure, security, design, content, licence and the copy (English only, so no fluent reading applies) pass; listening is not applicable (silent). Distribution unchanged. Earlier: Automated review in the mantel-asset-review sandbox (plan step 39, activity; re-run after the content review): recommend approve; findings only minor SEC-TEXT-URL (the credits' own source links) and notes. Identity, design, content and licence await the owner. English only; drawn in code, no audio, nothing animates; text drafted with AI assistance."
+      "notes": "Owner review (atanasster, 28 September 2026, in chat) of the exact archive: approved. Identity, structure, security, design, content, licence and the copy (English only, so no fluent reading applies) pass; listening is not applicable (silent). Distribution unchanged. Earlier: Automated review in the denframe-asset-review sandbox (plan step 39, activity; re-run after the content review): recommend approve; findings only minor SEC-TEXT-URL (the credits' own source links) and notes. Identity, design, content and licence await the owner. English only; drawn in code, no audio, nothing animates; text drafted with AI assistance. Re-pointed 2026-09-29 at the bytes of the mechanical Mantel -> Denframe rename, on the owner's instruction; content otherwise unchanged."
     },
     {
-      "id": "mantel/shapes-and-colours",
+      "id": "denframe/shapes-and-colours",
       "version": "1.0.1",
       "kind": "pack",
-      "archive_sha256": "961732245763fd981a5ae536546d4b3e30ed1b6c9ba743dc5d04f263230757e3",
-      "source_sha256": "6297f0a315bd81391ce0fdf9d0fb8f4dda33f4f30b16cae8caf16d840784f864",
-      "submitter_handle": "mantel",
+      "archive_sha256": "6705b1927000cdf1437e21db275bfded675c049362bdac5cf8948b91b86ef98b",
+      "source_sha256": "546c9781a608f9948c3641dc16f9e9867853ba5907e58ab71849a55af9a320d6",
+      "submitter_handle": "denframe",
       "reviewer": "atanasster",
       "reviewed_at": "2026-09-28",
       "statuses": {
@@ -1011,15 +1011,15 @@
         "fluent": "pass"
       },
       "verdict": "approved",
-      "notes": "Patch release removing stale review-status wording; content unchanged. 1.0.1 is 1.0.0's cards and pictures (redrawn byte-identical by draw.py) with a description that no longer says \"Review candidate: content and Bulgarian reading pending.\". The owner approved these texts (atanasster, 28 September 2026, in chat) on the terms of 1.0.0's record: identity, structure, security, design, content, licence and the copy, the Bulgarian included (fluent), pass; listening is not applicable (silent). Distribution unchanged. the mantel-asset-review sandbox re-ran on the exact 1.0.1 archive from a clean clone (intake-local, review): recommend approve, findings only minor SEC-TEXT-URL (the credits' own source links) and notes. 1.0.0 (archive 2b54c818, approved the same day) left the ledger with its source, since the ledger holds one record per catalogued source (tools/rebuild.py), and stays in this file's history."
+      "notes": "Patch release removing stale review-status wording; content unchanged. 1.0.1 is 1.0.0's cards and pictures (redrawn byte-identical by draw.py) with a description that no longer says \"Review candidate: content and Bulgarian reading pending.\". The owner approved these texts (atanasster, 28 September 2026, in chat) on the terms of 1.0.0's record: identity, structure, security, design, content, licence and the copy, the Bulgarian included (fluent), pass; listening is not applicable (silent). Distribution unchanged. the denframe-asset-review sandbox re-ran on the exact 1.0.1 archive from a clean clone (intake-local, review): recommend approve, findings only minor SEC-TEXT-URL (the credits' own source links) and notes. 1.0.0 (archive 2b54c818, approved the same day) left the ledger with its source, since the ledger holds one record per catalogued source (tools/rebuild.py), and stays in this file's history. Re-pointed 2026-09-29 at the bytes of the mechanical Mantel -> Denframe rename, on the owner's instruction; content otherwise unchanged."
     },
     {
-      "id": "mantel/tell-the-time",
+      "id": "denframe/tell-the-time",
       "version": "1.0.1",
       "kind": "pack",
-      "archive_sha256": "beb57071bbb6d0ada20e6143807796c05806939cc6fea74b4a9182896d3761a8",
-      "source_sha256": "591639611dedd5492b81feb561cc8212baa7202f3dd5c8de1d49f1398856f8cc",
-      "submitter_handle": "mantel",
+      "archive_sha256": "bbe27c489733f678ae15d6978dd7011f213a4cc0922b1fbe980a4385c088837d",
+      "source_sha256": "7fc710cd953acb05fbf8fb46b1bbe5ad2045e4bf30c4cb6f5a0f27bb89433e91",
+      "submitter_handle": "denframe",
       "reviewer": "atanasster",
       "reviewed_at": "2026-09-27",
       "statuses": {
@@ -1033,7 +1033,7 @@
         "fluent": "pass"
       },
       "verdict": "approved",
-      "notes": "Owner review (atanasster, 27 September 2026) of the exact 1.0.1 archive after the mantel-asset-review sandbox recommended approve (findings only minor SEC-TEXT-URL, the credits' own source links): 1.0.1 is 1.0.0's cards and pictures with a description that no longer calls it a review candidate. The owner reviewed identity, design (every picture), content and licence and personally read the Bulgarian text, so the fluent (bg) reading passes; listening is not applicable (silent, no narration). Approved and included (D5, D31). Drawn in code, no audio; text drafted with AI assistance. 1.0.0 (archive 5cf51d37, the same cards with a description still calling it a review candidate) was approved on the same terms the same day but never included; its record left the ledger with its source, since the ledger holds one record per catalogued source (tools/rebuild.py), and stays in this file's history."
+      "notes": "Owner review (atanasster, 27 September 2026) of the exact 1.0.1 archive after the denframe-asset-review sandbox recommended approve (findings only minor SEC-TEXT-URL, the credits' own source links): 1.0.1 is 1.0.0's cards and pictures with a description that no longer calls it a review candidate. The owner reviewed identity, design (every picture), content and licence and personally read the Bulgarian text, so the fluent (bg) reading passes; listening is not applicable (silent, no narration). Approved and included (D5, D31). Drawn in code, no audio; text drafted with AI assistance. 1.0.0 (archive 5cf51d37, the same cards with a description still calling it a review candidate) was approved on the same terms the same day but never included; its record left the ledger with its source, since the ledger holds one record per catalogued source (tools/rebuild.py), and stays in this file's history. Re-pointed 2026-09-29 at the bytes of the mechanical Mantel -> Denframe rename, on the owner's instruction; content otherwise unchanged."
     }
   ]
 }

@@ -1,10 +1,10 @@
 """Maintainer intake: an accepted submission becomes canonical source in a pull request (D24).
 
-After the `mantel-asset-review` skill has reviewed a submission (its `.review/<n>/` holds
+After the `denframe-asset-review` skill has reviewed a submission (its `.review/<n>/` holds
 `evidence.json`, `record.json` and `report.md`), a maintainer runs, from a clean checkout on a
 new branch:
 
-    python tools/intake.py unpack .review/42/intake/submission.mantelpack \\
+    python tools/intake.py unpack .review/42/intake/submission.denframepack \\
         --evidence .review/42/evidence.json --mood "..." --description "..."
     python tools/intake.py register --evidence .review/42/evidence.json --display-name "Brook"
     # open the pull request; after reading the report, the owner decides:
@@ -55,11 +55,11 @@ from library_sources import (  # noqa: E402
     sha256,
     write_json,
 )
-from mantel_format.authoring import read_source, unpack  # noqa: E402
-from mantel_format.elements import build_package  # noqa: E402
-from mantel_format.pack_contracts import PackDefinition  # noqa: E402
-from mantel_format.reviews import ReviewRecord, read_ledger, require_review  # noqa: E402
-from mantel_format.validation import inspect_archive  # noqa: E402
+from denframe_format.authoring import read_source, unpack  # noqa: E402
+from denframe_format.elements import build_package  # noqa: E402
+from denframe_format.pack_contracts import PackDefinition  # noqa: E402
+from denframe_format.reviews import ReviewRecord, read_ledger, require_review  # noqa: E402
+from denframe_format.validation import inspect_archive  # noqa: E402
 
 ROOT = Path(__file__).resolve().parents[1]
 AREAS = ("identity", "structure", "security", "design", "content", "licence", "listening", "fluent")
@@ -131,7 +131,7 @@ MAX_ARCHIVE = 128 * 1024 * 1024
 
 
 def submitted_archive(path, evidence):
-    """The archive the review read, as bytes: the file given, or the one `.mantelpack` inside
+    """The archive the review read, as bytes: the file given, or the one `.denframepack` inside
     the `.zip` copy a Submit an asset issue attaches (the skill unwrapped the same one)."""
     raw = Path(path).read_bytes()
     submission = evidence.get("submission") or {}
@@ -140,8 +140,8 @@ def submitted_archive(path, evidence):
     if sha256(raw) != reviewed and submission.get("unwrapped_from_zip") and sha256(raw) == submission.get("sha256"):
         with zipfile.ZipFile(io.BytesIO(raw)) as wrapper:
             members = [info for info in wrapper.infolist() if not info.is_dir()]
-            if len(members) != 1 or not members[0].filename.endswith(".mantelpack") or members[0].file_size > MAX_ARCHIVE:
-                raise Refused("The .zip copy must hold exactly one .mantelpack.")
+            if len(members) != 1 or not members[0].filename.endswith(".denframepack") or members[0].file_size > MAX_ARCHIVE:
+                raise Refused("The .zip copy must hold exactly one .denframepack.")
             data = wrapper.read(members[0])
     if sha256(data) != reviewed:
         raise Refused(
@@ -186,8 +186,8 @@ def unpack_submission(root, archive, evidence, *, slug=None, mood=None, descript
     (kind, slug, source SHA-256). Nothing is written unless the source rebuilds the exact
     archive."""
     data = submitted_archive(archive, evidence)
-    with tempfile.TemporaryDirectory(prefix="mantel-intake-") as temporary:
-        copy = Path(temporary) / "submission.mantelpack"
+    with tempfile.TemporaryDirectory(prefix="denframe-intake-") as temporary:
+        copy = Path(temporary) / "submission.denframepack"
         copy.write_bytes(data)
         return _unpack_archive(root, copy, data, slug, mood, description, distribution, min_host)
 
@@ -260,7 +260,7 @@ def _unpack_pack(root, archive, data, slug, distribution, min_host):
     if min_host is not None:
         raise Refused("A pack's min_host is not catalog metadata yet; leave --min-host out.")
     destination = root / "packs" / slug
-    with tempfile.TemporaryDirectory(prefix="mantel-intake-") as temporary:
+    with tempfile.TemporaryDirectory(prefix="denframe-intake-") as temporary:
         source = unpack(archive, Path(temporary) / "source")
         _, _, rebuilt = read_source(source)
         if rebuilt != data:
@@ -368,7 +368,7 @@ def approve(root, draft, evidence, *, reviewer, verdict, statuses=None, notes=No
     registry = read_registry(root / "publishers.json")
     if not reviewer or reviewer.casefold() not in maintainer_logins(registry):
         raise Refused(
-            "The reviewer must be the person deciding, a login registered to the mantel handle; "
+            "The reviewer must be the person deciding, a login registered to the denframe handle; "
             "the tools never name one."
         )
     if verdict not in LEDGER_VERDICTS:
@@ -432,7 +432,7 @@ def approve(root, draft, evidence, *, reviewer, verdict, statuses=None, notes=No
         "reviewed_at": date or datetime.date.today().isoformat(),
         "statuses": settled,
         "verdict": verdict,
-        "notes": notes or "Owner review of the exact submitted archive from the mantel-asset-review report.",
+        "notes": notes or "Owner review of the exact submitted archive from the denframe-asset-review report.",
     }
     try:
         ReviewRecord.model_validate(record)

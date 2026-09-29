@@ -6,7 +6,7 @@ import subprocess
 from pathlib import Path
 
 MAPPINGS = {
-    "packages/mantel-format": "format",
+    "packages/denframe-format": "format",
     "contracts/composition": "contracts/composition",
     "contracts/packs": "contracts/packs",
     "contracts/format": "contracts/format",
@@ -21,11 +21,11 @@ MAPPINGS = {
 
 def projection(name, data):
     if name == "format/pyproject.toml":
-        return data.replace(b'extend = "../../backend/pyproject.toml"', b'line-length = 100\ntarget-version = "py311"').replace(b'name = "mantel-format"', b'name = "mantel-format"\nlicense = "MIT"\nlicense-files = ["LICENSE"]')
+        return data.replace(b'extend = "../../backend/pyproject.toml"', b'line-length = 100\ntarget-version = "py311"').replace(b'name = "denframe-format"', b'name = "denframe-format"\nlicense = "MIT"\nlicense-files = ["LICENSE"]')
     if name == "format/tools/ruff.toml":
         return b'[lint]\nignore = ["T201"]\n'
     if name == "format/README.md":
-        text = data.decode().replace("packages/mantel-format", "format")
+        text = data.decode().replace("packages/denframe-format", "format")
         text = text.replace("From this repository, `make install` installs both packages. For standalone use:", "From the public repository root:")
         text = text.replace("`library/definitions/themes.json`", "the host's generated theme projection")
         return text.encode()

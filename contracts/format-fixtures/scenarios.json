@@ -42,7 +42,7 @@
     "expected": "Expose the unverified identity and require explicit update confirmation.",
     "tests": [
       "backend/tests/test_library_identity.py::test_unsigned_update_requires_confirmation",
-      "backend/tests/test_library_identity.py::test_catalog_listed_non_mantel_id_is_reserved"
+      "backend/tests/test_library_identity.py::test_catalog_listed_non_denframe_id_is_reserved"
     ],
     "browser": "not checked"
   },

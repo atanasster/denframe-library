@@ -52,7 +52,7 @@ ALT = {
     "out": "One small ring in the middle, with faint dotted rings around it and four dots.",
 }
 CREDIT = {
-    "creator": "Mantel",
+    "creator": "Denframe",
     "license": "CC0-1.0",
     "attribution": "Original ring drawing, made in code with AI assistance.",
     "source": f"{REPOSITORY}/breathe",
@@ -102,9 +102,9 @@ def main() -> None:
     write_pack(
         HERE,
         header={
-            "id": "mantel/breathe",
+            "id": "denframe/breathe",
             "version": "1.0.0",
-            "publisher": "Mantel",
+            "publisher": "Denframe",
             "definition": {
                 "schema_version": 2,
                 "kind": "pack",
@@ -137,9 +137,9 @@ def main() -> None:
             },
         ],
         provenance={
-            "pack": "mantel/breathe",
+            "pack": "denframe/breathe",
             "drawn": "2026-09-27",
-            "authorship": "Text and drawing code drafted for Mantel with AI assistance (Claude); "
+            "authorship": "Text and drawing code drafted for Denframe with AI assistance (Claude); "
             "a person reviews every pack before it is approved (plan D26).",
             "narration": "None. eSpeak NG, the only voice the plan allows (D26), was not "
             "installed where the pack was drawn; the cards are text-first and silent.",

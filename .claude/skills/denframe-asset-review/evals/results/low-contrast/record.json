@@ -1,0 +1,21 @@
+{
+  "id": "quill/pale-morning",
+  "version": "1.0.0",
+  "kind": "definition",
+  "archive_sha256": "691c5b7728d2a17aa130542f91cf217ed0eced79b4669c376bf6721a3fc283e4",
+  "source_sha256": null,
+  "submitter_handle": "quill",
+  "reviewer": null,
+  "reviewed_at": null,
+  "statuses": {
+    "identity": "pending",
+    "structure": "fail",
+    "security": "pending",
+    "design": "fail",
+    "content": "pending",
+    "licence": "pending",
+    "listening": "not-applicable",
+    "fluent": "not-applicable"
+  },
+  "verdict": null
+}

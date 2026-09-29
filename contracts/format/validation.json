@@ -1146,8 +1146,8 @@
           "type": "string"
         },
         "format": {
-          "const": "mantelpack",
-          "default": "mantelpack",
+          "const": "denframepack",
+          "default": "denframepack",
           "title": "Format",
           "type": "string"
         },
@@ -1284,7 +1284,7 @@
         "max_stories": {
           "anyOf": [
             {
-              "maximum": 3,
+              "maximum": 6,
               "minimum": 1,
               "type": "integer"
             },
@@ -1294,6 +1294,18 @@
           ],
           "default": null,
           "title": "Max Stories"
+        },
+        "show_pictures": {
+          "anyOf": [
+            {
+              "type": "boolean"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Show Pictures"
         },
         "show_summary": {
           "anyOf": [
@@ -1306,6 +1318,23 @@
           ],
           "default": null,
           "title": "Show Summary"
+        },
+        "take_turns_seconds": {
+          "anyOf": [
+            {
+              "enum": [
+                30,
+                60,
+                120
+              ],
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Take Turns Seconds"
         }
       },
       "title": "NewsOverrides",
@@ -2025,8 +2054,8 @@
           "type": "string"
         },
         "format": {
-          "const": "mantelpack",
-          "default": "mantelpack",
+          "const": "denframepack",
+          "default": "denframepack",
           "title": "Format",
           "type": "string"
         },

@@ -1,7 +1,7 @@
 {
-  "id": "mantel/first-words",
+  "id": "denframe/first-words",
   "version": "0.1.1",
-  "publisher": "Mantel",
+  "publisher": "Denframe",
   "definition": {
     "schema_version": 2,
     "kind": "pack",
@@ -19,7 +19,7 @@
         "media_type": "audio/mpeg",
         "duration_seconds": 0.797143,
         "credit": {
-          "creator": "Mantel; eSpeak NG procedural speech",
+          "creator": "Denframe; eSpeak NG procedural speech",
           "license": "CC0-1.0",
           "attribution": "Original word selection; synthetic voice, published without a listening review.",
           "source": "https://sourceforge.net/p/espeak/discussion/538920/thread/c6944a60/",
@@ -33,7 +33,7 @@
         "media_type": "audio/mpeg",
         "duration_seconds": 0.94254,
         "credit": {
-          "creator": "Mantel; eSpeak NG procedural speech",
+          "creator": "Denframe; eSpeak NG procedural speech",
           "license": "CC0-1.0",
           "attribution": "Original word selection; synthetic voice, published without a listening review.",
           "source": "https://sourceforge.net/p/espeak/discussion/538920/thread/c6944a60/",
@@ -47,7 +47,7 @@
         "media_type": "audio/mpeg",
         "duration_seconds": 0.737052,
         "credit": {
-          "creator": "Mantel; eSpeak NG procedural speech",
+          "creator": "Denframe; eSpeak NG procedural speech",
           "license": "CC0-1.0",
           "attribution": "Original word selection; synthetic voice, published without a listening review.",
           "source": "https://sourceforge.net/p/espeak/discussion/538920/thread/c6944a60/",
@@ -61,7 +61,7 @@
         "media_type": "audio/mpeg",
         "duration_seconds": 0.86576,
         "credit": {
-          "creator": "Mantel; eSpeak NG procedural speech",
+          "creator": "Denframe; eSpeak NG procedural speech",
           "license": "CC0-1.0",
           "attribution": "Original word selection; synthetic voice, published without a listening review.",
           "source": "https://sourceforge.net/p/espeak/discussion/538920/thread/c6944a60/",
@@ -75,7 +75,7 @@
         "media_type": "audio/mpeg",
         "duration_seconds": 0.823084,
         "credit": {
-          "creator": "Mantel; eSpeak NG procedural speech",
+          "creator": "Denframe; eSpeak NG procedural speech",
           "license": "CC0-1.0",
           "attribution": "Original word selection; synthetic voice, published without a listening review.",
           "source": "https://sourceforge.net/p/espeak/discussion/538920/thread/c6944a60/",
@@ -89,7 +89,7 @@
         "media_type": "audio/mpeg",
         "duration_seconds": 1.000952,
         "credit": {
-          "creator": "Mantel; eSpeak NG procedural speech",
+          "creator": "Denframe; eSpeak NG procedural speech",
           "license": "CC0-1.0",
           "attribution": "Original word selection; synthetic voice, published without a listening review.",
           "source": "https://sourceforge.net/p/espeak/discussion/538920/thread/c6944a60/",
@@ -103,7 +103,7 @@
         "media_type": "audio/mpeg",
         "duration_seconds": 0.866395,
         "credit": {
-          "creator": "Mantel; eSpeak NG procedural speech",
+          "creator": "Denframe; eSpeak NG procedural speech",
           "license": "CC0-1.0",
           "attribution": "Original word selection; synthetic voice, published without a listening review.",
           "source": "https://sourceforge.net/p/espeak/discussion/538920/thread/c6944a60/",
@@ -117,7 +117,7 @@
         "media_type": "audio/mpeg",
         "duration_seconds": 0.791156,
         "credit": {
-          "creator": "Mantel; eSpeak NG procedural speech",
+          "creator": "Denframe; eSpeak NG procedural speech",
           "license": "CC0-1.0",
           "attribution": "Original word selection; synthetic voice, published without a listening review.",
           "source": "https://sourceforge.net/p/espeak/discussion/538920/thread/c6944a60/",
@@ -131,7 +131,7 @@
         "media_type": "audio/mpeg",
         "duration_seconds": 0.929478,
         "credit": {
-          "creator": "Mantel; eSpeak NG procedural speech",
+          "creator": "Denframe; eSpeak NG procedural speech",
           "license": "CC0-1.0",
           "attribution": "Original word selection; synthetic voice, published without a listening review.",
           "source": "https://sourceforge.net/p/espeak/discussion/538920/thread/c6944a60/",
@@ -145,7 +145,7 @@
         "media_type": "audio/mpeg",
         "duration_seconds": 0.832245,
         "credit": {
-          "creator": "Mantel; eSpeak NG procedural speech",
+          "creator": "Denframe; eSpeak NG procedural speech",
           "license": "CC0-1.0",
           "attribution": "Original word selection; synthetic voice, published without a listening review.",
           "source": "https://sourceforge.net/p/espeak/discussion/538920/thread/c6944a60/",
@@ -159,7 +159,7 @@
         "media_type": "audio/mpeg",
         "duration_seconds": 0.751882,
         "credit": {
-          "creator": "Mantel; eSpeak NG procedural speech",
+          "creator": "Denframe; eSpeak NG procedural speech",
           "license": "CC0-1.0",
           "attribution": "Original word selection; synthetic voice, published without a listening review.",
           "source": "https://sourceforge.net/p/espeak/discussion/538920/thread/c6944a60/",
@@ -173,7 +173,7 @@
         "media_type": "audio/mpeg",
         "duration_seconds": 0.851837,
         "credit": {
-          "creator": "Mantel; eSpeak NG procedural speech",
+          "creator": "Denframe; eSpeak NG procedural speech",
           "license": "CC0-1.0",
           "attribution": "Original word selection; synthetic voice, published without a listening review.",
           "source": "https://sourceforge.net/p/espeak/discussion/538920/thread/c6944a60/",
@@ -187,7 +187,7 @@
         "media_type": "audio/mpeg",
         "duration_seconds": 0.792789,
         "credit": {
-          "creator": "Mantel; eSpeak NG procedural speech",
+          "creator": "Denframe; eSpeak NG procedural speech",
           "license": "CC0-1.0",
           "attribution": "Original word selection; synthetic voice, published without a listening review.",
           "source": "https://sourceforge.net/p/espeak/discussion/538920/thread/c6944a60/",
@@ -201,7 +201,7 @@
         "media_type": "audio/mpeg",
         "duration_seconds": 1.025578,
         "credit": {
-          "creator": "Mantel; eSpeak NG procedural speech",
+          "creator": "Denframe; eSpeak NG procedural speech",
           "license": "CC0-1.0",
           "attribution": "Original word selection; synthetic voice, published without a listening review.",
           "source": "https://sourceforge.net/p/espeak/discussion/538920/thread/c6944a60/",
@@ -215,7 +215,7 @@
         "media_type": "audio/mpeg",
         "duration_seconds": 0.741633,
         "credit": {
-          "creator": "Mantel; eSpeak NG procedural speech",
+          "creator": "Denframe; eSpeak NG procedural speech",
           "license": "CC0-1.0",
           "attribution": "Original word selection; synthetic voice, published without a listening review.",
           "source": "https://sourceforge.net/p/espeak/discussion/538920/thread/c6944a60/",
@@ -229,7 +229,7 @@
         "media_type": "audio/mpeg",
         "duration_seconds": 0.88322,
         "credit": {
-          "creator": "Mantel; eSpeak NG procedural speech",
+          "creator": "Denframe; eSpeak NG procedural speech",
           "license": "CC0-1.0",
           "attribution": "Original word selection; synthetic voice, published without a listening review.",
           "source": "https://sourceforge.net/p/espeak/discussion/538920/thread/c6944a60/",
@@ -243,7 +243,7 @@
         "media_type": "audio/mpeg",
         "duration_seconds": 0.871927,
         "credit": {
-          "creator": "Mantel; eSpeak NG procedural speech",
+          "creator": "Denframe; eSpeak NG procedural speech",
           "license": "CC0-1.0",
           "attribution": "Original word selection; synthetic voice, published without a listening review.",
           "source": "https://sourceforge.net/p/espeak/discussion/538920/thread/c6944a60/",
@@ -257,7 +257,7 @@
         "media_type": "audio/mpeg",
         "duration_seconds": 0.915737,
         "credit": {
-          "creator": "Mantel; eSpeak NG procedural speech",
+          "creator": "Denframe; eSpeak NG procedural speech",
           "license": "CC0-1.0",
           "attribution": "Original word selection; synthetic voice, published without a listening review.",
           "source": "https://sourceforge.net/p/espeak/discussion/538920/thread/c6944a60/",
@@ -271,7 +271,7 @@
         "media_type": "audio/mpeg",
         "duration_seconds": 0.828798,
         "credit": {
-          "creator": "Mantel; eSpeak NG procedural speech",
+          "creator": "Denframe; eSpeak NG procedural speech",
           "license": "CC0-1.0",
           "attribution": "Original word selection; synthetic voice, published without a listening review.",
           "source": "https://sourceforge.net/p/espeak/discussion/538920/thread/c6944a60/",
@@ -285,7 +285,7 @@
         "media_type": "audio/mpeg",
         "duration_seconds": 0.861678,
         "credit": {
-          "creator": "Mantel; eSpeak NG procedural speech",
+          "creator": "Denframe; eSpeak NG procedural speech",
           "license": "CC0-1.0",
           "attribution": "Original word selection; synthetic voice, published without a listening review.",
           "source": "https://sourceforge.net/p/espeak/discussion/538920/thread/c6944a60/",
@@ -299,7 +299,7 @@
         "media_type": "audio/mpeg",
         "duration_seconds": 0.896961,
         "credit": {
-          "creator": "Mantel; eSpeak NG procedural speech",
+          "creator": "Denframe; eSpeak NG procedural speech",
           "license": "CC0-1.0",
           "attribution": "Original word selection; synthetic voice, published without a listening review.",
           "source": "https://sourceforge.net/p/espeak/discussion/538920/thread/c6944a60/",
@@ -313,7 +313,7 @@
         "media_type": "audio/mpeg",
         "duration_seconds": 0.971338,
         "credit": {
-          "creator": "Mantel; eSpeak NG procedural speech",
+          "creator": "Denframe; eSpeak NG procedural speech",
           "license": "CC0-1.0",
           "attribution": "Original word selection; synthetic voice, published without a listening review.",
           "source": "https://sourceforge.net/p/espeak/discussion/538920/thread/c6944a60/",
@@ -327,7 +327,7 @@
         "media_type": "audio/mpeg",
         "duration_seconds": 0.836984,
         "credit": {
-          "creator": "Mantel; eSpeak NG procedural speech",
+          "creator": "Denframe; eSpeak NG procedural speech",
           "license": "CC0-1.0",
           "attribution": "Original word selection; synthetic voice, published without a listening review.",
           "source": "https://sourceforge.net/p/espeak/discussion/538920/thread/c6944a60/",
@@ -341,7 +341,7 @@
         "media_type": "audio/mpeg",
         "duration_seconds": 1.050159,
         "credit": {
-          "creator": "Mantel; eSpeak NG procedural speech",
+          "creator": "Denframe; eSpeak NG procedural speech",
           "license": "CC0-1.0",
           "attribution": "Original word selection; synthetic voice, published without a listening review.",
           "source": "https://sourceforge.net/p/espeak/discussion/538920/thread/c6944a60/",
@@ -355,7 +355,7 @@
         "media_type": "audio/mpeg",
         "duration_seconds": 0.784989,
         "credit": {
-          "creator": "Mantel; eSpeak NG procedural speech",
+          "creator": "Denframe; eSpeak NG procedural speech",
           "license": "CC0-1.0",
           "attribution": "Original word selection; synthetic voice, published without a listening review.",
           "source": "https://sourceforge.net/p/espeak/discussion/538920/thread/c6944a60/",
@@ -369,7 +369,7 @@
         "media_type": "audio/mpeg",
         "duration_seconds": 0.83941,
         "credit": {
-          "creator": "Mantel; eSpeak NG procedural speech",
+          "creator": "Denframe; eSpeak NG procedural speech",
           "license": "CC0-1.0",
           "attribution": "Original word selection; synthetic voice, published without a listening review.",
           "source": "https://sourceforge.net/p/espeak/discussion/538920/thread/c6944a60/",
@@ -383,7 +383,7 @@
         "media_type": "audio/mpeg",
         "duration_seconds": 0.886531,
         "credit": {
-          "creator": "Mantel; eSpeak NG procedural speech",
+          "creator": "Denframe; eSpeak NG procedural speech",
           "license": "CC0-1.0",
           "attribution": "Original word selection; synthetic voice, published without a listening review.",
           "source": "https://sourceforge.net/p/espeak/discussion/538920/thread/c6944a60/",
@@ -397,7 +397,7 @@
         "media_type": "audio/mpeg",
         "duration_seconds": 0.765533,
         "credit": {
-          "creator": "Mantel; eSpeak NG procedural speech",
+          "creator": "Denframe; eSpeak NG procedural speech",
           "license": "CC0-1.0",
           "attribution": "Original word selection; synthetic voice, published without a listening review.",
           "source": "https://sourceforge.net/p/espeak/discussion/538920/thread/c6944a60/",
@@ -411,7 +411,7 @@
         "media_type": "audio/mpeg",
         "duration_seconds": 0.851247,
         "credit": {
-          "creator": "Mantel; eSpeak NG procedural speech",
+          "creator": "Denframe; eSpeak NG procedural speech",
           "license": "CC0-1.0",
           "attribution": "Original word selection; synthetic voice, published without a listening review.",
           "source": "https://sourceforge.net/p/espeak/discussion/538920/thread/c6944a60/",
@@ -425,7 +425,7 @@
         "media_type": "audio/mpeg",
         "duration_seconds": 0.854966,
         "credit": {
-          "creator": "Mantel; eSpeak NG procedural speech",
+          "creator": "Denframe; eSpeak NG procedural speech",
           "license": "CC0-1.0",
           "attribution": "Original word selection; synthetic voice, published without a listening review.",
           "source": "https://sourceforge.net/p/espeak/discussion/538920/thread/c6944a60/",
@@ -439,7 +439,7 @@
         "media_type": "audio/mpeg",
         "duration_seconds": 0.85288,
         "credit": {
-          "creator": "Mantel; eSpeak NG procedural speech",
+          "creator": "Denframe; eSpeak NG procedural speech",
           "license": "CC0-1.0",
           "attribution": "Original word selection; synthetic voice, published without a listening review.",
           "source": "https://sourceforge.net/p/espeak/discussion/538920/thread/c6944a60/",
@@ -453,7 +453,7 @@
         "media_type": "audio/mpeg",
         "duration_seconds": 0.83932,
         "credit": {
-          "creator": "Mantel; eSpeak NG procedural speech",
+          "creator": "Denframe; eSpeak NG procedural speech",
           "license": "CC0-1.0",
           "attribution": "Original word selection; synthetic voice, published without a listening review.",
           "source": "https://sourceforge.net/p/espeak/discussion/538920/thread/c6944a60/",
@@ -467,7 +467,7 @@
         "media_type": "audio/mpeg",
         "duration_seconds": 0.747483,
         "credit": {
-          "creator": "Mantel; eSpeak NG procedural speech",
+          "creator": "Denframe; eSpeak NG procedural speech",
           "license": "CC0-1.0",
           "attribution": "Original word selection; synthetic voice, published without a listening review.",
           "source": "https://sourceforge.net/p/espeak/discussion/538920/thread/c6944a60/",
@@ -481,7 +481,7 @@
         "media_type": "audio/mpeg",
         "duration_seconds": 0.751429,
         "credit": {
-          "creator": "Mantel; eSpeak NG procedural speech",
+          "creator": "Denframe; eSpeak NG procedural speech",
           "license": "CC0-1.0",
           "attribution": "Original word selection; synthetic voice, published without a listening review.",
           "source": "https://sourceforge.net/p/espeak/discussion/538920/thread/c6944a60/",
@@ -495,7 +495,7 @@
         "media_type": "audio/mpeg",
         "duration_seconds": 0.746213,
         "credit": {
-          "creator": "Mantel; eSpeak NG procedural speech",
+          "creator": "Denframe; eSpeak NG procedural speech",
           "license": "CC0-1.0",
           "attribution": "Original word selection; synthetic voice, published without a listening review.",
           "source": "https://sourceforge.net/p/espeak/discussion/538920/thread/c6944a60/",
@@ -509,7 +509,7 @@
         "media_type": "audio/mpeg",
         "duration_seconds": 0.765488,
         "credit": {
-          "creator": "Mantel; eSpeak NG procedural speech",
+          "creator": "Denframe; eSpeak NG procedural speech",
           "license": "CC0-1.0",
           "attribution": "Original word selection; synthetic voice, published without a listening review.",
           "source": "https://sourceforge.net/p/espeak/discussion/538920/thread/c6944a60/",
@@ -523,7 +523,7 @@
         "media_type": "audio/mpeg",
         "duration_seconds": 0.912426,
         "credit": {
-          "creator": "Mantel; eSpeak NG procedural speech",
+          "creator": "Denframe; eSpeak NG procedural speech",
           "license": "CC0-1.0",
           "attribution": "Original word selection; synthetic voice, published without a listening review.",
           "source": "https://sourceforge.net/p/espeak/discussion/538920/thread/c6944a60/",
@@ -537,7 +537,7 @@
         "media_type": "audio/mpeg",
         "duration_seconds": 0.751519,
         "credit": {
-          "creator": "Mantel; eSpeak NG procedural speech",
+          "creator": "Denframe; eSpeak NG procedural speech",
           "license": "CC0-1.0",
           "attribution": "Original word selection; synthetic voice, published without a listening review.",
           "source": "https://sourceforge.net/p/espeak/discussion/538920/thread/c6944a60/",
@@ -551,7 +551,7 @@
         "media_type": "audio/mpeg",
         "duration_seconds": 0.793379,
         "credit": {
-          "creator": "Mantel; eSpeak NG procedural speech",
+          "creator": "Denframe; eSpeak NG procedural speech",
           "license": "CC0-1.0",
           "attribution": "Original word selection; synthetic voice, published without a listening review.",
           "source": "https://sourceforge.net/p/espeak/discussion/538920/thread/c6944a60/",
@@ -565,7 +565,7 @@
         "media_type": "audio/mpeg",
         "duration_seconds": 0.924535,
         "credit": {
-          "creator": "Mantel; eSpeak NG procedural speech",
+          "creator": "Denframe; eSpeak NG procedural speech",
           "license": "CC0-1.0",
           "attribution": "Original word selection; synthetic voice, published without a listening review.",
           "source": "https://sourceforge.net/p/espeak/discussion/538920/thread/c6944a60/",

@@ -6,15 +6,15 @@
       "title": "Calm and quiet",
       "description": "Art first and the time kept softly, for a room that should feel restful.",
       "items": [
-        "mantel/after-hours",
-        "mantel/theme-painting",
-        "mantel/theme-botanical",
-        "mantel/theme-linen",
-        "mantel/quiet-clock",
-        "mantel/gallery-piece",
-        "mantel/salon-evening",
-        "mantel/night-stand",
-        "mantel/night-clock"
+        "denframe/after-hours",
+        "denframe/theme-painting",
+        "denframe/theme-botanical",
+        "denframe/theme-linen",
+        "denframe/quiet-clock",
+        "denframe/gallery-piece",
+        "denframe/salon-evening",
+        "denframe/night-stand",
+        "denframe/night-clock"
       ]
     },
     {
@@ -22,17 +22,17 @@
       "title": "A good morning",
       "description": "The time, the weather and what comes next, readable on the way out of the door.",
       "items": [
-        "mantel/morning-edition",
-        "mantel/weather-window",
-        "mantel/day-ahead",
-        "mantel/theme-modern",
-        "mantel/quiet-clock",
-        "mantel/sunday-morning",
-        "mantel/front-door",
-        "mantel/big-hour",
-        "mantel/three-day-sky",
-        "mantel/one-headline",
-        "mantel/next-departures"
+        "denframe/morning-edition",
+        "denframe/weather-window",
+        "denframe/day-ahead",
+        "denframe/theme-modern",
+        "denframe/quiet-clock",
+        "denframe/sunday-morning",
+        "denframe/front-door",
+        "denframe/big-hour",
+        "denframe/three-day-sky",
+        "denframe/one-headline",
+        "denframe/next-departures"
       ]
     },
     {
@@ -40,14 +40,14 @@
       "title": "For the kitchen",
       "description": "Plans, small tasks and the forecast, where the whole household passes by.",
       "items": [
-        "mantel/kitchen-table",
-        "mantel/small-victories",
-        "mantel/day-ahead",
-        "mantel/weather-window",
-        "mantel/theme-linen",
-        "mantel/family-week",
-        "mantel/week-ahead",
-        "mantel/shopping-list"
+        "denframe/kitchen-table",
+        "denframe/small-victories",
+        "denframe/day-ahead",
+        "denframe/weather-window",
+        "denframe/theme-linen",
+        "denframe/family-week",
+        "denframe/week-ahead",
+        "denframe/shopping-list"
       ]
     },
     {
@@ -55,13 +55,13 @@
       "title": "Learning together",
       "description": "Short activities to share with a child: first words, animal sounds, small puzzles, telling the time, the Moon and stars, shapes and colours, and a slow breath.",
       "items": [
-        "mantel/first-words",
-        "mantel/animal-sounds",
-        "mantel/tiny-puzzles",
-        "mantel/tell-the-time",
-        "mantel/moon-and-sky",
-        "mantel/shapes-and-colours",
-        "mantel/breathe"
+        "denframe/first-words",
+        "denframe/animal-sounds",
+        "denframe/tiny-puzzles",
+        "denframe/tell-the-time",
+        "denframe/moon-and-sky",
+        "denframe/shapes-and-colours",
+        "denframe/breathe"
       ]
     },
     {
@@ -69,11 +69,11 @@
       "title": "An eye on the markets",
       "description": "A watchlist, a one-line ticker and a focused morning read. The market blocks need a Stocks key.",
       "items": [
-        "mantel/market-desk",
-        "mantel/market-watch",
-        "mantel/theme-ink",
-        "mantel/trading-floor",
-        "mantel/ticker"
+        "denframe/market-desk",
+        "denframe/market-watch",
+        "denframe/theme-ink",
+        "denframe/trading-floor",
+        "denframe/ticker"
       ]
     },
     {
@@ -81,16 +81,16 @@
       "title": "A new look for the room",
       "description": "Colour and mood for a wall that has worn one look for a while, from a lamplit bedside to high contrast across the kitchen.",
       "items": [
-        "mantel/theme-nocturne",
-        "mantel/theme-harbour",
-        "mantel/theme-dusk",
-        "mantel/theme-clear-view",
-        "mantel/theme-terracotta",
-        "mantel/theme-moss",
-        "mantel/theme-salon",
-        "mantel/theme-fjord",
-        "mantel/theme-riso",
-        "mantel/theme-blueprint"
+        "denframe/theme-nocturne",
+        "denframe/theme-harbour",
+        "denframe/theme-dusk",
+        "denframe/theme-clear-view",
+        "denframe/theme-terracotta",
+        "denframe/theme-moss",
+        "denframe/theme-salon",
+        "denframe/theme-fjord",
+        "denframe/theme-riso",
+        "denframe/theme-blueprint"
       ]
     }
   ]

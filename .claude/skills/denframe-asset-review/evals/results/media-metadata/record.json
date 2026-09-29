@@ -1,0 +1,21 @@
+{
+  "id": "quill/garden-shapes",
+  "version": "1.0.0",
+  "kind": "pack",
+  "archive_sha256": "32d417deec5f5b106dc098661a2373fc53e92695efba183e30b5c3c62d6807c3",
+  "source_sha256": null,
+  "submitter_handle": "quill",
+  "reviewer": null,
+  "reviewed_at": null,
+  "statuses": {
+    "identity": "pending",
+    "structure": "fail",
+    "security": "fail",
+    "design": "pending",
+    "content": "pending",
+    "licence": "pending",
+    "listening": "not-applicable",
+    "fluent": "not-applicable"
+  },
+  "verdict": null
+}

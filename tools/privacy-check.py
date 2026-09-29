@@ -47,7 +47,7 @@ def findings(root):
         scan(name, data)
         if relative.parts[0] in {"definitions", "packs"} and path.suffix == ".json":
             fields(name, json.loads(data))
-        if path.suffix == ".mantelpack":
+        if path.suffix == ".denframepack":
             # Deliberately malformed conformance archives stay bounded during this scan.
             try:
                 with zipfile.ZipFile(io.BytesIO(data)) as archive:

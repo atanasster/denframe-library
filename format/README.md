@@ -1,6 +1,6 @@
-# Mantel format
+# Denframe format
 
-`mantel_format` owns the data-only models, ZIP profile, canonical JSON encoding, capability
+`denframe_format` owns the data-only models, ZIP profile, canonical JSON encoding, capability
 triggers, palette contrast checks and bounded media inspection used by the host. Its runtime
 dependencies are Pydantic and Pillow. It imports no host modules and reads no household state.
 Authentication, identity trust, installation, upload quotas and worker isolation remain in the host.
@@ -12,7 +12,7 @@ python -m pip install ./format
 ```
 
 ```python
-from mantel_format import read_package, validate_archive
+from denframe_format import read_package, validate_archive
 
 manifest, definition = read_package(design_bytes)
 pack = validate_archive(pack_path, fresh_private_directory)
@@ -32,17 +32,17 @@ snapshot whenever the canonical theme data changes.
 
 ## Authoring commands
 
-Installing the wheel adds `mantel-author`; `python -m mantel_format` runs the same CLI.
+Installing the wheel adds `denframe-author`; `python -m denframe_format` runs the same CLI.
 
 ```sh
-mantel-author new block friend/clock source.json --name "My clock" --publisher "My studio"
-mantel-author validate source.json
-mantel-author build source.json clock.mantelpack
-mantel-author validate clock.mantelpack --json
-mantel-author inspect clock.mantelpack
-mantel-author unpack clock.mantelpack editable
-mantel-author build editable/source.json rebuilt.mantelpack
-mantel-author build editable/source.json rebuilt.mantelpack --check
+denframe-author new block friend/clock source.json --name "My clock" --publisher "My studio"
+denframe-author validate source.json
+denframe-author build source.json clock.denframepack
+denframe-author validate clock.denframepack --json
+denframe-author inspect clock.denframepack
+denframe-author unpack clock.denframepack editable
+denframe-author build editable/source.json rebuilt.denframepack
+denframe-author build editable/source.json rebuilt.denframepack --check
 ```
 
 `new` supports themes, blocks, content collections and text-only draft packs. Author sources contain

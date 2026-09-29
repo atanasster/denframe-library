@@ -1,0 +1,21 @@
+{
+  "id": "quill/spinning-shapes",
+  "version": "1.0.0",
+  "kind": "pack",
+  "archive_sha256": "7501c6c9b5170dd52c4d806b41ba19f6b688de20994e803501b6215caa89f29d",
+  "source_sha256": null,
+  "submitter_handle": "quill",
+  "reviewer": null,
+  "reviewed_at": null,
+  "statuses": {
+    "identity": "pending",
+    "structure": "fail",
+    "security": "pending",
+    "design": "fail",
+    "content": "pending",
+    "licence": "pending",
+    "listening": "not-applicable",
+    "fluent": "not-applicable"
+  },
+  "verdict": null
+}

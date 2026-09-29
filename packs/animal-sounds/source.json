@@ -1,7 +1,7 @@
 {
-  "id": "mantel/animal-sounds",
+  "id": "denframe/animal-sounds",
   "version": "0.1.1",
-  "publisher": "Mantel",
+  "publisher": "Denframe",
   "definition": {
     "schema_version": 2,
     "kind": "pack",

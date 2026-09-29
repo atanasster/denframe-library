@@ -26,10 +26,10 @@ from library_sources import (  # noqa: E402
     reviewed_source,
     sha256,
 )
-from mantel_format.authoring import read_source  # noqa: E402
-from mantel_format.elements import Definition  # noqa: E402
-from mantel_format.reviews import read_ledger, require_review  # noqa: E402
-from mantel_format.validation import inspect_archive  # noqa: E402
+from denframe_format.authoring import read_source  # noqa: E402
+from denframe_format.elements import Definition  # noqa: E402
+from denframe_format.reviews import read_ledger, require_review  # noqa: E402
+from denframe_format.validation import inspect_archive  # noqa: E402
 
 TOOLS = Path(__file__).resolve().parent
 # The tree checked: this checkout, or `--root` (the owner's merge command checks an exported
@@ -127,7 +127,7 @@ def check_registry():
 
 def check_identities(registry, ledger, sources):
     """Each source's handle is registered; each record's submitter is its id's handle, and its
-    reviewer, when named, a maintainer (the mantel handle's accounts): tools never invent one."""
+    reviewer, when named, a maintainer (the denframe handle's accounts): tools never invent one."""
     handles = publishers_by_handle(registry)
     for package_id, _ in sources:
         if handle_of(package_id) not in handles:
@@ -186,7 +186,7 @@ def check():
         slugs.add(slug)
 
     with tempfile.TemporaryDirectory() as temp:
-        target = Path(temp) / "asset.mantelpack"
+        target = Path(temp) / "asset.denframepack"
         for catalog in ("catalog.json", "starters.json"):
             for item in json.loads((ROOT / "definitions" / catalog).read_text()):
                 definition = Definition.model_validate(item["definition"])

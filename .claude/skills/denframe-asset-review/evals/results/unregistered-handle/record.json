@@ -1,0 +1,21 @@
+{
+  "id": "aurora/dawn",
+  "version": "1.0.0",
+  "kind": "definition",
+  "archive_sha256": "72c1a904f5ae271b4552326e4ec04d0ae61877aee2115b6e82b2d909c003fa3f",
+  "source_sha256": null,
+  "submitter_handle": "aurora",
+  "reviewer": null,
+  "reviewed_at": null,
+  "statuses": {
+    "identity": "fail",
+    "structure": "pass",
+    "security": "pass",
+    "design": "pending",
+    "content": "pending",
+    "licence": "pending",
+    "listening": "not-applicable",
+    "fluent": "not-applicable"
+  },
+  "verdict": null
+}

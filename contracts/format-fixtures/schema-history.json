@@ -145,5 +145,19 @@
       "localized-zero-width",
       "localized-joined"
     ]
+  },
+  {
+    "schema_sha256": "5c502fcb74050ceaece48213ef8ad1dbe5d735959f72bb66f2a8928e45345176",
+    "introduced": [
+      "news-overrides-valid",
+      "news-overrides-too-many",
+      "news-overrides-turns"
+    ]
+  },
+  {
+    "schema_sha256": "0ea4b128810cd6f7ae9b4b7f7af1e878f9809fd5e742c3ad441d777ddcba1a5b",
+    "introduced": [
+      "legacy-format-name"
+    ]
   }
 ]

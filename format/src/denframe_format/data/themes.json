@@ -1,0 +1,158 @@
+[
+  {
+    "id": "denframe/theme-painting",
+    "version": "1.0.0",
+    "kind": "theme",
+    "name": "Painting",
+    "look": "painting",
+    "appearance": {
+      "layout": "stage",
+      "background": "solid",
+      "font": "theme",
+      "spacing": "standard",
+      "tokens": {}
+    },
+    "tokens": {
+      "background": "#17201e",
+      "surface": "#24312d",
+      "captionSurface": "#17201e",
+      "text": "#fffaf0",
+      "mutedText": "#d8ded8",
+      "accent": "#f4cf72",
+      "accentText": "#1b211d",
+      "border": "#718079",
+      "positive": "#22c55e",
+      "negative": "#f87171"
+    }
+  },
+  {
+    "id": "denframe/theme-modern",
+    "version": "1.0.0",
+    "kind": "theme",
+    "name": "Modern",
+    "look": "modern",
+    "appearance": {
+      "layout": "flow",
+      "background": "solid",
+      "font": "theme",
+      "spacing": "standard",
+      "tokens": {}
+    },
+    "tokens": {
+      "background": "#f4f0e6",
+      "surface": "#fffdf7",
+      "captionSurface": "#f4f0e6",
+      "text": "#171914",
+      "mutedText": "#4f554c",
+      "accent": "#284c3f",
+      "accentText": "#ffffff",
+      "border": "#777c70",
+      "positive": "#1a7f37",
+      "negative": "#cf222e"
+    }
+  },
+  {
+    "id": "denframe/theme-glass",
+    "version": "1.0.0",
+    "kind": "theme",
+    "name": "Glass",
+    "look": "glass",
+    "appearance": {
+      "layout": "columns",
+      "background": "aurora",
+      "font": "theme",
+      "spacing": "standard",
+      "tokens": {}
+    },
+    "tokens": {
+      "background": "#12162b",
+      "surface": "#222b4a",
+      "captionSurface": "#183d4c",
+      "text": "#ffffff",
+      "mutedText": "#cbd3f4",
+      "accent": "#8ce6d0",
+      "accentText": "#10201d",
+      "border": "#7380aa",
+      "positive": "#22c55e",
+      "negative": "#f87171"
+    }
+  },
+  {
+    "id": "denframe/theme-ink",
+    "version": "1.0.0",
+    "kind": "theme",
+    "name": "Ink",
+    "look": "ink",
+    "appearance": {
+      "layout": "flow",
+      "background": "solid",
+      "font": "theme",
+      "spacing": "standard",
+      "tokens": {}
+    },
+    "tokens": {
+      "background": "#111316",
+      "surface": "#1b1f24",
+      "captionSurface": "#111316",
+      "text": "#f5f7f8",
+      "mutedText": "#c3cbd2",
+      "accent": "#d7e2ea",
+      "accentText": "#111316",
+      "border": "#7b8790",
+      "positive": "#5bd18b",
+      "negative": "#ff8a8a"
+    }
+  },
+  {
+    "id": "denframe/theme-linen",
+    "version": "1.0.0",
+    "kind": "theme",
+    "name": "Linen",
+    "look": "linen",
+    "appearance": {
+      "layout": "flow",
+      "background": "solid",
+      "font": "theme",
+      "spacing": "standard",
+      "tokens": {}
+    },
+    "tokens": {
+      "background": "#eee6d8",
+      "surface": "#fbf7ef",
+      "captionSurface": "#eee6d8",
+      "text": "#29251f",
+      "mutedText": "#5f574b",
+      "accent": "#79543a",
+      "accentText": "#ffffff",
+      "border": "#817666",
+      "positive": "#26743d",
+      "negative": "#b3393c"
+    }
+  },
+  {
+    "id": "denframe/theme-botanical",
+    "version": "1.0.0",
+    "kind": "theme",
+    "name": "Botanical",
+    "look": "botanical",
+    "appearance": {
+      "layout": "flow",
+      "background": "canopy",
+      "font": "theme",
+      "spacing": "standard",
+      "tokens": {}
+    },
+    "tokens": {
+      "background": "#10231b",
+      "surface": "#1a3428",
+      "captionSurface": "#10231b",
+      "text": "#f4f7ed",
+      "mutedText": "#c7d3c4",
+      "accent": "#b9d46a",
+      "accentText": "#18210f",
+      "border": "#748b78",
+      "positive": "#69d28b",
+      "negative": "#ff9999"
+    }
+  }
+]

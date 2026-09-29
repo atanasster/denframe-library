@@ -1,0 +1,7 @@
+{
+  "schema_version": 1,
+  "publishers": [
+    {"handle": "denframe", "github_account_ids": [6075606], "github_logins": ["atanasster"], "display_name": "Denframe"},
+    {"handle": "aurora", "github_account_ids": [5550001], "github_logins": ["aurora-studio"], "display_name": "Aurora Studio"}
+  ]
+}

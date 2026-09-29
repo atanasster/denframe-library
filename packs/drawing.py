@@ -26,7 +26,7 @@ from pathlib import Path
 from PIL import Image
 
 SIZE = 800
-REPOSITORY = "https://github.com/atanasster/mantel-library/tree/main/packs"
+REPOSITORY = "https://github.com/atanasster/denframe-library/tree/main/packs"
 
 # Stroke numerals in a 10 x 16 box (origin top left), drawn with round caps and joins.
 _DIGITS = {

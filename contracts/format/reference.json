@@ -434,7 +434,7 @@
     "Manifest": [
       [
         "format",
-        "string; value: \"mantelpack\"; default: \"mantelpack\"",
+        "string; value: \"denframepack\"; default: \"denframepack\"",
         "optional"
       ],
       [
@@ -746,7 +746,7 @@
     "PackManifest": [
       [
         "format",
-        "string; value: \"mantelpack\"; default: \"mantelpack\"",
+        "string; value: \"denframepack\"; default: \"denframepack\"",
         "optional"
       ],
       [
@@ -918,12 +918,22 @@
     [
       "news",
       "max_stories",
-      "integer; minimum: 1; maximum: 3 or null; default: null"
+      "integer; minimum: 1; maximum: 6 or null; default: null"
     ],
     [
       "news",
       "show_summary",
       "boolean or null; default: null"
+    ],
+    [
+      "news",
+      "show_pictures",
+      "boolean or null; default: null"
+    ],
+    [
+      "news",
+      "take_turns_seconds",
+      "integer; choices: [30, 60, 120] or null; default: null"
     ],
     [
       "tasks",

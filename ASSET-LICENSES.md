@@ -5,7 +5,7 @@ asset retains its own manifest licence and attribution; the code licence does
 not replace those terms.
 
 The design sources in `definitions/catalog.json` and `definitions/starters.json`
-are Mantel-authored MIT data. Their canonical builder writes MIT into each manifest.
+are Denframe-authored MIT data. Their canonical builder writes MIT into each manifest.
 Compiled host fonts, pictures and renderer assets are not redistributed here by
 those references and retain their own licences.
 

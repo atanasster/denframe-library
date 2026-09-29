@@ -18,12 +18,12 @@ Rules, against the **base** registry (a pull request cannot grant itself authori
 
 - From anyone: no path with a `__pycache__` segment, a `.pyc`/`.pyo`/`.pth` suffix, or under
   `.review/`, and no tracked file the base's `.gitignore` excludes.
-- A maintainer (an account of the `mantel` handle) may change anything else.
+- A maintainer (an account of the `denframe` handle) may change anything else.
 - Everyone else changes only asset sources -- a `definitions/catalog.json` entry, a pack's own
   `packs/<slug>/` folder and its `packs/catalog.json` line, `publishers.json` -- and only under a
   handle registered to their account, or a first-time handle they register to their own id.
 - Never from a non-maintainer: `reviews.json` (decisions are the owner's), a `distribution`
-  (what Mantel ships is the owner's), adding an account to a handle (a transfer), removing or
+  (what Denframe ships is the owner's), adding an account to a handle (a transfer), removing or
   renaming another account of a handle, or anything outside the asset sources (tools, workflows,
   the format, the skill, pack previews, collections, starters, policies).
 """
@@ -37,7 +37,7 @@ SEMANTIC_PATHS = ("definitions/catalog.json", "packs/catalog.json", "publishers.
 FORBIDDEN_PARTS = ("__pycache__",)
 FORBIDDEN_SUFFIXES = (".pyc", ".pyo", ".pth")
 FORBIDDEN_PREFIXES = (".review/",)
-MAINTAINERS = "mantel"
+MAINTAINERS = "denframe"
 
 
 class Refused(Exception):

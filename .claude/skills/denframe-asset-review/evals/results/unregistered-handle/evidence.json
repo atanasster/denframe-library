@@ -1,0 +1,248 @@
+{
+  "submission": {
+    "sha256": "72c1a904f5ae271b4552326e4ec04d0ae61877aee2115b6e82b2d909c003fa3f",
+    "size": 951,
+    "archive_sha256": "72c1a904f5ae271b4552326e4ec04d0ae61877aee2115b6e82b2d909c003fa3f",
+    "archive_size": 951,
+    "unwrapped_from_zip": null,
+    "submitter": {
+      "login": "mallory",
+      "id": 5550999
+    },
+    "source": "local",
+    "number": null,
+    "head_sha": null
+  },
+  "release": {
+    "id": "aurora/dawn",
+    "version": "1.0.0",
+    "kind": "theme",
+    "ledger_kind": "definition",
+    "name": "Dawn",
+    "license": "MIT",
+    "publisher": "Local author",
+    "attribution": "",
+    "release_sha256": "72c1a904f5ae271b4552326e4ec04d0ae61877aee2115b6e82b2d909c003fa3f"
+  },
+  "layers": {
+    "archive": "pass",
+    "json": "pass",
+    "schema": "pass",
+    "capabilities": "pass",
+    "contrast": "pass",
+    "media": "not applicable",
+    "trust": "not checked"
+  },
+  "validator_error": null,
+  "rebuild": {
+    "status": "identical",
+    "rebuilt_sha256": "72c1a904f5ae271b4552326e4ec04d0ae61877aee2115b6e82b2d909c003fa3f",
+    "rebuilt_size": 951,
+    "source_sha256": "f11fec2bf90ab5b39340f0a0516c2e1e0e4f09c56049197fb5dd49de17b6e0ee"
+  },
+  "distinctness": {
+    "applies": true,
+    "threshold": 2.0,
+    "nearest": [
+      {
+        "look": "denframe/theme-salon",
+        "distance": 2.49,
+        "roles": {
+          "background": 3.36,
+          "surface": 4.29,
+          "text": 0.75,
+          "mutedText": 3.09,
+          "accent": 6.73,
+          "accentText": 0.96
+        }
+      },
+      {
+        "look": "denframe/theme-moss",
+        "distance": 2.63,
+        "roles": {
+          "background": 2.05,
+          "surface": 2.61,
+          "text": 1.09,
+          "mutedText": 3.06,
+          "accent": 12.44,
+          "accentText": 4.37
+        }
+      },
+      {
+        "look": "denframe/theme-dusk",
+        "distance": 3.82,
+        "roles": {
+          "background": 7.27,
+          "surface": 9.08,
+          "text": 2.35,
+          "mutedText": 7.8,
+          "accent": 0.0,
+          "accentText": 1.67
+        }
+      }
+    ],
+    "look": "ink",
+    "background": "solid",
+    "layout": "flow"
+  },
+  "content": {},
+  "texts": [
+    {
+      "where": "manifest.format",
+      "text": "denframepack"
+    },
+    {
+      "where": "manifest.id",
+      "text": "aurora/dawn"
+    },
+    {
+      "where": "manifest.version",
+      "text": "1.0.0"
+    },
+    {
+      "where": "manifest.license",
+      "text": "MIT"
+    },
+    {
+      "where": "manifest.publisher",
+      "text": "Local author"
+    },
+    {
+      "where": "manifest.attribution",
+      "text": ""
+    },
+    {
+      "where": "manifest.entrypoint",
+      "text": "definition.json"
+    },
+    {
+      "where": "manifest.required_capabilities[0]",
+      "text": "composition-v2"
+    },
+    {
+      "where": "definition.kind",
+      "text": "theme"
+    },
+    {
+      "where": "definition.name",
+      "text": "Dawn"
+    },
+    {
+      "where": "definition.look",
+      "text": "ink"
+    },
+    {
+      "where": "definition.appearance.layout",
+      "text": "flow"
+    },
+    {
+      "where": "definition.appearance.background",
+      "text": "solid"
+    },
+    {
+      "where": "definition.appearance.font",
+      "text": "theme"
+    },
+    {
+      "where": "definition.appearance.spacing",
+      "text": "standard"
+    },
+    {
+      "where": "definition.appearance.tokens.accent",
+      "text": "#ffb48c"
+    },
+    {
+      "where": "definition.appearance.tokens.accentText",
+      "text": "#241404"
+    },
+    {
+      "where": "definition.appearance.tokens.background",
+      "text": "#1f1a12"
+    },
+    {
+      "where": "definition.appearance.tokens.border",
+      "text": "#5a4d3a"
+    },
+    {
+      "where": "definition.appearance.tokens.captionSurface",
+      "text": "#1f1a12"
+    },
+    {
+      "where": "definition.appearance.tokens.mutedText",
+      "text": "#cfc4ad"
+    },
+    {
+      "where": "definition.appearance.tokens.negative",
+      "text": "#ff9f94"
+    },
+    {
+      "where": "definition.appearance.tokens.positive",
+      "text": "#86d69d"
+    },
+    {
+      "where": "definition.appearance.tokens.surface",
+      "text": "#2d261b"
+    },
+    {
+      "where": "definition.appearance.tokens.text",
+      "text": "#f6f0e2"
+    }
+  ],
+  "findings": [
+    {
+      "code": "ID-HANDLE-UNREGISTERED-USE",
+      "area": "identity",
+      "severity": "critical",
+      "title": "A registered handle used by an account it does not list",
+      "evidence": "aurora is registered to Aurora Studio; mallory (account 5550999) is not one of its accounts"
+    },
+    {
+      "code": "DES-PREVIEWS-PENDING",
+      "area": "design",
+      "severity": "note",
+      "title": "Previews at 1920x1080, 1080x1920 and 1024x768 are rendered by us and looked at by a person",
+      "evidence": "not rendered inside the review sandbox"
+    }
+  ],
+  "automated_findings": [
+    "ID-HANDLE-UNREGISTERED-USE",
+    "DES-PREVIEWS-PENDING"
+  ],
+  "reviewer_findings": [],
+  "statuses": {
+    "identity": "fail",
+    "structure": "pass",
+    "security": "pass",
+    "design": "pending",
+    "content": "pending",
+    "licence": "pending",
+    "listening": "not-applicable",
+    "fluent": "not-applicable"
+  },
+  "recommendation": "recommend reject",
+  "draft": {
+    "recommended_verdict": "rejected",
+    "submitted_sha256": "72c1a904f5ae271b4552326e4ec04d0ae61877aee2115b6e82b2d909c003fa3f",
+    "submitted_archive_sha256": "72c1a904f5ae271b4552326e4ec04d0ae61877aee2115b6e82b2d909c003fa3f",
+    "rebuild": "identical",
+    "unpacked_source_sha256": "f11fec2bf90ab5b39340f0a0516c2e1e0e4f09c56049197fb5dd49de17b6e0ee",
+    "source_sha256": "pending: A definition's source hash is its catalog entry's (tools/check.py `reviewed_source`: the entry without `distribution`); the entry gains its slug, mood and description when `tools/intake.py unpack` adds it, and `tools/intake.py approve` computes `source_sha256` from the tree when the owner records their decision.",
+    "submitter_account": {
+      "login": "mallory",
+      "id": 5550999
+    },
+    "findings": [
+      "ID-HANDLE-UNREGISTERED-USE",
+      "DES-PREVIEWS-PENDING"
+    ],
+    "layers": {
+      "archive": "pass",
+      "json": "pass",
+      "schema": "pass",
+      "capabilities": "pass",
+      "contrast": "pass",
+      "media": "not applicable",
+      "trust": "not checked"
+    }
+  }
+}
