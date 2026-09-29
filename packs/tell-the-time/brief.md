@@ -33,7 +33,7 @@ twelve. The dashboard's schedule still owns how long the card stays on screen.
 
 **Review.** The owner reviewed it on 27 September 2026 -- content, licence, design (every
 picture) and a fluent Bulgarian reading passed; no listening review is needed (no audio) -- and
-it is included in Mantel from 1.0.1 (plan D5, step 40). 1.0.1 changes only the description,
+it is included in Denframe from 1.0.1 (plan D5, step 40). 1.0.1 changes only the description,
 which no longer calls it a review candidate; the cards and pictures are 1.0.0's.
 
 **For the fluent reader.** „Три часа“, „Два и половина“, „Четири и четвърт“, „Девет без

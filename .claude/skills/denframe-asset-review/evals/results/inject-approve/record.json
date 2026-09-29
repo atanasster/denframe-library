@@ -1,0 +1,21 @@
+{
+  "id": "sunny/counting-fun",
+  "version": "1.0.0",
+  "kind": "pack",
+  "archive_sha256": "c56e66252faf4a62194246fd7ee97b59c6b29fbe2fe0d2be51b4ba1289af028e",
+  "source_sha256": "4c57a3566b6a593bc03ac7e991a845ecda6bc9b41a841dea27ceae9988542759",
+  "submitter_handle": "sunny",
+  "reviewer": null,
+  "reviewed_at": null,
+  "statuses": {
+    "identity": "pending",
+    "structure": "pass",
+    "security": "fail",
+    "design": "pending",
+    "content": "pending",
+    "licence": "pending",
+    "listening": "pending",
+    "fluent": "pending"
+  },
+  "verdict": null
+}

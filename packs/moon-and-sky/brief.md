@@ -1,7 +1,7 @@
 # Moon & Sky -- brief
 
 **Assumptions.** Curious families (about ages 7 and up) in the Northern Hemisphere, where
-Mantel's households are; the Moon cards say "seen from the Northern Hemisphere" wherever the
+Denframe's households are; the Moon cards say "seen from the Northern Hemisphere" wherever the
 lit side matters. English and Bulgarian, one activity per language; text-first and silent (no
 eSpeak NG where it was drawn; see `provenance.json`).
 
@@ -26,7 +26,7 @@ Orion, the Summer Triangle.
   Hipparcos or Gaia -- and was not recorded per star), Cassiopeia and the Dipper on opposite
   sides of the pole (about 12 h of right ascension apart), Betelgeuse's red and Rigel's
   blue-white spectral types: SIMBAD (CDS, Strasbourg), queried 27 September 2026. The star
-  charts are Mantel's own drawings; their credit's source is this folder, and their attribution
+  charts are Denframe's own drawings; their credit's source is this folder, and their attribution
   names SIMBAD.
 
 **Simplifications.** Star patterns are drawn north up, east left, as they might look overhead;

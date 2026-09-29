@@ -5,7 +5,7 @@ Seven self-contained sources. The first three: 20 Bulgarian/English vocabulary i
 step 39): **Tell the Time** (12 clock faces), **Moon & Sky** (12 Moon phases and star
 patterns), **Shapes & Colours** (12 shape cards) -- English and Bulgarian -- and **Breathe**
 (six breathing cycles, English, ending after the sixth). `catalog.json` places six of them in the
-`library` distribution: they are offered online and do not ship inside Mantel. **Tell the Time**
+`library` distribution: they are offered online and do not ship inside Denframe. **Tell the Time**
 is `included` as **1.0.1**: the owner reviewed it on 27 September 2026 (identity, design,
 content, licence and the Bulgarian reading passed; silent, so listening does not apply), and
 its `approved` record in `reviews.json` pins that exact archive (plan D5, step 40). 1.0.1 is
@@ -27,12 +27,12 @@ later listening review changes their record's `listening` to `pass`.
 **Patch releases (28 September 2026):** First Words, Animal Sounds and Tiny Puzzles **0.1.1**
 and Moon & Sky and Shapes & Colours **1.0.1** are the approved releases' cards, pictures and
 recordings with the stale review-status wording removed -- descriptions that no longer call
-them review candidates, the publisher `Mantel` (was "Mantel reference drafts"), and First
+them review candidates, the publisher `Denframe` (was "Denframe reference drafts"), and First
 Words' credits saying its recordings were published without a listening review. The owner
 approved the new bytes on the same terms; each record replaced its predecessor's (one record
 per catalogued source), and the drawn packs' pictures are byte-identical.
 
-Text selection and puzzles were drafted for Mantel with AI assistance and are
+Text selection and puzzles were drafted for Denframe with AI assistance and are
 provided under CC0-1.0. Vocabulary words and mathematical facts remain ordinary
 words/facts. No Armodini text, illustrations, recordings, trademark or teaching
 claims were copied.
@@ -72,7 +72,7 @@ as an 8-bit palette PNG with **no metadata chunks** (no text, time, colour profi
 No font is used; clock numerals are drawn strokes. Run `python3 packs/<slug>/draw.py` from
 the repository root to redraw; the committed bytes are what builds use.
 
-- **Credits.** Every picture is original work by Mantel, **CC0-1.0**, with a per-resource
+- **Credits.** Every picture is original work by Denframe, **CC0-1.0**, with a per-resource
   credit (creator, licence, a one-line attribution and its source). Moon & Sky's star charts
   credit the positions and brightnesses they are drawn from in their attribution: *SIMBAD J2000
   values, SIMBAD database, operated at CDS, Strasbourg, France* (queried 27 September 2026); every
@@ -104,7 +104,7 @@ the repository root to redraw; the committed bytes are what builds use.
 ## Preview pictures
 
 `previews/<slug>-{landscape,portrait,square}.png` are captures of each pack's first card from
-the real Mantel renderer (silent author fixture), **without the credits line**: the credits
+the real Denframe renderer (silent author fixture), **without the credits line**: the credits
 are printed as text beside a preview instead (D33). Each `.json` beside them pins the source
 it was captured from. The host's legacy signed pack release keeps the pictures it was signed
 with (credits drawn in) until the owner re-signs it.
@@ -114,8 +114,8 @@ with (credits drawn in) until the owner re-signs it.
 Build from this repository with the standalone toolchain:
 
 ```sh
-mantel-author validate packs/first-words/source.json
-mantel-author build packs/first-words/source.json first-words.mantelpack
+denframe-author validate packs/first-words/source.json
+denframe-author build packs/first-words/source.json first-words.denframepack
 ```
 
 Repeat for every other folder. Output archives must not already

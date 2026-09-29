@@ -178,7 +178,7 @@ PROMPTS = {
 }
 
 CREDIT = {
-    "creator": "Mantel",
+    "creator": "Denframe",
     "license": "CC0-1.0",
     "attribution": "Original clock drawing, made in code with AI assistance.",
     "source": f"{REPOSITORY}/tell-the-time",
@@ -229,9 +229,9 @@ def main() -> None:
     write_pack(
         HERE,
         header={
-            "id": "mantel/tell-the-time",
+            "id": "denframe/tell-the-time",
             "version": "1.0.1",
-            "publisher": "Mantel",
+            "publisher": "Denframe",
             "definition": {
                 "schema_version": 2,
                 "kind": "pack",
@@ -267,9 +267,9 @@ def main() -> None:
             },
         ],
         provenance={
-            "pack": "mantel/tell-the-time",
+            "pack": "denframe/tell-the-time",
             "drawn": "2026-09-27",
-            "authorship": "Text and drawing code drafted for Mantel with AI assistance (Claude); "
+            "authorship": "Text and drawing code drafted for Denframe with AI assistance (Claude); "
             "a person reviews every pack before it is approved (plan D26).",
             "narration": "None. eSpeak NG, the only voice the plan allows (D26), was not "
             "installed where the pack was drawn; the cards are text-first and silent.",

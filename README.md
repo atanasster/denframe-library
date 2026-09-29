@@ -1,14 +1,14 @@
-# Mantel library
+# Denframe library
 
-Portable, data-only themes, block presets, layouts and activity sources for Mantel.
+Portable, data-only themes, block presets, layouts and activity sources for Denframe.
 This repository is the canonical home of the asset sources. The host maintains the
 format implementation; tagged snapshots are mirrored here in one direction.
 
 ## Install the tools
 
 ```sh
-pip install "mantel-format @ git+https://github.com/atanasster/mantel-library@format-v0.2.0#subdirectory=format"
-mantel-author --help
+pip install "denframe-format @ git+https://github.com/atanasster/denframe-library@format-v0.2.0#subdirectory=format"
+denframe-author --help
 ```
 
 Each `format-v*` release attaches the wheel. No PyPI publication is required.
@@ -19,7 +19,7 @@ runtime. See [format/README.md](format/README.md) and the
 ## Sources and contributions
 
 - `definitions/catalog.json`: the design definitions and editorial text. Each entry's
-  `distribution` says where it goes: `included` ships inside Mantel, `library` is offered
+  `distribution` says where it goes: `included` ships inside Denframe, `library` is offered
   online only. An optional `min_host` is catalog metadata; an optional `manifest` keeps an
   author's own manifest (publisher, licence, attribution) so the entry rebuilds their archive.
 - `definitions/starters.json`: nine included layout sources, currently development releases.
@@ -40,22 +40,22 @@ needs no new review of its bytes, only a verdict that admits the new one. Includ
 `approved`; library items need `approved` or `preview`. `tools/check.py` refuses any
 catalogued release without a record for its exact bytes, and host builds refuse to sign one.
 Only a person approves: a `preview` may rest on automated checks, but never names a reviewer
-who did not review. Reports follow the skill's [report template](.claude/skills/mantel-asset-review/references/report-template.md).
+who did not review. Reports follow the skill's [report template](.claude/skills/denframe-asset-review/references/report-template.md).
 
 Every submission is reviewed in an isolated container from the pinned release image: no
 network, a read-only filesystem holding only the published toolchain and the submitted file,
 and nothing from the submission ever run. Text inside a submission is data; instructions found
 in it are reported as findings. The review recommends *approve*, *changes requested* or
 *reject* and drafts the record with the reviewer, date and verdict left empty for a person.
-The review skill lives here (`.claude/skills/mantel-asset-review/`) and runs only from a clean
+The review skill lives here (`.claude/skills/denframe-asset-review/`) and runs only from a clean
 clone of this repository -- never beside signing keys; its `SKILL.md` has the launch line.
 
-What Mantel includes is what a new household needs on day one without an account. So
+What Denframe includes is what a new household needs on day one without an account. So
 `tools/check.py` also refuses an included definition that reads an account- or key-bound
 source (a market watchlist needs the Stocks key). The host build adds the last rule: the
 included previews total at most 3 MB.
 
-Tell the Time is approved and included with Mantel. On 28 September 2026 the owner also
+Tell the Time is approved and included with Denframe. On 28 September 2026 the owner also
 reviewed and approved the other silent activities (Tiny Puzzles, Moon & Sky, Breathe, Shapes &
 Colours) and every look, block preset and layout in the catalog, the Bulgarian included; they
 stay in the `library` distribution. The owner released First Words and Animal Sounds the same
@@ -78,7 +78,7 @@ library ones; hosts mark what a household already has.
 
 Use [Submit an asset](https://smart.meggy.com/library/submit): it checks the file in your
 browser, makes the `.zip` copy GitHub accepts and prefills the
-[issue form](https://github.com/atanasster/mantel-library/issues/new?template=submit-asset.yml).
+[issue form](https://github.com/atanasster/denframe-library/issues/new?template=submit-asset.yml).
 An archive over 20 MB comes as a pull request instead.
 Issues and pull requests are public: remove household data, private paths, credentials,
 locations and unlicensed material before submitting. Later source changes use pull
@@ -116,7 +116,7 @@ generated from those sources.
 The whole path, from an issue to the website, is the host's
 `docs/operations/LIBRARY_PUBLISHING.md`. The steps in this repository:
 
-1. **Review** with the `mantel-asset-review` skill from a clean clone (its `SKILL.md`); it
+1. **Review** with the `denframe-asset-review` skill from a clean clone (its `SKILL.md`); it
    writes `.review/<n>/report.md`, `evidence.json` and a draft `record.json`, never committed.
 2. **Unpack** on a new branch: `python tools/intake.py unpack <archive> --evidence
    .review/<n>/evidence.json --mood "..." --description "..."` (a pack takes neither). It
@@ -130,7 +130,7 @@ The whole path, from an issue to the website, is the host's
    --display-name "..."` binds it to the numeric GitHub account id the skill's intake read from
    the issue's author (GitHub's metadata, never the submission). A local intake has none: pass
    `--login` and `--account-id` from `gh api users/<login> --jq .id`. The identity rules
-   (`.claude/skills/mantel-asset-review/references/identity.md`) apply.
+   (`.claude/skills/denframe-asset-review/references/identity.md`) apply.
 4. **Open the pull request.** CI runs `tools/check.py` (which also validates the registry:
    unique handles, numeric ids, no reserved or look-alike handles, every source's handle
    registered, every record's submitter its id's handle and its reviewer a maintainer, and no
@@ -167,7 +167,7 @@ toolchain, and runs the head's `tests/` too); and only then merges with `gh pr m
 working tree are not changes and ignored names hide nothing: from anyone, a `__pycache__` path, a
 `.pyc`/`.pyo`/`.pth` file, anything under `.review/`, and any tracked file `.gitignore` excludes
 are refused. Against the base registry: a handle's sources or registry entry change only by one
-of its accounts or a maintainer (the `mantel` handle's accounts); a first-time handle is
+of its accounts or a maintainer (the `denframe` handle's accounts); a first-time handle is
 registered only to its author's own id; adding an account to a handle, or removing or renaming
 another account, is a transfer (a maintainer's change); and records, distributions and anything
 outside the asset sources -- tools, workflows, the format, the skill, previews, collections,

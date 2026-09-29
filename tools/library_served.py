@@ -1,4 +1,4 @@
-"""The online Mantel Library as the website serves it: the one source of truth (D28).
+"""The online Denframe Library as the website serves it: the one source of truth (D28).
 
 The public repository mirrors this file as `tools/library_served.py`, beside
 `tools/tuf_repository.py`; its daily `Renew library metadata` workflow runs it there. It depends

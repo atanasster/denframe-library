@@ -1,4 +1,0 @@
-interface:
-  display_name: "Mantel Asset Review"
-  short_description: "Review a library submission in a sandbox; recommend, never approve"
-  default_prompt: "Use $mantel-asset-review to review the submission in issue #N of atanasster/mantel-library and write the report and draft reviews.json record."

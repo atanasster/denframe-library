@@ -20,7 +20,7 @@
           "media_type": "image/png",
           "duration_seconds": null,
           "credit": {
-            "creator": "Mantel test fixture",
+            "creator": "Denframe test fixture",
             "license": "CC0-1.0",
             "attribution": "",
             "source": "",
@@ -34,7 +34,7 @@
           "media_type": "audio/mpeg",
           "duration_seconds": 0.2,
           "credit": {
-            "creator": "Mantel test fixture",
+            "creator": "Denframe test fixture",
             "license": "CC0-1.0",
             "attribution": "",
             "source": "",
@@ -108,12 +108,12 @@
     "schema": "manifest",
     "valid": true,
     "value": {
-      "format": "mantelpack",
+      "format": "denframepack",
       "schema_version": 2,
-      "id": "mantel/shape-fixture",
+      "id": "denframe/shape-fixture",
       "version": "1.0.0",
-      "publisher": "Mantel",
-      "definition_sha256": "7132e3218201ce6efdb04792af7922f0b3baaf65f0b658fe8beed1cd5f11ef55",
+      "publisher": "Denframe",
+      "definition_sha256": "2578554a040d10b64a949e3c930c87b2f597c318278570e0c37fddd3e9795919",
       "entrypoint": "definition.json",
       "required_capabilities": [
         "pack-format-v2",
@@ -128,9 +128,9 @@
     "value": {
       "schema_version": 1,
       "content_ref": {
-        "id": "mantel/shape-fixture",
+        "id": "denframe/shape-fixture",
         "version": "1.0.0",
-        "definition_sha256": "7132e3218201ce6efdb04792af7922f0b3baaf65f0b658fe8beed1cd5f11ef55",
+        "definition_sha256": "2578554a040d10b64a949e3c930c87b2f597c318278570e0c37fddd3e9795919",
         "archive_sha256": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
         "activity_id": "shapes"
       },
@@ -171,7 +171,7 @@
           "media_type": "image/png",
           "duration_seconds": null,
           "credit": {
-            "creator": "Mantel test fixture",
+            "creator": "Denframe test fixture",
             "license": "CC0-1.0",
             "attribution": "",
             "source": "",
@@ -185,7 +185,7 @@
           "media_type": "audio/mpeg",
           "duration_seconds": 0.2,
           "credit": {
-            "creator": "Mantel test fixture",
+            "creator": "Denframe test fixture",
             "license": "CC0-1.0",
             "attribution": "",
             "source": "",
@@ -275,7 +275,7 @@
           "media_type": "image/png",
           "duration_seconds": null,
           "credit": {
-            "creator": "Mantel test fixture",
+            "creator": "Denframe test fixture",
             "license": "CC0-1.0",
             "attribution": "",
             "source": "",
@@ -289,7 +289,7 @@
           "media_type": "audio/mpeg",
           "duration_seconds": 0.2,
           "credit": {
-            "creator": "Mantel test fixture",
+            "creator": "Denframe test fixture",
             "license": "CC0-1.0",
             "attribution": "",
             "source": "",
@@ -379,7 +379,7 @@
           "media_type": "image/png",
           "duration_seconds": null,
           "credit": {
-            "creator": "Mantel test fixture",
+            "creator": "Denframe test fixture",
             "license": "CC0-1.0",
             "attribution": "",
             "source": "",
@@ -393,7 +393,7 @@
           "media_type": "audio/mpeg",
           "duration_seconds": 0.2,
           "credit": {
-            "creator": "Mantel test fixture",
+            "creator": "Denframe test fixture",
             "license": "CC0-1.0",
             "attribution": "",
             "source": "",
@@ -483,7 +483,7 @@
           "media_type": "image/png",
           "duration_seconds": null,
           "credit": {
-            "creator": "Mantel test fixture",
+            "creator": "Denframe test fixture",
             "license": "CC0-1.0",
             "attribution": "",
             "source": "",
@@ -497,7 +497,7 @@
           "media_type": "audio/mpeg",
           "duration_seconds": 0.2,
           "credit": {
-            "creator": "Mantel test fixture",
+            "creator": "Denframe test fixture",
             "license": "CC0-1.0",
             "attribution": "",
             "source": "",
@@ -571,11 +571,11 @@
     "schema": "manifest",
     "valid": false,
     "value": {
-      "format": "mantelpack",
+      "format": "denframepack",
       "schema_version": 2,
-      "id": "mantel/shape-fixture",
+      "id": "denframe/shape-fixture",
       "version": "1.0.0",
-      "publisher": "Mantel",
+      "publisher": "Denframe",
       "definition_sha256": "not-a-digest",
       "entrypoint": "definition.json",
       "required_capabilities": [
@@ -589,12 +589,12 @@
     "schema": "manifest",
     "valid": false,
     "value": {
-      "format": "mantelpack",
+      "format": "denframepack",
       "schema_version": 2,
-      "id": "mantel/shape-fixture",
+      "id": "denframe/shape-fixture",
       "version": "1.0.0",
-      "publisher": "Mantel",
-      "definition_sha256": "7132e3218201ce6efdb04792af7922f0b3baaf65f0b658fe8beed1cd5f11ef55",
+      "publisher": "Denframe",
+      "definition_sha256": "2578554a040d10b64a949e3c930c87b2f597c318278570e0c37fddd3e9795919",
       "entrypoint": "definition.json",
       "required_capabilities": [
         "javascript"
@@ -608,9 +608,9 @@
     "value": {
       "schema_version": 1,
       "content_ref": {
-        "id": "mantel/shape-fixture",
+        "id": "denframe/shape-fixture",
         "version": "1.0.0",
-        "definition_sha256": "7132e3218201ce6efdb04792af7922f0b3baaf65f0b658fe8beed1cd5f11ef55",
+        "definition_sha256": "2578554a040d10b64a949e3c930c87b2f597c318278570e0c37fddd3e9795919",
         "archive_sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
         "activity_id": "shapes"
       },
@@ -656,7 +656,7 @@
           "media_type": "image/png",
           "duration_seconds": null,
           "credit": {
-            "creator": "Mantel test fixture",
+            "creator": "Denframe test fixture",
             "license": "CC0-1.0",
             "attribution": "",
             "source": "",
@@ -670,7 +670,7 @@
           "media_type": "audio/mpeg",
           "duration_seconds": 0.2,
           "credit": {
-            "creator": "Mantel test fixture",
+            "creator": "Denframe test fixture",
             "license": "CC0-1.0",
             "attribution": "",
             "source": "",
@@ -745,12 +745,12 @@
     "schema": "manifest",
     "valid": false,
     "value": {
-      "format": "mantelpack",
+      "format": "denframepack",
       "schema_version": 2,
-      "id": "mantel/shape-fixture",
+      "id": "denframe/shape-fixture",
       "version": "1.0.0",
-      "publisher": "Mantel",
-      "definition_sha256": "7132e3218201ce6efdb04792af7922f0b3baaf65f0b658fe8beed1cd5f11ef55",
+      "publisher": "Denframe",
+      "definition_sha256": "2578554a040d10b64a949e3c930c87b2f597c318278570e0c37fddd3e9795919",
       "entrypoint": "definition.json",
       "required_capabilities": [
         "pack-format-v2",
@@ -766,9 +766,9 @@
     "value": {
       "schema_version": 1,
       "content_ref": {
-        "id": "mantel/shape-fixture",
+        "id": "denframe/shape-fixture",
         "version": "1.0.0",
-        "definition_sha256": "7132e3218201ce6efdb04792af7922f0b3baaf65f0b658fe8beed1cd5f11ef55",
+        "definition_sha256": "2578554a040d10b64a949e3c930c87b2f597c318278570e0c37fddd3e9795919",
         "archive_sha256": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
         "activity_id": "shapes"
       },
@@ -798,7 +798,7 @@
           "media_type": "image/png",
           "duration_seconds": null,
           "credit": {
-            "creator": "Mantel test fixture",
+            "creator": "Denframe test fixture",
             "license": "CC0-1.0",
             "attribution": "",
             "source": "",
@@ -812,7 +812,7 @@
           "media_type": "audio/mpeg",
           "duration_seconds": 0.2,
           "credit": {
-            "creator": "Mantel test fixture",
+            "creator": "Denframe test fixture",
             "license": "CC0-1.0",
             "attribution": "",
             "source": "",
@@ -887,12 +887,12 @@
     "name": "manifest rejects Unicode release digits",
     "valid": false,
     "value": {
-      "format": "mantelpack",
+      "format": "denframepack",
       "schema_version": 2,
-      "id": "mantel/shape-fixture",
+      "id": "denframe/shape-fixture",
       "version": "١.٠.٠",
-      "publisher": "Mantel",
-      "definition_sha256": "7132e3218201ce6efdb04792af7922f0b3baaf65f0b658fe8beed1cd5f11ef55",
+      "publisher": "Denframe",
+      "definition_sha256": "2578554a040d10b64a949e3c930c87b2f597c318278570e0c37fddd3e9795919",
       "entrypoint": "definition.json",
       "required_capabilities": [
         "pack-format-v2",
@@ -907,9 +907,9 @@
     "value": {
       "schema_version": 1,
       "content_ref": {
-        "id": "mantel/shape-fixture",
+        "id": "denframe/shape-fixture",
         "version": "١.٠.٠",
-        "definition_sha256": "7132e3218201ce6efdb04792af7922f0b3baaf65f0b658fe8beed1cd5f11ef55",
+        "definition_sha256": "2578554a040d10b64a949e3c930c87b2f597c318278570e0c37fddd3e9795919",
         "archive_sha256": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
         "activity_id": "shapes"
       },
@@ -938,7 +938,7 @@
           "media_type": "image/png",
           "duration_seconds": null,
           "credit": {
-            "creator": "Mantel test fixture",
+            "creator": "Denframe test fixture",
             "license": "CC0-1.0",
             "attribution": "",
             "source": "",
@@ -952,7 +952,7 @@
           "media_type": "audio/mpeg",
           "duration_seconds": 0.2,
           "credit": {
-            "creator": "Mantel test fixture",
+            "creator": "Denframe test fixture",
             "license": "CC0-1.0",
             "attribution": "",
             "source": "",
@@ -1042,7 +1042,7 @@
           "media_type": "image/png",
           "duration_seconds": null,
           "credit": {
-            "creator": "Mantel test fixture",
+            "creator": "Denframe test fixture",
             "license": "CC0-1.0",
             "attribution": "",
             "source": "",
@@ -1056,7 +1056,7 @@
           "media_type": "audio/mpeg",
           "duration_seconds": 0.2,
           "credit": {
-            "creator": "Mantel test fixture",
+            "creator": "Denframe test fixture",
             "license": "CC0-1.0",
             "attribution": "",
             "source": "",
@@ -1146,7 +1146,7 @@
           "media_type": "image/png",
           "duration_seconds": null,
           "credit": {
-            "creator": "Mantel test fixture",
+            "creator": "Denframe test fixture",
             "license": "CC0-1.0",
             "attribution": "",
             "source": "",
@@ -1160,7 +1160,7 @@
           "media_type": "audio/mpeg",
           "duration_seconds": 0.2,
           "credit": {
-            "creator": "Mantel test fixture",
+            "creator": "Denframe test fixture",
             "license": "CC0-1.0",
             "attribution": "",
             "source": "",
@@ -1250,7 +1250,7 @@
           "media_type": "image/png",
           "duration_seconds": null,
           "credit": {
-            "creator": "Mantel test fixture",
+            "creator": "Denframe test fixture",
             "license": "CC0-1.0",
             "attribution": "",
             "source": "",
@@ -1264,7 +1264,7 @@
           "media_type": "audio/mpeg",
           "duration_seconds": 0.2,
           "credit": {
-            "creator": "Mantel test fixture",
+            "creator": "Denframe test fixture",
             "license": "CC0-1.0",
             "attribution": "",
             "source": "",
@@ -1354,7 +1354,7 @@
           "media_type": "image/png",
           "duration_seconds": null,
           "credit": {
-            "creator": "Mantel test fixture",
+            "creator": "Denframe test fixture",
             "license": "CC0-1.0",
             "attribution": "",
             "source": "",
@@ -1368,7 +1368,7 @@
           "media_type": "audio/mpeg",
           "duration_seconds": null,
           "credit": {
-            "creator": "Mantel test fixture",
+            "creator": "Denframe test fixture",
             "license": "CC0-1.0",
             "attribution": "",
             "source": "",
@@ -1458,7 +1458,7 @@
           "media_type": "image/png",
           "duration_seconds": null,
           "credit": {
-            "creator": "Mantel test fixture",
+            "creator": "Denframe test fixture",
             "license": "CC0-1.0",
             "attribution": "",
             "source": "",
@@ -1472,7 +1472,7 @@
           "media_type": "audio/mpeg",
           "duration_seconds": 30,
           "credit": {
-            "creator": "Mantel test fixture",
+            "creator": "Denframe test fixture",
             "license": "CC0-1.0",
             "attribution": "",
             "source": "",
@@ -1562,7 +1562,7 @@
           "media_type": "image/png",
           "duration_seconds": null,
           "credit": {
-            "creator": "Mantel test fixture",
+            "creator": "Denframe test fixture",
             "license": "CC0-1.0",
             "attribution": "",
             "source": "",
@@ -1576,7 +1576,7 @@
           "media_type": "audio/mpeg",
           "duration_seconds": 30.1,
           "credit": {
-            "creator": "Mantel test fixture",
+            "creator": "Denframe test fixture",
             "license": "CC0-1.0",
             "attribution": "",
             "source": "",
@@ -1666,7 +1666,7 @@
           "media_type": "image/png",
           "duration_seconds": 1,
           "credit": {
-            "creator": "Mantel test fixture",
+            "creator": "Denframe test fixture",
             "license": "CC0-1.0",
             "attribution": "",
             "source": "",
@@ -1680,7 +1680,7 @@
           "media_type": "audio/mpeg",
           "duration_seconds": 0.2,
           "credit": {
-            "creator": "Mantel test fixture",
+            "creator": "Denframe test fixture",
             "license": "CC0-1.0",
             "attribution": "",
             "source": "",
@@ -1770,7 +1770,7 @@
           "media_type": "image/png",
           "duration_seconds": null,
           "credit": {
-            "creator": "Mantel test fixture",
+            "creator": "Denframe test fixture",
             "license": "MIT",
             "attribution": "",
             "source": "",
@@ -1784,7 +1784,7 @@
           "media_type": "audio/mpeg",
           "duration_seconds": 0.2,
           "credit": {
-            "creator": "Mantel test fixture",
+            "creator": "Denframe test fixture",
             "license": "CC0-1.0",
             "attribution": "",
             "source": "",
@@ -1874,7 +1874,7 @@
           "media_type": "image/png",
           "duration_seconds": null,
           "credit": {
-            "creator": "Mantel test fixture",
+            "creator": "Denframe test fixture",
             "license": "CC0-1.0",
             "attribution": "",
             "source": "",
@@ -1888,7 +1888,7 @@
           "media_type": "audio/mpeg",
           "duration_seconds": 0.2,
           "credit": {
-            "creator": "Mantel test fixture",
+            "creator": "Denframe test fixture",
             "license": "CC0-1.0",
             "attribution": "",
             "source": "",
@@ -1980,7 +1980,7 @@
           "media_type": "image/png",
           "duration_seconds": null,
           "credit": {
-            "creator": "Mantel test fixture",
+            "creator": "Denframe test fixture",
             "license": "CC0-1.0",
             "attribution": "",
             "source": "",
@@ -1994,7 +1994,7 @@
           "media_type": "audio/mpeg",
           "duration_seconds": 0.2,
           "credit": {
-            "creator": "Mantel test fixture",
+            "creator": "Denframe test fixture",
             "license": "CC0-1.0",
             "attribution": "",
             "source": "",
@@ -2068,12 +2068,12 @@
     "name": "manifest rejects duplicate capability",
     "valid": false,
     "value": {
-      "format": "mantelpack",
+      "format": "denframepack",
       "schema_version": 2,
-      "id": "mantel/shape-fixture",
+      "id": "denframe/shape-fixture",
       "version": "1.0.0",
-      "publisher": "Mantel",
-      "definition_sha256": "7132e3218201ce6efdb04792af7922f0b3baaf65f0b658fe8beed1cd5f11ef55",
+      "publisher": "Denframe",
+      "definition_sha256": "2578554a040d10b64a949e3c930c87b2f597c318278570e0c37fddd3e9795919",
       "entrypoint": "definition.json",
       "required_capabilities": [
         "pack-format-v2",
@@ -2088,9 +2088,9 @@
     "value": {
       "schema_version": 1,
       "content_ref": {
-        "id": "mantel/shape-fixture",
+        "id": "denframe/shape-fixture",
         "version": "1.0.0",
-        "definition_sha256": "7132e3218201ce6efdb04792af7922f0b3baaf65f0b658fe8beed1cd5f11ef55",
+        "definition_sha256": "2578554a040d10b64a949e3c930c87b2f597c318278570e0c37fddd3e9795919",
         "archive_sha256": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
         "activity_id": "shapes"
       },

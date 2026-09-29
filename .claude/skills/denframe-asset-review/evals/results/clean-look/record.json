@@ -1,0 +1,21 @@
+{
+  "id": "brook/lantern",
+  "version": "1.0.0",
+  "kind": "definition",
+  "archive_sha256": "644b60534989ebe07f402c6a6d0d583fe3b644df578e4003a83373d60545c739",
+  "source_sha256": null,
+  "submitter_handle": "brook",
+  "reviewer": null,
+  "reviewed_at": null,
+  "statuses": {
+    "identity": "pending",
+    "structure": "pass",
+    "security": "pass",
+    "design": "pending",
+    "content": "pending",
+    "licence": "pending",
+    "listening": "not-applicable",
+    "fluent": "not-applicable"
+  },
+  "verdict": null
+}

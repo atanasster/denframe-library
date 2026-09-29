@@ -2,8 +2,8 @@
   "additionalProperties": false,
   "properties": {
     "format": {
-      "const": "mantelpack",
-      "default": "mantelpack",
+      "const": "denframepack",
+      "default": "denframepack",
       "title": "Format",
       "type": "string"
     },

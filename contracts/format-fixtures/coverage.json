@@ -48,7 +48,8 @@
   },
   "Versions": {
     "archives": [
-      "bad-version"
+      "bad-version",
+      "legacy-format-name"
     ],
     "fixtures": [
       "catalog-new-fields.json"

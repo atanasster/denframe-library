@@ -1,4 +1,4 @@
-"""The mantel-asset-review skill (plan D23, §6, step 35): the sandbox it runs in, the report and
+"""The denframe-asset-review skill (plan D23, §6, step 35): the sandbox it runs in, the report and
 draft record it writes, the grader's report checks, and the seeded submissions.
 
 The skill lives in the public repository and is vendored here under `library/src`; the review
@@ -13,11 +13,11 @@ import sys
 from pathlib import Path
 
 import pytest
-from mantel_format.authoring import read_source, unpack
-from mantel_format.reviews import ReviewLedger, ReviewRecord, require_review
+from denframe_format.authoring import read_source, unpack
+from denframe_format.reviews import ReviewLedger, ReviewRecord, require_review
 
 PUBLIC = Path(__file__).resolve().parents[1]
-SKILL = PUBLIC / ".claude/skills/mantel-asset-review"
+SKILL = PUBLIC / ".claude/skills/denframe-asset-review"
 SCRIPTS = SKILL / "scripts"
 SEEDED = SKILL / "evals/seeded"
 RELEASE_ENVIRONMENT = PUBLIC / "format/release-environment.json"
@@ -58,13 +58,15 @@ def reference(container, registry=None):
 def review(container, name, login="someone", account=4242, issue=None, registry=None, path=None):
     intake = {"source": "test", "submitter": {"login": login, "id": account}}
     checks = container["review_checks"]
-    archive = path or SEEDED / f"{name}.mantelpack"
+    archive = path or SEEDED / f"{name}.denframepack"
     return checks.review(archive, intake, reference(container, registry), issue)
 
 
 def command(sandbox, tmp_path, name="probe"):
     staged = tmp_path / "stage"
-    return sandbox["docker_command"](staged, tmp_path / "site", name, [], name="mantel-review-test")
+    return sandbox["docker_command"](
+        staged, tmp_path / "site", name, [], name="denframe-review-test"
+    )
 
 
 # -- The sandbox command ----------------------------------------------------------------------
@@ -149,7 +151,7 @@ def test_the_docker_client_gets_none_of_the_host_environment(sandbox, monkeypatc
         "DOCKER_CONTEXT",
         "DOCKER_CONFIG",
         "TMPDIR",
-        "MANTEL_REVIEW_CANARY",
+        "DENFRAME_REVIEW_CANARY",
     }
     argv = " ".join(sandbox["docker_command"](Path("/s"), Path("/t"), "review", [], name="n"))
     # The container gets only the variables the runner names, never the canary or the host's.
@@ -158,17 +160,19 @@ def test_the_docker_client_gets_none_of_the_host_environment(sandbox, monkeypatc
 
 def test_staging_copies_only_the_toolchain_reference_and_submission(sandbox, tmp_path, monkeypatch):
     monkeypatch.setenv("XDG_CACHE_HOME", str(tmp_path))
-    archive = SEEDED / "clean-look.mantelpack"
-    root = sandbox["stage"](files={"submission.mantelpack": archive}, documents={"intake.json": {}})
+    archive = SEEDED / "clean-look.denframepack"
+    root = sandbox["stage"](
+        files={"submission.denframepack": archive}, documents={"intake.json": {}}
+    )
     try:
         assert sorted(p.name for p in root.iterdir()) == ["reference", "submission", "toolchain"]
         assert sorted(p.name for p in (root / "toolchain").iterdir()) == ["format", "review"]
         assert sorted(p.name for p in (root / "submission").iterdir()) == [
             "intake.json",
-            "submission.mantelpack",
+            "submission.denframepack",
         ]
-        assert (root / "submission/submission.mantelpack").read_bytes() == archive.read_bytes()
-        assert (root / "toolchain/format/src/mantel_format/validation.py").is_file()
+        assert (root / "submission/submission.denframepack").read_bytes() == archive.read_bytes()
+        assert (root / "toolchain/format/src/denframe_format/validation.py").is_file()
         assert (root / "reference/publishers.json").is_file()
         assert not any(p.is_symlink() for p in root.rglob("*"))
         assert not any(p.name in {"build", "__pycache__"} for p in root.rglob("*"))
@@ -181,17 +185,17 @@ def test_staging_copies_only_the_toolchain_reference_and_submission(sandbox, tmp
 
 def test_staging_refuses_a_symlinked_submission(sandbox, tmp_path, monkeypatch):
     monkeypatch.setenv("XDG_CACHE_HOME", str(tmp_path))
-    link = tmp_path / "link.mantelpack"
+    link = tmp_path / "link.denframepack"
     link.symlink_to(Path.home())
     with pytest.raises(SystemExit, match="Not a regular file"):
-        sandbox["stage"](files={"submission.mantelpack": link})
+        sandbox["stage"](files={"submission.denframepack": link})
 
 
 def test_the_toolchain_cache_is_per_user_and_refused_when_others_can_write_it(
     sandbox, tmp_path, monkeypatch
 ):
     monkeypatch.setenv("XDG_CACHE_HOME", str(tmp_path / "cache"))
-    assert sandbox["cache_root"]() == tmp_path / "cache/mantel-asset-review"
+    assert sandbox["cache_root"]() == tmp_path / "cache/denframe-asset-review"
     monkeypatch.delenv("XDG_CACHE_HOME")
     assert sandbox["cache_root"]().is_relative_to(Path.home())
     mine = tmp_path / "mine"
@@ -206,9 +210,9 @@ def test_the_toolchain_cache_is_per_user_and_refused_when_others_can_write_it(
 
 
 def test_local_intake_records_size_hash_and_submitter(sandbox, tmp_path):
-    sandbox["intake_local"](SEEDED / "clean-look.mantelpack", "brook-author", 7, None, tmp_path)
+    sandbox["intake_local"](SEEDED / "clean-look.denframepack", "brook-author", 7, None, tmp_path)
     intake = json.loads((tmp_path / "intake.json").read_text())
-    data = (SEEDED / "clean-look.mantelpack").read_bytes()
+    data = (SEEDED / "clean-look.denframepack").read_bytes()
     assert intake["archive_sha256"] == hashlib.sha256(data).hexdigest()
     assert intake["archive_size"] == len(data)
     assert intake["submitter"] == {"login": "brook-author", "id": 7}
@@ -245,7 +249,7 @@ def test_draft_records_hold_exactly_the_ledger_fields_and_leave_the_decision_emp
 def test_a_pack_draft_is_the_ledger_record_check_py_accepts_once_a_person_decides(
     container, tmp_path
 ):
-    archive = PUBLIC / "contracts/format-fixtures/archives/pack-valid.mantelpack"
+    archive = PUBLIC / "contracts/format-fixtures/archives/pack-valid.denframepack"
     evidence = review(container, "pack-valid", path=archive)
     record = container["report"].draft_record(evidence)
     decided = {
@@ -388,7 +392,7 @@ def test_ordinary_copy_is_not_an_attack(container, text, code):
 
 def test_appended_bytes_and_polyglots_are_critical(container):
     checks = container["review_checks"]
-    data = (SEEDED / "clean-look.mantelpack").read_bytes()
+    data = (SEEDED / "clean-look.denframepack").read_bytes()
     assert checks.zip_layout(data) == []
     assert {f.code for f in checks.zip_layout(data + b"tail")} == {"SEC-APPENDED-DATA"}
     assert {f.code for f in checks.zip_layout(b"GIF89a" + data)} == {"SEC-POLYGLOT"}
@@ -422,9 +426,9 @@ def test_a_payload_hidden_behind_a_second_iend_is_found(container, tmp_path):
 
 def test_look_alike_handles_fold_as_the_website_does(container):
     checks = container["review_checks"]
-    assert checks.passes_as("rnantel", ["mantel"]) == "mantel"
-    assert checks.passes_as("the-mantel-shop", ["mantel"]) == "mantel"
-    assert checks.passes_as("brook", ["mantel"]) is None
+    assert checks.passes_as("denfrarne", ["denframe"]) == "denframe"
+    assert checks.passes_as("the-denframe-shop", ["denframe"]) == "denframe"
+    assert checks.passes_as("brook", ["denframe"]) is None
     reference_data = {"publishers": [], "catalog": {}}
     for handle, expected in (
         ("beam", False),
@@ -432,7 +436,7 @@ def test_look_alike_handles_fold_as_the_website_does(container):
         ("ecosystem", False),
         ("teams", False),
         ("t3am", True),
-        ("rnantel", True),
+        ("denfrarne", True),
     ):
         findings = checks.identity(f"{handle}/x", "1.0.0", [], {"id": 1}, reference_data)
         codes = {f.code for f in findings}
@@ -444,9 +448,9 @@ def test_look_alike_handles_fold_as_the_website_does(container):
 def test_an_update_to_a_catalog_look_is_not_compared_with_itself(container):
     checks = container["review_checks"]
     data = reference(container)
-    glass = data["catalog"]["mantel/theme-glass"]
+    glass = data["catalog"]["denframe/theme-glass"]
     definition = {"kind": "theme", "look": "glass", "appearance": {"tokens": glass["tokens"]}}
-    _, findings = checks.distinctness(definition, data, "mantel/theme-glass")
+    _, findings = checks.distinctness(definition, data, "denframe/theme-glass")
     assert findings == []
     _, findings = checks.distinctness(definition, data, "someone/glass-copy")
     assert [f.code for f in findings] == ["DES-NOT-DISTINCT"]
@@ -509,9 +513,10 @@ def test_the_grader_fails_an_evasive_case_the_reviewer_missed(grade, container, 
 def test_conformance_expectations_are_current_and_come_from_the_corpus(grade):
     committed = json.loads((SKILL / "evals/conformance.json").read_text())
     assert grade["conformance_expectations"]() == committed
-    # One expectation per archive of the pinned public corpus (121 since step 37's localized cases).
+    # One expectation per archive of the pinned public corpus (125 since the news overrides cases
+    # and the Denframe rename's legacy-format-name case).
     corpus = json.loads((SKILL.parents[2] / "contracts/format-fixtures/index.json").read_text())
-    assert len(committed) == len(corpus["archives"]) == 121
+    assert len(committed) == len(corpus["archives"]) == 125
     assert committed["mantel-unsigned"]["recommendation"] == "recommend reject"
     assert committed["traversal"]["findings"] == ["SEC-ZIP-PROFILE"]
 
@@ -538,14 +543,14 @@ def test_the_seeded_archives_rebuild_byte_for_byte():
 
 
 def test_each_seeded_archive_plants_its_problem_where_the_validator_sees_it():
-    from mantel_format.validation import inspect_archive
+    from denframe_format.validation import inspect_archive
 
     failing = {
         "media-metadata": "media",
         "low-contrast": "schema",
         "motion-apng": "media",
     }
-    for path in sorted(SEEDED.glob("*.mantelpack")):
+    for path in sorted(SEEDED.glob("*.denframepack")):
         layers = inspect_archive(path).layers
         failed = next((layer for layer, verdict in layers.items() if verdict == "fail"), None)
         assert failed == failing.get(path.stem), path.stem
@@ -557,12 +562,12 @@ def test_each_seeded_archive_plants_its_problem_where_the_validator_sees_it():
 def test_a_listed_look_is_neither_its_own_twin_nor_its_own_namesake(container, tmp_path):
     """Reviewing a release the catalog already lists (the ten step-37 looks, or an update) never
     compares it with its own entry, by palette or by name; another look's name still counts."""
-    from mantel_format import build_package
-    from mantel_format.elements import Definition
+    from denframe_format import build_package
+    from denframe_format.elements import Definition
 
     catalog = json.loads((PUBLIC / "definitions/catalog.json").read_text())
     fjord = next(entry for entry in catalog if entry["slug"] == "fjord")
-    archive = tmp_path / "fjord.mantelpack"
+    archive = tmp_path / "fjord.denframepack"
     archive.write_bytes(
         build_package(fjord["id"], fjord["version"], Definition.model_validate(fjord["definition"]))
     )

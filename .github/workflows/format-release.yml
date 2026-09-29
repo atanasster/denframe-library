@@ -1,10 +1,10 @@
-# The standalone format toolchain's release, on a `format-v*` tag: build the `mantel-format` wheel,
+# The standalone format toolchain's release, on a `format-v*` tag: build the `denframe-format` wheel,
 # attach it to the GitHub release and -- once the owner has switched it on -- publish the same
 # wheel to PyPI with trusted publishing (OpenID Connect; no API token is stored anywhere).
 #
 # PyPI publishing stays inert until the owner (host docs/operations/LIBRARY_SOURCE_RELEASES.md, "PyPI
-# trusted publishing"): registers a pending trusted publisher for the project `mantel-format` on
-# pypi.org (owner atanasster, repository mantel-library, workflow format-release.yml,
+# trusted publishing"): registers a pending trusted publisher for the project `denframe-format` on
+# pypi.org (owner atanasster, repository denframe-library, workflow format-release.yml,
 # environment pypi), creates the `pypi` environment here (deployment tags `format-v*` only),
 # and sets the repository variable PYPI_PUBLISH to `on`. Only the publish job can mint an
 # OIDC token (`id-token: write`), and it runs no code from the repository: it downloads the
@@ -39,7 +39,7 @@ jobs:
       - name: Keep the wheel for the PyPI job
         uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
         with:
-          name: mantel-format-wheel
+          name: denframe-format-wheel
           path: dist/*.whl
           if-no-files-found: error
           retention-days: 7
@@ -47,7 +47,7 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
           RELEASE_TAG: ${{ github.ref_name }}
-        run: gh release create "$RELEASE_TAG" dist/*.whl --verify-tag --title "$RELEASE_TAG" --notes "Standalone Mantel format toolchain. Asset sources retain their individual licences and review status."
+        run: gh release create "$RELEASE_TAG" dist/*.whl --verify-tag --title "$RELEASE_TAG" --notes "Standalone Denframe format toolchain. Asset sources retain their individual licences and review status."
   pypi:
     needs: wheel
     if: vars.PYPI_PUBLISH == 'on'
@@ -55,14 +55,14 @@ jobs:
     timeout-minutes: 10
     environment:
       name: pypi
-      url: https://pypi.org/project/mantel-format/
+      url: https://pypi.org/project/denframe-format/
     permissions:
       id-token: write
     steps:
       - name: Take the wheel the build job made
         uses: actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c # v8.0.1
         with:
-          name: mantel-format-wheel
+          name: denframe-format-wheel
           path: dist
       - name: Publish to PyPI with trusted publishing
         uses: pypa/gh-action-pypi-publish@dc37677b2e1c63e2034f94d8a5b11f265b73ba33 # v1.14.2

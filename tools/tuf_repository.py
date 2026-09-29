@@ -1,4 +1,4 @@
-"""The Mantel Library's online TUF repository: one root, separate roles, consistent snapshots.
+"""The Denframe Library's online TUF repository: one root, separate roles, consistent snapshots.
 
 The public repository mirrors this file as `tools/tuf_repository.py` and its daily job runs it, so
 it depends only on `tuf`, `securesystemslib` and `cryptography`, never on the host.
@@ -91,7 +91,7 @@ CHANNELS = ("dev", "test", "production")
 LIVE_CHANNELS = ("test", "production")
 # The public test key's seed text: its Ed25519 private key is the SHA-256 of these bytes (UTF-8).
 # Public and constant on purpose, so anyone can reproduce every test signature.
-PUBLIC_TEST_SEED = "mantel-library public test key v1"
+PUBLIC_TEST_SEED = "denframe-library public test key v1"
 _NAME = re.compile(r"[A-Za-z0-9][A-Za-z0-9._-]{0,199}")
 _ID = re.compile(r"[a-z0-9][a-z0-9._/-]{0,199}")
 _VERSION = re.compile(r"[0-9]+\.[0-9]+\.[0-9]+(?:[-+][0-9A-Za-z.-]+)?")
@@ -1162,7 +1162,7 @@ def main(argv: list[str] | None = None) -> int:
         else:
             rows, problems = status(directory, development=args.dev, channel=_mode(args))
             label = "dev" if args.dev else _mode(args) or "production"
-            print(f"Mantel Library repository, channel: {label}")
+            print(f"Denframe Library repository, channel: {label}")
             for row in rows:
                 print(
                     f"{row.role:<10} v{row.version:<6} expires {row.expires.isoformat()} "

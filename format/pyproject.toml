@@ -3,16 +3,16 @@ requires = ["setuptools==84.0.0"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "mantel-format"
+name = "denframe-format"
 license = "MIT"
 license-files = ["LICENSE"]
 version = "0.2.0"
-description = "Portable data-only Mantel archive models and validation."
+description = "Portable data-only Denframe archive models and validation."
 requires-python = ">=3.11"
 dependencies = ["pydantic>=2.9,<3", "pillow>=11,<13"]
 
 [project.scripts]
-mantel-author = "mantel_format.cli:main"
+denframe-author = "denframe_format.cli:main"
 
 [project.optional-dependencies]
 dev = ["setuptools==84.0.0"]
@@ -21,11 +21,11 @@ dev = ["setuptools==84.0.0"]
 where = ["src"]
 
 [tool.setuptools.package-data]
-mantel_format = ["py.typed", "data/*.json"]
+denframe_format = ["py.typed", "data/*.json"]
 
 [tool.ruff]
 line-length = 100
 target-version = "py311"
 
 [tool.ruff.lint.per-file-ignores]
-"src/mantel_format/cli.py" = ["T201"] # The CLI owns human and JSON output.
+"src/denframe_format/cli.py" = ["T201"] # The CLI owns human and JSON output.

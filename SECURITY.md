@@ -1,6 +1,6 @@
 # Security policy
 
-Use [private vulnerability reporting](https://github.com/atanasster/mantel-library/security/advisories/new)
+Use [private vulnerability reporting](https://github.com/atanasster/denframe-library/security/advisories/new)
 for suspected archive-validation escapes, unsafe media processing, identity or signing
 failures. Include the affected tool version, minimal reproduction and expected impact.
 Do not disclose credentials, household records or a working exploit in a public issue.

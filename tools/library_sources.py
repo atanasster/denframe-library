@@ -10,14 +10,14 @@ import re
 import sys
 from pathlib import Path
 
-from mantel_format.authoring import source_manifest
-from mantel_format.elements import Definition, Manifest, build_element, build_package
-from mantel_format.encoding import canonical
+from denframe_format.authoring import source_manifest
+from denframe_format.elements import Definition, Manifest, build_element, build_package
+from denframe_format.encoding import canonical
 
 ROOT = Path(__file__).resolve().parents[1]
 # The review skill's identity checks hold the reserved words and the look-alike folding the
 # website's submit page also uses (identity.md); the registry is held to the same ones.
-SKILL_CHECKS = ROOT / ".claude/skills/mantel-asset-review/scripts/container"
+SKILL_CHECKS = ROOT / ".claude/skills/denframe-asset-review/scripts/container"
 
 DISTRIBUTIONS = ("included", "library")
 # A definition catalog entry, in the order the file keeps its keys. `min_host` is catalog
@@ -32,7 +32,7 @@ MIN_HOST = re.compile(r"[0-9]+\.[0-9]+\.[0-9]+")
 HANDLE = re.compile(r"[a-z0-9][a-z0-9-]{0,38}")
 LOGIN = re.compile(r"[A-Za-z0-9](?:[A-Za-z0-9-]{0,38})")
 CONTROL = re.compile(r"[\x00-\x1f\x7f-\x9f‎‏‪-‮⁦-⁩]")
-MAINTAINERS = "mantel"
+MAINTAINERS = "denframe"
 
 
 def sha256(data):
@@ -57,7 +57,7 @@ def reviewed_source(item):
 
 def definition_archive(item):
     """The archive a definition catalog entry builds: with the entry's own `manifest` when it
-    has one (as `mantel-author build` builds a source document), else the default manifest."""
+    has one (as `denframe-author build` builds a source document), else the default manifest."""
     definition = Definition.model_validate(item["definition"])
     if "manifest" in item:
         values = source_manifest(item, definition, item["manifest"])
@@ -116,7 +116,7 @@ def registry_problems(document):
     """Every way `publishers.json` breaks D19 and identity.md, as sentences (none: valid).
 
     One entry per handle: {handle, github_account_ids (numbers -- logins change), github_logins,
-    display_name}. Handles are unique, never a reserved word (but `mantel`, which must be there),
+    display_name}. Handles are unique, never a reserved word (but `denframe`, which must be there),
     and never pass as another registered handle."""
     if not isinstance(document, dict) or set(document) != {"schema_version", "publishers"}:
         return ["publishers.json must be {schema_version: 1, publishers: [...]}"]
@@ -158,7 +158,7 @@ def registry_problems(document):
         if handle != MAINTAINERS and any(folded(word) == folded(handle) for word in reserved):
             problems.append(f"{handle} is a reserved word (identity.md)")
     if MAINTAINERS not in handles:
-        problems.append("publishers.json must register the mantel handle")
+        problems.append("publishers.json must register the denframe handle")
     for handle in handles:
         twin = passes_as(handle, [other for other in handles if other != handle])
         if twin and handles.index(twin) < handles.index(handle):
@@ -171,6 +171,6 @@ def publishers_by_handle(document):
 
 
 def maintainer_logins(document):
-    """The logins that may name themselves `reviewer` in reviews.json: the mantel handle's."""
+    """The logins that may name themselves `reviewer` in reviews.json: the denframe handle's."""
     entry = publishers_by_handle(document).get(MAINTAINERS, {})
     return {login.casefold() for login in entry.get("github_logins", [])}

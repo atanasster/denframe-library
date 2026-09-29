@@ -8,7 +8,7 @@ body:
     id: asset
     attributes:
       label: Asset and source
-      description: Attach the `.zip` copy the Submit page makes (GitHub does not accept `.mantelpack`), with its ID and version. Over 20 MB, open a pull request instead.
+      description: Attach the `.zip` copy the Submit page makes (GitHub does not accept `.denframepack`), with its ID and version. Over 20 MB, open a pull request instead.
     validations:
       required: true
   - type: textarea

@@ -1,7 +1,7 @@
 {
-  "id": "mantel/breathe",
+  "id": "denframe/breathe",
   "version": "1.0.0",
-  "publisher": "Mantel",
+  "publisher": "Denframe",
   "definition": {
     "schema_version": 2,
     "kind": "pack",
@@ -18,10 +18,10 @@
         "media_type": "image/png",
         "duration_seconds": null,
         "credit": {
-          "creator": "Mantel",
+          "creator": "Denframe",
           "license": "CC0-1.0",
           "attribution": "Original ring drawing, made in code with AI assistance.",
-          "source": "https://github.com/atanasster/mantel-library/tree/main/packs/breathe",
+          "source": "https://github.com/atanasster/denframe-library/tree/main/packs/breathe",
           "modified": false
         }
       },
@@ -32,10 +32,10 @@
         "media_type": "image/png",
         "duration_seconds": null,
         "credit": {
-          "creator": "Mantel",
+          "creator": "Denframe",
           "license": "CC0-1.0",
           "attribution": "Original ring drawing, made in code with AI assistance.",
-          "source": "https://github.com/atanasster/mantel-library/tree/main/packs/breathe",
+          "source": "https://github.com/atanasster/denframe-library/tree/main/packs/breathe",
           "modified": false
         }
       }

@@ -248,7 +248,7 @@ assert STAR_CHARTS <= set(PICTURES)
 
 def credit(key: str) -> dict:
     return {
-        "creator": "Mantel",
+        "creator": "Denframe",
         "license": "CC0-1.0",
         "attribution": STARS_CREDIT if key in STAR_CHARTS else MOON,
         "source": f"{REPOSITORY}/moon-and-sky",
@@ -461,9 +461,9 @@ def main() -> None:
     write_pack(
         HERE,
         header={
-            "id": "mantel/moon-and-sky",
+            "id": "denframe/moon-and-sky",
             "version": "1.0.1",
-            "publisher": "Mantel",
+            "publisher": "Denframe",
             "definition": {
                 "schema_version": 2,
                 "kind": "pack",
@@ -499,9 +499,9 @@ def main() -> None:
             },
         ],
         provenance={
-            "pack": "mantel/moon-and-sky",
+            "pack": "denframe/moon-and-sky",
             "drawn": "2026-09-27",
-            "authorship": "Text and drawing code drafted for Mantel with AI assistance (Claude); "
+            "authorship": "Text and drawing code drafted for Denframe with AI assistance (Claude); "
             "a person reviews every pack before it is approved (plan D26).",
             "narration": "None. eSpeak NG, the only voice the plan allows (D26), was not "
             "installed where the pack was drawn; the cards are text-first and silent.",

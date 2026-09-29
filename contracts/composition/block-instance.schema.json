@@ -32,7 +32,7 @@
       "type": "object"
     }
   },
-  "$id": "urn:mantel:composition:block-instance:1",
+  "$id": "urn:denframe:composition:block-instance:1",
   "additionalProperties": false,
   "description": "Portable instance contract prototype, separate from local scene API records.",
   "properties": {

@@ -1,7 +1,7 @@
 [
   {
     "slug": "daily-brief",
-    "id": "mantel/daily-brief",
+    "id": "denframe/daily-brief",
     "version": "1.0.0",
     "mood": "Everyday",
     "description": "Local weather and time, with headlines when you choose a feed.",
@@ -106,7 +106,7 @@
   },
   {
     "slug": "art-weather",
-    "id": "mantel/art-weather",
+    "id": "denframe/art-weather",
     "version": "1.0.0",
     "mood": "Art & calm",
     "description": "Open Access art with time and optional local weather.",
@@ -211,7 +211,7 @@
   },
   {
     "slug": "world-desk",
-    "id": "mantel/world-desk",
+    "id": "denframe/world-desk",
     "version": "1.0.0",
     "mood": "Everyday",
     "description": "Time and daily currency reference rates for the places you follow.",
@@ -288,7 +288,7 @@
   },
   {
     "slug": "quiet-gallery",
-    "id": "mantel/quiet-gallery",
+    "id": "denframe/quiet-gallery",
     "version": "1.0.0",
     "mood": "Art & calm",
     "description": "A calm rotating Open Access collection with a discreet clock.",
@@ -357,7 +357,7 @@
   },
   {
     "slug": "family-kitchen",
-    "id": "mantel/family-kitchen",
+    "id": "denframe/family-kitchen",
     "version": "1.0.0",
     "mood": "Everyday",
     "description": "Local weather and time, ready for the household's own reminders and plans.",
@@ -523,7 +523,7 @@
   },
   {
     "slug": "welcome-home",
-    "id": "mantel/welcome-home",
+    "id": "denframe/welcome-home",
     "version": "1.0.0",
     "mood": "Art & calm",
     "description": "A warm art display with time, ready for guest information you choose to add.",
@@ -613,7 +613,7 @@
   },
   {
     "slug": "starter-glass",
-    "id": "mantel/starter-glass",
+    "id": "denframe/starter-glass",
     "version": "1.0.0",
     "mood": "A familiar starting point",
     "description": "The Glass dashboard, ready for your sources.",
@@ -674,7 +674,7 @@
   },
   {
     "slug": "starter-modern",
-    "id": "mantel/starter-modern",
+    "id": "denframe/starter-modern",
     "version": "1.0.0",
     "mood": "A familiar starting point",
     "description": "The Modern dashboard, ready for your sources.",
@@ -820,7 +820,7 @@
   },
   {
     "slug": "starter-painting",
-    "id": "mantel/starter-painting",
+    "id": "denframe/starter-painting",
     "version": "1.0.0",
     "mood": "A familiar starting point",
     "description": "The Painting dashboard, ready for your sources.",

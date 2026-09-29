@@ -1,7 +1,7 @@
 [
   {
     "slug": "painting",
-    "id": "mantel/theme-painting",
+    "id": "denframe/theme-painting",
     "version": "1.0.0",
     "distribution": "included",
     "mood": "Gallery · composed · timeless",
@@ -32,7 +32,7 @@
   },
   {
     "slug": "modern",
-    "id": "mantel/theme-modern",
+    "id": "denframe/theme-modern",
     "version": "1.0.0",
     "distribution": "included",
     "mood": "Editorial · confident · clear",
@@ -63,7 +63,7 @@
   },
   {
     "slug": "glass",
-    "id": "mantel/theme-glass",
+    "id": "denframe/theme-glass",
     "version": "1.0.0",
     "distribution": "included",
     "mood": "Atmospheric · luminous · layered",
@@ -94,7 +94,7 @@
   },
   {
     "slug": "ink",
-    "id": "mantel/theme-ink",
+    "id": "denframe/theme-ink",
     "version": "1.0.0",
     "distribution": "included",
     "mood": "Precise · quiet · monochrome",
@@ -125,7 +125,7 @@
   },
   {
     "slug": "linen",
-    "id": "mantel/theme-linen",
+    "id": "denframe/theme-linen",
     "version": "1.0.0",
     "distribution": "included",
     "mood": "Warm · welcoming · tactile",
@@ -156,7 +156,7 @@
   },
   {
     "slug": "botanical",
-    "id": "mantel/theme-botanical",
+    "id": "denframe/theme-botanical",
     "version": "1.0.0",
     "distribution": "included",
     "mood": "Natural · deep · restful",
@@ -187,7 +187,7 @@
   },
   {
     "slug": "market-watch",
-    "id": "mantel/market-watch",
+    "id": "denframe/market-watch",
     "version": "1.0.0",
     "distribution": "library",
     "mood": "A considered watchlist",
@@ -232,7 +232,7 @@
   },
   {
     "slug": "weather-window",
-    "id": "mantel/weather-window",
+    "id": "denframe/weather-window",
     "version": "1.0.0",
     "distribution": "included",
     "mood": "A little outlook",
@@ -277,7 +277,7 @@
   },
   {
     "slug": "day-ahead",
-    "id": "mantel/day-ahead",
+    "id": "denframe/day-ahead",
     "version": "1.0.0",
     "distribution": "included",
     "mood": "One thing, then the next",
@@ -322,7 +322,7 @@
   },
   {
     "slug": "small-victories",
-    "id": "mantel/small-victories",
+    "id": "denframe/small-victories",
     "version": "1.0.0",
     "distribution": "included",
     "mood": "A lighter to-do list",
@@ -367,7 +367,7 @@
   },
   {
     "slug": "quiet-clock",
-    "id": "mantel/quiet-clock",
+    "id": "denframe/quiet-clock",
     "version": "1.0.0",
     "distribution": "included",
     "mood": "Time, beautifully simple",
@@ -409,7 +409,7 @@
   },
   {
     "slug": "gallery-piece",
-    "id": "mantel/gallery-piece",
+    "id": "denframe/gallery-piece",
     "version": "1.0.0",
     "distribution": "included",
     "mood": "Room for the artwork",
@@ -454,7 +454,7 @@
   },
   {
     "slug": "morning-edition",
-    "id": "mantel/morning-edition",
+    "id": "denframe/morning-edition",
     "version": "1.1.0",
     "distribution": "included",
     "mood": "A fresh start",
@@ -527,7 +527,7 @@
   },
   {
     "slug": "kitchen-table",
-    "id": "mantel/kitchen-table",
+    "id": "denframe/kitchen-table",
     "version": "1.1.0",
     "distribution": "included",
     "mood": "The household, together",
@@ -600,7 +600,7 @@
   },
   {
     "slug": "after-hours",
-    "id": "mantel/after-hours",
+    "id": "denframe/after-hours",
     "version": "1.0.0",
     "distribution": "included",
     "mood": "Let the room exhale",
@@ -653,7 +653,7 @@
   },
   {
     "slug": "market-desk",
-    "id": "mantel/market-desk",
+    "id": "denframe/market-desk",
     "version": "1.1.0",
     "distribution": "library",
     "mood": "A focused morning read",
@@ -716,7 +716,7 @@
   },
   {
     "slug": "nocturne",
-    "id": "mantel/theme-nocturne",
+    "id": "denframe/theme-nocturne",
     "version": "1.0.0",
     "distribution": "library",
     "mood": "Late · hushed · lamplit",
@@ -756,7 +756,7 @@
   },
   {
     "slug": "terracotta",
-    "id": "mantel/theme-terracotta",
+    "id": "denframe/theme-terracotta",
     "version": "1.0.0",
     "distribution": "library",
     "mood": "Earthy · sunlit · homely",
@@ -794,7 +794,7 @@
   },
   {
     "slug": "fjord",
-    "id": "mantel/theme-fjord",
+    "id": "denframe/theme-fjord",
     "version": "1.0.0",
     "distribution": "library",
     "mood": "Cool · clear · still",
@@ -832,7 +832,7 @@
   },
   {
     "slug": "dusk",
-    "id": "mantel/theme-dusk",
+    "id": "denframe/theme-dusk",
     "version": "1.0.0",
     "distribution": "library",
     "mood": "Glowing · soft · twilight",
@@ -870,7 +870,7 @@
   },
   {
     "slug": "moss",
-    "id": "mantel/theme-moss",
+    "id": "denframe/theme-moss",
     "version": "1.0.0",
     "distribution": "library",
     "mood": "Mossy · shaded · quiet",
@@ -908,7 +908,7 @@
   },
   {
     "slug": "salon",
-    "id": "mantel/theme-salon",
+    "id": "denframe/theme-salon",
     "version": "1.0.0",
     "distribution": "library",
     "mood": "Velvet · gilded · evening",
@@ -946,7 +946,7 @@
   },
   {
     "slug": "harbour",
-    "id": "mantel/theme-harbour",
+    "id": "denframe/theme-harbour",
     "version": "1.0.0",
     "distribution": "library",
     "mood": "Breezy · crisp · coastal",
@@ -984,7 +984,7 @@
   },
   {
     "slug": "clear-view",
-    "id": "mantel/theme-clear-view",
+    "id": "denframe/theme-clear-view",
     "version": "1.0.0",
     "distribution": "library",
     "mood": "High contrast · plain · direct",
@@ -1022,7 +1022,7 @@
   },
   {
     "slug": "riso",
-    "id": "mantel/theme-riso",
+    "id": "denframe/theme-riso",
     "version": "1.0.0",
     "distribution": "library",
     "mood": "Inky · bright · playful",
@@ -1060,7 +1060,7 @@
   },
   {
     "slug": "blueprint",
-    "id": "mantel/theme-blueprint",
+    "id": "denframe/theme-blueprint",
     "version": "1.0.0",
     "distribution": "library",
     "mood": "Technical · exact · calm",
@@ -1098,7 +1098,7 @@
   },
   {
     "slug": "big-hour",
-    "id": "mantel/big-hour",
+    "id": "denframe/big-hour",
     "version": "1.0.0",
     "distribution": "library",
     "mood": "Bold · centred · unhurried",
@@ -1152,7 +1152,7 @@
   },
   {
     "slug": "night-clock",
-    "id": "mantel/night-clock",
+    "id": "denframe/night-clock",
     "version": "1.0.0",
     "distribution": "library",
     "mood": "Dim · simple · bedside",
@@ -1208,7 +1208,7 @@
   },
   {
     "slug": "week-ahead",
-    "id": "mantel/week-ahead",
+    "id": "denframe/week-ahead",
     "version": "1.0.0",
     "distribution": "library",
     "mood": "Seven days · all-day plans · discreet",
@@ -1267,7 +1267,7 @@
   },
   {
     "slug": "three-day-sky",
-    "id": "mantel/three-day-sky",
+    "id": "denframe/three-day-sky",
     "version": "1.0.0",
     "distribution": "library",
     "mood": "Outlook · practical · plain",
@@ -1325,7 +1325,7 @@
   },
   {
     "slug": "one-headline",
-    "id": "mantel/one-headline",
+    "id": "denframe/one-headline",
     "version": "1.0.0",
     "distribution": "library",
     "mood": "One story · calm · considered",
@@ -1386,7 +1386,7 @@
   },
   {
     "slug": "next-departures",
-    "id": "mantel/next-departures",
+    "id": "denframe/next-departures",
     "version": "1.0.0",
     "distribution": "library",
     "mood": "Leave-by · at a glance · essential",
@@ -1444,7 +1444,7 @@
   },
   {
     "slug": "shopping-list",
-    "id": "mantel/shopping-list",
+    "id": "denframe/shopping-list",
     "version": "1.0.0",
     "distribution": "library",
     "mood": "Short · practical · shared",
@@ -1504,7 +1504,7 @@
   },
   {
     "slug": "ticker",
-    "id": "mantel/ticker",
+    "id": "denframe/ticker",
     "version": "1.0.0",
     "distribution": "library",
     "mood": "Four symbols · one line · focused",
@@ -1570,7 +1570,7 @@
   },
   {
     "slug": "night-stand",
-    "id": "mantel/night-stand",
+    "id": "denframe/night-stand",
     "version": "1.0.0",
     "distribution": "library",
     "mood": "Dark · quiet · bedside",
@@ -1725,22 +1725,22 @@
       "license": "MIT",
       "dependencies": [
         {
-          "id": "mantel/night-clock",
+          "id": "denframe/night-clock",
           "version": "1.0.0",
           "digest": "a3d77e0c7a646b7aeac8ad702795300c3e02da7af5b6a1ef0b428fb554d3192e"
         },
         {
-          "id": "mantel/week-ahead",
+          "id": "denframe/week-ahead",
           "version": "1.0.0",
           "digest": "037b332160d50314c5c45e98b8db6a5efe24693e6de0e263ed1630ad78242996"
         },
         {
-          "id": "mantel/three-day-sky",
+          "id": "denframe/three-day-sky",
           "version": "1.0.0",
           "digest": "d35cbd0112cbbbeba2468d802598a2da6de326ac04b19fa608f7dd3ce539e11e"
         },
         {
-          "id": "mantel/theme-nocturne",
+          "id": "denframe/theme-nocturne",
           "version": "1.0.0",
           "digest": "54b333ea79b28088b2f38197e24df67c71e21f501d0f22893c949ec6c33ec5bd"
         }
@@ -1758,7 +1758,7 @@
   },
   {
     "slug": "sunday-morning",
-    "id": "mantel/sunday-morning",
+    "id": "denframe/sunday-morning",
     "version": "1.0.0",
     "distribution": "library",
     "mood": "Slow · sunlit · unhurried",
@@ -1938,27 +1938,27 @@
       "license": "MIT",
       "dependencies": [
         {
-          "id": "mantel/big-hour",
+          "id": "denframe/big-hour",
           "version": "1.0.0",
           "digest": "85c24c73d9135e7c21fbd4376625b26d75a69b70e9f2beffb3ff4b5c88a489ce"
         },
         {
-          "id": "mantel/one-headline",
+          "id": "denframe/one-headline",
           "version": "1.0.0",
           "digest": "d7be61cd01aa5437e94975c357108389a947cf2f85a2698edfbdef2b552d6aff"
         },
         {
-          "id": "mantel/three-day-sky",
+          "id": "denframe/three-day-sky",
           "version": "1.0.0",
           "digest": "d35cbd0112cbbbeba2468d802598a2da6de326ac04b19fa608f7dd3ce539e11e"
         },
         {
-          "id": "mantel/day-ahead",
+          "id": "denframe/day-ahead",
           "version": "1.0.0",
           "digest": "b9b62f0a18a3af338d36294ad3c2f0c9a73b693035141014b22f4ab1a6b6a06e"
         },
         {
-          "id": "mantel/theme-terracotta",
+          "id": "denframe/theme-terracotta",
           "version": "1.0.0",
           "digest": "16054523bae9d52ad87132fc046c6964efeb45ef40b94a543342002235af384f"
         }
@@ -1976,7 +1976,7 @@
   },
   {
     "slug": "front-door",
-    "id": "mantel/front-door",
+    "id": "denframe/front-door",
     "version": "1.0.0",
     "distribution": "library",
     "mood": "Out the door · practical · breezy",
@@ -2128,22 +2128,22 @@
       "license": "MIT",
       "dependencies": [
         {
-          "id": "mantel/three-day-sky",
+          "id": "denframe/three-day-sky",
           "version": "1.0.0",
           "digest": "d35cbd0112cbbbeba2468d802598a2da6de326ac04b19fa608f7dd3ce539e11e"
         },
         {
-          "id": "mantel/next-departures",
+          "id": "denframe/next-departures",
           "version": "1.0.0",
           "digest": "f3865666050cd68cab7c8fc1bba9f61084c20e84b51d3bd2cb0c6d5ff6ff6ca4"
         },
         {
-          "id": "mantel/day-ahead",
+          "id": "denframe/day-ahead",
           "version": "1.0.0",
           "digest": "b9b62f0a18a3af338d36294ad3c2f0c9a73b693035141014b22f4ab1a6b6a06e"
         },
         {
-          "id": "mantel/theme-harbour",
+          "id": "denframe/theme-harbour",
           "version": "1.0.0",
           "digest": "4eb69b7f6fff33e7ebdeff20b9c8ca24e0c53ee83de42294e27af03a93d10147"
         }
@@ -2161,7 +2161,7 @@
   },
   {
     "slug": "salon-evening",
-    "id": "mantel/salon-evening",
+    "id": "denframe/salon-evening",
     "version": "1.0.0",
     "distribution": "library",
     "mood": "Gilded · hushed · evening",
@@ -2236,17 +2236,17 @@
       "license": "MIT",
       "dependencies": [
         {
-          "id": "mantel/gallery-piece",
+          "id": "denframe/gallery-piece",
           "version": "1.0.0",
           "digest": "f42232212fb814d3827d424880901c2f2306c34f922cfa0cda933347d43183da"
         },
         {
-          "id": "mantel/night-clock",
+          "id": "denframe/night-clock",
           "version": "1.0.0",
           "digest": "a3d77e0c7a646b7aeac8ad702795300c3e02da7af5b6a1ef0b428fb554d3192e"
         },
         {
-          "id": "mantel/theme-salon",
+          "id": "denframe/theme-salon",
           "version": "1.0.0",
           "digest": "0b507a92af6ac4f156d736c1b708e7055e4f560e2ca8ddb8556c527bd526146d"
         }
@@ -2264,7 +2264,7 @@
   },
   {
     "slug": "family-week",
-    "id": "mantel/family-week",
+    "id": "denframe/family-week",
     "version": "1.0.0",
     "distribution": "library",
     "mood": "Busy · shared · colourful",
@@ -2433,17 +2433,17 @@
       "license": "MIT",
       "dependencies": [
         {
-          "id": "mantel/week-ahead",
+          "id": "denframe/week-ahead",
           "version": "1.0.0",
           "digest": "037b332160d50314c5c45e98b8db6a5efe24693e6de0e263ed1630ad78242996"
         },
         {
-          "id": "mantel/shopping-list",
+          "id": "denframe/shopping-list",
           "version": "1.0.0",
           "digest": "506a08b364b5cfe2ab645d881228be1a1432742b4a4dfbf35d338a5c5afc7c9a"
         },
         {
-          "id": "mantel/theme-riso",
+          "id": "denframe/theme-riso",
           "version": "1.0.0",
           "digest": "a0cfb78235b195afd5f878d86cddec4f01cfcc4ca759a4a4df6d8384301bab9e"
         }
@@ -2461,7 +2461,7 @@
   },
   {
     "slug": "trading-floor",
-    "id": "mantel/trading-floor",
+    "id": "denframe/trading-floor",
     "version": "1.0.0",
     "distribution": "library",
     "mood": "Sharp · steady · focused",
@@ -2610,22 +2610,22 @@
       "license": "MIT",
       "dependencies": [
         {
-          "id": "mantel/ticker",
+          "id": "denframe/ticker",
           "version": "1.0.0",
           "digest": "790b5b4bdf0e7cb3acd5766a648a4028f7b796e1dbe4d5290a4c64f8c93674c6"
         },
         {
-          "id": "mantel/market-watch",
+          "id": "denframe/market-watch",
           "version": "1.0.0",
           "digest": "e78e8cda4708334467c3766a8f709dee3f704c62a8d8f229787b73db715d5099"
         },
         {
-          "id": "mantel/one-headline",
+          "id": "denframe/one-headline",
           "version": "1.0.0",
           "digest": "d7be61cd01aa5437e94975c357108389a947cf2f85a2698edfbdef2b552d6aff"
         },
         {
-          "id": "mantel/theme-blueprint",
+          "id": "denframe/theme-blueprint",
           "version": "1.0.0",
           "digest": "c6e6ce925a1632a6cf57099041907b9a02c1e6ac7225815ee1aea89dd5b07f53"
         }

@@ -4,5 +4,5 @@ contact_links:
     url: https://smart.meggy.com/library/submit
     about: Check your file in the browser first; the page prefills the issue with a .zip copy.
   - name: Security vulnerability
-    url: https://github.com/atanasster/mantel-library/security/advisories/new
+    url: https://github.com/atanasster/denframe-library/security/advisories/new
     about: Report security issues privately.

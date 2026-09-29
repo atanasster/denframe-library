@@ -12,8 +12,8 @@
   "archives": [
     {
       "id": "portable-refuses-block-origins",
-      "file": "archives/portable-refuses-block-origins.mantelpack",
-      "sha256": "0f4809b5b9342cfb6239bb9580d9abfbd70403a3cc6b17983d90a910ebe8e952",
+      "file": "archives/portable-refuses-block-origins.denframepack",
+      "sha256": "dc9e21e4800328f900e78881dec65e0f743fabf1e442f90ca2ed9fe45003d40b",
       "version": 1,
       "expected": {
         "host": {
@@ -47,8 +47,8 @@
     },
     {
       "id": "portable-refuses-library-applications",
-      "file": "archives/portable-refuses-library-applications.mantelpack",
-      "sha256": "ff3d73d5caf200c1414156deba0a2dc8e9a62701300314fc2d8585443e3d5f01",
+      "file": "archives/portable-refuses-library-applications.denframepack",
+      "sha256": "5e0abae26989b3c90f082709248722eff546258da6709380df28e467f52b1524",
       "version": 1,
       "expected": {
         "host": {
@@ -82,8 +82,8 @@
     },
     {
       "id": "portable-refuses-legacy-dependencies",
-      "file": "archives/portable-refuses-legacy-dependencies.mantelpack",
-      "sha256": "703227eadf7e179da592baec21d28a26e942808f128e25cf69c7fc07ddbd93af",
+      "file": "archives/portable-refuses-legacy-dependencies.denframepack",
+      "sha256": "fbe56955a7993004262ba3c8d929f5d64c4635a4be3730175824a21a59f0327f",
       "version": 1,
       "expected": {
         "host": {
@@ -117,8 +117,8 @@
     },
     {
       "id": "theme-defaults",
-      "file": "archives/theme-defaults.mantelpack",
-      "sha256": "a6b48092c35eb8987b7b9cee87f2e3063c7df3f602c3f463d61cf3bcbf91aefc",
+      "file": "archives/theme-defaults.denframepack",
+      "sha256": "7e9d645dab3e89ab3de1ef1748e7971985b66cc85dc214674cf3ea82b9b93f6d",
       "version": 1,
       "expected": {
         "host": {
@@ -152,8 +152,8 @@
     },
     {
       "id": "theme-deflate",
-      "file": "archives/theme-deflate.mantelpack",
-      "sha256": "d0ac597f0ad262c9d929aa5e3d71091bb3ca15f5f7a6848c51590e87fd2843f4",
+      "file": "archives/theme-deflate.denframepack",
+      "sha256": "1006851ed790765944cbe981aed0c3f5ea8e30e39669e7d2b70e383c2e8d5086",
       "version": 1,
       "expected": {
         "host": {
@@ -187,8 +187,8 @@
     },
     {
       "id": "rtl-name",
-      "file": "archives/rtl-name.mantelpack",
-      "sha256": "bed4f40d1bc283081b69443aefc0c971f70c97868767b45ae4c25f36eff5c1dd",
+      "file": "archives/rtl-name.denframepack",
+      "sha256": "3f78842608d546c4b803225f0a64b24ac9519debe918a8423ae89106b72f1d7a",
       "version": 1,
       "expected": {
         "host": {
@@ -222,8 +222,8 @@
     },
     {
       "id": "v1-raw-definition-digest",
-      "file": "archives/v1-raw-definition-digest.mantelpack",
-      "sha256": "cc4cbbfea725baa1eea1f6f34ba351372467ac0b439675cefc9a1878e1776587",
+      "file": "archives/v1-raw-definition-digest.denframepack",
+      "sha256": "341092524ef387ff65518556ef1f9000fc1efcba961fce7c5ec72fe6a187b0f2",
       "version": 1,
       "expected": {
         "host": {
@@ -257,8 +257,8 @@
     },
     {
       "id": "local-shared",
-      "file": "archives/local-shared.mantelpack",
-      "sha256": "a826a3d693bb9c512486baf9fcf4fbd6b6c393751c3d7695cb0ae4497406cb33",
+      "file": "archives/local-shared.denframepack",
+      "sha256": "3c95f0c15e50e45ec642cf10fd102fb9f60003b508d21160b3a1f0587e8e10eb",
       "version": 1,
       "expected": {
         "host": {
@@ -292,8 +292,8 @@
     },
     {
       "id": "mantel-unsigned",
-      "file": "archives/mantel-unsigned.mantelpack",
-      "sha256": "ad57de437a072d6fd5985754baf8c912f5a92f9b3e8280cd42bef4e6dec8d2a2",
+      "file": "archives/mantel-unsigned.denframepack",
+      "sha256": "929f2e84ab99c5412d9884ccdf6fcc2203801825aac1608190c2537c3a000913",
       "version": 1,
       "expected": {
         "host": {
@@ -326,9 +326,44 @@
       }
     },
     {
+      "id": "legacy-format-name",
+      "file": "archives/legacy-format-name.denframepack",
+      "sha256": "a6b48092c35eb8987b7b9cee87f2e3063c7df3f602c3f463d61cf3bcbf91aefc",
+      "version": 1,
+      "expected": {
+        "host": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "fail",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        },
+        "cli": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "fail",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        },
+        "browser": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "fail",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        }
+      }
+    },
+    {
       "id": "bad-id",
-      "file": "archives/bad-id.mantelpack",
-      "sha256": "3c19a08ec37da93cbaa73d02913d12fe51c56f37782534174f60d62fbbfaab93",
+      "file": "archives/bad-id.denframepack",
+      "sha256": "a7b1013c91bb34896689d928884a60063bcdb1de6a0180ed307ed15bd81f5292",
       "version": 1,
       "expected": {
         "host": {
@@ -362,8 +397,8 @@
     },
     {
       "id": "bad-version",
-      "file": "archives/bad-version.mantelpack",
-      "sha256": "07fd67a4ea39d5af779667958538800bf3c34774e9c021f11f5c950e9d4aacf1",
+      "file": "archives/bad-version.denframepack",
+      "sha256": "82ceecfd2380e05c84ee2156a2d6685fa591d3a263a06cd281c6472170dc0ad3",
       "version": 1,
       "expected": {
         "host": {
@@ -397,8 +432,8 @@
     },
     {
       "id": "bad-license",
-      "file": "archives/bad-license.mantelpack",
-      "sha256": "7a36a8d45bf8af7131682d795e734c1f5b4555723c7184e54ffe510dda0a162c",
+      "file": "archives/bad-license.denframepack",
+      "sha256": "a4e8de8206adee75a1350152a5ef86962d331693b5e6d3949e32e4bbef9e7aa2",
       "version": 1,
       "expected": {
         "host": {
@@ -432,8 +467,8 @@
     },
     {
       "id": "missing-attribution",
-      "file": "archives/missing-attribution.mantelpack",
-      "sha256": "b301373cb90d9692f02ca85ea9668888d89fb4eb1df756bcd8c425a2ecd948be",
+      "file": "archives/missing-attribution.denframepack",
+      "sha256": "5b5e1f0ce7c0de562cccf6bbe9940cd7a6ab6708656e6dc725fbbb9bdec69fe7",
       "version": 1,
       "expected": {
         "host": {
@@ -467,8 +502,8 @@
     },
     {
       "id": "attribution",
-      "file": "archives/attribution.mantelpack",
-      "sha256": "19c5c95e33728e75ab3ee1049ac67557c5c9b545a272dc1ade714cfe31863865",
+      "file": "archives/attribution.denframepack",
+      "sha256": "7866e6e23d81d8b9a63999d9a874d302a00861789965f5016b50c975717fcd99",
       "version": 1,
       "expected": {
         "host": {
@@ -502,8 +537,8 @@
     },
     {
       "id": "unneeded-capability",
-      "file": "archives/unneeded-capability.mantelpack",
-      "sha256": "aa7667fe78215e37f41eeb920e6a65899ecbcff451f87c9fda51aefee2335f44",
+      "file": "archives/unneeded-capability.denframepack",
+      "sha256": "1dd8df4bcba4a1bf01e6cdfaf69d1bc22a29c79724879332ee1986b7ab9b0e03",
       "version": 1,
       "expected": {
         "host": {
@@ -537,8 +572,8 @@
     },
     {
       "id": "unknown-look",
-      "file": "archives/unknown-look.mantelpack",
-      "sha256": "ae934250d9a206f37aa255f75c518f8afb73022961d5b09fb073e84ed97e56fa",
+      "file": "archives/unknown-look.denframepack",
+      "sha256": "c4efae53e5437d3430dbb1e6f8b3937205b1d8d5fc8568d5bee77d18fd23d39c",
       "version": 1,
       "expected": {
         "host": {
@@ -572,8 +607,8 @@
     },
     {
       "id": "bidi-override",
-      "file": "archives/bidi-override.mantelpack",
-      "sha256": "ea501b44b45dd599a288a6bbb2fadc273de3da3bc930bc04994ee9e3c6109839",
+      "file": "archives/bidi-override.denframepack",
+      "sha256": "a03056a6cac67fa2a2590bbbbdb453f4e4e8f46728653742f0b51c3836e34f47",
       "version": 1,
       "expected": {
         "host": {
@@ -607,8 +642,8 @@
     },
     {
       "id": "bidi-isolate",
-      "file": "archives/bidi-isolate.mantelpack",
-      "sha256": "3d58d9161db80b6905a45765de769589dd74dc46e25006b2e9cc81ab43b35475",
+      "file": "archives/bidi-isolate.denframepack",
+      "sha256": "bd61796083a7c3d04ea39e89f0d2514fc7845443c83df4aa2c14b602412cc934",
       "version": 1,
       "expected": {
         "host": {
@@ -642,8 +677,8 @@
     },
     {
       "id": "c0-control",
-      "file": "archives/c0-control.mantelpack",
-      "sha256": "2f877612ab842047bdec7d633cba321c660e9b06c167b60deb8b946b48b224a1",
+      "file": "archives/c0-control.denframepack",
+      "sha256": "787f20e4125023ff707f3d4b53c013cb1c10ac36a9c7b3b396c258296aa92cbe",
       "version": 1,
       "expected": {
         "host": {
@@ -677,8 +712,8 @@
     },
     {
       "id": "c1-control",
-      "file": "archives/c1-control.mantelpack",
-      "sha256": "0df93e530a7717b67b80f13d08d9d41924468ddff79e81d65d9eeb457bdd5c9b",
+      "file": "archives/c1-control.denframepack",
+      "sha256": "e7c588c54905cb7d659f336f1f8d02ea04679bfa71ae8c0bb63e185b28635831",
       "version": 1,
       "expected": {
         "host": {
@@ -712,8 +747,8 @@
     },
     {
       "id": "duplicate-json-key",
-      "file": "archives/duplicate-json-key.mantelpack",
-      "sha256": "6d895e5fc243fa732675d53daa2618c447b7724d8e936b7751ed3c59dd1b777c",
+      "file": "archives/duplicate-json-key.denframepack",
+      "sha256": "2cab54734865a338b9c0bd03439f243dc167d520003488130f269b29cbc505e1",
       "version": 1,
       "expected": {
         "host": {
@@ -747,8 +782,8 @@
     },
     {
       "id": "nonfinite-json",
-      "file": "archives/nonfinite-json.mantelpack",
-      "sha256": "af9c53269e0d318df0a32b5f197da5e0bf896fe402dc83bc01a478007462797d",
+      "file": "archives/nonfinite-json.denframepack",
+      "sha256": "477ba52ba183713784221384ab2ffab319592bbe530e91eb1c031e2b2aaaa907",
       "version": 1,
       "expected": {
         "host": {
@@ -782,8 +817,8 @@
     },
     {
       "id": "utf16-json",
-      "file": "archives/utf16-json.mantelpack",
-      "sha256": "9e5182eb8c3739562a3ef4539994c2a370cb58bfd6872bef1b58f052727c7293",
+      "file": "archives/utf16-json.denframepack",
+      "sha256": "0b0b83876c3745a5face266dbe6055c451b5038de6489faf7a3816ab1193db97",
       "version": 1,
       "expected": {
         "host": {
@@ -817,8 +852,8 @@
     },
     {
       "id": "wrong-definition-hash",
-      "file": "archives/wrong-definition-hash.mantelpack",
-      "sha256": "5901213420b7c28e04d4d5cec5b3ef2c7367a021deacdb1f27e8bc570caf1168",
+      "file": "archives/wrong-definition-hash.denframepack",
+      "sha256": "9e18e025edfb75e89989bee692d64ab2928d5ba9f7d4a4c5e0ce0a36b5007edd",
       "version": 1,
       "expected": {
         "host": {
@@ -852,8 +887,8 @@
     },
     {
       "id": "missing-document",
-      "file": "archives/missing-document.mantelpack",
-      "sha256": "0bfa4c1d1b9fcc61dd6e9477bebf2c3792772150f264bc966e1e47c60385bb14",
+      "file": "archives/missing-document.denframepack",
+      "sha256": "5ede9798fb91322542307afa116e1c6578e3fbc11bde6dfd447a1fbf8be15a99",
       "version": 1,
       "expected": {
         "host": {
@@ -887,8 +922,8 @@
     },
     {
       "id": "extra-entry",
-      "file": "archives/extra-entry.mantelpack",
-      "sha256": "eb4ffcc55b741ee4361ac5d6f0cdbe2cb7c032d9d96b7c0ec9e9a71e096bed5e",
+      "file": "archives/extra-entry.denframepack",
+      "sha256": "021f6b4662330a31b42172e16c570e5a330b63b19c9e31a1dd0bc8a5ad4dc31f",
       "version": 1,
       "expected": {
         "host": {
@@ -922,8 +957,8 @@
     },
     {
       "id": "traversal",
-      "file": "archives/traversal.mantelpack",
-      "sha256": "4e3655bb5346e2d73d82e49b3fc8d790fb6bac46f90ef6cc564e3694a9df31b0",
+      "file": "archives/traversal.denframepack",
+      "sha256": "35301635987769417f2d3bdabb847a483a6e39d41d4be5abb960e36d5518bd33",
       "version": 1,
       "expected": {
         "host": {
@@ -957,8 +992,8 @@
     },
     {
       "id": "duplicate-entry",
-      "file": "archives/duplicate-entry.mantelpack",
-      "sha256": "85f441b11ca72677f012f9cbc9924e3643a91740e54a6524a3bcb24bbced8991",
+      "file": "archives/duplicate-entry.denframepack",
+      "sha256": "7ddc14f774b9d84c7a62487e01ce8179960d6586f41654013afe7da38ac5462f",
       "version": 1,
       "expected": {
         "host": {
@@ -992,8 +1027,8 @@
     },
     {
       "id": "case-collision",
-      "file": "archives/case-collision.mantelpack",
-      "sha256": "fc63b4467b70e914590d360e68743ed4e4201a8159ef0f3dacd21577041550d6",
+      "file": "archives/case-collision.denframepack",
+      "sha256": "cb798e203431169b6b47828ed78cce0a16dcb81190b80b577727fbaa6badfa01",
       "version": 1,
       "expected": {
         "host": {
@@ -1027,8 +1062,8 @@
     },
     {
       "id": "zip-comment",
-      "file": "archives/zip-comment.mantelpack",
-      "sha256": "22ced8db48ec433f93158f073ddb2c110c873f9f56b5efb6b5fc09786b83415a",
+      "file": "archives/zip-comment.denframepack",
+      "sha256": "7be9127dac9d3c8851201c0a40f242a9a8faf64d0c3d92d48d5a932d5f96cba2",
       "version": 1,
       "expected": {
         "host": {
@@ -1062,8 +1097,8 @@
     },
     {
       "id": "zip-bzip2",
-      "file": "archives/zip-bzip2.mantelpack",
-      "sha256": "5d0443898066617148097406783caffb4cd9609959ec6366864164366a8f8f25",
+      "file": "archives/zip-bzip2.denframepack",
+      "sha256": "37e439f18445a913aa32af4177bed361928afd9947a5dce8f299e72698c448eb",
       "version": 1,
       "expected": {
         "host": {
@@ -1097,8 +1132,8 @@
     },
     {
       "id": "v1-archive-over-limit",
-      "file": "archives/v1-archive-over-limit.mantelpack",
-      "sha256": "24e2850d19c7f3af100793e3e64fc10e1ae37f4c9a69d56d004dd4d6a5fac274",
+      "file": "archives/v1-archive-over-limit.denframepack",
+      "sha256": "0f234517f35c7005ef8c8b1313010dea20c08c0f29f70bbbd0aad47a44e2411a",
       "version": 1,
       "expected": {
         "host": {
@@ -1132,8 +1167,8 @@
     },
     {
       "id": "v1-expanded-over-limit",
-      "file": "archives/v1-expanded-over-limit.mantelpack",
-      "sha256": "8568765f9170726027298759cb9516f88eda910104a195c6a32ae320f5941376",
+      "file": "archives/v1-expanded-over-limit.denframepack",
+      "sha256": "13fe6e9eadc956c93d58ce2150e92a917d602ac37f9c1c69df775b1d299a3ca1",
       "version": 1,
       "expected": {
         "host": {
@@ -1167,8 +1202,8 @@
     },
     {
       "id": "entry-extra-field",
-      "file": "archives/entry-extra-field.mantelpack",
-      "sha256": "cad8c90bfc7e51b6e439d07a6b76981157671af78ac1c63aedfad2d2ac51436b",
+      "file": "archives/entry-extra-field.denframepack",
+      "sha256": "9306a431d4730c365f5eeb02e17927c782b3e495297098a49140eb6640ceca83",
       "version": 1,
       "expected": {
         "host": {
@@ -1202,8 +1237,8 @@
     },
     {
       "id": "entry-comment",
-      "file": "archives/entry-comment.mantelpack",
-      "sha256": "bc8dca505926512029ecc5e09ccedf98f6c495c778992b54ead40c6132ec7015",
+      "file": "archives/entry-comment.denframepack",
+      "sha256": "f6e4603055aec6e9565f118c5db00cb34890f005673ebf28ea3c13c746d8efbd",
       "version": 1,
       "expected": {
         "host": {
@@ -1237,8 +1272,8 @@
     },
     {
       "id": "id-over-limit",
-      "file": "archives/id-over-limit.mantelpack",
-      "sha256": "4ba4a2284279517224aa2c311bf8038d55c39a00d0355fc34f5b33ac3559afa9",
+      "file": "archives/id-over-limit.denframepack",
+      "sha256": "14f1a52a78aafe9c9e11ae00333c2651968ee314307c8c9a2f272bbfb8fe035b",
       "version": 1,
       "expected": {
         "host": {
@@ -1272,7 +1307,7 @@
     },
     {
       "id": "compression-bomb",
-      "file": "archives/compression-bomb.mantelpack",
+      "file": "archives/compression-bomb.denframepack",
       "sha256": "7e38b50b3afb2364a5b827518700383dfccaae72b4eb536b4463dc8e9d77b1c0",
       "version": 1,
       "expected": {
@@ -1307,8 +1342,8 @@
     },
     {
       "id": "split-zip",
-      "file": "archives/split-zip.mantelpack",
-      "sha256": "75f4edbbbe203c77e0ee05a9be03a71c3b4e1eaf8b6589f740d8c15b93dfe09f",
+      "file": "archives/split-zip.denframepack",
+      "sha256": "0da6b71a4f5266a57e6206228914e424648fa633f8b5396abb49d5353bbefc32",
       "version": 1,
       "expected": {
         "host": {
@@ -1342,8 +1377,8 @@
     },
     {
       "id": "unbounded-directory",
-      "file": "archives/unbounded-directory.mantelpack",
-      "sha256": "db81d394b27aa1ee7de3f8787a311ecbd209c2e6b0f6f6a1eab8243c0633b01b",
+      "file": "archives/unbounded-directory.denframepack",
+      "sha256": "b26fb83e258258360f67c64ac8478e2c4c90be5b63e78b09a4abafb3c3be1afa",
       "version": 1,
       "expected": {
         "host": {
@@ -1377,8 +1412,8 @@
     },
     {
       "id": "zip64-count",
-      "file": "archives/zip64-count.mantelpack",
-      "sha256": "bfc97e6f52cee2ad051149c541e403ad9a35b3207912eed54793076e412314d4",
+      "file": "archives/zip64-count.denframepack",
+      "sha256": "2151639f25182614d891f3fd1fcd546a60ecf8ab9bc9bc9551b07346522d3aef",
       "version": 1,
       "expected": {
         "host": {
@@ -1412,8 +1447,8 @@
     },
     {
       "id": "zip64-masked-directory",
-      "file": "archives/zip64-masked-directory.mantelpack",
-      "sha256": "7461687572d6fd257eed2c8591d425ad836b35dbfe51bcc58d61eb5651f4c67b",
+      "file": "archives/zip64-masked-directory.denframepack",
+      "sha256": "50be3ae80f55a194128d0d2419813ba5171ba5d77b1af5f4c3381e85b375af73",
       "version": 1,
       "expected": {
         "host": {
@@ -1447,8 +1482,8 @@
     },
     {
       "id": "symlink",
-      "file": "archives/symlink.mantelpack",
-      "sha256": "a761dda8679e59e072c6cc8415e6e07658257802560aa42e35ae639d6cf860bc",
+      "file": "archives/symlink.denframepack",
+      "sha256": "c6d7cc5e2ab5a066c9d437e31f94192275c6bef003231dbc2d7792e97b05db83",
       "version": 1,
       "expected": {
         "host": {
@@ -1482,8 +1517,8 @@
     },
     {
       "id": "missing-layout-capability",
-      "file": "archives/missing-layout-capability.mantelpack",
-      "sha256": "15df977c8fdba41e0853fa05497840673832e21b02cb640b137fbbc9c7ac2643",
+      "file": "archives/missing-layout-capability.denframepack",
+      "sha256": "155462df10c5c03003ce1929f8140ec8706cdfa6d3cd0ad232f9a4969fedfca0",
       "version": 1,
       "expected": {
         "host": {
@@ -1517,8 +1552,8 @@
     },
     {
       "id": "failing-palette",
-      "file": "archives/failing-palette.mantelpack",
-      "sha256": "8f8992f90fed6681861c8379aeabb6f7d5fd1b6f5bf1e0f6a9e255270ed0ad7e",
+      "file": "archives/failing-palette.denframepack",
+      "sha256": "d30e721ba922cf975837e823d0d978b3d7bb3a6a0a4e96d27be23053603441ac",
       "version": 1,
       "expected": {
         "host": {
@@ -1552,8 +1587,8 @@
     },
     {
       "id": "scrim-contrast",
-      "file": "archives/scrim-contrast.mantelpack",
-      "sha256": "9d7945b5393d7ffe03929850fe7ba8da68706ea7c50fb3358f0785f73d10bc02",
+      "file": "archives/scrim-contrast.denframepack",
+      "sha256": "e5705b9d9993b1db313b93bb9691aac1fc2dba676a3b0063125acbd3a6186ead",
       "version": 1,
       "expected": {
         "host": {
@@ -1587,8 +1622,8 @@
     },
     {
       "id": "clock-block",
-      "file": "archives/clock-block.mantelpack",
-      "sha256": "9b3f9c9d96475c1395c12d4838396db52d077933ae96259c8b4cc10198237e3b",
+      "file": "archives/clock-block.denframepack",
+      "sha256": "b9946826fcb153a80c54e3a5e37207e0f60f51b97cf7d9902382a8b1858967c1",
       "version": 1,
       "expected": {
         "host": {
@@ -1622,8 +1657,8 @@
     },
     {
       "id": "v1-coerced-enabled",
-      "file": "archives/v1-coerced-enabled.mantelpack",
-      "sha256": "eaaf2351c48ca32622654dd60d7d99d9c056b80bb95de8dd3f41403904c6497e",
+      "file": "archives/v1-coerced-enabled.denframepack",
+      "sha256": "35a127bd27d16458964127400882b66adc901f6b02a05d2a397c835a9d22b3a4",
       "version": 1,
       "expected": {
         "host": {
@@ -1657,8 +1692,8 @@
     },
     {
       "id": "v1-coerced-scalars",
-      "file": "archives/v1-coerced-scalars.mantelpack",
-      "sha256": "36e0034b64ab74016325708eb32d5b54b501f894dc6135c35790e08154be51ec",
+      "file": "archives/v1-coerced-scalars.denframepack",
+      "sha256": "3b3aad68a18d973682371b5d03fa09ffaf5fefbdce46d230e6737b2e99ebca86",
       "version": 1,
       "expected": {
         "host": {
@@ -1692,8 +1727,8 @@
     },
     {
       "id": "strict-background-boolean",
-      "file": "archives/strict-background-boolean.mantelpack",
-      "sha256": "daecde9794aeacecccc8c974787fe49112169aa20404bf86a184a6b6d3cb655f",
+      "file": "archives/strict-background-boolean.denframepack",
+      "sha256": "36eea84d90386f2276c171d592f455af382fb138fad510ede13c2f442fdd8dfb",
       "version": 1,
       "expected": {
         "host": {
@@ -1727,8 +1762,8 @@
     },
     {
       "id": "v1-integer-bom",
-      "file": "archives/v1-integer-bom.mantelpack",
-      "sha256": "8b33cd10bd5b174a416befbb0eb968c0a89260f6411e18f5c091d0b870fae7bc",
+      "file": "archives/v1-integer-bom.denframepack",
+      "sha256": "a631331eb161ea82d5431195f989068bcf2fbfe88e76e089f9429c59061ff3c8",
       "version": 1,
       "expected": {
         "host": {
@@ -1762,8 +1797,8 @@
     },
     {
       "id": "v1-focus-bom",
-      "file": "archives/v1-focus-bom.mantelpack",
-      "sha256": "dc0e9457a992a90015c8133b5ce53443ea7b985f2aa50dddc1bad8116e137403",
+      "file": "archives/v1-focus-bom.denframepack",
+      "sha256": "0bc113479486272beaca7e254f8fdec2a9fc73661f5479d8a857f1104112910e",
       "version": 1,
       "expected": {
         "host": {
@@ -1797,8 +1832,8 @@
     },
     {
       "id": "v1-unicode-attribution",
-      "file": "archives/v1-unicode-attribution.mantelpack",
-      "sha256": "0f590988bf96ee3ace66ef39c0984f8232b49131f9125a1f603036c8df882d18",
+      "file": "archives/v1-unicode-attribution.denframepack",
+      "sha256": "38b091c3ffc912966f21c083f30ea0f07f70bb9ae897c2ee5b592889fb960858",
       "version": 1,
       "expected": {
         "host": {
@@ -1832,8 +1867,113 @@
     },
     {
       "id": "strict-override-boolean",
-      "file": "archives/strict-override-boolean.mantelpack",
-      "sha256": "fa9585dc144b3457266884faf20ab7951a5179bb2f966f4069a559a653a23e4d",
+      "file": "archives/strict-override-boolean.denframepack",
+      "sha256": "3041f31db21fc1ddc9fe447b1539100c99edaed2802de785080db6471ae331f9",
+      "version": 1,
+      "expected": {
+        "host": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "fail",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        },
+        "cli": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "fail",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        },
+        "browser": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "fail",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        }
+      }
+    },
+    {
+      "id": "news-overrides-valid",
+      "file": "archives/news-overrides-valid.denframepack",
+      "sha256": "889e15b8705c6e4d95dbfddf873863be25be52b419a3f00428190b181ffff605",
+      "version": 1,
+      "expected": {
+        "host": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "pass",
+          "capabilities": "pass",
+          "contrast": "pass",
+          "media": "not applicable",
+          "trust": "not checked"
+        },
+        "cli": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "pass",
+          "capabilities": "pass",
+          "contrast": "pass",
+          "media": "not applicable",
+          "trust": "not checked"
+        },
+        "browser": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "pass",
+          "capabilities": "pass",
+          "contrast": "pass",
+          "media": "not checked",
+          "trust": "not checked"
+        }
+      }
+    },
+    {
+      "id": "news-overrides-too-many",
+      "file": "archives/news-overrides-too-many.denframepack",
+      "sha256": "325739b97e16e1c625e485f56718d5a109e75d91323872e1d05853070b11ac43",
+      "version": 1,
+      "expected": {
+        "host": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "fail",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        },
+        "cli": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "fail",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        },
+        "browser": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "fail",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        }
+      }
+    },
+    {
+      "id": "news-overrides-turns",
+      "file": "archives/news-overrides-turns.denframepack",
+      "sha256": "a52749cf413699227c94e7194f9db1e40c83477f20f855e39304dadf9dcf0d10",
       "version": 1,
       "expected": {
         "host": {
@@ -1867,8 +2007,8 @@
     },
     {
       "id": "forbidden-setting",
-      "file": "archives/forbidden-setting.mantelpack",
-      "sha256": "7bd618e48b5723444bad2bc65eddc2f0887b1b84fe7d71242d993c7b72fe40f5",
+      "file": "archives/forbidden-setting.denframepack",
+      "sha256": "7ee1c4873e79ad15be33bd241f4b74283a2dedc5676d6e262260f50f23bdbe80",
       "version": 1,
       "expected": {
         "host": {
@@ -1902,8 +2042,8 @@
     },
     {
       "id": "missing-source-slot",
-      "file": "archives/missing-source-slot.mantelpack",
-      "sha256": "cada5c7c7e2ac92e94adc143a116d451c489274805d40395de9bc7e780a39848",
+      "file": "archives/missing-source-slot.denframepack",
+      "sha256": "bb88b11bd8f202f6e2f989f989fa70d84bc62a0464bbe553215377973625d3e7",
       "version": 1,
       "expected": {
         "host": {
@@ -1937,8 +2077,8 @@
     },
     {
       "id": "pack-valid",
-      "file": "archives/pack-valid.mantelpack",
-      "sha256": "6a3e679d0b9454746adcae31bb33e075338c786bf7f5207bb4b2b52816b7c4df",
+      "file": "archives/pack-valid.denframepack",
+      "sha256": "a95441acfd2cf281d5cc6af0f268b1cec04c6f6694b29503e004cfcd10c48708",
       "version": 2,
       "expected": {
         "host": {
@@ -1972,8 +2112,8 @@
     },
     {
       "id": "pack-unicode-credit",
-      "file": "archives/pack-unicode-credit.mantelpack",
-      "sha256": "1be6b055b54ef945a2c714039649d52848abed45c1ad60c50b6d626841e4d375",
+      "file": "archives/pack-unicode-credit.denframepack",
+      "sha256": "24be0d797b6c1d222d8317b8e81a16b87d65ddbed36c7218d213f99b9ae5ef9c",
       "version": 2,
       "expected": {
         "host": {
@@ -2007,8 +2147,8 @@
     },
     {
       "id": "strict-pack-number",
-      "file": "archives/strict-pack-number.mantelpack",
-      "sha256": "860b674d71ab003f676c1cff862a1055e1a783f23bd0a4195440a3a10e96b5d8",
+      "file": "archives/strict-pack-number.denframepack",
+      "sha256": "7d72dd1b24c708efd5df05ba3404e7644aabec56788b2e774cae256f9e1b5863",
       "version": 2,
       "expected": {
         "host": {
@@ -2042,8 +2182,8 @@
     },
     {
       "id": "pack-missing-default",
-      "file": "archives/pack-missing-default.mantelpack",
-      "sha256": "9ab469257c0c974ffd8d9f3bb097285fcd4b389fcb8196076e3b82cddccbabb9",
+      "file": "archives/pack-missing-default.denframepack",
+      "sha256": "0a460fdecbd7bd3d59e51665909cfe70039776f07c486d297e14fa8c034cda5d",
       "version": 2,
       "expected": {
         "host": {
@@ -2077,8 +2217,8 @@
     },
     {
       "id": "duration-below-min",
-      "file": "archives/duration-below-min.mantelpack",
-      "sha256": "c894ec7e03b75eba2e467da38aaf7425dde9e9107d798f2608c80bb6ab4cfe32",
+      "file": "archives/duration-below-min.denframepack",
+      "sha256": "623880f6110fede97a1bcd633490c962ae72caafcb115ea498354ea290d2a943",
       "version": 2,
       "expected": {
         "host": {
@@ -2112,8 +2252,8 @@
     },
     {
       "id": "duration-subcentisecond",
-      "file": "archives/duration-subcentisecond.mantelpack",
-      "sha256": "4c12b1af62c59167ed44f9d3e2835fff8c34eb9b6698e6054bdc078c4fcba166",
+      "file": "archives/duration-subcentisecond.denframepack",
+      "sha256": "a107a0e03d9b3b3e0ff01e676c692ddeaa8a00c4fcea533a1f49b60c808de3d0",
       "version": 2,
       "expected": {
         "host": {
@@ -2147,8 +2287,8 @@
     },
     {
       "id": "duration-exponent",
-      "file": "archives/duration-exponent.mantelpack",
-      "sha256": "03e55379df3d8a3a9e79c00f20be9b2880516136a8a9e9f3a90072d10921c741",
+      "file": "archives/duration-exponent.denframepack",
+      "sha256": "e4e398ff1f3e76b0e8252fe02310fe35d0a4b13e0905d74da71a00f6409bd18c",
       "version": 2,
       "expected": {
         "host": {
@@ -2182,8 +2322,8 @@
     },
     {
       "id": "duration-above-max",
-      "file": "archives/duration-above-max.mantelpack",
-      "sha256": "1947f52935aa940de287eff2ed64bbb50ee0a8a2ae048920feea0e8be0ba54c6",
+      "file": "archives/duration-above-max.denframepack",
+      "sha256": "45f084595fceb681ff6119a5f360d199e32313d3c577218338d7495f74cfba64",
       "version": 2,
       "expected": {
         "host": {
@@ -2217,8 +2357,8 @@
     },
     {
       "id": "pack-missing-resource",
-      "file": "archives/pack-missing-resource.mantelpack",
-      "sha256": "786db7a8b50c4cff66b8485dee379299a0f318ca7d537f7bce950b02275d991d",
+      "file": "archives/pack-missing-resource.denframepack",
+      "sha256": "dde3e6ed900d9365a251a1442aea300e7786a5c3a424f91013b3f3c9abf652a0",
       "version": 2,
       "expected": {
         "host": {
@@ -2252,8 +2392,8 @@
     },
     {
       "id": "resource-hash",
-      "file": "archives/resource-hash.mantelpack",
-      "sha256": "b50d460e1e77286ce41f7152363c2615fabf1b3419688c2030b093b3432c067a",
+      "file": "archives/resource-hash.denframepack",
+      "sha256": "abee5939ee9710595d87d8e973e93aa539bb23e32eafcdbf2d7a2aa4a4fff641",
       "version": 2,
       "expected": {
         "host": {
@@ -2287,8 +2427,8 @@
     },
     {
       "id": "pack-undeclared-asset",
-      "file": "archives/pack-undeclared-asset.mantelpack",
-      "sha256": "bff77bbf9181376e5839e28f5dcc013a71a6783d1265e18f309e383ecf39eee6",
+      "file": "archives/pack-undeclared-asset.denframepack",
+      "sha256": "8369b7cde2d66c8a1a3570c8fdfc4043943125d3abb3ee222d66baa0aaa75a96",
       "version": 2,
       "expected": {
         "host": {
@@ -2322,8 +2462,8 @@
     },
     {
       "id": "png-metadata",
-      "file": "archives/png-metadata.mantelpack",
-      "sha256": "8ebf3505c1ac17bf6267caa87a74844584454d56792e5f9e957beb6ba6b84529",
+      "file": "archives/png-metadata.denframepack",
+      "sha256": "dc69168b7cca4a654662b882e342853b10962c30f6aa5449fd454e569e8b6ad0",
       "version": 2,
       "expected": {
         "host": {
@@ -2357,8 +2497,8 @@
     },
     {
       "id": "image-pixel-budget",
-      "file": "archives/image-pixel-budget.mantelpack",
-      "sha256": "9663e4065952134501454919dbcd05afadc4a59715b57ef588a85316831b8d9c",
+      "file": "archives/image-pixel-budget.denframepack",
+      "sha256": "e31d66c25a5973607ed4af62a4910ef80c2b739f4d80a938400af3976f0dce5c",
       "version": 2,
       "expected": {
         "host": {
@@ -2392,8 +2532,8 @@
     },
     {
       "id": "image-pixel-warning",
-      "file": "archives/image-pixel-warning.mantelpack",
-      "sha256": "2837bafdf509bd5199028ca57dc9d3b2dc2aecc9c272e50ce7404e7da7e3b75b",
+      "file": "archives/image-pixel-warning.denframepack",
+      "sha256": "ace16d443086d83f7b5d9e8c269e6934267b91a1bb205b2ff486a099745b498a",
       "version": 2,
       "expected": {
         "host": {
@@ -2427,8 +2567,8 @@
     },
     {
       "id": "id3-title",
-      "file": "archives/id3-title.mantelpack",
-      "sha256": "8472c6d960dc993c0c555ac6fd4dc9a5684003861dcc34d1a1a0257c8b80a41a",
+      "file": "archives/id3-title.denframepack",
+      "sha256": "4723873b8ce31461a2c401a6eb7c53b16badfcaf02c89f962dc4d908ccd39c7c",
       "version": 2,
       "expected": {
         "host": {
@@ -2462,8 +2602,8 @@
     },
     {
       "id": "mp3-truncated",
-      "file": "archives/mp3-truncated.mantelpack",
-      "sha256": "e9d6f985d33edb63f11f45a51ad56f649411a2fc8ac6459f56207f43370604d1",
+      "file": "archives/mp3-truncated.denframepack",
+      "sha256": "e121b99c6e2f8d86586e3911a6d6f37db81fa770adce7e8774744437cd2fd310",
       "version": 2,
       "expected": {
         "host": {
@@ -2497,8 +2637,8 @@
     },
     {
       "id": "mp3-duration-mismatch",
-      "file": "archives/mp3-duration-mismatch.mantelpack",
-      "sha256": "433827613ee88081a6e3ec1f0fd0f7a5c084f57513b41832c0febe1c14864ac1",
+      "file": "archives/mp3-duration-mismatch.denframepack",
+      "sha256": "33aebe589d283c6ab11dc00f4894e22244a8fb6518918e15f015ff5f62944eb2",
       "version": 2,
       "expected": {
         "host": {
@@ -2532,8 +2672,8 @@
     },
     {
       "id": "mp3-free-bitrate",
-      "file": "archives/mp3-free-bitrate.mantelpack",
-      "sha256": "7b916858f78dfce29e4c97beac4ba73c47a0c9e4866d91c8b666430e5cd6f047",
+      "file": "archives/mp3-free-bitrate.denframepack",
+      "sha256": "41dbbf8e1f3f7a75f0ac4300b7c9ca63d8594e8b10e4158b23322880ff7335e1",
       "version": 2,
       "expected": {
         "host": {
@@ -2567,8 +2707,8 @@
     },
     {
       "id": "mp3-layer-ii",
-      "file": "archives/mp3-layer-ii.mantelpack",
-      "sha256": "32c56f681650a1716df7f5684081130581ec4ce8194b554768ed150e3dfa3db3",
+      "file": "archives/mp3-layer-ii.denframepack",
+      "sha256": "fc81491323aa57c4d6462ab12a6d4c06d7d6c3bf54aabca8806f512920f30c4e",
       "version": 2,
       "expected": {
         "host": {
@@ -2602,8 +2742,8 @@
     },
     {
       "id": "png-animated",
-      "file": "archives/png-animated.mantelpack",
-      "sha256": "73e1258cdf8beb98ad017fb8062b14c14ba634a1c93d1b766d7241809d246ae4",
+      "file": "archives/png-animated.denframepack",
+      "sha256": "48ee31c8e054315345fc2dc2b15173327f1b48c9038f1f51c4bbd850489c332c",
       "version": 2,
       "expected": {
         "host": {
@@ -2637,8 +2777,8 @@
     },
     {
       "id": "jpeg-valid",
-      "file": "archives/jpeg-valid.mantelpack",
-      "sha256": "7c6c95b2bef0d6b266f911f5eac5e18222976556305ff864af551b1e60393ce1",
+      "file": "archives/jpeg-valid.denframepack",
+      "sha256": "3512742e60661ee0cad5429eefa4cc141a8fd8be76370e6cf6d47cdcce1c9297",
       "version": 2,
       "expected": {
         "host": {
@@ -2672,8 +2812,8 @@
     },
     {
       "id": "webp-valid",
-      "file": "archives/webp-valid.mantelpack",
-      "sha256": "ccb73ecbbe43f894cdae41fa745d196879b8f7a6f43fcdda1b8803b4f46e6770",
+      "file": "archives/webp-valid.denframepack",
+      "sha256": "f84b2531af24b9ddb75fe75ab7060f560e1bf435a93e41f593dbafce12068d0f",
       "version": 2,
       "expected": {
         "host": {
@@ -2707,8 +2847,8 @@
     },
     {
       "id": "jpeg-exif",
-      "file": "archives/jpeg-exif.mantelpack",
-      "sha256": "5b00ea7361abc9fd5d4cb6dba9f4b22877359f2af66f89441e340d9b9ff5fef8",
+      "file": "archives/jpeg-exif.denframepack",
+      "sha256": "a4fd2f4efebb9a09a249dfb336e57cc46c5890247733105d648e773c617a0926",
       "version": 2,
       "expected": {
         "host": {
@@ -2742,8 +2882,8 @@
     },
     {
       "id": "webp-exif",
-      "file": "archives/webp-exif.mantelpack",
-      "sha256": "f9e7dac7428be6e474f0dbf28b51fba208ae4343252f541295ff9fb8af3ca050",
+      "file": "archives/webp-exif.denframepack",
+      "sha256": "105c3d87839a0c376f2dc63d91d120e386fe7ea514fe3400d56ce01e698c2da7",
       "version": 2,
       "expected": {
         "host": {
@@ -2777,8 +2917,8 @@
     },
     {
       "id": "layout-arrangement",
-      "file": "archives/layout-arrangement.mantelpack",
-      "sha256": "616e49301c7a782e8be3f746fa0de397d2a560e78df6fe8dcfc2684d4b667b71",
+      "file": "archives/layout-arrangement.denframepack",
+      "sha256": "bbc30058b21e8298345fde98218270376d46a5c89afa729f3630bf6bc89f59c4",
       "version": 1,
       "expected": {
         "host": {
@@ -2812,8 +2952,8 @@
     },
     {
       "id": "layout-landscape",
-      "file": "archives/layout-landscape.mantelpack",
-      "sha256": "e375eca6506bff2c663ea5b15dcf2fcb8f89ac7e2e4a74eabc32e2fb45427309",
+      "file": "archives/layout-landscape.denframepack",
+      "sha256": "37b81672ccae28d7014c5d29ae4d72cf562e51cd138f569866938afed1eea823",
       "version": 1,
       "expected": {
         "host": {
@@ -2847,8 +2987,8 @@
     },
     {
       "id": "layout-purpose",
-      "file": "archives/layout-purpose.mantelpack",
-      "sha256": "6269eb9e66cdcc41c1b64da7c033b8c216044d4488d185956312fa02d438251e",
+      "file": "archives/layout-purpose.denframepack",
+      "sha256": "0277cff92b5155bcdb144b396d735ba3be3ce4a09d6754f6605ecbf0b9eb172e",
       "version": 1,
       "expected": {
         "host": {
@@ -2882,8 +3022,8 @@
     },
     {
       "id": "layout-missing-capability",
-      "file": "archives/layout-missing-capability.mantelpack",
-      "sha256": "83da392fa54f1b255ed5ed55c317b3595db5e0dd1112f20fa5f59a2a24a352fc",
+      "file": "archives/layout-missing-capability.denframepack",
+      "sha256": "e0007a561b42ce04bc75cd73b8ee77e011a1a77cd69c969e6dee97d1398e79df",
       "version": 1,
       "expected": {
         "host": {
@@ -2917,8 +3057,8 @@
     },
     {
       "id": "layout-overlap",
-      "file": "archives/layout-overlap.mantelpack",
-      "sha256": "ce6da939d2c87dcb5c09f176beeddeff94cf43130c8be0fa2de9a3b2fbbaa703",
+      "file": "archives/layout-overlap.denframepack",
+      "sha256": "57412bdeb485ed06c1f8dbe95e266c90327e86e4feddbbe11e43be4b65062ba2",
       "version": 1,
       "expected": {
         "host": {
@@ -2952,8 +3092,8 @@
     },
     {
       "id": "layout-bounds",
-      "file": "archives/layout-bounds.mantelpack",
-      "sha256": "b2162633eca82b88ac28b35461365f214adb6e632b0eb755be29b9c2d670ff61",
+      "file": "archives/layout-bounds.denframepack",
+      "sha256": "88ced2ec43405f320cfe2400295fb28c850a0f66b92cef5af9369881fb32d4e3",
       "version": 1,
       "expected": {
         "host": {
@@ -2987,8 +3127,8 @@
     },
     {
       "id": "layout-partial-cell",
-      "file": "archives/layout-partial-cell.mantelpack",
-      "sha256": "d7f7eb2a9f463f81d17bd6aa24e289ba431051b5c14318c8e982f43873ee60ef",
+      "file": "archives/layout-partial-cell.denframepack",
+      "sha256": "b89de9ae64de9ca6e78a03a0aeb110053ba31782ac85d4e76d41c79e356c4e45",
       "version": 1,
       "expected": {
         "host": {
@@ -3022,8 +3162,8 @@
     },
     {
       "id": "layout-unknown-id",
-      "file": "archives/layout-unknown-id.mantelpack",
-      "sha256": "58992f0e3b6f141fc30d104c6df9845088af32f8d39b9290b4343104fa31364c",
+      "file": "archives/layout-unknown-id.denframepack",
+      "sha256": "5eff7fba7d346d2cdddbd3b0db9af383d7303202e580f95f23e4144fcdd555cf",
       "version": 1,
       "expected": {
         "host": {
@@ -3057,8 +3197,8 @@
     },
     {
       "id": "layout-missing-id",
-      "file": "archives/layout-missing-id.mantelpack",
-      "sha256": "6c0a2f133dc50036fbbcbcba8724170263593b2029e9121d675a71e7937f4269",
+      "file": "archives/layout-missing-id.denframepack",
+      "sha256": "94bd9a5e4b0cc29cacac5f05ed14d3c75d35fdb8133423ca414920f67cb97e25",
       "version": 1,
       "expected": {
         "host": {
@@ -3092,8 +3232,8 @@
     },
     {
       "id": "layout-portrait-bounds",
-      "file": "archives/layout-portrait-bounds.mantelpack",
-      "sha256": "d98a6342ef53c52305dc9809b2014b0f2b312c7ee07b86c6e143296ab7d29a30",
+      "file": "archives/layout-portrait-bounds.denframepack",
+      "sha256": "94d316905f031c7cecbccb8f5064c4470edbf232703edbaf78e8d6495e013b17",
       "version": 1,
       "expected": {
         "host": {
@@ -3127,8 +3267,8 @@
     },
     {
       "id": "layout-portrait-overlap",
-      "file": "archives/layout-portrait-overlap.mantelpack",
-      "sha256": "64382ca196f8411e46db967a3f2130d8cd683c60e8a1fb2249295f5d30952af3",
+      "file": "archives/layout-portrait-overlap.denframepack",
+      "sha256": "31397b458b439b7fac5d5d076ca6a1bec2a0f00e090689594a2baa5458b34545",
       "version": 1,
       "expected": {
         "host": {
@@ -3162,8 +3302,8 @@
     },
     {
       "id": "layout-bad-purpose",
-      "file": "archives/layout-bad-purpose.mantelpack",
-      "sha256": "7524deefb2c4112e250578285cd393a21281683e4aa75b90989fd842fce81427",
+      "file": "archives/layout-bad-purpose.denframepack",
+      "sha256": "402b8c07508c2ab125ba4e009dda12b763193e2ce1b1d6e524c73b43e4da34bf",
       "version": 1,
       "expected": {
         "host": {
@@ -3197,8 +3337,8 @@
     },
     {
       "id": "layout-wrong-kind",
-      "file": "archives/layout-wrong-kind.mantelpack",
-      "sha256": "8aff0aa114a5e1a291e8f6adc994e31f0a06c85207e9419f8921f7bd8c93374a",
+      "file": "archives/layout-wrong-kind.denframepack",
+      "sha256": "be5de70449bddfe53a07456aa0009226b0fc2920672bd6e035bf48279d5a679d",
       "version": 1,
       "expected": {
         "host": {
@@ -3232,8 +3372,8 @@
     },
     {
       "id": "layout-wrong-layout",
-      "file": "archives/layout-wrong-layout.mantelpack",
-      "sha256": "2b1b436ad27df78b9b371c0543e6c4e714b4670d0bae5b2e9aa40d177ce45637",
+      "file": "archives/layout-wrong-layout.denframepack",
+      "sha256": "c7885de1958f7156c64666154b466229219d265e39009c3d7c9bdbcd3a84f1c3",
       "version": 1,
       "expected": {
         "host": {
@@ -3267,8 +3407,8 @@
     },
     {
       "id": "layout-coerced-cell",
-      "file": "archives/layout-coerced-cell.mantelpack",
-      "sha256": "63cef6df42f60181dd6f3ee4b633d383b6f2fed40b1fc3bcab241595d770c4c8",
+      "file": "archives/layout-coerced-cell.denframepack",
+      "sha256": "8eecaf3ce05c00617c6f1ccf622ac227669f851130b2c6763f43b63e5755661a",
       "version": 1,
       "expected": {
         "host": {
@@ -3302,8 +3442,8 @@
     },
     {
       "id": "localized-valid",
-      "file": "archives/localized-valid.mantelpack",
-      "sha256": "6eafa59ab5afd34b332b0de7316f004084978f1fc091ed2b82a737f457a5be1d",
+      "file": "archives/localized-valid.denframepack",
+      "sha256": "1f68a64f084ef7ba7fdb53f8d3595834b270dd9835d7c8a2c62a75caac59bfed",
       "version": 1,
       "expected": {
         "host": {
@@ -3337,8 +3477,8 @@
     },
     {
       "id": "localized-joined",
-      "file": "archives/localized-joined.mantelpack",
-      "sha256": "c2726d401eca597cbe496454b165e742df63c013775b01e0e64a5fad521ac200",
+      "file": "archives/localized-joined.denframepack",
+      "sha256": "f387a03c278d2cc819f71116a020dc09f542c895dea162d1ca424e2dfbcf22a6",
       "version": 1,
       "expected": {
         "host": {
@@ -3372,8 +3512,8 @@
     },
     {
       "id": "localized-missing-capability",
-      "file": "archives/localized-missing-capability.mantelpack",
-      "sha256": "832f16a79736c1e67d9d50de3102126b4981259637e7ef6fcae01481c36d221d",
+      "file": "archives/localized-missing-capability.denframepack",
+      "sha256": "371a055ffdcbd91969379f5d8708771591f7b950625b5f02ffcf56daa4ab7d1f",
       "version": 1,
       "expected": {
         "host": {
@@ -3407,8 +3547,8 @@
     },
     {
       "id": "localized-bad-locale",
-      "file": "archives/localized-bad-locale.mantelpack",
-      "sha256": "708f6f32a2b5b30edf8cc1b45eb575faa341a834968aadc770acdc587a0a113a",
+      "file": "archives/localized-bad-locale.denframepack",
+      "sha256": "e7ecdfa8d35b7e32d44217fc5cb165ad5c2b54cfbc1ec05dca6a52da6acdeb85",
       "version": 1,
       "expected": {
         "host": {
@@ -3442,8 +3582,8 @@
     },
     {
       "id": "localized-uppercase-locale",
-      "file": "archives/localized-uppercase-locale.mantelpack",
-      "sha256": "07c652fefb15a15a1ba18b2510440985b72623a6ce7579ede570d003793770a1",
+      "file": "archives/localized-uppercase-locale.denframepack",
+      "sha256": "51a0f938b400a0fcdc260706595c0fac5c4debd4f280e340738cf8375d3d3870",
       "version": 1,
       "expected": {
         "host": {
@@ -3477,8 +3617,8 @@
     },
     {
       "id": "localized-empty-entry",
-      "file": "archives/localized-empty-entry.mantelpack",
-      "sha256": "5150899d9bbd8c45b150bbc47e338c692c9630e028b79dd20e05a6a2396d51d7",
+      "file": "archives/localized-empty-entry.denframepack",
+      "sha256": "a7818eed9f44749b945267bd99c2a8c2bae4462b6861382c0722dfe775701376",
       "version": 1,
       "expected": {
         "host": {
@@ -3512,8 +3652,8 @@
     },
     {
       "id": "localized-blank",
-      "file": "archives/localized-blank.mantelpack",
-      "sha256": "77d85bd746f767c95b8a979f894c2e47010b2bd579c93d9ef78c7f8dd2982222",
+      "file": "archives/localized-blank.denframepack",
+      "sha256": "eebabd58097d82c2ff0b3dcc260751caf640afeead5b630f7a63b40e2a3d8533",
       "version": 1,
       "expected": {
         "host": {
@@ -3547,8 +3687,8 @@
     },
     {
       "id": "localized-unknown-field",
-      "file": "archives/localized-unknown-field.mantelpack",
-      "sha256": "8d9775846122862207325d06500e171cf651c25fe878669f3e76bb73591d9dd0",
+      "file": "archives/localized-unknown-field.denframepack",
+      "sha256": "ffd64f505e554788f8f52bd8cd0dd30fa8a6c99b7f56ebffc48d971070017eae",
       "version": 1,
       "expected": {
         "host": {
@@ -3582,8 +3722,8 @@
     },
     {
       "id": "localized-name-over-limit",
-      "file": "archives/localized-name-over-limit.mantelpack",
-      "sha256": "c9ab8d6b5acb466cdc7515b3a8048aefbc742f33b706689bad92f1b62dcefaf4",
+      "file": "archives/localized-name-over-limit.denframepack",
+      "sha256": "c3301f79899359806dad9972b6be86031eea3b99b231f05f2172a096248819ab",
       "version": 1,
       "expected": {
         "host": {
@@ -3617,8 +3757,8 @@
     },
     {
       "id": "localized-mood-over-limit",
-      "file": "archives/localized-mood-over-limit.mantelpack",
-      "sha256": "f5add069008c0d13636d071d841148a9b4361ce38f36a268c7a2fad6ed60b507",
+      "file": "archives/localized-mood-over-limit.denframepack",
+      "sha256": "025baafe5822e12b85a94bf20d66937bfafe53c65f9e6fda8ba2ccc232cae279",
       "version": 1,
       "expected": {
         "host": {
@@ -3652,8 +3792,8 @@
     },
     {
       "id": "localized-description-over-limit",
-      "file": "archives/localized-description-over-limit.mantelpack",
-      "sha256": "96f2e38a383b5ee9817aa206958e2178666b3c9e67e72554c7c74a3405c61e22",
+      "file": "archives/localized-description-over-limit.denframepack",
+      "sha256": "e3d963f63200ff5764a8a0bd362d4040506ae7303baaf170bbffe34364b26ef5",
       "version": 1,
       "expected": {
         "host": {
@@ -3687,8 +3827,8 @@
     },
     {
       "id": "localized-too-many-locales",
-      "file": "archives/localized-too-many-locales.mantelpack",
-      "sha256": "a59128ca59f2b8336ab28c6733f34a09e88d927f7c1e024eed8fc5b0ed4f3ae2",
+      "file": "archives/localized-too-many-locales.denframepack",
+      "sha256": "401891fcfc4fdc0c9a86a3d5acf2f6b0ec3a9f7db639efd6a48cec27387309c7",
       "version": 1,
       "expected": {
         "host": {
@@ -3722,8 +3862,8 @@
     },
     {
       "id": "localized-empty-map",
-      "file": "archives/localized-empty-map.mantelpack",
-      "sha256": "b8779621ccad8e7ad64f4f2f4ecaef3e78b60e9d3d9fb9dda5d435b8862018cc",
+      "file": "archives/localized-empty-map.denframepack",
+      "sha256": "59c2bbb7cbea6640d1282617d0dea3d828c1703a50899c6893abc70659a802b8",
       "version": 1,
       "expected": {
         "host": {
@@ -3757,8 +3897,8 @@
     },
     {
       "id": "localized-zero-width",
-      "file": "archives/localized-zero-width.mantelpack",
-      "sha256": "fe9a2dacd4119eb4b91ca1d2c3142c65b0023f45ecb8dbeddce4db123dd29fd5",
+      "file": "archives/localized-zero-width.denframepack",
+      "sha256": "82be05161e5209e37f98ec1e07354caf05688bb2af6ab568a052cec8a6fdb9b5",
       "version": 1,
       "expected": {
         "host": {
@@ -3792,8 +3932,8 @@
     },
     {
       "id": "localized-bidi",
-      "file": "archives/localized-bidi.mantelpack",
-      "sha256": "d89fbda4977c994dfdc0b5e911ff4a0b283ac41298d1a4c22763cb8bec9c7e9f",
+      "file": "archives/localized-bidi.denframepack",
+      "sha256": "7dd60304358c39ab395a26547210ab824a2d9342c54b9bd2168725ec46415909",
       "version": 1,
       "expected": {
         "host": {
@@ -3827,8 +3967,8 @@
     },
     {
       "id": "localized-control",
-      "file": "archives/localized-control.mantelpack",
-      "sha256": "f614f225c3425357577c346e9e378030ba1dd5c04f3fd043040893f73fee51ce",
+      "file": "archives/localized-control.denframepack",
+      "sha256": "3b3edf8a6cada63900f5ec9344ff7f3aa61f9a9dcb5d468c6ec073a0702422ca",
       "version": 1,
       "expected": {
         "host": {
@@ -3862,8 +4002,8 @@
     },
     {
       "id": "layout-setup",
-      "file": "archives/layout-setup.mantelpack",
-      "sha256": "149825407922234533936f5521d4b622cab8d00bf50a112fb6b68381fb30ad07",
+      "file": "archives/layout-setup.denframepack",
+      "sha256": "b92ff5e96be5e1a4ccea9069ff2233838766e80e1a3ad47388c0a933b6d25158",
       "version": 1,
       "expected": {
         "host": {
@@ -3897,8 +4037,8 @@
     },
     {
       "id": "layout-setup-missing-capability",
-      "file": "archives/layout-setup-missing-capability.mantelpack",
-      "sha256": "d0207ee9e09e6e2b1c7164cca3b2db457e2f5e14317016f45ebb176bdada8953",
+      "file": "archives/layout-setup-missing-capability.denframepack",
+      "sha256": "8e700902a00272a491a54da94cb8fae755c3f35295d68744accec56fdd0d617e",
       "version": 1,
       "expected": {
         "host": {
@@ -3932,8 +4072,8 @@
     },
     {
       "id": "layout-public-preset",
-      "file": "archives/layout-public-preset.mantelpack",
-      "sha256": "8974284bc487915929467e71f27140625cb2d237ccebd47b4544733e11266863",
+      "file": "archives/layout-public-preset.denframepack",
+      "sha256": "e0c6e399e3905a6926723097256c73e86d13e98c85281cc3354c2857bb9e3f6d",
       "version": 1,
       "expected": {
         "host": {
@@ -3967,8 +4107,8 @@
     },
     {
       "id": "layout-setup-unknown-slot",
-      "file": "archives/layout-setup-unknown-slot.mantelpack",
-      "sha256": "e4c38e49fc55e75006df8b5c5116e74776f378dc51413a64dcd237fcdfbfc287",
+      "file": "archives/layout-setup-unknown-slot.denframepack",
+      "sha256": "55a353a1cc42bac83810a31e596009654a461c93301d285dbd4b4e56469c453b",
       "version": 1,
       "expected": {
         "host": {
@@ -4002,8 +4142,8 @@
     },
     {
       "id": "layout-setup-wrong-prompt-kind",
-      "file": "archives/layout-setup-wrong-prompt-kind.mantelpack",
-      "sha256": "1d0c6cbadba66e7c80caa9179008e65cfaa0eb237611641c7952734f6d8a4eb3",
+      "file": "archives/layout-setup-wrong-prompt-kind.denframepack",
+      "sha256": "1d35911cf7324f355b7bad44df4acd3b35b49f15f18d656d7170bc87e43fe5d6",
       "version": 1,
       "expected": {
         "host": {
@@ -4037,8 +4177,8 @@
     },
     {
       "id": "layout-setup-duplicate",
-      "file": "archives/layout-setup-duplicate.mantelpack",
-      "sha256": "88ebd5890141492fc762c87ad95f51b89ae8ba5a9f3d54269a2c6b353b23e751",
+      "file": "archives/layout-setup-duplicate.denframepack",
+      "sha256": "ecbfb7d0278f5c9265ffcf182d580ee2397f0a9bb960ee4b95f0cb43d6d04da1",
       "version": 1,
       "expected": {
         "host": {
@@ -4072,8 +4212,8 @@
     },
     {
       "id": "layout-setup-household-value",
-      "file": "archives/layout-setup-household-value.mantelpack",
-      "sha256": "d0040ceda09e98718bc7fa524f723a75818f70bcddb0c234d4518d555fa92e13",
+      "file": "archives/layout-setup-household-value.denframepack",
+      "sha256": "4696c16c734f787db2716d94a4a1dce55dfc6c11d88006a4b2b93cc068e08946",
       "version": 1,
       "expected": {
         "host": {
@@ -4107,8 +4247,8 @@
     },
     {
       "id": "layout-setup-wrong-kind",
-      "file": "archives/layout-setup-wrong-kind.mantelpack",
-      "sha256": "22995e1a0ba3805ad3a8ffe2f94eadce1f76cf033933f5a763ac0f678d6fca77",
+      "file": "archives/layout-setup-wrong-kind.denframepack",
+      "sha256": "ffefab24b8d4a55bfdffbe396c24c4b1ca33581ccb05bb1d7929e0b40374ac69",
       "version": 1,
       "expected": {
         "host": {
@@ -4142,8 +4282,8 @@
     },
     {
       "id": "layout-setup-suggestion-kind",
-      "file": "archives/layout-setup-suggestion-kind.mantelpack",
-      "sha256": "e6074f897072033c319a9d3117c51f2faabfd5435dbe942e7c2a098f3197a598",
+      "file": "archives/layout-setup-suggestion-kind.denframepack",
+      "sha256": "d39ac23b1055b99ac5c89c7235442610760fa5684cbedd0770bbbde10f93682d",
       "version": 1,
       "expected": {
         "host": {
@@ -4177,8 +4317,8 @@
     },
     {
       "id": "layout-setup-suggestion-config",
-      "file": "archives/layout-setup-suggestion-config.mantelpack",
-      "sha256": "962855fc6c2aa05b39b12647e6dbacc5e08a5a9bfaaedf72fda51c57355ef30f",
+      "file": "archives/layout-setup-suggestion-config.denframepack",
+      "sha256": "9b7a13ad5aa49ea6e1bc5b2297116f4eb695b3738628a70d363f47eafbbe18b6",
       "version": 1,
       "expected": {
         "host": {
@@ -4212,8 +4352,8 @@
     },
     {
       "id": "layout-private-preset",
-      "file": "archives/layout-private-preset.mantelpack",
-      "sha256": "6c8378fe9c707deb1c7349b2d74696abc8fe346a49ca7772c05356e700e55529",
+      "file": "archives/layout-private-preset.denframepack",
+      "sha256": "947b7ace566fd80299dc4ddf8a697ceaf77c7e657978e4c576243f8ccb9199a6",
       "version": 1,
       "expected": {
         "host": {
@@ -4673,7 +4813,7 @@
             "media_type": "image/png",
             "duration_seconds": null,
             "credit": {
-              "creator": "Mantel test fixture",
+              "creator": "Denframe test fixture",
               "license": "CC0-1.0",
               "attribution": "",
               "source": ""
@@ -4686,7 +4826,7 @@
             "media_type": "audio/mpeg",
             "duration_seconds": 0.2,
             "credit": {
-              "creator": "Mantel test fixture",
+              "creator": "Denframe test fixture",
               "license": "CC0-1.0",
               "attribution": "",
               "source": "",
@@ -4755,7 +4895,7 @@
         ]
       },
       "file": "canonical/pack-defaults.json",
-      "sha256": "7132e3218201ce6efdb04792af7922f0b3baaf65f0b658fe8beed1cd5f11ef55"
+      "sha256": "2578554a040d10b64a949e3c930c87b2f597c318278570e0c37fddd3e9795919"
     },
     {
       "id": "duration-min",
@@ -4777,7 +4917,7 @@
             "media_type": "image/png",
             "duration_seconds": null,
             "credit": {
-              "creator": "Mantel test fixture",
+              "creator": "Denframe test fixture",
               "license": "CC0-1.0",
               "attribution": "",
               "source": "",
@@ -4791,7 +4931,7 @@
             "media_type": "audio/mpeg",
             "duration_seconds": 0.01,
             "credit": {
-              "creator": "Mantel test fixture",
+              "creator": "Denframe test fixture",
               "license": "CC0-1.0",
               "attribution": "",
               "source": "",
@@ -4860,7 +5000,7 @@
         ]
       },
       "file": "canonical/duration-min.json",
-      "sha256": "ebba583a4190ae75182a027b130d59ed92501007af3e5b6286f262b778687e97"
+      "sha256": "8d9f44b50a4292524bfdc9bc17eef4c02d2cd4a0f3887fa873a6e871606bdb2d"
     },
     {
       "id": "duration-max",
@@ -4882,7 +5022,7 @@
             "media_type": "image/png",
             "duration_seconds": null,
             "credit": {
-              "creator": "Mantel test fixture",
+              "creator": "Denframe test fixture",
               "license": "CC0-1.0",
               "attribution": "",
               "source": "",
@@ -4896,7 +5036,7 @@
             "media_type": "audio/mpeg",
             "duration_seconds": 30.0,
             "credit": {
-              "creator": "Mantel test fixture",
+              "creator": "Denframe test fixture",
               "license": "CC0-1.0",
               "attribution": "",
               "source": "",
@@ -4965,7 +5105,7 @@
         ]
       },
       "file": "canonical/duration-max.json",
-      "sha256": "d24468fe0ef2df0dc3e2a5232083189faa94175e3cf3946ab7bb30c05f29ad72"
+      "sha256": "984ff74c2c0bee9a7677554617369cff3008c1f58f7a0d1da0e6468b95e31ac6"
     }
   ],
   "compositions": [
