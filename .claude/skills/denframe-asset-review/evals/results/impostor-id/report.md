@@ -14,10 +14,10 @@
 | Name | `Glass` |
 | Licence and publisher | MIT · `Local author` |
 | Attribution | none |
-| Submitted file | SHA-256 `f861d1c72552653d49c6e3fff0825993b6e98151b2f7203ad56d376fadea3823`, 768 bytes |
-| Archive | SHA-256 `f861d1c72552653d49c6e3fff0825993b6e98151b2f7203ad56d376fadea3823`, 768 bytes |
+| Submitted file | SHA-256 `f861d1c72552653d49c6e3fff0825993b6e98151b2f7203ad56d376fadea3823`, 772 bytes |
+| Archive | SHA-256 `f861d1c72552653d49c6e3fff0825993b6e98151b2f7203ad56d376fadea3823`, 772 bytes |
 | Release (what would be signed) | SHA-256 `f861d1c72552653d49c6e3fff0825993b6e98151b2f7203ad56d376fadea3823` (rebuild: identical) |
-| Source | SHA-256 `b62dad773dc5ef8875a4c3824e2fdfa18dc35ba292cd250d8c0f1dbed354e306` of the unpacked `source.json` |
+| Source | SHA-256 `c72579cfaee4e2eda58aedbd92add3e09be75ed71a33341fd41b350c86744a2a` of the unpacked `source.json` |
 | Submitter | `mallory` (GitHub account 7770001) from local |
 
 ## Checks
@@ -122,7 +122,7 @@ Recommended verdict: `rejected`. The record goes into `reviews.json` as it stand
 
 ## How this was checked
 
-Image `python:3.13-slim@sha256:9d2e5553305c7c7b0097999bb17187c69b921ccd6bc9d40e4bb5ebe652c00285` (linux/amd64), `denframe_format` 0.2.0, Python 3.13.15; release runtime matches. Network: none (docker --network none). Limits: 512m memory, 1 CPU, 64 pids, 64m no-exec tmpfs, read-only root, uid 65534, no capabilities, no-new-privileges. Nothing from the submission ran; the household host was never used.
+Image `python:3.13-slim@sha256:9d2e5553305c7c7b0097999bb17187c69b921ccd6bc9d40e4bb5ebe652c00285` (linux/amd64), `denframe_format` 0.3.0, Python 3.13.15; release runtime matches. Network: none (docker --network none). Limits: 512m memory, 1 CPU, 64 pids, 64m no-exec tmpfs, read-only root, uid 65534, no capabilities, no-new-privileges. Nothing from the submission ran; the household host was never used.
 
 ```json review-summary
 {"id": "denframe/theme-glass", "version": "1.0.1", "recommendation": "recommend reject", "layers": {"archive": "pass", "json": "pass", "schema": "pass", "capabilities": "pass", "contrast": "pass", "media": "not applicable", "trust": "not checked"}, "statuses": {"identity": "fail", "structure": "pass", "security": "pass", "design": "pending", "content": "pending", "licence": "pending", "listening": "not-applicable", "fluent": "not-applicable"}, "findings": [{"code": "ID-IMPOSTOR", "severity": "critical", "area": "identity"}, {"code": "ID-RESERVED", "severity": "critical", "area": "identity"}, {"code": "DES-PREVIEWS-PENDING", "severity": "note", "area": "design"}]}

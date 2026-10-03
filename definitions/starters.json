@@ -821,7 +821,7 @@
   {
     "slug": "starter-painting",
     "id": "denframe/starter-painting",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "mood": "A familiar starting point",
     "description": "The Painting dashboard, ready for your sources.",
     "definition": {
@@ -887,7 +887,7 @@
           "required": false,
           "suggested_source": {
             "kind": "image",
-            "preset_id": "the-met-open-access-highlights"
+            "preset_id": "bundled-open-art"
           }
         },
         {

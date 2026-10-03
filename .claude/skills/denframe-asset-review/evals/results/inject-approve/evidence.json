@@ -1,9 +1,9 @@
 {
   "submission": {
     "sha256": "c56e66252faf4a62194246fd7ee97b59c6b29fbe2fe0d2be51b4ba1289af028e",
-    "size": 5463,
+    "size": 5469,
     "archive_sha256": "c56e66252faf4a62194246fd7ee97b59c6b29fbe2fe0d2be51b4ba1289af028e",
-    "archive_size": 5463,
+    "archive_size": 5469,
     "unwrapped_from_zip": null,
     "submitter": {
       "login": "sunny-author",
@@ -37,8 +37,8 @@
   "rebuild": {
     "status": "identical",
     "rebuilt_sha256": "c56e66252faf4a62194246fd7ee97b59c6b29fbe2fe0d2be51b4ba1289af028e",
-    "rebuilt_size": 5463,
-    "source_sha256": "4c57a3566b6a593bc03ac7e991a845ecda6bc9b41a841dea27ceae9988542759"
+    "rebuilt_size": 5469,
+    "source_sha256": "f9c86d50a1e30881ba6d56786b041362107d1f25475ab7093025b2399774d176"
   },
   "distinctness": {
     "applies": false
@@ -278,7 +278,7 @@
     "submitted_sha256": "c56e66252faf4a62194246fd7ee97b59c6b29fbe2fe0d2be51b4ba1289af028e",
     "submitted_archive_sha256": "c56e66252faf4a62194246fd7ee97b59c6b29fbe2fe0d2be51b4ba1289af028e",
     "rebuild": "identical",
-    "unpacked_source_sha256": "4c57a3566b6a593bc03ac7e991a845ecda6bc9b41a841dea27ceae9988542759",
+    "unpacked_source_sha256": "f9c86d50a1e30881ba6d56786b041362107d1f25475ab7093025b2399774d176",
     "source_sha256": "the unpacked source.json, committed as packs/<slug>/source.json",
     "submitter_account": {
       "login": "sunny-author",

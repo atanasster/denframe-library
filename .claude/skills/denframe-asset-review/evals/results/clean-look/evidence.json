@@ -1,9 +1,9 @@
 {
   "submission": {
     "sha256": "644b60534989ebe07f402c6a6d0d583fe3b644df578e4003a83373d60545c739",
-    "size": 1004,
+    "size": 1006,
     "archive_sha256": "644b60534989ebe07f402c6a6d0d583fe3b644df578e4003a83373d60545c739",
-    "archive_size": 1004,
+    "archive_size": 1006,
     "unwrapped_from_zip": null,
     "submitter": {
       "login": "brook-author",
@@ -37,8 +37,8 @@
   "rebuild": {
     "status": "identical",
     "rebuilt_sha256": "644b60534989ebe07f402c6a6d0d583fe3b644df578e4003a83373d60545c739",
-    "rebuilt_size": 1004,
-    "source_sha256": "a4187de90a888f35a7c48a6131baa98640b381daa30532f6fec152f62a8027a3"
+    "rebuilt_size": 1006,
+    "source_sha256": "d0dc46295f7c6cda2c0c165cf0a2c5989adaa6d4d636e3190af60ae0d8ad4728"
   },
   "distinctness": {
     "applies": true,
@@ -237,7 +237,7 @@
     "submitted_sha256": "644b60534989ebe07f402c6a6d0d583fe3b644df578e4003a83373d60545c739",
     "submitted_archive_sha256": "644b60534989ebe07f402c6a6d0d583fe3b644df578e4003a83373d60545c739",
     "rebuild": "identical",
-    "unpacked_source_sha256": "a4187de90a888f35a7c48a6131baa98640b381daa30532f6fec152f62a8027a3",
+    "unpacked_source_sha256": "d0dc46295f7c6cda2c0c165cf0a2c5989adaa6d4d636e3190af60ae0d8ad4728",
     "source_sha256": "pending: A definition's source hash is its catalog entry's (tools/check.py `reviewed_source`: the entry without `distribution`); the entry gains its slug, mood and description when `tools/intake.py unpack` adds it, and `tools/intake.py approve` computes `source_sha256` from the tree when the owner records their decision.",
     "submitter_account": {
       "login": "brook-author",

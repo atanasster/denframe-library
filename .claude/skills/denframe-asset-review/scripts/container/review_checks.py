@@ -33,11 +33,12 @@ CHANGES_REQUESTED = "changes requested"
 RECOMMEND_APPROVE = "recommend approve"
 MAX_SUBMISSION = 128 * 1024 * 1024
 MAX_QUOTE = 160
-# identity.md: handles nobody may register, because they pass as Denframe, a platform, a vendor
-# or a role. Person names cannot be listed; a person checks those.
+# identity.md: handles nobody may register, because they pass as Denframe (or Mantel, its earlier
+# name, and meggy, its publisher's domain), a platform, a vendor or a role. Person names cannot
+# be listed; a person checks those.
 RESERVED_HANDLES = frozenset(
     {
-        "denframe", "local", "official", "admin", "administrator", "support", "security", "staff",
+        "denframe", "mantel", "meggy", "local", "official", "admin", "administrator", "support", "security", "staff",
         "team", "moderator", "root", "system", "library", "review", "reviewer", "verified",
         "anthropic", "claude", "github", "google", "nest", "chromecast", "android", "apple",
         "homekit", "amazon", "alexa", "microsoft", "samsung", "sonos", "spotify", "netflix",

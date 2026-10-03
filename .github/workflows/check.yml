@@ -18,7 +18,7 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 5
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
           ref: ${{ github.event.pull_request.base.sha }}
           fetch-depth: 0
@@ -42,7 +42,7 @@ jobs:
     # refuses any other runtime.
     container: python:3.13-slim@sha256:9d2e5553305c7c7b0097999bb17187c69b921ccd6bc9d40e4bb5ebe652c00285
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
           persist-credentials: false
       - run: python -m pip install --root-user-action=ignore --require-hashes -r format/requirements.lock
@@ -61,7 +61,7 @@ jobs:
     steps:
       # Before checkout, so the tree is a git clone (the tests read `git ls-files`).
       - run: apt-get update -qq && apt-get install -y -qq --no-install-recommends git
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
           persist-credentials: false
       - run: git config --global --add safe.directory "$GITHUB_WORKSPACE"

@@ -445,6 +445,18 @@ def test_look_alike_handles_fold_as_the_website_does(container):
     assert not checks.mixed_script("لوحة הבית 👩")
 
 
+def test_denframes_earlier_name_and_publisher_are_reserved_handles(container):
+    checks = container["review_checks"]
+    reference_data = {"publishers": [], "catalog": {}}
+    for handle, code in (
+        ("mantel", "ID-HANDLE-RESERVED-WORD"),
+        ("meggy", "ID-HANDLE-RESERVED-WORD"),
+        ("m4nte1", "ID-HANDLE-LOOKALIKE"),
+    ):
+        findings = checks.identity(f"{handle}/x", "1.0.0", [], {"id": 1}, reference_data)
+        assert code in {f.code for f in findings}, handle
+
+
 def test_an_update_to_a_catalog_look_is_not_compared_with_itself(container):
     checks = container["review_checks"]
     data = reference(container)

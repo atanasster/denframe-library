@@ -7,14 +7,14 @@ format implementation; tagged snapshots are mirrored here in one direction.
 ## Install the tools
 
 ```sh
-pip install "denframe-format @ git+https://github.com/atanasster/denframe-library@format-v0.2.0#subdirectory=format"
+pip install "denframe-format @ git+https://github.com/atanasster/denframe-library@format-v0.3.0#subdirectory=format"
 denframe-author --help
 ```
 
 Each `format-v*` release attaches the wheel. No PyPI publication is required.
 `format/requirements.lock` and `format/release-environment.json` pin the reproducible
 runtime. See [format/README.md](format/README.md) and the
-[format specification](https://smart.meggy.com/docs/format).
+[format specification](https://denframe.com/docs/format).
 
 ## Sources and contributions
 
@@ -76,7 +76,7 @@ not a list of what it holds. Order matters: the first four are what a household 
 control or bidirectional formatting characters. A collection may name included items as well as
 library ones; hosts mark what a household already has.
 
-Use [Submit an asset](https://smart.meggy.com/library/submit): it checks the file in your
+Use [Submit an asset](https://denframe.com/library/submit): it checks the file in your
 browser, makes the `.zip` copy GitHub accepts and prefills the
 [issue form](https://github.com/atanasster/denframe-library/issues/new?template=submit-asset.yml).
 An archive over 20 MB comes as a pull request instead.
@@ -85,8 +85,8 @@ locations and unlicensed material before submitting. Later source changes use pu
 requests. Handle ownership and all checks are reviewed before acceptance.
 
 Tools are [MIT](LICENSE); [asset licences and credits](ASSET-LICENSES.md) apply separately.
-Read the [website terms](https://smart.meggy.com/terms),
-[privacy note](https://smart.meggy.com/privacy), [security policy](SECURITY.md) and
+Read the [website terms](https://denframe.com/terms),
+[privacy note](https://denframe.com/privacy), [security policy](SECURITY.md) and
 [code of conduct](CODE_OF_CONDUCT.md).
 
 ## Maintainers
@@ -185,7 +185,7 @@ Run `python tools/privacy-check.py .` on the concrete tree before any first push
 `tools/tuf_repository.py` (mirrored from the host) operates the online library's TUF
 repository: `init`, `publish`, `revoke`, `renew`, `rotate-root` and `status`. The
 repository households verify is the one the website serves
-(`https://smart.meggy.com/library/metadata/`), and that served copy is the one source of truth;
+(`https://denframe.com/library/metadata/`), and that served copy is the one source of truth;
 nothing in this repository holds a copy of it. The `Renew library metadata` workflow runs daily:
 `tools/library_served.py pull` reads the served metadata and verifies it from the pinned root
 (the repository variable `LIBRARY_ROOT_SHA256`), `renew` signs a new snapshot and timestamp

@@ -6,7 +6,8 @@ only on the standard library, `tuf`, `securesystemslib` and `cryptography`
 (`tools/requirements-release.lock`), never on the host.
 
 The repository hosts verify is the one the website serves under `/library/metadata/` and
-`/library/targets/` (`smart-home-cec89`, `https://smart.meggy.com`). Two writers keep it:
+`/library/targets/` (`smart-home-cec89`, `https://denframe.com`; `https://smart.meggy.com` is the
+same site under its second domain, read by hosts built before audit 5). Two writers keep it:
 
 - **a release** (`scripts/library-release.py`, on the owner's key machine) signs targets, snapshot
   and timestamp into `library/online` and the site is deployed from the committed tree. Before it
@@ -23,11 +24,11 @@ The repository hosts verify is the one the website serves under `/library/metada
 Whole-site promotions (`scripts/deploy-desktop-site.py`, `make deploy-site`) refuse a preview
 whose timestamp would take the live one backwards, so neither writer undoes the other.
 
-    python tools/library_served.py pull --origin https://smart.meggy.com \\
+    python tools/library_served.py pull --origin https://denframe.com \\
         --root-sha256 HEX --repository served
     python tools/tuf_repository.py --repository served renew --online-key-env NAME ...
     python tools/tuf_repository.py --repository served --test renew    # channel: test
-    python tools/library_served.py publish --origin https://smart.meggy.com \\
+    python tools/library_served.py publish --origin https://denframe.com \\
         --site smart-home-cec89 --repository served --service-account-env NAME
 
 The Hosting API is called with plain HTTPS (`urllib`), authorised by an OAuth access token minted
@@ -51,19 +52,20 @@ import urllib.parse
 import urllib.request
 from collections.abc import Callable
 from dataclasses import dataclass
+from datetime import UTC, datetime, timedelta
 from pathlib import Path
 from typing import Any
 
 from cryptography.hazmat.primitives import hashes, serialization
 from cryptography.hazmat.primitives.asymmetric import padding, rsa
-from tuf.api.metadata import Metadata, Snapshot, Timestamp
+from tuf.api.metadata import Metadata, Root, Snapshot, Targets, Timestamp
 
 try:
     from scriptlib import tuf_repository as tuf
 except ImportError:  # the public repository's tools/, run as a script beside tuf_repository.py
     import tuf_repository as tuf  # type: ignore[no-redef]  # pyright: ignore[reportMissingImports]
 
-ORIGIN = "https://smart.meggy.com"
+ORIGIN = "https://denframe.com"
 SITE = "smart-home-cec89"
 METADATA = "/library/metadata/"
 # The host client's own caps (`online_catalog.py`), so the job never trusts more than a host would.
@@ -147,13 +149,7 @@ class Served:
 
 
 def _version_of(data: bytes, name: str, kind: type) -> int:
-    try:
-        metadata = Metadata.from_bytes(data)
-    except Exception as error:  # the deserializer raises several types
-        raise ServedError(f"The served {name} is not TUF metadata.") from error
-    if not isinstance(metadata.signed, kind):
-        raise ServedError(f"The served {name} holds the wrong role.")
-    return metadata.signed.version
+    return _metadata(data, name, kind).version
 
 
 def pull(
@@ -240,6 +236,67 @@ def _snapshot_version(timestamp: bytes) -> int:
     if not isinstance(metadata.signed, Timestamp):
         raise ServedError("The served timestamp.json holds the wrong role.")
     return metadata.signed.snapshot_meta.version
+
+
+#: Days of warning before any served role expires: the watch opens an issue below this.
+WARN_DAYS = 3
+
+
+def expiry(origin: str, *, fetch: Fetch | None = None) -> dict[str, datetime]:
+    """When each role the site serves expires: timestamp, the snapshot it names, the targets that
+    names and the newest root. Read, never verified -- this feeds an alert, not a trust decision,
+    so it needs no pinned root and no secret, and runs while the renewal is still switched off.
+    A missing or malformed file is refused with a sentence, which the watch reports as well."""
+    fetch = fetch or https_fetch
+    base = origin_url(origin) + METADATA
+    timestamp = _required(fetch, base, "timestamp.json", CAPS["timestamp"])
+    roles = {"timestamp": _metadata(timestamp, "timestamp.json", Timestamp)}
+    snapshot_name = f"{roles['timestamp'].snapshot_meta.version}.snapshot.json"
+    snapshot = _metadata(
+        _required(fetch, base, snapshot_name, CAPS["snapshot"]), snapshot_name, Snapshot
+    )
+    roles["snapshot"] = snapshot
+    targets_name = f"{snapshot.meta['targets.json'].version}.targets.json"
+    roles["targets"] = _metadata(
+        _required(fetch, base, targets_name, TARGETS_CAP), targets_name, Targets
+    )
+    newest, version = None, 1
+    while version <= MAX_ROOTS:
+        data = fetch(f"{base}{version}.root.json", CAPS["root"])
+        if data is None:
+            break
+        newest, version = _metadata(data, f"{version}.root.json", Root), version + 1
+    if newest is None:
+        raise ServedError("The site serves no 1.root.json.")
+    roles["root"] = newest
+    return {name: signed.expires for name, signed in roles.items()}
+
+
+def _metadata(data: bytes, name: str, kind: type) -> Any:
+    try:
+        metadata = Metadata.from_bytes(data)
+    except Exception as error:  # the deserializer raises several types
+        raise ServedError(f"The served {name} is not TUF metadata.") from error
+    if not isinstance(metadata.signed, kind):
+        raise ServedError(f"The served {name} holds the wrong role.")
+    return metadata.signed
+
+
+def expiry_report(
+    expires: dict[str, datetime], *, now: datetime, warn_days: int = WARN_DAYS
+) -> tuple[bool, str]:
+    """(ok, lines): not ok when any role has lapsed or has fewer than `warn_days` left."""
+    lines, ok = [], True
+    for name, when in sorted(expires.items(), key=lambda item: item[1]):
+        left = when - now
+        if left.total_seconds() <= 0:
+            ok, state = False, "LAPSED"
+        elif left < timedelta(days=warn_days):
+            ok, state = False, f"renew now: {left.total_seconds() / 86400:.1f} days left"
+        else:
+            state = f"{left.days} days left"
+        lines.append(f"{name}: expires {when.isoformat()} ({state})")
+    return ok, "\n".join(lines)
 
 
 def _required(fetch: Fetch, base: str, name: str, cap: int) -> bytes:
@@ -563,6 +620,11 @@ def parser() -> argparse.ArgumentParser:
     command.add_argument("--origin", default=ORIGIN)
     command.add_argument("--repository", type=Path, required=True, help="a new directory")
     command.add_argument("--root-sha256", required=True, help="SHA-256 of the pinned 1.root.json")
+    command = commands.add_parser(
+        "expiry", help="read when each served role expires; fail when one is near or past it"
+    )
+    command.add_argument("--origin", default=ORIGIN)
+    command.add_argument("--warn-days", type=int, default=WARN_DAYS)
     command = commands.add_parser("publish", help="put the renewed files on the live site")
     command.add_argument("--origin", default=ORIGIN)
     command.add_argument("--site", default=SITE)
@@ -579,6 +641,12 @@ def parser() -> argparse.ArgumentParser:
 def main(argv: list[str] | None = None) -> int:
     args = parser().parse_args(argv)
     try:
+        if args.command == "expiry":
+            ok, report = expiry_report(
+                expiry(args.origin), now=datetime.now(UTC), warn_days=args.warn_days
+            )
+            print(f"{args.origin}:\n{report}")
+            return 0 if ok else 1
         if args.command == "pull":
             if not re.fullmatch(r"[0-9a-fA-F]{64}", args.root_sha256 or ""):
                 raise ServedError("--root-sha256 must be the 64-hex SHA-256 of 1.root.json.")

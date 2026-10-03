@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "host_commit": "90271e183906511118d8519c8de6549944689b98",
+  "host_commit": "7e21334bee38016fb15d153311957a840dfdbbb6",
   "files": {
     "contracts/composition/appearance-cases.json": "f785173ef2025f5b6e36a41ed2d932e32640dc021601b3e765f6fb049bd27618",
     "contracts/composition/block-instance.schema.json": "d19fd3ba3b62285bad903cf4d96c0b823fd572a3455b2fd4d22bf4499cdad6b7",
@@ -159,7 +159,7 @@
     "contracts/format-fixtures/scenarios.json": "056b2e7ed8f701862bdf90bc347437161b8dedf3ecb2457ddc1eca4dd9037c89",
     "contracts/format-fixtures/schema-history.json": "8b9e0a2dee9457ad64fc391c2af5fd1186616beb0b5e2dcc96cd21e2044a2ab4",
     "contracts/format/LICENSES.txt": "84f69da7612cf28954b9bfe77a5e811472ac5aebf11265779d235f39728420dc",
-    "contracts/format/reference.json": "f964e988fe61136a08b799dfbfce24d98c8e316d6793c7d205a9ee572211120e",
+    "contracts/format/reference.json": "8a5251b47f4e346827460f16d05a397380f924e847508092d44d756af4505860",
     "contracts/format/validation.json": "91cd0cdfa0a04e1c367e33e20a37f3046c92ebfa844729a0ffd7ac12c63f50d0",
     "contracts/format/validators.d.mts": "8069cd7cb354f36fe52ec5ca3a0d984c179af1d1c26f8c9c04c8d0e37bb40faf",
     "contracts/format/validators.mjs": "68e4875c1d9005c1e0929a3c958783ac3fcf437729da7253299f80de82c67015",
@@ -175,7 +175,7 @@
     "contracts/vocabulary.json": "ce8adc04b498b198b462eec82ae5f0d09931c0e31f0ac445df711702a875fa8b",
     "format/LICENSE": "c464f8418607716baaaa7a0b510b7ece0f21e16cacce879f71e1cc5412cc9e4a",
     "format/README.md": "a8bb598f5c459586a7e8278a576d6935ad75c0dbddf35d93edc23c807b45e72d",
-    "format/pyproject.toml": "30c833f5bd92364db5eb7efe6d565e8b71d30753d5e34bb9e1dc0fbaca97ccd3",
+    "format/pyproject.toml": "dedf0655090a1ad13bd3c28ef9190faa29d6c217ac868642a5697603c4862e2d",
     "format/release-environment.json": "c02a279335d559592ad36914fa204ae70e6868a31ea2b04c3f30d588678d0641",
     "format/requirements.lock": "29049c49d55727b671666838cb756077b8bd8fa26b6e9cd3f047b2b5b6334905",
     "format/src/denframe_format/__init__.py": "c4f0830400756effc782ab7c8fc5ab53bdfffc6fe99e9f60249279e75e6e338a",
@@ -208,7 +208,7 @@
     "format/src/denframe_format/vocabulary.py": "9017b25dddea0aa38cd834714d0320fd5b6eb9db5a3aea661ad97c671bcff2dd",
     "format/tools/release_environment.py": "16958c488400287408ff8f124fd0a8546866b5a544b7a7f404715c471056a58e",
     "format/tools/ruff.toml": "f161da412b3185f6a2ac1138948f31ec452ac7091268c64dc8bff3107266ca22",
-    "tools/library_served.py": "7cb0b012f89028b57860a4b40ba69d3cba19b720fec6e97f4629e56ee0e71570",
+    "tools/library_served.py": "89a9cccc52fa38f120eaff8505fb58978d2b6cc1a532f931810f4fd54f2a98aa",
     "tools/tuf_repository.py": "ccf536f07844c67a9adfa87f99fb0cd57076f2e4a2b98e0a654485d3e33cb44a"
   }
 }

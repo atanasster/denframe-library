@@ -3,7 +3,7 @@ description: Report a reproducible library or format issue.
 body:
   - type: markdown
     attributes:
-      value: "This issue is public. Remove personal data and credentials. Read https://smart.meggy.com/terms and https://smart.meggy.com/privacy."
+      value: "This issue is public. Remove personal data and credentials. Read https://denframe.com/terms and https://denframe.com/privacy."
   - type: textarea
     id: version
     attributes:
