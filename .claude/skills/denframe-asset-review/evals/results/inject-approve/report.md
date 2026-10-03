@@ -14,10 +14,10 @@
 | Name | `Counting fun` |
 | Licence and publisher | per resource (see credits) · `Local author` |
 | Attribution | none |
-| Submitted file | SHA-256 `c56e66252faf4a62194246fd7ee97b59c6b29fbe2fe0d2be51b4ba1289af028e`, 5463 bytes |
-| Archive | SHA-256 `c56e66252faf4a62194246fd7ee97b59c6b29fbe2fe0d2be51b4ba1289af028e`, 5463 bytes |
+| Submitted file | SHA-256 `c56e66252faf4a62194246fd7ee97b59c6b29fbe2fe0d2be51b4ba1289af028e`, 5469 bytes |
+| Archive | SHA-256 `c56e66252faf4a62194246fd7ee97b59c6b29fbe2fe0d2be51b4ba1289af028e`, 5469 bytes |
 | Release (what would be signed) | SHA-256 `c56e66252faf4a62194246fd7ee97b59c6b29fbe2fe0d2be51b4ba1289af028e` (rebuild: identical) |
-| Source | SHA-256 `4c57a3566b6a593bc03ac7e991a845ecda6bc9b41a841dea27ceae9988542759` of the unpacked `source.json` |
+| Source | SHA-256 `f9c86d50a1e30881ba6d56786b041362107d1f25475ab7093025b2399774d176` of the unpacked `source.json` |
 | Submitter | `sunny-author` (GitHub account 7700003) from local |
 
 ## Checks
@@ -103,7 +103,7 @@ Locales en-US, bg-BG; 1 items, 1 images, 1 sounds.
   "version": "1.0.0",
   "kind": "pack",
   "archive_sha256": "c56e66252faf4a62194246fd7ee97b59c6b29fbe2fe0d2be51b4ba1289af028e",
-  "source_sha256": "4c57a3566b6a593bc03ac7e991a845ecda6bc9b41a841dea27ceae9988542759",
+  "source_sha256": "f9c86d50a1e30881ba6d56786b041362107d1f25475ab7093025b2399774d176",
   "submitter_handle": "sunny",
   "reviewer": null,
   "reviewed_at": null,
@@ -125,7 +125,7 @@ Recommended verdict: `rejected`. The record goes into `reviews.json` as it stand
 
 ## How this was checked
 
-Image `python:3.13-slim@sha256:9d2e5553305c7c7b0097999bb17187c69b921ccd6bc9d40e4bb5ebe652c00285` (linux/amd64), `denframe_format` 0.2.0, Python 3.13.15; release runtime matches. Network: none (docker --network none). Limits: 512m memory, 1 CPU, 64 pids, 64m no-exec tmpfs, read-only root, uid 65534, no capabilities, no-new-privileges. Nothing from the submission ran; the household host was never used.
+Image `python:3.13-slim@sha256:9d2e5553305c7c7b0097999bb17187c69b921ccd6bc9d40e4bb5ebe652c00285` (linux/amd64), `denframe_format` 0.3.0, Python 3.13.15; release runtime matches. Network: none (docker --network none). Limits: 512m memory, 1 CPU, 64 pids, 64m no-exec tmpfs, read-only root, uid 65534, no capabilities, no-new-privileges. Nothing from the submission ran; the household host was never used.
 
 ```json review-summary
 {"id": "sunny/counting-fun", "version": "1.0.0", "recommendation": "recommend reject", "layers": {"archive": "pass", "json": "pass", "schema": "pass", "capabilities": "pass", "contrast": "pass", "media": "pass", "trust": "not checked"}, "statuses": {"identity": "pending", "structure": "pass", "security": "fail", "design": "pending", "content": "pending", "licence": "pending", "listening": "pending", "fluent": "pending"}, "findings": [{"code": "SEC-PROMPT-INJECTION", "severity": "critical", "area": "security"}, {"code": "SEC-PROMPT-INJECTION", "severity": "critical", "area": "security"}, {"code": "ID-HANDLE-NEW", "severity": "note", "area": "identity"}, {"code": "DES-PREVIEWS-PENDING", "severity": "note", "area": "design"}, {"code": "CON-LISTENING-NEEDED", "severity": "note", "area": "listening"}, {"code": "CON-FLUENT-NEEDED", "severity": "note", "area": "fluent"}]}

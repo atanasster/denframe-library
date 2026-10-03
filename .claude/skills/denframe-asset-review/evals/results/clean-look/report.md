@@ -14,10 +14,10 @@
 | Name | `Lantern` |
 | Licence and publisher | MIT · `Local author` |
 | Attribution | none |
-| Submitted file | SHA-256 `644b60534989ebe07f402c6a6d0d583fe3b644df578e4003a83373d60545c739`, 1004 bytes |
-| Archive | SHA-256 `644b60534989ebe07f402c6a6d0d583fe3b644df578e4003a83373d60545c739`, 1004 bytes |
+| Submitted file | SHA-256 `644b60534989ebe07f402c6a6d0d583fe3b644df578e4003a83373d60545c739`, 1006 bytes |
+| Archive | SHA-256 `644b60534989ebe07f402c6a6d0d583fe3b644df578e4003a83373d60545c739`, 1006 bytes |
 | Release (what would be signed) | SHA-256 `644b60534989ebe07f402c6a6d0d583fe3b644df578e4003a83373d60545c739` (rebuild: identical) |
-| Source | SHA-256 `a4187de90a888f35a7c48a6131baa98640b381daa30532f6fec152f62a8027a3` of the unpacked `source.json` |
+| Source | SHA-256 `d0dc46295f7c6cda2c0c165cf0a2c5989adaa6d4d636e3190af60ae0d8ad4728` of the unpacked `source.json` |
 | Submitter | `brook-author` (GitHub account 7700001) from local |
 
 ## Checks
@@ -124,7 +124,7 @@ Recommended verdict: `approved`. The record goes into `reviews.json` as it stand
 
 ## How this was checked
 
-Image `python:3.13-slim@sha256:9d2e5553305c7c7b0097999bb17187c69b921ccd6bc9d40e4bb5ebe652c00285` (linux/amd64), `denframe_format` 0.2.0, Python 3.13.15; release runtime matches. Network: none (docker --network none). Limits: 512m memory, 1 CPU, 64 pids, 64m no-exec tmpfs, read-only root, uid 65534, no capabilities, no-new-privileges. Nothing from the submission ran; the household host was never used.
+Image `python:3.13-slim@sha256:9d2e5553305c7c7b0097999bb17187c69b921ccd6bc9d40e4bb5ebe652c00285` (linux/amd64), `denframe_format` 0.3.0, Python 3.13.15; release runtime matches. Network: none (docker --network none). Limits: 512m memory, 1 CPU, 64 pids, 64m no-exec tmpfs, read-only root, uid 65534, no capabilities, no-new-privileges. Nothing from the submission ran; the household host was never used.
 
 ```json review-summary
 {"id": "brook/lantern", "version": "1.0.0", "recommendation": "recommend approve", "layers": {"archive": "pass", "json": "pass", "schema": "pass", "capabilities": "pass", "contrast": "pass", "media": "not applicable", "trust": "not checked"}, "statuses": {"identity": "pending", "structure": "pass", "security": "pass", "design": "pending", "content": "pending", "licence": "pending", "listening": "not-applicable", "fluent": "not-applicable"}, "findings": [{"code": "ID-HANDLE-NEW", "severity": "note", "area": "identity"}, {"code": "DES-MOTION-RENDERER", "severity": "note", "area": "design"}, {"code": "DES-PREVIEWS-PENDING", "severity": "note", "area": "design"}]}

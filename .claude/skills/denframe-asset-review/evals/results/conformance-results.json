@@ -975,6 +975,24 @@
   ]
  },
  {
+  "case": "legacy-format-name",
+  "recommendation": "changes requested",
+  "layers": {
+   "archive": "pass",
+   "json": "pass",
+   "schema": "fail",
+   "capabilities": "not checked",
+   "contrast": "not checked",
+   "media": "not checked",
+   "trust": "not checked"
+  },
+  "findings": [
+   "STRUCT-SCHEMA",
+   "ID-HANDLE-NEW",
+   "DES-PREVIEWS-PENDING"
+  ]
+ },
+ {
   "case": "local-shared",
   "recommendation": "changes requested",
   "layers": {
@@ -1447,6 +1465,60 @@
   "findings": [
    "SEC-MEDIA-INVALID",
    "ID-HANDLE-NEW",
+   "DES-PREVIEWS-PENDING"
+  ]
+ },
+ {
+  "case": "news-overrides-too-many",
+  "recommendation": "changes requested",
+  "layers": {
+   "archive": "pass",
+   "json": "pass",
+   "schema": "fail",
+   "capabilities": "not checked",
+   "contrast": "not checked",
+   "media": "not checked",
+   "trust": "not checked"
+  },
+  "findings": [
+   "STRUCT-SCHEMA",
+   "ID-HANDLE-NEW",
+   "DES-PREVIEWS-PENDING"
+  ]
+ },
+ {
+  "case": "news-overrides-turns",
+  "recommendation": "changes requested",
+  "layers": {
+   "archive": "pass",
+   "json": "pass",
+   "schema": "fail",
+   "capabilities": "not checked",
+   "contrast": "not checked",
+   "media": "not checked",
+   "trust": "not checked"
+  },
+  "findings": [
+   "STRUCT-SCHEMA",
+   "ID-HANDLE-NEW",
+   "DES-PREVIEWS-PENDING"
+  ]
+ },
+ {
+  "case": "news-overrides-valid",
+  "recommendation": "recommend approve",
+  "layers": {
+   "archive": "pass",
+   "json": "pass",
+   "schema": "pass",
+   "capabilities": "pass",
+   "contrast": "pass",
+   "media": "not applicable",
+   "trust": "not checked"
+  },
+  "findings": [
+   "ID-HANDLE-NEW",
+   "STRUCT-REBUILD-DIFFERS",
    "DES-PREVIEWS-PENDING"
   ]
  },

@@ -1,9 +1,9 @@
 {
   "submission": {
     "sha256": "72c1a904f5ae271b4552326e4ec04d0ae61877aee2115b6e82b2d909c003fa3f",
-    "size": 951,
+    "size": 953,
     "archive_sha256": "72c1a904f5ae271b4552326e4ec04d0ae61877aee2115b6e82b2d909c003fa3f",
-    "archive_size": 951,
+    "archive_size": 953,
     "unwrapped_from_zip": null,
     "submitter": {
       "login": "mallory",
@@ -37,8 +37,8 @@
   "rebuild": {
     "status": "identical",
     "rebuilt_sha256": "72c1a904f5ae271b4552326e4ec04d0ae61877aee2115b6e82b2d909c003fa3f",
-    "rebuilt_size": 951,
-    "source_sha256": "f11fec2bf90ab5b39340f0a0516c2e1e0e4f09c56049197fb5dd49de17b6e0ee"
+    "rebuilt_size": 953,
+    "source_sha256": "4883477d61998e3c30d221cf5f3ef054405171aca3072ee8080719a50cdc170b"
   },
   "distinctness": {
     "applies": true,
@@ -225,7 +225,7 @@
     "submitted_sha256": "72c1a904f5ae271b4552326e4ec04d0ae61877aee2115b6e82b2d909c003fa3f",
     "submitted_archive_sha256": "72c1a904f5ae271b4552326e4ec04d0ae61877aee2115b6e82b2d909c003fa3f",
     "rebuild": "identical",
-    "unpacked_source_sha256": "f11fec2bf90ab5b39340f0a0516c2e1e0e4f09c56049197fb5dd49de17b6e0ee",
+    "unpacked_source_sha256": "4883477d61998e3c30d221cf5f3ef054405171aca3072ee8080719a50cdc170b",
     "source_sha256": "pending: A definition's source hash is its catalog entry's (tools/check.py `reviewed_source`: the entry without `distribution`); the entry gains its slug, mood and description when `tools/intake.py unpack` adds it, and `tools/intake.py approve` computes `source_sha256` from the tree when the owner records their decision.",
     "submitter_account": {
       "login": "mallory",

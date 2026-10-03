@@ -14,8 +14,8 @@
 | Name | `` |
 | Licence and publisher | MIT · `Local author` |
 | Attribution | none |
-| Submitted file | SHA-256 `691c5b7728d2a17aa130542f91cf217ed0eced79b4669c376bf6721a3fc283e4`, 779 bytes |
-| Archive | SHA-256 `691c5b7728d2a17aa130542f91cf217ed0eced79b4669c376bf6721a3fc283e4`, 779 bytes |
+| Submitted file | SHA-256 `691c5b7728d2a17aa130542f91cf217ed0eced79b4669c376bf6721a3fc283e4`, 781 bytes |
+| Archive | SHA-256 `691c5b7728d2a17aa130542f91cf217ed0eced79b4669c376bf6721a3fc283e4`, 781 bytes |
 | Release (what would be signed) | SHA-256 `691c5b7728d2a17aa130542f91cf217ed0eced79b4669c376bf6721a3fc283e4` (rebuild: not run) |
 | Source | SHA-256 `none` of the unpacked `source.json` |
 | Submitter | `quill-author` (GitHub account 7700002) from local |
@@ -118,7 +118,7 @@ Recommended verdict: `changes-requested`. The record goes into `reviews.json` as
 
 ## How this was checked
 
-Image `python:3.13-slim@sha256:9d2e5553305c7c7b0097999bb17187c69b921ccd6bc9d40e4bb5ebe652c00285` (linux/amd64), `denframe_format` 0.2.0, Python 3.13.15; release runtime matches. Network: none (docker --network none). Limits: 512m memory, 1 CPU, 64 pids, 64m no-exec tmpfs, read-only root, uid 65534, no capabilities, no-new-privileges. Nothing from the submission ran; the household host was never used.
+Image `python:3.13-slim@sha256:9d2e5553305c7c7b0097999bb17187c69b921ccd6bc9d40e4bb5ebe652c00285` (linux/amd64), `denframe_format` 0.3.0, Python 3.13.15; release runtime matches. Network: none (docker --network none). Limits: 512m memory, 1 CPU, 64 pids, 64m no-exec tmpfs, read-only root, uid 65534, no capabilities, no-new-privileges. Nothing from the submission ran; the household host was never used.
 
 ```json review-summary
 {"id": "quill/pale-morning", "version": "1.0.0", "recommendation": "changes requested", "layers": {"archive": "pass", "json": "pass", "schema": "fail", "capabilities": "not checked", "contrast": "not checked", "media": "not checked", "trust": "not checked"}, "statuses": {"identity": "pending", "structure": "fail", "security": "pending", "design": "fail", "content": "pending", "licence": "pending", "listening": "not-applicable", "fluent": "not-applicable"}, "findings": [{"code": "DES-CONTRAST", "severity": "major", "area": "design"}, {"code": "ID-HANDLE-NEW", "severity": "note", "area": "identity"}, {"code": "DES-PREVIEWS-PENDING", "severity": "note", "area": "design"}]}
