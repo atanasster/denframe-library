@@ -38,8 +38,9 @@ MAX_QUOTE = 160
 # be listed; a person checks those.
 RESERVED_HANDLES = frozenset(
     {
-        "denframe", "mantel", "meggy", "local", "official", "admin", "administrator", "support", "security", "staff",
-        "team", "moderator", "root", "system", "library", "review", "reviewer", "verified",
+        "denframe", "mantel", "meggy", "local", "official", "admin", "administrator", "support",
+        "security", "staff", "team", "moderator", "root", "system", "library", "review",
+        "reviewer", "verified",
         "anthropic", "claude", "github", "google", "nest", "chromecast", "android", "apple",
         "homekit", "amazon", "alexa", "microsoft", "samsung", "sonos", "spotify", "netflix",
         "disney", "home-assistant", "homeassistant", "nabucasa", "firebase", "tuf", "pypi",
