@@ -1,5 +1,5 @@
 # The daily TUF renewal (host docs/operations/LIBRARY_TUF_OPERATIONS.md). The repository hosts
-# verify is the one the website serves (https://smart.meggy.com/library/metadata/): that is the
+# verify is the one the website serves (https://denframe.com/library/metadata/): that is the
 # one source of truth. The job reads the served metadata (public data), verifies it from the
 # pinned root (the repository variable LIBRARY_ROOT_SHA256), signs a new snapshot of the unchanged
 # targets and then a timestamp for that exact snapshot with the online key only, and publishes
@@ -31,7 +31,7 @@ concurrency:
   group: renew-metadata
   cancel-in-progress: false
 env:
-  LIBRARY_ORIGIN: https://smart.meggy.com
+  LIBRARY_ORIGIN: https://denframe.com
   HOSTING_SITE: smart-home-cec89
 jobs:
   renew:
@@ -48,7 +48,7 @@ jobs:
           ref: main
           path: tools-checkout
           persist-credentials: false
-      - uses: actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405 # v6.2.0
+      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
         with:
           python-version: '3.13'
       - run: python -m pip install --require-hashes -r tools-checkout/tools/requirements-release.lock

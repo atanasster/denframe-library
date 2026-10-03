@@ -8,4 +8,4 @@ Describe the concrete asset or format change and its version.
 - [ ] Any changed published bytes use a new asset version.
 - [ ] An accepted submission: its source came from `tools/intake.py unpack`, a first-time handle from `tools/intake.py register`, and the owner's record from `tools/intake.py approve` (README, *Publishing an accepted submission*).
 
-Read the [terms](https://smart.meggy.com/terms) and [privacy note](https://smart.meggy.com/privacy).
+Read the [terms](https://denframe.com/terms) and [privacy note](https://denframe.com/privacy).

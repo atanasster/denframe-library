@@ -3,7 +3,7 @@ description: Propose a portable asset for review.
 body:
   - type: markdown
     attributes:
-      value: "Start at https://smart.meggy.com/library/submit: it checks the file in your browser, makes the `.zip` copy GitHub accepts and fills this form. This issue is public. Remove personal data and credentials. Read https://smart.meggy.com/terms and https://smart.meggy.com/privacy."
+      value: "Start at https://denframe.com/library/submit: it checks the file in your browser, makes the `.zip` copy GitHub accepts and fills this form. This issue is public. Remove personal data and credentials. Read https://denframe.com/terms and https://denframe.com/privacy."
   - type: textarea
     id: asset
     attributes:

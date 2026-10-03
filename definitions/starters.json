@@ -887,7 +887,7 @@
           "required": false,
           "suggested_source": {
             "kind": "image",
-            "preset_id": "the-met-open-access-highlights"
+            "preset_id": "bundled-open-art"
           }
         },
         {

@@ -1,7 +1,7 @@
 blank_issues_enabled: false
 contact_links:
   - name: Submit an asset
-    url: https://smart.meggy.com/library/submit
+    url: https://denframe.com/library/submit
     about: Check your file in the browser first; the page prefills the issue with a .zip copy.
   - name: Security vulnerability
     url: https://github.com/atanasster/denframe-library/security/advisories/new
