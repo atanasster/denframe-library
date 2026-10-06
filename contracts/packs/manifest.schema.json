@@ -44,10 +44,14 @@
       "type": "string"
     },
     "required_capabilities": {
+      "contains": {
+        "const": "pack-format-v2"
+      },
       "items": {
         "enum": [
           "pack-format-v2",
-          "reveal-sequence-v1"
+          "reveal-sequence-v1",
+          "gallery-pack-v1"
         ],
         "type": "string"
       },

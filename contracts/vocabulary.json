@@ -88,7 +88,8 @@
     "notes",
     "guest",
     "custom",
-    "card"
+    "card",
+    "rewards"
   ],
   "CONTENT_STATUSES": [
     "fresh",
@@ -258,6 +259,10 @@
     "standard",
     "strong"
   ],
+  "WALL_DOCKS": [
+    "top",
+    "side"
+  ],
   "DISPLAY_DIAGNOSTIC_IDS": [
     "discovery",
     "receiver",
@@ -267,6 +272,63 @@
     "connected",
     "session",
     "media"
+  ],
+  "CALENDAR_ROLES": [
+    "person",
+    "everyone",
+    "work_busy",
+    "meals",
+    "birthdays",
+    "hidden"
+  ],
+  "CALENDAR_PRIVACY_LEVELS": [
+    "full",
+    "title",
+    "busy",
+    "hidden"
+  ],
+  "CALENDAR_PERSON_RESOLUTIONS": [
+    "role",
+    "attendee",
+    "tag"
+  ],
+  "CALENDAR_TEXT_RULE_KINDS": [
+    "meal_prefix",
+    "event_kind_keyword"
+  ],
+  "CALENDAR_VIEWS": [
+    "auto",
+    "next",
+    "agenda",
+    "week",
+    "columns",
+    "lanes",
+    "rolling_month",
+    "month"
+  ],
+  "TASK_LIST_ROLES": [
+    "tasks",
+    "groceries",
+    "routine"
+  ],
+  "STAR_LEDGER_REASONS": [
+    "task",
+    "routine",
+    "event",
+    "redeem",
+    "reverse"
+  ],
+  "WALL_WRITE_ACTIONS": [
+    "complete",
+    "uncomplete",
+    "event_done",
+    "event_undone"
+  ],
+  "WALL_WRITE_OUTCOMES": [
+    "pending",
+    "confirmed",
+    "reverted",
+    "refused"
   ],
   "BACKGROUND_KINDS": [
     "theme",
@@ -284,7 +346,8 @@
     "columns",
     "stage",
     "grid",
-    "overlay"
+    "overlay",
+    "wall"
   ],
   "FONTS": [
     "theme",
@@ -380,12 +443,27 @@
   "LAYOUT_CAPABILITY": {
     "auto": "responsive-layout-v1",
     "grid": "grid-placement-v1",
-    "overlay": "overlay-layout-v1"
+    "overlay": "overlay-layout-v1",
+    "wall": "wall-layout-v1"
   },
   "BACKGROUND_CANVAS_CAPABILITY": "background-canvas-v1",
   "BLOCK_STYLE_CAPABILITY": "block-style-v1",
   "OVERLAY_LAYOUT_CAPABILITY": "overlay-layout-v1",
   "PICTURE_FILL_CAPABILITY": "picture-fill-v1",
+  "WALL_LAYOUT_CAPABILITY": "wall-layout-v1",
+  "WALL_TOUCH_ACTION_PREFIXES": [
+    "calendar_view:",
+    "calendar_filter:",
+    "calendar_day:",
+    "complete_item:",
+    "uncomplete_item:",
+    "event_done:",
+    "event_undone:"
+  ],
+  "DEFAULT_DAY_PARTS": {
+    "morning_end": "10:00",
+    "evening_start": "18:00"
+  },
   "GATED_BACKGROUND_KINDS": [
     "artwork",
     "album",
@@ -415,7 +493,8 @@
     "face": "look",
     "radius": "look",
     "overlay_corner": "bottom-left",
-    "overlay_scrim": "standard"
+    "overlay_scrim": "standard",
+    "wall_dock": "top"
   },
   "RECEIVER_REQUIREMENTS": [
     "background-canvas-v1",
@@ -430,7 +509,8 @@
     "pack-audio-v1",
     "pack-window-v1",
     "picture-fill-v1",
-    "responsive-layout-v1"
+    "responsive-layout-v1",
+    "wall-layout-v1"
   ],
   "CARD_MM": {
     "width": 85.6,

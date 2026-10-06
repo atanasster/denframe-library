@@ -1,0 +1,130 @@
+{
+  "slug": "patterns-and-textiles",
+  "id": "denframe/patterns-and-textiles",
+  "version": "1.0.0",
+  "name": "Patterns and textiles",
+  "description": "Woven silks, printed cottons, embroideries, quilts, rugs, kimono and pattern designs from three centuries, chosen for their repeating patterns and colour on a tall screen.",
+  "shape": "portrait",
+  "works": [
+    {
+      "provider": "aic",
+      "object_id": "64884",
+      "alt_text": "A length of red silk woven with a repeating pattern of stylised gold poppy seed heads in rows."
+    },
+    {
+      "provider": "aic",
+      "object_id": "102142",
+      "alt_text": "A woven wool fabric with a dense repeat of pale green tulips and leaves and small red roses on a dark blue-green ground."
+    },
+    {
+      "provider": "aic",
+      "object_id": "150739",
+      "alt_text": "A red silk kimono embroidered with a gnarled gold plum tree covered in small white blossoms, displayed flat against a pale grey backdrop."
+    },
+    {
+      "provider": "aic",
+      "object_id": "2271",
+      "alt_text": "A fragment of embroidered linen with a lattice of coral-pink diamonds framed by green, yellow and blue chevrons, crossed by interlaced bands of gold thread, its edges frayed."
+    },
+    {
+      "provider": "aic",
+      "object_id": "10340",
+      "alt_text": "A cream silk dress panel scattered with small woven bouquets of pink roses and yellow flowers in tiny baskets."
+    },
+    {
+      "provider": "aic",
+      "object_id": "182673",
+      "alt_text": "A golden yellow silk woven with blue, pink and green peonies, leaves and white cloud-like scrolls."
+    },
+    {
+      "provider": "aic",
+      "object_id": "76062",
+      "alt_text": "A white quilt with navy blue four-pointed stars and leaf shapes and a border of navy triangles, finely quilted between."
+    },
+    {
+      "provider": "aic",
+      "object_id": "179719",
+      "alt_text": "A pink silk fabric with a repeating pattern of large coral flowers on curling stems over a ground of small leaves."
+    },
+    {
+      "provider": "aic",
+      "object_id": "153629",
+      "alt_text": "A pale cotton panel printed in soft blue with a symmetrical ornamental design of scrolls, a central star and a border of leaves."
+    },
+    {
+      "provider": "aic",
+      "object_id": "31143",
+      "alt_text": "A pale green silk woven with trailing garlands of pink and red roses and feathery white sprays."
+    },
+    {
+      "provider": "aic",
+      "object_id": "248380",
+      "alt_text": "A large embroidered hanging of rows of round red blossoms on vines around a central star, on a golden ground."
+    },
+    {
+      "provider": "aic",
+      "object_id": "20518",
+      "alt_text": "An embroidered panel of a winding tree with large curling green leaves, flowers, birds and small animals on cream linen."
+    },
+    {
+      "provider": "aic",
+      "object_id": "102152",
+      "alt_text": "A crimson silk woven with vertical stripes of white flower sprays and green scalloped leaf bands."
+    },
+    {
+      "provider": "aic",
+      "object_id": "28952",
+      "alt_text": "A Noh theatre robe of silk brocade in bands of pale blue, cream and gold, patterned with blue and lilac flowers and grasses."
+    },
+    {
+      "provider": "aic",
+      "object_id": "1580",
+      "alt_text": "A pink silk panel woven with a large symmetrical design of silver-green leaves, fruit and flowers, with a small hole in its lower half."
+    },
+    {
+      "provider": "aic",
+      "object_id": "39186",
+      "alt_text": "A printed linen and cotton with a repeating pattern of red and pink flower heads and green leaves on a soft brown ground."
+    },
+    {
+      "provider": "aic",
+      "object_id": "6294",
+      "alt_text": "A fragment of magenta silk woven with close rows of small cream and pale blue flowering plants, its edges frayed."
+    },
+    {
+      "provider": "aic",
+      "object_id": "35431",
+      "alt_text": "A woven silk with a symmetrical repeat of grey-green pagodas, vases and flowers on a warm brown ground."
+    },
+    {
+      "provider": "aic",
+      "object_id": "72877",
+      "alt_text": "A woven silk fragment with large pink peonies, green leaves and small blue flowers around tiny landscape scenes."
+    },
+    {
+      "provider": "aic",
+      "object_id": "149405",
+      "alt_text": "A golden silk panel woven with small coloured flowers, leafy scrolls and pink lattice bands."
+    },
+    {
+      "provider": "aic",
+      "object_id": "1875",
+      "alt_text": "A fragment of gold-brocaded silk velvet with a large pine-cone motif among curling leaves and flowers, outlined in crimson."
+    },
+    {
+      "provider": "aic",
+      "object_id": "766",
+      "alt_text": "A grey-green silk woven with trailing brown oak leaves and round pink and gold flower heads among white waves."
+    },
+    {
+      "provider": "aic",
+      "object_id": "105093",
+      "alt_text": "A cream silk dress panel woven with scattered sprays of small red, pink and blue flowers and faint white leaves."
+    },
+    {
+      "provider": "cleveland",
+      "object_id": "144032",
+      "alt_text": "A printed design of feathery ferns and fanciful flowers in orange, pink, green and lilac on pale paper."
+    }
+  ]
+}

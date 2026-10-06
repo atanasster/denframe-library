@@ -1,0 +1,130 @@
+{
+  "slug": "portrait-wall",
+  "id": "denframe/portrait-wall",
+  "version": "1.0.0",
+  "name": "Portrait wall",
+  "description": "Tall flowers, birds, gardens and landscapes from Japanese prints, Chinese scrolls and Western painting, chosen to fill the tall companion panel.",
+  "shape": "portrait",
+  "works": [
+    {
+      "provider": "aic",
+      "object_id": "25093",
+      "alt_text": "A woodblock print of a bullfinch hanging upside down from a weeping cherry branch full of pale pink blossoms against a deep blue ground, with a poem in calligraphy."
+    },
+    {
+      "provider": "cleveland",
+      "object_id": "150693",
+      "alt_text": "A slender pine trunk rising through a sunny hillside of green grass and flowering shrubs beside a small stream, painted in fine threads of colour."
+    },
+    {
+      "provider": "cleveland",
+      "object_id": "143237",
+      "alt_text": "White and pale lilac peonies with green leaves on a warm golden silk ground, with columns of calligraphy at the top right."
+    },
+    {
+      "provider": "aic",
+      "object_id": "64729",
+      "alt_text": "Tall thin pine trees and red-roofed houses in a misty Florida morning, with a lone figure on a path through golden grass."
+    },
+    {
+      "provider": "cleveland",
+      "object_id": "111644",
+      "alt_text": "A woodblock print of a deep blue mountain river winding between steep white snow-covered slopes under a grey sky with falling snow."
+    },
+    {
+      "provider": "aic",
+      "object_id": "57163",
+      "alt_text": "A tall tree framing a wide green valley with a white church steeple, a wooden bridge and distant blue mountains under a glowing sunrise."
+    },
+    {
+      "provider": "cleveland",
+      "object_id": "132835",
+      "alt_text": "An ink landscape of a rounded rocky hill with clusters of dotted trees and a small pavilion by the water, with calligraphy in the corner."
+    },
+    {
+      "provider": "aic",
+      "object_id": "9021",
+      "alt_text": "A brightly coloured painting of a mill with a red waterwheel and a white waterfall pouring down among blue, green and yellow shapes."
+    },
+    {
+      "provider": "aic",
+      "object_id": "25088",
+      "alt_text": "A woodblock print of a small bird perched on a branch of white magnolia flowers with blue-green leaves, beside columns of calligraphy."
+    },
+    {
+      "provider": "cleveland",
+      "object_id": "98905",
+      "alt_text": "A clear river running over pale stones between leafy green trees and a sandy bank, under a blue sky with soft white clouds."
+    },
+    {
+      "provider": "aic",
+      "object_id": "154022",
+      "alt_text": "A soft crayon drawing of tree trunks and arching branches in a misty park, in pale greys on cream paper."
+    },
+    {
+      "provider": "cleveland",
+      "object_id": "147930",
+      "alt_text": "A silk painting of a flowering willow and plum tree full of small birds, with peacocks, pheasants and pink and white peonies below."
+    },
+    {
+      "provider": "aic",
+      "object_id": "62393",
+      "alt_text": "A snowy field at morning with two small green fir trees, below a dark line of woods and a band of pale green and blue sky."
+    },
+    {
+      "provider": "cleveland",
+      "object_id": "130940",
+      "alt_text": "A pale ink painting of tall bamboo, a thatched pavilion and distant hills by a lake, with long columns of calligraphy above."
+    },
+    {
+      "provider": "cleveland",
+      "object_id": "115067",
+      "alt_text": "A white vase holding a loose bouquet of red, orange, blue and white flowers against a glowing orange and pink background."
+    },
+    {
+      "provider": "aic",
+      "object_id": "146953",
+      "alt_text": "Two cows and a young bull resting in a meadow beside a broken tree and a wooden fence, under a large sky of white clouds."
+    },
+    {
+      "provider": "cleveland",
+      "object_id": "152828",
+      "alt_text": "An ink landscape of tall craggy rocks, a small house and a row of trees, drawn with loose grey brushwork on white paper."
+    },
+    {
+      "provider": "aic",
+      "object_id": "151108",
+      "alt_text": "A flaming orange autumn tree beside a green meadow and a mill pond, with golden woods and a patch of blue sky."
+    },
+    {
+      "provider": "cleveland",
+      "object_id": "153351",
+      "alt_text": "A soft ink and colour landscape on golden silk with misty mountains, a lake, willows and pines, and a short poem at the top left."
+    },
+    {
+      "provider": "aic",
+      "object_id": "111081",
+      "alt_text": "A colour lithograph looking down on a garden of green lawns and bushes in front of a studio with a tall glass window, with a figure resting on a rug on the grass."
+    },
+    {
+      "provider": "aic",
+      "object_id": "19018",
+      "alt_text": "A woodblock print of a green Japanese white-eye perched on a slender branch of pink and white blossoms below a deep blue sky."
+    },
+    {
+      "provider": "cleveland",
+      "object_id": "130391",
+      "alt_text": "A tumble of white peonies, white guelder roses, red tulips, blue morning glories and green leaves in a basket against a dark background."
+    },
+    {
+      "provider": "cleveland",
+      "object_id": "151005",
+      "alt_text": "A soft ink painting of a magpie perched on a thin willow branch, with faint willow leaves above on stained pale brown paper."
+    },
+    {
+      "provider": "cleveland",
+      "object_id": "102023",
+      "alt_text": "An etching of a quiet garden with a large leafy tree, a tub of plants and a path leading to a sunny opening beyond."
+    }
+  ]
+}

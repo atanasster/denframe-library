@@ -1,0 +1,1501 @@
+{
+  "id": "denframe/seascapes",
+  "version": "1.0.0",
+  "publisher": "Denframe",
+  "definition": {
+    "schema_version": 2,
+    "kind": "gallery",
+    "name": "Seascapes",
+    "description": "Calm seas, beaches, harbours and boats in clear light, from Dutch painters to the Impressionists, chosen to bring the coast quietly into a family room.",
+    "shape": "landscape",
+    "presentation": {
+      "fit": "fit",
+      "mat_style": "museum",
+      "placard_seconds": 12,
+      "cadence_seconds": 45
+    },
+    "strip": "assets/a9866e65145d6e81903be81833f41ed379d655219dd61fdbcaacfd331d664312.webp",
+    "resources": [
+      {
+        "path": "assets/60f970b42103b854b8212e62c0db7570c3d89fd7454ed872981323ca8686f995.jpg",
+        "sha256": "60f970b42103b854b8212e62c0db7570c3d89fd7454ed872981323ca8686f995",
+        "length": 224967,
+        "media_type": "image/jpeg",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Fitz Henry Lane (American, 1804–1865)",
+          "license": "CC0-1.0",
+          "attribution": "Harbor of Boston, with the City in the Distance · Fitz Henry Lane (American, 1804–1865) · The Cleveland Museum of Art · CC0",
+          "source": "https://clevelandart.org/art/2004.35",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/4503c740659f7281f59acfe4297ddcea009157111904e1b17495723f39f29d32.webp",
+        "sha256": "4503c740659f7281f59acfe4297ddcea009157111904e1b17495723f39f29d32",
+        "length": 9380,
+        "media_type": "image/webp",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Fitz Henry Lane (American, 1804–1865)",
+          "license": "CC0-1.0",
+          "attribution": "Harbor of Boston, with the City in the Distance · Fitz Henry Lane (American, 1804–1865) · The Cleveland Museum of Art · CC0",
+          "source": "https://clevelandart.org/art/2004.35",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/a6e0b479d7b91f6f30eaa40a04584ac197714048c5557ee17290a688c8fd3fbf.jpg",
+        "sha256": "a6e0b479d7b91f6f30eaa40a04584ac197714048c5557ee17290a688c8fd3fbf",
+        "length": 251692,
+        "media_type": "image/jpeg",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Claude Monet (French, 1840–1926)",
+          "license": "CC0-1.0",
+          "attribution": "The Departure of the Boats, Étretat · Claude Monet (French, 1840–1926) · Art Institute of Chicago · CC0",
+          "source": "https://www.artic.edu/artworks/81540",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/39abc8657aa1c363c9e7146818ecf0c48982255dcadbf841fdd02344c3199999.webp",
+        "sha256": "39abc8657aa1c363c9e7146818ecf0c48982255dcadbf841fdd02344c3199999",
+        "length": 26430,
+        "media_type": "image/webp",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Claude Monet (French, 1840–1926)",
+          "license": "CC0-1.0",
+          "attribution": "The Departure of the Boats, Étretat · Claude Monet (French, 1840–1926) · Art Institute of Chicago · CC0",
+          "source": "https://www.artic.edu/artworks/81540",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/3e1d7adbe0a5f49fe76688545f6d7ce6c9b77d875e67c9313f41895fdb3be127.jpg",
+        "sha256": "3e1d7adbe0a5f49fe76688545f6d7ce6c9b77d875e67c9313f41895fdb3be127",
+        "length": 191496,
+        "media_type": "image/jpeg",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Édouard Manet (French, 1832–1883)",
+          "license": "CC0-1.0",
+          "attribution": "Sea View, Calm Weather (Vue de mer, temps calme) · Édouard Manet (French, 1832–1883) · Art Institute of Chicago · CC0",
+          "source": "https://www.artic.edu/artworks/81535",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/0b3ad0d87541f354ff9096f80a856d73acb98cb4b2cf2debd55a745154acbb4f.webp",
+        "sha256": "0b3ad0d87541f354ff9096f80a856d73acb98cb4b2cf2debd55a745154acbb4f",
+        "length": 11686,
+        "media_type": "image/webp",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Édouard Manet (French, 1832–1883)",
+          "license": "CC0-1.0",
+          "attribution": "Sea View, Calm Weather (Vue de mer, temps calme) · Édouard Manet (French, 1832–1883) · Art Institute of Chicago · CC0",
+          "source": "https://www.artic.edu/artworks/81535",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/9a7dbc83f12aeb81e320ab7e3ba524c864dd80a3eaa80e9196789aa5c513af4d.jpg",
+        "sha256": "9a7dbc83f12aeb81e320ab7e3ba524c864dd80a3eaa80e9196789aa5c513af4d",
+        "length": 221855,
+        "media_type": "image/jpeg",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Claude Monet (French, 1840–1926)",
+          "license": "CC0-1.0",
+          "attribution": "The Beach at Sainte-Adresse · Claude Monet (French, 1840–1926) · Art Institute of Chicago · CC0",
+          "source": "https://www.artic.edu/artworks/14598",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/a696a6fca23de99b91d77b67ed6b1678e52be9baab2c25d033c768dc2e5d5d71.webp",
+        "sha256": "a696a6fca23de99b91d77b67ed6b1678e52be9baab2c25d033c768dc2e5d5d71",
+        "length": 20562,
+        "media_type": "image/webp",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Claude Monet (French, 1840–1926)",
+          "license": "CC0-1.0",
+          "attribution": "The Beach at Sainte-Adresse · Claude Monet (French, 1840–1926) · Art Institute of Chicago · CC0",
+          "source": "https://www.artic.edu/artworks/14598",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/659014821af959a385a4535766b55adeb8ce0005a1bf295c41a2bf25ba3a8ac1.jpg",
+        "sha256": "659014821af959a385a4535766b55adeb8ce0005a1bf295c41a2bf25ba3a8ac1",
+        "length": 290179,
+        "media_type": "image/jpeg",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Eugène Boudin (French, 1824–1898)",
+          "license": "CC0-1.0",
+          "attribution": "View of Bordeaux, from the Quai des Chartrons · Eugène Boudin (French, 1824–1898) · The Cleveland Museum of Art · CC0",
+          "source": "https://clevelandart.org/art/1986.73",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/fc3750548b5ae3a15ffef9cf71f562b86b92eb6cfd85bbe0b42f2ebff6ae146d.webp",
+        "sha256": "fc3750548b5ae3a15ffef9cf71f562b86b92eb6cfd85bbe0b42f2ebff6ae146d",
+        "length": 14852,
+        "media_type": "image/webp",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Eugène Boudin (French, 1824–1898)",
+          "license": "CC0-1.0",
+          "attribution": "View of Bordeaux, from the Quai des Chartrons · Eugène Boudin (French, 1824–1898) · The Cleveland Museum of Art · CC0",
+          "source": "https://clevelandart.org/art/1986.73",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/f8b38b802e9afa9c44521f84071c348e620df365da506c89fe10e52240b9113c.jpg",
+        "sha256": "f8b38b802e9afa9c44521f84071c348e620df365da506c89fe10e52240b9113c",
+        "length": 171293,
+        "media_type": "image/jpeg",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Jan van de Cappelle (Dutch, 1626–1679)",
+          "license": "CC0-1.0",
+          "attribution": "Fishing Boats in a Calm · Jan van de Cappelle (Dutch, 1626–1679) · Art Institute of Chicago · CC0",
+          "source": "https://www.artic.edu/artworks/16343",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/c8ce899f503c5922c7da2b6ef8965a0af30226cda0b405286e92f8c9dd368ef9.webp",
+        "sha256": "c8ce899f503c5922c7da2b6ef8965a0af30226cda0b405286e92f8c9dd368ef9",
+        "length": 11266,
+        "media_type": "image/webp",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Jan van de Cappelle (Dutch, 1626–1679)",
+          "license": "CC0-1.0",
+          "attribution": "Fishing Boats in a Calm · Jan van de Cappelle (Dutch, 1626–1679) · Art Institute of Chicago · CC0",
+          "source": "https://www.artic.edu/artworks/16343",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/c4a26dc020a8980858e954000f1d14e23ab2898b29d8d6869cc40a8d5ef47f52.jpg",
+        "sha256": "c4a26dc020a8980858e954000f1d14e23ab2898b29d8d6869cc40a8d5ef47f52",
+        "length": 294906,
+        "media_type": "image/jpeg",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Johan Barthold Jongkind (Dutch, 1819-1891)",
+          "license": "CC0-1.0",
+          "attribution": "Entrance to the Port of Honfleur · Johan Barthold Jongkind (Dutch, 1819-1891) · Art Institute of Chicago · CC0",
+          "source": "https://www.artic.edu/artworks/30361",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/e220b751e7d1ec4512aee9ff8691de3266a18808456bd7b312605a09b30926bd.webp",
+        "sha256": "e220b751e7d1ec4512aee9ff8691de3266a18808456bd7b312605a09b30926bd",
+        "length": 25380,
+        "media_type": "image/webp",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Johan Barthold Jongkind (Dutch, 1819-1891)",
+          "license": "CC0-1.0",
+          "attribution": "Entrance to the Port of Honfleur · Johan Barthold Jongkind (Dutch, 1819-1891) · Art Institute of Chicago · CC0",
+          "source": "https://www.artic.edu/artworks/30361",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/30fbfe974175446a7fa276233d73bd37452fe16ae4e8bf7d67560f603c2843d5.jpg",
+        "sha256": "30fbfe974175446a7fa276233d73bd37452fe16ae4e8bf7d67560f603c2843d5",
+        "length": 207868,
+        "media_type": "image/jpeg",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "William Merritt Chase (American, 1849–1916)",
+          "license": "CC0-1.0",
+          "attribution": "Marine · William Merritt Chase (American, 1849–1916) · The Cleveland Museum of Art · CC0",
+          "source": "https://clevelandart.org/art/1957.422",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/b4ae044391eec70de7248cf5be84aa860f0bf7f2a718a0af93969f7787fc714a.webp",
+        "sha256": "b4ae044391eec70de7248cf5be84aa860f0bf7f2a718a0af93969f7787fc714a",
+        "length": 10626,
+        "media_type": "image/webp",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "William Merritt Chase (American, 1849–1916)",
+          "license": "CC0-1.0",
+          "attribution": "Marine · William Merritt Chase (American, 1849–1916) · The Cleveland Museum of Art · CC0",
+          "source": "https://clevelandart.org/art/1957.422",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/31feda5ac7bf3c08b6d2aa8d46c882f18a0fdbad23f9c05bf2ce23f4bd4e579b.jpg",
+        "sha256": "31feda5ac7bf3c08b6d2aa8d46c882f18a0fdbad23f9c05bf2ce23f4bd4e579b",
+        "length": 166642,
+        "media_type": "image/jpeg",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "James McNeill Whistler (American, 1834–1903)",
+          "license": "CC0-1.0",
+          "attribution": "Trouville (Grey and Green, the Silver Sea) · James McNeill Whistler (American, 1834–1903) · Art Institute of Chicago · CC0",
+          "source": "https://www.artic.edu/artworks/81572",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/be450b8efa23ff9318521ce72633fe7a184cd62bc8443c529e39af7598287345.webp",
+        "sha256": "be450b8efa23ff9318521ce72633fe7a184cd62bc8443c529e39af7598287345",
+        "length": 6470,
+        "media_type": "image/webp",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "James McNeill Whistler (American, 1834–1903)",
+          "license": "CC0-1.0",
+          "attribution": "Trouville (Grey and Green, the Silver Sea) · James McNeill Whistler (American, 1834–1903) · Art Institute of Chicago · CC0",
+          "source": "https://www.artic.edu/artworks/81572",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/af032785589503046bf0fa2241c59878906047c545ae577542e64bb45ae887b3.jpg",
+        "sha256": "af032785589503046bf0fa2241c59878906047c545ae577542e64bb45ae887b3",
+        "length": 246623,
+        "media_type": "image/jpeg",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Joseph Wright of Derby (English, 1734-1797)",
+          "license": "CC0-1.0",
+          "attribution": "The Gulf of Salerno · Joseph Wright of Derby (English, 1734-1797) · Art Institute of Chicago · CC0",
+          "source": "https://www.artic.edu/artworks/180711",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/e55a7e96571cc4c673f1fcf6b33a46d2e009df2b5ba69afc3c45bd0fb0209d1c.webp",
+        "sha256": "e55a7e96571cc4c673f1fcf6b33a46d2e009df2b5ba69afc3c45bd0fb0209d1c",
+        "length": 10982,
+        "media_type": "image/webp",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Joseph Wright of Derby (English, 1734-1797)",
+          "license": "CC0-1.0",
+          "attribution": "The Gulf of Salerno · Joseph Wright of Derby (English, 1734-1797) · Art Institute of Chicago · CC0",
+          "source": "https://www.artic.edu/artworks/180711",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/28ea0d344eda1827de5d2652ecb09bf5e8d292522f8b455334f8568deacb8ee6.jpg",
+        "sha256": "28ea0d344eda1827de5d2652ecb09bf5e8d292522f8b455334f8568deacb8ee6",
+        "length": 379244,
+        "media_type": "image/jpeg",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Eugène Boudin (French, 1824–1898)",
+          "license": "CC0-1.0",
+          "attribution": "Beach Scene · Eugène Boudin (French, 1824–1898) · The Cleveland Museum of Art · CC0",
+          "source": "https://clevelandart.org/art/1917.63",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/1e9de959c2e3796c249e35ee7d7accfb26d1e1563abe53bb83208ca7ca8be376.webp",
+        "sha256": "1e9de959c2e3796c249e35ee7d7accfb26d1e1563abe53bb83208ca7ca8be376",
+        "length": 15878,
+        "media_type": "image/webp",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Eugène Boudin (French, 1824–1898)",
+          "license": "CC0-1.0",
+          "attribution": "Beach Scene · Eugène Boudin (French, 1824–1898) · The Cleveland Museum of Art · CC0",
+          "source": "https://clevelandart.org/art/1917.63",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/995fae35f548b3ce54e9dfaf75e024a5a7ba37f3e5230b0634786ded398b4287.jpg",
+        "sha256": "995fae35f548b3ce54e9dfaf75e024a5a7ba37f3e5230b0634786ded398b4287",
+        "length": 320937,
+        "media_type": "image/jpeg",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Winslow Homer (American, 1836-1910)",
+          "license": "CC0-1.0",
+          "attribution": "Prout's Neck, Evening · Winslow Homer (American, 1836-1910) · Art Institute of Chicago · CC0",
+          "source": "https://www.artic.edu/artworks/16821",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/a2d028b42bd733ccee69f324e71fb6399ef904643359ac3c027858087151c70a.webp",
+        "sha256": "a2d028b42bd733ccee69f324e71fb6399ef904643359ac3c027858087151c70a",
+        "length": 15860,
+        "media_type": "image/webp",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Winslow Homer (American, 1836-1910)",
+          "license": "CC0-1.0",
+          "attribution": "Prout's Neck, Evening · Winslow Homer (American, 1836-1910) · Art Institute of Chicago · CC0",
+          "source": "https://www.artic.edu/artworks/16821",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/f629176e1a69528b6b1eadf3add63b0ddb3c555f4746309574557d73d6294373.jpg",
+        "sha256": "f629176e1a69528b6b1eadf3add63b0ddb3c555f4746309574557d73d6294373",
+        "length": 200794,
+        "media_type": "image/jpeg",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Edgar Degas (French, 1834–1917)",
+          "license": "CC0-1.0",
+          "attribution": "Beach at Low Tide (Mouth of the River) · Edgar Degas (French, 1834–1917) · Art Institute of Chicago · CC0",
+          "source": "https://www.artic.edu/artworks/218848",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/77718a9f5260ae47516d98fb28e938b2cfc6a06dc7940ebd1ab6f9e573f134cb.webp",
+        "sha256": "77718a9f5260ae47516d98fb28e938b2cfc6a06dc7940ebd1ab6f9e573f134cb",
+        "length": 10970,
+        "media_type": "image/webp",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Edgar Degas (French, 1834–1917)",
+          "license": "CC0-1.0",
+          "attribution": "Beach at Low Tide (Mouth of the River) · Edgar Degas (French, 1834–1917) · Art Institute of Chicago · CC0",
+          "source": "https://www.artic.edu/artworks/218848",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/b7fa70b76a84a6d3c291364dfe6b1e5b39f215950618f4d184a2081e700dbcb9.jpg",
+        "sha256": "b7fa70b76a84a6d3c291364dfe6b1e5b39f215950618f4d184a2081e700dbcb9",
+        "length": 201887,
+        "media_type": "image/jpeg",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Jean Baptiste Pillement (French, 1728-1808)",
+          "license": "CC0-1.0",
+          "attribution": "Port Scene in Calm Weather · Jean Baptiste Pillement (French, 1728-1808) · Art Institute of Chicago · CC0",
+          "source": "https://www.artic.edu/artworks/243811",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/252456cdff2bf60170dfde1417463244db613d566a9147c454749977051a4f3b.webp",
+        "sha256": "252456cdff2bf60170dfde1417463244db613d566a9147c454749977051a4f3b",
+        "length": 15208,
+        "media_type": "image/webp",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Jean Baptiste Pillement (French, 1728-1808)",
+          "license": "CC0-1.0",
+          "attribution": "Port Scene in Calm Weather · Jean Baptiste Pillement (French, 1728-1808) · Art Institute of Chicago · CC0",
+          "source": "https://www.artic.edu/artworks/243811",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/c68685e0d64f0d81c1e20feccf517f6cc3193e7cfd2b72d0ca2a9c39b7d3621e.jpg",
+        "sha256": "c68685e0d64f0d81c1e20feccf517f6cc3193e7cfd2b72d0ca2a9c39b7d3621e",
+        "length": 280815,
+        "media_type": "image/jpeg",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "William Merritt Chase (American, 1849–1916)",
+          "license": "CC0-1.0",
+          "attribution": "Gray Day on the Bay · William Merritt Chase (American, 1849–1916) · The Cleveland Museum of Art · CC0",
+          "source": "https://clevelandart.org/art/1957.423",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/d77d2460fc3ab558a6390f04cc29ac3a1b3439fc74a1a48aed9bcdbae98ee0ff.webp",
+        "sha256": "d77d2460fc3ab558a6390f04cc29ac3a1b3439fc74a1a48aed9bcdbae98ee0ff",
+        "length": 11904,
+        "media_type": "image/webp",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "William Merritt Chase (American, 1849–1916)",
+          "license": "CC0-1.0",
+          "attribution": "Gray Day on the Bay · William Merritt Chase (American, 1849–1916) · The Cleveland Museum of Art · CC0",
+          "source": "https://clevelandart.org/art/1957.423",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/ebf601f6e6a801e4d2ec167a788bc0c03f6d9d946e6d232a3c62633d6bb35ef3.jpg",
+        "sha256": "ebf601f6e6a801e4d2ec167a788bc0c03f6d9d946e6d232a3c62633d6bb35ef3",
+        "length": 287793,
+        "media_type": "image/jpeg",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Jean-Charles Cazin (French, 1841–1901)",
+          "license": "CC0-1.0",
+          "attribution": "The Boatyard · Jean-Charles Cazin (French, 1841–1901) · The Cleveland Museum of Art · CC0",
+          "source": "https://clevelandart.org/art/1977.123",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/4bb0e111cf398c72bd701136880d56b706b9bca2feed7af49769b53f96a8795f.webp",
+        "sha256": "4bb0e111cf398c72bd701136880d56b706b9bca2feed7af49769b53f96a8795f",
+        "length": 20730,
+        "media_type": "image/webp",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Jean-Charles Cazin (French, 1841–1901)",
+          "license": "CC0-1.0",
+          "attribution": "The Boatyard · Jean-Charles Cazin (French, 1841–1901) · The Cleveland Museum of Art · CC0",
+          "source": "https://clevelandart.org/art/1977.123",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/50ad6ea23a846fee46cc7db1279ae55373964df4e4f9e7bb27f6a88a5f6e67b6.jpg",
+        "sha256": "50ad6ea23a846fee46cc7db1279ae55373964df4e4f9e7bb27f6a88a5f6e67b6",
+        "length": 413388,
+        "media_type": "image/jpeg",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Edward H. Potthast (American, 1857–1927)",
+          "license": "CC0-1.0",
+          "attribution": "In the Surf (recto) · Edward H. Potthast (American, 1857–1927) · The Cleveland Museum of Art · CC0",
+          "source": "https://clevelandart.org/art/2001.41.a",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/ec9de2e9a20991186a6d4444c1dcf79ade95ddbb33254a9078c71f1712b1b27a.webp",
+        "sha256": "ec9de2e9a20991186a6d4444c1dcf79ade95ddbb33254a9078c71f1712b1b27a",
+        "length": 43848,
+        "media_type": "image/webp",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Edward H. Potthast (American, 1857–1927)",
+          "license": "CC0-1.0",
+          "attribution": "In the Surf (recto) · Edward H. Potthast (American, 1857–1927) · The Cleveland Museum of Art · CC0",
+          "source": "https://clevelandart.org/art/2001.41.a",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/15ad27c645ed919d10ffa7eca67246d35e5bfa2c9b4c48c9ebf03b97e40ff907.jpg",
+        "sha256": "15ad27c645ed919d10ffa7eca67246d35e5bfa2c9b4c48c9ebf03b97e40ff907",
+        "length": 256327,
+        "media_type": "image/jpeg",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Jean Achille Benouville (French, 1815–1891)",
+          "license": "CC0-1.0",
+          "attribution": "Capri · Jean Achille Benouville (French, 1815–1891) · The Cleveland Museum of Art · CC0",
+          "source": "https://clevelandart.org/art/1980.5",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/c491b699fd149095a78cc6c759ab3ebb5716a5631c5b35c37ad49eb24aa27ab6.webp",
+        "sha256": "c491b699fd149095a78cc6c759ab3ebb5716a5631c5b35c37ad49eb24aa27ab6",
+        "length": 10200,
+        "media_type": "image/webp",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Jean Achille Benouville (French, 1815–1891)",
+          "license": "CC0-1.0",
+          "attribution": "Capri · Jean Achille Benouville (French, 1815–1891) · The Cleveland Museum of Art · CC0",
+          "source": "https://clevelandart.org/art/1980.5",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/dc475478287b638d375e3b327724b6c0bb5aa95bf63bffec804d3e69b1117fd0.jpg",
+        "sha256": "dc475478287b638d375e3b327724b6c0bb5aa95bf63bffec804d3e69b1117fd0",
+        "length": 486870,
+        "media_type": "image/jpeg",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Maurice Prendergast (American, born Newfoundland [now Canada], 1858–1924)",
+          "license": "CC0-1.0",
+          "attribution": "On the Beach, No. 3 · Maurice Prendergast (American, born Newfoundland [now Canada], 1858–1924) · The Cleveland Museum of Art · CC0",
+          "source": "https://clevelandart.org/art/1926.1653",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/1da8069e1e5733138015f006900fc3d538000d332bfbbf3772795d0c31265d68.webp",
+        "sha256": "1da8069e1e5733138015f006900fc3d538000d332bfbbf3772795d0c31265d68",
+        "length": 57078,
+        "media_type": "image/webp",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Maurice Prendergast (American, born Newfoundland [now Canada], 1858–1924)",
+          "license": "CC0-1.0",
+          "attribution": "On the Beach, No. 3 · Maurice Prendergast (American, born Newfoundland [now Canada], 1858–1924) · The Cleveland Museum of Art · CC0",
+          "source": "https://clevelandart.org/art/1926.1653",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/7014982991ba3224450453bff907f50004592e4a915dbaa7a4c225a76312d2f1.jpg",
+        "sha256": "7014982991ba3224450453bff907f50004592e4a915dbaa7a4c225a76312d2f1",
+        "length": 173643,
+        "media_type": "image/jpeg",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Claude Joseph Vernet (French, 1714–1789)",
+          "license": "CC0-1.0",
+          "attribution": "Morning · Claude Joseph Vernet (French, 1714–1789) · Art Institute of Chicago · CC0",
+          "source": "https://www.artic.edu/artworks/16439",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/e5cdc5f1c2b708fc7670021a3ba81fb001dd7d18b5cdbef048158afc1b51a052.webp",
+        "sha256": "e5cdc5f1c2b708fc7670021a3ba81fb001dd7d18b5cdbef048158afc1b51a052",
+        "length": 11488,
+        "media_type": "image/webp",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Claude Joseph Vernet (French, 1714–1789)",
+          "license": "CC0-1.0",
+          "attribution": "Morning · Claude Joseph Vernet (French, 1714–1789) · Art Institute of Chicago · CC0",
+          "source": "https://www.artic.edu/artworks/16439",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/d117b271c6b70b6745bd84f977db941d81a2c5f339e4ca754ada14230f8b91e0.jpg",
+        "sha256": "d117b271c6b70b6745bd84f977db941d81a2c5f339e4ca754ada14230f8b91e0",
+        "length": 359122,
+        "media_type": "image/jpeg",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Michele Marieschi (Italian, 1710–1743)",
+          "license": "CC0-1.0",
+          "attribution": "The Church of Santa Maria della Salute, Venice · Michele Marieschi (Italian, 1710–1743) · Art Institute of Chicago · CC0",
+          "source": "https://www.artic.edu/artworks/55621",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/621cde0cde8e0eebeca7859f9ec678cfb26d7b7928302cd9646959c409d6558c.webp",
+        "sha256": "621cde0cde8e0eebeca7859f9ec678cfb26d7b7928302cd9646959c409d6558c",
+        "length": 29766,
+        "media_type": "image/webp",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Michele Marieschi (Italian, 1710–1743)",
+          "license": "CC0-1.0",
+          "attribution": "The Church of Santa Maria della Salute, Venice · Michele Marieschi (Italian, 1710–1743) · Art Institute of Chicago · CC0",
+          "source": "https://www.artic.edu/artworks/55621",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/255ed2ddd9f622e1ee19861dc331c49b7ca4ee45912cd0cd4836c7959d3f1344.jpg",
+        "sha256": "255ed2ddd9f622e1ee19861dc331c49b7ca4ee45912cd0cd4836c7959d3f1344",
+        "length": 295530,
+        "media_type": "image/jpeg",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "William Callow (English, 1812-1908)",
+          "license": "CC0-1.0",
+          "attribution": "The Entrance to the Harbor of Marseilles · William Callow (English, 1812-1908) · Art Institute of Chicago · CC0",
+          "source": "https://www.artic.edu/artworks/116240",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/fad13106d6d752f067dc9755b37e53e91a5978948db6f3a5a10989331356c615.webp",
+        "sha256": "fad13106d6d752f067dc9755b37e53e91a5978948db6f3a5a10989331356c615",
+        "length": 16794,
+        "media_type": "image/webp",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "William Callow (English, 1812-1908)",
+          "license": "CC0-1.0",
+          "attribution": "The Entrance to the Harbor of Marseilles · William Callow (English, 1812-1908) · Art Institute of Chicago · CC0",
+          "source": "https://www.artic.edu/artworks/116240",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/b83a31cad3512431d2fcd34986087b094922f7d5efb4403a736b9e5965b4d163.jpg",
+        "sha256": "b83a31cad3512431d2fcd34986087b094922f7d5efb4403a736b9e5965b4d163",
+        "length": 213112,
+        "media_type": "image/jpeg",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "James McNeill Whistler (American, 1834–1903)",
+          "license": "CC0-1.0",
+          "attribution": "Violet and Silver—The Deep Sea · James McNeill Whistler (American, 1834–1903) · Art Institute of Chicago · CC0",
+          "source": "https://www.artic.edu/artworks/84088",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/4577e446d4ca36e15da9fc8f45c25c2ea84100a9d61992554d3da0526c775b35.webp",
+        "sha256": "4577e446d4ca36e15da9fc8f45c25c2ea84100a9d61992554d3da0526c775b35",
+        "length": 7786,
+        "media_type": "image/webp",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "James McNeill Whistler (American, 1834–1903)",
+          "license": "CC0-1.0",
+          "attribution": "Violet and Silver—The Deep Sea · James McNeill Whistler (American, 1834–1903) · Art Institute of Chicago · CC0",
+          "source": "https://www.artic.edu/artworks/84088",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/587f98421c172e474610c6dad51c674515600143b60acbe0ffaa27ce1957b2cb.jpg",
+        "sha256": "587f98421c172e474610c6dad51c674515600143b60acbe0ffaa27ce1957b2cb",
+        "length": 303536,
+        "media_type": "image/jpeg",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "James Hamilton (American, 1819–1878)",
+          "license": "CC0-1.0",
+          "attribution": "Beach Scene at Sunset · James Hamilton (American, 1819–1878) · The Cleveland Museum of Art · CC0",
+          "source": "https://clevelandart.org/art/2011.134",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/8c0f64d0f3211ace8e25f926b7e3b496c19401a9b45cfc64dd1d80045e403106.webp",
+        "sha256": "8c0f64d0f3211ace8e25f926b7e3b496c19401a9b45cfc64dd1d80045e403106",
+        "length": 11262,
+        "media_type": "image/webp",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "James Hamilton (American, 1819–1878)",
+          "license": "CC0-1.0",
+          "attribution": "Beach Scene at Sunset · James Hamilton (American, 1819–1878) · The Cleveland Museum of Art · CC0",
+          "source": "https://clevelandart.org/art/2011.134",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/a9866e65145d6e81903be81833f41ed379d655219dd61fdbcaacfd331d664312.webp",
+        "sha256": "a9866e65145d6e81903be81833f41ed379d655219dd61fdbcaacfd331d664312",
+        "length": 12624,
+        "media_type": "image/webp",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Denframe",
+          "license": "CC0-1.0",
+          "attribution": "The collection's first works, side by side.",
+          "source": "",
+          "modified": true
+        }
+      }
+    ],
+    "works": [
+      {
+        "id": "cleveland-163456",
+        "image": "assets/60f970b42103b854b8212e62c0db7570c3d89fd7454ed872981323ca8686f995.jpg",
+        "thumbnail": "assets/4503c740659f7281f59acfe4297ddcea009157111904e1b17495723f39f29d32.webp",
+        "alt_text": "Tall sailing ships rest on a glassy harbour at sunrise, with a rowing boat in front and the city faint in a peach-coloured haze.",
+        "width": 1751,
+        "height": 1080,
+        "orientation": "landscape",
+        "focal_x": 0.5,
+        "focal_y": 0.5,
+        "mean_colour": "#aea495",
+        "placard": {
+          "title": "Harbor of Boston, with the City in the Distance",
+          "creator": "Fitz Henry Lane (American, 1804–1865)",
+          "date": "c. 1846–1847",
+          "medium": "oil on canvas",
+          "dimensions": "Framed: 66 x 104.8 x 14 cm (26 x 41 1/4 x 5 1/2 in.); Unframed: 43.2 x 68.6 cm (17 x 27 in.)",
+          "institution": "The Cleveland Museum of Art",
+          "canonical_url": "https://clevelandart.org/art/2004.35"
+        },
+        "rights": {
+          "license": "CC0-1.0",
+          "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "evidence": {
+            "provider_field": "share_license_status",
+            "provider_value": "CC0",
+            "image_url": "https://openaccess-cdn.clevelandart.org/2004.35/2004.35_print.jpg",
+            "observed_at": "2026-10-06T11:37:41+00:00",
+            "image_field": null,
+            "uuid": null
+          }
+        }
+      },
+      {
+        "id": "aic-81540",
+        "image": "assets/a6e0b479d7b91f6f30eaa40a04584ac197714048c5557ee17290a688c8fd3fbf.jpg",
+        "thumbnail": "assets/39abc8657aa1c363c9e7146818ecf0c48982255dcadbf841fdd02344c3199999.webp",
+        "alt_text": "Fishing boats with red-brown sails head out over a turquoise sea while people gather on a beach among dark thatched boat sheds.",
+        "width": 1369,
+        "height": 1080,
+        "orientation": "landscape",
+        "focal_x": 0.5,
+        "focal_y": 0.5,
+        "mean_colour": "#7e8487",
+        "placard": {
+          "title": "The Departure of the Boats, Étretat",
+          "creator": "Claude Monet (French, 1840–1926)",
+          "date": "1885",
+          "medium": "Oil on canvas",
+          "dimensions": "73.5 × 93.5 cm (28 15/16 × 36 13/16 in.); Framed: 102.3 × 121.7 × 10.8 cm (40 1/4 × 47 7/8 × 4 1/4 in.)",
+          "institution": "Art Institute of Chicago",
+          "canonical_url": "https://www.artic.edu/artworks/81540"
+        },
+        "rights": {
+          "license": "CC0-1.0",
+          "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "evidence": {
+            "provider_field": "is_public_domain",
+            "provider_value": true,
+            "image_url": "https://www.artic.edu/iiif/2/6ca224d1-c3dc-a223-a127-0492301a2ebb/full/1686,/0/default.jpg",
+            "observed_at": "2026-10-06T11:37:43+00:00",
+            "image_field": null,
+            "uuid": null
+          }
+        }
+      },
+      {
+        "id": "aic-81535",
+        "image": "assets/3e1d7adbe0a5f49fe76688545f6d7ce6c9b77d875e67c9313f41895fdb3be127.jpg",
+        "thumbnail": "assets/0b3ad0d87541f354ff9096f80a856d73acb98cb4b2cf2debd55a745154acbb4f.webp",
+        "alt_text": "Dark sailing boats and a small steamer trailing smoke cross a calm turquoise sea under a pale sky.",
+        "width": 1371,
+        "height": 1080,
+        "orientation": "landscape",
+        "focal_x": 0.5,
+        "focal_y": 0.5,
+        "mean_colour": "#678078",
+        "placard": {
+          "title": "Sea View, Calm Weather (Vue de mer, temps calme)",
+          "creator": "Édouard Manet (French, 1832–1883)",
+          "date": "1864",
+          "medium": "Oil on canvas",
+          "dimensions": "73.6 × 92.6 cm (29 × 36 1/2 in.); Framed: 97.8 × 117.2 × 12.7 cm (38 1/2 × 46 1/8 × 5 in.)",
+          "institution": "Art Institute of Chicago",
+          "canonical_url": "https://www.artic.edu/artworks/81535"
+        },
+        "rights": {
+          "license": "CC0-1.0",
+          "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "evidence": {
+            "provider_field": "is_public_domain",
+            "provider_value": true,
+            "image_url": "https://www.artic.edu/iiif/2/8be90e71-83c3-3f98-a972-4acb9ce0e773/full/1686,/0/default.jpg",
+            "observed_at": "2026-10-06T11:37:45+00:00",
+            "image_field": null,
+            "uuid": null
+          }
+        }
+      },
+      {
+        "id": "aic-14598",
+        "image": "assets/9a7dbc83f12aeb81e320ab7e3ba524c864dd80a3eaa80e9196789aa5c513af4d.jpg",
+        "thumbnail": "assets/a696a6fca23de99b91d77b67ed6b1678e52be9baab2c25d033c768dc2e5d5d71.webp",
+        "alt_text": "A pebble beach curves toward a distant town, with blue and brown rowing boats, a few fishermen and sailing boats on a pale green sea.",
+        "width": 1461,
+        "height": 1080,
+        "orientation": "landscape",
+        "focal_x": 0.5,
+        "focal_y": 0.5,
+        "mean_colour": "#8e9394",
+        "placard": {
+          "title": "The Beach at Sainte-Adresse",
+          "creator": "Claude Monet (French, 1840–1926)",
+          "date": "1867",
+          "medium": "Oil on canvas",
+          "dimensions": "75.8 × 102.5 cm (29 13/16 × 40 5/16 in.); Framed: 104.1 × 130.2 × 11.4 cm (41 × 51 1/2 × 4 1/2 in.)",
+          "institution": "Art Institute of Chicago",
+          "canonical_url": "https://www.artic.edu/artworks/14598"
+        },
+        "rights": {
+          "license": "CC0-1.0",
+          "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "evidence": {
+            "provider_field": "is_public_domain",
+            "provider_value": true,
+            "image_url": "https://www.artic.edu/iiif/2/95be2572-b53d-8e7b-abc9-10eb48d4fa5d/full/1686,/0/default.jpg",
+            "observed_at": "2026-10-06T11:37:48+00:00",
+            "image_field": null,
+            "uuid": null
+          }
+        }
+      },
+      {
+        "id": "cleveland-153388",
+        "image": "assets/659014821af959a385a4535766b55adeb8ce0005a1bf295c41a2bf25ba3a8ac1.jpg",
+        "thumbnail": "assets/fc3750548b5ae3a15ffef9cf71f562b86b92eb6cfd85bbe0b42f2ebff6ae146d.webp",
+        "alt_text": "Tall-masted ships and barges lie along a quay on still water that reflects them, under a light, cloudy sky.",
+        "width": 1792,
+        "height": 1080,
+        "orientation": "landscape",
+        "focal_x": 0.5,
+        "focal_y": 0.5,
+        "mean_colour": "#a1a099",
+        "placard": {
+          "title": "View of Bordeaux, from the Quai des Chartrons",
+          "creator": "Eugène Boudin (French, 1824–1898)",
+          "date": "1874",
+          "medium": "oil on fabric",
+          "dimensions": "Framed: 80.5 x 115.5 x 10 cm (31 11/16 x 45 1/2 x 3 15/16 in.); Unframed: 54.7 x 89.5 cm (21 9/16 x 35 1/4 in.)",
+          "institution": "The Cleveland Museum of Art",
+          "canonical_url": "https://clevelandart.org/art/1986.73"
+        },
+        "rights": {
+          "license": "CC0-1.0",
+          "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "evidence": {
+            "provider_field": "share_license_status",
+            "provider_value": "CC0",
+            "image_url": "https://openaccess-cdn.clevelandart.org/1986.73/1986.73_print.jpg",
+            "observed_at": "2026-10-06T11:37:52+00:00",
+            "image_field": null,
+            "uuid": null
+          }
+        }
+      },
+      {
+        "id": "aic-16343",
+        "image": "assets/f8b38b802e9afa9c44521f84071c348e620df365da506c89fe10e52240b9113c.jpg",
+        "thumbnail": "assets/c8ce899f503c5922c7da2b6ef8965a0af30226cda0b405286e92f8c9dd368ef9.webp",
+        "alt_text": "Fishing boats wait on a flat, silvery sea under a big grey cloudy sky, with men wading near a wooden jetty on the left.",
+        "width": 1357,
+        "height": 1080,
+        "orientation": "landscape",
+        "focal_x": 0.5,
+        "focal_y": 0.5,
+        "mean_colour": "#818079",
+        "placard": {
+          "title": "Fishing Boats in a Calm",
+          "creator": "Jan van de Cappelle (Dutch, 1626–1679)",
+          "date": "1651",
+          "medium": "Oil on canvas",
+          "dimensions": "57.6 × 71.2 cm (22 11/16 × 28 in.); Framed: 78.7 × 93.4 × 5.7 cm (31 × 36 3/4 × 2 1/4 in.)",
+          "institution": "Art Institute of Chicago",
+          "canonical_url": "https://www.artic.edu/artworks/16343"
+        },
+        "rights": {
+          "license": "CC0-1.0",
+          "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "evidence": {
+            "provider_field": "is_public_domain",
+            "provider_value": true,
+            "image_url": "https://www.artic.edu/iiif/2/b246d3eb-8bfe-a031-4848-e00c053546ea/full/1686,/0/default.jpg",
+            "observed_at": "2026-10-06T11:37:55+00:00",
+            "image_field": null,
+            "uuid": null
+          }
+        }
+      },
+      {
+        "id": "aic-30361",
+        "image": "assets/c4a26dc020a8980858e954000f1d14e23ab2898b29d8d6869cc40a8d5ef47f52.jpg",
+        "thumbnail": "assets/e220b751e7d1ec4512aee9ff8691de3266a18808456bd7b312605a09b30926bd.webp",
+        "alt_text": "A three-masted ship flying a French flag sails into a harbour past a line of white houses and green hills under a bright, cloudy sky.",
+        "width": 1476,
+        "height": 1080,
+        "orientation": "landscape",
+        "focal_x": 0.5,
+        "focal_y": 0.5,
+        "mean_colour": "#a1ab97",
+        "placard": {
+          "title": "Entrance to the Port of Honfleur",
+          "creator": "Johan Barthold Jongkind (Dutch, 1819-1891)",
+          "date": "1863–64",
+          "medium": "Oil on canvas",
+          "dimensions": "42.2 × 56.2 cm (16 5/8 × 22 1/4 in.); Framed: 62.9 × 76.9 × 8.9 cm (24 3/4 × 30 1/4 × 3 1/2 in.)",
+          "institution": "Art Institute of Chicago",
+          "canonical_url": "https://www.artic.edu/artworks/30361"
+        },
+        "rights": {
+          "license": "CC0-1.0",
+          "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "evidence": {
+            "provider_field": "is_public_domain",
+            "provider_value": true,
+            "image_url": "https://www.artic.edu/iiif/2/d1549113-7586-2193-de9f-80c1ce58ed64/full/1686,/0/default.jpg",
+            "observed_at": "2026-10-06T11:37:57+00:00",
+            "image_field": null,
+            "uuid": null
+          }
+        }
+      },
+      {
+        "id": "cleveland-134862",
+        "image": "assets/30fbfe974175446a7fa276233d73bd37452fe16ae4e8bf7d67560f603c2843d5.jpg",
+        "thumbnail": "assets/b4ae044391eec70de7248cf5be84aa860f0bf7f2a718a0af93969f7787fc714a.webp",
+        "alt_text": "A wide, quiet grey sea with low sand bars and a single small sail on the horizon, painted in soft, pale strokes.",
+        "width": 1446,
+        "height": 1080,
+        "orientation": "landscape",
+        "focal_x": 0.5,
+        "focal_y": 0.5,
+        "mean_colour": "#989079",
+        "placard": {
+          "title": "Marine",
+          "creator": "William Merritt Chase (American, 1849–1916)",
+          "date": "c. 1888",
+          "medium": "oil on wood",
+          "dimensions": "Unframed: 23.3 x 31.5 cm (9 3/16 x 12 3/8 in.)",
+          "institution": "The Cleveland Museum of Art",
+          "canonical_url": "https://clevelandart.org/art/1957.422"
+        },
+        "rights": {
+          "license": "CC0-1.0",
+          "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "evidence": {
+            "provider_field": "share_license_status",
+            "provider_value": "CC0",
+            "image_url": "https://openaccess-cdn.clevelandart.org/1957.422/1957.422_print.jpg",
+            "observed_at": "2026-10-06T11:38:01+00:00",
+            "image_field": null,
+            "uuid": null
+          }
+        }
+      },
+      {
+        "id": "aic-81572",
+        "image": "assets/31feda5ac7bf3c08b6d2aa8d46c882f18a0fdbad23f9c05bf2ce23f4bd4e579b.jpg",
+        "thumbnail": "assets/be450b8efa23ff9318521ce72633fe7a184cd62bc8443c529e39af7598287345.webp",
+        "alt_text": "Four small white sailing boats drift on a still, grey-green sea that meets a pale sky in a soft horizon.",
+        "width": 1632,
+        "height": 1080,
+        "orientation": "landscape",
+        "focal_x": 0.5,
+        "focal_y": 0.5,
+        "mean_colour": "#8a8169",
+        "placard": {
+          "title": "Trouville (Grey and Green, the Silver Sea)",
+          "creator": "James McNeill Whistler (American, 1834–1903)",
+          "date": "1865",
+          "medium": "Oil on canvas",
+          "dimensions": "51.5 × 77.2 cm (20 1/4 × 30 3/8 in.)",
+          "institution": "Art Institute of Chicago",
+          "canonical_url": "https://www.artic.edu/artworks/81572"
+        },
+        "rights": {
+          "license": "CC0-1.0",
+          "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "evidence": {
+            "provider_field": "is_public_domain",
+            "provider_value": true,
+            "image_url": "https://www.artic.edu/iiif/2/37f802ca-7831-14d6-82c6-060d825baabd/full/1686,/0/default.jpg",
+            "observed_at": "2026-10-06T11:38:04+00:00",
+            "image_field": null,
+            "uuid": null
+          }
+        }
+      },
+      {
+        "id": "aic-180711",
+        "image": "assets/af032785589503046bf0fa2241c59878906047c545ae577542e64bb45ae887b3.jpg",
+        "thumbnail": "assets/e55a7e96571cc4c673f1fcf6b33a46d2e009df2b5ba69afc3c45bd0fb0209d1c.webp",
+        "alt_text": "Golden cliffs and rocky islets rise from a calm, hazy sea at sunset, with a small sailing boat near the shore.",
+        "width": 1538,
+        "height": 1080,
+        "orientation": "landscape",
+        "focal_x": 0.5,
+        "focal_y": 0.5,
+        "mean_colour": "#938168",
+        "placard": {
+          "title": "The Gulf of Salerno",
+          "creator": "Joseph Wright of Derby (English, 1734-1797)",
+          "date": "1783–85",
+          "medium": "Oil on canvas",
+          "dimensions": "41.6 × 59.4 cm (16 3/8 × 23 3/8 in.); Framed: 51.5 × 67.7 cm (20 1/4 × 26 5/8 in.)",
+          "institution": "Art Institute of Chicago",
+          "canonical_url": "https://www.artic.edu/artworks/180711"
+        },
+        "rights": {
+          "license": "CC0-1.0",
+          "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "evidence": {
+            "provider_field": "is_public_domain",
+            "provider_value": true,
+            "image_url": "https://www.artic.edu/iiif/2/67b46720-1589-0d13-3597-f03c7b618094/full/1686,/0/default.jpg",
+            "observed_at": "2026-10-06T11:38:06+00:00",
+            "image_field": null,
+            "uuid": null
+          }
+        }
+      },
+      {
+        "id": "cleveland-98000",
+        "image": "assets/28ea0d344eda1827de5d2652ecb09bf5e8d292522f8b455334f8568deacb8ee6.jpg",
+        "thumbnail": "assets/1e9de959c2e3796c249e35ee7d7accfb26d1e1563abe53bb83208ca7ca8be376.webp",
+        "alt_text": "Ladies with parasols in full skirts, children, a donkey and a dog gather on a beach under a broad grey-blue sky.",
+        "width": 1796,
+        "height": 1080,
+        "orientation": "landscape",
+        "focal_x": 0.5,
+        "focal_y": 0.5,
+        "mean_colour": "#706750",
+        "placard": {
+          "title": "Beach Scene",
+          "creator": "Eugène Boudin (French, 1824–1898)",
+          "date": "c. 1865–1867",
+          "medium": "oil on wood panel",
+          "dimensions": "Framed: 54 x 75 x 6.4 cm (21 1/4 x 29 1/2 x 2 1/2 in.); Unframed: 34.7 x 57.7 cm (13 11/16 x 22 11/16 in.)",
+          "institution": "The Cleveland Museum of Art",
+          "canonical_url": "https://clevelandart.org/art/1917.63"
+        },
+        "rights": {
+          "license": "CC0-1.0",
+          "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "evidence": {
+            "provider_field": "share_license_status",
+            "provider_value": "CC0",
+            "image_url": "https://openaccess-cdn.clevelandart.org/1917.63/1917.63_print.jpg",
+            "observed_at": "2026-10-06T11:38:09+00:00",
+            "image_field": null,
+            "uuid": null
+          }
+        }
+      },
+      {
+        "id": "aic-16821",
+        "image": "assets/995fae35f548b3ce54e9dfaf75e024a5a7ba37f3e5230b0634786ded398b4287.jpg",
+        "thumbnail": "assets/a2d028b42bd733ccee69f324e71fb6399ef904643359ac3c027858087151c70a.webp",
+        "alt_text": "A watercolour of a calm blue-grey sea meeting a band of white light below grey clouds, with dark rocks in the lower left.",
+        "width": 1632,
+        "height": 1080,
+        "orientation": "landscape",
+        "focal_x": 0.5,
+        "focal_y": 0.5,
+        "mean_colour": "#818d8c",
+        "placard": {
+          "title": "Prout's Neck, Evening",
+          "creator": "Winslow Homer (American, 1836-1910)",
+          "date": "c. 1894",
+          "medium": "Watercolor, with rewetting and blotting, over traces of graphite, on thick, rough-textured, ivory wove paper (top edge trimmed)",
+          "dimensions": "35.9 × 53.6 cm (14 3/16 × 21 1/8 in.)",
+          "institution": "Art Institute of Chicago",
+          "canonical_url": "https://www.artic.edu/artworks/16821"
+        },
+        "rights": {
+          "license": "CC0-1.0",
+          "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "evidence": {
+            "provider_field": "is_public_domain",
+            "provider_value": true,
+            "image_url": "https://www.artic.edu/iiif/2/32106368-7e47-4c41-b05b-8df4c415cc79/full/1686,/0/default.jpg",
+            "observed_at": "2026-10-06T11:38:12+00:00",
+            "image_field": null,
+            "uuid": null
+          }
+        }
+      },
+      {
+        "id": "aic-218848",
+        "image": "assets/f629176e1a69528b6b1eadf3add63b0ddb3c555f4746309574557d73d6294373.jpg",
+        "thumbnail": "assets/77718a9f5260ae47516d98fb28e938b2cfc6a06dc7940ebd1ab6f9e573f134cb.webp",
+        "alt_text": "A broad sandy beach at low tide with pools of blue water, a beached sailing boat and tiny walkers under a clear blue sky.",
+        "width": 1428,
+        "height": 1080,
+        "orientation": "landscape",
+        "focal_x": 0.5,
+        "focal_y": 0.5,
+        "mean_colour": "#a5aca3",
+        "placard": {
+          "title": "Beach at Low Tide (Mouth of the River)",
+          "creator": "Edgar Degas (French, 1834–1917)",
+          "date": "1869",
+          "medium": "Pastel on light brown wove paper",
+          "dimensions": "23.2 × 30.7 cm (9 3/16 × 12 1/8 in.)",
+          "institution": "Art Institute of Chicago",
+          "canonical_url": "https://www.artic.edu/artworks/218848"
+        },
+        "rights": {
+          "license": "CC0-1.0",
+          "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "evidence": {
+            "provider_field": "is_public_domain",
+            "provider_value": true,
+            "image_url": "https://www.artic.edu/iiif/2/813a7de0-60fc-8dfc-6bbd-8d93879e8778/full/1686,/0/default.jpg",
+            "observed_at": "2026-10-06T11:38:14+00:00",
+            "image_field": null,
+            "uuid": null
+          }
+        }
+      },
+      {
+        "id": "aic-243811",
+        "image": "assets/b7fa70b76a84a6d3c291364dfe6b1e5b39f215950618f4d184a2081e700dbcb9.jpg",
+        "thumbnail": "assets/252456cdff2bf60170dfde1417463244db613d566a9147c454749977051a4f3b.webp",
+        "alt_text": "Fishermen unload a boat on a rocky shore beside a ruined round tower, with tall ships in a misty harbour behind.",
+        "width": 1678,
+        "height": 1080,
+        "orientation": "landscape",
+        "focal_x": 0.5,
+        "focal_y": 0.5,
+        "mean_colour": "#9d9f9d",
+        "placard": {
+          "title": "Port Scene in Calm Weather",
+          "creator": "Jean Baptiste Pillement (French, 1728-1808)",
+          "date": "1782",
+          "medium": "Pastel on gessoed canvas",
+          "dimensions": "57 × 91 cm (22 1/2 × 35 7/8 in.)",
+          "institution": "Art Institute of Chicago",
+          "canonical_url": "https://www.artic.edu/artworks/243811"
+        },
+        "rights": {
+          "license": "CC0-1.0",
+          "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "evidence": {
+            "provider_field": "is_public_domain",
+            "provider_value": true,
+            "image_url": "https://www.artic.edu/iiif/2/6e5b2f84-ef49-e5c3-4690-13cbdd9fa32f/full/1686,/0/default.jpg",
+            "observed_at": "2026-10-06T11:38:17+00:00",
+            "image_field": null,
+            "uuid": null
+          }
+        }
+      },
+      {
+        "id": "cleveland-134863",
+        "image": "assets/c68685e0d64f0d81c1e20feccf517f6cc3193e7cfd2b72d0ca2a9c39b7d3621e.jpg",
+        "thumbnail": "assets/d77d2460fc3ab558a6390f04cc29ac3a1b3439fc74a1a48aed9bcdbae98ee0ff.webp",
+        "alt_text": "A calm, pale bay with small boats moored in rows and a long low waterfront of masts and buildings across the water.",
+        "width": 1587,
+        "height": 1080,
+        "orientation": "landscape",
+        "focal_x": 0.5,
+        "focal_y": 0.5,
+        "mean_colour": "#9b947e",
+        "placard": {
+          "title": "Gray Day on the Bay",
+          "creator": "William Merritt Chase (American, 1849–1916)",
+          "date": "c. 1886",
+          "medium": "oil on wood",
+          "dimensions": "Unframed: 23.7 x 34.2 cm (9 5/16 x 13 7/16 in.)",
+          "institution": "The Cleveland Museum of Art",
+          "canonical_url": "https://clevelandart.org/art/1957.423"
+        },
+        "rights": {
+          "license": "CC0-1.0",
+          "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "evidence": {
+            "provider_field": "share_license_status",
+            "provider_value": "CC0",
+            "image_url": "https://openaccess-cdn.clevelandart.org/1957.423/1957.423_print.jpg",
+            "observed_at": "2026-10-06T11:38:20+00:00",
+            "image_field": null,
+            "uuid": null
+          }
+        }
+      },
+      {
+        "id": "cleveland-148966",
+        "image": "assets/ebf601f6e6a801e4d2ec167a788bc0c03f6d9d946e6d232a3c62633d6bb35ef3.jpg",
+        "thumbnail": "assets/4bb0e111cf398c72bd701136880d56b706b9bca2feed7af49769b53f96a8795f.webp",
+        "alt_text": "Wooden boats lie on a sandy boatyard among planks and scaffolding, with a sailing ship on the water beyond.",
+        "width": 1712,
+        "height": 1080,
+        "orientation": "landscape",
+        "focal_x": 0.5,
+        "focal_y": 0.5,
+        "mean_colour": "#9b8b75",
+        "placard": {
+          "title": "The Boatyard",
+          "creator": "Jean-Charles Cazin (French, 1841–1901)",
+          "date": "c. 1875",
+          "medium": "oil on fabric",
+          "dimensions": "Framed: 105.4 x 149.9 x 15.2 cm (41 1/2 x 59 x 6 in.); Unframed: 77.6 x 122.7 cm (30 9/16 x 48 5/16 in.); Former: 111 x 155.5 x 6.5 cm (43 11/16 x 61 1/4 x 2 9/16 in.)",
+          "institution": "The Cleveland Museum of Art",
+          "canonical_url": "https://clevelandart.org/art/1977.123"
+        },
+        "rights": {
+          "license": "CC0-1.0",
+          "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "evidence": {
+            "provider_field": "share_license_status",
+            "provider_value": "CC0",
+            "image_url": "https://openaccess-cdn.clevelandart.org/1977.123/1977.123_print.jpg",
+            "observed_at": "2026-10-06T11:38:23+00:00",
+            "image_field": null,
+            "uuid": null
+          }
+        }
+      },
+      {
+        "id": "cleveland-162089",
+        "image": "assets/50ad6ea23a846fee46cc7db1279ae55373964df4e4f9e7bb27f6a88a5f6e67b6.jpg",
+        "thumbnail": "assets/ec9de2e9a20991186a6d4444c1dcf79ade95ddbb33254a9078c71f1712b1b27a.webp",
+        "alt_text": "Children and women in bathing dresses splash in green, white-capped surf while a girl in a red cap sits on the sand.",
+        "width": 1398,
+        "height": 1080,
+        "orientation": "landscape",
+        "focal_x": 0.5,
+        "focal_y": 0.5,
+        "mean_colour": "#958d76",
+        "placard": {
+          "title": "In the Surf (recto)",
+          "creator": "Edward H. Potthast (American, 1857–1927)",
+          "date": "c. 1910",
+          "medium": "oil on panel",
+          "dimensions": "Overall: 31.8 x 40.7 cm (12 1/2 x 16 in.)",
+          "institution": "The Cleveland Museum of Art",
+          "canonical_url": "https://clevelandart.org/art/2001.41.a"
+        },
+        "rights": {
+          "license": "CC0-1.0",
+          "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "evidence": {
+            "provider_field": "share_license_status",
+            "provider_value": "CC0",
+            "image_url": "https://openaccess-cdn.clevelandart.org/2001.41.a/2001.41.a_print.jpg",
+            "observed_at": "2026-10-06T11:38:27+00:00",
+            "image_field": null,
+            "uuid": null
+          }
+        }
+      },
+      {
+        "id": "cleveland-150129",
+        "image": "assets/15ad27c645ed919d10ffa7eca67246d35e5bfa2c9b4c48c9ebf03b97e40ff907.jpg",
+        "thumbnail": "assets/c491b699fd149095a78cc6c759ab3ebb5716a5631c5b35c37ad49eb24aa27ab6.webp",
+        "alt_text": "Steep reddish cliffs drop into a calm grey-blue bay, seen from a stone terrace with a few trees and white houses.",
+        "width": 1732,
+        "height": 1080,
+        "orientation": "landscape",
+        "focal_x": 0.5,
+        "focal_y": 0.5,
+        "mean_colour": "#736c62",
+        "placard": {
+          "title": "Capri",
+          "creator": "Jean Achille Benouville (French, 1815–1891)",
+          "date": "c. 1845",
+          "medium": "oil on fabric",
+          "dimensions": "Framed: 43 x 60 x 6 cm (16 15/16 x 23 5/8 x 2 3/8 in.); Unframed: 28.1 x 44.7 cm (11 1/16 x 17 5/8 in.)",
+          "institution": "The Cleveland Museum of Art",
+          "canonical_url": "https://clevelandart.org/art/1980.5"
+        },
+        "rights": {
+          "license": "CC0-1.0",
+          "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "evidence": {
+            "provider_field": "share_license_status",
+            "provider_value": "CC0",
+            "image_url": "https://openaccess-cdn.clevelandart.org/1980.5/1980.5_print.jpg",
+            "observed_at": "2026-10-06T11:38:30+00:00",
+            "image_field": null,
+            "uuid": null
+          }
+        }
+      },
+      {
+        "id": "cleveland-93234",
+        "image": "assets/dc475478287b638d375e3b327724b6c0bb5aa95bf63bffec804d3e69b1117fd0.jpg",
+        "thumbnail": "assets/1da8069e1e5733138015f006900fc3d538000d332bfbbf3772795d0c31265d68.webp",
+        "alt_text": "Groups of people in colourful dresses picnic and stroll under leafy trees beside a pale blue bay with sailing boats.",
+        "width": 1423,
+        "height": 1080,
+        "orientation": "landscape",
+        "focal_x": 0.5,
+        "focal_y": 0.5,
+        "mean_colour": "#7f7a63",
+        "placard": {
+          "title": "On the Beach, No. 3",
+          "creator": "Maurice Prendergast (American, born Newfoundland [now Canada], 1858–1924)",
+          "date": "c. 1915–18",
+          "medium": "oil on canvas",
+          "dimensions": "Framed: 81 x 103 x 6.5 cm (31 7/8 x 40 9/16 x 2 9/16 in.); Unframed: 66 x 85.1 cm (26 x 33 1/2 in.)",
+          "institution": "The Cleveland Museum of Art",
+          "canonical_url": "https://clevelandart.org/art/1926.1653"
+        },
+        "rights": {
+          "license": "CC0-1.0",
+          "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "evidence": {
+            "provider_field": "share_license_status",
+            "provider_value": "CC0",
+            "image_url": "https://openaccess-cdn.clevelandart.org/1926.1653/1926.1653_print.jpg",
+            "observed_at": "2026-10-06T11:38:33+00:00",
+            "image_field": null,
+            "uuid": null
+          }
+        }
+      },
+      {
+        "id": "aic-16439",
+        "image": "assets/7014982991ba3224450453bff907f50004592e4a915dbaa7a4c225a76312d2f1.jpg",
+        "thumbnail": "assets/e5cdc5f1c2b708fc7670021a3ba81fb001dd7d18b5cdbef048158afc1b51a052.webp",
+        "alt_text": "Fishermen cast lines from rocks in a hazy morning harbour, with a round stone tower on the left and a tall ship in the soft light.",
+        "width": 1632,
+        "height": 1080,
+        "orientation": "landscape",
+        "focal_x": 0.5,
+        "focal_y": 0.5,
+        "mean_colour": "#697257",
+        "placard": {
+          "title": "Morning",
+          "creator": "Claude Joseph Vernet (French, 1714–1789)",
+          "date": "1760",
+          "medium": "Oil on canvas",
+          "dimensions": "65.7 × 96.8 cm (25 7/8 × 38 1/8 in.); Framed: 72.3 × 103.6 cm (28 7/16 × 40 3/4 in.)",
+          "institution": "Art Institute of Chicago",
+          "canonical_url": "https://www.artic.edu/artworks/16439"
+        },
+        "rights": {
+          "license": "CC0-1.0",
+          "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "evidence": {
+            "provider_field": "is_public_domain",
+            "provider_value": true,
+            "image_url": "https://www.artic.edu/iiif/2/e8f3fd3f-2098-1c68-1867-b5dccb21018e/full/1686,/0/default.jpg",
+            "observed_at": "2026-10-06T11:38:36+00:00",
+            "image_field": null,
+            "uuid": null
+          }
+        }
+      },
+      {
+        "id": "aic-55621",
+        "image": "assets/d117b271c6b70b6745bd84f977db941d81a2c5f339e4ca754ada14230f8b91e0.jpg",
+        "thumbnail": "assets/621cde0cde8e0eebeca7859f9ec678cfb26d7b7928302cd9646959c409d6558c.webp",
+        "alt_text": "The white domed church of Santa Maria della Salute stands across a sunny Venetian canal busy with gondolas and strolling figures.",
+        "width": 1637,
+        "height": 1080,
+        "orientation": "landscape",
+        "focal_x": 0.5,
+        "focal_y": 0.5,
+        "mean_colour": "#9ca491",
+        "placard": {
+          "title": "The Church of Santa Maria della Salute, Venice",
+          "creator": "Michele Marieschi (Italian, 1710–1743)",
+          "date": "1740–41",
+          "medium": "Oil on canvas",
+          "dimensions": "55.7 × 84.2 cm (21 7/8 × 33 1/8 in.); Framed: 72.8 × 101 × 5.8 cm (28 5/8 × 39 3/4 × 2 1/4 in.)",
+          "institution": "Art Institute of Chicago",
+          "canonical_url": "https://www.artic.edu/artworks/55621"
+        },
+        "rights": {
+          "license": "CC0-1.0",
+          "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "evidence": {
+            "provider_field": "is_public_domain",
+            "provider_value": true,
+            "image_url": "https://www.artic.edu/iiif/2/70ebfef5-7a98-2834-1be7-cc95e038fe82/full/1686,/0/default.jpg",
+            "observed_at": "2026-10-06T11:38:39+00:00",
+            "image_field": null,
+            "uuid": null
+          }
+        }
+      },
+      {
+        "id": "aic-116240",
+        "image": "assets/255ed2ddd9f622e1ee19861dc331c49b7ca4ee45912cd0cd4836c7959d3f1344.jpg",
+        "thumbnail": "assets/fad13106d6d752f067dc9755b37e53e91a5978948db6f3a5a10989331356c615.webp",
+        "alt_text": "A watercolour of a harbour entrance guarded by a pale stone lighthouse and fort, with ships at anchor and a small boat crossing in front.",
+        "width": 1568,
+        "height": 1080,
+        "orientation": "landscape",
+        "focal_x": 0.5,
+        "focal_y": 0.5,
+        "mean_colour": "#c0bead",
+        "placard": {
+          "title": "The Entrance to the Harbor of Marseilles",
+          "creator": "William Callow (English, 1812-1908)",
+          "date": "c. 1838",
+          "medium": "Watercolor with touches of gouache, over traces of graphite, and scraping, on off-white wove paper",
+          "dimensions": "20.7 × 29.7 cm (8 3/16 × 11 3/4 in.)",
+          "institution": "Art Institute of Chicago",
+          "canonical_url": "https://www.artic.edu/artworks/116240"
+        },
+        "rights": {
+          "license": "CC0-1.0",
+          "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "evidence": {
+            "provider_field": "is_public_domain",
+            "provider_value": true,
+            "image_url": "https://www.artic.edu/iiif/2/8e8bd85f-21e3-654e-998b-96c45a0ba6e9/full/1686,/0/default.jpg",
+            "observed_at": "2026-10-06T11:38:41+00:00",
+            "image_field": null,
+            "uuid": null
+          }
+        }
+      },
+      {
+        "id": "aic-84088",
+        "image": "assets/b83a31cad3512431d2fcd34986087b094922f7d5efb4403a736b9e5965b4d163.jpg",
+        "thumbnail": "assets/4577e446d4ca36e15da9fc8f45c25c2ea84100a9d61992554d3da0526c775b35.webp",
+        "alt_text": "A deep blue sea under a violet-blue sky full of small white clouds, with a few white wave crests.",
+        "width": 1589,
+        "height": 1080,
+        "orientation": "landscape",
+        "focal_x": 0.5,
+        "focal_y": 0.5,
+        "mean_colour": "#4f5f68",
+        "placard": {
+          "title": "Violet and Silver—The Deep Sea",
+          "creator": "James McNeill Whistler (American, 1834–1903)",
+          "date": "1893",
+          "medium": "Oil on canvas",
+          "dimensions": "50.2 × 73.3 cm (19 3/4 × 28 7/8 in.)",
+          "institution": "Art Institute of Chicago",
+          "canonical_url": "https://www.artic.edu/artworks/84088"
+        },
+        "rights": {
+          "license": "CC0-1.0",
+          "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "evidence": {
+            "provider_field": "is_public_domain",
+            "provider_value": true,
+            "image_url": "https://www.artic.edu/iiif/2/5f663d6c-0121-a8ca-e875-896d9857a3f3/full/1686,/0/default.jpg",
+            "observed_at": "2026-10-06T11:38:44+00:00",
+            "image_field": null,
+            "uuid": null
+          }
+        }
+      },
+      {
+        "id": "cleveland-169228",
+        "image": "assets/587f98421c172e474610c6dad51c674515600143b60acbe0ffaa27ce1957b2cb.jpg",
+        "thumbnail": "assets/8c0f64d0f3211ace8e25f926b7e3b496c19401a9b45cfc64dd1d80045e403106.webp",
+        "alt_text": "A golden sunset glows in bands of orange and grey over a wide wet beach, with a few small figures and distant ships.",
+        "width": 1754,
+        "height": 1080,
+        "orientation": "landscape",
+        "focal_x": 0.5,
+        "focal_y": 0.5,
+        "mean_colour": "#8b7e62",
+        "placard": {
+          "title": "Beach Scene at Sunset",
+          "creator": "James Hamilton (American, 1819–1878)",
+          "date": "c. 1865–1870",
+          "medium": "watercolor and gouache",
+          "dimensions": "Sheet: 32 x 52 cm (12 5/8 x 20 1/2 in.)",
+          "institution": "The Cleveland Museum of Art",
+          "canonical_url": "https://clevelandart.org/art/2011.134"
+        },
+        "rights": {
+          "license": "CC0-1.0",
+          "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "evidence": {
+            "provider_field": "share_license_status",
+            "provider_value": "CC0",
+            "image_url": "https://openaccess-cdn.clevelandart.org/2011.134/2011.134_print.jpg",
+            "observed_at": "2026-10-06T11:38:47+00:00",
+            "image_field": null,
+            "uuid": null
+          }
+        }
+      }
+    ]
+  }
+}

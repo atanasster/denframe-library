@@ -1,0 +1,781 @@
+{
+  "schema_version": 1,
+  "slug": "patterns-and-textiles",
+  "name": "Patterns and textiles",
+  "description": "Woven silks, printed cottons, embroideries, quilts, rugs, kimono and pattern designs from three centuries, chosen for their repeating patterns and colour on a tall screen.",
+  "shape": "portrait",
+  "curated_on": "2026-10-06",
+  "strip": "assets/867aa3e81ddb25e185a105176ceb2676f863d334199d65353cc5fc3eff81414a.webp",
+  "works": [
+    {
+      "provider": "aic",
+      "object_id": "64884",
+      "file": "assets/7b5b48a627440e2aeb4a0f09fc4b10e7243df6c87cc0491e1425ef96340f40ac.jpg",
+      "sha256": "7b5b48a627440e2aeb4a0f09fc4b10e7243df6c87cc0491e1425ef96340f40ac",
+      "length": 391013,
+      "width": 1080,
+      "height": 1645,
+      "orientation": "portrait",
+      "mean_colour": "#9e4d38",
+      "thumbnail": "assets/b7c922b357ceda271c6676b2b78afbb5d39df10ebe56663a8b06d4e73d2dc18e.webp",
+      "alt_text": "A length of red silk woven with a repeating pattern of stylised gold poppy seed heads in rows.",
+      "placard": {
+        "title": "Mohnköpfe (Poppyheads) (Dress or Furnishing Fabric)",
+        "creator": "Designed by Koloman Moser (Austrian, 1868–1918) (Produced by Johan Backhausen und Söhne (Austrian, founded 1849), Austria, Vienna)",
+        "date": "1900",
+        "medium": "Silk, wild silk, and cotton, warp-float faced 15:1 satin weave self-patterned by ground weft floats; woven on loom with Jacquard attachment; right selvage present",
+        "dimensions": "182.9 × 113 cm (72 × 44 1/2 in.); Repeat: 45.5 × 29.8 cm (17 7/8 × 11 3/4 in.)",
+        "institution": "Art Institute of Chicago",
+        "canonical_url": "https://www.artic.edu/artworks/64884"
+      },
+      "rights": {
+        "license": "CC0-1.0",
+        "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "evidence": {
+          "provider_field": "is_public_domain",
+          "provider_value": true,
+          "image_url": "https://www.artic.edu/iiif/2/71550262-862a-d19a-680b-f50a2e284901/full/1686,/0/default.jpg",
+          "observed_at": "2026-10-06T11:46:45+00:00"
+        }
+      }
+    },
+    {
+      "provider": "aic",
+      "object_id": "102142",
+      "file": "assets/a3fc7ca284bb2ef2927e0262bc74399226a2f50cd4b6d1d8105d2c8ec2559d4c.jpg",
+      "sha256": "a3fc7ca284bb2ef2927e0262bc74399226a2f50cd4b6d1d8105d2c8ec2559d4c",
+      "length": 397444,
+      "width": 1080,
+      "height": 1786,
+      "orientation": "portrait",
+      "mean_colour": "#767773",
+      "thumbnail": "assets/02bd450e91bfdf69e4a26e9f259fbb4ea8da98a83147daf1ffa5b8ec2405c0d4.webp",
+      "alt_text": "A woven wool fabric with a dense repeat of pale green tulips and leaves and small red roses on a dark blue-green ground.",
+      "placard": {
+        "title": "Tulip and Rose",
+        "creator": "Designed by William Morris (English, 1834–1896) (Produced by Morris & Co., London (English, 1875–1940), Probably woven by Heckmondwike Manufacturing Company, Yorkshire (English, founded 1873))",
+        "date": "Design 1876",
+        "medium": "Four panels joined: wool, plain weave triple cloth",
+        "dimensions": "218.5 × 126.9 cm (86 × 50 in.); Repeat: 83.2 × 41.7 cm (32 3/4 × 16 3/8 in.)",
+        "institution": "Art Institute of Chicago",
+        "canonical_url": "https://www.artic.edu/artworks/102142"
+      },
+      "rights": {
+        "license": "CC0-1.0",
+        "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "evidence": {
+          "provider_field": "is_public_domain",
+          "provider_value": true,
+          "image_url": "https://www.artic.edu/iiif/2/c8561311-d4d7-143e-645c-acf29b142b80/full/1686,/0/default.jpg",
+          "observed_at": "2026-10-06T11:46:48+00:00"
+        }
+      }
+    },
+    {
+      "provider": "aic",
+      "object_id": "150739",
+      "file": "assets/860b5ecfc8117d0a5255772508dd79d802b509cec4d1613372b4badfe50de88e.jpg",
+      "sha256": "860b5ecfc8117d0a5255772508dd79d802b509cec4d1613372b4badfe50de88e",
+      "length": 244220,
+      "width": 1080,
+      "height": 1350,
+      "orientation": "portrait",
+      "mean_colour": "#b78775",
+      "thumbnail": "assets/cff6ccdca8bb7b1bc3312374f2a3f7d5bb04ddc70a777fbbf9986f48ccda5948.webp",
+      "alt_text": "A red silk kimono embroidered with a gnarled gold plum tree covered in small white blossoms, displayed flat against a pale grey backdrop.",
+      "placard": {
+        "title": "Furisode",
+        "creator": "Japan",
+        "date": "late Edo period (1789–1868), 1801/1868",
+        "medium": "Silk, 4:1 satin damask weave (rinzu); embroidered with silk and gold-leaf-over-lacquered-paper-strip-wrapped silk in satin stitches; laid work and couching, and padded couching; lined with silk, plain weave",
+        "dimensions": "183.8 × 128.8 cm (72 1/4 × 50 3/4 in.)\nShoulder to hem length: 105.9 cm (41 3/4 in.)\nSleeve length: 86.4 cm (34 in.)\nCollar back to hem length: 7.6 cm (3 in.)\nWidth at hem: 62.5 cm (24 5/8 in.)\nWidth of sleeve panel: 32.7 cm (12 7/8 in.)\nWidth of center front panel hem overlap: 13.3 cm (5 1/4 in.)",
+        "institution": "Art Institute of Chicago",
+        "canonical_url": "https://www.artic.edu/artworks/150739"
+      },
+      "rights": {
+        "license": "CC0-1.0",
+        "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "evidence": {
+          "provider_field": "is_public_domain",
+          "provider_value": true,
+          "image_url": "https://www.artic.edu/iiif/2/2c6ecfa3-db53-694f-5675-dc119ee86690/full/1686,/0/default.jpg",
+          "observed_at": "2026-10-06T11:46:50+00:00"
+        }
+      }
+    },
+    {
+      "provider": "aic",
+      "object_id": "2271",
+      "file": "assets/1789d3d63828350630561af98390d2384f64ac103737e7cc1748483cae6da3ae.jpg",
+      "sha256": "1789d3d63828350630561af98390d2384f64ac103737e7cc1748483cae6da3ae",
+      "length": 423948,
+      "width": 1080,
+      "height": 1422,
+      "orientation": "portrait",
+      "mean_colour": "#876d51",
+      "thumbnail": "assets/16bfd7c37bd89255dc9b7684e0e458449b5b55d50d832bdc4a5ae25bcd58b36a.webp",
+      "alt_text": "A fragment of embroidered linen with a lattice of coral-pink diamonds framed by green, yellow and blue chevrons, crossed by interlaced bands of gold thread, its edges frayed.",
+      "placard": {
+        "title": "Fragment",
+        "creator": "Italy",
+        "date": "17th century",
+        "medium": "Linen, plain weave; embroidered with silk floss, and gilt- and silvered-metal-strip-wrapped silk in tent stitches; padded couching",
+        "dimensions": "14.5 × 19.5 cm (5 3/4 × 7 5/8 in.)",
+        "institution": "Art Institute of Chicago",
+        "canonical_url": "https://www.artic.edu/artworks/2271"
+      },
+      "rights": {
+        "license": "CC0-1.0",
+        "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "evidence": {
+          "provider_field": "is_public_domain",
+          "provider_value": true,
+          "image_url": "https://www.artic.edu/iiif/2/95d5f956-6cf1-2755-b6b3-a3b39b3e1637/full/1686,/0/default.jpg",
+          "observed_at": "2026-10-06T11:46:53+00:00"
+        }
+      }
+    },
+    {
+      "provider": "aic",
+      "object_id": "10340",
+      "file": "assets/da034db2cb50876161e0c6f42e7a96334b49ccab4d4fd63df32b76b660cbc7d6.jpg",
+      "sha256": "da034db2cb50876161e0c6f42e7a96334b49ccab4d4fd63df32b76b660cbc7d6",
+      "length": 289204,
+      "width": 972,
+      "height": 1920,
+      "orientation": "portrait",
+      "mean_colour": "#b8ab9a",
+      "thumbnail": "assets/139ce9f9c547b65a2650e9f975fe9a1534d95759d98d8a75be593221334b1e35.webp",
+      "alt_text": "A cream silk dress panel scattered with small woven bouquets of pink roses and yellow flowers in tiny baskets.",
+      "placard": {
+        "title": "Panel (From a Dress)",
+        "creator": "England, Spitalfields",
+        "date": "c. 1745/46",
+        "medium": "Silk, plain weave with patterning and brocading wefts",
+        "dimensions": "111 × 50.6 cm (43 3/4 × 19 7/8 in.); Warp repeat: H.: 47.5 cm (18 3/4 in.)",
+        "institution": "Art Institute of Chicago",
+        "canonical_url": "https://www.artic.edu/artworks/10340"
+      },
+      "rights": {
+        "license": "CC0-1.0",
+        "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "evidence": {
+          "provider_field": "is_public_domain",
+          "provider_value": true,
+          "image_url": "https://www.artic.edu/iiif/2/ef9eff29-537f-e83e-b265-5adb35164741/full/1686,/0/default.jpg",
+          "observed_at": "2026-10-06T11:46:55+00:00"
+        }
+      }
+    },
+    {
+      "provider": "aic",
+      "object_id": "182673",
+      "file": "assets/97d64c37102d4cfe9f6e590252fccc50d93ce59caf17f44497103a1cce421889.jpg",
+      "sha256": "97d64c37102d4cfe9f6e590252fccc50d93ce59caf17f44497103a1cce421889",
+      "length": 459012,
+      "width": 1080,
+      "height": 1660,
+      "orientation": "portrait",
+      "mean_colour": "#b3925a",
+      "thumbnail": "assets/1052ff87ad1caa2a167e8c465f4a3cf7ba2292cb21a65941902f7284aacb7917.webp",
+      "alt_text": "A golden yellow silk woven with blue, pink and green peonies, leaves and white cloud-like scrolls.",
+      "placard": {
+        "title": "Panel (Dress Fabric)",
+        "creator": "China",
+        "date": "Qing dynasty (1644–1911), Mid–18th century",
+        "medium": "Silk, satin weave with brocading wefts and self-patterning complementary ground wefts bound in twill interlacings and self-patterned by areas of plain weave",
+        "dimensions": "92.1 × 57 cm (36 1/4 × 22 1/2 in.)",
+        "institution": "Art Institute of Chicago",
+        "canonical_url": "https://www.artic.edu/artworks/182673"
+      },
+      "rights": {
+        "license": "CC0-1.0",
+        "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "evidence": {
+          "provider_field": "is_public_domain",
+          "provider_value": true,
+          "image_url": "https://www.artic.edu/iiif/2/a75613d9-e914-362d-6672-9a8823ccc362/full/1686,/0/default.jpg",
+          "observed_at": "2026-10-06T11:46:58+00:00"
+        }
+      }
+    },
+    {
+      "provider": "aic",
+      "object_id": "76062",
+      "file": "assets/812d2fba5db043e0ecb306b6496d13d3fc5345a30fb6e1457a82f65378316c83.jpg",
+      "sha256": "812d2fba5db043e0ecb306b6496d13d3fc5345a30fb6e1457a82f65378316c83",
+      "length": 343519,
+      "width": 1080,
+      "height": 1484,
+      "orientation": "portrait",
+      "mean_colour": "#a3a39f",
+      "thumbnail": "assets/59a1efb8fbf25e2bb94f97e459cff9906be663c4bbbefb0fcf6b6b992506565a.webp",
+      "alt_text": "A white quilt with navy blue four-pointed stars and leaf shapes and a border of navy triangles, finely quilted between.",
+      "placard": {
+        "title": "\"Pincushion and Burrs\" or \"Square and Swallows\" Quilt",
+        "creator": "United States",
+        "date": "c.  1830",
+        "medium": "Cotton, plain weave, in parts (block?) printed; pieced; backed with cotton, plain weave; quilted and stitched in trapunto technique",
+        "dimensions": "209.6 × 257.8 cm (82 × 101 1/2 in.)",
+        "institution": "Art Institute of Chicago",
+        "canonical_url": "https://www.artic.edu/artworks/76062"
+      },
+      "rights": {
+        "license": "CC0-1.0",
+        "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "evidence": {
+          "provider_field": "is_public_domain",
+          "provider_value": true,
+          "image_url": "https://www.artic.edu/iiif/2/3f325385-2840-a8a1-baa0-b5a9673360a0/full/1686,/0/default.jpg",
+          "observed_at": "2026-10-06T11:47:00+00:00"
+        }
+      }
+    },
+    {
+      "provider": "aic",
+      "object_id": "179719",
+      "file": "assets/40b06c81f68b40aa3551770c596585df942d1999a4f982a8abe4a5c578165b75.jpg",
+      "sha256": "40b06c81f68b40aa3551770c596585df942d1999a4f982a8abe4a5c578165b75",
+      "length": 354208,
+      "width": 1080,
+      "height": 1425,
+      "orientation": "portrait",
+      "mean_colour": "#b18c7f",
+      "thumbnail": "assets/9981245b8ad2b3e2ccf4bdeec3d7b5a60f5e670135633141c949baf1fa619438.webp",
+      "alt_text": "A pink silk fabric with a repeating pattern of large coral flowers on curling stems over a ground of small leaves.",
+      "placard": {
+        "title": "Kennett",
+        "creator": "Designed by William Morris (English, 1834–1896) (Produced by Morris & Co., London (English, 1875–1940), Merton Abbey, London (English, 1881–1940))",
+        "date": "Design 1883, made 1887",
+        "medium": "Silk, satin weave with self-patterning ground wefts",
+        "dimensions": "94 × 69.5 cm (37 × 27 3/8 in.); Repeat: 59 × 17 cm (23 1/4 × 6 3/4 in.)",
+        "institution": "Art Institute of Chicago",
+        "canonical_url": "https://www.artic.edu/artworks/179719"
+      },
+      "rights": {
+        "license": "CC0-1.0",
+        "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "evidence": {
+          "provider_field": "is_public_domain",
+          "provider_value": true,
+          "image_url": "https://www.artic.edu/iiif/2/a135ddd8-8375-0546-c74e-d086c696c170/full/1686,/0/default.jpg",
+          "observed_at": "2026-10-06T11:47:03+00:00"
+        }
+      }
+    },
+    {
+      "provider": "aic",
+      "object_id": "153629",
+      "file": "assets/c2cbc459172e757e617c128d1e3625d2beb6f452b78933d0bff9af001514ed18.jpg",
+      "sha256": "c2cbc459172e757e617c128d1e3625d2beb6f452b78933d0bff9af001514ed18",
+      "length": 446452,
+      "width": 1080,
+      "height": 1414,
+      "orientation": "portrait",
+      "mean_colour": "#9fa39a",
+      "thumbnail": "assets/6a816eb038861d77723a0631530d8487061c5dadd8a7205188caaa88f4f44ff8.webp",
+      "alt_text": "A pale cotton panel printed in soft blue with a symmetrical ornamental design of scrolls, a central star and a border of leaves.",
+      "placard": {
+        "title": "Panel",
+        "creator": "Design in the style of Daniel Marot I (French, 1661–1752) or Jean Berain I (French, 1640-1711) (India, for the European market)",
+        "date": "1675/1727",
+        "medium": "Cotton, plain weave; resist printed and painted",
+        "dimensions": "179.2 × 137.4 cm (70 1/2 × 54 1/8 in.)",
+        "institution": "Art Institute of Chicago",
+        "canonical_url": "https://www.artic.edu/artworks/153629"
+      },
+      "rights": {
+        "license": "CC0-1.0",
+        "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "evidence": {
+          "provider_field": "is_public_domain",
+          "provider_value": true,
+          "image_url": "https://www.artic.edu/iiif/2/ee2511b5-96bd-a123-41da-bc4d0694dc1a/full/1686,/0/default.jpg",
+          "observed_at": "2026-10-06T11:47:06+00:00"
+        }
+      }
+    },
+    {
+      "provider": "aic",
+      "object_id": "31143",
+      "file": "assets/ab4d1c8400e6c27cec92c3addfc9a46ec1c2a40cf1398533686ac6bc5c39f47a.jpg",
+      "sha256": "ab4d1c8400e6c27cec92c3addfc9a46ec1c2a40cf1398533686ac6bc5c39f47a",
+      "length": 570613,
+      "width": 1003,
+      "height": 1920,
+      "orientation": "portrait",
+      "mean_colour": "#8e8b6f",
+      "thumbnail": "assets/e6e91411f74e145aa4c30d875dc3bd05f9a710d926462b665a6ffcf796bd13b0.webp",
+      "alt_text": "A pale green silk woven with trailing garlands of pink and red roses and feathery white sprays.",
+      "placard": {
+        "title": "Length of Woven Silk",
+        "creator": "France",
+        "date": "Mid-1760s",
+        "medium": "Silk, plain weave foundation with supplementary patterning warps and supplementary patterning and brocading wefts of silk, gilt- and silvered-metal strips, wrapped and flat",
+        "dimensions": "106.4 × 53.8 cm (41 7/8 × 21 1/8 in.); Repeat: 49.2 × 26.2 cm (19 3/8 × 10 1/4 in.)",
+        "institution": "Art Institute of Chicago",
+        "canonical_url": "https://www.artic.edu/artworks/31143"
+      },
+      "rights": {
+        "license": "CC0-1.0",
+        "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "evidence": {
+          "provider_field": "is_public_domain",
+          "provider_value": true,
+          "image_url": "https://www.artic.edu/iiif/2/015486a6-ddbc-3a72-12b7-50894a4ff909/full/1686,/0/default.jpg",
+          "observed_at": "2026-10-06T11:47:08+00:00"
+        }
+      }
+    },
+    {
+      "provider": "aic",
+      "object_id": "248380",
+      "file": "assets/81b15434a66fd7c08c4495be0cbfea14e38330adab52249eea0c3dda6d904a4e.jpg",
+      "sha256": "81b15434a66fd7c08c4495be0cbfea14e38330adab52249eea0c3dda6d904a4e",
+      "length": 454470,
+      "width": 1080,
+      "height": 1356,
+      "orientation": "portrait",
+      "mean_colour": "#945a4c",
+      "thumbnail": "assets/eb59bf0a5108636d3344c853bf8e546cc69c4d3c9839d61023ce946998ebd35a.webp",
+      "alt_text": "A large embroidered hanging of rows of round red blossoms on vines around a central star, on a golden ground.",
+      "placard": {
+        "title": "Suzani (large hanging or cover)",
+        "creator": "Uzbekistan, probably Tashkent",
+        "date": "1840/1890",
+        "medium": "Cotton, plain weave; embroidered with silk; pieced",
+        "dimensions": "221 × 168.9 cm (87 × 66 1/2 in.)",
+        "institution": "Art Institute of Chicago",
+        "canonical_url": "https://www.artic.edu/artworks/248380"
+      },
+      "rights": {
+        "license": "CC0-1.0",
+        "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "evidence": {
+          "provider_field": "is_public_domain",
+          "provider_value": true,
+          "image_url": "https://www.artic.edu/iiif/2/a2c0e179-5afc-f007-8846-f52c40c68431/full/1686,/0/default.jpg",
+          "observed_at": "2026-10-06T11:47:11+00:00"
+        }
+      }
+    },
+    {
+      "provider": "aic",
+      "object_id": "20518",
+      "file": "assets/0b6204b49436affa2b05e8a946b5b5659347a2d6ce595335567cd8e628c88fca.jpg",
+      "sha256": "0b6204b49436affa2b05e8a946b5b5659347a2d6ce595335567cd8e628c88fca",
+      "length": 348657,
+      "width": 1018,
+      "height": 1920,
+      "orientation": "portrait",
+      "mean_colour": "#746c5a",
+      "thumbnail": "assets/0c372ef00c7ece403e3edbbe4a34e2de9e396b02c7232d18a0328cf0a5f4db43.webp",
+      "alt_text": "An embroidered panel of a winding tree with large curling green leaves, flowers, birds and small animals on cream linen.",
+      "placard": {
+        "title": "Panel",
+        "creator": "England",
+        "date": "1675/1700",
+        "medium": "Linen and cotton, weft-float faced twill weave; embroidered with wool yarns in chain, detached chain, satin, single back, and stem stitches; French knots; edged with wool, twill woven tape",
+        "dimensions": "225.8 × 106.8 cm (89 × 42 in.)",
+        "institution": "Art Institute of Chicago",
+        "canonical_url": "https://www.artic.edu/artworks/20518"
+      },
+      "rights": {
+        "license": "CC0-1.0",
+        "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "evidence": {
+          "provider_field": "is_public_domain",
+          "provider_value": true,
+          "image_url": "https://www.artic.edu/iiif/2/3260d1e3-d5cb-143c-3b77-38be101e671f/full/1686,/0/default.jpg",
+          "observed_at": "2026-10-06T11:47:13+00:00"
+        }
+      }
+    },
+    {
+      "provider": "aic",
+      "object_id": "102152",
+      "file": "assets/6423c77a65c7c431118b360b1f86b2da5088beb63fd434c17aa5c9e09ce97f94.jpg",
+      "sha256": "6423c77a65c7c431118b360b1f86b2da5088beb63fd434c17aa5c9e09ce97f94",
+      "length": 630236,
+      "width": 1080,
+      "height": 1861,
+      "orientation": "portrait",
+      "mean_colour": "#8d645e",
+      "thumbnail": "assets/3475b25a47cbc5e37a9fb03b8a5083f744b020e45c9b94af769bfb6d65046c37.webp",
+      "alt_text": "A crimson silk woven with vertical stripes of white flower sprays and green scalloped leaf bands.",
+      "placard": {
+        "title": "Length of Woven Silk",
+        "creator": "France, Lyon",
+        "date": "1770-75",
+        "medium": "Silk, warp-float faced 9:1 satin weave self-patterned by ground wefts",
+        "dimensions": "92.8 × 52 cm (36 1/2 × 20 1/2 in.); Repeat: 18.4 × 17.2 cm (7 1/4 × 6 3/4 in.)",
+        "institution": "Art Institute of Chicago",
+        "canonical_url": "https://www.artic.edu/artworks/102152"
+      },
+      "rights": {
+        "license": "CC0-1.0",
+        "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "evidence": {
+          "provider_field": "is_public_domain",
+          "provider_value": true,
+          "image_url": "https://www.artic.edu/iiif/2/906c43a4-ef3e-1df3-5afe-fccd5cd6b064/full/1686,/0/default.jpg",
+          "observed_at": "2026-10-06T11:47:16+00:00"
+        }
+      }
+    },
+    {
+      "provider": "aic",
+      "object_id": "28952",
+      "file": "assets/eaba23a001f6646a5a55c7ec06b83ddd7f02822d98a6839301e3167f42e2edfe.jpg",
+      "sha256": "eaba23a001f6646a5a55c7ec06b83ddd7f02822d98a6839301e3167f42e2edfe",
+      "length": 266063,
+      "width": 1080,
+      "height": 1411,
+      "orientation": "portrait",
+      "mean_colour": "#a5a397",
+      "thumbnail": "assets/52a0c22218d8e93b9000db840fc7ee562d2f973e4eee1476102d9a26d93be5ac.webp",
+      "alt_text": "A Noh theatre robe of silk brocade in bands of pale blue, cream and gold, patterned with blue and lilac flowers and grasses.",
+      "placard": {
+        "title": "Karaori (Nô Costume)",
+        "creator": "Japan",
+        "date": "late Edo period (1789–1868), late 18th/early 19th century",
+        "medium": "Silk and gold-leaf-paper strips, twill weave; resist dyed; lined with silk, plain weave (replacement)",
+        "dimensions": "162.8 × 133.2 cm (64 × 52 1/2 in.)",
+        "institution": "Art Institute of Chicago",
+        "canonical_url": "https://www.artic.edu/artworks/28952"
+      },
+      "rights": {
+        "license": "CC0-1.0",
+        "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "evidence": {
+          "provider_field": "is_public_domain",
+          "provider_value": true,
+          "image_url": "https://www.artic.edu/iiif/2/fe05c014-6950-d7dd-42c0-ba789ea795be/full/1686,/0/default.jpg",
+          "observed_at": "2026-10-06T11:47:19+00:00"
+        }
+      }
+    },
+    {
+      "provider": "aic",
+      "object_id": "1580",
+      "file": "assets/8a7761caadf70ee9eefe2e47ee24aaaae53ed7f470ca917546b957d9720d46a8.jpg",
+      "sha256": "8a7761caadf70ee9eefe2e47ee24aaaae53ed7f470ca917546b957d9720d46a8",
+      "length": 318719,
+      "width": 1080,
+      "height": 1534,
+      "orientation": "portrait",
+      "mean_colour": "#9f8979",
+      "thumbnail": "assets/c0799aa53adb257aaa99b07225a81ff2e44cfdb0fdb93b484b40d8c2cf1b597c.webp",
+      "alt_text": "A pink silk panel woven with a large symmetrical design of silver-green leaves, fruit and flowers, with a small hole in its lower half.",
+      "placard": {
+        "title": "Panel",
+        "creator": "France",
+        "date": "c. 1724/27",
+        "medium": "Silk, warp-float faced 7:1 satin weave with supplementary binding warps tying some three color complementary self-patterning ground wefts in plain interlacings",
+        "dimensions": "81.3 × 54.6 cm (32 × 21 1/2 in.); Warp repeat: H.: 63.1 cm (24 7/8 in.)",
+        "institution": "Art Institute of Chicago",
+        "canonical_url": "https://www.artic.edu/artworks/1580"
+      },
+      "rights": {
+        "license": "CC0-1.0",
+        "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "evidence": {
+          "provider_field": "is_public_domain",
+          "provider_value": true,
+          "image_url": "https://www.artic.edu/iiif/2/96cb7ae6-52d3-4603-fae5-35ba766a8fe0/full/1686,/0/default.jpg",
+          "observed_at": "2026-10-06T11:47:21+00:00"
+        }
+      }
+    },
+    {
+      "provider": "aic",
+      "object_id": "39186",
+      "file": "assets/5215ccaddcd646d69f410f4f30f0df4c2f96462d5012f4a80ff2204ac7d78581.jpg",
+      "sha256": "5215ccaddcd646d69f410f4f30f0df4c2f96462d5012f4a80ff2204ac7d78581",
+      "length": 490619,
+      "width": 1031,
+      "height": 1920,
+      "orientation": "portrait",
+      "mean_colour": "#92786d",
+      "thumbnail": "assets/b9789f1d9948c9482c2f77d30c86aad28a417676dc42a9ab42687c2bef6c9758.webp",
+      "alt_text": "A printed linen and cotton with a repeating pattern of red and pink flower heads and green leaves on a soft brown ground.",
+      "placard": {
+        "title": "Printed Fabric",
+        "creator": "Possibly manufactured by Oberkampf Manufactory (French, 1760–1843) (Jouy-en-Josas, France)",
+        "date": "1780s",
+        "medium": "Linen and cotton plain weave; block printed",
+        "dimensions": "173.7 × 81.7 cm (68 3/8 × 32 1/8 in.); Repeat: 31.3 × 40.2 cm (12 3/8 × 15 7/8 in.)",
+        "institution": "Art Institute of Chicago",
+        "canonical_url": "https://www.artic.edu/artworks/39186"
+      },
+      "rights": {
+        "license": "CC0-1.0",
+        "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "evidence": {
+          "provider_field": "is_public_domain",
+          "provider_value": true,
+          "image_url": "https://www.artic.edu/iiif/2/0753e1c8-60f8-32c2-372e-b6654fe277f5/full/1686,/0/default.jpg",
+          "observed_at": "2026-10-06T11:47:24+00:00"
+        }
+      }
+    },
+    {
+      "provider": "aic",
+      "object_id": "6294",
+      "file": "assets/50e327515ce484fc6ec62370ccc5607002d2d453e0599f284e72fe7dd4a604ef.jpg",
+      "sha256": "50e327515ce484fc6ec62370ccc5607002d2d453e0599f284e72fe7dd4a604ef",
+      "length": 445756,
+      "width": 1080,
+      "height": 1437,
+      "orientation": "portrait",
+      "mean_colour": "#926c71",
+      "thumbnail": "assets/fab1c4bf88a4fc6cd8f98a78bb8ebcb7c50e15d0317c127f08e85ff12df15837.webp",
+      "alt_text": "A fragment of magenta silk woven with close rows of small cream and pale blue flowering plants, its edges frayed.",
+      "placard": {
+        "title": "Fragment (Dress Fabric)",
+        "creator": "Iran (Persia)",
+        "date": "18th/19th century",
+        "medium": "Persian silk piece. Light silk; small flower spray",
+        "dimensions": "57 × 38.8 cm (22 3/8 × 15 1/4 in.)",
+        "institution": "Art Institute of Chicago",
+        "canonical_url": "https://www.artic.edu/artworks/6294"
+      },
+      "rights": {
+        "license": "CC0-1.0",
+        "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "evidence": {
+          "provider_field": "is_public_domain",
+          "provider_value": true,
+          "image_url": "https://www.artic.edu/iiif/2/2381c2bb-ba7c-55fd-5db6-096f0889b361/full/1686,/0/default.jpg",
+          "observed_at": "2026-10-06T11:47:26+00:00"
+        }
+      }
+    },
+    {
+      "provider": "aic",
+      "object_id": "35431",
+      "file": "assets/5f154afb97f2181c4e33169ab7401c918530a6d74c45910bffc68a3726abb1a4.jpg",
+      "sha256": "5f154afb97f2181c4e33169ab7401c918530a6d74c45910bffc68a3726abb1a4",
+      "length": 446491,
+      "width": 1080,
+      "height": 1548,
+      "orientation": "portrait",
+      "mean_colour": "#9d8d78",
+      "thumbnail": "assets/48c6a39c48a7d7ad188779c9aba76201d1f6288469782ed02856763c59fd2c59.webp",
+      "alt_text": "A woven silk with a symmetrical repeat of grey-green pagodas, vases and flowers on a warm brown ground.",
+      "placard": {
+        "title": "Length of Woven Silk",
+        "creator": "Netherlands",
+        "date": "1730s",
+        "medium": "Silk, gilt-metal-strip-wrapped silk, warp-float faced 7:1 satin weave with supplementary brocading wefts and self-patterned by ground wefts; two selvages present",
+        "dimensions": "112.4 × 78.7 cm (44 1/4 × 31 in.); Repeat: 50.4 × 39.6 cm (19 7/8 × 15 5/8 in.)",
+        "institution": "Art Institute of Chicago",
+        "canonical_url": "https://www.artic.edu/artworks/35431"
+      },
+      "rights": {
+        "license": "CC0-1.0",
+        "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "evidence": {
+          "provider_field": "is_public_domain",
+          "provider_value": true,
+          "image_url": "https://www.artic.edu/iiif/2/370f100a-8d95-7791-f396-bc4bc2846306/full/1686,/0/default.jpg",
+          "observed_at": "2026-10-06T11:47:29+00:00"
+        }
+      }
+    },
+    {
+      "provider": "aic",
+      "object_id": "72877",
+      "file": "assets/9f45ead08908dce31c9c38b02725ffec9eab31666ad74ea7e95d0004db55e9a5.jpg",
+      "sha256": "9f45ead08908dce31c9c38b02725ffec9eab31666ad74ea7e95d0004db55e9a5",
+      "length": 430369,
+      "width": 1080,
+      "height": 1420,
+      "orientation": "portrait",
+      "mean_colour": "#8d7960",
+      "thumbnail": "assets/43b0142decb764380101413b24066dcae33daefc9e308465c8c2629e13506b42.webp",
+      "alt_text": "A woven silk fragment with large pink peonies, green leaves and small blue flowers around tiny landscape scenes.",
+      "placard": {
+        "title": "Panel",
+        "creator": "Design in the style of Jean Revel (French, 1684–1751) (France, Lyon)",
+        "date": "c. 1735",
+        "medium": "Silk, plain weave with supplementary patterning warps and supplementary patterning and brocading wefts bound in weft-float faced 1:3 twill interlacings",
+        "dimensions": "74.8 × 54.2 cm (29 1/2 × 21 3/8 in.); Repeat: 50.2 × 25.8 cm (19 3/4 × 10 1/8 in.)",
+        "institution": "Art Institute of Chicago",
+        "canonical_url": "https://www.artic.edu/artworks/72877"
+      },
+      "rights": {
+        "license": "CC0-1.0",
+        "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "evidence": {
+          "provider_field": "is_public_domain",
+          "provider_value": true,
+          "image_url": "https://www.artic.edu/iiif/2/ea072e84-9da2-da88-185b-28e5e0af016f/full/1686,/0/default.jpg",
+          "observed_at": "2026-10-06T11:47:32+00:00"
+        }
+      }
+    },
+    {
+      "provider": "aic",
+      "object_id": "149405",
+      "file": "assets/b015bfb0a5524703fe7dbb283bc83f98426dfadd4888897ddea34a69213b8cd3.jpg",
+      "sha256": "b015bfb0a5524703fe7dbb283bc83f98426dfadd4888897ddea34a69213b8cd3",
+      "length": 446808,
+      "width": 1011,
+      "height": 1920,
+      "orientation": "portrait",
+      "mean_colour": "#a88150",
+      "thumbnail": "assets/825fa03716a7e466634f2bd3378b2fe60cf59ac143835843b6e15c199cd3a30f.webp",
+      "alt_text": "A golden silk panel woven with small coloured flowers, leafy scrolls and pink lattice bands.",
+      "placard": {
+        "title": "Panel (Dress Fabric)",
+        "creator": "France, Lyon or Italy, Venice",
+        "date": "1700/10",
+        "medium": "Silk and gilt-metal-strip-wrapped silk, satin weave with twill interlacings of secondary binding warps and patterning and brocading wefts, and self-patterning ground wefts",
+        "dimensions": "108.6 × 52.1 cm (42 3/4 × 20 1/2 in.); Warp repeat: H.: 30.2 cm (11 7/8 in.)",
+        "institution": "Art Institute of Chicago",
+        "canonical_url": "https://www.artic.edu/artworks/149405"
+      },
+      "rights": {
+        "license": "CC0-1.0",
+        "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "evidence": {
+          "provider_field": "is_public_domain",
+          "provider_value": true,
+          "image_url": "https://www.artic.edu/iiif/2/de5f5d7b-db6a-cc3c-92de-703b7614a210/full/1686,/0/default.jpg",
+          "observed_at": "2026-10-06T11:47:34+00:00"
+        }
+      }
+    },
+    {
+      "provider": "aic",
+      "object_id": "1875",
+      "file": "assets/a4f55328cde66ed221adf2fd19aefcc92f1ee156caddfdaa22ed28e72347d5c7.jpg",
+      "sha256": "a4f55328cde66ed221adf2fd19aefcc92f1ee156caddfdaa22ed28e72347d5c7",
+      "length": 473582,
+      "width": 1080,
+      "height": 1439,
+      "orientation": "portrait",
+      "mean_colour": "#7f613f",
+      "thumbnail": "assets/8220e122098676a6e3aed41359d8ad20743fc89b29c7c0a0edf4b3c29c886f24.webp",
+      "alt_text": "A fragment of gold-brocaded silk velvet with a large pine-cone motif among curling leaves and flowers, outlined in crimson.",
+      "placard": {
+        "title": "Fragment",
+        "creator": "Italy",
+        "date": "1450-1500",
+        "medium": "Silk, plain weave with supplementary silk facing wefts, secondary binding warps tying supplementary gilt-metal-strip-wrapped silk patterning and brocading wefts forming weft loops in areas and supplementary pile warps forming cut voided velvet",
+        "dimensions": "49.5 × 38.5 cm (19 1/2 × 15 1/8 in.)",
+        "institution": "Art Institute of Chicago",
+        "canonical_url": "https://www.artic.edu/artworks/1875"
+      },
+      "rights": {
+        "license": "CC0-1.0",
+        "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "evidence": {
+          "provider_field": "is_public_domain",
+          "provider_value": true,
+          "image_url": "https://www.artic.edu/iiif/2/aea1a4b6-930e-d262-6ec1-128875e93ed1/full/1686,/0/default.jpg",
+          "observed_at": "2026-10-06T11:47:37+00:00"
+        }
+      }
+    },
+    {
+      "provider": "aic",
+      "object_id": "766",
+      "file": "assets/ca8561932bf8ee39d77eba2e9d6c86b941444946dcec7bc38b5b59145f59feda.jpg",
+      "sha256": "ca8561932bf8ee39d77eba2e9d6c86b941444946dcec7bc38b5b59145f59feda",
+      "length": 504909,
+      "width": 971,
+      "height": 1920,
+      "orientation": "portrait",
+      "mean_colour": "#7e806e",
+      "thumbnail": "assets/33593bef7883bc03c16ffd8476a2d1b49b72613d118e1e45d0b7b993a09e2685.webp",
+      "alt_text": "A grey-green silk woven with trailing brown oak leaves and round pink and gold flower heads among white waves.",
+      "placard": {
+        "title": "Panel",
+        "creator": "France or England",
+        "date": "Early 18th century",
+        "medium": "Silk, gilt-metal strip, and gilt-metal-strip-wrapped silk (filé and frisé), plain weave with supplementary patterning wefts and brocading wefts and weft-float faced interlacing of secondary binding warps and some supplementary brocading wefts",
+        "dimensions": "109.7 × 54.5 cm (43 1/4 × 21 1/2 in.); Repeat: 43.8 × 26.5 cm (17 1/4 × 10 1/2 in.)",
+        "institution": "Art Institute of Chicago",
+        "canonical_url": "https://www.artic.edu/artworks/766"
+      },
+      "rights": {
+        "license": "CC0-1.0",
+        "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "evidence": {
+          "provider_field": "is_public_domain",
+          "provider_value": true,
+          "image_url": "https://www.artic.edu/iiif/2/7959476b-f516-cab2-2324-c481104ab489/full/1686,/0/default.jpg",
+          "observed_at": "2026-10-06T11:47:39+00:00"
+        }
+      }
+    },
+    {
+      "provider": "aic",
+      "object_id": "105093",
+      "file": "assets/37d32dd9bd3de231ddfcd0262973200debcc0b4da920fe4552b580b3a1d3df74.jpg",
+      "sha256": "37d32dd9bd3de231ddfcd0262973200debcc0b4da920fe4552b580b3a1d3df74",
+      "length": 219713,
+      "width": 1076,
+      "height": 1920,
+      "orientation": "portrait",
+      "mean_colour": "#b7aa99",
+      "thumbnail": "assets/fb6f9c2e18ce2354dec803916f9d9ff093d3e9ae57d0258ade789c576dd3b24d.webp",
+      "alt_text": "A cream silk dress panel woven with scattered sprays of small red, pink and blue flowers and faint white leaves.",
+      "placard": {
+        "title": "Panel (From a Dress)",
+        "creator": "England, Spitalfields",
+        "date": "c. 1748/49",
+        "medium": "Silk, plain weave with supplementary brocading wefts and self-patterned by complementary ground weft floats",
+        "dimensions": "99.5 × 50.4 cm (39 1/8 × 19 3/4 in.); Warp repeat: H.: 87.9 cm (34 5/8 in.)",
+        "institution": "Art Institute of Chicago",
+        "canonical_url": "https://www.artic.edu/artworks/105093"
+      },
+      "rights": {
+        "license": "CC0-1.0",
+        "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "evidence": {
+          "provider_field": "is_public_domain",
+          "provider_value": true,
+          "image_url": "https://www.artic.edu/iiif/2/30b581bd-bc21-e6a3-e3a8-83a91148c7f9/full/1686,/0/default.jpg",
+          "observed_at": "2026-10-06T11:47:42+00:00"
+        }
+      }
+    },
+    {
+      "provider": "cleveland",
+      "object_id": "144032",
+      "file": "assets/1199f1f6cb98fbba6fa27e7b6d7767b5876019a69ba08d249184cff4e30bfd64.jpg",
+      "sha256": "1199f1f6cb98fbba6fa27e7b6d7767b5876019a69ba08d249184cff4e30bfd64",
+      "length": 238518,
+      "width": 1080,
+      "height": 1476,
+      "orientation": "portrait",
+      "mean_colour": "#cbc3ba",
+      "thumbnail": "assets/22e4f5f090b9e963cf39f76e20a1db96621df5326ad883f3de1c4fdb76281d43.webp",
+      "alt_text": "A printed design of feathery ferns and fanciful flowers in orange, pink, green and lilac on pale paper.",
+      "placard": {
+        "title": "New Suite of Portfolios of Flowers Ideal to Use for Designing and Painting: Floral Fantasies",
+        "creator": "Anne Allen (British)",
+        "date": "c. 1796",
+        "medium": "color etching",
+        "dimensions": "Platemark: 19.4 x 13.9 cm (7 5/8 x 5 1/2 in.)",
+        "institution": "The Cleveland Museum of Art",
+        "canonical_url": "https://clevelandart.org/art/1968.38"
+      },
+      "rights": {
+        "license": "CC0-1.0",
+        "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "evidence": {
+          "provider_field": "share_license_status",
+          "provider_value": "CC0",
+          "image_url": "https://openaccess-cdn.clevelandart.org/1968.38/1968.38_print.jpg",
+          "observed_at": "2026-10-06T11:47:44+00:00"
+        }
+      }
+    }
+  ],
+  "refused": [],
+  "review_notes": []
+}

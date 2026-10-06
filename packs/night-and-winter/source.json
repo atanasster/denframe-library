@@ -1,0 +1,1501 @@
+{
+  "id": "denframe/night-and-winter",
+  "version": "1.0.0",
+  "publisher": "Denframe",
+  "definition": {
+    "schema_version": 2,
+    "kind": "gallery",
+    "name": "Night and winter",
+    "description": "Snowy villages, frosty mornings, moonlit rivers and winter dusks, chosen to stay light enough to read a dashboard over.",
+    "shape": "landscape",
+    "presentation": {
+      "fit": "fit",
+      "mat_style": "museum",
+      "placard_seconds": 12,
+      "cadence_seconds": 45
+    },
+    "strip": "assets/729913b9d9d02deb2402209e0144d8647fb7b29ef5c98f7b667b63c44b048d6f.webp",
+    "resources": [
+      {
+        "path": "assets/c0570b87810b81e50cb3ad20f05159659ece414d144d7c9c7e9f6f8f1a9b0a02.jpg",
+        "sha256": "c0570b87810b81e50cb3ad20f05159659ece414d144d7c9c7e9f6f8f1a9b0a02",
+        "length": 246214,
+        "media_type": "image/jpeg",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Claude Monet (French, 1840–1926)",
+          "license": "CC0-1.0",
+          "attribution": "Sandvika, Norway · Claude Monet (French, 1840–1926) · Art Institute of Chicago · CC0",
+          "source": "https://www.artic.edu/artworks/86998",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/f0fca5cab1086ddf08b0f5aefc0c3beafadfea7e0d0974550cf7f7171c765157.webp",
+        "sha256": "f0fca5cab1086ddf08b0f5aefc0c3beafadfea7e0d0974550cf7f7171c765157",
+        "length": 21396,
+        "media_type": "image/webp",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Claude Monet (French, 1840–1926)",
+          "license": "CC0-1.0",
+          "attribution": "Sandvika, Norway · Claude Monet (French, 1840–1926) · Art Institute of Chicago · CC0",
+          "source": "https://www.artic.edu/artworks/86998",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/e02342cf4dd1ea75d1a6b0c83d5f4bafa2427fc233fc1e52618fab2ae1c983df.jpg",
+        "sha256": "e02342cf4dd1ea75d1a6b0c83d5f4bafa2427fc233fc1e52618fab2ae1c983df",
+        "length": 424034,
+        "media_type": "image/jpeg",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Armand Guillaumin (French, 1841–1927)",
+          "license": "CC0-1.0",
+          "attribution": "Valley of the Sédelle at Pont Charraud: White Frost · Armand Guillaumin (French, 1841–1927) · The Cleveland Museum of Art · CC0",
+          "source": "https://clevelandart.org/art/1964.282",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/214784d210a4d0d3e531ad8f90b6857ba12a69067e09f56d7f9663f4bb1d8c1a.webp",
+        "sha256": "214784d210a4d0d3e531ad8f90b6857ba12a69067e09f56d7f9663f4bb1d8c1a",
+        "length": 32900,
+        "media_type": "image/webp",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Armand Guillaumin (French, 1841–1927)",
+          "license": "CC0-1.0",
+          "attribution": "Valley of the Sédelle at Pont Charraud: White Frost · Armand Guillaumin (French, 1841–1927) · The Cleveland Museum of Art · CC0",
+          "source": "https://clevelandart.org/art/1964.282",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/da24e2e99a7dac5747db43ad8d1596f46a239ea5057f0387c3d29a61c951ffce.jpg",
+        "sha256": "da24e2e99a7dac5747db43ad8d1596f46a239ea5057f0387c3d29a61c951ffce",
+        "length": 373633,
+        "media_type": "image/jpeg",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Utagawa Hiroshige 歌川 広重 (Japanese, 1797-1858)",
+          "license": "CC0-1.0",
+          "attribution": "Evening Snow at Mimeguri, Eight Views of the Sumida River (Sumidagawa hakkei, Mimeguri bosetsu), from the series \"Famous Places in the Eastern Capital (Toto meisho no uchi)\" · Utagawa Hiroshige 歌川 広重 (Japanese, 1797-1858) · Art Institute of Chicago · CC0",
+          "source": "https://www.artic.edu/artworks/19037",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/065cde02d3ab28ad701e02427e16776c6c4e080a0818c94df08b86c83da1766c.webp",
+        "sha256": "065cde02d3ab28ad701e02427e16776c6c4e080a0818c94df08b86c83da1766c",
+        "length": 36516,
+        "media_type": "image/webp",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Utagawa Hiroshige 歌川 広重 (Japanese, 1797-1858)",
+          "license": "CC0-1.0",
+          "attribution": "Evening Snow at Mimeguri, Eight Views of the Sumida River (Sumidagawa hakkei, Mimeguri bosetsu), from the series \"Famous Places in the Eastern Capital (Toto meisho no uchi)\" · Utagawa Hiroshige 歌川 広重 (Japanese, 1797-1858) · Art Institute of Chicago · CC0",
+          "source": "https://www.artic.edu/artworks/19037",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/5b5e1bd7cf997bffa5bfe0dab205119ce3c29aa035ebea0f2bd8913db72b047d.jpg",
+        "sha256": "5b5e1bd7cf997bffa5bfe0dab205119ce3c29aa035ebea0f2bd8913db72b047d",
+        "length": 268118,
+        "media_type": "image/jpeg",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Claude Monet (French, 1840–1926)",
+          "license": "CC0-1.0",
+          "attribution": "Stacks of Wheat (Sunset, Snow Effect) · Claude Monet (French, 1840–1926) · Art Institute of Chicago · CC0",
+          "source": "https://www.artic.edu/artworks/81545",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/7eac61c5692880ef62bf54c9919880beaeed6834544f6fec6f7dab69703b02b7.webp",
+        "sha256": "7eac61c5692880ef62bf54c9919880beaeed6834544f6fec6f7dab69703b02b7",
+        "length": 14594,
+        "media_type": "image/webp",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Claude Monet (French, 1840–1926)",
+          "license": "CC0-1.0",
+          "attribution": "Stacks of Wheat (Sunset, Snow Effect) · Claude Monet (French, 1840–1926) · Art Institute of Chicago · CC0",
+          "source": "https://www.artic.edu/artworks/81545",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/a1dcdbcaa95d84e842d439b069f1bca7139a319f92b097d7e1cf25aa21cbf3b1.jpg",
+        "sha256": "a1dcdbcaa95d84e842d439b069f1bca7139a319f92b097d7e1cf25aa21cbf3b1",
+        "length": 318364,
+        "media_type": "image/jpeg",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "George Gardner Symons (American, 1861–1930)",
+          "license": "CC0-1.0",
+          "attribution": "The Winter Sun · George Gardner Symons (American, 1861–1930) · Art Institute of Chicago · CC0",
+          "source": "https://www.artic.edu/artworks/64476",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/98a36f337cc80c683b3a4b58d9f456335a922450f7f38a42f6babfb46e68259f.webp",
+        "sha256": "98a36f337cc80c683b3a4b58d9f456335a922450f7f38a42f6babfb46e68259f",
+        "length": 25892,
+        "media_type": "image/webp",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "George Gardner Symons (American, 1861–1930)",
+          "license": "CC0-1.0",
+          "attribution": "The Winter Sun · George Gardner Symons (American, 1861–1930) · Art Institute of Chicago · CC0",
+          "source": "https://www.artic.edu/artworks/64476",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/6e6db97bd0a7197f2f86a12c174ce964ab6fe4effe4c2e90c2655bb9ec0a5951.jpg",
+        "sha256": "6e6db97bd0a7197f2f86a12c174ce964ab6fe4effe4c2e90c2655bb9ec0a5951",
+        "length": 332468,
+        "media_type": "image/jpeg",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Utagawa Hiroshige 歌川 広重 (Japanese, 1797-1858)",
+          "license": "CC0-1.0",
+          "attribution": "Kanbara: Evening Snow (Kanbara, yoru no yuki), from the series \"Fifty-three Stations of the Tokaido (Tokaido gojusan tsugi no uchi),\" also known as the Hoeido Tokaido · Utagawa Hiroshige 歌川 広重 (Japanese, 1797-1858) · Art Institute of Chicago · CC0",
+          "source": "https://www.artic.edu/artworks/25613",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/5e552744bf158f83e3b2dad7cb389852626fc0a1dea4918e04f4419d0c816d0d.webp",
+        "sha256": "5e552744bf158f83e3b2dad7cb389852626fc0a1dea4918e04f4419d0c816d0d",
+        "length": 28338,
+        "media_type": "image/webp",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Utagawa Hiroshige 歌川 広重 (Japanese, 1797-1858)",
+          "license": "CC0-1.0",
+          "attribution": "Kanbara: Evening Snow (Kanbara, yoru no yuki), from the series \"Fifty-three Stations of the Tokaido (Tokaido gojusan tsugi no uchi),\" also known as the Hoeido Tokaido · Utagawa Hiroshige 歌川 広重 (Japanese, 1797-1858) · Art Institute of Chicago · CC0",
+          "source": "https://www.artic.edu/artworks/25613",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/3ec45c60afa2d509f40d9e502a7f00604232fa15ced227e8b522d9f5a2b5ff68.jpg",
+        "sha256": "3ec45c60afa2d509f40d9e502a7f00604232fa15ced227e8b522d9f5a2b5ff68",
+        "length": 358733,
+        "media_type": "image/jpeg",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Ernest Lawson (American, 1873–1939)",
+          "license": "CC0-1.0",
+          "attribution": "Ice-Bound Falls · Ernest Lawson (American, 1873–1939) · Art Institute of Chicago · CC0",
+          "source": "https://www.artic.edu/artworks/80475",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/025ac576b2202ef177e603ad13968c25968fa0d79ba7a0e1d535e584d05cf982.webp",
+        "sha256": "025ac576b2202ef177e603ad13968c25968fa0d79ba7a0e1d535e584d05cf982",
+        "length": 46166,
+        "media_type": "image/webp",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Ernest Lawson (American, 1873–1939)",
+          "license": "CC0-1.0",
+          "attribution": "Ice-Bound Falls · Ernest Lawson (American, 1873–1939) · Art Institute of Chicago · CC0",
+          "source": "https://www.artic.edu/artworks/80475",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/9c21ed054eb888d55d0fff7587fbb38b2f9ce724c7fe64860bf0237a8019c32b.jpg",
+        "sha256": "9c21ed054eb888d55d0fff7587fbb38b2f9ce724c7fe64860bf0237a8019c32b",
+        "length": 219414,
+        "media_type": "image/jpeg",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Kamisaka Sekka (Japanese, 1866-1942, Usudo, Japanese, unknown)",
+          "license": "CC0-1.0",
+          "attribution": "Plovers Flying Across a River above Snow-Laden Reeds (Fuyu no Kawa), from the series \"Worlds of Things (Momoyogusa)\" · Kamisaka Sekka (Japanese, 1866-1942, Usudo, Japanese, unknown) · Art Institute of Chicago · CC0",
+          "source": "https://www.artic.edu/artworks/127733",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/6ec6f0940bc141d7c1fd66cc39a5dbd408c4ebd14cf1c69ef3d11fda89b9de92.webp",
+        "sha256": "6ec6f0940bc141d7c1fd66cc39a5dbd408c4ebd14cf1c69ef3d11fda89b9de92",
+        "length": 16282,
+        "media_type": "image/webp",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Kamisaka Sekka (Japanese, 1866-1942, Usudo, Japanese, unknown)",
+          "license": "CC0-1.0",
+          "attribution": "Plovers Flying Across a River above Snow-Laden Reeds (Fuyu no Kawa), from the series \"Worlds of Things (Momoyogusa)\" · Kamisaka Sekka (Japanese, 1866-1942, Usudo, Japanese, unknown) · Art Institute of Chicago · CC0",
+          "source": "https://www.artic.edu/artworks/127733",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/d1e6837ecc3dd83ac19953b2492b7d0394376f2bb2e462016f15d634b51e9fa0.jpg",
+        "sha256": "d1e6837ecc3dd83ac19953b2492b7d0394376f2bb2e462016f15d634b51e9fa0",
+        "length": 492042,
+        "media_type": "image/jpeg",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Victor Charreton (French, 1864–1936)",
+          "license": "CC0-1.0",
+          "attribution": "Murol in the Snow · Victor Charreton (French, 1864–1936) · The Cleveland Museum of Art · CC0",
+          "source": "https://clevelandart.org/art/1922.358",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/98fde15df22ef154ccb6acef202ccf67db9675517ef232fa2dc402cd3bddf143.webp",
+        "sha256": "98fde15df22ef154ccb6acef202ccf67db9675517ef232fa2dc402cd3bddf143",
+        "length": 41742,
+        "media_type": "image/webp",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Victor Charreton (French, 1864–1936)",
+          "license": "CC0-1.0",
+          "attribution": "Murol in the Snow · Victor Charreton (French, 1864–1936) · The Cleveland Museum of Art · CC0",
+          "source": "https://clevelandart.org/art/1922.358",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/19986670bc83d1ad1bc29e6a2aee280864af5bfb511f575cc09b47c5b6d7ea3a.jpg",
+        "sha256": "19986670bc83d1ad1bc29e6a2aee280864af5bfb511f575cc09b47c5b6d7ea3a",
+        "length": 286726,
+        "media_type": "image/jpeg",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Keisai Eisen (Japanese, 1790-1848)",
+          "license": "CC0-1.0",
+          "attribution": "Snow on the Sumida River · Keisai Eisen (Japanese, 1790-1848) · Art Institute of Chicago · CC0",
+          "source": "https://www.artic.edu/artworks/89593",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/b90dc27718e9f11672fef36eab401bda5127222e664df95c24b5ba72f66f693a.webp",
+        "sha256": "b90dc27718e9f11672fef36eab401bda5127222e664df95c24b5ba72f66f693a",
+        "length": 21468,
+        "media_type": "image/webp",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Keisai Eisen (Japanese, 1790-1848)",
+          "license": "CC0-1.0",
+          "attribution": "Snow on the Sumida River · Keisai Eisen (Japanese, 1790-1848) · Art Institute of Chicago · CC0",
+          "source": "https://www.artic.edu/artworks/89593",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/3a7a18198deb2ca4736011ad3fc2fc133447dcc529dc4e7c3e0bc5ae185cdf91.jpg",
+        "sha256": "3a7a18198deb2ca4736011ad3fc2fc133447dcc529dc4e7c3e0bc5ae185cdf91",
+        "length": 320573,
+        "media_type": "image/jpeg",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Henri Rivière (French, 1864–1951)",
+          "license": "CC0-1.0",
+          "attribution": "The Woods, Winter · Henri Rivière (French, 1864–1951) · The Cleveland Museum of Art · CC0",
+          "source": "https://clevelandart.org/art/2003.383",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/850fd3313b08c1e40e4ce02fb83af52362eb0564975c5d6fbd7bb41433447907.webp",
+        "sha256": "850fd3313b08c1e40e4ce02fb83af52362eb0564975c5d6fbd7bb41433447907",
+        "length": 30348,
+        "media_type": "image/webp",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Henri Rivière (French, 1864–1951)",
+          "license": "CC0-1.0",
+          "attribution": "The Woods, Winter · Henri Rivière (French, 1864–1951) · The Cleveland Museum of Art · CC0",
+          "source": "https://clevelandart.org/art/2003.383",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/138301b194ea7efc8c9bf37a26552af9fc1c67bd4e5746beb5f7616dc52639d7.jpg",
+        "sha256": "138301b194ea7efc8c9bf37a26552af9fc1c67bd4e5746beb5f7616dc52639d7",
+        "length": 343314,
+        "media_type": "image/jpeg",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Katsushika Hokusai 葛飾 北斎 (Japanese, 1760–1849)",
+          "license": "CC0-1.0",
+          "attribution": "Moonlight on the Yodo River (Yodogawa), from the series \"Snow, Moon and Flowers (Setsugekka)\" · Katsushika Hokusai 葛飾 北斎 (Japanese, 1760–1849) · Art Institute of Chicago · CC0",
+          "source": "https://www.artic.edu/artworks/32271",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/7527e4c540412bc06a8f7dae92206c301a3cbf4735e45b657ec58b58b54846c6.webp",
+        "sha256": "7527e4c540412bc06a8f7dae92206c301a3cbf4735e45b657ec58b58b54846c6",
+        "length": 29598,
+        "media_type": "image/webp",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Katsushika Hokusai 葛飾 北斎 (Japanese, 1760–1849)",
+          "license": "CC0-1.0",
+          "attribution": "Moonlight on the Yodo River (Yodogawa), from the series \"Snow, Moon and Flowers (Setsugekka)\" · Katsushika Hokusai 葛飾 北斎 (Japanese, 1760–1849) · Art Institute of Chicago · CC0",
+          "source": "https://www.artic.edu/artworks/32271",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/dc7011ae6157e303c80b3ebee53a0ff7aebdab26887a852491a68cc2170596ae.jpg",
+        "sha256": "dc7011ae6157e303c80b3ebee53a0ff7aebdab26887a852491a68cc2170596ae",
+        "length": 176404,
+        "media_type": "image/jpeg",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "George Inness (American, 1825–1894)",
+          "license": "CC0-1.0",
+          "attribution": "A Winter Sky · George Inness (American, 1825–1894) · The Cleveland Museum of Art · CC0",
+          "source": "https://clevelandart.org/art/1927.388",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/e3edcbc5ce67d5bf923253e3744b2ed4793fde37d75ea067c0175ea59e6c54ac.webp",
+        "sha256": "e3edcbc5ce67d5bf923253e3744b2ed4793fde37d75ea067c0175ea59e6c54ac",
+        "length": 11448,
+        "media_type": "image/webp",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "George Inness (American, 1825–1894)",
+          "license": "CC0-1.0",
+          "attribution": "A Winter Sky · George Inness (American, 1825–1894) · The Cleveland Museum of Art · CC0",
+          "source": "https://clevelandart.org/art/1927.388",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/d88129c4826447112d5df76ba21db9df7c9a23fecd61590ef7355f6f6408358f.jpg",
+        "sha256": "d88129c4826447112d5df76ba21db9df7c9a23fecd61590ef7355f6f6408358f",
+        "length": 123789,
+        "media_type": "image/jpeg",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Alfred Stieglitz (American, 1864–1946)",
+          "license": "CC0-1.0",
+          "attribution": "First Snow and the Little House · Alfred Stieglitz (American, 1864–1946) · Art Institute of Chicago · CC0",
+          "source": "https://www.artic.edu/artworks/66515",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/cb696f7bfb563bb82c4acbc7c8b91bc4a4b36d765d7024908f1b261230f585da.webp",
+        "sha256": "cb696f7bfb563bb82c4acbc7c8b91bc4a4b36d765d7024908f1b261230f585da",
+        "length": 12194,
+        "media_type": "image/webp",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Alfred Stieglitz (American, 1864–1946)",
+          "license": "CC0-1.0",
+          "attribution": "First Snow and the Little House · Alfred Stieglitz (American, 1864–1946) · Art Institute of Chicago · CC0",
+          "source": "https://www.artic.edu/artworks/66515",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/581f613f081a10b4f5c1f3e74f34f5e7becfc430a2b66d0eba996d92c74df633.jpg",
+        "sha256": "581f613f081a10b4f5c1f3e74f34f5e7becfc430a2b66d0eba996d92c74df633",
+        "length": 438228,
+        "media_type": "image/jpeg",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Ikeda Eisen (Japanese, 1790–1848)",
+          "license": "CC0-1.0",
+          "attribution": "A Distant View of Snow on the Sumida River in Edo · Ikeda Eisen (Japanese, 1790–1848) · The Cleveland Museum of Art · CC0",
+          "source": "https://clevelandart.org/art/1985.300",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/2333c0a4bde83686d8a7cd0e9f3d9eeb7172c997baaa2602b0fc2c8990e4b9ba.webp",
+        "sha256": "2333c0a4bde83686d8a7cd0e9f3d9eeb7172c997baaa2602b0fc2c8990e4b9ba",
+        "length": 29774,
+        "media_type": "image/webp",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Ikeda Eisen (Japanese, 1790–1848)",
+          "license": "CC0-1.0",
+          "attribution": "A Distant View of Snow on the Sumida River in Edo · Ikeda Eisen (Japanese, 1790–1848) · The Cleveland Museum of Art · CC0",
+          "source": "https://clevelandart.org/art/1985.300",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/4290b1fccd45a56c609414fb995e8988218fe5e331de982ea7ff763f9f280605.jpg",
+        "sha256": "4290b1fccd45a56c609414fb995e8988218fe5e331de982ea7ff763f9f280605",
+        "length": 291262,
+        "media_type": "image/jpeg",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "George Wesley Bellows (American, 1882–1925)",
+          "license": "CC0-1.0",
+          "attribution": "Love of Winter · George Wesley Bellows (American, 1882–1925) · Art Institute of Chicago · CC0",
+          "source": "https://www.artic.edu/artworks/109780",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/a695a447eaa8874cc13e270188b283d2309209d0aa274cb4e8a39e3a8fca76fe.webp",
+        "sha256": "a695a447eaa8874cc13e270188b283d2309209d0aa274cb4e8a39e3a8fca76fe",
+        "length": 36572,
+        "media_type": "image/webp",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "George Wesley Bellows (American, 1882–1925)",
+          "license": "CC0-1.0",
+          "attribution": "Love of Winter · George Wesley Bellows (American, 1882–1925) · Art Institute of Chicago · CC0",
+          "source": "https://www.artic.edu/artworks/109780",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/709e87fb3f736ce81743b1e02de087a68734503c7050116ed46d533169f0e0de.jpg",
+        "sha256": "709e87fb3f736ce81743b1e02de087a68734503c7050116ed46d533169f0e0de",
+        "length": 312444,
+        "media_type": "image/jpeg",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Jan van Kessel (Dutch, 1641–1680)",
+          "license": "CC0-1.0",
+          "attribution": "Winter Landscape with Skater · Jan van Kessel (Dutch, 1641–1680) · The Cleveland Museum of Art · CC0",
+          "source": "https://clevelandart.org/art/2019.7",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/8689ab783ba80103ef585b4465c9ff22bec6165fc8196bdcce7924dd36631899.webp",
+        "sha256": "8689ab783ba80103ef585b4465c9ff22bec6165fc8196bdcce7924dd36631899",
+        "length": 28108,
+        "media_type": "image/webp",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Jan van Kessel (Dutch, 1641–1680)",
+          "license": "CC0-1.0",
+          "attribution": "Winter Landscape with Skater · Jan van Kessel (Dutch, 1641–1680) · The Cleveland Museum of Art · CC0",
+          "source": "https://clevelandart.org/art/2019.7",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/7bfd8f7ba3dba6008120b12af4e8db345658012258507f61731685c73019302e.jpg",
+        "sha256": "7bfd8f7ba3dba6008120b12af4e8db345658012258507f61731685c73019302e",
+        "length": 217888,
+        "media_type": "image/jpeg",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Kamisaka Sekka (Japanese, 1866-1942)",
+          "license": "CC0-1.0",
+          "attribution": "Moon over Musashino, from the series \"Worlds of Things (Momoyogusa)\" · Kamisaka Sekka (Japanese, 1866-1942) · Art Institute of Chicago · CC0",
+          "source": "https://www.artic.edu/artworks/127736",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/0303b3e28f944bc738ba9fbb03c715ba4256da55a93d55e79c09e6f49bdf23e1.webp",
+        "sha256": "0303b3e28f944bc738ba9fbb03c715ba4256da55a93d55e79c09e6f49bdf23e1",
+        "length": 9060,
+        "media_type": "image/webp",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Kamisaka Sekka (Japanese, 1866-1942)",
+          "license": "CC0-1.0",
+          "attribution": "Moon over Musashino, from the series \"Worlds of Things (Momoyogusa)\" · Kamisaka Sekka (Japanese, 1866-1942) · Art Institute of Chicago · CC0",
+          "source": "https://www.artic.edu/artworks/127736",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/b98dbb2c0f19bfb857e02e09ded32c8c09ab62afa79e2fd10f4d785edbd9067c.jpg",
+        "sha256": "b98dbb2c0f19bfb857e02e09ded32c8c09ab62afa79e2fd10f4d785edbd9067c",
+        "length": 390945,
+        "media_type": "image/jpeg",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Tani Bunchō (Japanese, 1763–1841)",
+          "license": "CC0-1.0",
+          "attribution": "Evening Snow Blending River and Sky, from Eight Views of Xiao-Xiang · Tani Bunchō (Japanese, 1763–1841) · The Cleveland Museum of Art · CC0",
+          "source": "https://clevelandart.org/art/1980.188.2",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/c03782d53f3d17b3f2fb4f9802a97cdec8e1583aa85c2c304ccc4cd1c83f264c.webp",
+        "sha256": "c03782d53f3d17b3f2fb4f9802a97cdec8e1583aa85c2c304ccc4cd1c83f264c",
+        "length": 27628,
+        "media_type": "image/webp",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Tani Bunchō (Japanese, 1763–1841)",
+          "license": "CC0-1.0",
+          "attribution": "Evening Snow Blending River and Sky, from Eight Views of Xiao-Xiang · Tani Bunchō (Japanese, 1763–1841) · The Cleveland Museum of Art · CC0",
+          "source": "https://clevelandart.org/art/1980.188.2",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/6f37e2c187b021750caec684837c31ea17ff0963e47df83fc4a9a80db426b454.jpg",
+        "sha256": "6f37e2c187b021750caec684837c31ea17ff0963e47df83fc4a9a80db426b454",
+        "length": 296383,
+        "media_type": "image/jpeg",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Katsushika Hokusai 葛飾 北斎 (Japanese, 1760-1849, Publisher: Hibino Yohachi, Japanese, unknown)",
+          "license": "CC0-1.0",
+          "attribution": "Fuji from Ommayagashi with Twilight over Ryogoku Bridge (Ommayagashi yori ryogokubashi sekiyo o miru), from the series \"Thirty-six Views of Mount Fuji (Fugaku sanjurokkei)\" · Katsushika Hokusai 葛飾 北斎 (Japanese, 1760-1849, Publisher: Hibino Yohachi, Japanese, unknown) · Art Institute of Chicago · CC0",
+          "source": "https://www.artic.edu/artworks/24696",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/799fdaf2a6fc9be988fdd9b19c6c8ae1c11c598310e68cbe30cfc4bee62d5fbc.webp",
+        "sha256": "799fdaf2a6fc9be988fdd9b19c6c8ae1c11c598310e68cbe30cfc4bee62d5fbc",
+        "length": 22784,
+        "media_type": "image/webp",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Katsushika Hokusai 葛飾 北斎 (Japanese, 1760-1849, Publisher: Hibino Yohachi, Japanese, unknown)",
+          "license": "CC0-1.0",
+          "attribution": "Fuji from Ommayagashi with Twilight over Ryogoku Bridge (Ommayagashi yori ryogokubashi sekiyo o miru), from the series \"Thirty-six Views of Mount Fuji (Fugaku sanjurokkei)\" · Katsushika Hokusai 葛飾 北斎 (Japanese, 1760-1849, Publisher: Hibino Yohachi, Japanese, unknown) · Art Institute of Chicago · CC0",
+          "source": "https://www.artic.edu/artworks/24696",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/16332152ce1bec34c93051824d006e49654f0210507e9cf8550890ed0726c07a.jpg",
+        "sha256": "16332152ce1bec34c93051824d006e49654f0210507e9cf8550890ed0726c07a",
+        "length": 243659,
+        "media_type": "image/jpeg",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "William B. Post (American, 1857–1925)",
+          "license": "CC0-1.0",
+          "attribution": "Untitled (Winter Landscape) · William B. Post (American, 1857–1925) · The Cleveland Museum of Art · CC0",
+          "source": "https://clevelandart.org/art/1993.28",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/fe49f62bff13ee5640770b38a2a304c43b0b71901c528be6dc29efbc84ec67c5.webp",
+        "sha256": "fe49f62bff13ee5640770b38a2a304c43b0b71901c528be6dc29efbc84ec67c5",
+        "length": 18002,
+        "media_type": "image/webp",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "William B. Post (American, 1857–1925)",
+          "license": "CC0-1.0",
+          "attribution": "Untitled (Winter Landscape) · William B. Post (American, 1857–1925) · The Cleveland Museum of Art · CC0",
+          "source": "https://clevelandart.org/art/1993.28",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/539a76d59917275dcdb48d4fc7d8dd4d2e2abd44ed96f4a3861738fc724bb508.jpg",
+        "sha256": "539a76d59917275dcdb48d4fc7d8dd4d2e2abd44ed96f4a3861738fc724bb508",
+        "length": 173964,
+        "media_type": "image/jpeg",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Mary Altha Nims (American, 1817–1907)",
+          "license": "CC0-1.0",
+          "attribution": "Snow Storm in Vermont · Mary Altha Nims (American, 1817–1907) · The Cleveland Museum of Art · CC0",
+          "source": "https://clevelandart.org/art/1934.124",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/019625fc27457964dd7a7539dec7cbf0ed03f27de9ced9246c630d557cb9699b.webp",
+        "sha256": "019625fc27457964dd7a7539dec7cbf0ed03f27de9ced9246c630d557cb9699b",
+        "length": 6230,
+        "media_type": "image/webp",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Mary Altha Nims (American, 1817–1907)",
+          "license": "CC0-1.0",
+          "attribution": "Snow Storm in Vermont · Mary Altha Nims (American, 1817–1907) · The Cleveland Museum of Art · CC0",
+          "source": "https://clevelandart.org/art/1934.124",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/2fe5c1b63acdca2c1d402bc7f5d8884db0bfc2836d5b3ac2f14277fe43a2c55d.jpg",
+        "sha256": "2fe5c1b63acdca2c1d402bc7f5d8884db0bfc2836d5b3ac2f14277fe43a2c55d",
+        "length": 213905,
+        "media_type": "image/jpeg",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Kitagawa Utamaro 喜多川 歌麿 (Japanese, c.1753-1806)",
+          "license": "CC0-1.0",
+          "attribution": "Towing a Barge in the Snow, from the album The Silver World · Kitagawa Utamaro 喜多川 歌麿 (Japanese, c.1753-1806) · Art Institute of Chicago · CC0",
+          "source": "https://www.artic.edu/artworks/23845",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/9c11b2660de5c321f59f87c05bfcfcb989c05969d30990f29c07e09da62102d7.webp",
+        "sha256": "9c11b2660de5c321f59f87c05bfcfcb989c05969d30990f29c07e09da62102d7",
+        "length": 12714,
+        "media_type": "image/webp",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Kitagawa Utamaro 喜多川 歌麿 (Japanese, c.1753-1806)",
+          "license": "CC0-1.0",
+          "attribution": "Towing a Barge in the Snow, from the album The Silver World · Kitagawa Utamaro 喜多川 歌麿 (Japanese, c.1753-1806) · Art Institute of Chicago · CC0",
+          "source": "https://www.artic.edu/artworks/23845",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/52c44d025b32a75cdd705f6aa063c1c589cdf49e83dc9d19660cf43985b1cbea.jpg",
+        "sha256": "52c44d025b32a75cdd705f6aa063c1c589cdf49e83dc9d19660cf43985b1cbea",
+        "length": 196310,
+        "media_type": "image/jpeg",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Alfred Stieglitz (American, 1864–1946)",
+          "license": "CC0-1.0",
+          "attribution": "Mid Snow and Ice · Alfred Stieglitz (American, 1864–1946) · Art Institute of Chicago · CC0",
+          "source": "https://www.artic.edu/artworks/66264",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/6173c949ab70c199d3c48e47ba307e342922fbe58addc801ac365c55f9cc38cb.webp",
+        "sha256": "6173c949ab70c199d3c48e47ba307e342922fbe58addc801ac365c55f9cc38cb",
+        "length": 16468,
+        "media_type": "image/webp",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Alfred Stieglitz (American, 1864–1946)",
+          "license": "CC0-1.0",
+          "attribution": "Mid Snow and Ice · Alfred Stieglitz (American, 1864–1946) · Art Institute of Chicago · CC0",
+          "source": "https://www.artic.edu/artworks/66264",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/729913b9d9d02deb2402209e0144d8647fb7b29ef5c98f7b667b63c44b048d6f.webp",
+        "sha256": "729913b9d9d02deb2402209e0144d8647fb7b29ef5c98f7b667b63c44b048d6f",
+        "length": 24644,
+        "media_type": "image/webp",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Denframe",
+          "license": "CC0-1.0",
+          "attribution": "The collection's first works, side by side.",
+          "source": "",
+          "modified": true
+        }
+      }
+    ],
+    "works": [
+      {
+        "id": "aic-86998",
+        "image": "assets/c0570b87810b81e50cb3ad20f05159659ece414d144d7c9c7e9f6f8f1a9b0a02.jpg",
+        "thumbnail": "assets/f0fca5cab1086ddf08b0f5aefc0c3beafadfea7e0d0974550cf7f7171c765157.webp",
+        "alt_text": "A Norwegian village under deep snow, with houses touched with red, a small arched bridge and frosted birch trees below a blue wooded hill.",
+        "width": 1381,
+        "height": 1080,
+        "orientation": "landscape",
+        "focal_x": 0.5,
+        "focal_y": 0.5,
+        "mean_colour": "#b2b5bf",
+        "placard": {
+          "title": "Sandvika, Norway",
+          "creator": "Claude Monet (French, 1840–1926)",
+          "date": "1895",
+          "medium": "Oil on canvas",
+          "dimensions": "73.4 × 92.5 cm (28 7/8 × 36 3/8 in.); Framed: 98.8 × 118.2 × 11.2 cm (38 7/8 × 46 1/2 × 4 3/8 in.)",
+          "institution": "Art Institute of Chicago",
+          "canonical_url": "https://www.artic.edu/artworks/86998"
+        },
+        "rights": {
+          "license": "CC0-1.0",
+          "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "evidence": {
+            "provider_field": "is_public_domain",
+            "provider_value": true,
+            "image_url": "https://www.artic.edu/iiif/2/07d8dd31-d44b-85aa-ab09-ca51ee86f631/full/1686,/0/default.jpg",
+            "observed_at": "2026-10-06T11:43:26+00:00",
+            "image_field": null,
+            "uuid": null
+          }
+        }
+      },
+      {
+        "id": "cleveland-140331",
+        "image": "assets/e02342cf4dd1ea75d1a6b0c83d5f4bafa2427fc233fc1e52618fab2ae1c983df.jpg",
+        "thumbnail": "assets/214784d210a4d0d3e531ad8f90b6857ba12a69067e09f56d7f9663f4bb1d8c1a.webp",
+        "alt_text": "A frosted valley in pale blues and pinks, with autumn trees in red and gold and two small figures walking along a path.",
+        "width": 1585,
+        "height": 1080,
+        "orientation": "landscape",
+        "focal_x": 0.5,
+        "focal_y": 0.5,
+        "mean_colour": "#9c9582",
+        "placard": {
+          "title": "Valley of the Sédelle at Pont Charraud: White Frost",
+          "creator": "Armand Guillaumin (French, 1841–1927)",
+          "date": "c.1903–1911",
+          "medium": "oil on fabric",
+          "dimensions": "Framed: 94 x 128 x 10.5 cm (37 x 50 3/8 x 4 1/8 in.); Unframed: 73 x 106.2 cm (28 3/4 x 41 13/16 in.)",
+          "institution": "The Cleveland Museum of Art",
+          "canonical_url": "https://clevelandart.org/art/1964.282"
+        },
+        "rights": {
+          "license": "CC0-1.0",
+          "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "evidence": {
+            "provider_field": "share_license_status",
+            "provider_value": "CC0",
+            "image_url": "https://openaccess-cdn.clevelandart.org/1964.282/1964.282_print.jpg",
+            "observed_at": "2026-10-06T11:43:28+00:00",
+            "image_field": null,
+            "uuid": null
+          }
+        }
+      },
+      {
+        "id": "aic-19037",
+        "image": "assets/da24e2e99a7dac5747db43ad8d1596f46a239ea5057f0387c3d29a61c951ffce.jpg",
+        "thumbnail": "assets/065cde02d3ab28ad701e02427e16776c6c4e080a0818c94df08b86c83da1766c.webp",
+        "alt_text": "A woodblock print of a snowy riverbank with pines, stone lanterns and a gate, a deep blue river and white hills beyond under falling snow.",
+        "width": 1635,
+        "height": 1080,
+        "orientation": "landscape",
+        "focal_x": 0.5,
+        "focal_y": 0.5,
+        "mean_colour": "#b9b79e",
+        "placard": {
+          "title": "Evening Snow at Mimeguri, Eight Views of the Sumida River (Sumidagawa hakkei, Mimeguri bosetsu), from the series \"Famous Places in the Eastern Capital (Toto meisho no uchi)\"",
+          "creator": "Utagawa Hiroshige 歌川 広重 (Japanese, 1797-1858)",
+          "date": "c. 1840/42",
+          "medium": "Color woodblock print; aiban",
+          "dimensions": "22 × 32.6 cm (8 5/8 × 12 13/16 in.)",
+          "institution": "Art Institute of Chicago",
+          "canonical_url": "https://www.artic.edu/artworks/19037"
+        },
+        "rights": {
+          "license": "CC0-1.0",
+          "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "evidence": {
+            "provider_field": "is_public_domain",
+            "provider_value": true,
+            "image_url": "https://www.artic.edu/iiif/2/0a6c237d-ad7f-45ae-4343-6dc4eed074f4/full/1686,/0/default.jpg",
+            "observed_at": "2026-10-06T11:43:30+00:00",
+            "image_field": null,
+            "uuid": null
+          }
+        }
+      },
+      {
+        "id": "aic-81545",
+        "image": "assets/5b5e1bd7cf997bffa5bfe0dab205119ce3c29aa035ebea0f2bd8913db72b047d.jpg",
+        "thumbnail": "assets/7eac61c5692880ef62bf54c9919880beaeed6834544f6fec6f7dab69703b02b7.webp",
+        "alt_text": "Two snow-covered stacks of wheat in a field glowing violet and blue under an orange and pink sunset sky.",
+        "width": 1672,
+        "height": 1080,
+        "orientation": "landscape",
+        "focal_x": 0.5,
+        "focal_y": 0.5,
+        "mean_colour": "#8d7f8b",
+        "placard": {
+          "title": "Stacks of Wheat (Sunset, Snow Effect)",
+          "creator": "Claude Monet (French, 1840–1926)",
+          "date": "1890–91",
+          "medium": "Oil on canvas",
+          "dimensions": "65.3 × 100.4 cm (25 11/16 × 39 1/2 in.); Framed: 84.2 × 119.7 × 8.9 cm (33 1/8 × 47 1/8 × 3 1/2 in.)",
+          "institution": "Art Institute of Chicago",
+          "canonical_url": "https://www.artic.edu/artworks/81545"
+        },
+        "rights": {
+          "license": "CC0-1.0",
+          "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "evidence": {
+            "provider_field": "is_public_domain",
+            "provider_value": true,
+            "image_url": "https://www.artic.edu/iiif/2/be0d3e50-a600-6f33-ea8f-16a34d892442/full/1686,/0/default.jpg",
+            "observed_at": "2026-10-06T11:43:33+00:00",
+            "image_field": null,
+            "uuid": null
+          }
+        }
+      },
+      {
+        "id": "aic-64476",
+        "image": "assets/a1dcdbcaa95d84e842d439b069f1bca7139a319f92b097d7e1cf25aa21cbf3b1.jpg",
+        "thumbnail": "assets/98a36f337cc80c683b3a4b58d9f456335a922450f7f38a42f6babfb46e68259f.webp",
+        "alt_text": "A winding river with ice floes between snowy banks, bare trees and a farmhouse in low golden winter sunlight.",
+        "width": 1636,
+        "height": 1080,
+        "orientation": "landscape",
+        "focal_x": 0.5,
+        "focal_y": 0.5,
+        "mean_colour": "#857568",
+        "placard": {
+          "title": "The Winter Sun",
+          "creator": "George Gardner Symons (American, 1861–1930)",
+          "date": "about 1909",
+          "medium": "Oil on canvas",
+          "dimensions": "120 × 181.6 cm (47 1/4 × 71 1/2 in.)",
+          "institution": "Art Institute of Chicago",
+          "canonical_url": "https://www.artic.edu/artworks/64476"
+        },
+        "rights": {
+          "license": "CC0-1.0",
+          "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "evidence": {
+            "provider_field": "is_public_domain",
+            "provider_value": true,
+            "image_url": "https://www.artic.edu/iiif/2/d1cda60c-c21d-9fbc-8195-4e7c3d6e9650/full/1686,/0/default.jpg",
+            "observed_at": "2026-10-06T11:43:35+00:00",
+            "image_field": null,
+            "uuid": null
+          }
+        }
+      },
+      {
+        "id": "aic-25613",
+        "image": "assets/6e6db97bd0a7197f2f86a12c174ce964ab6fe4effe4c2e90c2655bb9ec0a5951.jpg",
+        "thumbnail": "assets/5e552744bf158f83e3b2dad7cb389852626fc0a1dea4918e04f4419d0c816d0d.webp",
+        "alt_text": "A woodblock print of a village at night under heavy snow, with travellers holding hats and umbrellas walking up a white slope.",
+        "width": 1664,
+        "height": 1080,
+        "orientation": "landscape",
+        "focal_x": 0.5,
+        "focal_y": 0.5,
+        "mean_colour": "#bbb093",
+        "placard": {
+          "title": "Kanbara: Evening Snow (Kanbara, yoru no yuki), from the series \"Fifty-three Stations of the Tokaido (Tokaido gojusan tsugi no uchi),\" also known as the Hoeido Tokaido",
+          "creator": "Utagawa Hiroshige 歌川 広重 (Japanese, 1797-1858)",
+          "date": "c. 1833/34",
+          "medium": "Color woodblock print; oban",
+          "dimensions": "24.1 × 36.8 cm (9 1/2 × 14 1/2 in.)",
+          "institution": "Art Institute of Chicago",
+          "canonical_url": "https://www.artic.edu/artworks/25613"
+        },
+        "rights": {
+          "license": "CC0-1.0",
+          "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "evidence": {
+            "provider_field": "is_public_domain",
+            "provider_value": true,
+            "image_url": "https://www.artic.edu/iiif/2/c287562e-816e-096c-022a-b05199ba4b8f/full/1686,/0/default.jpg",
+            "observed_at": "2026-10-06T11:43:38+00:00",
+            "image_field": null,
+            "uuid": null
+          }
+        }
+      },
+      {
+        "id": "aic-80475",
+        "image": "assets/3ec45c60afa2d509f40d9e502a7f00604232fa15ced227e8b522d9f5a2b5ff68.jpg",
+        "thumbnail": "assets/025ac576b2202ef177e603ad13968c25968fa0d79ba7a0e1d535e584d05cf982.webp",
+        "alt_text": "A waterfall tumbling through snow-covered rocks, with pink mill buildings on the bank and wooded blue hills behind.",
+        "width": 1360,
+        "height": 1080,
+        "orientation": "landscape",
+        "focal_x": 0.5,
+        "focal_y": 0.5,
+        "mean_colour": "#99a09d",
+        "placard": {
+          "title": "Ice-Bound Falls",
+          "creator": "Ernest Lawson (American, 1873–1939)",
+          "date": "1919",
+          "medium": "Oil on canvas",
+          "dimensions": "100.3 × 127 cm (39 1/2 × 50 in.)",
+          "institution": "Art Institute of Chicago",
+          "canonical_url": "https://www.artic.edu/artworks/80475"
+        },
+        "rights": {
+          "license": "CC0-1.0",
+          "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "evidence": {
+            "provider_field": "is_public_domain",
+            "provider_value": true,
+            "image_url": "https://www.artic.edu/iiif/2/75328b04-5c91-0951-7ce3-c6eaaf7d4a55/full/1686,/0/default.jpg",
+            "observed_at": "2026-10-06T11:43:40+00:00",
+            "image_field": null,
+            "uuid": null
+          }
+        }
+      },
+      {
+        "id": "aic-127733",
+        "image": "assets/9c21ed054eb888d55d0fff7587fbb38b2f9ce724c7fe64860bf0237a8019c32b.jpg",
+        "thumbnail": "assets/6ec6f0940bc141d7c1fd66cc39a5dbd408c4ebd14cf1c69ef3d11fda89b9de92.webp",
+        "alt_text": "A stylised print of grey plovers flying over a teal river that curves between white banks of snow-laden reeds.",
+        "width": 1629,
+        "height": 1080,
+        "orientation": "landscape",
+        "focal_x": 0.5,
+        "focal_y": 0.5,
+        "mean_colour": "#939d9d",
+        "placard": {
+          "title": "Plovers Flying Across a River above Snow-Laden Reeds (Fuyu no Kawa), from the series \"Worlds of Things (Momoyogusa)\"",
+          "creator": "Kamisaka Sekka (Japanese, 1866-1942, Usudo, Japanese, unknown)",
+          "date": "1909/10",
+          "medium": "Color woodblock print",
+          "dimensions": "29.8 × 44.8 cm (11 3/4 × 17 11/16 in.)",
+          "institution": "Art Institute of Chicago",
+          "canonical_url": "https://www.artic.edu/artworks/127733"
+        },
+        "rights": {
+          "license": "CC0-1.0",
+          "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "evidence": {
+            "provider_field": "is_public_domain",
+            "provider_value": true,
+            "image_url": "https://www.artic.edu/iiif/2/4791f062-5ded-40d7-62bc-091f6d2e2183/full/1686,/0/default.jpg",
+            "observed_at": "2026-10-06T11:43:43+00:00",
+            "image_field": null,
+            "uuid": null
+          }
+        }
+      },
+      {
+        "id": "cleveland-104197",
+        "image": "assets/d1e6837ecc3dd83ac19953b2492b7d0394376f2bb2e462016f15d634b51e9fa0.jpg",
+        "thumbnail": "assets/98fde15df22ef154ccb6acef202ccf67db9675517ef232fa2dc402cd3bddf143.webp",
+        "alt_text": "A French village street after snowfall, with tall pale houses, bare trees and a snowy hillside rising behind.",
+        "width": 1352,
+        "height": 1080,
+        "orientation": "landscape",
+        "focal_x": 0.5,
+        "focal_y": 0.5,
+        "mean_colour": "#95928b",
+        "placard": {
+          "title": "Murol in the Snow",
+          "creator": "Victor Charreton (French, 1864–1936)",
+          "date": "c. 1920",
+          "medium": "oil on canvas",
+          "dimensions": "Unframed: 65 x 81 cm (25 9/16 x 31 7/8 in.)",
+          "institution": "The Cleveland Museum of Art",
+          "canonical_url": "https://clevelandart.org/art/1922.358"
+        },
+        "rights": {
+          "license": "CC0-1.0",
+          "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "evidence": {
+            "provider_field": "share_license_status",
+            "provider_value": "CC0",
+            "image_url": "https://openaccess-cdn.clevelandart.org/1922.358/1922.358_print.jpg",
+            "observed_at": "2026-10-06T11:43:46+00:00",
+            "image_field": null,
+            "uuid": null
+          }
+        }
+      },
+      {
+        "id": "aic-89593",
+        "image": "assets/19986670bc83d1ad1bc29e6a2aee280864af5bfb511f575cc09b47c5b6d7ea3a.jpg",
+        "thumbnail": "assets/b90dc27718e9f11672fef36eab401bda5127222e664df95c24b5ba72f66f693a.webp",
+        "alt_text": "A blue and white woodblock print of a riverside village and pine trees under snow, a small boat on the pale water below.",
+        "width": 1646,
+        "height": 1080,
+        "orientation": "landscape",
+        "focal_x": 0.5,
+        "focal_y": 0.5,
+        "mean_colour": "#979e8a",
+        "placard": {
+          "title": "Snow on the Sumida River",
+          "creator": "Keisai Eisen (Japanese, 1790-1848)",
+          "date": "early 1830s",
+          "medium": "Color woodblock print; oban",
+          "dimensions": "23.8 × 36.2 cm (9 5/16 × 14 1/4 in.)",
+          "institution": "Art Institute of Chicago",
+          "canonical_url": "https://www.artic.edu/artworks/89593"
+        },
+        "rights": {
+          "license": "CC0-1.0",
+          "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "evidence": {
+            "provider_field": "is_public_domain",
+            "provider_value": true,
+            "image_url": "https://www.artic.edu/iiif/2/d5a053c5-6f12-64d3-4974-e2654b68ac1d/full/1686,/0/default.jpg",
+            "observed_at": "2026-10-06T11:43:48+00:00",
+            "image_field": null,
+            "uuid": null
+          }
+        }
+      },
+      {
+        "id": "cleveland-162905",
+        "image": "assets/3a7a18198deb2ca4736011ad3fc2fc133447dcc529dc4e7c3e0bc5ae185cdf91.jpg",
+        "thumbnail": "assets/850fd3313b08c1e40e4ce02fb83af52362eb0564975c5d6fbd7bb41433447907.webp",
+        "alt_text": "A colour print of tall green-trunked beech trees in a snowy wood, with two people carrying bundles of firewood on the right.",
+        "width": 1632,
+        "height": 1080,
+        "orientation": "landscape",
+        "focal_x": 0.5,
+        "focal_y": 0.5,
+        "mean_colour": "#b8a888",
+        "placard": {
+          "title": "The Woods, Winter",
+          "creator": "Henri Rivière (French, 1864–1951)",
+          "date": "1898",
+          "medium": "color lithograph",
+          "dimensions": "Image: 54.7 x 83 cm (21 9/16 x 32 11/16 in.); Sheet: 62 x 88.7 cm (24 7/16 x 34 15/16 in.)",
+          "institution": "The Cleveland Museum of Art",
+          "canonical_url": "https://clevelandart.org/art/2003.383"
+        },
+        "rights": {
+          "license": "CC0-1.0",
+          "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "evidence": {
+            "provider_field": "share_license_status",
+            "provider_value": "CC0",
+            "image_url": "https://openaccess-cdn.clevelandart.org/2003.383/2003.383_print.jpg",
+            "observed_at": "2026-10-06T11:43:51+00:00",
+            "image_field": null,
+            "uuid": null
+          }
+        }
+      },
+      {
+        "id": "aic-32271",
+        "image": "assets/138301b194ea7efc8c9bf37a26552af9fc1c67bd4e5746beb5f7616dc52639d7.jpg",
+        "thumbnail": "assets/7527e4c540412bc06a8f7dae92206c301a3cbf4735e45b657ec58b58b54846c6.webp",
+        "alt_text": "A woodblock print of boats on a broad river under a full moon, a castle with tiled roofs on the right and pale fields beyond.",
+        "width": 1564,
+        "height": 1080,
+        "orientation": "landscape",
+        "focal_x": 0.5,
+        "focal_y": 0.5,
+        "mean_colour": "#979b8e",
+        "placard": {
+          "title": "Moonlight on the Yodo River (Yodogawa), from the series \"Snow, Moon and Flowers (Setsugekka)\"",
+          "creator": "Katsushika Hokusai 葛飾 北斎 (Japanese, 1760–1849)",
+          "date": "c. 1833",
+          "medium": "Color woodblock print; oban",
+          "dimensions": null,
+          "institution": "Art Institute of Chicago",
+          "canonical_url": "https://www.artic.edu/artworks/32271"
+        },
+        "rights": {
+          "license": "CC0-1.0",
+          "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "evidence": {
+            "provider_field": "is_public_domain",
+            "provider_value": true,
+            "image_url": "https://www.artic.edu/iiif/2/b21ff0f1-73c2-5830-a952-9b68b5b1031a/full/1686,/0/default.jpg",
+            "observed_at": "2026-10-06T11:43:54+00:00",
+            "image_field": null,
+            "uuid": null
+          }
+        }
+      },
+      {
+        "id": "cleveland-109239",
+        "image": "assets/dc7011ae6157e303c80b3ebee53a0ff7aebdab26887a852491a68cc2170596ae.jpg",
+        "thumbnail": "assets/e3edcbc5ce67d5bf923253e3744b2ed4793fde37d75ea067c0175ea59e6c54ac.webp",
+        "alt_text": "A winter marsh at sunset, with a red sun low behind dark bushes, a band of glowing cloud and a river edged with snow.",
+        "width": 1483,
+        "height": 1080,
+        "orientation": "landscape",
+        "focal_x": 0.5,
+        "focal_y": 0.5,
+        "mean_colour": "#6d6350",
+        "placard": {
+          "title": "A Winter Sky",
+          "creator": "George Inness (American, 1825–1894)",
+          "date": "1866",
+          "medium": "oil on canvas",
+          "dimensions": "Framed: 82 x 102 x 11.5 cm (32 5/16 x 40 3/16 x 4 1/2 in.); Unframed: 56 x 77.5 cm (22 1/16 x 30 1/2 in.)",
+          "institution": "The Cleveland Museum of Art",
+          "canonical_url": "https://clevelandart.org/art/1927.388"
+        },
+        "rights": {
+          "license": "CC0-1.0",
+          "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "evidence": {
+            "provider_field": "share_license_status",
+            "provider_value": "CC0",
+            "image_url": "https://openaccess-cdn.clevelandart.org/1927.388/1927.388_print.jpg",
+            "observed_at": "2026-10-06T11:43:57+00:00",
+            "image_field": null,
+            "uuid": null
+          }
+        }
+      },
+      {
+        "id": "aic-66515",
+        "image": "assets/d88129c4826447112d5df76ba21db9df7c9a23fecd61590ef7355f6f6408358f.jpg",
+        "thumbnail": "assets/cb696f7bfb563bb82c4acbc7c8b91bc4a4b36d765d7024908f1b261230f585da.webp",
+        "alt_text": "A photograph of a small white house deep in fresh snow, with a pole in front, frosted trees and a wooded hill behind.",
+        "width": 1373,
+        "height": 1080,
+        "orientation": "landscape",
+        "focal_x": 0.5,
+        "focal_y": 0.5,
+        "mean_colour": "#d4d4cd",
+        "placard": {
+          "title": "First Snow and the Little House",
+          "creator": "Alfred Stieglitz (American, 1864–1946)",
+          "date": "1923",
+          "medium": "Gelatin silver print",
+          "dimensions": "Image/paper/first mount: 18.6 × 23.7 cm (7 3/8 × 9 3/8 in.); Second mount: 50.9 × 39 cm (20 1/16 × 15 3/8 in.)",
+          "institution": "Art Institute of Chicago",
+          "canonical_url": "https://www.artic.edu/artworks/66515"
+        },
+        "rights": {
+          "license": "CC0-1.0",
+          "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "evidence": {
+            "provider_field": "is_public_domain",
+            "provider_value": true,
+            "image_url": "https://www.artic.edu/iiif/2/179b246d-f513-85ce-ef93-568b2b2e6268/full/1686,/0/default.jpg",
+            "observed_at": "2026-10-06T11:44:00+00:00",
+            "image_field": null,
+            "uuid": null
+          }
+        }
+      },
+      {
+        "id": "cleveland-152477",
+        "image": "assets/581f613f081a10b4f5c1f3e74f34f5e7becfc430a2b66d0eba996d92c74df633.jpg",
+        "thumbnail": "assets/2333c0a4bde83686d8a7cd0e9f3d9eeb7172c997baaa2602b0fc2c8990e4b9ba.webp",
+        "alt_text": "A woodblock print of a ferry crowded with passengers in straw hats crossing a deep blue river, with snowy pines and houses on the far bank.",
+        "width": 1695,
+        "height": 1080,
+        "orientation": "landscape",
+        "focal_x": 0.5,
+        "focal_y": 0.5,
+        "mean_colour": "#7f827b",
+        "placard": {
+          "title": "A Distant View of Snow on the Sumida River in Edo",
+          "creator": "Ikeda Eisen (Japanese, 1790–1848)",
+          "date": "early 1830s",
+          "medium": "color woodblock print",
+          "dimensions": "Sheet: 21.6 x 34.8 cm (8 1/2 x 13 11/16 in.)",
+          "institution": "The Cleveland Museum of Art",
+          "canonical_url": "https://clevelandart.org/art/1985.300"
+        },
+        "rights": {
+          "license": "CC0-1.0",
+          "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "evidence": {
+            "provider_field": "share_license_status",
+            "provider_value": "CC0",
+            "image_url": "https://openaccess-cdn.clevelandart.org/1985.300/1985.300_print.jpg",
+            "observed_at": "2026-10-06T11:44:03+00:00",
+            "image_field": null,
+            "uuid": null
+          }
+        }
+      },
+      {
+        "id": "aic-109780",
+        "image": "assets/4290b1fccd45a56c609414fb995e8988218fe5e331de982ea7ff763f9f280605.jpg",
+        "thumbnail": "assets/a695a447eaa8874cc13e270188b283d2309209d0aa274cb4e8a39e3a8fca76fe.webp",
+        "alt_text": "A crowd of skaters in bright winter coats on a frozen pond, with dark blue wooded hills and a snowy slope behind.",
+        "width": 1361,
+        "height": 1080,
+        "orientation": "landscape",
+        "focal_x": 0.5,
+        "focal_y": 0.5,
+        "mean_colour": "#416f74",
+        "placard": {
+          "title": "Love of Winter",
+          "creator": "George Wesley Bellows (American, 1882–1925)",
+          "date": "1914",
+          "medium": "Oil on canvas",
+          "dimensions": "81.6 × 101.6 cm (32 1/2 × 40 1/2 in.)",
+          "institution": "Art Institute of Chicago",
+          "canonical_url": "https://www.artic.edu/artworks/109780"
+        },
+        "rights": {
+          "license": "CC0-1.0",
+          "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "evidence": {
+            "provider_field": "is_public_domain",
+            "provider_value": true,
+            "image_url": "https://www.artic.edu/iiif/2/18ab0c35-e35c-0216-9afd-f93357920db1/full/1686,/0/default.jpg",
+            "observed_at": "2026-10-06T11:44:06+00:00",
+            "image_field": null,
+            "uuid": null
+          }
+        }
+      },
+      {
+        "id": "cleveland-329324",
+        "image": "assets/709e87fb3f736ce81743b1e02de087a68734503c7050116ed46d533169f0e0de.jpg",
+        "thumbnail": "assets/8689ab783ba80103ef585b4465c9ff22bec6165fc8196bdcce7924dd36631899.webp",
+        "alt_text": "A pen and wash drawing of a Dutch village in winter, with bare trees, cottages, a church spire and a skater by a small arched bridge.",
+        "width": 1529,
+        "height": 1080,
+        "orientation": "landscape",
+        "focal_x": 0.5,
+        "focal_y": 0.5,
+        "mean_colour": "#c7b2a4",
+        "placard": {
+          "title": "Winter Landscape with Skater",
+          "creator": "Jan van Kessel (Dutch, 1641–1680)",
+          "date": "1662",
+          "medium": "brush and black ink and grey wash over black chalk on cream laid paper; brown ink framing line",
+          "dimensions": "Sheet: 24 x 31.3 cm (9 7/16 x 12 5/16 in.); Matted: 31.1 x 36.5 x 0.5 cm (12 1/4 x 14 3/8 x 3/16 in.); Image: 17.9 x 25.8 cm (7 1/16 x 10 3/16 in.)",
+          "institution": "The Cleveland Museum of Art",
+          "canonical_url": "https://clevelandart.org/art/2019.7"
+        },
+        "rights": {
+          "license": "CC0-1.0",
+          "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "evidence": {
+            "provider_field": "share_license_status",
+            "provider_value": "CC0",
+            "image_url": "https://openaccess-cdn.clevelandart.org/2019.7/2019.7_print.jpg",
+            "observed_at": "2026-10-06T11:44:09+00:00",
+            "image_field": null,
+            "uuid": null
+          }
+        }
+      },
+      {
+        "id": "aic-127736",
+        "image": "assets/7bfd8f7ba3dba6008120b12af4e8db345658012258507f61731685c73019302e.jpg",
+        "thumbnail": "assets/0303b3e28f944bc738ba9fbb03c715ba4256da55a93d55e79c09e6f49bdf23e1.webp",
+        "alt_text": "A large silver moon rising behind tall white and black grasses against a soft grey sky.",
+        "width": 1633,
+        "height": 1080,
+        "orientation": "landscape",
+        "focal_x": 0.5,
+        "focal_y": 0.5,
+        "mean_colour": "#c8cacb",
+        "placard": {
+          "title": "Moon over Musashino, from the series \"Worlds of Things (Momoyogusa)\"",
+          "creator": "Kamisaka Sekka (Japanese, 1866-1942)",
+          "date": "1909/10",
+          "medium": "Color woodblock print",
+          "dimensions": "29.8 × 44.8 cm (11 3/4 × 17 11/16 in.)",
+          "institution": "Art Institute of Chicago",
+          "canonical_url": "https://www.artic.edu/artworks/127736"
+        },
+        "rights": {
+          "license": "CC0-1.0",
+          "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "evidence": {
+            "provider_field": "is_public_domain",
+            "provider_value": true,
+            "image_url": "https://www.artic.edu/iiif/2/01fa56d9-63c4-6b6c-2fb9-73e87538e870/full/1686,/0/default.jpg",
+            "observed_at": "2026-10-06T11:44:12+00:00",
+            "image_field": null,
+            "uuid": null
+          }
+        }
+      },
+      {
+        "id": "cleveland-149959",
+        "image": "assets/b98dbb2c0f19bfb857e02e09ded32c8c09ab62afa79e2fd10f4d785edbd9067c.jpg",
+        "thumbnail": "assets/c03782d53f3d17b3f2fb4f9802a97cdec8e1583aa85c2c304ccc4cd1c83f264c.webp",
+        "alt_text": "An ink painting of a wide river in evening snow, with white hills and pines, sailboats on the grey water, travellers on horseback on the near bank and a poem inscribed above, in a patterned blue mount.",
+        "width": 1723,
+        "height": 1080,
+        "orientation": "landscape",
+        "focal_x": 0.5,
+        "focal_y": 0.5,
+        "mean_colour": "#a19389",
+        "placard": {
+          "title": "Evening Snow Blending River and Sky, from Eight Views of Xiao-Xiang",
+          "creator": "Tani Bunchō (Japanese, 1763–1841)",
+          "date": "1788",
+          "medium": "album leaf remounted as a hanging scroll; ink and color on paper",
+          "dimensions": "Image: 29.5 x 49 cm (11 5/8 x 19 5/16 in.); Overall: 129 x 67 cm (50 13/16 x 26 3/8 in.)",
+          "institution": "The Cleveland Museum of Art",
+          "canonical_url": "https://clevelandart.org/art/1980.188.2"
+        },
+        "rights": {
+          "license": "CC0-1.0",
+          "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "evidence": {
+            "provider_field": "share_license_status",
+            "provider_value": "CC0",
+            "image_url": "https://openaccess-cdn.clevelandart.org/1980.188.2/1980.188.2_print.jpg",
+            "observed_at": "2026-10-06T11:44:14+00:00",
+            "image_field": null,
+            "uuid": null
+          }
+        }
+      },
+      {
+        "id": "aic-24696",
+        "image": "assets/6f37e2c187b021750caec684837c31ea17ff0963e47df83fc4a9a80db426b454.jpg",
+        "thumbnail": "assets/799fdaf2a6fc9be988fdd9b19c6c8ae1c11c598310e68cbe30cfc4bee62d5fbc.webp",
+        "alt_text": "A woodblock print of a ferry with passengers crossing a blue river at dusk, a long wooden bridge and the dark cone of Mount Fuji beyond.",
+        "width": 1582,
+        "height": 1080,
+        "orientation": "landscape",
+        "focal_x": 0.5,
+        "focal_y": 0.5,
+        "mean_colour": "#908d81",
+        "placard": {
+          "title": "Fuji from Ommayagashi with Twilight over Ryogoku Bridge (Ommayagashi yori ryogokubashi sekiyo o miru), from the series \"Thirty-six Views of Mount Fuji (Fugaku sanjurokkei)\"",
+          "creator": "Katsushika Hokusai 葛飾 北斎 (Japanese, 1760-1849, Publisher: Hibino Yohachi, Japanese, unknown)",
+          "date": "c. 1830/33",
+          "medium": "Color woodblock print; oban",
+          "dimensions": "37.5 × 25.6 cm (14 3/4 × 10 1/16 in.)",
+          "institution": "Art Institute of Chicago",
+          "canonical_url": "https://www.artic.edu/artworks/24696"
+        },
+        "rights": {
+          "license": "CC0-1.0",
+          "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "evidence": {
+            "provider_field": "is_public_domain",
+            "provider_value": true,
+            "image_url": "https://www.artic.edu/iiif/2/c2a13a9d-dbce-4e8f-2d6a-8bc3f1a1328b/full/1686,/0/default.jpg",
+            "observed_at": "2026-10-06T11:44:17+00:00",
+            "image_field": null,
+            "uuid": null
+          }
+        }
+      },
+      {
+        "id": "cleveland-157126",
+        "image": "assets/16332152ce1bec34c93051824d006e49654f0210507e9cf8550890ed0726c07a.jpg",
+        "thumbnail": "assets/fe49f62bff13ee5640770b38a2a304c43b0b71901c528be6dc29efbc84ec67c5.webp",
+        "alt_text": "A photograph of a snowy path through a winter field, with bare trees and low hills under a pale grey sky.",
+        "width": 1673,
+        "height": 1080,
+        "orientation": "landscape",
+        "focal_x": 0.5,
+        "focal_y": 0.5,
+        "mean_colour": "#a9a7a0",
+        "placard": {
+          "title": "Untitled (Winter Landscape)",
+          "creator": "William B. Post (American, 1857–1925)",
+          "date": "c. 1900",
+          "medium": "platinum print",
+          "dimensions": "Image: 14.9 x 23 cm (5 7/8 x 9 1/16 in.); Matted: 40.6 x 50.8 cm (16 x 20 in.)",
+          "institution": "The Cleveland Museum of Art",
+          "canonical_url": "https://clevelandart.org/art/1993.28"
+        },
+        "rights": {
+          "license": "CC0-1.0",
+          "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "evidence": {
+            "provider_field": "share_license_status",
+            "provider_value": "CC0",
+            "image_url": "https://openaccess-cdn.clevelandart.org/1993.28/1993.28_print.jpg",
+            "observed_at": "2026-10-06T11:44:20+00:00",
+            "image_field": null,
+            "uuid": null
+          }
+        }
+      },
+      {
+        "id": "cleveland-114493",
+        "image": "assets/539a76d59917275dcdb48d4fc7d8dd4d2e2abd44ed96f4a3861738fc724bb508.jpg",
+        "thumbnail": "assets/019625fc27457964dd7a7539dec7cbf0ed03f27de9ced9246c630d557cb9699b.webp",
+        "alt_text": "A pencil drawing of a white snow-covered building with a small bell tower and a signpost in a snowstorm, with bare trees on a pale hillside.",
+        "width": 1620,
+        "height": 1080,
+        "orientation": "landscape",
+        "focal_x": 0.5,
+        "focal_y": 0.5,
+        "mean_colour": "#d0bfa4",
+        "placard": {
+          "title": "Snow Storm in Vermont",
+          "creator": "Mary Altha Nims (American, 1817–1907)",
+          "date": "1800s",
+          "medium": "pencil",
+          "dimensions": null,
+          "institution": "The Cleveland Museum of Art",
+          "canonical_url": "https://clevelandart.org/art/1934.124"
+        },
+        "rights": {
+          "license": "CC0-1.0",
+          "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "evidence": {
+            "provider_field": "share_license_status",
+            "provider_value": "CC0",
+            "image_url": "https://openaccess-cdn.clevelandart.org/1934.124/1934.124_print.jpg",
+            "observed_at": "2026-10-06T11:44:24+00:00",
+            "image_field": null,
+            "uuid": null
+          }
+        }
+      },
+      {
+        "id": "aic-23845",
+        "image": "assets/2fe5c1b63acdca2c1d402bc7f5d8884db0bfc2836d5b3ac2f14277fe43a2c55d.jpg",
+        "thumbnail": "assets/9c11b2660de5c321f59f87c05bfcfcb989c05969d30990f29c07e09da62102d7.webp",
+        "alt_text": "A pale print of a barge being towed along a snowy riverbank, with willows heavy with snow and white hills behind.",
+        "width": 1590,
+        "height": 1080,
+        "orientation": "landscape",
+        "focal_x": 0.5,
+        "focal_y": 0.5,
+        "mean_colour": "#cac0a5",
+        "placard": {
+          "title": "Towing a Barge in the Snow, from the album The Silver World",
+          "creator": "Kitagawa Utamaro 喜多川 歌麿 (Japanese, c.1753-1806)",
+          "date": "1790",
+          "medium": "Woodblock print; oban",
+          "dimensions": "38.6 × 26.1 cm (15 1/4 × 10 5/16 in.)",
+          "institution": "Art Institute of Chicago",
+          "canonical_url": "https://www.artic.edu/artworks/23845"
+        },
+        "rights": {
+          "license": "CC0-1.0",
+          "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "evidence": {
+            "provider_field": "is_public_domain",
+            "provider_value": true,
+            "image_url": "https://www.artic.edu/iiif/2/c3bd6033-ef3b-5bab-077f-48c0f773a595/full/1686,/0/default.jpg",
+            "observed_at": "2026-10-06T11:44:27+00:00",
+            "image_field": null,
+            "uuid": null
+          }
+        }
+      },
+      {
+        "id": "aic-66264",
+        "image": "assets/52c44d025b32a75cdd705f6aa063c1c589cdf49e83dc9d19660cf43985b1cbea.jpg",
+        "thumbnail": "assets/6173c949ab70c199d3c48e47ba307e342922fbe58addc801ac365c55f9cc38cb.webp",
+        "alt_text": "A black and white photograph of snowy, glacier-covered mountains beneath a sky of small rippled clouds.",
+        "width": 1460,
+        "height": 1080,
+        "orientation": "landscape",
+        "focal_x": 0.5,
+        "focal_y": 0.5,
+        "mean_colour": "#6d6f6e",
+        "placard": {
+          "title": "Mid Snow and Ice",
+          "creator": "Alfred Stieglitz (American, 1864–1946)",
+          "date": "1894, printed 1920/39",
+          "medium": "Gelatin silver print",
+          "dimensions": "Image/paper/first mount: 15.9 × 21.5 cm (6 5/16 × 8 1/2 in.); Second mount: 27.5 × 34.9 cm (10 7/8 × 13 3/4 in.)",
+          "institution": "Art Institute of Chicago",
+          "canonical_url": "https://www.artic.edu/artworks/66264"
+        },
+        "rights": {
+          "license": "CC0-1.0",
+          "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "evidence": {
+            "provider_field": "is_public_domain",
+            "provider_value": true,
+            "image_url": "https://www.artic.edu/iiif/2/44da3dac-ec5e-7b26-aa64-022ef84a0da7/full/1686,/0/default.jpg",
+            "observed_at": "2026-10-06T11:44:29+00:00",
+            "image_field": null,
+            "uuid": null
+          }
+        }
+      }
+    ]
+  }
+}

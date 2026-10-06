@@ -1,0 +1,90 @@
+{
+  "slug": "calm-landscapes",
+  "id": "denframe/calm-landscapes",
+  "version": "1.0.0",
+  "name": "Calm landscapes",
+  "description": "Quiet fields, rivers, coasts, gardens and skies from three centuries of painting, chosen to sit gently behind a family dashboard all day.",
+  "shape": "landscape",
+  "works": [
+    {
+      "provider": "aic",
+      "object_id": "64715",
+      "alt_text": "A green summer meadow with scattered trees and a distant barn under a clearing sky, a pale rainbow arching down on the right."
+    },
+    {
+      "provider": "cleveland",
+      "object_id": "125234",
+      "alt_text": "A pale blue sea at low tide shimmering in sunlight, with a green headland and white cliffs in the distance."
+    },
+    {
+      "provider": "aic",
+      "object_id": "121377",
+      "alt_text": "Two rowing boats, one blue and one green, resting on the grassy bank of a calm tidal creek with houses beyond."
+    },
+    {
+      "provider": "cleveland",
+      "object_id": "143477",
+      "alt_text": "A wide valley of autumn trees in red and gold stretching toward distant blue mountains under a soft sky."
+    },
+    {
+      "provider": "aic",
+      "object_id": "238272",
+      "alt_text": "A broad, still river with fishermen in small boats, sailing boats and a distant church tower beneath a large cloudy sky."
+    },
+    {
+      "provider": "cleveland",
+      "object_id": "149961",
+      "alt_text": "A pale ink painting of misty sandbanks and reeds with a line of geese descending, and calligraphy at the top right."
+    },
+    {
+      "provider": "cleveland",
+      "object_id": "95272",
+      "alt_text": "A small house with a red roof half hidden behind pale, blossoming trees under a light spring sky."
+    },
+    {
+      "provider": "cleveland",
+      "object_id": "95276",
+      "alt_text": "A calm river at dusk with a fisherman in a boat and ducks on the water, tall trees on the left and a pale pink sky."
+    },
+    {
+      "provider": "aic",
+      "object_id": "14586",
+      "alt_text": "A grassy park lawn with rounded shrubs and a weeping tree under a yellow-green sky."
+    },
+    {
+      "provider": "aic",
+      "object_id": "45838",
+      "alt_text": "A quiet snow-covered garden with bare winter trees, low walls and a distant house, one figure walking under a pale grey-blue sky."
+    },
+    {
+      "provider": "cleveland",
+      "object_id": "148312",
+      "alt_text": "A tall rock rising from a calm sea in soft pink evening light, with a sailing ship far off and a small rowing boat."
+    },
+    {
+      "provider": "cleveland",
+      "object_id": "157104",
+      "alt_text": "A riverside road with houses and a horse-drawn cart beside a calm river, under a blue sky with white clouds."
+    },
+    {
+      "provider": "cleveland",
+      "object_id": "173632",
+      "alt_text": "A calm river winding between autumn trees, with two people in a rowing boat, under a blue sky full of white clouds."
+    },
+    {
+      "provider": "cleveland",
+      "object_id": "119697",
+      "alt_text": "A green sea flecked with small waves, dotted with dark-sailed fishing boats out to the horizon under a pale grey sky."
+    },
+    {
+      "provider": "cleveland",
+      "object_id": "125236",
+      "alt_text": "A wide river valley with a pale lake between low reddish hills and broad fields below a blue sky with clouds."
+    },
+    {
+      "provider": "aic",
+      "object_id": "81561",
+      "alt_text": "A sunny town street with a few walkers, white houses with blue-grey roofs and a pink brick wall beneath a pale blue sky."
+    }
+  ]
+}

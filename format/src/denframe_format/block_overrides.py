@@ -25,6 +25,8 @@ from pydantic import (
     field_validator,
 )
 
+from .vocabulary import CalendarView
+
 OVERRIDES_KEY = "overrides"
 #: A package whose blocks carry overrides says so: the host reads them at import (a receiver
 #: never sees them), so this is a host-only token (`display_capabilities.HOST_ONLY_CAPABILITIES`)
@@ -95,6 +97,16 @@ class CalendarOverrides(_Overrides):
     horizon_days: Annotated[int, Field(ge=1, le=90)] | None = None
     private_events: Literal["show", "title_redacted", "time_only", "hidden"] | None = None
     show_all_day: bool | None = None
+    # The calendar's view choices (family calendar plan step 2; drawn from step 8 on). Absent
+    # is the default -- for the view, the list every calendar drew before the views (`auto`
+    # must be chosen, so no existing dashboard changes); following the time of day where the
+    # dashboard's purpose turns it on (Home); and no lock -- so a package that leaves them
+    # alone stays byte-identical to one written before they existed. The older portable
+    # `settings.view` (`day` | `week`, `elements.SETTINGS`) is still accepted and read by
+    # nothing: it never reached a screen, so it maps to that same absent list.
+    view: CalendarView | None = None
+    follow_time_of_day: bool | None = None
+    view_lock: bool | None = None
 
 
 #: A quote's name as the block prints it: an equity symbol (`AAPL`, `BRK.B`) or a currency pair
@@ -149,6 +161,9 @@ _FIELD_LABELS = {
     "horizon_days": "days ahead",
     "private_events": "private events",
     "show_all_day": "all-day events",
+    "view": "view",
+    "follow_time_of_day": "follow the time of day",
+    "view_lock": "view lock",
     "focus_symbol": "lead quote",
 }
 

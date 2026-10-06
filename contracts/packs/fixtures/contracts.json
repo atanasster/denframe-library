@@ -2100,5 +2100,628 @@
         "circle"
       ]
     }
+  },
+  {
+    "name": "gallery-definition accepts valid contract",
+    "schema": "gallery-definition",
+    "valid": true,
+    "value": {
+      "schema_version": 2,
+      "kind": "gallery",
+      "name": "Gallery fixture",
+      "description": "One synthetic work, curated for the conformance corpus.",
+      "shape": "landscape",
+      "presentation": {
+        "fit": "fit",
+        "mat_style": "museum",
+        "placard_seconds": 12,
+        "cadence_seconds": 45
+      },
+      "strip": "assets/b0b601b87fb902bc9e89e2d89e5d987adb8ce5457bd8d59929c34ea06d96e133.webp",
+      "resources": [
+        {
+          "path": "assets/325f88f5e4b5caef5a36e6c353613f3596f36a8678094844ba78c7695e6bfb6b.jpg",
+          "sha256": "325f88f5e4b5caef5a36e6c353613f3596f36a8678094844ba78c7695e6bfb6b",
+          "length": 331,
+          "media_type": "image/jpeg",
+          "duration_seconds": null,
+          "credit": {
+            "creator": "Denframe test fixture",
+            "license": "CC0-1.0",
+            "attribution": "",
+            "source": "",
+            "modified": false
+          }
+        },
+        {
+          "path": "assets/512d6627df7aa08e94c6185295332dd62aeb2ca2b2d7c479957d04c3aa220ca7.webp",
+          "sha256": "512d6627df7aa08e94c6185295332dd62aeb2ca2b2d7c479957d04c3aa220ca7",
+          "length": 36,
+          "media_type": "image/webp",
+          "duration_seconds": null,
+          "credit": {
+            "creator": "Denframe test fixture",
+            "license": "CC0-1.0",
+            "attribution": "",
+            "source": "",
+            "modified": false
+          }
+        },
+        {
+          "path": "assets/b0b601b87fb902bc9e89e2d89e5d987adb8ce5457bd8d59929c34ea06d96e133.webp",
+          "sha256": "b0b601b87fb902bc9e89e2d89e5d987adb8ce5457bd8d59929c34ea06d96e133",
+          "length": 38,
+          "media_type": "image/webp",
+          "duration_seconds": null,
+          "credit": {
+            "creator": "Denframe test fixture",
+            "license": "CC0-1.0",
+            "attribution": "",
+            "source": "",
+            "modified": false
+          }
+        }
+      ],
+      "works": [
+        {
+          "id": "wheat-field",
+          "image": "assets/325f88f5e4b5caef5a36e6c353613f3596f36a8678094844ba78c7695e6bfb6b.jpg",
+          "thumbnail": "assets/512d6627df7aa08e94c6185295332dd62aeb2ca2b2d7c479957d04c3aa220ca7.webp",
+          "alt_text": "A wheat field under a swirling sky, with dark cypresses.",
+          "width": 1920,
+          "height": 1080,
+          "orientation": "landscape",
+          "focal_x": 0.5,
+          "focal_y": 0.5,
+          "mean_colour": "#8a8f6a",
+          "placard": {
+            "title": "Wheat Field with Cypresses",
+            "creator": "Vincent van Gogh (Dutch, 1853-1890)",
+            "date": "1889",
+            "medium": "Oil on canvas",
+            "dimensions": "73.2 x 93.4 cm",
+            "institution": "The Metropolitan Museum of Art",
+            "canonical_url": "https://www.metmuseum.org/art/collection/search/436535"
+          },
+          "rights": {
+            "license": "CC0-1.0",
+            "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+            "evidence": {
+              "provider_field": "isPublicDomain",
+              "provider_value": true,
+              "image_url": "https://images.metmuseum.org/CRDImages/ep/original/DP-42549-001.jpg",
+              "observed_at": "2026-10-06T00:00:00+00:00",
+              "image_field": "primaryImage",
+              "uuid": null
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "manifest accepts gallery capabilities",
+    "schema": "manifest",
+    "valid": true,
+    "value": {
+      "format": "denframepack",
+      "schema_version": 2,
+      "id": "denframe/gallery-fixture",
+      "version": "1.0.0",
+      "publisher": "Denframe test fixture",
+      "definition_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+      "entrypoint": "definition.json",
+      "required_capabilities": [
+        "pack-format-v2",
+        "gallery-pack-v1"
+      ]
+    }
+  },
+  {
+    "name": "gallery-definition rejects a portrait work in a landscape set",
+    "schema": "gallery-definition",
+    "valid": false,
+    "value": {
+      "schema_version": 2,
+      "kind": "gallery",
+      "name": "Gallery fixture",
+      "description": "One synthetic work, curated for the conformance corpus.",
+      "shape": "landscape",
+      "presentation": {
+        "fit": "fit",
+        "mat_style": "museum",
+        "placard_seconds": 12,
+        "cadence_seconds": 45
+      },
+      "strip": "assets/b0b601b87fb902bc9e89e2d89e5d987adb8ce5457bd8d59929c34ea06d96e133.webp",
+      "resources": [
+        {
+          "path": "assets/325f88f5e4b5caef5a36e6c353613f3596f36a8678094844ba78c7695e6bfb6b.jpg",
+          "sha256": "325f88f5e4b5caef5a36e6c353613f3596f36a8678094844ba78c7695e6bfb6b",
+          "length": 331,
+          "media_type": "image/jpeg",
+          "duration_seconds": null,
+          "credit": {
+            "creator": "Denframe test fixture",
+            "license": "CC0-1.0",
+            "attribution": "",
+            "source": "",
+            "modified": false
+          }
+        },
+        {
+          "path": "assets/512d6627df7aa08e94c6185295332dd62aeb2ca2b2d7c479957d04c3aa220ca7.webp",
+          "sha256": "512d6627df7aa08e94c6185295332dd62aeb2ca2b2d7c479957d04c3aa220ca7",
+          "length": 36,
+          "media_type": "image/webp",
+          "duration_seconds": null,
+          "credit": {
+            "creator": "Denframe test fixture",
+            "license": "CC0-1.0",
+            "attribution": "",
+            "source": "",
+            "modified": false
+          }
+        },
+        {
+          "path": "assets/b0b601b87fb902bc9e89e2d89e5d987adb8ce5457bd8d59929c34ea06d96e133.webp",
+          "sha256": "b0b601b87fb902bc9e89e2d89e5d987adb8ce5457bd8d59929c34ea06d96e133",
+          "length": 38,
+          "media_type": "image/webp",
+          "duration_seconds": null,
+          "credit": {
+            "creator": "Denframe test fixture",
+            "license": "CC0-1.0",
+            "attribution": "",
+            "source": "",
+            "modified": false
+          }
+        }
+      ],
+      "works": [
+        {
+          "id": "wheat-field",
+          "image": "assets/325f88f5e4b5caef5a36e6c353613f3596f36a8678094844ba78c7695e6bfb6b.jpg",
+          "thumbnail": "assets/512d6627df7aa08e94c6185295332dd62aeb2ca2b2d7c479957d04c3aa220ca7.webp",
+          "alt_text": "A wheat field under a swirling sky, with dark cypresses.",
+          "width": 1080,
+          "height": 1920,
+          "orientation": "portrait",
+          "focal_x": 0.5,
+          "focal_y": 0.5,
+          "mean_colour": "#8a8f6a",
+          "placard": {
+            "title": "Wheat Field with Cypresses",
+            "creator": "Vincent van Gogh (Dutch, 1853-1890)",
+            "date": "1889",
+            "medium": "Oil on canvas",
+            "dimensions": "73.2 x 93.4 cm",
+            "institution": "The Metropolitan Museum of Art",
+            "canonical_url": "https://www.metmuseum.org/art/collection/search/436535"
+          },
+          "rights": {
+            "license": "CC0-1.0",
+            "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+            "evidence": {
+              "provider_field": "isPublicDomain",
+              "provider_value": true,
+              "image_url": "https://images.metmuseum.org/CRDImages/ep/original/DP-42549-001.jpg",
+              "observed_at": "2026-10-06T00:00:00+00:00",
+              "image_field": "primaryImage",
+              "uuid": null
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "gallery-definition rejects a work that is not CC0",
+    "schema": "gallery-definition",
+    "valid": false,
+    "value": {
+      "schema_version": 2,
+      "kind": "gallery",
+      "name": "Gallery fixture",
+      "description": "One synthetic work, curated for the conformance corpus.",
+      "shape": "landscape",
+      "presentation": {
+        "fit": "fit",
+        "mat_style": "museum",
+        "placard_seconds": 12,
+        "cadence_seconds": 45
+      },
+      "strip": "assets/b0b601b87fb902bc9e89e2d89e5d987adb8ce5457bd8d59929c34ea06d96e133.webp",
+      "resources": [
+        {
+          "path": "assets/325f88f5e4b5caef5a36e6c353613f3596f36a8678094844ba78c7695e6bfb6b.jpg",
+          "sha256": "325f88f5e4b5caef5a36e6c353613f3596f36a8678094844ba78c7695e6bfb6b",
+          "length": 331,
+          "media_type": "image/jpeg",
+          "duration_seconds": null,
+          "credit": {
+            "creator": "Denframe test fixture",
+            "license": "CC-BY-4.0",
+            "attribution": "Someone",
+            "source": "",
+            "modified": false
+          }
+        },
+        {
+          "path": "assets/512d6627df7aa08e94c6185295332dd62aeb2ca2b2d7c479957d04c3aa220ca7.webp",
+          "sha256": "512d6627df7aa08e94c6185295332dd62aeb2ca2b2d7c479957d04c3aa220ca7",
+          "length": 36,
+          "media_type": "image/webp",
+          "duration_seconds": null,
+          "credit": {
+            "creator": "Denframe test fixture",
+            "license": "CC0-1.0",
+            "attribution": "",
+            "source": "",
+            "modified": false
+          }
+        },
+        {
+          "path": "assets/b0b601b87fb902bc9e89e2d89e5d987adb8ce5457bd8d59929c34ea06d96e133.webp",
+          "sha256": "b0b601b87fb902bc9e89e2d89e5d987adb8ce5457bd8d59929c34ea06d96e133",
+          "length": 38,
+          "media_type": "image/webp",
+          "duration_seconds": null,
+          "credit": {
+            "creator": "Denframe test fixture",
+            "license": "CC0-1.0",
+            "attribution": "",
+            "source": "",
+            "modified": false
+          }
+        }
+      ],
+      "works": [
+        {
+          "id": "wheat-field",
+          "image": "assets/325f88f5e4b5caef5a36e6c353613f3596f36a8678094844ba78c7695e6bfb6b.jpg",
+          "thumbnail": "assets/512d6627df7aa08e94c6185295332dd62aeb2ca2b2d7c479957d04c3aa220ca7.webp",
+          "alt_text": "A wheat field under a swirling sky, with dark cypresses.",
+          "width": 1920,
+          "height": 1080,
+          "orientation": "landscape",
+          "focal_x": 0.5,
+          "focal_y": 0.5,
+          "mean_colour": "#8a8f6a",
+          "placard": {
+            "title": "Wheat Field with Cypresses",
+            "creator": "Vincent van Gogh (Dutch, 1853-1890)",
+            "date": "1889",
+            "medium": "Oil on canvas",
+            "dimensions": "73.2 x 93.4 cm",
+            "institution": "The Metropolitan Museum of Art",
+            "canonical_url": "https://www.metmuseum.org/art/collection/search/436535"
+          },
+          "rights": {
+            "license": "CC0-1.0",
+            "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+            "evidence": {
+              "provider_field": "isPublicDomain",
+              "provider_value": true,
+              "image_url": "https://images.metmuseum.org/CRDImages/ep/original/DP-42549-001.jpg",
+              "observed_at": "2026-10-06T00:00:00+00:00",
+              "image_field": "primaryImage",
+              "uuid": null
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "gallery-definition rejects a placard without a creator",
+    "schema": "gallery-definition",
+    "valid": false,
+    "value": {
+      "schema_version": 2,
+      "kind": "gallery",
+      "name": "Gallery fixture",
+      "description": "One synthetic work, curated for the conformance corpus.",
+      "shape": "landscape",
+      "presentation": {
+        "fit": "fit",
+        "mat_style": "museum",
+        "placard_seconds": 12,
+        "cadence_seconds": 45
+      },
+      "strip": "assets/b0b601b87fb902bc9e89e2d89e5d987adb8ce5457bd8d59929c34ea06d96e133.webp",
+      "resources": [
+        {
+          "path": "assets/325f88f5e4b5caef5a36e6c353613f3596f36a8678094844ba78c7695e6bfb6b.jpg",
+          "sha256": "325f88f5e4b5caef5a36e6c353613f3596f36a8678094844ba78c7695e6bfb6b",
+          "length": 331,
+          "media_type": "image/jpeg",
+          "duration_seconds": null,
+          "credit": {
+            "creator": "Denframe test fixture",
+            "license": "CC0-1.0",
+            "attribution": "",
+            "source": "",
+            "modified": false
+          }
+        },
+        {
+          "path": "assets/512d6627df7aa08e94c6185295332dd62aeb2ca2b2d7c479957d04c3aa220ca7.webp",
+          "sha256": "512d6627df7aa08e94c6185295332dd62aeb2ca2b2d7c479957d04c3aa220ca7",
+          "length": 36,
+          "media_type": "image/webp",
+          "duration_seconds": null,
+          "credit": {
+            "creator": "Denframe test fixture",
+            "license": "CC0-1.0",
+            "attribution": "",
+            "source": "",
+            "modified": false
+          }
+        },
+        {
+          "path": "assets/b0b601b87fb902bc9e89e2d89e5d987adb8ce5457bd8d59929c34ea06d96e133.webp",
+          "sha256": "b0b601b87fb902bc9e89e2d89e5d987adb8ce5457bd8d59929c34ea06d96e133",
+          "length": 38,
+          "media_type": "image/webp",
+          "duration_seconds": null,
+          "credit": {
+            "creator": "Denframe test fixture",
+            "license": "CC0-1.0",
+            "attribution": "",
+            "source": "",
+            "modified": false
+          }
+        }
+      ],
+      "works": [
+        {
+          "id": "wheat-field",
+          "image": "assets/325f88f5e4b5caef5a36e6c353613f3596f36a8678094844ba78c7695e6bfb6b.jpg",
+          "thumbnail": "assets/512d6627df7aa08e94c6185295332dd62aeb2ca2b2d7c479957d04c3aa220ca7.webp",
+          "alt_text": "A wheat field under a swirling sky, with dark cypresses.",
+          "width": 1920,
+          "height": 1080,
+          "orientation": "landscape",
+          "focal_x": 0.5,
+          "focal_y": 0.5,
+          "mean_colour": "#8a8f6a",
+          "placard": {
+            "title": "Wheat Field with Cypresses",
+            "date": "1889",
+            "medium": "Oil on canvas",
+            "dimensions": "73.2 x 93.4 cm",
+            "institution": "The Metropolitan Museum of Art",
+            "canonical_url": "https://www.metmuseum.org/art/collection/search/436535"
+          },
+          "rights": {
+            "license": "CC0-1.0",
+            "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+            "evidence": {
+              "provider_field": "isPublicDomain",
+              "provider_value": true,
+              "image_url": "https://images.metmuseum.org/CRDImages/ep/original/DP-42549-001.jpg",
+              "observed_at": "2026-10-06T00:00:00+00:00",
+              "image_field": "primaryImage",
+              "uuid": null
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "gallery-definition rejects a thumbnail that is not WebP",
+    "schema": "gallery-definition",
+    "valid": false,
+    "value": {
+      "schema_version": 2,
+      "kind": "gallery",
+      "name": "Gallery fixture",
+      "description": "One synthetic work, curated for the conformance corpus.",
+      "shape": "landscape",
+      "presentation": {
+        "fit": "fit",
+        "mat_style": "museum",
+        "placard_seconds": 12,
+        "cadence_seconds": 45
+      },
+      "strip": "assets/b0b601b87fb902bc9e89e2d89e5d987adb8ce5457bd8d59929c34ea06d96e133.webp",
+      "resources": [
+        {
+          "path": "assets/325f88f5e4b5caef5a36e6c353613f3596f36a8678094844ba78c7695e6bfb6b.jpg",
+          "sha256": "325f88f5e4b5caef5a36e6c353613f3596f36a8678094844ba78c7695e6bfb6b",
+          "length": 331,
+          "media_type": "image/jpeg",
+          "duration_seconds": null,
+          "credit": {
+            "creator": "Denframe test fixture",
+            "license": "CC0-1.0",
+            "attribution": "",
+            "source": "",
+            "modified": false
+          }
+        },
+        {
+          "path": "assets/512d6627df7aa08e94c6185295332dd62aeb2ca2b2d7c479957d04c3aa220ca7.webp",
+          "sha256": "512d6627df7aa08e94c6185295332dd62aeb2ca2b2d7c479957d04c3aa220ca7",
+          "length": 36,
+          "media_type": "image/webp",
+          "duration_seconds": null,
+          "credit": {
+            "creator": "Denframe test fixture",
+            "license": "CC0-1.0",
+            "attribution": "",
+            "source": "",
+            "modified": false
+          }
+        },
+        {
+          "path": "assets/b0b601b87fb902bc9e89e2d89e5d987adb8ce5457bd8d59929c34ea06d96e133.webp",
+          "sha256": "b0b601b87fb902bc9e89e2d89e5d987adb8ce5457bd8d59929c34ea06d96e133",
+          "length": 38,
+          "media_type": "image/webp",
+          "duration_seconds": null,
+          "credit": {
+            "creator": "Denframe test fixture",
+            "license": "CC0-1.0",
+            "attribution": "",
+            "source": "",
+            "modified": false
+          }
+        }
+      ],
+      "works": [
+        {
+          "id": "wheat-field",
+          "image": "assets/325f88f5e4b5caef5a36e6c353613f3596f36a8678094844ba78c7695e6bfb6b.jpg",
+          "thumbnail": "assets/325f88f5e4b5caef5a36e6c353613f3596f36a8678094844ba78c7695e6bfb6b.jpg",
+          "alt_text": "A wheat field under a swirling sky, with dark cypresses.",
+          "width": 1920,
+          "height": 1080,
+          "orientation": "landscape",
+          "focal_x": 0.5,
+          "focal_y": 0.5,
+          "mean_colour": "#8a8f6a",
+          "placard": {
+            "title": "Wheat Field with Cypresses",
+            "creator": "Vincent van Gogh (Dutch, 1853-1890)",
+            "date": "1889",
+            "medium": "Oil on canvas",
+            "dimensions": "73.2 x 93.4 cm",
+            "institution": "The Metropolitan Museum of Art",
+            "canonical_url": "https://www.metmuseum.org/art/collection/search/436535"
+          },
+          "rights": {
+            "license": "CC0-1.0",
+            "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+            "evidence": {
+              "provider_field": "isPublicDomain",
+              "provider_value": true,
+              "image_url": "https://images.metmuseum.org/CRDImages/ep/original/DP-42549-001.jpg",
+              "observed_at": "2026-10-06T00:00:00+00:00",
+              "image_field": "primaryImage",
+              "uuid": null
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "gallery-definition rejects rights evidence over plain HTTP",
+    "schema": "gallery-definition",
+    "valid": false,
+    "value": {
+      "schema_version": 2,
+      "kind": "gallery",
+      "name": "Gallery fixture",
+      "description": "One synthetic work, curated for the conformance corpus.",
+      "shape": "landscape",
+      "presentation": {
+        "fit": "fit",
+        "mat_style": "museum",
+        "placard_seconds": 12,
+        "cadence_seconds": 45
+      },
+      "strip": "assets/b0b601b87fb902bc9e89e2d89e5d987adb8ce5457bd8d59929c34ea06d96e133.webp",
+      "resources": [
+        {
+          "path": "assets/325f88f5e4b5caef5a36e6c353613f3596f36a8678094844ba78c7695e6bfb6b.jpg",
+          "sha256": "325f88f5e4b5caef5a36e6c353613f3596f36a8678094844ba78c7695e6bfb6b",
+          "length": 331,
+          "media_type": "image/jpeg",
+          "duration_seconds": null,
+          "credit": {
+            "creator": "Denframe test fixture",
+            "license": "CC0-1.0",
+            "attribution": "",
+            "source": "",
+            "modified": false
+          }
+        },
+        {
+          "path": "assets/512d6627df7aa08e94c6185295332dd62aeb2ca2b2d7c479957d04c3aa220ca7.webp",
+          "sha256": "512d6627df7aa08e94c6185295332dd62aeb2ca2b2d7c479957d04c3aa220ca7",
+          "length": 36,
+          "media_type": "image/webp",
+          "duration_seconds": null,
+          "credit": {
+            "creator": "Denframe test fixture",
+            "license": "CC0-1.0",
+            "attribution": "",
+            "source": "",
+            "modified": false
+          }
+        },
+        {
+          "path": "assets/b0b601b87fb902bc9e89e2d89e5d987adb8ce5457bd8d59929c34ea06d96e133.webp",
+          "sha256": "b0b601b87fb902bc9e89e2d89e5d987adb8ce5457bd8d59929c34ea06d96e133",
+          "length": 38,
+          "media_type": "image/webp",
+          "duration_seconds": null,
+          "credit": {
+            "creator": "Denframe test fixture",
+            "license": "CC0-1.0",
+            "attribution": "",
+            "source": "",
+            "modified": false
+          }
+        }
+      ],
+      "works": [
+        {
+          "id": "wheat-field",
+          "image": "assets/325f88f5e4b5caef5a36e6c353613f3596f36a8678094844ba78c7695e6bfb6b.jpg",
+          "thumbnail": "assets/512d6627df7aa08e94c6185295332dd62aeb2ca2b2d7c479957d04c3aa220ca7.webp",
+          "alt_text": "A wheat field under a swirling sky, with dark cypresses.",
+          "width": 1920,
+          "height": 1080,
+          "orientation": "landscape",
+          "focal_x": 0.5,
+          "focal_y": 0.5,
+          "mean_colour": "#8a8f6a",
+          "placard": {
+            "title": "Wheat Field with Cypresses",
+            "creator": "Vincent van Gogh (Dutch, 1853-1890)",
+            "date": "1889",
+            "medium": "Oil on canvas",
+            "dimensions": "73.2 x 93.4 cm",
+            "institution": "The Metropolitan Museum of Art",
+            "canonical_url": "https://www.metmuseum.org/art/collection/search/436535"
+          },
+          "rights": {
+            "license": "CC0-1.0",
+            "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+            "evidence": {
+              "provider_field": "isPublicDomain",
+              "provider_value": true,
+              "image_url": "http://images.metmuseum.org/a.jpg",
+              "observed_at": "2026-10-06T00:00:00+00:00",
+              "image_field": "primaryImage",
+              "uuid": null
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "manifest rejects a gallery capability beside an activity one",
+    "schema": "manifest",
+    "valid": false,
+    "value": {
+      "format": "denframepack",
+      "schema_version": 2,
+      "id": "denframe/gallery-fixture",
+      "version": "1.0.0",
+      "publisher": "Denframe test fixture",
+      "definition_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+      "entrypoint": "definition.json",
+      "required_capabilities": [
+        "reveal-sequence-v1",
+        "gallery-pack-v1"
+      ]
+    }
   }
 ]

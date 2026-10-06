@@ -1,0 +1,1501 @@
+{
+  "id": "denframe/architecture",
+  "version": "1.0.0",
+  "publisher": "Denframe",
+  "definition": {
+    "schema_version": 2,
+    "kind": "gallery",
+    "name": "Architecture",
+    "description": "City views, bridges, harbours, villas and quiet rooms in calm light, from Venetian views to Impressionist streets.",
+    "shape": "landscape",
+    "presentation": {
+      "fit": "fit",
+      "mat_style": "museum",
+      "placard_seconds": 12,
+      "cadence_seconds": 45
+    },
+    "strip": "assets/2fe96e7b703550d1a114ec2b6f9e8c0ae10c3bcf3a121820c6fda673b2680673.webp",
+    "resources": [
+      {
+        "path": "assets/6bed0d7fae6fb2a417e456159fe146fa6884751f83707b0f10b347c636c20ca4.jpg",
+        "sha256": "6bed0d7fae6fb2a417e456159fe146fa6884751f83707b0f10b347c636c20ca4",
+        "length": 289017,
+        "media_type": "image/jpeg",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Bernardo Bellotto (Italian, 1721–1780)",
+          "license": "CC0-1.0",
+          "attribution": "Piazza San Marco, Venice · Bernardo Bellotto (Italian, 1721–1780) · The Cleveland Museum of Art · CC0",
+          "source": "https://clevelandart.org/art/1962.169",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/32fc1002d0c0fb644d879b2044727a972b8aed24bec322de8bef14dc9771aa19.webp",
+        "sha256": "32fc1002d0c0fb644d879b2044727a972b8aed24bec322de8bef14dc9771aa19",
+        "length": 12930,
+        "media_type": "image/webp",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Bernardo Bellotto (Italian, 1721–1780)",
+          "license": "CC0-1.0",
+          "attribution": "Piazza San Marco, Venice · Bernardo Bellotto (Italian, 1721–1780) · The Cleveland Museum of Art · CC0",
+          "source": "https://clevelandart.org/art/1962.169",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/f220ef06604376eab3ede5694f81fd336b837e2b03e5d2026209c419f8a9087c.jpg",
+        "sha256": "f220ef06604376eab3ede5694f81fd336b837e2b03e5d2026209c419f8a9087c",
+        "length": 274387,
+        "media_type": "image/jpeg",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Jean-Baptiste-Camille Corot (French, 1796–1875)",
+          "license": "CC0-1.0",
+          "attribution": "View of Genoa · Jean-Baptiste-Camille Corot (French, 1796–1875) · Art Institute of Chicago · CC0",
+          "source": "https://www.artic.edu/artworks/25806",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/4eada5e928b5bd7c571b0c480e74100d390666d1eed4eba055e782807300a09b.webp",
+        "sha256": "4eada5e928b5bd7c571b0c480e74100d390666d1eed4eba055e782807300a09b",
+        "length": 22144,
+        "media_type": "image/webp",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Jean-Baptiste-Camille Corot (French, 1796–1875)",
+          "license": "CC0-1.0",
+          "attribution": "View of Genoa · Jean-Baptiste-Camille Corot (French, 1796–1875) · Art Institute of Chicago · CC0",
+          "source": "https://www.artic.edu/artworks/25806",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/12a65040652cc83901dfd188c5639c044dc294736acbb48fc6536c0a5e6546ff.jpg",
+        "sha256": "12a65040652cc83901dfd188c5639c044dc294736acbb48fc6536c0a5e6546ff",
+        "length": 236593,
+        "media_type": "image/jpeg",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Claude Monet (French, 1840–1926)",
+          "license": "CC0-1.0",
+          "attribution": "Waterloo Bridge, Sunlight Effect · Claude Monet (French, 1840–1926) · Art Institute of Chicago · CC0",
+          "source": "https://www.artic.edu/artworks/20701",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/c69544a878e2808282aae2e5b9ef87d01312d54235060242b01d983a9fb6ffe5.webp",
+        "sha256": "c69544a878e2808282aae2e5b9ef87d01312d54235060242b01d983a9fb6ffe5",
+        "length": 10500,
+        "media_type": "image/webp",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Claude Monet (French, 1840–1926)",
+          "license": "CC0-1.0",
+          "attribution": "Waterloo Bridge, Sunlight Effect · Claude Monet (French, 1840–1926) · Art Institute of Chicago · CC0",
+          "source": "https://www.artic.edu/artworks/20701",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/0ac511b45d1beec47b25febb4aca1093a0e3ece95413a13e2232c50afa2f5e53.jpg",
+        "sha256": "0ac511b45d1beec47b25febb4aca1093a0e3ece95413a13e2232c50afa2f5e53",
+        "length": 227542,
+        "media_type": "image/jpeg",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Juan Roig y Soler (Spanish, 1852–1909)",
+          "license": "CC0-1.0",
+          "attribution": "Sitges · Juan Roig y Soler (Spanish, 1852–1909) · Art Institute of Chicago · CC0",
+          "source": "https://www.artic.edu/artworks/147478",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/9a7cc5b97d6993c32db484bb6bd4bf62f341a9d3994d95547dd609b711118d35.webp",
+        "sha256": "9a7cc5b97d6993c32db484bb6bd4bf62f341a9d3994d95547dd609b711118d35",
+        "length": 15562,
+        "media_type": "image/webp",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Juan Roig y Soler (Spanish, 1852–1909)",
+          "license": "CC0-1.0",
+          "attribution": "Sitges · Juan Roig y Soler (Spanish, 1852–1909) · Art Institute of Chicago · CC0",
+          "source": "https://www.artic.edu/artworks/147478",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/b4c2fd186b2970a6f47a6cc07152429ffca61d24f51f92a19179cc9e2032196a.jpg",
+        "sha256": "b4c2fd186b2970a6f47a6cc07152429ffca61d24f51f92a19179cc9e2032196a",
+        "length": 459076,
+        "media_type": "image/jpeg",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "John Singer Sargent (American, Florence 1856–1925 London)",
+          "license": "CC0-1.0",
+          "attribution": "Venice · John Singer Sargent (American, Florence 1856–1925 London) · The Metropolitan Museum of Art · CC0",
+          "source": "https://www.metmuseum.org/art/collection/search/12460",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/c015d22bed55c904c27c597d430c3e68bab63297104d233d79cdd2b4c83eb3e0.webp",
+        "sha256": "c015d22bed55c904c27c597d430c3e68bab63297104d233d79cdd2b4c83eb3e0",
+        "length": 33544,
+        "media_type": "image/webp",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "John Singer Sargent (American, Florence 1856–1925 London)",
+          "license": "CC0-1.0",
+          "attribution": "Venice · John Singer Sargent (American, Florence 1856–1925 London) · The Metropolitan Museum of Art · CC0",
+          "source": "https://www.metmuseum.org/art/collection/search/12460",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/64098f3c4d1fe413d385e49ee47b2c033841d356b134313b5348580125ceaae2.jpg",
+        "sha256": "64098f3c4d1fe413d385e49ee47b2c033841d356b134313b5348580125ceaae2",
+        "length": 292579,
+        "media_type": "image/jpeg",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Vincent van Gogh (Dutch, 1853–1890)",
+          "license": "CC0-1.0",
+          "attribution": "The Bedroom · Vincent van Gogh (Dutch, 1853–1890) · Art Institute of Chicago · CC0",
+          "source": "https://www.artic.edu/artworks/28560",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/d2412ba5d976e6c3c930052d873b00677ab2182f0ce8c989720d4dfd78892cb5.webp",
+        "sha256": "d2412ba5d976e6c3c930052d873b00677ab2182f0ce8c989720d4dfd78892cb5",
+        "length": 31228,
+        "media_type": "image/webp",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Vincent van Gogh (Dutch, 1853–1890)",
+          "license": "CC0-1.0",
+          "attribution": "The Bedroom · Vincent van Gogh (Dutch, 1853–1890) · Art Institute of Chicago · CC0",
+          "source": "https://www.artic.edu/artworks/28560",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/969ba1eec5e6e9e0b794cd4cf16dc90f89687fc1d83ad99b511dd36ad4b7ed73.jpg",
+        "sha256": "969ba1eec5e6e9e0b794cd4cf16dc90f89687fc1d83ad99b511dd36ad4b7ed73",
+        "length": 299246,
+        "media_type": "image/jpeg",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Eugène Delacroix (French, 1798-1863)",
+          "license": "CC0-1.0",
+          "attribution": "The Old Bridge at Mantes · Eugène Delacroix (French, 1798-1863) · Art Institute of Chicago · CC0",
+          "source": "https://www.artic.edu/artworks/17501",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/b7b60cb351988ec7d46b1f2c05ced41e7282fa043006491c2dd6317392dd51f7.webp",
+        "sha256": "b7b60cb351988ec7d46b1f2c05ced41e7282fa043006491c2dd6317392dd51f7",
+        "length": 20114,
+        "media_type": "image/webp",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Eugène Delacroix (French, 1798-1863)",
+          "license": "CC0-1.0",
+          "attribution": "The Old Bridge at Mantes · Eugène Delacroix (French, 1798-1863) · Art Institute of Chicago · CC0",
+          "source": "https://www.artic.edu/artworks/17501",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/2d5dd78cdca38b1851e4cb3b64bdd97cf2cd2cba4e294e25a2e4aaeb550062cb.jpg",
+        "sha256": "2d5dd78cdca38b1851e4cb3b64bdd97cf2cd2cba4e294e25a2e4aaeb550062cb",
+        "length": 232214,
+        "media_type": "image/jpeg",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Ernst Damitz (American, born Germany, 1805-1883)",
+          "license": "CC0-1.0",
+          "attribution": "View of Braubach · Ernst Damitz (American, born Germany, 1805-1883) · Art Institute of Chicago · CC0",
+          "source": "https://www.artic.edu/artworks/215011",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/6f64dcdf6a70bbfba72859e32496f31e365ee9cb630eb21697e02e815a5080dd.webp",
+        "sha256": "6f64dcdf6a70bbfba72859e32496f31e365ee9cb630eb21697e02e815a5080dd",
+        "length": 21724,
+        "media_type": "image/webp",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Ernst Damitz (American, born Germany, 1805-1883)",
+          "license": "CC0-1.0",
+          "attribution": "View of Braubach · Ernst Damitz (American, born Germany, 1805-1883) · Art Institute of Chicago · CC0",
+          "source": "https://www.artic.edu/artworks/215011",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/2f27de746576a1711f7efb9434b7bf8f08308441124480a3dbe414d05dedd38a.jpg",
+        "sha256": "2f27de746576a1711f7efb9434b7bf8f08308441124480a3dbe414d05dedd38a",
+        "length": 234055,
+        "media_type": "image/jpeg",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Jean-Baptiste-Armand Guillaumin (French, 1841-1927)",
+          "license": "CC0-1.0",
+          "attribution": "The Arcueil Aqueduct at Sceaux Railroad Crossing · Jean-Baptiste-Armand Guillaumin (French, 1841-1927) · Art Institute of Chicago · CC0",
+          "source": "https://www.artic.edu/artworks/33212",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/34adbca1f20e8d8548a6636c3db1e2ae5a7d0f13c09ae37cb93e12f7f606d56f.webp",
+        "sha256": "34adbca1f20e8d8548a6636c3db1e2ae5a7d0f13c09ae37cb93e12f7f606d56f",
+        "length": 23050,
+        "media_type": "image/webp",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Jean-Baptiste-Armand Guillaumin (French, 1841-1927)",
+          "license": "CC0-1.0",
+          "attribution": "The Arcueil Aqueduct at Sceaux Railroad Crossing · Jean-Baptiste-Armand Guillaumin (French, 1841-1927) · Art Institute of Chicago · CC0",
+          "source": "https://www.artic.edu/artworks/33212",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/db11f46ec9f20261247a332cda88f2ac291ae9a0e2e4222c7d3d44704ee22a29.jpg",
+        "sha256": "db11f46ec9f20261247a332cda88f2ac291ae9a0e2e4222c7d3d44704ee22a29",
+        "length": 370861,
+        "media_type": "image/jpeg",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Antonio Canaletto (Italian, 1697–1768)",
+          "license": "CC0-1.0",
+          "attribution": "Capriccio: A Palace with a Courtyard by the Lagoon · Antonio Canaletto (Italian, 1697–1768) · The Cleveland Museum of Art · CC0",
+          "source": "https://clevelandart.org/art/1930.23",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/a0999a221ac0ecf3af1e4108743b5b99adb7a62136278a42b5fe435f30f520be.webp",
+        "sha256": "a0999a221ac0ecf3af1e4108743b5b99adb7a62136278a42b5fe435f30f520be",
+        "length": 24450,
+        "media_type": "image/webp",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Antonio Canaletto (Italian, 1697–1768)",
+          "license": "CC0-1.0",
+          "attribution": "Capriccio: A Palace with a Courtyard by the Lagoon · Antonio Canaletto (Italian, 1697–1768) · The Cleveland Museum of Art · CC0",
+          "source": "https://clevelandart.org/art/1930.23",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/99ca52923d785ff0d9e172e584e9e70390e1405384089731456378c2b58cdb25.jpg",
+        "sha256": "99ca52923d785ff0d9e172e584e9e70390e1405384089731456378c2b58cdb25",
+        "length": 220872,
+        "media_type": "image/jpeg",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "John Ritto Penniman (American, c. 1782–1841)",
+          "license": "CC0-1.0",
+          "attribution": "Meetinghouse Hill, Roxbury, Massachusetts · John Ritto Penniman (American, c. 1782–1841) · Art Institute of Chicago · CC0",
+          "source": "https://www.artic.edu/artworks/59455",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/9cd756c89e12af3bcf8c15849aa74bc180d634d3724ba05bd77865eba8e8ad85.webp",
+        "sha256": "9cd756c89e12af3bcf8c15849aa74bc180d634d3724ba05bd77865eba8e8ad85",
+        "length": 15126,
+        "media_type": "image/webp",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "John Ritto Penniman (American, c. 1782–1841)",
+          "license": "CC0-1.0",
+          "attribution": "Meetinghouse Hill, Roxbury, Massachusetts · John Ritto Penniman (American, c. 1782–1841) · Art Institute of Chicago · CC0",
+          "source": "https://www.artic.edu/artworks/59455",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/4fa2ed029aaae1cfb991d720953336239d0a05e43bb5bb642d7d581392a8d2ec.jpg",
+        "sha256": "4fa2ed029aaae1cfb991d720953336239d0a05e43bb5bb642d7d581392a8d2ec",
+        "length": 205402,
+        "media_type": "image/jpeg",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Claude Monet (French, 1840–1926)",
+          "license": "CC0-1.0",
+          "attribution": "Waterloo Bridge, Gray Weather · Claude Monet (French, 1840–1926) · Art Institute of Chicago · CC0",
+          "source": "https://www.artic.edu/artworks/103139",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/f743907a2c3417cacdc11497d7a1c2b0962eed79bba1e01e4fc24914f01cbe1b.webp",
+        "sha256": "f743907a2c3417cacdc11497d7a1c2b0962eed79bba1e01e4fc24914f01cbe1b",
+        "length": 11768,
+        "media_type": "image/webp",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Claude Monet (French, 1840–1926)",
+          "license": "CC0-1.0",
+          "attribution": "Waterloo Bridge, Gray Weather · Claude Monet (French, 1840–1926) · Art Institute of Chicago · CC0",
+          "source": "https://www.artic.edu/artworks/103139",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/0fdc00c7c03d08692da417370c56ddf4b8d40d28130c1af15dc68e9ef1efbef0.jpg",
+        "sha256": "0fdc00c7c03d08692da417370c56ddf4b8d40d28130c1af15dc68e9ef1efbef0",
+        "length": 191536,
+        "media_type": "image/jpeg",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "John Singer Sargent (American, Florence 1856–1925 London)",
+          "license": "CC0-1.0",
+          "attribution": "Moorish Buildings on a Cloudy Day · John Singer Sargent (American, Florence 1856–1925 London) · The Metropolitan Museum of Art · CC0",
+          "source": "https://www.metmuseum.org/art/collection/search/12137",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/9deaef0189cde40bdb06b5b5a249a861f271c911898dddfdeb9220b960c00f89.webp",
+        "sha256": "9deaef0189cde40bdb06b5b5a249a861f271c911898dddfdeb9220b960c00f89",
+        "length": 12250,
+        "media_type": "image/webp",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "John Singer Sargent (American, Florence 1856–1925 London)",
+          "license": "CC0-1.0",
+          "attribution": "Moorish Buildings on a Cloudy Day · John Singer Sargent (American, Florence 1856–1925 London) · The Metropolitan Museum of Art · CC0",
+          "source": "https://www.metmuseum.org/art/collection/search/12137",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/9bb08671b5201b3fe7d27d654b91dc8f15a8e145c469843d6aeea3aaba9878f6.jpg",
+        "sha256": "9bb08671b5201b3fe7d27d654b91dc8f15a8e145c469843d6aeea3aaba9878f6",
+        "length": 336873,
+        "media_type": "image/jpeg",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Artist unknown (American, 19th century)",
+          "license": "CC0-1.0",
+          "attribution": "Boston Common · Artist unknown (American, 19th century) · Art Institute of Chicago · CC0",
+          "source": "https://www.artic.edu/artworks/44831",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/27eb902cd0933178b83f2779572ff4150bc0ff61b7b33fa3d9cbb4ead3dd82a3.webp",
+        "sha256": "27eb902cd0933178b83f2779572ff4150bc0ff61b7b33fa3d9cbb4ead3dd82a3",
+        "length": 40724,
+        "media_type": "image/webp",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Artist unknown (American, 19th century)",
+          "license": "CC0-1.0",
+          "attribution": "Boston Common · Artist unknown (American, 19th century) · Art Institute of Chicago · CC0",
+          "source": "https://www.artic.edu/artworks/44831",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/a5b78f43f5be863708ebccc340f7a705e1a0ded69ae02d69e0a3c401c742e6e1.jpg",
+        "sha256": "a5b78f43f5be863708ebccc340f7a705e1a0ded69ae02d69e0a3c401c742e6e1",
+        "length": 238769,
+        "media_type": "image/jpeg",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Henry Ward Ranger (American, 1858–1916)",
+          "license": "CC0-1.0",
+          "attribution": "Brooklyn Bridge · Henry Ward Ranger (American, 1858–1916) · Art Institute of Chicago · CC0",
+          "source": "https://www.artic.edu/artworks/16545",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/5f4f7dcee50a017f762786859d3cfbf73e474f93ac2dc0c28c8dba500ed2b707.webp",
+        "sha256": "5f4f7dcee50a017f762786859d3cfbf73e474f93ac2dc0c28c8dba500ed2b707",
+        "length": 20814,
+        "media_type": "image/webp",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Henry Ward Ranger (American, 1858–1916)",
+          "license": "CC0-1.0",
+          "attribution": "Brooklyn Bridge · Henry Ward Ranger (American, 1858–1916) · Art Institute of Chicago · CC0",
+          "source": "https://www.artic.edu/artworks/16545",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/6fd995fe693b3107d25d3ee57d9446fc3028aef30894194eee01c1cd639425f7.jpg",
+        "sha256": "6fd995fe693b3107d25d3ee57d9446fc3028aef30894194eee01c1cd639425f7",
+        "length": 475779,
+        "media_type": "image/jpeg",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Peter Heinrich Lambert von Hess (German, 1792–1871)",
+          "license": "CC0-1.0",
+          "attribution": "Villa Palatina · Peter Heinrich Lambert von Hess (German, 1792–1871) · The Cleveland Museum of Art · CC0",
+          "source": "https://clevelandart.org/art/1982.159",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/f612762a7639438e76be2dd5627155af9e5920f991db0fdadb486b09dc0ca9dc.webp",
+        "sha256": "f612762a7639438e76be2dd5627155af9e5920f991db0fdadb486b09dc0ca9dc",
+        "length": 50428,
+        "media_type": "image/webp",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Peter Heinrich Lambert von Hess (German, 1792–1871)",
+          "license": "CC0-1.0",
+          "attribution": "Villa Palatina · Peter Heinrich Lambert von Hess (German, 1792–1871) · The Cleveland Museum of Art · CC0",
+          "source": "https://clevelandart.org/art/1982.159",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/70e1f11af99533393d2b74bdc79ac329c92ca52f32e2fd7943a15b9e085d9610.jpg",
+        "sha256": "70e1f11af99533393d2b74bdc79ac329c92ca52f32e2fd7943a15b9e085d9610",
+        "length": 215356,
+        "media_type": "image/jpeg",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Jean-Baptiste-Camille Corot (French, 1796–1875)",
+          "license": "CC0-1.0",
+          "attribution": "Monte Pincio, Rome · Jean-Baptiste-Camille Corot (French, 1796–1875) · Art Institute of Chicago · CC0",
+          "source": "https://www.artic.edu/artworks/45267",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/7f82ecb30e238a9f35490ca18f1ac0c31418255d6de32ca92f38980c23c7caf3.webp",
+        "sha256": "7f82ecb30e238a9f35490ca18f1ac0c31418255d6de32ca92f38980c23c7caf3",
+        "length": 12190,
+        "media_type": "image/webp",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Jean-Baptiste-Camille Corot (French, 1796–1875)",
+          "license": "CC0-1.0",
+          "attribution": "Monte Pincio, Rome · Jean-Baptiste-Camille Corot (French, 1796–1875) · Art Institute of Chicago · CC0",
+          "source": "https://www.artic.edu/artworks/45267",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/ec2117a0402bc6be61fce58373779755588c4ed77ff53ad70e6d8c74fd1d3311.jpg",
+        "sha256": "ec2117a0402bc6be61fce58373779755588c4ed77ff53ad70e6d8c74fd1d3311",
+        "length": 320904,
+        "media_type": "image/jpeg",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "George Hendrik Breitner (Dutch, 1857–1923)",
+          "license": "CC0-1.0",
+          "attribution": "Construction Site in Amsterdam · George Hendrik Breitner (Dutch, 1857–1923) · The Cleveland Museum of Art · CC0",
+          "source": "https://clevelandart.org/art/1985.145",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/3cdd0892a9e6e5f1212287a13a973b7f50887d624bd78b98d476039334303940.webp",
+        "sha256": "3cdd0892a9e6e5f1212287a13a973b7f50887d624bd78b98d476039334303940",
+        "length": 35034,
+        "media_type": "image/webp",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "George Hendrik Breitner (Dutch, 1857–1923)",
+          "license": "CC0-1.0",
+          "attribution": "Construction Site in Amsterdam · George Hendrik Breitner (Dutch, 1857–1923) · The Cleveland Museum of Art · CC0",
+          "source": "https://clevelandart.org/art/1985.145",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/ffb43c7563c53866aa1d5b07aaa1cbf32820b098135892fb3ddda4dcccdd734f.jpg",
+        "sha256": "ffb43c7563c53866aa1d5b07aaa1cbf32820b098135892fb3ddda4dcccdd734f",
+        "length": 249066,
+        "media_type": "image/jpeg",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Richard Parkes Bonington (British, 1802–1828)",
+          "license": "CC0-1.0",
+          "attribution": "View on the Grounds of a Villa near Florence · Richard Parkes Bonington (British, 1802–1828) · Art Institute of Chicago · CC0",
+          "source": "https://www.artic.edu/artworks/185775",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/9418d97f9bba71a39151bb118b3cedc99226016d50acb64161fc57b7041060a4.webp",
+        "sha256": "9418d97f9bba71a39151bb118b3cedc99226016d50acb64161fc57b7041060a4",
+        "length": 15128,
+        "media_type": "image/webp",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Richard Parkes Bonington (British, 1802–1828)",
+          "license": "CC0-1.0",
+          "attribution": "View on the Grounds of a Villa near Florence · Richard Parkes Bonington (British, 1802–1828) · Art Institute of Chicago · CC0",
+          "source": "https://www.artic.edu/artworks/185775",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/573934c1eba7ad2c81a4c800b8533bcd63a4da1e91192d37bcd4c2bbecb4bf25.jpg",
+        "sha256": "573934c1eba7ad2c81a4c800b8533bcd63a4da1e91192d37bcd4c2bbecb4bf25",
+        "length": 184907,
+        "media_type": "image/jpeg",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "James McNeill Whistler (American, 1834–1903)",
+          "license": "CC0-1.0",
+          "attribution": "Grey and Silver: Old Battersea Reach · James McNeill Whistler (American, 1834–1903) · Art Institute of Chicago · CC0",
+          "source": "https://www.artic.edu/artworks/81574",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/134744d495cb7aee900d97d8a9c102a5d214f3e922eb15a7cb7bca6248975b7f.webp",
+        "sha256": "134744d495cb7aee900d97d8a9c102a5d214f3e922eb15a7cb7bca6248975b7f",
+        "length": 11780,
+        "media_type": "image/webp",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "James McNeill Whistler (American, 1834–1903)",
+          "license": "CC0-1.0",
+          "attribution": "Grey and Silver: Old Battersea Reach · James McNeill Whistler (American, 1834–1903) · Art Institute of Chicago · CC0",
+          "source": "https://www.artic.edu/artworks/81574",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/ca0b8f75cbdff6fdd1e525a6c98a9e4d7f7ecd1707ebe954d9475764d6a15998.jpg",
+        "sha256": "ca0b8f75cbdff6fdd1e525a6c98a9e4d7f7ecd1707ebe954d9475764d6a15998",
+        "length": 158129,
+        "media_type": "image/jpeg",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Daniel Hudson Burnham, American, 1846-1912 (Edward Herbert Bennett, American, born England, 1874-19…",
+          "license": "CC0-1.0",
+          "attribution": "View of the Proposed Civic Center Plaza and Buildings, The 1909 Plan of Chicago · Daniel Hudson Burnham, American, 1846-1912 (Edward Herbert Bennett, American, born England, 1874-1954, Jules Guerin, delineator, American, 1866-1946) · Art Institute of Chicago · CC0",
+          "source": "https://www.artic.edu/artworks/196393",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/8a4cc9b8ab3ea48945488babbf5084ae54a9ee1a4790f571f3e6396a46e22e88.webp",
+        "sha256": "8a4cc9b8ab3ea48945488babbf5084ae54a9ee1a4790f571f3e6396a46e22e88",
+        "length": 9060,
+        "media_type": "image/webp",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Daniel Hudson Burnham, American, 1846-1912 (Edward Herbert Bennett, American, born England, 1874-19…",
+          "license": "CC0-1.0",
+          "attribution": "View of the Proposed Civic Center Plaza and Buildings, The 1909 Plan of Chicago · Daniel Hudson Burnham, American, 1846-1912 (Edward Herbert Bennett, American, born England, 1874-1954, Jules Guerin, delineator, American, 1866-1946) · Art Institute of Chicago · CC0",
+          "source": "https://www.artic.edu/artworks/196393",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/b9631d9fb0c33c64abae7f1d65881d320b530042bd73e0a6a30da0ae9b98cded.jpg",
+        "sha256": "b9631d9fb0c33c64abae7f1d65881d320b530042bd73e0a6a30da0ae9b98cded",
+        "length": 211270,
+        "media_type": "image/jpeg",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Gustave Caillebotte (French, 1848–1894)",
+          "license": "CC0-1.0",
+          "attribution": "Paris Street; Rainy Day · Gustave Caillebotte (French, 1848–1894) · Art Institute of Chicago · CC0",
+          "source": "https://www.artic.edu/artworks/20684",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/f99d77fc55f5de2f326b793ce9846253abe20feec739ce112d0ebd6d52ec058a.webp",
+        "sha256": "f99d77fc55f5de2f326b793ce9846253abe20feec739ce112d0ebd6d52ec058a",
+        "length": 22608,
+        "media_type": "image/webp",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Gustave Caillebotte (French, 1848–1894)",
+          "license": "CC0-1.0",
+          "attribution": "Paris Street; Rainy Day · Gustave Caillebotte (French, 1848–1894) · Art Institute of Chicago · CC0",
+          "source": "https://www.artic.edu/artworks/20684",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/99f22be6bd921d56db05db56cf3a47b873f358d148e39f9ef5cc6c7eb0f4f8e0.jpg",
+        "sha256": "99f22be6bd921d56db05db56cf3a47b873f358d148e39f9ef5cc6c7eb0f4f8e0",
+        "length": 239801,
+        "media_type": "image/jpeg",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Paul-Jean Flandrin (French, 1811–1902)",
+          "license": "CC0-1.0",
+          "attribution": "The Imperial Palace on the Palatine, Rome · Paul-Jean Flandrin (French, 1811–1902) · Art Institute of Chicago · CC0",
+          "source": "https://www.artic.edu/artworks/152850",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/665f7ee4b1c714fa13699fcc6c4dcd203da6ca27838326d469e939e5f294d411.webp",
+        "sha256": "665f7ee4b1c714fa13699fcc6c4dcd203da6ca27838326d469e939e5f294d411",
+        "length": 21256,
+        "media_type": "image/webp",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Paul-Jean Flandrin (French, 1811–1902)",
+          "license": "CC0-1.0",
+          "attribution": "The Imperial Palace on the Palatine, Rome · Paul-Jean Flandrin (French, 1811–1902) · Art Institute of Chicago · CC0",
+          "source": "https://www.artic.edu/artworks/152850",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/c486145059bc9a1428f64427c23736a86fd6cda5173765e8572f49eaeb0b628b.jpg",
+        "sha256": "c486145059bc9a1428f64427c23736a86fd6cda5173765e8572f49eaeb0b628b",
+        "length": 241219,
+        "media_type": "image/jpeg",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Attributed to Charles Lawrence (American, active 1813–1837)",
+          "license": "CC0-1.0",
+          "attribution": "Point Breeze, the Estate of Joseph Napoleon Bonaparte at Bordentown, New Jersey · Attributed to Charles Lawrence (American, active 1813–1837) · Art Institute of Chicago · CC0",
+          "source": "https://www.artic.edu/artworks/69538",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/95bf357d9eb3ab399e74b92fc4c409389188916e89f91aa599c4a0c561c1b2d2.webp",
+        "sha256": "95bf357d9eb3ab399e74b92fc4c409389188916e89f91aa599c4a0c561c1b2d2",
+        "length": 18114,
+        "media_type": "image/webp",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Attributed to Charles Lawrence (American, active 1813–1837)",
+          "license": "CC0-1.0",
+          "attribution": "Point Breeze, the Estate of Joseph Napoleon Bonaparte at Bordentown, New Jersey · Attributed to Charles Lawrence (American, active 1813–1837) · Art Institute of Chicago · CC0",
+          "source": "https://www.artic.edu/artworks/69538",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/2fe96e7b703550d1a114ec2b6f9e8c0ae10c3bcf3a121820c6fda673b2680673.webp",
+        "sha256": "2fe96e7b703550d1a114ec2b6f9e8c0ae10c3bcf3a121820c6fda673b2680673",
+        "length": 14922,
+        "media_type": "image/webp",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Denframe",
+          "license": "CC0-1.0",
+          "attribution": "The collection's first works, side by side.",
+          "source": "",
+          "modified": true
+        }
+      }
+    ],
+    "works": [
+      {
+        "id": "cleveland-137224",
+        "image": "assets/6bed0d7fae6fb2a417e456159fe146fa6884751f83707b0f10b347c636c20ca4.jpg",
+        "thumbnail": "assets/32fc1002d0c0fb644d879b2044727a972b8aed24bec322de8bef14dc9771aa19.webp",
+        "alt_text": "A wide view of Piazza San Marco in Venice, with the ornate basilica on the left, the tall brick bell tower and long arcaded buildings under a pale sky.",
+        "width": 1892,
+        "height": 1080,
+        "orientation": "landscape",
+        "focal_x": 0.5,
+        "focal_y": 0.5,
+        "mean_colour": "#828177",
+        "placard": {
+          "title": "Piazza San Marco, Venice",
+          "creator": "Bernardo Bellotto (Italian, 1721–1780)",
+          "date": "c. 1740",
+          "medium": "oil on canvas",
+          "dimensions": "Framed: 164.5 x 264 x 12 cm (64 3/4 x 103 15/16 x 4 3/4 in.); Unframed: 136.2 x 232.5 cm (53 5/8 x 91 9/16 in.)",
+          "institution": "The Cleveland Museum of Art",
+          "canonical_url": "https://clevelandart.org/art/1962.169"
+        },
+        "rights": {
+          "license": "CC0-1.0",
+          "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "evidence": {
+            "provider_field": "share_license_status",
+            "provider_value": "CC0",
+            "image_url": "https://openaccess-cdn.clevelandart.org/1962.169/1962.169_print.jpg",
+            "observed_at": "2026-10-06T11:47:47+00:00",
+            "image_field": null,
+            "uuid": null
+          }
+        }
+      },
+      {
+        "id": "aic-25806",
+        "image": "assets/f220ef06604376eab3ede5694f81fd336b837e2b03e5d2026209c419f8a9087c.jpg",
+        "thumbnail": "assets/4eada5e928b5bd7c571b0c480e74100d390666d1eed4eba055e782807300a09b.webp",
+        "alt_text": "The white houses and domes of Genoa spread down to a deep blue sea, seen from a green hillside with trees.",
+        "width": 1551,
+        "height": 1080,
+        "orientation": "landscape",
+        "focal_x": 0.5,
+        "focal_y": 0.5,
+        "mean_colour": "#8c8572",
+        "placard": {
+          "title": "View of Genoa",
+          "creator": "Jean-Baptiste-Camille Corot (French, 1796–1875)",
+          "date": "1834",
+          "medium": "Oil on paper, mounted on canvas",
+          "dimensions": "29.5 × 41.7 cm (11 5/8 × 16 3/8 in.); Framed: 42 × 53.4 cm (16 1/2 × 21 in.)",
+          "institution": "Art Institute of Chicago",
+          "canonical_url": "https://www.artic.edu/artworks/25806"
+        },
+        "rights": {
+          "license": "CC0-1.0",
+          "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "evidence": {
+            "provider_field": "is_public_domain",
+            "provider_value": true,
+            "image_url": "https://www.artic.edu/iiif/2/bd8432e6-65f7-a32a-4e1a-85593633fa8f/full/1686,/0/default.jpg",
+            "observed_at": "2026-10-06T11:47:49+00:00",
+            "image_field": null,
+            "uuid": null
+          }
+        }
+      },
+      {
+        "id": "aic-20701",
+        "image": "assets/12a65040652cc83901dfd188c5639c044dc294736acbb48fc6536c0a5e6546ff.jpg",
+        "thumbnail": "assets/c69544a878e2808282aae2e5b9ef87d01312d54235060242b01d983a9fb6ffe5.webp",
+        "alt_text": "Waterloo Bridge in London dissolving into a lilac and blue haze, with glints of sunlight on its arches and the river.",
+        "width": 1677,
+        "height": 1080,
+        "orientation": "landscape",
+        "focal_x": 0.5,
+        "focal_y": 0.5,
+        "mean_colour": "#8a8ba9",
+        "placard": {
+          "title": "Waterloo Bridge, Sunlight Effect",
+          "creator": "Claude Monet (French, 1840–1926)",
+          "date": "1903",
+          "medium": "Oil on canvas",
+          "dimensions": "65.7 × 101 cm (25 7/8 × 39 3/4 in.); Framed: 88.9 × 123.2 × 10.8 cm (35 × 48 1/2 × 4 1/4 in.)",
+          "institution": "Art Institute of Chicago",
+          "canonical_url": "https://www.artic.edu/artworks/20701"
+        },
+        "rights": {
+          "license": "CC0-1.0",
+          "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "evidence": {
+            "provider_field": "is_public_domain",
+            "provider_value": true,
+            "image_url": "https://www.artic.edu/iiif/2/827d02ef-6765-9728-c07e-52ad22b73fd3/full/1686,/0/default.jpg",
+            "observed_at": "2026-10-06T11:47:51+00:00",
+            "image_field": null,
+            "uuid": null
+          }
+        }
+      },
+      {
+        "id": "aic-147478",
+        "image": "assets/0ac511b45d1beec47b25febb4aca1093a0e3ece95413a13e2232c50afa2f5e53.jpg",
+        "thumbnail": "assets/9a7cc5b97d6993c32db484bb6bd4bf62f341a9d3994d95547dd609b711118d35.webp",
+        "alt_text": "A sunny beach street in Sitges lined with whitewashed houses, with barrels and timber on the sand and a church tower by the sea.",
+        "width": 1519,
+        "height": 1080,
+        "orientation": "landscape",
+        "focal_x": 0.5,
+        "focal_y": 0.5,
+        "mean_colour": "#727971",
+        "placard": {
+          "title": "Sitges",
+          "creator": "Juan Roig y Soler (Spanish, 1852–1909)",
+          "date": "19th century",
+          "medium": "Oil on masonite",
+          "dimensions": "43.2 × 59.7 cm (17 × 23 1/2 in.); Framed: 51.7 × 68.3 × 4.5 cm (20 3/8 × 26 7/8 × 1 3/4 in.)",
+          "institution": "Art Institute of Chicago",
+          "canonical_url": "https://www.artic.edu/artworks/147478"
+        },
+        "rights": {
+          "license": "CC0-1.0",
+          "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "evidence": {
+            "provider_field": "is_public_domain",
+            "provider_value": true,
+            "image_url": "https://www.artic.edu/iiif/2/03bfd0a4-ce6d-5b37-22d8-8e3de4004e0a/full/1686,/0/default.jpg",
+            "observed_at": "2026-10-06T11:47:54+00:00",
+            "image_field": null,
+            "uuid": null
+          }
+        }
+      },
+      {
+        "id": "met-12460",
+        "image": "assets/b4c2fd186b2970a6f47a6cc07152429ffca61d24f51f92a19179cc9e2032196a.jpg",
+        "thumbnail": "assets/c015d22bed55c904c27c597d430c3e68bab63297104d233d79cdd2b4c83eb3e0.webp",
+        "alt_text": "A loose watercolour of a pale Venetian palace front with arched doors and windows reflected in green canal water.",
+        "width": 1500,
+        "height": 1080,
+        "orientation": "landscape",
+        "focal_x": 0.5,
+        "focal_y": 0.5,
+        "mean_colour": "#9f8f79",
+        "placard": {
+          "title": "Venice",
+          "creator": "John Singer Sargent (American, Florence 1856–1925 London)",
+          "date": "ca. 1903",
+          "medium": "Watercolor, gouache, and graphite on white wove paper",
+          "dimensions": "9 7/8 x 13 13/16 in. (25.1 x 35.1 cm) Mat: 16 × 22 in. (40.6 × 55.9 cm) Framed (standard exhibition frame): 18 1/4 × 24 1/4 × 1 1/8 in. (46.4 × 61.6 × 2.9 cm)",
+          "institution": "The Metropolitan Museum of Art",
+          "canonical_url": "https://www.metmuseum.org/art/collection/search/12460"
+        },
+        "rights": {
+          "license": "CC0-1.0",
+          "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "evidence": {
+            "provider_field": "isPublicDomain",
+            "provider_value": true,
+            "image_url": "https://images.metmuseum.org/CRDImages/ad/original/ap50.130.37.jpg",
+            "observed_at": "2026-10-06T11:47:55+00:00",
+            "image_field": "primaryImage",
+            "uuid": null
+          }
+        }
+      },
+      {
+        "id": "aic-28560",
+        "image": "assets/64098f3c4d1fe413d385e49ee47b2c033841d356b134313b5348580125ceaae2.jpg",
+        "thumbnail": "assets/d2412ba5d976e6c3c930052d873b00677ab2182f0ce8c989720d4dfd78892cb5.webp",
+        "alt_text": "A small bedroom with blue walls, a wooden bed with a red cover, two yellow chairs, a table and an open green window.",
+        "width": 1379,
+        "height": 1080,
+        "orientation": "landscape",
+        "focal_x": 0.5,
+        "focal_y": 0.5,
+        "mean_colour": "#8a866c",
+        "placard": {
+          "title": "The Bedroom",
+          "creator": "Vincent van Gogh (Dutch, 1853–1890)",
+          "date": "1889",
+          "medium": "Oil on canvas",
+          "dimensions": "73.6 × 92.3 cm (29 × 36 5/8 in.); Framed: 88.9 × 108 × 8.9 cm (35 × 42 1/2 × 3 1/2 in.)",
+          "institution": "Art Institute of Chicago",
+          "canonical_url": "https://www.artic.edu/artworks/28560"
+        },
+        "rights": {
+          "license": "CC0-1.0",
+          "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "evidence": {
+            "provider_field": "is_public_domain",
+            "provider_value": true,
+            "image_url": "https://www.artic.edu/iiif/2/6644829f-f292-c5c4-a73c-0356a6fdbf0d/full/1686,/0/default.jpg",
+            "observed_at": "2026-10-06T11:47:58+00:00",
+            "image_field": null,
+            "uuid": null
+          }
+        }
+      },
+      {
+        "id": "aic-17501",
+        "image": "assets/969ba1eec5e6e9e0b794cd4cf16dc90f89687fc1d83ad99b511dd36ad4b7ed73.jpg",
+        "thumbnail": "assets/b7b60cb351988ec7d46b1f2c05ced41e7282fa043006491c2dd6317392dd51f7.webp",
+        "alt_text": "A watercolour of an old stone bridge with two arches over a calm river, with poplars and a brick building on the right under a pale sky.",
+        "width": 1592,
+        "height": 1080,
+        "orientation": "landscape",
+        "focal_x": 0.5,
+        "focal_y": 0.5,
+        "mean_colour": "#a79a77",
+        "placard": {
+          "title": "The Old Bridge at Mantes",
+          "creator": "Eugène Delacroix (French, 1798-1863)",
+          "date": "c. 1827",
+          "medium": "Watercolor on cream wove paper",
+          "dimensions": "20.3 × 30.3 cm (8 × 11 15/16 in.)",
+          "institution": "Art Institute of Chicago",
+          "canonical_url": "https://www.artic.edu/artworks/17501"
+        },
+        "rights": {
+          "license": "CC0-1.0",
+          "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "evidence": {
+            "provider_field": "is_public_domain",
+            "provider_value": true,
+            "image_url": "https://www.artic.edu/iiif/2/3c9cf237-317e-1b3c-c0c4-26959b2e84be/full/1686,/0/default.jpg",
+            "observed_at": "2026-10-06T11:48:00+00:00",
+            "image_field": null,
+            "uuid": null
+          }
+        }
+      },
+      {
+        "id": "aic-215011",
+        "image": "assets/2d5dd78cdca38b1851e4cb3b64bdd97cf2cd2cba4e294e25a2e4aaeb550062cb.jpg",
+        "thumbnail": "assets/6f64dcdf6a70bbfba72859e32496f31e365ee9cb630eb21697e02e815a5080dd.webp",
+        "alt_text": "A watercolour of a Rhine town with a church spire and tiled roofs below green wooded hills, a sailing boat on the calm golden river.",
+        "width": 1466,
+        "height": 1080,
+        "orientation": "landscape",
+        "focal_x": 0.5,
+        "focal_y": 0.5,
+        "mean_colour": "#9b9371",
+        "placard": {
+          "title": "View of Braubach",
+          "creator": "Ernst Damitz (American, born Germany, 1805-1883)",
+          "date": "n.d.",
+          "medium": "Watercolor on ivory wove paper (discolored to tan)",
+          "dimensions": "33.8 × 46.1 cm (13 5/16 × 18 3/16 in.)",
+          "institution": "Art Institute of Chicago",
+          "canonical_url": "https://www.artic.edu/artworks/215011"
+        },
+        "rights": {
+          "license": "CC0-1.0",
+          "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "evidence": {
+            "provider_field": "is_public_domain",
+            "provider_value": true,
+            "image_url": "https://www.artic.edu/iiif/2/4df9a37c-d609-b335-ce98-bee2ed9d0702/full/1686,/0/default.jpg",
+            "observed_at": "2026-10-06T11:48:03+00:00",
+            "image_field": null,
+            "uuid": null
+          }
+        }
+      },
+      {
+        "id": "aic-33212",
+        "image": "assets/2f27de746576a1711f7efb9434b7bf8f08308441124480a3dbe414d05dedd38a.jpg",
+        "thumbnail": "assets/34adbca1f20e8d8548a6636c3db1e2ae5a7d0f13c09ae37cb93e12f7f606d56f.webp",
+        "alt_text": "A long arched stone aqueduct crossing behind a railway cutting with green trees and grass, and people strolling on the left.",
+        "width": 1397,
+        "height": 1080,
+        "orientation": "landscape",
+        "focal_x": 0.5,
+        "focal_y": 0.5,
+        "mean_colour": "#707b53",
+        "placard": {
+          "title": "The Arcueil Aqueduct at Sceaux Railroad Crossing",
+          "creator": "Jean-Baptiste-Armand Guillaumin (French, 1841-1927)",
+          "date": "1874",
+          "medium": "Oil on canvas",
+          "dimensions": "51.5 × 65 cm (20 1/4 × 25 9/16 in.); Framed: 71.2 × 86.4 × 11.5 cm (28 × 34 × 4 1/2 in.)",
+          "institution": "Art Institute of Chicago",
+          "canonical_url": "https://www.artic.edu/artworks/33212"
+        },
+        "rights": {
+          "license": "CC0-1.0",
+          "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "evidence": {
+            "provider_field": "is_public_domain",
+            "provider_value": true,
+            "image_url": "https://www.artic.edu/iiif/2/f38d16d0-7fa8-d6db-7922-3d0d057604c1/full/1686,/0/default.jpg",
+            "observed_at": "2026-10-06T11:48:05+00:00",
+            "image_field": null,
+            "uuid": null
+          }
+        }
+      },
+      {
+        "id": "cleveland-111702",
+        "image": "assets/db11f46ec9f20261247a332cda88f2ac291ae9a0e2e4222c7d3d44704ee22a29.jpg",
+        "thumbnail": "assets/a0999a221ac0ecf3af1e4108743b5b99adb7a62136278a42b5fe435f30f520be.webp",
+        "alt_text": "A grey ink and wash drawing of an imaginary palace with a grand arched courtyard beside a lagoon, with a ship's masts beyond.",
+        "width": 1680,
+        "height": 1080,
+        "orientation": "landscape",
+        "focal_x": 0.5,
+        "focal_y": 0.5,
+        "mean_colour": "#848077",
+        "placard": {
+          "title": "Capriccio: A Palace with a Courtyard by the Lagoon",
+          "creator": "Antonio Canaletto (Italian, 1697–1768)",
+          "date": "c. 1750–55",
+          "medium": "pen and brown ink and brush and gray and black washes over traces of graphite (?); framing lines in pen and brown and black ink",
+          "dimensions": "Sheet: 26.9 x 42.1 cm (10 9/16 x 16 9/16 in.)",
+          "institution": "The Cleveland Museum of Art",
+          "canonical_url": "https://clevelandart.org/art/1930.23"
+        },
+        "rights": {
+          "license": "CC0-1.0",
+          "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "evidence": {
+            "provider_field": "share_license_status",
+            "provider_value": "CC0",
+            "image_url": "https://openaccess-cdn.clevelandart.org/1930.23/1930.23_print.jpg",
+            "observed_at": "2026-10-06T11:48:08+00:00",
+            "image_field": null,
+            "uuid": null
+          }
+        }
+      },
+      {
+        "id": "aic-59455",
+        "image": "assets/99ca52923d785ff0d9e172e584e9e70390e1405384089731456378c2b58cdb25.jpg",
+        "thumbnail": "assets/9cd756c89e12af3bcf8c15849aa74bc180d634d3724ba05bd77865eba8e8ad85.webp",
+        "alt_text": "A New England village of white wooden houses and a steepled meetinghouse on a green hill under a blue sky with white clouds.",
+        "width": 1414,
+        "height": 1080,
+        "orientation": "landscape",
+        "focal_x": 0.5,
+        "focal_y": 0.5,
+        "mean_colour": "#68786f",
+        "placard": {
+          "title": "Meetinghouse Hill, Roxbury, Massachusetts",
+          "creator": "John Ritto Penniman (American, c. 1782–1841)",
+          "date": "1799",
+          "medium": "Oil on canvas",
+          "dimensions": "73.6 × 94 cm (29 × 37 in.)",
+          "institution": "Art Institute of Chicago",
+          "canonical_url": "https://www.artic.edu/artworks/59455"
+        },
+        "rights": {
+          "license": "CC0-1.0",
+          "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "evidence": {
+            "provider_field": "is_public_domain",
+            "provider_value": true,
+            "image_url": "https://www.artic.edu/iiif/2/498e45a7-5721-25dd-e26c-09b3e5b8010b/full/1686,/0/default.jpg",
+            "observed_at": "2026-10-06T11:48:10+00:00",
+            "image_field": null,
+            "uuid": null
+          }
+        }
+      },
+      {
+        "id": "aic-103139",
+        "image": "assets/4fa2ed029aaae1cfb991d720953336239d0a05e43bb5bb642d7d581392a8d2ec.jpg",
+        "thumbnail": "assets/f743907a2c3417cacdc11497d7a1c2b0962eed79bba1e01e4fc24914f01cbe1b.webp",
+        "alt_text": "Waterloo Bridge in London on a grey day, its arches and the factory chimneys behind softened in blue-green mist.",
+        "width": 1525,
+        "height": 1080,
+        "orientation": "landscape",
+        "focal_x": 0.5,
+        "focal_y": 0.5,
+        "mean_colour": "#727d79",
+        "placard": {
+          "title": "Waterloo Bridge, Gray Weather",
+          "creator": "Claude Monet (French, 1840–1926)",
+          "date": "1900",
+          "medium": "Oil on canvas",
+          "dimensions": "65.4 × 92.6 cm (25 3/4 × 36 3/8 in.); Framed: 86.4 × 110.5 × 10.2 cm (34 × 43 1/2 × 4 in.)",
+          "institution": "Art Institute of Chicago",
+          "canonical_url": "https://www.artic.edu/artworks/103139"
+        },
+        "rights": {
+          "license": "CC0-1.0",
+          "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "evidence": {
+            "provider_field": "is_public_domain",
+            "provider_value": true,
+            "image_url": "https://www.artic.edu/iiif/2/6f61a6fc-dcd8-e801-0ad8-5f7e561d91b6/full/1686,/0/default.jpg",
+            "observed_at": "2026-10-06T11:48:13+00:00",
+            "image_field": null,
+            "uuid": null
+          }
+        }
+      },
+      {
+        "id": "met-12137",
+        "image": "assets/0fdc00c7c03d08692da417370c56ddf4b8d40d28130c1af15dc68e9ef1efbef0.jpg",
+        "thumbnail": "assets/9deaef0189cde40bdb06b5b5a249a861f271c911898dddfdeb9220b960c00f89.webp",
+        "alt_text": "Whitewashed Moorish buildings with arched green doors above a rough, pale stony foreground, in the soft light of a cloudy day.",
+        "width": 1423,
+        "height": 1080,
+        "orientation": "landscape",
+        "focal_x": 0.5,
+        "focal_y": 0.5,
+        "mean_colour": "#888281",
+        "placard": {
+          "title": "Moorish Buildings on a Cloudy Day",
+          "creator": "John Singer Sargent (American, Florence 1856–1925 London)",
+          "date": "1879–80",
+          "medium": "Oil on wood",
+          "dimensions": "10 1/4 x 13 3/4 in. (26 x 34.9 cm)",
+          "institution": "The Metropolitan Museum of Art",
+          "canonical_url": "https://www.metmuseum.org/art/collection/search/12137"
+        },
+        "rights": {
+          "license": "CC0-1.0",
+          "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "evidence": {
+            "provider_field": "isPublicDomain",
+            "provider_value": true,
+            "image_url": "https://images.metmuseum.org/CRDImages/ad/original/ap50.130.7.jpg",
+            "observed_at": "2026-10-06T11:48:15+00:00",
+            "image_field": "primaryImage",
+            "uuid": null
+          }
+        }
+      },
+      {
+        "id": "aic-44831",
+        "image": "assets/9bb08671b5201b3fe7d27d654b91dc8f15a8e145c469843d6aeea3aaba9878f6.jpg",
+        "thumbnail": "assets/27eb902cd0933178b83f2779572ff4150bc0ff61b7b33fa3d9cbb4ead3dd82a3.webp",
+        "alt_text": "Strollers, families and dogs under tall trees on the sunny paths of Boston Common, with the city's rooftops on the hill beyond.",
+        "width": 1353,
+        "height": 1080,
+        "orientation": "landscape",
+        "focal_x": 0.5,
+        "focal_y": 0.5,
+        "mean_colour": "#6d6b46",
+        "placard": {
+          "title": "Boston Common",
+          "creator": "Artist unknown (American, 19th century)",
+          "date": "1850–63",
+          "medium": "Oil on canvas",
+          "dimensions": "43.6 × 53.5 cm (17 1/8 × 21 in.)",
+          "institution": "Art Institute of Chicago",
+          "canonical_url": "https://www.artic.edu/artworks/44831"
+        },
+        "rights": {
+          "license": "CC0-1.0",
+          "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "evidence": {
+            "provider_field": "is_public_domain",
+            "provider_value": true,
+            "image_url": "https://www.artic.edu/iiif/2/fad138a8-80f1-45a3-1dc7-b9ff991b4812/full/1686,/0/default.jpg",
+            "observed_at": "2026-10-06T11:48:18+00:00",
+            "image_field": null,
+            "uuid": null
+          }
+        }
+      },
+      {
+        "id": "aic-16545",
+        "image": "assets/a5b78f43f5be863708ebccc340f7a705e1a0ded69ae02d69e0a3c401c742e6e1.jpg",
+        "thumbnail": "assets/5f4f7dcee50a017f762786859d3cfbf73e474f93ac2dc0c28c8dba500ed2b707.webp",
+        "alt_text": "The Brooklyn Bridge spanning a turquoise river above red brick rooftops under a golden evening sky.",
+        "width": 1396,
+        "height": 1080,
+        "orientation": "landscape",
+        "focal_x": 0.5,
+        "focal_y": 0.5,
+        "mean_colour": "#7d8264",
+        "placard": {
+          "title": "Brooklyn Bridge",
+          "creator": "Henry Ward Ranger (American, 1858–1916)",
+          "date": "1899",
+          "medium": "Oil on canvas",
+          "dimensions": "72.4 × 91.8 cm (28 1/2 × 36 1/8 in.)",
+          "institution": "Art Institute of Chicago",
+          "canonical_url": "https://www.artic.edu/artworks/16545"
+        },
+        "rights": {
+          "license": "CC0-1.0",
+          "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "evidence": {
+            "provider_field": "is_public_domain",
+            "provider_value": true,
+            "image_url": "https://www.artic.edu/iiif/2/a4717de1-d95c-fd87-a9c7-688da84abcf9/full/1686,/0/default.jpg",
+            "observed_at": "2026-10-06T11:48:20+00:00",
+            "image_field": null,
+            "uuid": null
+          }
+        }
+      },
+      {
+        "id": "cleveland-150737",
+        "image": "assets/6fd995fe693b3107d25d3ee57d9446fc3028aef30894194eee01c1cd639425f7.jpg",
+        "thumbnail": "assets/f612762a7639438e76be2dd5627155af9e5920f991db0fdadb486b09dc0ca9dc.webp",
+        "alt_text": "A fine ink drawing of a villa with an ornate gateway and potted trees, seen through an arch of leafy vines, with a figure and a small dog in front.",
+        "width": 1378,
+        "height": 1080,
+        "orientation": "landscape",
+        "focal_x": 0.5,
+        "focal_y": 0.5,
+        "mean_colour": "#b8b0a4",
+        "placard": {
+          "title": "Villa Palatina",
+          "creator": "Peter Heinrich Lambert von Hess (German, 1792–1871)",
+          "date": "1830",
+          "medium": "pen and black ink with faint traces of graphite; framing lines in black ink, with gray wash border",
+          "dimensions": "Sheet: 26.8 x 35.2 cm (10 9/16 x 13 7/8 in.); Image: 19.3 x 26 cm (7 5/8 x 10 1/4 in.)",
+          "institution": "The Cleveland Museum of Art",
+          "canonical_url": "https://clevelandart.org/art/1982.159"
+        },
+        "rights": {
+          "license": "CC0-1.0",
+          "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "evidence": {
+            "provider_field": "share_license_status",
+            "provider_value": "CC0",
+            "image_url": "https://openaccess-cdn.clevelandart.org/1982.159/1982.159_print.jpg",
+            "observed_at": "2026-10-06T11:48:24+00:00",
+            "image_field": null,
+            "uuid": null
+          }
+        }
+      },
+      {
+        "id": "aic-45267",
+        "image": "assets/70e1f11af99533393d2b74bdc79ac329c92ca52f32e2fd7943a15b9e085d9610.jpg",
+        "thumbnail": "assets/7f82ecb30e238a9f35490ca18f1ac0c31418255d6de32ca92f38980c23c7caf3.webp",
+        "alt_text": "A sunlit road on a Roman hilltop leading to a church with two bell towers and an obelisk, with a few figures and a pale sky.",
+        "width": 1671,
+        "height": 1080,
+        "orientation": "landscape",
+        "focal_x": 0.5,
+        "focal_y": 0.5,
+        "mean_colour": "#988b78",
+        "placard": {
+          "title": "Monte Pincio, Rome",
+          "creator": "Jean-Baptiste-Camille Corot (French, 1796–1875)",
+          "date": "1840–50",
+          "medium": "Oil on canvas",
+          "dimensions": "27 × 40.6 cm (10 5/8 × 16 in.); Framed: 41.3 × 54.7 cm (16 1/4 × 21 1/2 in.)",
+          "institution": "Art Institute of Chicago",
+          "canonical_url": "https://www.artic.edu/artworks/45267"
+        },
+        "rights": {
+          "license": "CC0-1.0",
+          "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "evidence": {
+            "provider_field": "is_public_domain",
+            "provider_value": true,
+            "image_url": "https://www.artic.edu/iiif/2/0aff6ae5-99ae-d92c-1239-0bc9bb0ad9ae/full/1686,/0/default.jpg",
+            "observed_at": "2026-10-06T11:48:26+00:00",
+            "image_field": null,
+            "uuid": null
+          }
+        }
+      },
+      {
+        "id": "cleveland-152265",
+        "image": "assets/ec2117a0402bc6be61fce58373779755588c4ed77ff53ad70e6d8c74fd1d3311.jpg",
+        "thumbnail": "assets/3cdd0892a9e6e5f1212287a13a973b7f50887d624bd78b98d476039334303940.webp",
+        "alt_text": "Workers with wheelbarrows crossing a snowy building site in front of old brick houses and bare trees in Amsterdam.",
+        "width": 1448,
+        "height": 1080,
+        "orientation": "landscape",
+        "focal_x": 0.5,
+        "focal_y": 0.5,
+        "mean_colour": "#81776a",
+        "placard": {
+          "title": "Construction Site in Amsterdam",
+          "creator": "George Hendrik Breitner (Dutch, 1857–1923)",
+          "date": "c. 1902",
+          "medium": "oil on fabric",
+          "dimensions": "Framed: 80 x 100 x 8.6 cm (31 1/2 x 39 3/8 x 3 3/8 in.); Unframed: 60.5 x 80.7 cm (23 13/16 x 31 3/4 in.)",
+          "institution": "The Cleveland Museum of Art",
+          "canonical_url": "https://clevelandart.org/art/1985.145"
+        },
+        "rights": {
+          "license": "CC0-1.0",
+          "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "evidence": {
+            "provider_field": "share_license_status",
+            "provider_value": "CC0",
+            "image_url": "https://openaccess-cdn.clevelandart.org/1985.145/1985.145_print.jpg",
+            "observed_at": "2026-10-06T11:48:30+00:00",
+            "image_field": null,
+            "uuid": null
+          }
+        }
+      },
+      {
+        "id": "aic-185775",
+        "image": "assets/ffb43c7563c53866aa1d5b07aaa1cbf32820b098135892fb3ddda4dcccdd734f.jpg",
+        "thumbnail": "assets/9418d97f9bba71a39151bb118b3cedc99226016d50acb64161fc57b7041060a4.webp",
+        "alt_text": "A stone terrace of an Italian villa garden with tall umbrella pines, a large urn and a peacock, in warm golden light.",
+        "width": 1471,
+        "height": 1080,
+        "orientation": "landscape",
+        "focal_x": 0.5,
+        "focal_y": 0.5,
+        "mean_colour": "#9e8550",
+        "placard": {
+          "title": "View on the Grounds of a Villa near Florence",
+          "creator": "Richard Parkes Bonington (British, 1802–1828)",
+          "date": "1826",
+          "medium": "Oil on millboard, mounted on canvas",
+          "dimensions": "43.1 × 58.4 cm (17 × 23 in.); Framed: 60.4 × 76.2 cm (23 3/4 × 30 in.)",
+          "institution": "Art Institute of Chicago",
+          "canonical_url": "https://www.artic.edu/artworks/185775"
+        },
+        "rights": {
+          "license": "CC0-1.0",
+          "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "evidence": {
+            "provider_field": "is_public_domain",
+            "provider_value": true,
+            "image_url": "https://www.artic.edu/iiif/2/26421d10-27fc-e656-613d-12f4f2a20381/full/1686,/0/default.jpg",
+            "observed_at": "2026-10-06T11:48:33+00:00",
+            "image_field": null,
+            "uuid": null
+          }
+        }
+      },
+      {
+        "id": "aic-81574",
+        "image": "assets/573934c1eba7ad2c81a4c800b8533bcd63a4da1e91192d37bcd4c2bbecb4bf25.jpg",
+        "thumbnail": "assets/134744d495cb7aee900d97d8a9c102a5d214f3e922eb15a7cb7bca6248975b7f.webp",
+        "alt_text": "Sailing barges and rowing boats on the grey-silver Thames at Battersea, with factory chimneys along the far shore.",
+        "width": 1474,
+        "height": 1080,
+        "orientation": "landscape",
+        "focal_x": 0.5,
+        "focal_y": 0.5,
+        "mean_colour": "#938d7a",
+        "placard": {
+          "title": "Grey and Silver: Old Battersea Reach",
+          "creator": "James McNeill Whistler (American, 1834–1903)",
+          "date": "1863",
+          "medium": "Oil on canvas",
+          "dimensions": "50.8 × 68.6 cm (20 × 27 in.)",
+          "institution": "Art Institute of Chicago",
+          "canonical_url": "https://www.artic.edu/artworks/81574"
+        },
+        "rights": {
+          "license": "CC0-1.0",
+          "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "evidence": {
+            "provider_field": "is_public_domain",
+            "provider_value": true,
+            "image_url": "https://www.artic.edu/iiif/2/f0b3ff64-d68e-3fd2-ffc9-5470eb9fea6e/full/1686,/0/default.jpg",
+            "observed_at": "2026-10-06T11:48:35+00:00",
+            "image_field": null,
+            "uuid": null
+          }
+        }
+      },
+      {
+        "id": "aic-196393",
+        "image": "assets/ca0b8f75cbdff6fdd1e525a6c98a9e4d7f7ecd1707ebe954d9475764d6a15998.jpg",
+        "thumbnail": "assets/8a4cc9b8ab3ea48945488babbf5084ae54a9ee1a4790f571f3e6396a46e22e88.webp",
+        "alt_text": "A blue and tan architectural rendering of a planned civic centre, with a domed hall at the end of a broad plaza lined with long buildings.",
+        "width": 1528,
+        "height": 1080,
+        "orientation": "landscape",
+        "focal_x": 0.5,
+        "focal_y": 0.5,
+        "mean_colour": "#898370",
+        "placard": {
+          "title": "View of the Proposed Civic Center Plaza and Buildings, The 1909 Plan of Chicago",
+          "creator": "Daniel Hudson Burnham, American, 1846-1912 (Edward Herbert Bennett, American, born England, 1874-1954, Jules Guerin, delineator, American, 1866-1946)",
+          "date": "1908",
+          "medium": "Graphite and watercolor on paper",
+          "dimensions": "75.4 × 105.5 cm (29 3/4 × 41 1/2 in.)",
+          "institution": "Art Institute of Chicago",
+          "canonical_url": "https://www.artic.edu/artworks/196393"
+        },
+        "rights": {
+          "license": "CC0-1.0",
+          "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "evidence": {
+            "provider_field": "is_public_domain",
+            "provider_value": true,
+            "image_url": "https://www.artic.edu/iiif/2/852d6728-8036-37d3-cd3e-0a5e1745611d/full/1686,/0/default.jpg",
+            "observed_at": "2026-10-06T11:48:37+00:00",
+            "image_field": null,
+            "uuid": null
+          }
+        }
+      },
+      {
+        "id": "aic-20684",
+        "image": "assets/b9631d9fb0c33c64abae7f1d65881d320b530042bd73e0a6a30da0ae9b98cded.jpg",
+        "thumbnail": "assets/f99d77fc55f5de2f326b793ce9846253abe20feec739ce112d0ebd6d52ec058a.webp",
+        "alt_text": "A wide Paris crossroads on a rainy day, with tall cream buildings, wet cobblestones and people under grey umbrellas.",
+        "width": 1391,
+        "height": 1080,
+        "orientation": "landscape",
+        "focal_x": 0.5,
+        "focal_y": 0.5,
+        "mean_colour": "#7a7b7a",
+        "placard": {
+          "title": "Paris Street; Rainy Day",
+          "creator": "Gustave Caillebotte (French, 1848–1894)",
+          "date": "1877",
+          "medium": "Oil on canvas",
+          "dimensions": "212.2 × 276.2 cm (83 1/2 × 108 3/4 in.); Framed: 241.3 × 306.1 × 10.2 cm (95 × 120 1/2 × 4 in.)",
+          "institution": "Art Institute of Chicago",
+          "canonical_url": "https://www.artic.edu/artworks/20684"
+        },
+        "rights": {
+          "license": "CC0-1.0",
+          "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "evidence": {
+            "provider_field": "is_public_domain",
+            "provider_value": true,
+            "image_url": "https://www.artic.edu/iiif/2/f8fd76e9-c396-5678-36ed-6a348c904d27/full/1686,/0/default.jpg",
+            "observed_at": "2026-10-06T11:48:40+00:00",
+            "image_field": null,
+            "uuid": null
+          }
+        }
+      },
+      {
+        "id": "aic-152850",
+        "image": "assets/99f22be6bd921d56db05db56cf3a47b873f358d148e39f9ef5cc6c7eb0f4f8e0.jpg",
+        "thumbnail": "assets/665f7ee4b1c714fa13699fcc6c4dcd203da6ca27838326d469e939e5f294d411.webp",
+        "alt_text": "The weathered brick walls of the ancient palace on Rome's Palatine Hill, overgrown with trees, above a sunny open ground.",
+        "width": 1465,
+        "height": 1080,
+        "orientation": "landscape",
+        "focal_x": 0.5,
+        "focal_y": 0.5,
+        "mean_colour": "#766f52",
+        "placard": {
+          "title": "The Imperial Palace on the Palatine, Rome",
+          "creator": "Paul-Jean Flandrin (French, 1811–1902)",
+          "date": "1834",
+          "medium": "Oil on card",
+          "dimensions": "21.9 × 29.5 cm (8 5/8 × 11 5/8 in.); Framed: 30.5 × 36.9 cm (12 × 14 1/2 in.)",
+          "institution": "Art Institute of Chicago",
+          "canonical_url": "https://www.artic.edu/artworks/152850"
+        },
+        "rights": {
+          "license": "CC0-1.0",
+          "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "evidence": {
+            "provider_field": "is_public_domain",
+            "provider_value": true,
+            "image_url": "https://www.artic.edu/iiif/2/fe633bf9-a401-490e-49c0-0ba6af6ece8c/full/1686,/0/default.jpg",
+            "observed_at": "2026-10-06T11:48:42+00:00",
+            "image_field": null,
+            "uuid": null
+          }
+        }
+      },
+      {
+        "id": "aic-69538",
+        "image": "assets/c486145059bc9a1428f64427c23736a86fd6cda5173765e8572f49eaeb0b628b.jpg",
+        "thumbnail": "assets/95bf357d9eb3ab399e74b92fc4c409389188916e89f91aa599c4a0c561c1b2d2.webp",
+        "alt_text": "A country estate at sunset, with a white house and a domed pavilion among trees beyond a lake crossed by a stone bridge.",
+        "width": 1515,
+        "height": 1080,
+        "orientation": "landscape",
+        "focal_x": 0.5,
+        "focal_y": 0.5,
+        "mean_colour": "#7b573c",
+        "placard": {
+          "title": "Point Breeze, the Estate of Joseph Napoleon Bonaparte at Bordentown, New Jersey",
+          "creator": "Attributed to Charles Lawrence (American, active 1813–1837)",
+          "date": "1817–20",
+          "medium": "Oil on canvas",
+          "dimensions": "68.6 × 92.7 cm (27 × 36 1/2 in.)",
+          "institution": "Art Institute of Chicago",
+          "canonical_url": "https://www.artic.edu/artworks/69538"
+        },
+        "rights": {
+          "license": "CC0-1.0",
+          "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "evidence": {
+            "provider_field": "is_public_domain",
+            "provider_value": true,
+            "image_url": "https://www.artic.edu/iiif/2/4cdc7a89-3bd3-704c-1c16-c35576a8615a/full/1686,/0/default.jpg",
+            "observed_at": "2026-10-06T11:48:45+00:00",
+            "image_field": null,
+            "uuid": null
+          }
+        }
+      }
+    ]
+  }
+}

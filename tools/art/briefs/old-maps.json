@@ -1,0 +1,130 @@
+{
+  "slug": "old-maps",
+  "id": "denframe/old-maps",
+  "version": "1.0.0",
+  "name": "Old maps and charts",
+  "description": "Decorative maps, city plans, bird's-eye views and celestial charts made before 1900, for a screen that rewards a closer look.",
+  "shape": "landscape",
+  "works": [
+    {
+      "provider": "aic",
+      "object_id": "33151",
+      "alt_text": "A pictorial map of the Tōkaidō road crowded with tiny towns, rivers and bays in green and blue, with Mount Fuji and a red sun at the top left."
+    },
+    {
+      "provider": "met",
+      "object_id": "729610",
+      "alt_text": "A hand-coloured allegorical map of a Kingdom of Love, with pastel regions, rivers, little mountains and German place names."
+    },
+    {
+      "provider": "met",
+      "object_id": "587676",
+      "alt_text": "A hand-coloured bird's-eye map of Alexandria, its walled city on a green coast with sailing ships on a blue sea."
+    },
+    {
+      "provider": "met",
+      "object_id": "380748",
+      "alt_text": "A coloured street map of lower Manhattan with ward boundaries, a street index at the side and small pictures of buildings along the top."
+    },
+    {
+      "provider": "aic",
+      "object_id": "14938",
+      "alt_text": "A Japanese world map of two hemispheres on a dark blue ground, with continents in red, yellow and green under a red title panel."
+    },
+    {
+      "provider": "met",
+      "object_id": "403169",
+      "alt_text": "An engraved map of Greece and the Aegean Sea crowded with islands and place names, with a decorative cartouche at the lower left."
+    },
+    {
+      "provider": "met",
+      "object_id": "403213",
+      "alt_text": "An engraved plan of ancient Rome showing its monuments, walls and the winding Tiber, with Latin text panels."
+    },
+    {
+      "provider": "met",
+      "object_id": "336076",
+      "alt_text": "A pale drawn map of the hills and walls of ancient Rome beside a classical monument where a man sits reading."
+    },
+    {
+      "provider": "met",
+      "object_id": "358826",
+      "alt_text": "An engraved plan of eighteenth-century Rome on joined sheets, with a decorative title cartouche, a compass rose and long index columns."
+    },
+    {
+      "provider": "met",
+      "object_id": "363048",
+      "alt_text": "A plan of ancient Rome drawn as fragments of a broken marble map, with the word ROMA in large letters across the top."
+    },
+    {
+      "provider": "met",
+      "object_id": "399284",
+      "alt_text": "A bird's-eye engraving of Venice floating in its lagoon, with mountains beyond, coats of arms at the top and Latin verses below."
+    },
+    {
+      "provider": "met",
+      "object_id": "386248",
+      "alt_text": "A pale map of early New York at the tip of Manhattan, with streets, wharves, a large title and coats of arms."
+    },
+    {
+      "provider": "met",
+      "object_id": "381082",
+      "alt_text": "A black and white bird's-eye view of New York and Brooklyn on either side of the East River, crowded with ships."
+    },
+    {
+      "provider": "met",
+      "object_id": "397506",
+      "alt_text": "An engraved view of the Inn Valley with steep alpine peaks above fields and villages, and two smaller valley scenes below."
+    },
+    {
+      "provider": "met",
+      "object_id": "341751",
+      "alt_text": "A coloured bird's-eye view of the Brooklyn Bridge lit by fireworks over a night harbour full of sailing boats and steamers."
+    },
+    {
+      "provider": "aic",
+      "object_id": "31867",
+      "alt_text": "A facsimile of an early world map on a heart-shaped projection, ringed by puffing wind heads, printed on cream paper."
+    },
+    {
+      "provider": "aic",
+      "object_id": "152512",
+      "alt_text": "A facsimile of Mercator's map of the Arctic, a round map of the North Pole in a decorative square frame with corner roundels."
+    },
+    {
+      "provider": "aic",
+      "object_id": "14929",
+      "alt_text": "A Japanese print of an ornate celestial globe on a red stand, below a black title panel with large characters and red seals."
+    },
+    {
+      "provider": "cleveland",
+      "object_id": "127251",
+      "alt_text": "A woodcut bird's-eye view of part of Venice from high above, with the lagoon, distant mountains and wind heads in the clouds."
+    },
+    {
+      "provider": "cleveland",
+      "object_id": "127250",
+      "alt_text": "A woodcut bird's-eye view of the whole of Venice set in its lagoon, surrounded by ships, clouds and small islands."
+    },
+    {
+      "provider": "cleveland",
+      "object_id": "423521",
+      "alt_text": "A section of an engraved street plan of Rome showing a bend of the Tiber, city blocks and gardens in fine black lines."
+    },
+    {
+      "provider": "cleveland",
+      "object_id": "423516",
+      "alt_text": "A section of an engraved street plan of central Rome, densely packed with dark city blocks between pale streets and squares."
+    },
+    {
+      "provider": "met",
+      "object_id": "811116",
+      "alt_text": "A coloured view looking down on a busy London livestock market, with pens of sheep and cattle in a square ringed by houses."
+    },
+    {
+      "provider": "met",
+      "object_id": "360669",
+      "alt_text": "An etched view of the walled town of Augsburg across a river, with a tall church tower rising above the roofs."
+    }
+  ]
+}

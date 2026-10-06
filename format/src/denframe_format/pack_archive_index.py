@@ -19,9 +19,11 @@ from .pack_contracts import (
     MAX_PACK_DOCUMENTS,
     MAX_PACK_EXPANDED,
     MAX_PACK_FILES,
-    PackDefinition,
+    PACK_KIND_CAPABILITIES,
+    AnyPackDefinition,
     PackManifest,
     PackResource,
+    parse_pack_definition,
 )
 
 CHUNK_SIZE = 64 * 1024
@@ -30,7 +32,7 @@ CHUNK_SIZE = 64 * 1024
 @contextmanager
 def _open_pack_archive(
     path: Path,
-) -> Iterator[tuple[ZipFile, PackManifest, PackDefinition, int, bytes, bytes]]:
+) -> Iterator[tuple[ZipFile, PackManifest, AnyPackDefinition, int, bytes, bytes]]:
     limits = ArchiveLimits(
         MAX_PACK_ARCHIVE, MAX_PACK_EXPANDED, MAX_PACK_FILES, MAX_PACK_COMPRESSION_RATIO
     )
@@ -41,7 +43,9 @@ def _open_pack_archive(
         manifest_raw = index.read("manifest.json", MAX_PACK_DOCUMENTS)
         definition_raw = index.read("definition.json", MAX_PACK_DOCUMENTS - len(manifest_raw))
         manifest = PackManifest.model_validate(strict_json(manifest_raw))
-        definition = PackDefinition.model_validate(strict_json(definition_raw))
+        definition = parse_pack_definition(strict_json(definition_raw))
+        if set(manifest.required_capabilities) != set(PACK_KIND_CAPABILITIES[definition.kind]):
+            raise ValueError("Manifest capabilities do not match the definition's kind")
         if definition_raw != canonical(definition.model_dump(mode="json")):
             raise ValueError("Definition must use canonical encoding with explicit defaults")
         if digest(definition_raw) != manifest.definition_sha256:
@@ -55,7 +59,7 @@ def _open_pack_archive(
 @contextmanager
 def open_pack_archive(
     path: Path,
-) -> Iterator[tuple[ZipFile, PackManifest, PackDefinition, int, bytes, bytes]]:
+) -> Iterator[tuple[ZipFile, PackManifest, AnyPackDefinition, int, bytes, bytes]]:
     try:
         with _open_pack_archive(path) as value:
             yield value

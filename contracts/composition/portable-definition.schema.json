@@ -216,7 +216,8 @@
             "columns",
             "stage",
             "grid",
-            "overlay"
+            "overlay",
+            "wall"
           ],
           "title": "Layout",
           "type": "string"
@@ -340,6 +341,15 @@
             "strong"
           ],
           "title": "Overlay Scrim",
+          "type": "string"
+        },
+        "wall_dock": {
+          "default": "top",
+          "enum": [
+            "top",
+            "side"
+          ],
+          "title": "Wall Dock",
           "type": "string"
         }
       },

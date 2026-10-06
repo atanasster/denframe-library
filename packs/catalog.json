@@ -26,5 +26,57 @@
   {
     "slug": "shapes-and-colours",
     "distribution": "library"
+  },
+  {
+    "slug": "calm-landscapes",
+    "distribution": "included"
+  },
+  {
+    "slug": "botanical-plates",
+    "distribution": "included"
+  },
+  {
+    "slug": "seascapes",
+    "distribution": "library"
+  },
+  {
+    "slug": "japanese-woodblocks",
+    "distribution": "library"
+  },
+  {
+    "slug": "impressionist-gardens",
+    "distribution": "library"
+  },
+  {
+    "slug": "birds",
+    "distribution": "library"
+  },
+  {
+    "slug": "old-maps",
+    "distribution": "library"
+  },
+  {
+    "slug": "night-and-winter",
+    "distribution": "library"
+  },
+  {
+    "slug": "still-life",
+    "distribution": "library"
+  },
+  {
+    "slug": "abstract-and-colour",
+    "distribution": "library"
+  },
+  {
+    "slug": "patterns-and-textiles",
+    "distribution": "library"
+  },
+  {
+    "slug": "architecture",
+    "distribution": "library"
+  },
+  {
+    "slug": "portrait-wall",
+    "distribution": "library"
   }
 ]

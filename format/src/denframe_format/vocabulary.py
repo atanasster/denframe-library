@@ -75,7 +75,9 @@ ACCENTS: tuple[Accent, ...] = get_args(Accent)
 #: in one corner over a scrim. The name is the *layout family* -- unrelated to the receiver's
 #: alert overlay (`display.css`) or Studio's editing overlay (`DisplayFrame.tsx`), neither of
 #: which is an authored layout; those are chrome drawn over whatever family is resolved.
-Layout = Literal["auto", "flow", "columns", "stage", "grid", "overlay"]
+#: `wall` (family calendar step 12, plan §5) is the calendar wall: one calendar block owns the
+#: canvas and the other blocks read in a measured dock along one edge, nothing drawn over it.
+Layout = Literal["auto", "flow", "columns", "stage", "grid", "overlay", "wall"]
 LAYOUTS: tuple[Layout, ...] = get_args(Layout)
 
 #: Which corner of the safe area the overlay stacks its text into. Appearance, not geometry:
@@ -87,6 +89,20 @@ OVERLAY_CORNERS: tuple[OverlayCorner, ...] = get_args(OverlayCorner)
 #: the vocabulary, the wire and the capability land once.
 OverlayScrim = Literal["soft", "standard", "strong"]
 OVERLAY_SCRIMS: tuple[OverlayScrim, ...] = get_args(OverlayScrim)
+
+#: Which edge of the canvas holds the calendar wall's dock: along the `top`, or down the leading
+#: `side` (a landscape canvas only; a portrait or square one docks at the top whatever this
+#: says). Appearance, not geometry: the dock's size is measured (`wallLayoutFor`).
+WallDock = Literal["top", "side"]
+WALL_DOCKS: tuple[WallDock, ...] = get_args(WallDock)
+
+#: The calendar block's views (family calendar plan step 2, §5). `auto` lets the cell's
+#: measurement choose; `columns` and `lanes` are the person views; `month` is only ever authored.
+#: Carried as the calendar's own `view` override; the views themselves arrive in steps 8-11.
+CalendarView = Literal[
+    "auto", "next", "agenda", "week", "columns", "lanes", "rolling_month", "month"
+]
+CALENDAR_VIEWS: tuple[CalendarView, ...] = get_args(CalendarView)
 
 Region = Literal["auto", "header", "main", "secondary", "stage", "side"]
 Importance = Literal["required", "normal", "optional"]

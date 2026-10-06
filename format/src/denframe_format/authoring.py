@@ -11,12 +11,21 @@ from typing import Any
 from .elements import Definition, Manifest, PortableBlock, SourceSlot, build_element, build_package
 from .encoding import canonical, digest, strict_json
 from .pack_archives import build_archive, validate_archive
-from .pack_contracts import MAX_PACK_DOCUMENTS, MAX_PACK_EXPANDED, PackDefinition, PackManifest
+from .pack_contracts import (
+    MAX_PACK_DOCUMENTS,
+    MAX_PACK_EXPANDED,
+    PACK_KIND_CAPABILITIES,
+    AnyPackDefinition,
+    GalleryDefinition,
+    PackDefinition,
+    PackManifest,
+    parse_pack_definition,
+)
 from .themes import BUILTIN_THEMES
 from .validation import inspect_archive
 
 
-def read_source(path: Path) -> tuple[dict, Definition | PackDefinition, bytes]:
+def read_source(path: Path) -> tuple[dict, Definition | AnyPackDefinition, bytes]:
     """Build a bounded author document, preserving optional explicit manifest metadata."""
     with path.open("rb") as source:
         raw = source.read(MAX_PACK_DOCUMENTS + 1)
@@ -36,11 +45,15 @@ def read_source(path: Path) -> tuple[dict, Definition | PackDefinition, bytes]:
         raise ValueError("Author document needs id, version and definition")
     if "manifest" in item and not isinstance(item["manifest"], dict):
         raise ValueError("Manifest must be an object")
-    definition: Definition | PackDefinition
+    definition: Definition | AnyPackDefinition
     manifest: Manifest | PackManifest
-    if item["definition"].get("kind") == "pack":
-        definition = PackDefinition.model_validate(item["definition"])
-        values = {"publisher": item.get("publisher", "Local author"), **item.get("manifest", {})}
+    if item["definition"].get("kind") in PACK_KIND_CAPABILITIES:
+        definition = parse_pack_definition(item["definition"])
+        values = {
+            "publisher": item.get("publisher", "Local author"),
+            "required_capabilities": list(PACK_KIND_CAPABILITIES[definition.kind]),
+            **item.get("manifest", {}),
+        }
         manifest = PackManifest.model_validate(source_manifest(item, definition, values))
         check_resources(path.parent, definition)
         with tempfile.TemporaryDirectory(prefix="denframe-author-") as temporary:
@@ -64,7 +77,7 @@ def read_source(path: Path) -> tuple[dict, Definition | PackDefinition, bytes]:
     return item, definition, archive
 
 
-def source_manifest(item: dict, definition: Definition | PackDefinition, values: dict) -> dict:
+def source_manifest(item: dict, definition: Definition | AnyPackDefinition, values: dict) -> dict:
     if any(key in values and values[key] != item[key] for key in ("id", "version")):
         raise ValueError("Source and manifest identities differ")
     return {
@@ -75,7 +88,7 @@ def source_manifest(item: dict, definition: Definition | PackDefinition, values:
     }
 
 
-def check_resources(root: Path, definition: PackDefinition) -> None:
+def check_resources(root: Path, definition: AnyPackDefinition) -> None:
     total = 0
     for resource in definition.resources:
         path = root / resource.path
@@ -117,7 +130,7 @@ def unpack(path: Path, destination: Path) -> Path:
     }
     with tempfile.TemporaryDirectory(prefix="denframe-unpack-") as temporary:
         staging = Path(temporary) / "source"
-        if isinstance(result.definition, PackDefinition):
+        if isinstance(result.definition, PackDefinition | GalleryDefinition):
             validate_archive(path, staging)
             (staging / "manifest.json").unlink()
             (staging / "definition.json").unlink()

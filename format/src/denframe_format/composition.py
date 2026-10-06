@@ -25,9 +25,11 @@ from .capabilities import (
     LIBRARY_PROVENANCE_CAPABILITY,
     OVERLAY_LAYOUT_CAPABILITY,
     PICTURE_FILL_CAPABILITY,
+    WALL_LAYOUT_CAPABILITY,
     background_requires_capability,
     block_style_requires_capability,
     overlay_requires_capability,
+    wall_requires_capability,
 )
 from .vocabulary import (
     Accent,
@@ -49,6 +51,7 @@ from .vocabulary import (
     Region,
     Spacing,
     TextSize,
+    WallDock,
 )
 
 if TYPE_CHECKING:
@@ -145,6 +148,8 @@ CANVAS_FIELDS = ("margin", "face", "radius")
 # same byte-identity reason: a document that never authored an overlay is unchanged on the
 # wire, and an older receiver's strict parser never sees a field it would refuse.
 OVERLAY_FIELDS = ("overlay_corner", "overlay_scrim")
+# The calendar wall's dock edge (family calendar step 12), on the overlay settings' terms.
+WALL_FIELDS = ("wall_dock",)
 
 
 def _omit_fields_at_default(
@@ -358,6 +363,11 @@ class Appearance(BaseModel):
     # household's choice -- `grid_collision` is carried on the same terms.
     overlay_corner: OverlayCorner = "bottom-left"
     overlay_scrim: OverlayScrim = "standard"
+    # The calendar wall's dock edge (family calendar step 12, plan §5): along the top, or down
+    # the leading side of a landscape canvas. The dock's size is measured (`wallLayoutFor`);
+    # this only names the edge. Inert under any other layout and kept across a family change,
+    # on the overlay settings' terms.
+    wall_dock: WallDock = "top"
 
     @field_validator("background_cadence_seconds", mode="before")
     @classmethod
@@ -391,7 +401,7 @@ class Appearance(BaseModel):
         return _omit_fields_at_default(
             Appearance,
             handler(self),
-            BACKGROUND_FIELDS + GRID_FIELDS + CANVAS_FIELDS + OVERLAY_FIELDS,
+            BACKGROUND_FIELDS + GRID_FIELDS + CANVAS_FIELDS + OVERLAY_FIELDS + WALL_FIELDS,
         )
 
 
@@ -566,6 +576,11 @@ class CompositionDocument(BaseModel):
             and OVERLAY_LAYOUT_CAPABILITY not in self.required_capabilities
         ):
             raise ValueError(f"An authored overlay requires {OVERLAY_LAYOUT_CAPABILITY} capability")
+        if (
+            wall_requires_capability(self.appearance.layout, wall_dock=self.appearance.wall_dock)
+            and WALL_LAYOUT_CAPABILITY not in self.required_capabilities
+        ):
+            raise ValueError(f"A calendar wall requires {WALL_LAYOUT_CAPABILITY} capability")
         if (
             requires_block_style(self.appearance, self.styles.values())
             and BLOCK_STYLE_CAPABILITY not in self.required_capabilities

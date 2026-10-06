@@ -2006,6 +2006,356 @@
       }
     },
     {
+      "id": "calendar-view-valid",
+      "file": "archives/calendar-view-valid.denframepack",
+      "sha256": "2af2b0fd400678341f34ace6fbbbf43a78fb1f4e2227e3527ed076f469326886",
+      "version": 1,
+      "expected": {
+        "host": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "pass",
+          "capabilities": "pass",
+          "contrast": "pass",
+          "media": "not applicable",
+          "trust": "not checked"
+        },
+        "cli": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "pass",
+          "capabilities": "pass",
+          "contrast": "pass",
+          "media": "not applicable",
+          "trust": "not checked"
+        },
+        "browser": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "pass",
+          "capabilities": "pass",
+          "contrast": "pass",
+          "media": "not checked",
+          "trust": "not checked"
+        }
+      }
+    },
+    {
+      "id": "calendar-view-unknown",
+      "file": "archives/calendar-view-unknown.denframepack",
+      "sha256": "69b50f4023bcf953f8ccb1e4fd87c9da8a0a52d1b173a245231933bd68446651",
+      "version": 1,
+      "expected": {
+        "host": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "fail",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        },
+        "cli": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "fail",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        },
+        "browser": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "fail",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        }
+      }
+    },
+    {
+      "id": "calendar-view-lock-string",
+      "file": "archives/calendar-view-lock-string.denframepack",
+      "sha256": "f32e4e3c9535d06477c118f4c18f08c2d4e22c899fddfdcd63a3251a9c1660ca",
+      "version": 1,
+      "expected": {
+        "host": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "fail",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        },
+        "cli": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "fail",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        },
+        "browser": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "fail",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        }
+      }
+    },
+    {
+      "id": "wall-capability-unneeded",
+      "file": "archives/wall-capability-unneeded.denframepack",
+      "sha256": "be30bba7af8a916cf5d8504817a62aa9c085a539228ba24d45f29827b072b812",
+      "version": 1,
+      "expected": {
+        "host": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "pass",
+          "capabilities": "warning",
+          "contrast": "pass",
+          "media": "not applicable",
+          "trust": "not checked"
+        },
+        "cli": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "pass",
+          "capabilities": "warning",
+          "contrast": "pass",
+          "media": "not applicable",
+          "trust": "not checked"
+        },
+        "browser": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "pass",
+          "capabilities": "warning",
+          "contrast": "pass",
+          "media": "not checked",
+          "trust": "not checked"
+        }
+      }
+    },
+    {
+      "id": "wall-layout-valid",
+      "file": "archives/wall-layout-valid.denframepack",
+      "sha256": "8a0b7655492782c968a9ebcecdce5db19c47ffea8ba2b58a5721cc0967269a38",
+      "version": 1,
+      "expected": {
+        "host": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "pass",
+          "capabilities": "pass",
+          "contrast": "pass",
+          "media": "not applicable",
+          "trust": "not checked"
+        },
+        "cli": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "pass",
+          "capabilities": "pass",
+          "contrast": "pass",
+          "media": "not applicable",
+          "trust": "not checked"
+        },
+        "browser": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "pass",
+          "capabilities": "pass",
+          "contrast": "pass",
+          "media": "not checked",
+          "trust": "not checked"
+        }
+      }
+    },
+    {
+      "id": "wall-dock-valid",
+      "file": "archives/wall-dock-valid.denframepack",
+      "sha256": "df03f89f7a05e0baa61728c4bf3d17accb6350e09157e12b293f5e6a3f692c0a",
+      "version": 1,
+      "expected": {
+        "host": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "pass",
+          "capabilities": "pass",
+          "contrast": "pass",
+          "media": "not applicable",
+          "trust": "not checked"
+        },
+        "cli": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "pass",
+          "capabilities": "pass",
+          "contrast": "pass",
+          "media": "not applicable",
+          "trust": "not checked"
+        },
+        "browser": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "pass",
+          "capabilities": "pass",
+          "contrast": "pass",
+          "media": "not checked",
+          "trust": "not checked"
+        }
+      }
+    },
+    {
+      "id": "wall-layout-missing-capability",
+      "file": "archives/wall-layout-missing-capability.denframepack",
+      "sha256": "c9eb11196b8164168afa9b27838eb1f3e85d4a4864d1aadbed29cc561a73cfd9",
+      "version": 1,
+      "expected": {
+        "host": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "pass",
+          "capabilities": "fail",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        },
+        "cli": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "pass",
+          "capabilities": "fail",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        },
+        "browser": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "pass",
+          "capabilities": "fail",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        }
+      }
+    },
+    {
+      "id": "wall-dock-missing-capability",
+      "file": "archives/wall-dock-missing-capability.denframepack",
+      "sha256": "cb82474380d94f4b51648a1389c0df86a945ee11f29532d00fa3c449149ca786",
+      "version": 1,
+      "expected": {
+        "host": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "pass",
+          "capabilities": "fail",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        },
+        "cli": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "pass",
+          "capabilities": "fail",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        },
+        "browser": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "pass",
+          "capabilities": "fail",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        }
+      }
+    },
+    {
+      "id": "wall-dock-unknown",
+      "file": "archives/wall-dock-unknown.denframepack",
+      "sha256": "f073558363163a9759d29a5ffe00df89eb33ffc721655d50ad8c02f94f2d34de",
+      "version": 1,
+      "expected": {
+        "host": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "fail",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        },
+        "cli": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "fail",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        },
+        "browser": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "fail",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        }
+      }
+    },
+    {
+      "id": "rewards-kind-host-only",
+      "file": "archives/rewards-kind-host-only.denframepack",
+      "sha256": "daa60de0e08fc37e9dd833888c805cc1d06b8ef32a71551c2df7997a64da39ca",
+      "version": 1,
+      "expected": {
+        "host": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "fail",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        },
+        "cli": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "fail",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        },
+        "browser": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "fail",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        }
+      }
+    },
+    {
       "id": "forbidden-setting",
       "file": "archives/forbidden-setting.denframepack",
       "sha256": "7ee1c4873e79ad15be33bd241f4b74283a2dedc5676d6e262260f50f23bdbe80",
@@ -2910,6 +3260,286 @@
           "schema": "pass",
           "capabilities": "pass",
           "contrast": "pass",
+          "media": "not checked",
+          "trust": "not checked"
+        }
+      }
+    },
+    {
+      "id": "gallery-valid",
+      "file": "archives/gallery-valid.denframepack",
+      "sha256": "c285457b73086f42350b6e63fbf50a6c3c1ea09be6b88f0cbce04d93d9a0a6f9",
+      "version": 2,
+      "expected": {
+        "host": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "pass",
+          "capabilities": "pass",
+          "contrast": "pass",
+          "media": "pass",
+          "trust": "not checked"
+        },
+        "cli": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "pass",
+          "capabilities": "pass",
+          "contrast": "pass",
+          "media": "pass",
+          "trust": "not checked"
+        },
+        "browser": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "pass",
+          "capabilities": "pass",
+          "contrast": "pass",
+          "media": "not checked",
+          "trust": "not checked"
+        }
+      }
+    },
+    {
+      "id": "gallery-activity-capabilities",
+      "file": "archives/gallery-activity-capabilities.denframepack",
+      "sha256": "75bc6c9d7e70bdd37699fd22e51a8d3b306d996f62758c4a950d0de2e5e00bfe",
+      "version": 2,
+      "expected": {
+        "host": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "fail",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        },
+        "cli": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "fail",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        },
+        "browser": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "fail",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        }
+      }
+    },
+    {
+      "id": "gallery-portrait-in-landscape",
+      "file": "archives/gallery-portrait-in-landscape.denframepack",
+      "sha256": "288928b2524e2d7cf9c8a2483a4d780b9039f2e25d91a8e69af598b4e35a1bc8",
+      "version": 2,
+      "expected": {
+        "host": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "fail",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        },
+        "cli": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "fail",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        },
+        "browser": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "fail",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        }
+      }
+    },
+    {
+      "id": "gallery-not-cc0",
+      "file": "archives/gallery-not-cc0.denframepack",
+      "sha256": "3640a71766fb36233ce29c97cb47d7888ecefb24ce2af3771cf33782c2686eeb",
+      "version": 2,
+      "expected": {
+        "host": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "fail",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        },
+        "cli": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "fail",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        },
+        "browser": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "fail",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        }
+      }
+    },
+    {
+      "id": "gallery-orientation-contradicts-size",
+      "file": "archives/gallery-orientation-contradicts-size.denframepack",
+      "sha256": "5d4d4da62c030f3e4c898422ac63a3034026a44d32dabb21deba462cdb912b33",
+      "version": 2,
+      "expected": {
+        "host": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "fail",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        },
+        "cli": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "fail",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        },
+        "browser": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "fail",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        }
+      }
+    },
+    {
+      "id": "gallery-unreferenced-resource",
+      "file": "archives/gallery-unreferenced-resource.denframepack",
+      "sha256": "23c472765a2697e4f941d4ccc9d63db5dd018ce43895bd6f238e9ae8193d6289",
+      "version": 2,
+      "expected": {
+        "host": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "fail",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        },
+        "cli": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "fail",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        },
+        "browser": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "fail",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        }
+      }
+    },
+    {
+      "id": "gallery-duplicate-work",
+      "file": "archives/gallery-duplicate-work.denframepack",
+      "sha256": "28cf5ec77bd4053fd823f9ffde2b73ab813d2071aa9ac59adc73e53bb9560914",
+      "version": 2,
+      "expected": {
+        "host": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "fail",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        },
+        "cli": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "fail",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        },
+        "browser": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "fail",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        }
+      }
+    },
+    {
+      "id": "gallery-missing-work-image",
+      "file": "archives/gallery-missing-work-image.denframepack",
+      "sha256": "5a1413776da72611290fe1e3304908937790bb42c374f08eb13cda3ac6f02fa8",
+      "version": 2,
+      "expected": {
+        "host": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "fail",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        },
+        "cli": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "fail",
+          "capabilities": "not checked",
+          "contrast": "not checked",
+          "media": "not checked",
+          "trust": "not checked"
+        },
+        "browser": {
+          "archive": "pass",
+          "json": "pass",
+          "schema": "fail",
+          "capabilities": "not checked",
+          "contrast": "not checked",
           "media": "not checked",
           "trust": "not checked"
         }
@@ -5106,6 +5736,105 @@
       },
       "file": "canonical/duration-max.json",
       "sha256": "984ff74c2c0bee9a7677554617369cff3008c1f58f7a0d1da0e6468b95e31ac6"
+    },
+    {
+      "id": "gallery-canonical",
+      "model": "gallery-v2",
+      "input": {
+        "schema_version": 2,
+        "kind": "gallery",
+        "name": "Gallery fixture",
+        "description": "One synthetic work, curated for the conformance corpus.",
+        "shape": "landscape",
+        "presentation": {
+          "fit": "fit",
+          "mat_style": "museum",
+          "placard_seconds": 12,
+          "cadence_seconds": 45
+        },
+        "strip": "assets/b0b601b87fb902bc9e89e2d89e5d987adb8ce5457bd8d59929c34ea06d96e133.webp",
+        "resources": [
+          {
+            "path": "assets/325f88f5e4b5caef5a36e6c353613f3596f36a8678094844ba78c7695e6bfb6b.jpg",
+            "sha256": "325f88f5e4b5caef5a36e6c353613f3596f36a8678094844ba78c7695e6bfb6b",
+            "length": 331,
+            "media_type": "image/jpeg",
+            "duration_seconds": null,
+            "credit": {
+              "creator": "Denframe test fixture",
+              "license": "CC0-1.0",
+              "attribution": "",
+              "source": "",
+              "modified": false
+            }
+          },
+          {
+            "path": "assets/512d6627df7aa08e94c6185295332dd62aeb2ca2b2d7c479957d04c3aa220ca7.webp",
+            "sha256": "512d6627df7aa08e94c6185295332dd62aeb2ca2b2d7c479957d04c3aa220ca7",
+            "length": 36,
+            "media_type": "image/webp",
+            "duration_seconds": null,
+            "credit": {
+              "creator": "Denframe test fixture",
+              "license": "CC0-1.0",
+              "attribution": "",
+              "source": "",
+              "modified": false
+            }
+          },
+          {
+            "path": "assets/b0b601b87fb902bc9e89e2d89e5d987adb8ce5457bd8d59929c34ea06d96e133.webp",
+            "sha256": "b0b601b87fb902bc9e89e2d89e5d987adb8ce5457bd8d59929c34ea06d96e133",
+            "length": 38,
+            "media_type": "image/webp",
+            "duration_seconds": null,
+            "credit": {
+              "creator": "Denframe test fixture",
+              "license": "CC0-1.0",
+              "attribution": "",
+              "source": "",
+              "modified": false
+            }
+          }
+        ],
+        "works": [
+          {
+            "id": "wheat-field",
+            "image": "assets/325f88f5e4b5caef5a36e6c353613f3596f36a8678094844ba78c7695e6bfb6b.jpg",
+            "thumbnail": "assets/512d6627df7aa08e94c6185295332dd62aeb2ca2b2d7c479957d04c3aa220ca7.webp",
+            "alt_text": "A wheat field under a swirling sky, with dark cypresses.",
+            "width": 1920,
+            "height": 1080,
+            "orientation": "landscape",
+            "focal_x": 0.5,
+            "focal_y": 0.5,
+            "mean_colour": "#8a8f6a",
+            "placard": {
+              "title": "Wheat Field with Cypresses",
+              "creator": "Vincent van Gogh (Dutch, 1853-1890)",
+              "date": "1889",
+              "medium": "Oil on canvas",
+              "dimensions": "73.2 x 93.4 cm",
+              "institution": "The Metropolitan Museum of Art",
+              "canonical_url": "https://www.metmuseum.org/art/collection/search/436535"
+            },
+            "rights": {
+              "license": "CC0-1.0",
+              "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+              "evidence": {
+                "provider_field": "isPublicDomain",
+                "provider_value": true,
+                "image_url": "https://images.metmuseum.org/CRDImages/ep/original/DP-42549-001.jpg",
+                "observed_at": "2026-10-06T00:00:00+00:00",
+                "image_field": "primaryImage",
+                "uuid": null
+              }
+            }
+          }
+        ]
+      },
+      "file": "canonical/gallery-canonical.json",
+      "sha256": "d5cf6f7a368f78ed8e3bd4b82f78548406cb75f61963bc2f953d9e4d74d1a328"
     }
   ],
   "compositions": [

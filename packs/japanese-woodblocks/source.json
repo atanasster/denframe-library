@@ -1,0 +1,1501 @@
+{
+  "id": "denframe/japanese-woodblocks",
+  "version": "1.0.0",
+  "publisher": "Denframe",
+  "definition": {
+    "schema_version": 2,
+    "kind": "gallery",
+    "name": "Japanese woodblocks",
+    "description": "Woodblock prints, most of them from the Edo period, of Mount Fuji, rivers, bridges, harbours, birds and flowers by Hokusai, Hiroshige and their contemporaries, for a calm and colourful landscape screen.",
+    "shape": "landscape",
+    "presentation": {
+      "fit": "fit",
+      "mat_style": "museum",
+      "placard_seconds": 12,
+      "cadence_seconds": 45
+    },
+    "strip": "assets/a4405cb892028d759ced5212a3fad420f9de381a925de59568e5530a8f9001f8.webp",
+    "resources": [
+      {
+        "path": "assets/14d09f79351a33c20498870478c5a061b907b7ab1de2e387a31bfd2303eaa486.jpg",
+        "sha256": "14d09f79351a33c20498870478c5a061b907b7ab1de2e387a31bfd2303eaa486",
+        "length": 359741,
+        "media_type": "image/jpeg",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Katsushika Hokusai (Japanese, 1760–1849)",
+          "license": "CC0-1.0",
+          "attribution": "South Wind, Clear Sky, from Thirty-Six Views of Mount Fuji · Katsushika Hokusai (Japanese, 1760–1849) · The Cleveland Museum of Art · CC0",
+          "source": "https://clevelandart.org/art/1930.189",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/3c3ebdc7a957007dc537d257e32341ce6e216ff47f8c541057da29dadd3b59dc.webp",
+        "sha256": "3c3ebdc7a957007dc537d257e32341ce6e216ff47f8c541057da29dadd3b59dc",
+        "length": 25376,
+        "media_type": "image/webp",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Katsushika Hokusai (Japanese, 1760–1849)",
+          "license": "CC0-1.0",
+          "attribution": "South Wind, Clear Sky, from Thirty-Six Views of Mount Fuji · Katsushika Hokusai (Japanese, 1760–1849) · The Cleveland Museum of Art · CC0",
+          "source": "https://clevelandart.org/art/1930.189",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/f73bb618a3ec5de028cc8d579635e54baa7d906cb97562dc2946f378a210e119.jpg",
+        "sha256": "f73bb618a3ec5de028cc8d579635e54baa7d906cb97562dc2946f378a210e119",
+        "length": 282109,
+        "media_type": "image/jpeg",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Katsushika Hokusai 葛飾 北斎 (Japanese, 1760-1849)",
+          "license": "CC0-1.0",
+          "attribution": "Chrysanthemum and Horsefly, from an untitled series of Large Flowers · Katsushika Hokusai 葛飾 北斎 (Japanese, 1760-1849) · Art Institute of Chicago · CC0",
+          "source": "https://www.artic.edu/artworks/25110",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/28cdfe4eecac79b01068c6f1d4504a89b61aa63b2208fc30fafd24864cf62e12.webp",
+        "sha256": "28cdfe4eecac79b01068c6f1d4504a89b61aa63b2208fc30fafd24864cf62e12",
+        "length": 27730,
+        "media_type": "image/webp",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Katsushika Hokusai 葛飾 北斎 (Japanese, 1760-1849)",
+          "license": "CC0-1.0",
+          "attribution": "Chrysanthemum and Horsefly, from an untitled series of Large Flowers · Katsushika Hokusai 葛飾 北斎 (Japanese, 1760-1849) · Art Institute of Chicago · CC0",
+          "source": "https://www.artic.edu/artworks/25110",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/0a4032a4a126685bc1c89daba831eff1e881665d8f8cb4d080fd24f9bb2d7808.jpg",
+        "sha256": "0a4032a4a126685bc1c89daba831eff1e881665d8f8cb4d080fd24f9bb2d7808",
+        "length": 364184,
+        "media_type": "image/jpeg",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Utagawa Hiroshige (Japanese, 1797–1858)",
+          "license": "CC0-1.0",
+          "attribution": "Picture of the Lake at Hakone, from the series 53 Stations of the Tokaido · Utagawa Hiroshige (Japanese, 1797–1858) · The Cleveland Museum of Art · CC0",
+          "source": "https://clevelandart.org/art/1940.982",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/764a029899de98dc366c3e02e2f6418924bd6ae57520bad3633c52d947b49ee7.webp",
+        "sha256": "764a029899de98dc366c3e02e2f6418924bd6ae57520bad3633c52d947b49ee7",
+        "length": 26684,
+        "media_type": "image/webp",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Utagawa Hiroshige (Japanese, 1797–1858)",
+          "license": "CC0-1.0",
+          "attribution": "Picture of the Lake at Hakone, from the series 53 Stations of the Tokaido · Utagawa Hiroshige (Japanese, 1797–1858) · The Cleveland Museum of Art · CC0",
+          "source": "https://clevelandart.org/art/1940.982",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/09aea54ca161d464d15ad74bb9687500e04264e6cd0d8f6121962578d0d3144e.jpg",
+        "sha256": "09aea54ca161d464d15ad74bb9687500e04264e6cd0d8f6121962578d0d3144e",
+        "length": 377057,
+        "media_type": "image/jpeg",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Keisai Eisen (Japanese, 1790-1848)",
+          "license": "CC0-1.0",
+          "attribution": "Distant View of Snow on the Sumida River in Edo · Keisai Eisen (Japanese, 1790-1848) · Art Institute of Chicago · CC0",
+          "source": "https://www.artic.edu/artworks/109406",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/c27ce0ae6d8d8bf0d80779e640d9ca37911f1ee333c785ad5d152cdae8756ae9.webp",
+        "sha256": "c27ce0ae6d8d8bf0d80779e640d9ca37911f1ee333c785ad5d152cdae8756ae9",
+        "length": 31830,
+        "media_type": "image/webp",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Keisai Eisen (Japanese, 1790-1848)",
+          "license": "CC0-1.0",
+          "attribution": "Distant View of Snow on the Sumida River in Edo · Keisai Eisen (Japanese, 1790-1848) · Art Institute of Chicago · CC0",
+          "source": "https://www.artic.edu/artworks/109406",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/5c92e5348667630de6b2f2ccb73824b00ce3572eb3f17237989dcd3dc9965374.jpg",
+        "sha256": "5c92e5348667630de6b2f2ccb73824b00ce3572eb3f17237989dcd3dc9965374",
+        "length": 284226,
+        "media_type": "image/jpeg",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Yashima Gakutei (Japanese, 1786 (?)-1868)",
+          "license": "CC0-1.0",
+          "attribution": "Ships Entering Tenpozan Harbor (Tenpozan mansen nyushin no zu), from the series \"Famous Places in Osaka: Fine Views of Mount Tenpo (Naniwa meisho Tenpozan shokei ichiran)\" · Yashima Gakutei (Japanese, 1786 (?)-1868) · Art Institute of Chicago · CC0",
+          "source": "https://www.artic.edu/artworks/47481",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/e976997fe2cce6555fdb8c542bfd9625a85803613fb19cab26b97035293c088e.webp",
+        "sha256": "e976997fe2cce6555fdb8c542bfd9625a85803613fb19cab26b97035293c088e",
+        "length": 24360,
+        "media_type": "image/webp",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Yashima Gakutei (Japanese, 1786 (?)-1868)",
+          "license": "CC0-1.0",
+          "attribution": "Ships Entering Tenpozan Harbor (Tenpozan mansen nyushin no zu), from the series \"Famous Places in Osaka: Fine Views of Mount Tenpo (Naniwa meisho Tenpozan shokei ichiran)\" · Yashima Gakutei (Japanese, 1786 (?)-1868) · Art Institute of Chicago · CC0",
+          "source": "https://www.artic.edu/artworks/47481",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/f02bad9429127ee13eef8270bd8dbb755bdcc33b1c57c79fff5b5013e4e4443a.jpg",
+        "sha256": "f02bad9429127ee13eef8270bd8dbb755bdcc33b1c57c79fff5b5013e4e4443a",
+        "length": 273804,
+        "media_type": "image/jpeg",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Utagawa Kuniyoshi (Japanese, 1797-1861)",
+          "license": "CC0-1.0",
+          "attribution": "Sunrise on New Year's Day at Susaki (Susaki hatsu hinode no zu), from the series \"Famous Places in the Eastern Capital (Toto meisho)\" · Utagawa Kuniyoshi (Japanese, 1797-1861) · Art Institute of Chicago · CC0",
+          "source": "https://www.artic.edu/artworks/9848",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/b79a33968649aaf526d739fbb2c708f46ec40354d5daaf49e37e4274b2c200d9.webp",
+        "sha256": "b79a33968649aaf526d739fbb2c708f46ec40354d5daaf49e37e4274b2c200d9",
+        "length": 20822,
+        "media_type": "image/webp",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Utagawa Kuniyoshi (Japanese, 1797-1861)",
+          "license": "CC0-1.0",
+          "attribution": "Sunrise on New Year's Day at Susaki (Susaki hatsu hinode no zu), from the series \"Famous Places in the Eastern Capital (Toto meisho)\" · Utagawa Kuniyoshi (Japanese, 1797-1861) · Art Institute of Chicago · CC0",
+          "source": "https://www.artic.edu/artworks/9848",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/cc5af47ed68fccedba65f392a4f8109a24df07ea4aa2cbc6c98050321d594bea.jpg",
+        "sha256": "cc5af47ed68fccedba65f392a4f8109a24df07ea4aa2cbc6c98050321d594bea",
+        "length": 351718,
+        "media_type": "image/jpeg",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Utagawa Hiroshige (Japanese, 1797–1858)",
+          "license": "CC0-1.0",
+          "attribution": "Yahagi Bridge at Okazaki (Station 39), From the series Fifty-Three Stations of the Tokaido · Utagawa Hiroshige (Japanese, 1797–1858) · The Cleveland Museum of Art · CC0",
+          "source": "https://clevelandart.org/art/1916.939",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/a0d59796970ea608dc0c2a24e6a723b9813fcf62d713dc16274f9322b1e9dfe0.webp",
+        "sha256": "a0d59796970ea608dc0c2a24e6a723b9813fcf62d713dc16274f9322b1e9dfe0",
+        "length": 25250,
+        "media_type": "image/webp",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Utagawa Hiroshige (Japanese, 1797–1858)",
+          "license": "CC0-1.0",
+          "attribution": "Yahagi Bridge at Okazaki (Station 39), From the series Fifty-Three Stations of the Tokaido · Utagawa Hiroshige (Japanese, 1797–1858) · The Cleveland Museum of Art · CC0",
+          "source": "https://clevelandart.org/art/1916.939",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/a2d83295bcae15fb1cb3c6087b107a1f1378290712fb6d81f03574062c66f3dc.jpg",
+        "sha256": "a2d83295bcae15fb1cb3c6087b107a1f1378290712fb6d81f03574062c66f3dc",
+        "length": 218737,
+        "media_type": "image/jpeg",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Utagawa Toyohiro (Japanese, 1773-1828)",
+          "license": "CC0-1.0",
+          "attribution": "Wild Geese and Reeds · Utagawa Toyohiro (Japanese, 1773-1828) · Art Institute of Chicago · CC0",
+          "source": "https://www.artic.edu/artworks/24409",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/478c4f8da325a1574f80b9175c33e4e4e44f8c1005cd484ae54d79b4cb1a39ea.webp",
+        "sha256": "478c4f8da325a1574f80b9175c33e4e4e44f8c1005cd484ae54d79b4cb1a39ea",
+        "length": 16682,
+        "media_type": "image/webp",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Utagawa Toyohiro (Japanese, 1773-1828)",
+          "license": "CC0-1.0",
+          "attribution": "Wild Geese and Reeds · Utagawa Toyohiro (Japanese, 1773-1828) · Art Institute of Chicago · CC0",
+          "source": "https://www.artic.edu/artworks/24409",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/e1b3ce6fde9779d4eac6df21c86cc31018a92561158b2d1817b56e7314aecd9f.jpg",
+        "sha256": "e1b3ce6fde9779d4eac6df21c86cc31018a92561158b2d1817b56e7314aecd9f",
+        "length": 306809,
+        "media_type": "image/jpeg",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Utagawa Toyoharu (Japanese, 1735-1814)",
+          "license": "CC0-1.0",
+          "attribution": "Newly Published Perspective Picture of Mount Fuji in Spring from Tagonoura (Shinpan uki-e Tagonoura haru no Fuji) · Utagawa Toyoharu (Japanese, 1735-1814) · Art Institute of Chicago · CC0",
+          "source": "https://www.artic.edu/artworks/36689",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/f12a9de8a4580aabe5bfb6e486ac9baf189bb6ec52e3750101cc5396be8a74ed.webp",
+        "sha256": "f12a9de8a4580aabe5bfb6e486ac9baf189bb6ec52e3750101cc5396be8a74ed",
+        "length": 21900,
+        "media_type": "image/webp",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Utagawa Toyoharu (Japanese, 1735-1814)",
+          "license": "CC0-1.0",
+          "attribution": "Newly Published Perspective Picture of Mount Fuji in Spring from Tagonoura (Shinpan uki-e Tagonoura haru no Fuji) · Utagawa Toyoharu (Japanese, 1735-1814) · Art Institute of Chicago · CC0",
+          "source": "https://www.artic.edu/artworks/36689",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/4d7863d1a8937c5041fa4327e715ebe0f09d716c439ff01dad319be94ed290cd.jpg",
+        "sha256": "4d7863d1a8937c5041fa4327e715ebe0f09d716c439ff01dad319be94ed290cd",
+        "length": 311546,
+        "media_type": "image/jpeg",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Shotei Hokuju (Japanese, active c. 1789-1818)",
+          "license": "CC0-1.0",
+          "attribution": "Shichiri Beach at Enoshima (Enoshima Shichirigahama) · Shotei Hokuju (Japanese, active c. 1789-1818) · Art Institute of Chicago · CC0",
+          "source": "https://www.artic.edu/artworks/149101",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/5c6bf603657029c718906f7b58d2a1f0034f4149e6c77e4d1d5b7dd8f169395a.webp",
+        "sha256": "5c6bf603657029c718906f7b58d2a1f0034f4149e6c77e4d1d5b7dd8f169395a",
+        "length": 23710,
+        "media_type": "image/webp",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Shotei Hokuju (Japanese, active c. 1789-1818)",
+          "license": "CC0-1.0",
+          "attribution": "Shichiri Beach at Enoshima (Enoshima Shichirigahama) · Shotei Hokuju (Japanese, active c. 1789-1818) · Art Institute of Chicago · CC0",
+          "source": "https://www.artic.edu/artworks/149101",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/966712f3ddf9e89543f6a424f39a667ef925ca967954d06bf4e535ffed94eedf.jpg",
+        "sha256": "966712f3ddf9e89543f6a424f39a667ef925ca967954d06bf4e535ffed94eedf",
+        "length": 278137,
+        "media_type": "image/jpeg",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Utagawa Kuniyoshi (Japanese, 1797-1861)",
+          "license": "CC0-1.0",
+          "attribution": "Asakusa Imado, from the series \"Famous Places in the Eastern Capital (Toto Meisho)\" · Utagawa Kuniyoshi (Japanese, 1797-1861) · Art Institute of Chicago · CC0",
+          "source": "https://www.artic.edu/artworks/13095",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/662f006c8dd705c8692e16a30569d03a64e1f609db2ad89ca411ad057ad25ece.webp",
+        "sha256": "662f006c8dd705c8692e16a30569d03a64e1f609db2ad89ca411ad057ad25ece",
+        "length": 20252,
+        "media_type": "image/webp",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Utagawa Kuniyoshi (Japanese, 1797-1861)",
+          "license": "CC0-1.0",
+          "attribution": "Asakusa Imado, from the series \"Famous Places in the Eastern Capital (Toto Meisho)\" · Utagawa Kuniyoshi (Japanese, 1797-1861) · Art Institute of Chicago · CC0",
+          "source": "https://www.artic.edu/artworks/13095",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/ff284a4e6393acccc62868cd4ca46bd8cf3d9e9540cce4362bd5b8e5139c8955.jpg",
+        "sha256": "ff284a4e6393acccc62868cd4ca46bd8cf3d9e9540cce4362bd5b8e5139c8955",
+        "length": 292896,
+        "media_type": "image/jpeg",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Kobayashi Kiyochika (Japanese, 1847-1915)",
+          "license": "CC0-1.0",
+          "attribution": "A pair of ducks by a lotus pond · Kobayashi Kiyochika (Japanese, 1847-1915) · Art Institute of Chicago · CC0",
+          "source": "https://www.artic.edu/artworks/22534",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/3719019f1f25f229e130e8ccca094cecbeae1753e9b094e8881d3de2f1b61364.webp",
+        "sha256": "3719019f1f25f229e130e8ccca094cecbeae1753e9b094e8881d3de2f1b61364",
+        "length": 21804,
+        "media_type": "image/webp",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Kobayashi Kiyochika (Japanese, 1847-1915)",
+          "license": "CC0-1.0",
+          "attribution": "A pair of ducks by a lotus pond · Kobayashi Kiyochika (Japanese, 1847-1915) · Art Institute of Chicago · CC0",
+          "source": "https://www.artic.edu/artworks/22534",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/6bcc6d9add5e481088cc1170dc2df729b59300f626bef714c2f50eb728078111.jpg",
+        "sha256": "6bcc6d9add5e481088cc1170dc2df729b59300f626bef714c2f50eb728078111",
+        "length": 245846,
+        "media_type": "image/jpeg",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Totoya Hokkei (Japanese, 1780–1850)",
+          "license": "CC0-1.0",
+          "attribution": "A Mountainous Landscape with a Stream · Totoya Hokkei (Japanese, 1780–1850) · Art Institute of Chicago · CC0",
+          "source": "https://www.artic.edu/artworks/23773",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/d0ec6fbc8909c255072ccc2737d76da751cded9a5a8896d64b7ba4afd6e69609.webp",
+        "sha256": "d0ec6fbc8909c255072ccc2737d76da751cded9a5a8896d64b7ba4afd6e69609",
+        "length": 21730,
+        "media_type": "image/webp",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Totoya Hokkei (Japanese, 1780–1850)",
+          "license": "CC0-1.0",
+          "attribution": "A Mountainous Landscape with a Stream · Totoya Hokkei (Japanese, 1780–1850) · Art Institute of Chicago · CC0",
+          "source": "https://www.artic.edu/artworks/23773",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/c782a47e627713cfdfd23c2f601164b42ff80c0229b7302327f488f17a77eef1.jpg",
+        "sha256": "c782a47e627713cfdfd23c2f601164b42ff80c0229b7302327f488f17a77eef1",
+        "length": 394601,
+        "media_type": "image/jpeg",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Totoya Hokkei (Japanese, 1780–1850)",
+          "license": "CC0-1.0",
+          "attribution": "Autumn Maples at Takinogawa River, from the album \"The Eternal Waterfall (Tokiwa no taki)\" · Totoya Hokkei (Japanese, 1780–1850) · Art Institute of Chicago · CC0",
+          "source": "https://www.artic.edu/artworks/81767",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/8b2547f6bf1626080c78318c25ca8fac50eabc06e1bd8140aaf5fa08d8ada738.webp",
+        "sha256": "8b2547f6bf1626080c78318c25ca8fac50eabc06e1bd8140aaf5fa08d8ada738",
+        "length": 34734,
+        "media_type": "image/webp",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Totoya Hokkei (Japanese, 1780–1850)",
+          "license": "CC0-1.0",
+          "attribution": "Autumn Maples at Takinogawa River, from the album \"The Eternal Waterfall (Tokiwa no taki)\" · Totoya Hokkei (Japanese, 1780–1850) · Art Institute of Chicago · CC0",
+          "source": "https://www.artic.edu/artworks/81767",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/b85695c64dd05951410aea96e723523e277548c3e858d26ec0685a9ffc7a349c.jpg",
+        "sha256": "b85695c64dd05951410aea96e723523e277548c3e858d26ec0685a9ffc7a349c",
+        "length": 363187,
+        "media_type": "image/jpeg",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Utagawa Kunisada I (Toyokuni III) (Japanese, 1786-1864)",
+          "license": "CC0-1.0",
+          "attribution": "Viewing Maple Trees · Utagawa Kunisada I (Toyokuni III) (Japanese, 1786-1864) · Art Institute of Chicago · CC0",
+          "source": "https://www.artic.edu/artworks/24927",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/9ac44c46596096db4287a6f2eca02a24802f91c21e180b6776b399233abfe37d.webp",
+        "sha256": "9ac44c46596096db4287a6f2eca02a24802f91c21e180b6776b399233abfe37d",
+        "length": 31524,
+        "media_type": "image/webp",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Utagawa Kunisada I (Toyokuni III) (Japanese, 1786-1864)",
+          "license": "CC0-1.0",
+          "attribution": "Viewing Maple Trees · Utagawa Kunisada I (Toyokuni III) (Japanese, 1786-1864) · Art Institute of Chicago · CC0",
+          "source": "https://www.artic.edu/artworks/24927",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/eb3ebd5b1dfb04235e84c0ccf2a340ccf283f2d636df7cbd529044c9564fb140.jpg",
+        "sha256": "eb3ebd5b1dfb04235e84c0ccf2a340ccf283f2d636df7cbd529044c9564fb140",
+        "length": 384211,
+        "media_type": "image/jpeg",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Utagawa Hiroshige II (Japanese, 1826–1869)",
+          "license": "CC0-1.0",
+          "attribution": "Shinagawa (from the series Fifty-three Stations of the Tokaido) · Utagawa Hiroshige II (Japanese, 1826–1869) · The Cleveland Museum of Art · CC0",
+          "source": "https://clevelandart.org/art/1942.146",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/98c3f4b7734d3951b7a68e99136ec461668c5317719f7ff65231121365598fde.webp",
+        "sha256": "98c3f4b7734d3951b7a68e99136ec461668c5317719f7ff65231121365598fde",
+        "length": 24828,
+        "media_type": "image/webp",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Utagawa Hiroshige II (Japanese, 1826–1869)",
+          "license": "CC0-1.0",
+          "attribution": "Shinagawa (from the series Fifty-three Stations of the Tokaido) · Utagawa Hiroshige II (Japanese, 1826–1869) · The Cleveland Museum of Art · CC0",
+          "source": "https://clevelandart.org/art/1942.146",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/54bc1e59da3ce9241790fcab74aad678ee1abc362967e5feb4343c28320e32b2.jpg",
+        "sha256": "54bc1e59da3ce9241790fcab74aad678ee1abc362967e5feb4343c28320e32b2",
+        "length": 329936,
+        "media_type": "image/jpeg",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Shotei Hokuju (Japanese, active c. 1789-1818)",
+          "license": "CC0-1.0",
+          "attribution": "View of Tsukuda Island (Tsukudajima no kei), from the series \"Eastern Capital (Toto)\" · Shotei Hokuju (Japanese, active c. 1789-1818) · Art Institute of Chicago · CC0",
+          "source": "https://www.artic.edu/artworks/36478",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/4bc3f3c628004b7a17bcab365579868f01473703483a1777dd7c887579f797c4.webp",
+        "sha256": "4bc3f3c628004b7a17bcab365579868f01473703483a1777dd7c887579f797c4",
+        "length": 25340,
+        "media_type": "image/webp",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Shotei Hokuju (Japanese, active c. 1789-1818)",
+          "license": "CC0-1.0",
+          "attribution": "View of Tsukuda Island (Tsukudajima no kei), from the series \"Eastern Capital (Toto)\" · Shotei Hokuju (Japanese, active c. 1789-1818) · Art Institute of Chicago · CC0",
+          "source": "https://www.artic.edu/artworks/36478",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/eb4fa6c14705acf439e807b9de42bd44353f7573a6c41cb1d74b68a226434512.jpg",
+        "sha256": "eb4fa6c14705acf439e807b9de42bd44353f7573a6c41cb1d74b68a226434512",
+        "length": 331216,
+        "media_type": "image/jpeg",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Yashima Gakutei (Japanese, 1786 (?)-1868)",
+          "license": "CC0-1.0",
+          "attribution": "The Stone Bridge over the Aji River near Nii Hill, Osaka (Osaka Ajigawa Niiyama ishibashi), from the series \"Famous Places in Osaka: Fine Views of Mount Tenpo (Naniwa meisho Tenpozan shokei ichiran)\" · Yashima Gakutei (Japanese, 1786 (?)-1868) · Art Institute of Chicago · CC0",
+          "source": "https://www.artic.edu/artworks/47477",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/30aa134323cfcf2bf10fafddf854399f4cfea722d9d169e20e7a44bc8e2778fb.webp",
+        "sha256": "30aa134323cfcf2bf10fafddf854399f4cfea722d9d169e20e7a44bc8e2778fb",
+        "length": 31214,
+        "media_type": "image/webp",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Yashima Gakutei (Japanese, 1786 (?)-1868)",
+          "license": "CC0-1.0",
+          "attribution": "The Stone Bridge over the Aji River near Nii Hill, Osaka (Osaka Ajigawa Niiyama ishibashi), from the series \"Famous Places in Osaka: Fine Views of Mount Tenpo (Naniwa meisho Tenpozan shokei ichiran)\" · Yashima Gakutei (Japanese, 1786 (?)-1868) · Art Institute of Chicago · CC0",
+          "source": "https://www.artic.edu/artworks/47477",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/4de3579e79088f3ca5ee0344edb58c089c9b6fb4a2f19def2869d5661e96e951.jpg",
+        "sha256": "4de3579e79088f3ca5ee0344edb58c089c9b6fb4a2f19def2869d5661e96e951",
+        "length": 367357,
+        "media_type": "image/jpeg",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Keisai Eisen (Japanese, 1790-1848)",
+          "license": "CC0-1.0",
+          "attribution": "No. 41: Distant View of the Ina River Bridge at Nojiri (Yonjuichi: Noriji Inagawabashi enkei), from the series \"[Sixty-nine Stations of the] Kisokaido\" · Keisai Eisen (Japanese, 1790-1848) · Art Institute of Chicago · CC0",
+          "source": "https://www.artic.edu/artworks/197426",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/b1a5d330f6f048e13209494e635c3148b8d4d0fc09a8398dc825dd274be06a4e.webp",
+        "sha256": "b1a5d330f6f048e13209494e635c3148b8d4d0fc09a8398dc825dd274be06a4e",
+        "length": 30946,
+        "media_type": "image/webp",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Keisai Eisen (Japanese, 1790-1848)",
+          "license": "CC0-1.0",
+          "attribution": "No. 41: Distant View of the Ina River Bridge at Nojiri (Yonjuichi: Noriji Inagawabashi enkei), from the series \"[Sixty-nine Stations of the] Kisokaido\" · Keisai Eisen (Japanese, 1790-1848) · Art Institute of Chicago · CC0",
+          "source": "https://www.artic.edu/artworks/197426",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/88b0370dcb91e3323dc898c62b3b8db9ba2fed619bb856f8f76784b493ad1840.jpg",
+        "sha256": "88b0370dcb91e3323dc898c62b3b8db9ba2fed619bb856f8f76784b493ad1840",
+        "length": 285857,
+        "media_type": "image/jpeg",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Utagawa Toyohiro (Japanese, 1773-1828)",
+          "license": "CC0-1.0",
+          "attribution": "Autumn Moon at Atago Hill (Atago shugetsu), from the series \"Eight Views of Edo (Edo hakkei)\" · Utagawa Toyohiro (Japanese, 1773-1828) · Art Institute of Chicago · CC0",
+          "source": "https://www.artic.edu/artworks/24405",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/6a797b0f07b8e04f64702689e1ab204750c57b4bdb117b9cf6f273cfab792364.webp",
+        "sha256": "6a797b0f07b8e04f64702689e1ab204750c57b4bdb117b9cf6f273cfab792364",
+        "length": 21614,
+        "media_type": "image/webp",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Utagawa Toyohiro (Japanese, 1773-1828)",
+          "license": "CC0-1.0",
+          "attribution": "Autumn Moon at Atago Hill (Atago shugetsu), from the series \"Eight Views of Edo (Edo hakkei)\" · Utagawa Toyohiro (Japanese, 1773-1828) · Art Institute of Chicago · CC0",
+          "source": "https://www.artic.edu/artworks/24405",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/dbe8117fe77c4cec3b83bf31603f28d7d280425c9cd41d221bfa7492451a60fa.jpg",
+        "sha256": "dbe8117fe77c4cec3b83bf31603f28d7d280425c9cd41d221bfa7492451a60fa",
+        "length": 275089,
+        "media_type": "image/jpeg",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Katsukawa Shunsen (Shunko II) (Japanese, 1762-c. 1830)",
+          "license": "CC0-1.0",
+          "attribution": "Travelers in Snow · Katsukawa Shunsen (Shunko II) (Japanese, 1762-c. 1830) · Art Institute of Chicago · CC0",
+          "source": "https://www.artic.edu/artworks/35100",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/41229ca7ee4e92ce61d09bdd412df2a82586718bcdbd5044c17ed5278b859921.webp",
+        "sha256": "41229ca7ee4e92ce61d09bdd412df2a82586718bcdbd5044c17ed5278b859921",
+        "length": 22136,
+        "media_type": "image/webp",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Katsukawa Shunsen (Shunko II) (Japanese, 1762-c. 1830)",
+          "license": "CC0-1.0",
+          "attribution": "Travelers in Snow · Katsukawa Shunsen (Shunko II) (Japanese, 1762-c. 1830) · Art Institute of Chicago · CC0",
+          "source": "https://www.artic.edu/artworks/35100",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/2e654450c28fc4aac960ed29993748139f84e02be9528723bd72f14fcff053f3.jpg",
+        "sha256": "2e654450c28fc4aac960ed29993748139f84e02be9528723bd72f14fcff053f3",
+        "length": 399580,
+        "media_type": "image/jpeg",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Kitao Masayoshi (Japanese, 1764–1824)",
+          "license": "CC0-1.0",
+          "attribution": "Enjoying the Evening Cool at Ryôgoku Bridge in Edo (Edo Ryogokubashi yusuzumi no kei) · Kitao Masayoshi (Japanese, 1764–1824) · Art Institute of Chicago · CC0",
+          "source": "https://www.artic.edu/artworks/30050",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/5224b220cb1dcea9e210f9e5afe344ecedf57ecd46d5d4f4a71646267e789514.webp",
+        "sha256": "5224b220cb1dcea9e210f9e5afe344ecedf57ecd46d5d4f4a71646267e789514",
+        "length": 40478,
+        "media_type": "image/webp",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Kitao Masayoshi (Japanese, 1764–1824)",
+          "license": "CC0-1.0",
+          "attribution": "Enjoying the Evening Cool at Ryôgoku Bridge in Edo (Edo Ryogokubashi yusuzumi no kei) · Kitao Masayoshi (Japanese, 1764–1824) · Art Institute of Chicago · CC0",
+          "source": "https://www.artic.edu/artworks/30050",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/fb884ac9921eae93855fd5277000184841a88121ea76075ecd5e9698b7092c49.jpg",
+        "sha256": "fb884ac9921eae93855fd5277000184841a88121ea76075ecd5e9698b7092c49",
+        "length": 341672,
+        "media_type": "image/jpeg",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Utagawa Toyokuni II (Japanese, 1777–1835)",
+          "license": "CC0-1.0",
+          "attribution": "Eight Views of Famous Places: Evening Bell in Kamakura: The Mountains in Awa Province from the Hachiman Shrine in Tsurugaoka · Utagawa Toyokuni II (Japanese, 1777–1835) · The Cleveland Museum of Art · CC0",
+          "source": "https://clevelandart.org/art/1985.357",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/6550f3624c27a5e8d4902de40c83ed0fa3cb08a3ebf6d879420c40eb9ccac0b5.webp",
+        "sha256": "6550f3624c27a5e8d4902de40c83ed0fa3cb08a3ebf6d879420c40eb9ccac0b5",
+        "length": 26496,
+        "media_type": "image/webp",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Utagawa Toyokuni II (Japanese, 1777–1835)",
+          "license": "CC0-1.0",
+          "attribution": "Eight Views of Famous Places: Evening Bell in Kamakura: The Mountains in Awa Province from the Hachiman Shrine in Tsurugaoka · Utagawa Toyokuni II (Japanese, 1777–1835) · The Cleveland Museum of Art · CC0",
+          "source": "https://clevelandart.org/art/1985.357",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/75a6c94d604592e4f00a866bfcbec9b7521c51709b1b58c079e45f17caabb7f8.jpg",
+        "sha256": "75a6c94d604592e4f00a866bfcbec9b7521c51709b1b58c079e45f17caabb7f8",
+        "length": 436524,
+        "media_type": "image/jpeg",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Utagawa Hiroshige III (Japanese, 1842-1894)",
+          "license": "CC0-1.0",
+          "attribution": "True View of the Foreign Buildings along the Waterfront Seen from the Yokohama Wharves (Yokohama hatoba yori kaigandori ijinkan no shinzu) · Utagawa Hiroshige III (Japanese, 1842-1894) · Art Institute of Chicago · CC0",
+          "source": "https://www.artic.edu/artworks/32446",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/168b6fff36227a2deab5dd4de836f303dc1419c259e385af6096d9c55cedcbdf.webp",
+        "sha256": "168b6fff36227a2deab5dd4de836f303dc1419c259e385af6096d9c55cedcbdf",
+        "length": 49190,
+        "media_type": "image/webp",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Utagawa Hiroshige III (Japanese, 1842-1894)",
+          "license": "CC0-1.0",
+          "attribution": "True View of the Foreign Buildings along the Waterfront Seen from the Yokohama Wharves (Yokohama hatoba yori kaigandori ijinkan no shinzu) · Utagawa Hiroshige III (Japanese, 1842-1894) · Art Institute of Chicago · CC0",
+          "source": "https://www.artic.edu/artworks/32446",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/a4405cb892028d759ced5212a3fad420f9de381a925de59568e5530a8f9001f8.webp",
+        "sha256": "a4405cb892028d759ced5212a3fad420f9de381a925de59568e5530a8f9001f8",
+        "length": 22144,
+        "media_type": "image/webp",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Denframe",
+          "license": "CC0-1.0",
+          "attribution": "The collection's first works, side by side.",
+          "source": "",
+          "modified": true
+        }
+      }
+    ],
+    "works": [
+      {
+        "id": "cleveland-111654",
+        "image": "assets/14d09f79351a33c20498870478c5a061b907b7ab1de2e387a31bfd2303eaa486.jpg",
+        "thumbnail": "assets/3c3ebdc7a957007dc537d257e32341ce6e216ff47f8c541057da29dadd3b59dc.webp",
+        "alt_text": "Mount Fuji glows reddish-brown under a blue sky streaked with rows of small white clouds, its slopes fading to dark green forest.",
+        "width": 1577,
+        "height": 1080,
+        "orientation": "landscape",
+        "focal_x": 0.5,
+        "focal_y": 0.5,
+        "mean_colour": "#959391",
+        "placard": {
+          "title": "South Wind, Clear Sky, from Thirty-Six Views of Mount Fuji",
+          "creator": "Katsushika Hokusai (Japanese, 1760–1849)",
+          "date": "early 1830s",
+          "medium": "color woodblock print",
+          "dimensions": "25.6 x 37.5 cm (10 1/16 x 14 3/4 in.)",
+          "institution": "The Cleveland Museum of Art",
+          "canonical_url": "https://clevelandart.org/art/1930.189"
+        },
+        "rights": {
+          "license": "CC0-1.0",
+          "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "evidence": {
+            "provider_field": "share_license_status",
+            "provider_value": "CC0",
+            "image_url": "https://openaccess-cdn.clevelandart.org/1930.189/1930.189_print.jpg",
+            "observed_at": "2026-10-06T11:38:49+00:00",
+            "image_field": null,
+            "uuid": null
+          }
+        }
+      },
+      {
+        "id": "aic-25110",
+        "image": "assets/f73bb618a3ec5de028cc8d579635e54baa7d906cb97562dc2946f378a210e119.jpg",
+        "thumbnail": "assets/28cdfe4eecac79b01068c6f1d4504a89b61aa63b2208fc30fafd24864cf62e12.webp",
+        "alt_text": "Large orange, pink and yellow chrysanthemums with green leaves fill the sheet, with a small horsefly hovering above them.",
+        "width": 1571,
+        "height": 1080,
+        "orientation": "landscape",
+        "focal_x": 0.5,
+        "focal_y": 0.5,
+        "mean_colour": "#c0b28d",
+        "placard": {
+          "title": "Chrysanthemum and Horsefly, from an untitled series of Large Flowers",
+          "creator": "Katsushika Hokusai 葛飾 北斎 (Japanese, 1760-1849)",
+          "date": "c. 1831–33",
+          "medium": "Color woodblock print; oban",
+          "dimensions": "26.5 × 38.8 cm (10 7/16 × 14 15/16 in.)",
+          "institution": "Art Institute of Chicago",
+          "canonical_url": "https://www.artic.edu/artworks/25110"
+        },
+        "rights": {
+          "license": "CC0-1.0",
+          "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "evidence": {
+            "provider_field": "is_public_domain",
+            "provider_value": true,
+            "image_url": "https://www.artic.edu/iiif/2/e81e632c-2e27-d79c-527d-365519796f9f/full/1686,/0/default.jpg",
+            "observed_at": "2026-10-06T11:38:51+00:00",
+            "image_field": null,
+            "uuid": null
+          }
+        }
+      },
+      {
+        "id": "cleveland-120221",
+        "image": "assets/0a4032a4a126685bc1c89daba831eff1e881665d8f8cb4d080fd24f9bb2d7808.jpg",
+        "thumbnail": "assets/764a029899de98dc366c3e02e2f6418924bd6ae57520bad3633c52d947b49ee7.webp",
+        "alt_text": "A steep, patterned mountain pass rises beside a calm blue lake at Hakone, with a line of tiny travellers crossing the slope.",
+        "width": 1621,
+        "height": 1080,
+        "orientation": "landscape",
+        "focal_x": 0.5,
+        "focal_y": 0.5,
+        "mean_colour": "#908a81",
+        "placard": {
+          "title": "Picture of the Lake at Hakone, from the series 53 Stations of the Tokaido",
+          "creator": "Utagawa Hiroshige (Japanese, 1797–1858)",
+          "date": "1833",
+          "medium": "color woodblock print",
+          "dimensions": "Sheet: 22.6 x 35.3 cm (8 7/8 x 13 7/8 in.)",
+          "institution": "The Cleveland Museum of Art",
+          "canonical_url": "https://clevelandart.org/art/1940.982"
+        },
+        "rights": {
+          "license": "CC0-1.0",
+          "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "evidence": {
+            "provider_field": "share_license_status",
+            "provider_value": "CC0",
+            "image_url": "https://openaccess-cdn.clevelandart.org/1940.982/1940.982_print.jpg",
+            "observed_at": "2026-10-06T11:38:54+00:00",
+            "image_field": null,
+            "uuid": null
+          }
+        }
+      },
+      {
+        "id": "aic-109406",
+        "image": "assets/09aea54ca161d464d15ad74bb9687500e04264e6cd0d8f6121962578d0d3144e.jpg",
+        "thumbnail": "assets/c27ce0ae6d8d8bf0d80779e640d9ca37911f1ee333c785ad5d152cdae8756ae9.webp",
+        "alt_text": "Passengers with umbrellas ride a ferry boat across a blue river past snow-covered banks, trees and rooftops.",
+        "width": 1649,
+        "height": 1080,
+        "orientation": "landscape",
+        "focal_x": 0.5,
+        "focal_y": 0.5,
+        "mean_colour": "#878978",
+        "placard": {
+          "title": "Distant View of Snow on the Sumida River in Edo",
+          "creator": "Keisai Eisen (Japanese, 1790-1848)",
+          "date": "c. 1840/44",
+          "medium": "Color woodblock print; oban",
+          "dimensions": "23.7 × 35.9 cm (9 5/16 × 14 1/8 in.)",
+          "institution": "Art Institute of Chicago",
+          "canonical_url": "https://www.artic.edu/artworks/109406"
+        },
+        "rights": {
+          "license": "CC0-1.0",
+          "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "evidence": {
+            "provider_field": "is_public_domain",
+            "provider_value": true,
+            "image_url": "https://www.artic.edu/iiif/2/21c8f49c-a611-34b2-50c9-44443bf39b75/full/1686,/0/default.jpg",
+            "observed_at": "2026-10-06T11:38:57+00:00",
+            "image_field": null,
+            "uuid": null
+          }
+        }
+      },
+      {
+        "id": "aic-47481",
+        "image": "assets/5c92e5348667630de6b2f2ccb73824b00ce3572eb3f17237989dcd3dc9965374.jpg",
+        "thumbnail": "assets/e976997fe2cce6555fdb8c542bfd9625a85803613fb19cab26b97035293c088e.webp",
+        "alt_text": "Cargo ships with white sails sail into a harbour under rays of sunrise, with green pine-covered hills and cranes flying overhead.",
+        "width": 1609,
+        "height": 1080,
+        "orientation": "landscape",
+        "focal_x": 0.5,
+        "focal_y": 0.5,
+        "mean_colour": "#bcbfb9",
+        "placard": {
+          "title": "Ships Entering Tenpozan Harbor (Tenpozan mansen nyushin no zu), from the series \"Famous Places in Osaka: Fine Views of Mount Tenpo (Naniwa meisho Tenpozan shokei ichiran)\"",
+          "creator": "Yashima Gakutei (Japanese, 1786 (?)-1868)",
+          "date": "c. 1834",
+          "medium": "Color woodblock print; oban",
+          "dimensions": "25.3 × 38 cm (10 9/16 × 14 7/8 in.)",
+          "institution": "Art Institute of Chicago",
+          "canonical_url": "https://www.artic.edu/artworks/47481"
+        },
+        "rights": {
+          "license": "CC0-1.0",
+          "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "evidence": {
+            "provider_field": "is_public_domain",
+            "provider_value": true,
+            "image_url": "https://www.artic.edu/iiif/2/ad220fcb-6c5a-c689-dcaa-4cd4dd8872db/full/1686,/0/default.jpg",
+            "observed_at": "2026-10-06T11:39:00+00:00",
+            "image_field": null,
+            "uuid": null
+          }
+        }
+      },
+      {
+        "id": "aic-9848",
+        "image": "assets/f02bad9429127ee13eef8270bd8dbb755bdcc33b1c57c79fff5b5013e4e4443a.jpg",
+        "thumbnail": "assets/b79a33968649aaf526d739fbb2c708f46ec40354d5daaf49e37e4274b2c200d9.webp",
+        "alt_text": "Two women in blue and green kimonos look out across a pale bay at sunrise, with Mount Fuji tiny on the horizon.",
+        "width": 1560,
+        "height": 1080,
+        "orientation": "landscape",
+        "focal_x": 0.5,
+        "focal_y": 0.5,
+        "mean_colour": "#a2a48c",
+        "placard": {
+          "title": "Sunrise on New Year's Day at Susaki (Susaki hatsu hinode no zu), from the series \"Famous Places in the Eastern Capital (Toto meisho)\"",
+          "creator": "Utagawa Kuniyoshi (Japanese, 1797-1861)",
+          "date": "c. 1832/33",
+          "medium": "Color woodblock print; oban",
+          "dimensions": "24.9 × 36.3 cm (9 13/16 × 14 5/16 in.)",
+          "institution": "Art Institute of Chicago",
+          "canonical_url": "https://www.artic.edu/artworks/9848"
+        },
+        "rights": {
+          "license": "CC0-1.0",
+          "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "evidence": {
+            "provider_field": "is_public_domain",
+            "provider_value": true,
+            "image_url": "https://www.artic.edu/iiif/2/e497bf02-6588-f376-6a52-da31c267076f/full/1686,/0/default.jpg",
+            "observed_at": "2026-10-06T11:39:02+00:00",
+            "image_field": null,
+            "uuid": null
+          }
+        }
+      },
+      {
+        "id": "cleveland-97307",
+        "image": "assets/cc5af47ed68fccedba65f392a4f8109a24df07ea4aa2cbc6c98050321d594bea.jpg",
+        "thumbnail": "assets/a0d59796970ea608dc0c2a24e6a723b9813fcf62d713dc16274f9322b1e9dfe0.webp",
+        "alt_text": "A long wooden bridge crosses a wide blue river toward a castle town and a dark blue mountain.",
+        "width": 1640,
+        "height": 1080,
+        "orientation": "landscape",
+        "focal_x": 0.5,
+        "focal_y": 0.5,
+        "mean_colour": "#8b8479",
+        "placard": {
+          "title": "Yahagi Bridge at Okazaki (Station 39), From the series Fifty-Three Stations of the Tokaido",
+          "creator": "Utagawa Hiroshige (Japanese, 1797–1858)",
+          "date": "1833",
+          "medium": "color woodblock print",
+          "dimensions": "Sheet: 23 x 35 cm (9 1/16 x 13 3/4 in.)",
+          "institution": "The Cleveland Museum of Art",
+          "canonical_url": "https://clevelandart.org/art/1916.939"
+        },
+        "rights": {
+          "license": "CC0-1.0",
+          "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "evidence": {
+            "provider_field": "share_license_status",
+            "provider_value": "CC0",
+            "image_url": "https://openaccess-cdn.clevelandart.org/1916.939/1916.939_print.jpg",
+            "observed_at": "2026-10-06T11:39:05+00:00",
+            "image_field": null,
+            "uuid": null
+          }
+        }
+      },
+      {
+        "id": "aic-24409",
+        "image": "assets/a2d83295bcae15fb1cb3c6087b107a1f1378290712fb6d81f03574062c66f3dc.jpg",
+        "thumbnail": "assets/478c4f8da325a1574f80b9175c33e4e4e44f8c1005cd484ae54d79b4cb1a39ea.webp",
+        "alt_text": "Two grey wild geese rest among tall reeds on a pale sheet, drawn in soft ink tones.",
+        "width": 1555,
+        "height": 1080,
+        "orientation": "landscape",
+        "focal_x": 0.5,
+        "focal_y": 0.5,
+        "mean_colour": "#c4bfa5",
+        "placard": {
+          "title": "Wild Geese and Reeds",
+          "creator": "Utagawa Toyohiro (Japanese, 1773-1828)",
+          "date": "About 1810",
+          "medium": "Woodblock print; oban",
+          "dimensions": "24.8 × 35.6 cm (9 3/4 × 14 in.)",
+          "institution": "Art Institute of Chicago",
+          "canonical_url": "https://www.artic.edu/artworks/24409"
+        },
+        "rights": {
+          "license": "CC0-1.0",
+          "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "evidence": {
+            "provider_field": "is_public_domain",
+            "provider_value": true,
+            "image_url": "https://www.artic.edu/iiif/2/f86d175d-e042-a483-7ae3-e3d7be05b42e/full/1686,/0/default.jpg",
+            "observed_at": "2026-10-06T11:39:08+00:00",
+            "image_field": null,
+            "uuid": null
+          }
+        }
+      },
+      {
+        "id": "aic-36689",
+        "image": "assets/e1b3ce6fde9779d4eac6df21c86cc31018a92561158b2d1817b56e7314aecd9f.jpg",
+        "thumbnail": "assets/f12a9de8a4580aabe5bfb6e486ac9baf189bb6ec52e3750101cc5396be8a74ed.webp",
+        "alt_text": "A snow-capped Mount Fuji rises in a pink spring sky over a wide bay with small boats, pine trees and a village in front.",
+        "width": 1649,
+        "height": 1080,
+        "orientation": "landscape",
+        "focal_x": 0.5,
+        "focal_y": 0.5,
+        "mean_colour": "#c5ad91",
+        "placard": {
+          "title": "Newly Published Perspective Picture of Mount Fuji in Spring from Tagonoura (Shinpan uki-e Tagonoura haru no Fuji)",
+          "creator": "Utagawa Toyoharu (Japanese, 1735-1814)",
+          "date": "c. 1772/89",
+          "medium": "Color woodblock print; oban",
+          "dimensions": "25.3 × 39.4 cm (10 × 15 3/8 in.)",
+          "institution": "Art Institute of Chicago",
+          "canonical_url": "https://www.artic.edu/artworks/36689"
+        },
+        "rights": {
+          "license": "CC0-1.0",
+          "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "evidence": {
+            "provider_field": "is_public_domain",
+            "provider_value": true,
+            "image_url": "https://www.artic.edu/iiif/2/02903bd2-126b-7ba5-0145-5030a163f757/full/1686,/0/default.jpg",
+            "observed_at": "2026-10-06T11:39:10+00:00",
+            "image_field": null,
+            "uuid": null
+          }
+        }
+      },
+      {
+        "id": "aic-149101",
+        "image": "assets/4d7863d1a8937c5041fa4327e715ebe0f09d716c439ff01dad319be94ed290cd.jpg",
+        "thumbnail": "assets/5c6bf603657029c718906f7b58d2a1f0034f4149e6c77e4d1d5b7dd8f169395a.webp",
+        "alt_text": "A curving beach leads toward red-rocked Enoshima island and white Mount Fuji, with travellers and a packhorse on the sand.",
+        "width": 1579,
+        "height": 1080,
+        "orientation": "landscape",
+        "focal_x": 0.5,
+        "focal_y": 0.5,
+        "mean_colour": "#a19f8a",
+        "placard": {
+          "title": "Shichiri Beach at Enoshima (Enoshima Shichirigahama)",
+          "creator": "Shotei Hokuju (Japanese, active c. 1789-1818)",
+          "date": "c. 1789/1818",
+          "medium": "Color woodblock print; oban",
+          "dimensions": "24.9 × 37.1 cm (9 13/16 × 14 9/16 in.)",
+          "institution": "Art Institute of Chicago",
+          "canonical_url": "https://www.artic.edu/artworks/149101"
+        },
+        "rights": {
+          "license": "CC0-1.0",
+          "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "evidence": {
+            "provider_field": "is_public_domain",
+            "provider_value": true,
+            "image_url": "https://www.artic.edu/iiif/2/0658acc8-a5bc-5bba-ac52-754e6b5a4274/full/1686,/0/default.jpg",
+            "observed_at": "2026-10-06T11:39:13+00:00",
+            "image_field": null,
+            "uuid": null
+          }
+        }
+      },
+      {
+        "id": "aic-13095",
+        "image": "assets/966712f3ddf9e89543f6a424f39a667ef925ca967954d06bf4e535ffed94eedf.jpg",
+        "thumbnail": "assets/662f006c8dd705c8692e16a30569d03a64e1f609db2ad89ca411ad057ad25ece.webp",
+        "alt_text": "Workers tend tall, smoking tile kilns on a riverbank, with a blue mountain in the distance and a slender tree on the right.",
+        "width": 1546,
+        "height": 1080,
+        "orientation": "landscape",
+        "focal_x": 0.5,
+        "focal_y": 0.5,
+        "mean_colour": "#97947c",
+        "placard": {
+          "title": "Asakusa Imado, from the series \"Famous Places in the Eastern Capital (Toto Meisho)\"",
+          "creator": "Utagawa Kuniyoshi (Japanese, 1797-1861)",
+          "date": "c. 1832/33",
+          "medium": "Color woodblock print; oban",
+          "dimensions": "26.2 × 37.5 cm (10 5/16 × 14 3/4 in.)",
+          "institution": "Art Institute of Chicago",
+          "canonical_url": "https://www.artic.edu/artworks/13095"
+        },
+        "rights": {
+          "license": "CC0-1.0",
+          "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "evidence": {
+            "provider_field": "is_public_domain",
+            "provider_value": true,
+            "image_url": "https://www.artic.edu/iiif/2/7a17c756-9f35-34c1-1273-63a2c0606ac0/full/1686,/0/default.jpg",
+            "observed_at": "2026-10-06T11:39:15+00:00",
+            "image_field": null,
+            "uuid": null
+          }
+        }
+      },
+      {
+        "id": "aic-22534",
+        "image": "assets/ff284a4e6393acccc62868cd4ca46bd8cf3d9e9540cce4362bd5b8e5139c8955.jpg",
+        "thumbnail": "assets/3719019f1f25f229e130e8ccca094cecbeae1753e9b094e8881d3de2f1b61364.webp",
+        "alt_text": "A pair of mallard ducks stand on a muddy bank in front of large grey lotus leaves and seed pods.",
+        "width": 1606,
+        "height": 1080,
+        "orientation": "landscape",
+        "focal_x": 0.5,
+        "focal_y": 0.5,
+        "mean_colour": "#918c74",
+        "placard": {
+          "title": "A pair of ducks by a lotus pond",
+          "creator": "Kobayashi Kiyochika (Japanese, 1847-1915)",
+          "date": "1879",
+          "medium": "Color woodblock print; oban",
+          "dimensions": "25.8 × 38.5 cm (10 3/16 × 15 3/16 in.)",
+          "institution": "Art Institute of Chicago",
+          "canonical_url": "https://www.artic.edu/artworks/22534"
+        },
+        "rights": {
+          "license": "CC0-1.0",
+          "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "evidence": {
+            "provider_field": "is_public_domain",
+            "provider_value": true,
+            "image_url": "https://www.artic.edu/iiif/2/d7f42e69-6b55-674b-60cd-d1705bb59415/full/1686,/0/default.jpg",
+            "observed_at": "2026-10-06T11:39:18+00:00",
+            "image_field": null,
+            "uuid": null
+          }
+        }
+      },
+      {
+        "id": "aic-23773",
+        "image": "assets/6bcc6d9add5e481088cc1170dc2df729b59300f626bef714c2f50eb728078111.jpg",
+        "thumbnail": "assets/d0ec6fbc8909c255072ccc2737d76da751cded9a5a8896d64b7ba4afd6e69609.webp",
+        "alt_text": "A dark blue stream winds through golden grasses below a misty grey hill topped with two trees, with poems in the sky.",
+        "width": 1438,
+        "height": 1080,
+        "orientation": "landscape",
+        "focal_x": 0.5,
+        "focal_y": 0.5,
+        "mean_colour": "#aeac9b",
+        "placard": {
+          "title": "A Mountainous Landscape with a Stream",
+          "creator": "Totoya Hokkei (Japanese, 1780–1850)",
+          "date": "1827",
+          "medium": "Color woodblock print; chuban, surimono",
+          "dimensions": "18.6 × 25.4 cm (7 3/8 × 10 in.)",
+          "institution": "Art Institute of Chicago",
+          "canonical_url": "https://www.artic.edu/artworks/23773"
+        },
+        "rights": {
+          "license": "CC0-1.0",
+          "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "evidence": {
+            "provider_field": "is_public_domain",
+            "provider_value": true,
+            "image_url": "https://www.artic.edu/iiif/2/9a51d50a-ce5f-2cc8-add8-91d24feb90f1/full/1686,/0/default.jpg",
+            "observed_at": "2026-10-06T11:39:20+00:00",
+            "image_field": null,
+            "uuid": null
+          }
+        }
+      },
+      {
+        "id": "aic-81767",
+        "image": "assets/c782a47e627713cfdfd23c2f601164b42ff80c0229b7302327f488f17a77eef1.jpg",
+        "thumbnail": "assets/8b2547f6bf1626080c78318c25ca8fac50eabc06e1bd8140aaf5fa08d8ada738.webp",
+        "alt_text": "Travellers cross a pink plank bridge over a bright blue mountain river, with autumn maples and cherry trees on the banks.",
+        "width": 1610,
+        "height": 1080,
+        "orientation": "landscape",
+        "focal_x": 0.5,
+        "focal_y": 0.5,
+        "mean_colour": "#a2a8a8",
+        "placard": {
+          "title": "Autumn Maples at Takinogawa River, from the album \"The Eternal Waterfall (Tokiwa no taki)\"",
+          "creator": "Totoya Hokkei (Japanese, 1780–1850)",
+          "date": "1833",
+          "medium": "Color woodblock print; double-page illustration from album",
+          "dimensions": "20.3 × 30.2 cm (8 × 11 15/16 in.)",
+          "institution": "Art Institute of Chicago",
+          "canonical_url": "https://www.artic.edu/artworks/81767"
+        },
+        "rights": {
+          "license": "CC0-1.0",
+          "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "evidence": {
+            "provider_field": "is_public_domain",
+            "provider_value": true,
+            "image_url": "https://www.artic.edu/iiif/2/e8441770-2375-9645-6ea2-17457e4f7d8f/full/1686,/0/default.jpg",
+            "observed_at": "2026-10-06T11:39:23+00:00",
+            "image_field": null,
+            "uuid": null
+          }
+        }
+      },
+      {
+        "id": "aic-24927",
+        "image": "assets/b85695c64dd05951410aea96e723523e277548c3e858d26ec0685a9ffc7a349c.jpg",
+        "thumbnail": "assets/9ac44c46596096db4287a6f2eca02a24802f91c21e180b6776b399233abfe37d.webp",
+        "alt_text": "A path winds through hills of autumn trees toward a blue lake, with small figures walking and resting along the way.",
+        "width": 1574,
+        "height": 1080,
+        "orientation": "landscape",
+        "focal_x": 0.5,
+        "focal_y": 0.5,
+        "mean_colour": "#868672",
+        "placard": {
+          "title": "Viewing Maple Trees",
+          "creator": "Utagawa Kunisada I (Toyokuni III) (Japanese, 1786-1864)",
+          "date": "1835",
+          "medium": "Color woodblock print",
+          "dimensions": "25.5 × 37.4 cm (10 1/16 × 14 3/4 in.)",
+          "institution": "Art Institute of Chicago",
+          "canonical_url": "https://www.artic.edu/artworks/24927"
+        },
+        "rights": {
+          "license": "CC0-1.0",
+          "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "evidence": {
+            "provider_field": "is_public_domain",
+            "provider_value": true,
+            "image_url": "https://www.artic.edu/iiif/2/b4d5fc30-f2cf-d63b-ba8a-78f2fdab4b5a/full/1686,/0/default.jpg",
+            "observed_at": "2026-10-06T11:39:25+00:00",
+            "image_field": null,
+            "uuid": null
+          }
+        }
+      },
+      {
+        "id": "cleveland-121632",
+        "image": "assets/eb3ebd5b1dfb04235e84c0ccf2a340ccf283f2d636df7cbd529044c9564fb140.jpg",
+        "thumbnail": "assets/98c3f4b7734d3951b7a68e99136ec461668c5317719f7ff65231121365598fde.webp",
+        "alt_text": "Travellers in blue walk past a row of shops along a seaside road, with sailing boats moored in the bay beyond.",
+        "width": 1653,
+        "height": 1080,
+        "orientation": "landscape",
+        "focal_x": 0.5,
+        "focal_y": 0.5,
+        "mean_colour": "#837d71",
+        "placard": {
+          "title": "Shinagawa (from the series Fifty-three Stations of the Tokaido)",
+          "creator": "Utagawa Hiroshige II (Japanese, 1826–1869)",
+          "date": "1797–1858",
+          "medium": "color woodblock print",
+          "dimensions": "Sheet: 35 x 23 cm (13 3/4 x 9 1/16 in.)",
+          "institution": "The Cleveland Museum of Art",
+          "canonical_url": "https://clevelandart.org/art/1942.146"
+        },
+        "rights": {
+          "license": "CC0-1.0",
+          "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "evidence": {
+            "provider_field": "share_license_status",
+            "provider_value": "CC0",
+            "image_url": "https://openaccess-cdn.clevelandart.org/1942.146/1942.146_print.jpg",
+            "observed_at": "2026-10-06T11:39:28+00:00",
+            "image_field": null,
+            "uuid": null
+          }
+        }
+      },
+      {
+        "id": "aic-36478",
+        "image": "assets/54bc1e59da3ce9241790fcab74aad678ee1abc362967e5feb4343c28320e32b2.jpg",
+        "thumbnail": "assets/4bc3f3c628004b7a17bcab365579868f01473703483a1777dd7c887579f797c4.webp",
+        "alt_text": "Cargo ships with large white sails float on a calm blue bay between the waterfront houses of an island, under a clear sky.",
+        "width": 1616,
+        "height": 1080,
+        "orientation": "landscape",
+        "focal_x": 0.5,
+        "focal_y": 0.5,
+        "mean_colour": "#96a391",
+        "placard": {
+          "title": "View of Tsukuda Island (Tsukudajima no kei), from the series \"Eastern Capital (Toto)\"",
+          "creator": "Shotei Hokuju (Japanese, active c. 1789-1818)",
+          "date": "c. 1789/1818",
+          "medium": "Color woodblock print; oban",
+          "dimensions": "24 × 36.4 cm (14 5/16 × 9 7/16 in.)",
+          "institution": "Art Institute of Chicago",
+          "canonical_url": "https://www.artic.edu/artworks/36478"
+        },
+        "rights": {
+          "license": "CC0-1.0",
+          "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "evidence": {
+            "provider_field": "is_public_domain",
+            "provider_value": true,
+            "image_url": "https://www.artic.edu/iiif/2/8c1bad65-4649-deb4-1ccb-85af5c8ca13f/full/1686,/0/default.jpg",
+            "observed_at": "2026-10-06T11:39:31+00:00",
+            "image_field": null,
+            "uuid": null
+          }
+        }
+      },
+      {
+        "id": "aic-47477",
+        "image": "assets/eb4fa6c14705acf439e807b9de42bd44353f7573a6c41cb1d74b68a226434512.jpg",
+        "thumbnail": "assets/30aa134323cfcf2bf10fafddf854399f4cfea722d9d169e20e7a44bc8e2778fb.webp",
+        "alt_text": "A high stone arch bridge spans a calm river with a covered pleasure boat passing beneath and pine trees on either bank.",
+        "width": 1578,
+        "height": 1080,
+        "orientation": "landscape",
+        "focal_x": 0.5,
+        "focal_y": 0.5,
+        "mean_colour": "#a3abab",
+        "placard": {
+          "title": "The Stone Bridge over the Aji River near Nii Hill, Osaka (Osaka Ajigawa Niiyama ishibashi), from the series \"Famous Places in Osaka: Fine Views of Mount Tenpo (Naniwa meisho Tenpozan shokei ichiran)\"",
+          "creator": "Yashima Gakutei (Japanese, 1786 (?)-1868)",
+          "date": "c. 1834",
+          "medium": "Color woodblock print; oban",
+          "dimensions": "26.5 × 38 cm (10 1/2 × 14 15/16 in.)",
+          "institution": "Art Institute of Chicago",
+          "canonical_url": "https://www.artic.edu/artworks/47477"
+        },
+        "rights": {
+          "license": "CC0-1.0",
+          "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "evidence": {
+            "provider_field": "is_public_domain",
+            "provider_value": true,
+            "image_url": "https://www.artic.edu/iiif/2/1cada44e-2cd7-81e1-b754-bd0c55be291c/full/1686,/0/default.jpg",
+            "observed_at": "2026-10-06T11:39:34+00:00",
+            "image_field": null,
+            "uuid": null
+          }
+        }
+      },
+      {
+        "id": "aic-197426",
+        "image": "assets/4de3579e79088f3ca5ee0344edb58c089c9b6fb4a2f19def2869d5661e96e951.jpg",
+        "thumbnail": "assets/b1a5d330f6f048e13209494e635c3148b8d4d0fc09a8398dc825dd274be06a4e.webp",
+        "alt_text": "A wooden bridge arches high over a deep green gorge where a white waterfall tumbles below.",
+        "width": 1627,
+        "height": 1080,
+        "orientation": "landscape",
+        "focal_x": 0.5,
+        "focal_y": 0.5,
+        "mean_colour": "#7d8269",
+        "placard": {
+          "title": "No. 41: Distant View of the Ina River Bridge at Nojiri (Yonjuichi: Noriji Inagawabashi enkei), from the series \"[Sixty-nine Stations of the] Kisokaido\"",
+          "creator": "Keisai Eisen (Japanese, 1790-1848)",
+          "date": "c. 1835/36",
+          "medium": "Color woodblock print; oban",
+          "dimensions": null,
+          "institution": "Art Institute of Chicago",
+          "canonical_url": "https://www.artic.edu/artworks/197426"
+        },
+        "rights": {
+          "license": "CC0-1.0",
+          "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "evidence": {
+            "provider_field": "is_public_domain",
+            "provider_value": true,
+            "image_url": "https://www.artic.edu/iiif/2/a88b2590-ffd0-5766-4c01-f762fc6aa250/full/1686,/0/default.jpg",
+            "observed_at": "2026-10-06T11:39:36+00:00",
+            "image_field": null,
+            "uuid": null
+          }
+        }
+      },
+      {
+        "id": "aic-24405",
+        "image": "assets/88b0370dcb91e3323dc898c62b3b8db9ba2fed619bb856f8f76784b493ad1840.jpg",
+        "thumbnail": "assets/6a797b0f07b8e04f64702689e1ab204750c57b4bdb117b9cf6f273cfab792364.webp",
+        "alt_text": "A shrine roof stands among pine trees on a hill overlooking a wide, pale bay with distant islands.",
+        "width": 1624,
+        "height": 1080,
+        "orientation": "landscape",
+        "focal_x": 0.5,
+        "focal_y": 0.5,
+        "mean_colour": "#b2ad90",
+        "placard": {
+          "title": "Autumn Moon at Atago Hill (Atago shugetsu), from the series \"Eight Views of Edo (Edo hakkei)\"",
+          "creator": "Utagawa Toyohiro (Japanese, 1773-1828)",
+          "date": "c. 1804/18",
+          "medium": "Color woodblock print; oban",
+          "dimensions": "23.9 × 35.9 cm (9 3/8 × 14 1/8 in.)",
+          "institution": "Art Institute of Chicago",
+          "canonical_url": "https://www.artic.edu/artworks/24405"
+        },
+        "rights": {
+          "license": "CC0-1.0",
+          "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "evidence": {
+            "provider_field": "is_public_domain",
+            "provider_value": true,
+            "image_url": "https://www.artic.edu/iiif/2/bd466bf6-d165-1f6c-ed6f-29d55358c6f5/full/1686,/0/default.jpg",
+            "observed_at": "2026-10-06T11:39:39+00:00",
+            "image_field": null,
+            "uuid": null
+          }
+        }
+      },
+      {
+        "id": "aic-35100",
+        "image": "assets/dbe8117fe77c4cec3b83bf31603f28d7d280425c9cd41d221bfa7492451a60fa.jpg",
+        "thumbnail": "assets/41229ca7ee4e92ce61d09bdd412df2a82586718bcdbd5044c17ed5278b859921.webp",
+        "alt_text": "Three travellers with umbrellas and straw raincoats pause beside a snowy tree as snow falls.",
+        "width": 1597,
+        "height": 1080,
+        "orientation": "landscape",
+        "focal_x": 0.5,
+        "focal_y": 0.5,
+        "mean_colour": "#b8ab8c",
+        "placard": {
+          "title": "Travelers in Snow",
+          "creator": "Katsukawa Shunsen (Shunko II) (Japanese, 1762-c. 1830)",
+          "date": "early 19th century",
+          "medium": "Color woodblock print",
+          "dimensions": "23.3 × 35.2 cm (9 3/16 × 13 7/8 in.)",
+          "institution": "Art Institute of Chicago",
+          "canonical_url": "https://www.artic.edu/artworks/35100"
+        },
+        "rights": {
+          "license": "CC0-1.0",
+          "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "evidence": {
+            "provider_field": "is_public_domain",
+            "provider_value": true,
+            "image_url": "https://www.artic.edu/iiif/2/b6860df3-fb85-1db5-021e-0529cad785d2/full/1686,/0/default.jpg",
+            "observed_at": "2026-10-06T11:39:41+00:00",
+            "image_field": null,
+            "uuid": null
+          }
+        }
+      },
+      {
+        "id": "aic-30050",
+        "image": "assets/2e654450c28fc4aac960ed29993748139f84e02be9528723bd72f14fcff053f3.jpg",
+        "thumbnail": "assets/5224b220cb1dcea9e210f9e5afe344ecedf57ecd46d5d4f4a71646267e789514.webp",
+        "alt_text": "Crowds stroll under red lanterns beside a great wooden bridge at evening, with decorated boats on the river and Mount Fuji far away.",
+        "width": 1454,
+        "height": 1080,
+        "orientation": "landscape",
+        "focal_x": 0.5,
+        "focal_y": 0.5,
+        "mean_colour": "#aa9b7b",
+        "placard": {
+          "title": "Enjoying the Evening Cool at Ryôgoku Bridge in Edo (Edo Ryogokubashi yusuzumi no kei)",
+          "creator": "Kitao Masayoshi (Japanese, 1764–1824)",
+          "date": "Unknown",
+          "medium": "Color woodblock print; horizontal ô-ôban",
+          "dimensions": "33 × 44.1 cm (13 × 17 3/8 in.)",
+          "institution": "Art Institute of Chicago",
+          "canonical_url": "https://www.artic.edu/artworks/30050"
+        },
+        "rights": {
+          "license": "CC0-1.0",
+          "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "evidence": {
+            "provider_field": "is_public_domain",
+            "provider_value": true,
+            "image_url": "https://www.artic.edu/iiif/2/b7d28958-5aaa-8090-03b1-6b0a3912ca20/full/1686,/0/default.jpg",
+            "observed_at": "2026-10-06T11:39:44+00:00",
+            "image_field": null,
+            "uuid": null
+          }
+        }
+      },
+      {
+        "id": "cleveland-152540",
+        "image": "assets/fb884ac9921eae93855fd5277000184841a88121ea76075ecd5e9698b7092c49.jpg",
+        "thumbnail": "assets/6550f3624c27a5e8d4902de40c83ed0fa3cb08a3ebf6d879420c40eb9ccac0b5.webp",
+        "alt_text": "Shrine halls and courtyards sit among pine trees on a hillside above a misty bay with white sails on the water.",
+        "width": 1555,
+        "height": 1080,
+        "orientation": "landscape",
+        "focal_x": 0.5,
+        "focal_y": 0.5,
+        "mean_colour": "#888379",
+        "placard": {
+          "title": "Eight Views of Famous Places: Evening Bell in Kamakura: The Mountains in Awa Province from the Hachiman Shrine in Tsurugaoka",
+          "creator": "Utagawa Toyokuni II (Japanese, 1777–1835)",
+          "date": "early 1830s",
+          "medium": "color woodblock print",
+          "dimensions": "Overall: 22.4 x 35.3 cm (8 13/16 x 13 7/8 in.); with margins: 25 x 37 cm (9 13/16 x 14 9/16 in.)",
+          "institution": "The Cleveland Museum of Art",
+          "canonical_url": "https://clevelandart.org/art/1985.357"
+        },
+        "rights": {
+          "license": "CC0-1.0",
+          "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "evidence": {
+            "provider_field": "share_license_status",
+            "provider_value": "CC0",
+            "image_url": "https://openaccess-cdn.clevelandart.org/1985.357/1985.357_print.jpg",
+            "observed_at": "2026-10-06T11:39:47+00:00",
+            "image_field": null,
+            "uuid": null
+          }
+        }
+      },
+      {
+        "id": "aic-32446",
+        "image": "assets/75a6c94d604592e4f00a866bfcbec9b7521c51709b1b58c079e45f17caabb7f8.jpg",
+        "thumbnail": "assets/168b6fff36227a2deab5dd4de836f303dc1419c259e385af6096d9c55cedcbdf.webp",
+        "alt_text": "Western sailing ships and small boats cross a blue harbour in front of a row of grand waterfront buildings, watched by people on the quay.",
+        "width": 1435,
+        "height": 1080,
+        "orientation": "landscape",
+        "focal_x": 0.5,
+        "focal_y": 0.5,
+        "mean_colour": "#999a84",
+        "placard": {
+          "title": "True View of the Foreign Buildings along the Waterfront Seen from the Yokohama Wharves (Yokohama hatoba yori kaigandori ijinkan no shinzu)",
+          "creator": "Utagawa Hiroshige III (Japanese, 1842-1894)",
+          "date": "c. 1875",
+          "medium": "Color woodblock print; two sheets of oban triptych",
+          "dimensions": null,
+          "institution": "Art Institute of Chicago",
+          "canonical_url": "https://www.artic.edu/artworks/32446"
+        },
+        "rights": {
+          "license": "CC0-1.0",
+          "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "evidence": {
+            "provider_field": "is_public_domain",
+            "provider_value": true,
+            "image_url": "https://www.artic.edu/iiif/2/0318c7dd-0bde-aed1-f4e1-31d5168346c1/full/1686,/0/default.jpg",
+            "observed_at": "2026-10-06T11:39:50+00:00",
+            "image_field": null,
+            "uuid": null
+          }
+        }
+      }
+    ]
+  }
+}

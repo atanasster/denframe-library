@@ -1,0 +1,781 @@
+{
+  "schema_version": 1,
+  "slug": "birds",
+  "name": "Birds",
+  "description": "Songbirds, waterbirds, cranes and parrots from Japanese bird-and-flower prints and European natural-history drawings, made for a tall screen that stays bright all day.",
+  "shape": "portrait",
+  "curated_on": "2026-10-06",
+  "strip": "assets/8e0c1afe99f4be489bb7df50a1feba5ecb00e22c9bbeb9b2f2d7ba763735bedf.webp",
+  "works": [
+    {
+      "provider": "aic",
+      "object_id": "56204",
+      "file": "assets/f94a275830c6af44ed84e4315032d3a4c57d9bb6c01b95c5d0c00fd5e25452f7.jpg",
+      "sha256": "f94a275830c6af44ed84e4315032d3a4c57d9bb6c01b95c5d0c00fd5e25452f7",
+      "length": 251022,
+      "width": 1080,
+      "height": 1434,
+      "orientation": "portrait",
+      "mean_colour": "#cec5a5",
+      "thumbnail": "assets/3fce5b4476472d39c3f367bf9f60803941609846ac3db3e6c4dc335e6dc9492b.webp",
+      "alt_text": "An orange and blue parrot perches on a branch of white plum blossom beside a column of handwritten poetry.",
+      "placard": {
+        "title": "Parrot on plum tree",
+        "creator": "Utagawa Hiroshige 歌川 広重 (Japanese, 1797-1858)",
+        "date": "1830s",
+        "medium": "Color woodblock print; chuban",
+        "dimensions": "21.9 × 16.5 cm (8 3/4 × 6 1/2 in.)",
+        "institution": "Art Institute of Chicago",
+        "canonical_url": "https://www.artic.edu/artworks/56204"
+      },
+      "rights": {
+        "license": "CC0-1.0",
+        "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "evidence": {
+          "provider_field": "is_public_domain",
+          "provider_value": true,
+          "image_url": "https://www.artic.edu/iiif/2/17ece9e1-4925-e92e-8c02-e3f26f71a754/full/1686,/0/default.jpg",
+          "observed_at": "2026-10-06T11:41:03+00:00"
+        }
+      }
+    },
+    {
+      "provider": "cleveland",
+      "object_id": "154620",
+      "file": "assets/c0cc4b7d38090805729bfc8a9b04ea274f4945d1c4572964cd50f2734f6b8eee.jpg",
+      "sha256": "c0cc4b7d38090805729bfc8a9b04ea274f4945d1c4572964cd50f2734f6b8eee",
+      "length": 254504,
+      "width": 1080,
+      "height": 1496,
+      "orientation": "portrait",
+      "mean_colour": "#8d8d7f",
+      "thumbnail": "assets/999aebe217dcd3499ddd2424501c32faccd81de94a2698be191a767a6eeb53ee.webp",
+      "alt_text": "A green lovebird with a rosy face sits on a leafy branch, with hills and woods below a grey-blue sky.",
+      "placard": {
+        "title": "Bird Study: Rosy Faced Love Bird",
+        "creator": "George Edwards (British, 1694–1773)",
+        "date": "c. 1714–73",
+        "medium": "watercolor with gouache",
+        "dimensions": null,
+        "institution": "The Cleveland Museum of Art",
+        "canonical_url": "https://clevelandart.org/art/1989.229"
+      },
+      "rights": {
+        "license": "CC0-1.0",
+        "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "evidence": {
+          "provider_field": "share_license_status",
+          "provider_value": "CC0",
+          "image_url": "https://openaccess-cdn.clevelandart.org/1989.229/1989.229_print.jpg",
+          "observed_at": "2026-10-06T11:41:05+00:00"
+        }
+      }
+    },
+    {
+      "provider": "aic",
+      "object_id": "21202",
+      "file": "assets/98c5a9cf3a57ca47354b569e4dcaf3db65f8f122cad23d1aa0c9c5b93e41a6bb.jpg",
+      "sha256": "98c5a9cf3a57ca47354b569e4dcaf3db65f8f122cad23d1aa0c9c5b93e41a6bb",
+      "length": 259041,
+      "width": 1080,
+      "height": 1444,
+      "orientation": "portrait",
+      "mean_colour": "#a49162",
+      "thumbnail": "assets/dc307a6b3835490ba1b040caf5a7c41ff815ca1bf2d285f8fb4254e1538bc1eb.webp",
+      "alt_text": "Three white cranes and two young birds among blue irises at the edge of a pond, with a large red sun rising behind golden clouds.",
+      "placard": {
+        "title": "Cranes in an Iris Pond at Sunrise",
+        "creator": "Attributed to Isoda Koryusai (Japanese, 1735-1790)",
+        "date": "c. 1774",
+        "medium": "Color woodblock print; chuban",
+        "dimensions": "28.6 × 21 cm (11 1/4 × 8 1/4 in.)",
+        "institution": "Art Institute of Chicago",
+        "canonical_url": "https://www.artic.edu/artworks/21202"
+      },
+      "rights": {
+        "license": "CC0-1.0",
+        "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "evidence": {
+          "provider_field": "is_public_domain",
+          "provider_value": true,
+          "image_url": "https://www.artic.edu/iiif/2/b73c54ae-66f6-4722-1718-4c3f3b077c9b/full/1686,/0/default.jpg",
+          "observed_at": "2026-10-06T11:41:08+00:00"
+        }
+      }
+    },
+    {
+      "provider": "cleveland",
+      "object_id": "111658",
+      "file": "assets/b3b6c45ad15bd1e0b551c84ddb253d78e15f4cb96078a06157a1f9c153af45eb.jpg",
+      "sha256": "b3b6c45ad15bd1e0b551c84ddb253d78e15f4cb96078a06157a1f9c153af45eb",
+      "length": 277569,
+      "width": 1080,
+      "height": 1422,
+      "orientation": "portrait",
+      "mean_colour": "#a89d8d",
+      "thumbnail": "assets/472ac544c0320aa46381140d9585aad65ecb910d6f6e4c2af4e3bf1da832eb11.webp",
+      "alt_text": "Two brown sparrows fly between stalks of bamboo as snow falls.",
+      "placard": {
+        "title": "Sparrows, Bamboo and Falling Snow",
+        "creator": "Keisai Eisen (Japanese, 1790–1848)",
+        "date": "c. late 1820s",
+        "medium": "color woodblock print",
+        "dimensions": "Sheet: 23.6 x 17.2 cm (9 5/16 x 6 3/4 in.)",
+        "institution": "The Cleveland Museum of Art",
+        "canonical_url": "https://clevelandart.org/art/1930.192"
+      },
+      "rights": {
+        "license": "CC0-1.0",
+        "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "evidence": {
+          "provider_field": "share_license_status",
+          "provider_value": "CC0",
+          "image_url": "https://openaccess-cdn.clevelandart.org/1930.192/1930.192_print.jpg",
+          "observed_at": "2026-10-06T11:41:11+00:00"
+        }
+      }
+    },
+    {
+      "provider": "aic",
+      "object_id": "25080",
+      "file": "assets/b2110b083ba901a6329f3d4f2363630477f23185e3311ad2591800c5d4ecc7ae.jpg",
+      "sha256": "b2110b083ba901a6329f3d4f2363630477f23185e3311ad2591800c5d4ecc7ae",
+      "length": 308841,
+      "width": 1080,
+      "height": 1478,
+      "orientation": "portrait",
+      "mean_colour": "#968455",
+      "thumbnail": "assets/edf04ee0efe1e070c68a9860c067ae9f34613309ba17d87b35fa0b02c45cce0c.webp",
+      "alt_text": "A small yellow bush warbler perches among pink roses on a pale green ground.",
+      "placard": {
+        "title": "Bush Warbler and Rose (Kocho, bara), from an untitled series of flowers and birds",
+        "creator": "Katsushika Hokusai 葛飾 北斎 (Japanese, 1760-1849)",
+        "date": "c. 1834",
+        "medium": "Color woodblock print; chuban",
+        "dimensions": "25.4 × 19.1 cm (10 × 7 1/2 in.)",
+        "institution": "Art Institute of Chicago",
+        "canonical_url": "https://www.artic.edu/artworks/25080"
+      },
+      "rights": {
+        "license": "CC0-1.0",
+        "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "evidence": {
+          "provider_field": "is_public_domain",
+          "provider_value": true,
+          "image_url": "https://www.artic.edu/iiif/2/60ba0656-243c-2489-ee57-6df1daea3628/full/1686,/0/default.jpg",
+          "observed_at": "2026-10-06T11:41:14+00:00"
+        }
+      }
+    },
+    {
+      "provider": "cleveland",
+      "object_id": "154622",
+      "file": "assets/9e67a531aab8c22f869377998bce577ab7f602c2062abe26ebc044a7ce582588.jpg",
+      "sha256": "9e67a531aab8c22f869377998bce577ab7f602c2062abe26ebc044a7ce582588",
+      "length": 245361,
+      "width": 1080,
+      "height": 1481,
+      "orientation": "portrait",
+      "mean_colour": "#7c8785",
+      "thumbnail": "assets/81482a0ee6177c5a1cf1af5a6e81d9429c6031567db4ef039112b030b49b3492.webp",
+      "alt_text": "A grey waxwing with a crest and red-tipped wings sits on a slender branch against a blue sky and distant hills.",
+      "placard": {
+        "title": "Bird Study: Bohemian Waxwing",
+        "creator": "George Edwards (British, 1694–1773)",
+        "date": "c. 1714–73",
+        "medium": "watercolor with gouache",
+        "dimensions": "Sheet: 28.3 x 20.6 cm (11 1/8 x 8 1/8 in.)",
+        "institution": "The Cleveland Museum of Art",
+        "canonical_url": "https://clevelandart.org/art/1989.230"
+      },
+      "rights": {
+        "license": "CC0-1.0",
+        "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "evidence": {
+          "provider_field": "share_license_status",
+          "provider_value": "CC0",
+          "image_url": "https://openaccess-cdn.clevelandart.org/1989.230/1989.230_print.jpg",
+          "observed_at": "2026-10-06T11:41:17+00:00"
+        }
+      }
+    },
+    {
+      "provider": "aic",
+      "object_id": "26249",
+      "file": "assets/d70625a9a3cd75024b412a20af94df5792a567898ebe3942907190407010c1aa.jpg",
+      "sha256": "d70625a9a3cd75024b412a20af94df5792a567898ebe3942907190407010c1aa",
+      "length": 317710,
+      "width": 1080,
+      "height": 1546,
+      "orientation": "portrait",
+      "mean_colour": "#a9996c",
+      "thumbnail": "assets/895641d4d5144b892160e5f7a74b4035c481598da0b4d373a209ee4b7ad0e996.webp",
+      "alt_text": "Two swallows swoop above a kingfisher perched on a branch of pink hibiscus with dark green leaves.",
+      "placard": {
+        "title": "Swallows, kingfisher, and hibiscus",
+        "creator": "Utagawa Hiroshige 歌川 広重 (Japanese, 1797-1858)",
+        "date": "c. 1830s",
+        "medium": "Color woodblock print; chuban",
+        "dimensions": "24.9 × 17.7 cm (9 13/16 × 7 in.)",
+        "institution": "Art Institute of Chicago",
+        "canonical_url": "https://www.artic.edu/artworks/26249"
+      },
+      "rights": {
+        "license": "CC0-1.0",
+        "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "evidence": {
+          "provider_field": "is_public_domain",
+          "provider_value": true,
+          "image_url": "https://www.artic.edu/iiif/2/d11eea83-1a46-9563-1231-aa142df608bc/full/1686,/0/default.jpg",
+          "observed_at": "2026-10-06T11:41:20+00:00"
+        }
+      }
+    },
+    {
+      "provider": "aic",
+      "object_id": "44248",
+      "file": "assets/69313dae958d48051e9fe6700115503c39285837685f41c4880926943a4eeac0.jpg",
+      "sha256": "69313dae958d48051e9fe6700115503c39285837685f41c4880926943a4eeac0",
+      "length": 214449,
+      "width": 1080,
+      "height": 1402,
+      "orientation": "portrait",
+      "mean_colour": "#bfb095",
+      "thumbnail": "assets/a12daec7f165e85411b390404026b8dbadb4e863f6d95a36ecb166eb952098ad.webp",
+      "alt_text": "Two white egrets stand in snow at the edge of a green stream under a soft pink sky.",
+      "placard": {
+        "title": "Two Egrets in the Snow",
+        "creator": "Isoda Koryusai (Japanese, 1735-1790)",
+        "date": "c. 1773",
+        "medium": "Color woodblock print; chuban",
+        "dimensions": "26 × 19.4 cm (10 1/4 × 7 5/8 in.)",
+        "institution": "Art Institute of Chicago",
+        "canonical_url": "https://www.artic.edu/artworks/44248"
+      },
+      "rights": {
+        "license": "CC0-1.0",
+        "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "evidence": {
+          "provider_field": "is_public_domain",
+          "provider_value": true,
+          "image_url": "https://www.artic.edu/iiif/2/6f01eca6-bd73-766e-63fd-04048cb45f9c/full/1686,/0/default.jpg",
+          "observed_at": "2026-10-06T11:41:23+00:00"
+        }
+      }
+    },
+    {
+      "provider": "aic",
+      "object_id": "21090",
+      "file": "assets/58163f6334c899120a46abd4d0f580cab9f648eb2a4912a7c9bb133283a5ff71.jpg",
+      "sha256": "58163f6334c899120a46abd4d0f580cab9f648eb2a4912a7c9bb133283a5ff71",
+      "length": 271431,
+      "width": 1080,
+      "height": 1446,
+      "orientation": "portrait",
+      "mean_colour": "#cec88e",
+      "thumbnail": "assets/751c89ef5c0c51f80e0b601ba1ca390507d016a6c6cbd76b308e877bc5ed0049.webp",
+      "alt_text": "A dark green pheasant with a long golden tail pecks at the grass beneath a white-flowering cherry tree on green hills, with a poem above.",
+      "placard": {
+        "title": "Cherry Tree and Pheasant",
+        "creator": "Komatsuya Hyakki (Japanese, 1720-1793 (?))",
+        "date": "1765",
+        "medium": "Color woodblock print; chuban",
+        "dimensions": "26 × 19.4 cm (10 1/4 × 7 5/8 in.)",
+        "institution": "Art Institute of Chicago",
+        "canonical_url": "https://www.artic.edu/artworks/21090"
+      },
+      "rights": {
+        "license": "CC0-1.0",
+        "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "evidence": {
+          "provider_field": "is_public_domain",
+          "provider_value": true,
+          "image_url": "https://www.artic.edu/iiif/2/ff170f7e-0f9f-fb02-5202-527d4abdd6e2/full/1686,/0/default.jpg",
+          "observed_at": "2026-10-06T11:41:25+00:00"
+        }
+      }
+    },
+    {
+      "provider": "cleveland",
+      "object_id": "290076",
+      "file": "assets/023b2fc487a22b2df00f0cb9fb2e8d9924a2231d7a6cf591120068fccb84d19f.jpg",
+      "sha256": "023b2fc487a22b2df00f0cb9fb2e8d9924a2231d7a6cf591120068fccb84d19f",
+      "length": 252177,
+      "width": 1080,
+      "height": 1603,
+      "orientation": "portrait",
+      "mean_colour": "#8e8e86",
+      "thumbnail": "assets/9e12943cbdc52f053ef84070084b5fbbf271c58aaadfabc6b15695eaf100219f.webp",
+      "alt_text": "Two mallard ducks fly low over reeds beneath a pale full moon in a blue-grey night sky.",
+      "placard": {
+        "title": "Tokyo Views: Ducks",
+        "creator": "Tsuchiya Kōitsu (Japanese, 1870–1949)",
+        "date": "1940",
+        "medium": "color woodcut",
+        "dimensions": null,
+        "institution": "The Cleveland Museum of Art",
+        "canonical_url": "https://clevelandart.org/art/2016.77"
+      },
+      "rights": {
+        "license": "CC0-1.0",
+        "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "evidence": {
+          "provider_field": "share_license_status",
+          "provider_value": "CC0",
+          "image_url": "https://openaccess-cdn.clevelandart.org/2016.77/2016.77_print.jpg",
+          "observed_at": "2026-10-06T11:41:28+00:00"
+        }
+      }
+    },
+    {
+      "provider": "aic",
+      "object_id": "25083",
+      "file": "assets/0418f3bf0a204adb8cedbbf42f6ca95ec0692fcff5f4f6cdd0677168abaa4498.jpg",
+      "sha256": "0418f3bf0a204adb8cedbbf42f6ca95ec0692fcff5f4f6cdd0677168abaa4498",
+      "length": 319555,
+      "width": 1080,
+      "height": 1503,
+      "orientation": "portrait",
+      "mean_colour": "#a59d7e",
+      "thumbnail": "assets/77f06e3b0cd8109c1620173c3cf43285c2371fd40e53f1c5f9923a8bbebd487e.webp",
+      "alt_text": "A cuckoo flies down past soft clouds toward a bank of pink and white azaleas.",
+      "placard": {
+        "title": "Cuckoo and Azaleas (Hototogisu, satsuki)",
+        "creator": "Katsushika Hokusai 葛飾 北斎 (Japanese, 1760-1849)",
+        "date": "c. 1834",
+        "medium": "Color woodblock print; chuban",
+        "dimensions": "25.4 × 19.1 cm (10 × 7 1/2 in.)",
+        "institution": "Art Institute of Chicago",
+        "canonical_url": "https://www.artic.edu/artworks/25083"
+      },
+      "rights": {
+        "license": "CC0-1.0",
+        "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "evidence": {
+          "provider_field": "is_public_domain",
+          "provider_value": true,
+          "image_url": "https://www.artic.edu/iiif/2/19dfff1a-6a1c-bd63-4db8-36f5bb35bbff/full/1686,/0/default.jpg",
+          "observed_at": "2026-10-06T11:41:31+00:00"
+        }
+      }
+    },
+    {
+      "provider": "aic",
+      "object_id": "46435",
+      "file": "assets/026eccff01424efda422d3af523045c962b600794303632d35b10956b332c571.jpg",
+      "sha256": "026eccff01424efda422d3af523045c962b600794303632d35b10956b332c571",
+      "length": 218399,
+      "width": 1040,
+      "height": 1920,
+      "orientation": "portrait",
+      "mean_colour": "#ab9884",
+      "thumbnail": "assets/2cc2b1334c6f7f4dd3da3ac5e999b7cfc75efe867bc8ce3d943305a9f8f33ae8.webp",
+      "alt_text": "A pair of mandarin ducks rest among broad grey ink lotus leaves, with a line of calligraphy at the top left.",
+      "placard": {
+        "title": "Mandarin Ducks and Lotus",
+        "creator": "Ren Yi (Chinese, 1840-1895)",
+        "date": "Qing dynasty (1644–1911), 1892",
+        "medium": "Hanging scroll; ink and colors on paper",
+        "dimensions": "149.8 × 40 cm (58 15/16 × 15 3/4 in.)",
+        "institution": "Art Institute of Chicago",
+        "canonical_url": "https://www.artic.edu/artworks/46435"
+      },
+      "rights": {
+        "license": "CC0-1.0",
+        "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "evidence": {
+          "provider_field": "is_public_domain",
+          "provider_value": true,
+          "image_url": "https://www.artic.edu/iiif/2/80d53b0e-5bb0-c19e-ca74-1fb5d829740f/full/1686,/0/default.jpg",
+          "observed_at": "2026-10-06T11:41:34+00:00"
+        }
+      }
+    },
+    {
+      "provider": "cleveland",
+      "object_id": "129863",
+      "file": "assets/d458b0b4fd106cf46ec368f8ab7054d6b92f6fb5e617fa78c7786b5bdb750a68.jpg",
+      "sha256": "d458b0b4fd106cf46ec368f8ab7054d6b92f6fb5e617fa78c7786b5bdb750a68",
+      "length": 352101,
+      "width": 1080,
+      "height": 1516,
+      "orientation": "portrait",
+      "mean_colour": "#c9c1b1",
+      "thumbnail": "assets/5cf24c4fdc67d311fa77b756e8f1d4eee5a834b9d284d76faf1b78fa7a9d27e7.webp",
+      "alt_text": "A sheet of colourful flower sprays in pink, yellow and blue, with a small blue bird among them.",
+      "placard": {
+        "title": "Floral Designs with a Blue Bird",
+        "creator": "Giacomo Cavenezia (Italian)",
+        "date": "c. 1773/74",
+        "medium": "pen and black and brown ink, brush and black and brown wash, watercolor and gouache, over traces of black chalk",
+        "dimensions": "Sheet: 32.3 x 22.8 cm (12 11/16 x 9 in.)",
+        "institution": "The Cleveland Museum of Art",
+        "canonical_url": "https://clevelandart.org/art/1952.287"
+      },
+      "rights": {
+        "license": "CC0-1.0",
+        "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "evidence": {
+          "provider_field": "share_license_status",
+          "provider_value": "CC0",
+          "image_url": "https://openaccess-cdn.clevelandart.org/1952.287/1952.287_print.jpg",
+          "observed_at": "2026-10-06T11:41:37+00:00"
+        }
+      }
+    },
+    {
+      "provider": "aic",
+      "object_id": "89339",
+      "file": "assets/009c308212aeb67ae713ded49ab66dffcd60dd072466d4c5e6698bdc1cefa1d3.jpg",
+      "sha256": "009c308212aeb67ae713ded49ab66dffcd60dd072466d4c5e6698bdc1cefa1d3",
+      "length": 232384,
+      "width": 1080,
+      "height": 1544,
+      "orientation": "portrait",
+      "mean_colour": "#d5cdaf",
+      "thumbnail": "assets/64d3b1d03456831b46f07f9dc1c6750a56c04f4fc6c45d12bf64320079816639.webp",
+      "alt_text": "A grey speckled hawk perches calmly on a gnarled branch of white plum blossom.",
+      "placard": {
+        "title": "Hawk on a Plum Branch",
+        "creator": "Kitagawa Utamaro 喜多川 歌麿 (Japanese, c.1753-1806)",
+        "date": "1800",
+        "medium": "Color woodblock print; aiban",
+        "dimensions": "32.8 × 22.6 cm (12 15/16 × 8 15/16 in.)",
+        "institution": "Art Institute of Chicago",
+        "canonical_url": "https://www.artic.edu/artworks/89339"
+      },
+      "rights": {
+        "license": "CC0-1.0",
+        "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "evidence": {
+          "provider_field": "is_public_domain",
+          "provider_value": true,
+          "image_url": "https://www.artic.edu/iiif/2/86ed969e-eb55-1222-965d-84f6805c734b/full/1686,/0/default.jpg",
+          "observed_at": "2026-10-06T11:41:40+00:00"
+        }
+      }
+    },
+    {
+      "provider": "aic",
+      "object_id": "142422",
+      "file": "assets/1767c86848f8b2a36895bc3917409a105c00b61509eec7576632bef6ab898151.jpg",
+      "sha256": "1767c86848f8b2a36895bc3917409a105c00b61509eec7576632bef6ab898151",
+      "length": 130119,
+      "width": 1080,
+      "height": 1423,
+      "orientation": "portrait",
+      "mean_colour": "#dbd4bf",
+      "thumbnail": "assets/671558602f9b9d694531e73bd6115982540af7e968c6b7c2be487eb8b5d90b63.webp",
+      "alt_text": "A tall brown heron with a long beak and speckled neck stands in profile on cream paper.",
+      "placard": {
+        "title": "Purple Heron (Ardea purpurea)",
+        "creator": "India (West Bengal, Kolkata)",
+        "date": "Company School, c. 1780-1820",
+        "medium": "Watercolor on watermarked paper",
+        "dimensions": "63.5 × 47.8 cm (25 × 18 3/4 in.)",
+        "institution": "Art Institute of Chicago",
+        "canonical_url": "https://www.artic.edu/artworks/142422"
+      },
+      "rights": {
+        "license": "CC0-1.0",
+        "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "evidence": {
+          "provider_field": "is_public_domain",
+          "provider_value": true,
+          "image_url": "https://www.artic.edu/iiif/2/c7c3111b-cbb0-b0ce-19b8-f7ee92c8d839/full/1686,/0/default.jpg",
+          "observed_at": "2026-10-06T11:41:42+00:00"
+        }
+      }
+    },
+    {
+      "provider": "aic",
+      "object_id": "56217",
+      "file": "assets/bc476bf96eb075fe201ebe09276326af4f49a60fd8ccf0fde2d50f087603f802.jpg",
+      "sha256": "bc476bf96eb075fe201ebe09276326af4f49a60fd8ccf0fde2d50f087603f802",
+      "length": 209817,
+      "width": 1080,
+      "height": 1444,
+      "orientation": "portrait",
+      "mean_colour": "#d4c7ac",
+      "thumbnail": "assets/7530951bccfa3a08e8696e7f3c53b65dd8f9d7bccf3a63f1ecc072ad8552cea1.webp",
+      "alt_text": "A small grey bird with a dark cap sits on a camellia branch with pink and red flowers and a short poem.",
+      "placard": {
+        "title": "Sparrow on camellia branch",
+        "creator": "Utagawa Hiroshige II (Shigenobu) (Japanese, 1826–1869)",
+        "date": "c. 1847/52",
+        "medium": "Color woodblock print; koban",
+        "dimensions": "22 × 16.3 cm (8 3/4 × 6 3/8 in.)",
+        "institution": "Art Institute of Chicago",
+        "canonical_url": "https://www.artic.edu/artworks/56217"
+      },
+      "rights": {
+        "license": "CC0-1.0",
+        "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "evidence": {
+          "provider_field": "is_public_domain",
+          "provider_value": true,
+          "image_url": "https://www.artic.edu/iiif/2/025f5c71-fdbf-d6b1-93c4-89ff10a7389b/full/1686,/0/default.jpg",
+          "observed_at": "2026-10-06T11:41:45+00:00"
+        }
+      }
+    },
+    {
+      "provider": "cleveland",
+      "object_id": "145422",
+      "file": "assets/fcdffe4f346518b303acf5fdd7ca99924314ae52debf2fb2370bfd10201945f4.jpg",
+      "sha256": "fcdffe4f346518b303acf5fdd7ca99924314ae52debf2fb2370bfd10201945f4",
+      "length": 245753,
+      "width": 1053,
+      "height": 1920,
+      "orientation": "portrait",
+      "mean_colour": "#c9b9a5",
+      "thumbnail": "assets/8eca9654e3ea74cc5c74445834bfe2749ca8063c16d99a8b49814fd25ff74007.webp",
+      "alt_text": "Small sparrows flutter over a pale bush of chrysanthemums while two round puppies play below, in soft ink and colour.",
+      "placard": {
+        "title": "Puppies, Sparrows, and Chrysanthemums",
+        "creator": "Nagasawa Rosetsu (Japanese, 1754–1799)",
+        "date": "c. 1792–94",
+        "medium": "Fusuma panel remounted as a hanging scroll; ink and slight color on paper",
+        "dimensions": "Overall: 211.4 x 94 cm (83 1/4 x 37 in.); Painted surface: 167.6 x 91.5 cm (66 x 36 in.)",
+        "institution": "The Cleveland Museum of Art",
+        "canonical_url": "https://clevelandart.org/art/1970.71.2"
+      },
+      "rights": {
+        "license": "CC0-1.0",
+        "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "evidence": {
+          "provider_field": "share_license_status",
+          "provider_value": "CC0",
+          "image_url": "https://openaccess-cdn.clevelandart.org/1970.71.2/1970.71.2_print.jpg",
+          "observed_at": "2026-10-06T11:41:48+00:00"
+        }
+      }
+    },
+    {
+      "provider": "aic",
+      "object_id": "77362",
+      "file": "assets/cbc7587a7c4183c8c64bf9211d9a8c7a098113213312b3083618018754420df1.jpg",
+      "sha256": "cbc7587a7c4183c8c64bf9211d9a8c7a098113213312b3083618018754420df1",
+      "length": 226151,
+      "width": 1080,
+      "height": 1412,
+      "orientation": "portrait",
+      "mean_colour": "#d2ce9d",
+      "thumbnail": "assets/7d45d3b14534046cfcbc7c1bd8e3f8d3fbdb85b757fcbf18085ddd6e6d153ec2.webp",
+      "alt_text": "A cuckoo flies above white clouds over sprays of small white deutzia flowers, with lines of poetry beside it.",
+      "placard": {
+        "title": "Cuckoo flying over deutzia flowers",
+        "creator": "Komatsuya Hyakki (Japanese, 1720–1793 (?))",
+        "date": "c. 1766",
+        "medium": "Color woodblock print; chuban",
+        "dimensions": "25.8 × 19.7 cm (10 1/8 × 7 3/4 in.)",
+        "institution": "Art Institute of Chicago",
+        "canonical_url": "https://www.artic.edu/artworks/77362"
+      },
+      "rights": {
+        "license": "CC0-1.0",
+        "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "evidence": {
+          "provider_field": "is_public_domain",
+          "provider_value": true,
+          "image_url": "https://www.artic.edu/iiif/2/445dbe73-5575-4803-51c0-8036d64a95f1/full/1686,/0/default.jpg",
+          "observed_at": "2026-10-06T11:41:50+00:00"
+        }
+      }
+    },
+    {
+      "provider": "aic",
+      "object_id": "18878",
+      "file": "assets/7f6b5739c2155e2ca44aff59b87b782025096dac6fbbd96a8217488f4e73bc87.jpg",
+      "sha256": "7f6b5739c2155e2ca44aff59b87b782025096dac6fbbd96a8217488f4e73bc87",
+      "length": 165362,
+      "width": 1080,
+      "height": 1597,
+      "orientation": "portrait",
+      "mean_colour": "#dbd5c3",
+      "thumbnail": "assets/38d2d558bc9389359dd00b09649c5c08b80b950cd7194736e188998c7eea94ef.webp",
+      "alt_text": "Two blue-and-grey Florida scrub jays among leafy branches hung with small yellow fruit, on a wide cream sheet.",
+      "placard": {
+        "title": "Florida Jay",
+        "creator": "Robert Havell (English, 1793-1878) (after John James Laforest Audubon (American, 1785-1851))",
+        "date": "1830",
+        "medium": "Hand-colored engraving, with aquatint, on ivory wove paper",
+        "dimensions": "Image: 63 × 49.5 cm (24 13/16 × 19 1/2 in.); Plate: 65.7 × 53 cm (25 7/8 × 20 7/8 in.); Sheet: 96.6 × 64.7 cm (38 1/16 × 25 1/2 in.)",
+        "institution": "Art Institute of Chicago",
+        "canonical_url": "https://www.artic.edu/artworks/18878"
+      },
+      "rights": {
+        "license": "CC0-1.0",
+        "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "evidence": {
+          "provider_field": "is_public_domain",
+          "provider_value": true,
+          "image_url": "https://www.artic.edu/iiif/2/bf44e53f-9df4-3246-8acd-3af23625396a/full/1686,/0/default.jpg",
+          "observed_at": "2026-10-06T11:41:53+00:00"
+        }
+      }
+    },
+    {
+      "provider": "aic",
+      "object_id": "47089",
+      "file": "assets/8442c96dc3a0982e76b97f074a884f751d5b40c66b21e5c98ca5bed0b383c20b.jpg",
+      "sha256": "8442c96dc3a0982e76b97f074a884f751d5b40c66b21e5c98ca5bed0b383c20b",
+      "length": 241561,
+      "width": 1044,
+      "height": 1920,
+      "orientation": "portrait",
+      "mean_colour": "#c0a78f",
+      "thumbnail": "assets/6cc3dcef432d1fa2c7e88015a06b427709031e6ea37c0e5887d434deded64062.webp",
+      "alt_text": "A white crane flies above a tangle of ink plum branches on pale paper, with calligraphy to the right.",
+      "placard": {
+        "title": "Plum Blossoms, Crane, and Spring",
+        "creator": "Xugu (Chinese, 1824-1896)",
+        "date": "Qing dynasty ( 1644–1912); 1824–1896; c.1892",
+        "medium": "Hanging scroll; ink and colors on paper",
+        "dimensions": "147.3 × 80.6 cm (31 3/4 × 58 in.)",
+        "institution": "Art Institute of Chicago",
+        "canonical_url": "https://www.artic.edu/artworks/47089"
+      },
+      "rights": {
+        "license": "CC0-1.0",
+        "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "evidence": {
+          "provider_field": "is_public_domain",
+          "provider_value": true,
+          "image_url": "https://www.artic.edu/iiif/2/a237a2df-0ebf-782a-3391-e2276ff051b5/full/1686,/0/default.jpg",
+          "observed_at": "2026-10-06T11:41:55+00:00"
+        }
+      }
+    },
+    {
+      "provider": "cleveland",
+      "object_id": "129865",
+      "file": "assets/feec39fdc52983458d66c8a1d455406e50d6c69e466b6c30ebed90432cdddef0.jpg",
+      "sha256": "feec39fdc52983458d66c8a1d455406e50d6c69e466b6c30ebed90432cdddef0",
+      "length": 293822,
+      "width": 1080,
+      "height": 1496,
+      "orientation": "portrait",
+      "mean_colour": "#d4ccbe",
+      "thumbnail": "assets/f830cb2c5badb5c318893869772aafd66199aa64406e581d0861a8d79cd34ebd.webp",
+      "alt_text": "Pink and white flowers on a cream sheet with a yellow bird and a red bird standing among them.",
+      "placard": {
+        "title": "Floral Designs with Two Birds",
+        "creator": "Giacomo Cavenezia (Italian)",
+        "date": "1774",
+        "medium": "pen and brown ink, brush and brown wash, gouache and watercolor, over traces of black chalk",
+        "dimensions": "Sheet: 31.7 x 22.8 cm (12 1/2 x 9 in.)",
+        "institution": "The Cleveland Museum of Art",
+        "canonical_url": "https://clevelandart.org/art/1952.289"
+      },
+      "rights": {
+        "license": "CC0-1.0",
+        "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "evidence": {
+          "provider_field": "share_license_status",
+          "provider_value": "CC0",
+          "image_url": "https://openaccess-cdn.clevelandart.org/1952.289/1952.289_print.jpg",
+          "observed_at": "2026-10-06T11:41:59+00:00"
+        }
+      }
+    },
+    {
+      "provider": "cleveland",
+      "object_id": "169332",
+      "file": "assets/5f8da8545a3b0d3ef5418e891fffb7bbbb0683be9784fa0e6f61d0846fff8c72.jpg",
+      "sha256": "5f8da8545a3b0d3ef5418e891fffb7bbbb0683be9784fa0e6f61d0846fff8c72",
+      "length": 280628,
+      "width": 1080,
+      "height": 1441,
+      "orientation": "portrait",
+      "mean_colour": "#bab1a8",
+      "thumbnail": "assets/acaf71febe16b9ef182a680e21af137fb917140bd278c6521e385679607a3bb4.webp",
+      "alt_text": "Two white herons stand close together at the edge of dark water, drawn in soft grey.",
+      "placard": {
+        "title": "Animal Studies: Two Silver Herons",
+        "creator": "Theo van Hoytema (Dutch, 1863–1917)",
+        "date": "1898",
+        "medium": "embossed lithograph",
+        "dimensions": "Sheet: 70.1 x 47.4 cm (27 5/8 x 18 11/16 in.); Image: 46.3 x 36.4 cm (18 1/4 x 14 5/16 in.)",
+        "institution": "The Cleveland Museum of Art",
+        "canonical_url": "https://clevelandart.org/art/2011.200"
+      },
+      "rights": {
+        "license": "CC0-1.0",
+        "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "evidence": {
+          "provider_field": "share_license_status",
+          "provider_value": "CC0",
+          "image_url": "https://openaccess-cdn.clevelandart.org/2011.200/2011.200_print.jpg",
+          "observed_at": "2026-10-06T11:42:02+00:00"
+        }
+      }
+    },
+    {
+      "provider": "cleveland",
+      "object_id": "101995",
+      "file": "assets/4ff4f4df46629bc263c2e006a48a3391c71b02b7db32074ffe3c917327b606a6.jpg",
+      "sha256": "4ff4f4df46629bc263c2e006a48a3391c71b02b7db32074ffe3c917327b606a6",
+      "length": 384158,
+      "width": 1080,
+      "height": 1428,
+      "orientation": "portrait",
+      "mean_colour": "#a7937d",
+      "thumbnail": "assets/064228a3b8d274a2938f1303213d7ba1c7ec06d30f74cfac634999fc49ab20bc.webp",
+      "alt_text": "Ducks swim and dive among tall reeds and lily pads on a quiet pond, in a fine black and white etching.",
+      "placard": {
+        "title": "Ducks at play",
+        "creator": "Félix Bracquemond (French, 1833–1914)",
+        "date": "c. 1870",
+        "medium": "etching and drypoint",
+        "dimensions": "Sheet: 55.3 x 39.6 cm (21 3/4 x 15 9/16 in.); Platemark: 33.8 x 24.4 cm (13 5/16 x 9 5/8 in.)",
+        "institution": "The Cleveland Museum of Art",
+        "canonical_url": "https://clevelandart.org/art/1920.656"
+      },
+      "rights": {
+        "license": "CC0-1.0",
+        "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "evidence": {
+          "provider_field": "share_license_status",
+          "provider_value": "CC0",
+          "image_url": "https://openaccess-cdn.clevelandart.org/1920.656/1920.656_print.jpg",
+          "observed_at": "2026-10-06T11:42:06+00:00"
+        }
+      }
+    },
+    {
+      "provider": "cleveland",
+      "object_id": "163844",
+      "file": "assets/80bc6998d90b8bf554f91ddd68724e08afa29cc7930b9a9186599a6fe60728a6.jpg",
+      "sha256": "80bc6998d90b8bf554f91ddd68724e08afa29cc7930b9a9186599a6fe60728a6",
+      "length": 438262,
+      "width": 1080,
+      "height": 1432,
+      "orientation": "portrait",
+      "mean_colour": "#9b9189",
+      "thumbnail": "assets/20d70255509238fb707203ba91a0d6cd05e1db07e6372107af19f80879cc1111.webp",
+      "alt_text": "A cock pheasant stands upright in heather and long grass while a hen pheasant pecks at the ground beside it.",
+      "placard": {
+        "title": "The Pheasants",
+        "creator": "Félix Bracquemond (French, 1833–1914)",
+        "date": "1899",
+        "medium": "etching",
+        "dimensions": "Sheet: 41 x 31.2 cm (16 1/8 x 12 5/16 in.); Platemark: 32.5 x 24.4 cm (12 13/16 x 9 5/8 in.)",
+        "institution": "The Cleveland Museum of Art",
+        "canonical_url": "https://clevelandart.org/art/2005.243"
+      },
+      "rights": {
+        "license": "CC0-1.0",
+        "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "evidence": {
+          "provider_field": "share_license_status",
+          "provider_value": "CC0",
+          "image_url": "https://openaccess-cdn.clevelandart.org/2005.243/2005.243_print.jpg",
+          "observed_at": "2026-10-06T11:42:09+00:00"
+        }
+      }
+    }
+  ],
+  "refused": [],
+  "review_notes": []
+}

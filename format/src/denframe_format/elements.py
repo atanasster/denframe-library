@@ -34,9 +34,11 @@ from .capabilities import (
     LAYOUT_SETUP_CAPABILITY,
     OVERLAY_LAYOUT_CAPABILITY,
     PICTURE_FILL_CAPABILITY,
+    WALL_LAYOUT_CAPABILITY,
     background_requires_capability,
     overlay_requires_capability,
     picture_capabilities,
+    wall_requires_capability,
 )
 from .composition import (
     BACKGROUND_FIELDS,
@@ -46,6 +48,7 @@ from .composition import (
     OVERLAY_FIELDS,
     TOKEN_NAMES,
     TOKEN_PALETTE,
+    WALL_FIELDS,
     Appearance,
     BlockStyle,
     DefinitionRef,
@@ -82,6 +85,7 @@ from .vocabulary import (
     OverlayScrim,
     Radius,
     Spacing,
+    WallDock,
 )
 
 MAX_ARCHIVE = 256 * 1024
@@ -277,6 +281,8 @@ class PortableAppearance(BaseModel):
     # Omitted at their defaults, so every package published before they existed keeps its bytes.
     overlay_corner: OverlayCorner = "bottom-left"
     overlay_scrim: OverlayScrim = "standard"
+    # The calendar wall's dock edge (family calendar step 12), design on the same terms.
+    wall_dock: WallDock = "top"
 
     @field_validator("background_cadence_seconds", mode="before")
     @classmethod
@@ -294,7 +300,9 @@ class PortableAppearance(BaseModel):
         self, handler: SerializerFunctionWrapHandler
     ) -> dict[str, Any]:
         return _omit_fields_at_default(
-            PortableAppearance, handler(self), BACKGROUND_FIELDS + CANVAS_FIELDS + OVERLAY_FIELDS
+            PortableAppearance,
+            handler(self),
+            BACKGROUND_FIELDS + CANVAS_FIELDS + OVERLAY_FIELDS + WALL_FIELDS,
         )
 
     @classmethod
@@ -535,6 +543,13 @@ def read_package(data: bytes) -> tuple[Manifest, Definition]:
                     f"An authored overlay requires {OVERLAY_LAYOUT_CAPABILITY} capability"
                 )
             if (
+                wall_requires_capability(
+                    definition.appearance.layout, wall_dock=definition.appearance.wall_dock
+                )
+                and WALL_LAYOUT_CAPABILITY not in manifest.required_capabilities
+            ):
+                raise ValueError(f"A calendar wall requires {WALL_LAYOUT_CAPABILITY} capability")
+            if (
                 _definition_requires_block_style(definition)
                 and BLOCK_STYLE_CAPABILITY not in manifest.required_capabilities
             ):
@@ -621,6 +636,15 @@ def required_capabilities(definition: Definition) -> list[str]:
                 definition.appearance.layout,
                 overlay_corner=definition.appearance.overlay_corner,
                 overlay_scrim=definition.appearance.overlay_scrim,
+            )
+            else []
+        ),
+        # The wall's dock edge on the same terms: the layout entry carries it for `wall`.
+        *(
+            [WALL_LAYOUT_CAPABILITY]
+            if definition.appearance.layout != "wall"
+            and wall_requires_capability(
+                definition.appearance.layout, wall_dock=definition.appearance.wall_dock
             )
             else []
         ),

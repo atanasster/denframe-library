@@ -218,7 +218,7 @@ waived.
 
 `evals/evals.json` (nine seeded submissions under `evals/seeded/`, built by
 `scripts/seeded.py`; `inject-evasive` is deliberately invisible to the scan and measures the
-reviewer) and `evals/conformance.json` (the 125-archive format corpus, expectations derived by
+reviewer) and `evals/conformance.json` (the 143-archive format corpus, expectations derived by
 `scripts/grade.py expect-conformance` from the corpus alone). Run them as the reviewer from a
 clean public checkout: `echo DENFRAME-REVIEW-EVAL-START-<run>`, review each case through the
 runner only (intake into `.review/`, output into `evals/results/<case>`), `echo

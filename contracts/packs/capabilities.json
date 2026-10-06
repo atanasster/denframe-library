@@ -1,6 +1,7 @@
 {
   "pack-format-v2": "host",
   "reveal-sequence-v1": "host",
+  "gallery-pack-v1": "host",
   "card-v1": "receiver",
   "pack-window-v1": "receiver",
   "pack-audio-v1": "receiver"

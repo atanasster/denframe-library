@@ -1,0 +1,130 @@
+{
+  "slug": "architecture",
+  "id": "denframe/architecture",
+  "version": "1.0.0",
+  "name": "Architecture",
+  "description": "City views, bridges, harbours, villas and quiet rooms in calm light, from Venetian views to Impressionist streets.",
+  "shape": "landscape",
+  "works": [
+    {
+      "provider": "cleveland",
+      "object_id": "137224",
+      "alt_text": "A wide view of Piazza San Marco in Venice, with the ornate basilica on the left, the tall brick bell tower and long arcaded buildings under a pale sky."
+    },
+    {
+      "provider": "aic",
+      "object_id": "25806",
+      "alt_text": "The white houses and domes of Genoa spread down to a deep blue sea, seen from a green hillside with trees."
+    },
+    {
+      "provider": "aic",
+      "object_id": "20701",
+      "alt_text": "Waterloo Bridge in London dissolving into a lilac and blue haze, with glints of sunlight on its arches and the river."
+    },
+    {
+      "provider": "aic",
+      "object_id": "147478",
+      "alt_text": "A sunny beach street in Sitges lined with whitewashed houses, with barrels and timber on the sand and a church tower by the sea."
+    },
+    {
+      "provider": "met",
+      "object_id": "12460",
+      "alt_text": "A loose watercolour of a pale Venetian palace front with arched doors and windows reflected in green canal water."
+    },
+    {
+      "provider": "aic",
+      "object_id": "28560",
+      "alt_text": "A small bedroom with blue walls, a wooden bed with a red cover, two yellow chairs, a table and an open green window."
+    },
+    {
+      "provider": "aic",
+      "object_id": "17501",
+      "alt_text": "A watercolour of an old stone bridge with two arches over a calm river, with poplars and a brick building on the right under a pale sky."
+    },
+    {
+      "provider": "aic",
+      "object_id": "215011",
+      "alt_text": "A watercolour of a Rhine town with a church spire and tiled roofs below green wooded hills, a sailing boat on the calm golden river."
+    },
+    {
+      "provider": "aic",
+      "object_id": "33212",
+      "alt_text": "A long arched stone aqueduct crossing behind a railway cutting with green trees and grass, and people strolling on the left."
+    },
+    {
+      "provider": "cleveland",
+      "object_id": "111702",
+      "alt_text": "A grey ink and wash drawing of an imaginary palace with a grand arched courtyard beside a lagoon, with a ship's masts beyond."
+    },
+    {
+      "provider": "aic",
+      "object_id": "59455",
+      "alt_text": "A New England village of white wooden houses and a steepled meetinghouse on a green hill under a blue sky with white clouds."
+    },
+    {
+      "provider": "aic",
+      "object_id": "103139",
+      "alt_text": "Waterloo Bridge in London on a grey day, its arches and the factory chimneys behind softened in blue-green mist."
+    },
+    {
+      "provider": "met",
+      "object_id": "12137",
+      "alt_text": "Whitewashed Moorish buildings with arched green doors above a rough, pale stony foreground, in the soft light of a cloudy day."
+    },
+    {
+      "provider": "aic",
+      "object_id": "44831",
+      "alt_text": "Strollers, families and dogs under tall trees on the sunny paths of Boston Common, with the city's rooftops on the hill beyond."
+    },
+    {
+      "provider": "aic",
+      "object_id": "16545",
+      "alt_text": "The Brooklyn Bridge spanning a turquoise river above red brick rooftops under a golden evening sky."
+    },
+    {
+      "provider": "cleveland",
+      "object_id": "150737",
+      "alt_text": "A fine ink drawing of a villa with an ornate gateway and potted trees, seen through an arch of leafy vines, with a figure and a small dog in front."
+    },
+    {
+      "provider": "aic",
+      "object_id": "45267",
+      "alt_text": "A sunlit road on a Roman hilltop leading to a church with two bell towers and an obelisk, with a few figures and a pale sky."
+    },
+    {
+      "provider": "cleveland",
+      "object_id": "152265",
+      "alt_text": "Workers with wheelbarrows crossing a snowy building site in front of old brick houses and bare trees in Amsterdam."
+    },
+    {
+      "provider": "aic",
+      "object_id": "185775",
+      "alt_text": "A stone terrace of an Italian villa garden with tall umbrella pines, a large urn and a peacock, in warm golden light."
+    },
+    {
+      "provider": "aic",
+      "object_id": "81574",
+      "alt_text": "Sailing barges and rowing boats on the grey-silver Thames at Battersea, with factory chimneys along the far shore."
+    },
+    {
+      "provider": "aic",
+      "object_id": "196393",
+      "alt_text": "A blue and tan architectural rendering of a planned civic centre, with a domed hall at the end of a broad plaza lined with long buildings."
+    },
+    {
+      "provider": "aic",
+      "object_id": "20684",
+      "alt_text": "A wide Paris crossroads on a rainy day, with tall cream buildings, wet cobblestones and people under grey umbrellas."
+    },
+    {
+      "provider": "aic",
+      "object_id": "152850",
+      "alt_text": "The weathered brick walls of the ancient palace on Rome's Palatine Hill, overgrown with trees, above a sunny open ground."
+    },
+    {
+      "provider": "aic",
+      "object_id": "69538",
+      "alt_text": "A country estate at sunset, with a white house and a domed pavilion among trees beyond a lake crossed by a stone bridge."
+    }
+  ]
+}

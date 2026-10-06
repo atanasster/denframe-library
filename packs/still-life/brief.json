@@ -1,0 +1,130 @@
+{
+  "slug": "still-life",
+  "id": "denframe/still-life",
+  "version": "1.0.0",
+  "name": "Still life",
+  "description": "Fruit, flowers and laid tables from four centuries of painting, drawing and printmaking, from bright Impressionist tables to quieter Dutch and Spanish still lifes.",
+  "shape": "landscape",
+  "works": [
+    {
+      "provider": "met",
+      "object_id": "436528",
+      "alt_text": "A white jug crowded with blue-violet irises and long green leaves against a pale off-white wall, on a green table."
+    },
+    {
+      "provider": "aic",
+      "object_id": "16629",
+      "alt_text": "Peppers, lemons, tomatoes, an aubergine and pomegranates heaped on and around a blue and white dish on a white cloth."
+    },
+    {
+      "provider": "cleveland",
+      "object_id": "123249",
+      "alt_text": "A woodblock print of white and coral pink peonies in a long woven basket, with a poem in flowing calligraphy above."
+    },
+    {
+      "provider": "aic",
+      "object_id": "16549",
+      "alt_text": "Green and red apples and a basket of purple and green grapes on a white tablecloth with pale blue shadows."
+    },
+    {
+      "provider": "aic",
+      "object_id": "62450",
+      "alt_text": "A woven basket of peaches, plums, cherries and grapes beside a bundle of white asparagus on a wooden ledge."
+    },
+    {
+      "provider": "aic",
+      "object_id": "111436",
+      "alt_text": "A tilted basket of apples, a dark bottle, a plate of biscuits and loose fruit on a white cloth on a wooden table."
+    },
+    {
+      "provider": "cleveland",
+      "object_id": "132616",
+      "alt_text": "A watercolour of small birds, including goldfinches and a bee-eater, among pears, plums, a peach and a fig on a grey ground."
+    },
+    {
+      "provider": "met",
+      "object_id": "436963",
+      "alt_text": "A woven basket heaped with ripe red strawberries on a pale table against a grey wall."
+    },
+    {
+      "provider": "aic",
+      "object_id": "75507",
+      "alt_text": "A table with a white cloth set with a glass jug, wine glass, teacup, silver pot and a bowl of fruit, with a flowering rhododendron in front."
+    },
+    {
+      "provider": "cleveland",
+      "object_id": "154173",
+      "alt_text": "A round woven bamboo basket holding green leaves and a small white flower, printed on cream paper."
+    },
+    {
+      "provider": "aic",
+      "object_id": "120154",
+      "alt_text": "A tall glass jar of strawberries, a bowl of nuts, an orange, a china sugar bowl and a white cream jug on a wooden ledge."
+    },
+    {
+      "provider": "cleveland",
+      "object_id": "109628",
+      "alt_text": "A table draped in patterned cloth with a glass dish of fruit, a white jar, a jug of red and orange zinnias and scattered peaches."
+    },
+    {
+      "provider": "cleveland",
+      "object_id": "144496",
+      "alt_text": "Peaches, a cantaloupe, a pear, grapes and raspberries with a wine glass and a fruit knife on a fringed white cloth."
+    },
+    {
+      "provider": "aic",
+      "object_id": "66042",
+      "alt_text": "A garland of roses, tulips and other flowers in a dark niche, partly hidden by a blue silk curtain hanging from a brass rod."
+    },
+    {
+      "provider": "cleveland",
+      "object_id": "93239",
+      "alt_text": "A modern still life of a brown bottle and a large white bowl holding a plum, small lemons and a green pepper on a dark cloth, with a knife."
+    },
+    {
+      "provider": "cleveland",
+      "object_id": "173658",
+      "alt_text": "Peaches, plums, grapes with vine leaves, a halved apple and a glass of wine beside a decanter on a marble ledge."
+    },
+    {
+      "provider": "aic",
+      "object_id": "51577",
+      "alt_text": "A small table covered with a white cloth, set with bread, a glass of red wine, a knife and a plate of sliced sausage, beside a wooden wine cooler."
+    },
+    {
+      "provider": "cleveland",
+      "object_id": "120286",
+      "alt_text": "A loose bouquet of cream, pink and deep red roses in a green vase, painted with soft brushstrokes on a warm ground."
+    },
+    {
+      "provider": "aic",
+      "object_id": "197867",
+      "alt_text": "A drawing of a copper cooking pot with its lid and a ladle, a cloth hanging over its side and two root vegetables beside it."
+    },
+    {
+      "provider": "cleveland",
+      "object_id": "150140",
+      "alt_text": "Blocks of nougat and candied fruit, a glass flask and a tall goblet on boxes and dishes on a grey stone ledge."
+    },
+    {
+      "provider": "aic",
+      "object_id": "94240",
+      "alt_text": "Two red poppies and a few white daisies in a dark round jug against a deep green background."
+    },
+    {
+      "provider": "cleveland",
+      "object_id": "137244",
+      "alt_text": "A watercolour of peaches and blue-violet plums with leafy stems arranged on a grey marble slab, on an oval of cream paper."
+    },
+    {
+      "provider": "aic",
+      "object_id": "111059",
+      "alt_text": "A white porcelain bowl of pears and apples surrounded by roses, carnations, jasmine and lilies on a stone ledge against a dark background."
+    },
+    {
+      "provider": "cleveland",
+      "object_id": "150079",
+      "alt_text": "A bunch of white asparagus tied with string, loose spears on a plate and a green glass jug in a dim kitchen."
+    }
+  ]
+}

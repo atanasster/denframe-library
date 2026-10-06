@@ -1,0 +1,1501 @@
+{
+  "id": "denframe/portrait-wall",
+  "version": "1.0.0",
+  "publisher": "Denframe",
+  "definition": {
+    "schema_version": 2,
+    "kind": "gallery",
+    "name": "Portrait wall",
+    "description": "Tall flowers, birds, gardens and landscapes from Japanese prints, Chinese scrolls and Western painting, chosen to fill the tall companion panel.",
+    "shape": "portrait",
+    "presentation": {
+      "fit": "fit",
+      "mat_style": "museum",
+      "placard_seconds": 12,
+      "cadence_seconds": 45
+    },
+    "strip": "assets/208e937ceea59066af90cd23e318ec1b6dd46e256274d5a2f208610c41e03264.webp",
+    "resources": [
+      {
+        "path": "assets/d55359fb193851638e519fd60aeec866f820405719769cde797dac07b30a6d78.jpg",
+        "sha256": "d55359fb193851638e519fd60aeec866f820405719769cde797dac07b30a6d78",
+        "length": 367415,
+        "media_type": "image/jpeg",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Katsushika Hokusai 葛飾 北斎 (Japanese, 1760-1849)",
+          "license": "CC0-1.0",
+          "attribution": "Bullfinch and Weeping Cherry (Uso, shidarezakura), from an untitled series of flowers and birds · Katsushika Hokusai 葛飾 北斎 (Japanese, 1760-1849) · Art Institute of Chicago · CC0",
+          "source": "https://www.artic.edu/artworks/25093",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/0240b0d6eb3d846ff140e923f82ac5e1840a27bc5f0e51b3a7202ffb965869f4.webp",
+        "sha256": "0240b0d6eb3d846ff140e923f82ac5e1840a27bc5f0e51b3a7202ffb965869f4",
+        "length": 33392,
+        "media_type": "image/webp",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Katsushika Hokusai 葛飾 北斎 (Japanese, 1760-1849)",
+          "license": "CC0-1.0",
+          "attribution": "Bullfinch and Weeping Cherry (Uso, shidarezakura), from an untitled series of flowers and birds · Katsushika Hokusai 葛飾 北斎 (Japanese, 1760-1849) · Art Institute of Chicago · CC0",
+          "source": "https://www.artic.edu/artworks/25093",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/6fbf25d4de596a5a4637c17d30ba5ea41c7c456873f3404585f26ecc6f552e70.jpg",
+        "sha256": "6fbf25d4de596a5a4637c17d30ba5ea41c7c456873f3404585f26ecc6f552e70",
+        "length": 654960,
+        "media_type": "image/jpeg",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Giovanni Segantini (Italian, 1858–1899)",
+          "license": "CC0-1.0",
+          "attribution": "Pine Tree · Giovanni Segantini (Italian, 1858–1899) · The Cleveland Museum of Art · CC0",
+          "source": "https://clevelandart.org/art/1982.124",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/853e639e91ed1888be263e0dff849d408f63341430fbc9e3193994b98ee72b54.webp",
+        "sha256": "853e639e91ed1888be263e0dff849d408f63341430fbc9e3193994b98ee72b54",
+        "length": 36264,
+        "media_type": "image/webp",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Giovanni Segantini (Italian, 1858–1899)",
+          "license": "CC0-1.0",
+          "attribution": "Pine Tree · Giovanni Segantini (Italian, 1858–1899) · The Cleveland Museum of Art · CC0",
+          "source": "https://clevelandart.org/art/1982.124",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/f998e8df4cfe1026007408289d438dd54072d9ee44d23c09df6c6b37538bdb75.jpg",
+        "sha256": "f998e8df4cfe1026007408289d438dd54072d9ee44d23c09df6c6b37538bdb75",
+        "length": 222423,
+        "media_type": "image/jpeg",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Yun Shouping (Chinese, 1633–1690)",
+          "license": "CC0-1.0",
+          "attribution": "Herbaceous Peony · Yun Shouping (Chinese, 1633–1690) · The Cleveland Museum of Art · CC0",
+          "source": "https://clevelandart.org/art/1967.192",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/fc57eced39e1a6e9d7afe1304408999330a230522169ce4d431000ee1b43045e.webp",
+        "sha256": "fc57eced39e1a6e9d7afe1304408999330a230522169ce4d431000ee1b43045e",
+        "length": 12614,
+        "media_type": "image/webp",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Yun Shouping (Chinese, 1633–1690)",
+          "license": "CC0-1.0",
+          "attribution": "Herbaceous Peony · Yun Shouping (Chinese, 1633–1690) · The Cleveland Museum of Art · CC0",
+          "source": "https://clevelandart.org/art/1967.192",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/e5737454b70efed7ec078ba8d06ec09e86eb688e005e53f2b3d24cd8c49f843e.jpg",
+        "sha256": "e5737454b70efed7ec078ba8d06ec09e86eb688e005e53f2b3d24cd8c49f843e",
+        "length": 159708,
+        "media_type": "image/jpeg",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "George Inness (American, 1825–1894)",
+          "license": "CC0-1.0",
+          "attribution": "Early Morning, Tarpon Springs · George Inness (American, 1825–1894) · Art Institute of Chicago · CC0",
+          "source": "https://www.artic.edu/artworks/64729",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/6ecf6cd02242da913797463c8a5b723fc92db32922f09df3c83209fc17d983a4.webp",
+        "sha256": "6ecf6cd02242da913797463c8a5b723fc92db32922f09df3c83209fc17d983a4",
+        "length": 10422,
+        "media_type": "image/webp",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "George Inness (American, 1825–1894)",
+          "license": "CC0-1.0",
+          "attribution": "Early Morning, Tarpon Springs · George Inness (American, 1825–1894) · Art Institute of Chicago · CC0",
+          "source": "https://www.artic.edu/artworks/64729",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/f6bd357ce2546c5dd95fde4fa29a774cecba9902ca1f1e21910a0633100f3050.jpg",
+        "sha256": "f6bd357ce2546c5dd95fde4fa29a774cecba9902ca1f1e21910a0633100f3050",
+        "length": 333481,
+        "media_type": "image/jpeg",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Utagawa Hiroshige (Japanese, 1797–1858)",
+          "license": "CC0-1.0",
+          "attribution": "Mountain and River on the Kiso Road · Utagawa Hiroshige (Japanese, 1797–1858) · The Cleveland Museum of Art · CC0",
+          "source": "https://clevelandart.org/art/1930.180.a",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/e809f12abd4bfdf8e508b2d47c9f1afff057e89c858746ca59c51865d06b81ab.webp",
+        "sha256": "e809f12abd4bfdf8e508b2d47c9f1afff057e89c858746ca59c51865d06b81ab",
+        "length": 24788,
+        "media_type": "image/webp",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Utagawa Hiroshige (Japanese, 1797–1858)",
+          "license": "CC0-1.0",
+          "attribution": "Mountain and River on the Kiso Road · Utagawa Hiroshige (Japanese, 1797–1858) · The Cleveland Museum of Art · CC0",
+          "source": "https://clevelandart.org/art/1930.180.a",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/0a94fe87b7541b43198a3ba406e1e7b1a756d8ec037a14a22cd6fb66b9048ef1.jpg",
+        "sha256": "0a94fe87b7541b43198a3ba406e1e7b1a756d8ec037a14a22cd6fb66b9048ef1",
+        "length": 238527,
+        "media_type": "image/jpeg",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Thomas Cole (American, born England, 1801–1848)",
+          "license": "CC0-1.0",
+          "attribution": "New England Scenery · Thomas Cole (American, born England, 1801–1848) · Art Institute of Chicago · CC0",
+          "source": "https://www.artic.edu/artworks/57163",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/ec452f93ed1a53e976306a7d17180105ca744b2b7095e40d7c53c649adde480a.webp",
+        "sha256": "ec452f93ed1a53e976306a7d17180105ca744b2b7095e40d7c53c649adde480a",
+        "length": 19216,
+        "media_type": "image/webp",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Thomas Cole (American, born England, 1801–1848)",
+          "license": "CC0-1.0",
+          "attribution": "New England Scenery · Thomas Cole (American, born England, 1801–1848) · Art Institute of Chicago · CC0",
+          "source": "https://www.artic.edu/artworks/57163",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/999323059f0d92ef6f040d56092a0fd7fd5aaf91e0f689adb11581a7dc3cecdf.jpg",
+        "sha256": "999323059f0d92ef6f040d56092a0fd7fd5aaf91e0f689adb11581a7dc3cecdf",
+        "length": 252039,
+        "media_type": "image/jpeg",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Xiao Yuncong (Chinese, 1596–1673)",
+          "license": "CC0-1.0",
+          "attribution": "Album of Seasonal Landscapes, Leaf D (previous leaf 2) · Xiao Yuncong (Chinese, 1596–1673) · The Cleveland Museum of Art · CC0",
+          "source": "https://clevelandart.org/art/1955.302.2",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/242b59152c174ae48cd1f61eadfe9715256cabfa0e4616f3382c2da4f1aa91c3.webp",
+        "sha256": "242b59152c174ae48cd1f61eadfe9715256cabfa0e4616f3382c2da4f1aa91c3",
+        "length": 25550,
+        "media_type": "image/webp",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Xiao Yuncong (Chinese, 1596–1673)",
+          "license": "CC0-1.0",
+          "attribution": "Album of Seasonal Landscapes, Leaf D (previous leaf 2) · Xiao Yuncong (Chinese, 1596–1673) · The Cleveland Museum of Art · CC0",
+          "source": "https://clevelandart.org/art/1955.302.2",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/55c436d58b8b9c2b18f1005c6b0c2a66c52c49e2e25068e57397c8504f46bae6.jpg",
+        "sha256": "55c436d58b8b9c2b18f1005c6b0c2a66c52c49e2e25068e57397c8504f46bae6",
+        "length": 353838,
+        "media_type": "image/jpeg",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Franz Marc (German, 1880–1916)",
+          "license": "CC0-1.0",
+          "attribution": "The Bewitched Mill · Franz Marc (German, 1880–1916) · Art Institute of Chicago · CC0",
+          "source": "https://www.artic.edu/artworks/9021",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/d72b2c852a6d3fc9c6be137c48a450551efcf158d72ce79bbbbfe7cf0ad72cfe.webp",
+        "sha256": "d72b2c852a6d3fc9c6be137c48a450551efcf158d72ce79bbbbfe7cf0ad72cfe",
+        "length": 28114,
+        "media_type": "image/webp",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Franz Marc (German, 1880–1916)",
+          "license": "CC0-1.0",
+          "attribution": "The Bewitched Mill · Franz Marc (German, 1880–1916) · Art Institute of Chicago · CC0",
+          "source": "https://www.artic.edu/artworks/9021",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/6f195cbe1a32967ce6885d24f6c621dba2cc23e38fd424466c2292a8c414daf4.jpg",
+        "sha256": "6f195cbe1a32967ce6885d24f6c621dba2cc23e38fd424466c2292a8c414daf4",
+        "length": 320639,
+        "media_type": "image/jpeg",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Katsushika Hokusai 葛飾 北斎 (Japanese, 1760-1849)",
+          "license": "CC0-1.0",
+          "attribution": "Paddy Bird and Magnolia Flowers (Buncho, kobushi no hana), from an untitled series of flowers and birds · Katsushika Hokusai 葛飾 北斎 (Japanese, 1760-1849) · Art Institute of Chicago · CC0",
+          "source": "https://www.artic.edu/artworks/25088",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/1506265ca2ef9cd492d86844d225fa737f7a72cc820bf4503a7fff2d272200b0.webp",
+        "sha256": "1506265ca2ef9cd492d86844d225fa737f7a72cc820bf4503a7fff2d272200b0",
+        "length": 31888,
+        "media_type": "image/webp",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Katsushika Hokusai 葛飾 北斎 (Japanese, 1760-1849)",
+          "license": "CC0-1.0",
+          "attribution": "Paddy Bird and Magnolia Flowers (Buncho, kobushi no hana), from an untitled series of flowers and birds · Katsushika Hokusai 葛飾 北斎 (Japanese, 1760-1849) · Art Institute of Chicago · CC0",
+          "source": "https://www.artic.edu/artworks/25088",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/1d33ca1affa2fb535262d82a7a83808da0385636e5890cb91f872d02b9fd2056.jpg",
+        "sha256": "1d33ca1affa2fb535262d82a7a83808da0385636e5890cb91f872d02b9fd2056",
+        "length": 283061,
+        "media_type": "image/jpeg",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Allen Smith, Jr. (American, 1810–1891)",
+          "license": "CC0-1.0",
+          "attribution": "Landscape near Painesville · Allen Smith, Jr. (American, 1810–1891) · The Cleveland Museum of Art · CC0",
+          "source": "https://clevelandart.org/art/1918.570",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/6fbe68814c879ad2a8d6589ad3f05ff0c18afbf172e0687f1344eb233b138079.webp",
+        "sha256": "6fbe68814c879ad2a8d6589ad3f05ff0c18afbf172e0687f1344eb233b138079",
+        "length": 26600,
+        "media_type": "image/webp",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Allen Smith, Jr. (American, 1810–1891)",
+          "license": "CC0-1.0",
+          "attribution": "Landscape near Painesville · Allen Smith, Jr. (American, 1810–1891) · The Cleveland Museum of Art · CC0",
+          "source": "https://clevelandart.org/art/1918.570",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/e6b487ad35c28225100c1a085b91ce729aa3de011a4737d913add1fb8b073e4c.jpg",
+        "sha256": "e6b487ad35c28225100c1a085b91ce729aa3de011a4737d913add1fb8b073e4c",
+        "length": 333184,
+        "media_type": "image/jpeg",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Georges Seurat (French, 1859-1891)",
+          "license": "CC0-1.0",
+          "attribution": "Trees (study for La Grande Jatte) · Georges Seurat (French, 1859-1891) · Art Institute of Chicago · CC0",
+          "source": "https://www.artic.edu/artworks/154022",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/0cf671d5887f4199306dee621769b2f538f6e52bb9179930f2a3878733bbfa92.webp",
+        "sha256": "0cf671d5887f4199306dee621769b2f538f6e52bb9179930f2a3878733bbfa92",
+        "length": 18484,
+        "media_type": "image/webp",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Georges Seurat (French, 1859-1891)",
+          "license": "CC0-1.0",
+          "attribution": "Trees (study for La Grande Jatte) · Georges Seurat (French, 1859-1891) · Art Institute of Chicago · CC0",
+          "source": "https://www.artic.edu/artworks/154022",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/c95d49bcbfd8e9a1062543b9243c3e82e0785a2a1b8f1c097258ce814b238fb8.jpg",
+        "sha256": "c95d49bcbfd8e9a1062543b9243c3e82e0785a2a1b8f1c097258ce814b238fb8",
+        "length": 284486,
+        "media_type": "image/jpeg",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Yin Hong (Chinese, c. 1430-c. 1500)",
+          "license": "CC0-1.0",
+          "attribution": "Birds Gather under the Spring Willow · Yin Hong (Chinese, c. 1430-c. 1500) · The Cleveland Museum of Art · CC0",
+          "source": "https://clevelandart.org/art/1974.31",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/304842b2a9d551399bf2c356403df34da358250ff5c42361ad42cbe107799947.webp",
+        "sha256": "304842b2a9d551399bf2c356403df34da358250ff5c42361ad42cbe107799947",
+        "length": 28352,
+        "media_type": "image/webp",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Yin Hong (Chinese, c. 1430-c. 1500)",
+          "license": "CC0-1.0",
+          "attribution": "Birds Gather under the Spring Willow · Yin Hong (Chinese, c. 1430-c. 1500) · The Cleveland Museum of Art · CC0",
+          "source": "https://clevelandart.org/art/1974.31",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/2f814dd352599c0c6bd07094c542fc0dc55fa215e2277fea1469b4a9afd4de5e.jpg",
+        "sha256": "2f814dd352599c0c6bd07094c542fc0dc55fa215e2277fea1469b4a9afd4de5e",
+        "length": 253406,
+        "media_type": "image/jpeg",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "John La Farge (American, 1835–1910)",
+          "license": "CC0-1.0",
+          "attribution": "Snow Field, Morning, Roxbury · John La Farge (American, 1835–1910) · Art Institute of Chicago · CC0",
+          "source": "https://www.artic.edu/artworks/62393",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/479e66d9ca44f91f28e6fff6691754ded9d554dd8bee34f6c8c0254e040eff65.webp",
+        "sha256": "479e66d9ca44f91f28e6fff6691754ded9d554dd8bee34f6c8c0254e040eff65",
+        "length": 17120,
+        "media_type": "image/webp",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "John La Farge (American, 1835–1910)",
+          "license": "CC0-1.0",
+          "attribution": "Snow Field, Morning, Roxbury · John La Farge (American, 1835–1910) · Art Institute of Chicago · CC0",
+          "source": "https://www.artic.edu/artworks/62393",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/c8f419db5a6209a876fb001ca04299d1a08e6fe0158cd7a31ad97981deb6c782.jpg",
+        "sha256": "c8f419db5a6209a876fb001ca04299d1a08e6fe0158cd7a31ad97981deb6c782",
+        "length": 338855,
+        "media_type": "image/jpeg",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Wang Hui (Chinese, 1632–1717)",
+          "license": "CC0-1.0",
+          "attribution": "Tall Bamboo and Distant Mountains, after Wang Meng · Wang Hui (Chinese, 1632–1717) · The Cleveland Museum of Art · CC0",
+          "source": "https://clevelandart.org/art/1953.629",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/8adad921a20eadf514729b988139351fe0e4f88c9a208367f01f45f506ecdb9a.webp",
+        "sha256": "8adad921a20eadf514729b988139351fe0e4f88c9a208367f01f45f506ecdb9a",
+        "length": 21390,
+        "media_type": "image/webp",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Wang Hui (Chinese, 1632–1717)",
+          "license": "CC0-1.0",
+          "attribution": "Tall Bamboo and Distant Mountains, after Wang Meng · Wang Hui (Chinese, 1632–1717) · The Cleveland Museum of Art · CC0",
+          "source": "https://clevelandart.org/art/1953.629",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/9e57a2e99d09ba511c937e8f510fad1bee2649984976de6497899131356edaae.jpg",
+        "sha256": "9e57a2e99d09ba511c937e8f510fad1bee2649984976de6497899131356edaae",
+        "length": 476932,
+        "media_type": "image/jpeg",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Odilon Redon (French, 1840–1916)",
+          "license": "CC0-1.0",
+          "attribution": "Vase of Flowers · Odilon Redon (French, 1840–1916) · The Cleveland Museum of Art · CC0",
+          "source": "https://clevelandart.org/art/1935.233",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/4f2091d4494160c8706050fc37d99bc1f160130307dc978fb111a2c4964f263e.webp",
+        "sha256": "4f2091d4494160c8706050fc37d99bc1f160130307dc978fb111a2c4964f263e",
+        "length": 35324,
+        "media_type": "image/webp",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Odilon Redon (French, 1840–1916)",
+          "license": "CC0-1.0",
+          "attribution": "Vase of Flowers · Odilon Redon (French, 1840–1916) · The Cleveland Museum of Art · CC0",
+          "source": "https://clevelandart.org/art/1935.233",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/b235f84993129f3d7b54432969d52fc7b351dffde8ddd3b596bdfe5fe3c9bc1e.jpg",
+        "sha256": "b235f84993129f3d7b54432969d52fc7b351dffde8ddd3b596bdfe5fe3c9bc1e",
+        "length": 248602,
+        "media_type": "image/jpeg",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Paulus Potter (Dutch, 1625–1654)",
+          "license": "CC0-1.0",
+          "attribution": "Two Cows and a Young Bull beside a Fence in a Meadow · Paulus Potter (Dutch, 1625–1654) · Art Institute of Chicago · CC0",
+          "source": "https://www.artic.edu/artworks/146953",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/2b122ba35865f9c9df956ad0b86058f210330c35ec12aa960671cb3376571a46.webp",
+        "sha256": "2b122ba35865f9c9df956ad0b86058f210330c35ec12aa960671cb3376571a46",
+        "length": 22922,
+        "media_type": "image/webp",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Paulus Potter (Dutch, 1625–1654)",
+          "license": "CC0-1.0",
+          "attribution": "Two Cows and a Young Bull beside a Fence in a Meadow · Paulus Potter (Dutch, 1625–1654) · Art Institute of Chicago · CC0",
+          "source": "https://www.artic.edu/artworks/146953",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/6b4048cb404b3e07018726807e5ad900a7accf3027e4da8f378fd19b69d6b49c.jpg",
+        "sha256": "6b4048cb404b3e07018726807e5ad900a7accf3027e4da8f378fd19b69d6b49c",
+        "length": 305967,
+        "media_type": "image/jpeg",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Min Zhen (Chinese, 1730–after 1788)",
+          "license": "CC0-1.0",
+          "attribution": "Landscape after Mi Fu · Min Zhen (Chinese, 1730–after 1788) · The Cleveland Museum of Art · CC0",
+          "source": "https://clevelandart.org/art/1985.71.4",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/4d2f3186224f3a950bd917841d4c82f56791c2f4fa453714431ea76f5910cd5a.webp",
+        "sha256": "4d2f3186224f3a950bd917841d4c82f56791c2f4fa453714431ea76f5910cd5a",
+        "length": 23784,
+        "media_type": "image/webp",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Min Zhen (Chinese, 1730–after 1788)",
+          "license": "CC0-1.0",
+          "attribution": "Landscape after Mi Fu · Min Zhen (Chinese, 1730–after 1788) · The Cleveland Museum of Art · CC0",
+          "source": "https://clevelandart.org/art/1985.71.4",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/917dfaba9f90bd5e87ec235b485be6fe54119ce3d1df8f30a792598dc1f72d52.jpg",
+        "sha256": "917dfaba9f90bd5e87ec235b485be6fe54119ce3d1df8f30a792598dc1f72d52",
+        "length": 350531,
+        "media_type": "image/jpeg",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "George Inness (American, 1825–1894)",
+          "license": "CC0-1.0",
+          "attribution": "The Mill Pond · George Inness (American, 1825–1894) · Art Institute of Chicago · CC0",
+          "source": "https://www.artic.edu/artworks/151108",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/a14107e7a06b4d4a4f01443064ca52208f5b038fea3b0418a5931d433b66d951.webp",
+        "sha256": "a14107e7a06b4d4a4f01443064ca52208f5b038fea3b0418a5931d433b66d951",
+        "length": 22956,
+        "media_type": "image/webp",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "George Inness (American, 1825–1894)",
+          "license": "CC0-1.0",
+          "attribution": "The Mill Pond · George Inness (American, 1825–1894) · Art Institute of Chicago · CC0",
+          "source": "https://www.artic.edu/artworks/151108",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/d6495e1c5d9abed521400ce50a439e1b7eff5f143073762b02318567f0c56cee.jpg",
+        "sha256": "d6495e1c5d9abed521400ce50a439e1b7eff5f143073762b02318567f0c56cee",
+        "length": 241689,
+        "media_type": "image/jpeg",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Zhai Dakun (Chinese, d. 1804)",
+          "license": "CC0-1.0",
+          "attribution": "Landscape · Zhai Dakun (Chinese, d. 1804) · The Cleveland Museum of Art · CC0",
+          "source": "https://clevelandart.org/art/1986.49.3",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/ca7f3e4e716e7f84ba1aa966ef80bd401bce5286f59c5d2263c11b2f926569fa.webp",
+        "sha256": "ca7f3e4e716e7f84ba1aa966ef80bd401bce5286f59c5d2263c11b2f926569fa",
+        "length": 17546,
+        "media_type": "image/webp",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Zhai Dakun (Chinese, d. 1804)",
+          "license": "CC0-1.0",
+          "attribution": "Landscape · Zhai Dakun (Chinese, d. 1804) · The Cleveland Museum of Art · CC0",
+          "source": "https://clevelandart.org/art/1986.49.3",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/33a258a2f14226cb91f43d924eb70ef726acd83704fbed5f72bbc105111a9778.jpg",
+        "sha256": "33a258a2f14226cb91f43d924eb70ef726acd83704fbed5f72bbc105111a9778",
+        "length": 306374,
+        "media_type": "image/jpeg",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Edouard Jean Vuillard (French, 1868-1940)",
+          "license": "CC0-1.0",
+          "attribution": "The Garden in Front of the Studio · Edouard Jean Vuillard (French, 1868-1940) · Art Institute of Chicago · CC0",
+          "source": "https://www.artic.edu/artworks/111081",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/f72994f2dcc8e0c51b50f248bb438284de0fdcd7bf3de40a3b2e7f7cfad98b3c.webp",
+        "sha256": "f72994f2dcc8e0c51b50f248bb438284de0fdcd7bf3de40a3b2e7f7cfad98b3c",
+        "length": 25624,
+        "media_type": "image/webp",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Edouard Jean Vuillard (French, 1868-1940)",
+          "license": "CC0-1.0",
+          "attribution": "The Garden in Front of the Studio · Edouard Jean Vuillard (French, 1868-1940) · Art Institute of Chicago · CC0",
+          "source": "https://www.artic.edu/artworks/111081",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/19e0807032a1cc96ac543e30c389f52ae6075e461cd494ed81275c97abe182bb.jpg",
+        "sha256": "19e0807032a1cc96ac543e30c389f52ae6075e461cd494ed81275c97abe182bb",
+        "length": 278290,
+        "media_type": "image/jpeg",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Utagawa Hiroshige 歌川 広重 (Japanese, 1797-1858)",
+          "license": "CC0-1.0",
+          "attribution": "Japanese white-eye on flowering branch · Utagawa Hiroshige 歌川 広重 (Japanese, 1797-1858) · Art Institute of Chicago · CC0",
+          "source": "https://www.artic.edu/artworks/19018",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/9b0db2fc2dd6d1f1e95b55ad260b84c5da17300c4ebf20b8808eabd49501b37f.webp",
+        "sha256": "9b0db2fc2dd6d1f1e95b55ad260b84c5da17300c4ebf20b8808eabd49501b37f",
+        "length": 21900,
+        "media_type": "image/webp",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Utagawa Hiroshige 歌川 広重 (Japanese, 1797-1858)",
+          "license": "CC0-1.0",
+          "attribution": "Japanese white-eye on flowering branch · Utagawa Hiroshige 歌川 広重 (Japanese, 1797-1858) · Art Institute of Chicago · CC0",
+          "source": "https://www.artic.edu/artworks/19018",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/e88a5dd121fba3b1511616ca9492a65667a50421f293045bdc311f52a9cc7b7d.jpg",
+        "sha256": "e88a5dd121fba3b1511616ca9492a65667a50421f293045bdc311f52a9cc7b7d",
+        "length": 263453,
+        "media_type": "image/jpeg",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Claude Monet (French, 1840–1926)",
+          "license": "CC0-1.0",
+          "attribution": "Spring Flowers · Claude Monet (French, 1840–1926) · The Cleveland Museum of Art · CC0",
+          "source": "https://clevelandart.org/art/1953.155",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/19a3cd5d73fc543c39ab517638e4b2b8d1a447e8c7f5c816566d3a1ad18e9ace.webp",
+        "sha256": "19a3cd5d73fc543c39ab517638e4b2b8d1a447e8c7f5c816566d3a1ad18e9ace",
+        "length": 26972,
+        "media_type": "image/webp",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Claude Monet (French, 1840–1926)",
+          "license": "CC0-1.0",
+          "attribution": "Spring Flowers · Claude Monet (French, 1840–1926) · The Cleveland Museum of Art · CC0",
+          "source": "https://clevelandart.org/art/1953.155",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/86aa3add3e2e7008d65a834a64e1de49b7f705fa713d08ecaa5955768bc30aa8.jpg",
+        "sha256": "86aa3add3e2e7008d65a834a64e1de49b7f705fa713d08ecaa5955768bc30aa8",
+        "length": 275074,
+        "media_type": "image/jpeg",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Fachang Muqi (Chinese, 1220–1280)",
+          "license": "CC0-1.0",
+          "attribution": "Willow and Magpie · Fachang Muqi (Chinese, 1220–1280) · The Cleveland Museum of Art · CC0",
+          "source": "https://clevelandart.org/art/1982.53",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/0bfb57cb5f8844e074c4c9e714fd2f66c69c0f939683b09e345f30a06c0d5059.webp",
+        "sha256": "0bfb57cb5f8844e074c4c9e714fd2f66c69c0f939683b09e345f30a06c0d5059",
+        "length": 10778,
+        "media_type": "image/webp",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Fachang Muqi (Chinese, 1220–1280)",
+          "license": "CC0-1.0",
+          "attribution": "Willow and Magpie · Fachang Muqi (Chinese, 1220–1280) · The Cleveland Museum of Art · CC0",
+          "source": "https://clevelandart.org/art/1982.53",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/b6a1dfbb7f729579ff00e77d99156b4a2978b81712178bb4ff9d504d54e67b37.jpg",
+        "sha256": "b6a1dfbb7f729579ff00e77d99156b4a2978b81712178bb4ff9d504d54e67b37",
+        "length": 356259,
+        "media_type": "image/jpeg",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Maxime Lalanne (French, 1827–1886)",
+          "license": "CC0-1.0",
+          "attribution": "In my Bordeaux Garden · Maxime Lalanne (French, 1827–1886) · The Cleveland Museum of Art · CC0",
+          "source": "https://clevelandart.org/art/1920.684",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/46d7fa9212fa1130687a9ffa722f970bd2de80653c755d869c6850eaf6cc10c3.webp",
+        "sha256": "46d7fa9212fa1130687a9ffa722f970bd2de80653c755d869c6850eaf6cc10c3",
+        "length": 44006,
+        "media_type": "image/webp",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Maxime Lalanne (French, 1827–1886)",
+          "license": "CC0-1.0",
+          "attribution": "In my Bordeaux Garden · Maxime Lalanne (French, 1827–1886) · The Cleveland Museum of Art · CC0",
+          "source": "https://clevelandart.org/art/1920.684",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/208e937ceea59066af90cd23e318ec1b6dd46e256274d5a2f208610c41e03264.webp",
+        "sha256": "208e937ceea59066af90cd23e318ec1b6dd46e256274d5a2f208610c41e03264",
+        "length": 10456,
+        "media_type": "image/webp",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Denframe",
+          "license": "CC0-1.0",
+          "attribution": "The collection's first works, side by side.",
+          "source": "",
+          "modified": true
+        }
+      }
+    ],
+    "works": [
+      {
+        "id": "aic-25093",
+        "image": "assets/d55359fb193851638e519fd60aeec866f820405719769cde797dac07b30a6d78.jpg",
+        "thumbnail": "assets/0240b0d6eb3d846ff140e923f82ac5e1840a27bc5f0e51b3a7202ffb965869f4.webp",
+        "alt_text": "A woodblock print of a bullfinch hanging upside down from a weeping cherry branch full of pale pink blossoms against a deep blue ground, with a poem in calligraphy.",
+        "width": 1080,
+        "height": 1446,
+        "orientation": "portrait",
+        "focal_x": 0.5,
+        "focal_y": 0.5,
+        "mean_colour": "#5d6369",
+        "placard": {
+          "title": "Bullfinch and Weeping Cherry (Uso, shidarezakura), from an untitled series of flowers and birds",
+          "creator": "Katsushika Hokusai 葛飾 北斎 (Japanese, 1760-1849)",
+          "date": "c. 1834",
+          "medium": "Color woodblock print; chuban",
+          "dimensions": "25.4 × 19.1 cm (10 × 7 1/2 in.); Mat: 45.8 × 35.6 cm (18 × 14 in.)",
+          "institution": "Art Institute of Chicago",
+          "canonical_url": "https://www.artic.edu/artworks/25093"
+        },
+        "rights": {
+          "license": "CC0-1.0",
+          "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "evidence": {
+            "provider_field": "is_public_domain",
+            "provider_value": true,
+            "image_url": "https://www.artic.edu/iiif/2/9d3c9469-898a-d574-b633-50bd9bbf928d/full/1686,/0/default.jpg",
+            "observed_at": "2026-10-06T11:48:47+00:00",
+            "image_field": null,
+            "uuid": null
+          }
+        }
+      },
+      {
+        "id": "cleveland-150693",
+        "image": "assets/6fbf25d4de596a5a4637c17d30ba5ea41c7c456873f3404585f26ecc6f552e70.jpg",
+        "thumbnail": "assets/853e639e91ed1888be263e0dff849d408f63341430fbc9e3193994b98ee72b54.webp",
+        "alt_text": "A slender pine trunk rising through a sunny hillside of green grass and flowering shrubs beside a small stream, painted in fine threads of colour.",
+        "width": 980,
+        "height": 1920,
+        "orientation": "portrait",
+        "focal_x": 0.5,
+        "focal_y": 0.5,
+        "mean_colour": "#5b6252",
+        "placard": {
+          "title": "Pine Tree",
+          "creator": "Giovanni Segantini (Italian, 1858–1899)",
+          "date": "c. 1897",
+          "medium": "oil on canvas",
+          "dimensions": "Framed: 149.5 x 84.8 x 4.1 cm (58 7/8 x 33 3/8 x 1 5/8 in.); Unframed: 135.2 x 72 cm (53 1/4 x 28 3/8 in.)",
+          "institution": "The Cleveland Museum of Art",
+          "canonical_url": "https://clevelandart.org/art/1982.124"
+        },
+        "rights": {
+          "license": "CC0-1.0",
+          "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "evidence": {
+            "provider_field": "share_license_status",
+            "provider_value": "CC0",
+            "image_url": "https://openaccess-cdn.clevelandart.org/1982.124/1982.124_print.jpg",
+            "observed_at": "2026-10-06T11:48:50+00:00",
+            "image_field": null,
+            "uuid": null
+          }
+        }
+      },
+      {
+        "id": "cleveland-143237",
+        "image": "assets/f998e8df4cfe1026007408289d438dd54072d9ee44d23c09df6c6b37538bdb75.jpg",
+        "thumbnail": "assets/fc57eced39e1a6e9d7afe1304408999330a230522169ce4d431000ee1b43045e.webp",
+        "alt_text": "White and pale lilac peonies with green leaves on a warm golden silk ground, with columns of calligraphy at the top right.",
+        "width": 1080,
+        "height": 1759,
+        "orientation": "portrait",
+        "focal_x": 0.5,
+        "focal_y": 0.5,
+        "mean_colour": "#d8bc86",
+        "placard": {
+          "title": "Herbaceous Peony",
+          "creator": "Yun Shouping (Chinese, 1633–1690)",
+          "date": "1685",
+          "medium": "Hanging scroll; ink and color on silk",
+          "dimensions": "Painting: 118.7 x 71.8 cm (46 3/4 x 28 1/4 in.); Overall with knobs: 226 x 84.4 cm (89 x 33 1/4 in.)",
+          "institution": "The Cleveland Museum of Art",
+          "canonical_url": "https://clevelandart.org/art/1967.192"
+        },
+        "rights": {
+          "license": "CC0-1.0",
+          "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "evidence": {
+            "provider_field": "share_license_status",
+            "provider_value": "CC0",
+            "image_url": "https://openaccess-cdn.clevelandart.org/1967.192/1967.192_print.jpg",
+            "observed_at": "2026-10-06T11:48:53+00:00",
+            "image_field": null,
+            "uuid": null
+          }
+        }
+      },
+      {
+        "id": "aic-64729",
+        "image": "assets/e5737454b70efed7ec078ba8d06ec09e86eb688e005e53f2b3d24cd8c49f843e.jpg",
+        "thumbnail": "assets/6ecf6cd02242da913797463c8a5b723fc92db32922f09df3c83209fc17d983a4.webp",
+        "alt_text": "Tall thin pine trees and red-roofed houses in a misty Florida morning, with a lone figure on a path through golden grass.",
+        "width": 1080,
+        "height": 1413,
+        "orientation": "portrait",
+        "focal_x": 0.5,
+        "focal_y": 0.5,
+        "mean_colour": "#665c51",
+        "placard": {
+          "title": "Early Morning, Tarpon Springs",
+          "creator": "George Inness (American, 1825–1894)",
+          "date": "1892",
+          "medium": "Oil on canvas",
+          "dimensions": "107.2 × 82.2 cm (42 3/16 × 32 3/8 in.)",
+          "institution": "Art Institute of Chicago",
+          "canonical_url": "https://www.artic.edu/artworks/64729"
+        },
+        "rights": {
+          "license": "CC0-1.0",
+          "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "evidence": {
+            "provider_field": "is_public_domain",
+            "provider_value": true,
+            "image_url": "https://www.artic.edu/iiif/2/ef96e79b-f481-8114-0804-4bd39c101983/full/1686,/0/default.jpg",
+            "observed_at": "2026-10-06T11:48:56+00:00",
+            "image_field": null,
+            "uuid": null
+          }
+        }
+      },
+      {
+        "id": "cleveland-111644",
+        "image": "assets/f6bd357ce2546c5dd95fde4fa29a774cecba9902ca1f1e21910a0633100f3050.jpg",
+        "thumbnail": "assets/e809f12abd4bfdf8e508b2d47c9f1afff057e89c858746ca59c51865d06b81ab.webp",
+        "alt_text": "A woodblock print of a deep blue mountain river winding between steep white snow-covered slopes under a grey sky with falling snow.",
+        "width": 1080,
+        "height": 1555,
+        "orientation": "portrait",
+        "focal_x": 0.5,
+        "focal_y": 0.5,
+        "mean_colour": "#b0a695",
+        "placard": {
+          "title": "Mountain and River on the Kiso Road",
+          "creator": "Utagawa Hiroshige (Japanese, 1797–1858)",
+          "date": "1857",
+          "medium": "One of a triptych of color woodblock prints",
+          "dimensions": "Overall: 36 x 25.2 cm (14 3/16 x 9 15/16 in.)",
+          "institution": "The Cleveland Museum of Art",
+          "canonical_url": "https://clevelandart.org/art/1930.180.a"
+        },
+        "rights": {
+          "license": "CC0-1.0",
+          "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "evidence": {
+            "provider_field": "share_license_status",
+            "provider_value": "CC0",
+            "image_url": "https://openaccess-cdn.clevelandart.org/1930.180.a/1930.180.a_print.jpg",
+            "observed_at": "2026-10-06T11:48:59+00:00",
+            "image_field": null,
+            "uuid": null
+          }
+        }
+      },
+      {
+        "id": "aic-57163",
+        "image": "assets/0a94fe87b7541b43198a3ba406e1e7b1a756d8ec037a14a22cd6fb66b9048ef1.jpg",
+        "thumbnail": "assets/ec452f93ed1a53e976306a7d17180105ca744b2b7095e40d7c53c649adde480a.webp",
+        "alt_text": "A tall tree framing a wide green valley with a white church steeple, a wooden bridge and distant blue mountains under a glowing sunrise.",
+        "width": 1080,
+        "height": 1379,
+        "orientation": "portrait",
+        "focal_x": 0.5,
+        "focal_y": 0.5,
+        "mean_colour": "#84735e",
+        "placard": {
+          "title": "New England Scenery",
+          "creator": "Thomas Cole (American, born England, 1801–1848)",
+          "date": "1839",
+          "medium": "Oil on canvas",
+          "dimensions": "57.1 × 46.7 cm (22 1/2 × 18 3/8 in.)",
+          "institution": "Art Institute of Chicago",
+          "canonical_url": "https://www.artic.edu/artworks/57163"
+        },
+        "rights": {
+          "license": "CC0-1.0",
+          "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "evidence": {
+            "provider_field": "is_public_domain",
+            "provider_value": true,
+            "image_url": "https://www.artic.edu/iiif/2/99e276fd-f076-f396-b5c1-b22c3ce62b45/full/1686,/0/default.jpg",
+            "observed_at": "2026-10-06T11:49:02+00:00",
+            "image_field": null,
+            "uuid": null
+          }
+        }
+      },
+      {
+        "id": "cleveland-132835",
+        "image": "assets/999323059f0d92ef6f040d56092a0fd7fd5aaf91e0f689adb11581a7dc3cecdf.jpg",
+        "thumbnail": "assets/242b59152c174ae48cd1f61eadfe9715256cabfa0e4616f3382c2da4f1aa91c3.webp",
+        "alt_text": "An ink landscape of a rounded rocky hill with clusters of dotted trees and a small pavilion by the water, with calligraphy in the corner.",
+        "width": 1080,
+        "height": 1428,
+        "orientation": "portrait",
+        "focal_x": 0.5,
+        "focal_y": 0.5,
+        "mean_colour": "#a8a091",
+        "placard": {
+          "title": "Album of Seasonal Landscapes, Leaf D (previous leaf 2)",
+          "creator": "Xiao Yuncong (Chinese, 1596–1673)",
+          "date": "1668",
+          "medium": "album leaf; ink and light color on paper",
+          "dimensions": "Overall: 21 x 15.8 cm (8 1/4 x 6 1/4 in.)",
+          "institution": "The Cleveland Museum of Art",
+          "canonical_url": "https://clevelandart.org/art/1955.302.2"
+        },
+        "rights": {
+          "license": "CC0-1.0",
+          "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "evidence": {
+            "provider_field": "share_license_status",
+            "provider_value": "CC0",
+            "image_url": "https://openaccess-cdn.clevelandart.org/1955.302.2/1955.302.2_print.jpg",
+            "observed_at": "2026-10-06T11:49:05+00:00",
+            "image_field": null,
+            "uuid": null
+          }
+        }
+      },
+      {
+        "id": "aic-9021",
+        "image": "assets/55c436d58b8b9c2b18f1005c6b0c2a66c52c49e2e25068e57397c8504f46bae6.jpg",
+        "thumbnail": "assets/d72b2c852a6d3fc9c6be137c48a450551efcf158d72ce79bbbbfe7cf0ad72cfe.webp",
+        "alt_text": "A brightly coloured painting of a mill with a red waterwheel and a white waterfall pouring down among blue, green and yellow shapes.",
+        "width": 1080,
+        "height": 1564,
+        "orientation": "portrait",
+        "focal_x": 0.5,
+        "focal_y": 0.5,
+        "mean_colour": "#7a8281",
+        "placard": {
+          "title": "The Bewitched Mill",
+          "creator": "Franz Marc (German, 1880–1916)",
+          "date": "1913",
+          "medium": "Oil on canvas",
+          "dimensions": "Without frame: 130.2 × 90.8 cm (51 5/16 × 35 3/4 in.); 130.2 × 91.2 cm (51 1/4 × 35 7/8 in.)",
+          "institution": "Art Institute of Chicago",
+          "canonical_url": "https://www.artic.edu/artworks/9021"
+        },
+        "rights": {
+          "license": "CC0-1.0",
+          "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "evidence": {
+            "provider_field": "is_public_domain",
+            "provider_value": true,
+            "image_url": "https://www.artic.edu/iiif/2/6829aab0-8d0e-9438-aebf-a1a379572951/full/1686,/0/default.jpg",
+            "observed_at": "2026-10-06T11:49:08+00:00",
+            "image_field": null,
+            "uuid": null
+          }
+        }
+      },
+      {
+        "id": "aic-25088",
+        "image": "assets/6f195cbe1a32967ce6885d24f6c621dba2cc23e38fd424466c2292a8c414daf4.jpg",
+        "thumbnail": "assets/1506265ca2ef9cd492d86844d225fa737f7a72cc820bf4503a7fff2d272200b0.webp",
+        "alt_text": "A woodblock print of a small bird perched on a branch of white magnolia flowers with blue-green leaves, beside columns of calligraphy.",
+        "width": 1080,
+        "height": 1480,
+        "orientation": "portrait",
+        "focal_x": 0.5,
+        "focal_y": 0.5,
+        "mean_colour": "#ada485",
+        "placard": {
+          "title": "Paddy Bird and Magnolia Flowers (Buncho, kobushi no hana), from an untitled series of flowers and birds",
+          "creator": "Katsushika Hokusai 葛飾 北斎 (Japanese, 1760-1849)",
+          "date": "c. 1834",
+          "medium": "Color woodblock print; chuban",
+          "dimensions": "25.4 × 19.1 cm (10 × 7 1/2 in.)",
+          "institution": "Art Institute of Chicago",
+          "canonical_url": "https://www.artic.edu/artworks/25088"
+        },
+        "rights": {
+          "license": "CC0-1.0",
+          "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "evidence": {
+            "provider_field": "is_public_domain",
+            "provider_value": true,
+            "image_url": "https://www.artic.edu/iiif/2/5003c3f9-0d22-8586-2011-979e5fcb7779/full/1686,/0/default.jpg",
+            "observed_at": "2026-10-06T11:49:10+00:00",
+            "image_field": null,
+            "uuid": null
+          }
+        }
+      },
+      {
+        "id": "cleveland-98905",
+        "image": "assets/1d33ca1affa2fb535262d82a7a83808da0385636e5890cb91f872d02b9fd2056.jpg",
+        "thumbnail": "assets/6fbe68814c879ad2a8d6589ad3f05ff0c18afbf172e0687f1344eb233b138079.webp",
+        "alt_text": "A clear river running over pale stones between leafy green trees and a sandy bank, under a blue sky with soft white clouds.",
+        "width": 1080,
+        "height": 1512,
+        "orientation": "portrait",
+        "focal_x": 0.5,
+        "focal_y": 0.5,
+        "mean_colour": "#717a6e",
+        "placard": {
+          "title": "Landscape near Painesville",
+          "creator": "Allen Smith, Jr. (American, 1810–1891)",
+          "date": "c. 1880s",
+          "medium": "oil on canvas",
+          "dimensions": "Unframed: 47 x 31 cm (18 1/2 x 12 3/16 in.)",
+          "institution": "The Cleveland Museum of Art",
+          "canonical_url": "https://clevelandart.org/art/1918.570"
+        },
+        "rights": {
+          "license": "CC0-1.0",
+          "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "evidence": {
+            "provider_field": "share_license_status",
+            "provider_value": "CC0",
+            "image_url": "https://openaccess-cdn.clevelandart.org/1918.570/1918.570_print.jpg",
+            "observed_at": "2026-10-06T11:49:13+00:00",
+            "image_field": null,
+            "uuid": null
+          }
+        }
+      },
+      {
+        "id": "aic-154022",
+        "image": "assets/e6b487ad35c28225100c1a085b91ce729aa3de011a4737d913add1fb8b073e4c.jpg",
+        "thumbnail": "assets/0cf671d5887f4199306dee621769b2f538f6e52bb9179930f2a3878733bbfa92.webp",
+        "alt_text": "A soft crayon drawing of tree trunks and arching branches in a misty park, in pale greys on cream paper.",
+        "width": 1080,
+        "height": 1403,
+        "orientation": "portrait",
+        "focal_x": 0.5,
+        "focal_y": 0.5,
+        "mean_colour": "#cdbeab",
+        "placard": {
+          "title": "Trees (study for La Grande Jatte)",
+          "creator": "Georges Seurat (French, 1859-1891)",
+          "date": "1884",
+          "medium": "Black Conté crayon, on white laid paper, laid down on cream board",
+          "dimensions": "62 × 47.5 cm (24 7/16 × 18 3/4 in.)",
+          "institution": "Art Institute of Chicago",
+          "canonical_url": "https://www.artic.edu/artworks/154022"
+        },
+        "rights": {
+          "license": "CC0-1.0",
+          "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "evidence": {
+            "provider_field": "is_public_domain",
+            "provider_value": true,
+            "image_url": "https://www.artic.edu/iiif/2/d5ebfc97-c87c-b3ae-816f-5c8b519a082c/full/1686,/0/default.jpg",
+            "observed_at": "2026-10-06T11:49:16+00:00",
+            "image_field": null,
+            "uuid": null
+          }
+        }
+      },
+      {
+        "id": "cleveland-147930",
+        "image": "assets/c95d49bcbfd8e9a1062543b9243c3e82e0785a2a1b8f1c097258ce814b238fb8.jpg",
+        "thumbnail": "assets/304842b2a9d551399bf2c356403df34da358250ff5c42361ad42cbe107799947.webp",
+        "alt_text": "A silk painting of a flowering willow and plum tree full of small birds, with peacocks, pheasants and pink and white peonies below.",
+        "width": 1080,
+        "height": 1370,
+        "orientation": "portrait",
+        "focal_x": 0.5,
+        "focal_y": 0.5,
+        "mean_colour": "#7c684c",
+        "placard": {
+          "title": "Birds Gather under the Spring Willow",
+          "creator": "Yin Hong (Chinese, c. 1430-c. 1500)",
+          "date": "late 1400s–early 1500",
+          "medium": "hanging scroll, ink and color on silk",
+          "dimensions": "Painting: 240 x 195.5 cm (94 1/2 x 76 15/16 in.); Overall with knobs: 280 x 204 cm (110 1/4 x 80 5/16 in.)",
+          "institution": "The Cleveland Museum of Art",
+          "canonical_url": "https://clevelandart.org/art/1974.31"
+        },
+        "rights": {
+          "license": "CC0-1.0",
+          "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "evidence": {
+            "provider_field": "share_license_status",
+            "provider_value": "CC0",
+            "image_url": "https://openaccess-cdn.clevelandart.org/1974.31/1974.31_print.jpg",
+            "observed_at": "2026-10-06T11:49:20+00:00",
+            "image_field": null,
+            "uuid": null
+          }
+        }
+      },
+      {
+        "id": "aic-62393",
+        "image": "assets/2f814dd352599c0c6bd07094c542fc0dc55fa215e2277fea1469b4a9afd4de5e.jpg",
+        "thumbnail": "assets/479e66d9ca44f91f28e6fff6691754ded9d554dd8bee34f6c8c0254e040eff65.webp",
+        "alt_text": "A snowy field at morning with two small green fir trees, below a dark line of woods and a band of pale green and blue sky.",
+        "width": 1080,
+        "height": 1361,
+        "orientation": "portrait",
+        "focal_x": 0.5,
+        "focal_y": 0.5,
+        "mean_colour": "#908b73",
+        "placard": {
+          "title": "Snow Field, Morning, Roxbury",
+          "creator": "John La Farge (American, 1835–1910)",
+          "date": "1864",
+          "medium": "Oil on beveled mahogany panel",
+          "dimensions": "30.5 × 25.1 cm (12 × 9 7/8 in.)",
+          "institution": "Art Institute of Chicago",
+          "canonical_url": "https://www.artic.edu/artworks/62393"
+        },
+        "rights": {
+          "license": "CC0-1.0",
+          "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "evidence": {
+            "provider_field": "is_public_domain",
+            "provider_value": true,
+            "image_url": "https://www.artic.edu/iiif/2/8e5f3773-9396-0fde-8547-490cca07b68b/full/1686,/0/default.jpg",
+            "observed_at": "2026-10-06T11:49:23+00:00",
+            "image_field": null,
+            "uuid": null
+          }
+        }
+      },
+      {
+        "id": "cleveland-130940",
+        "image": "assets/c8f419db5a6209a876fb001ca04299d1a08e6fe0158cd7a31ad97981deb6c782.jpg",
+        "thumbnail": "assets/8adad921a20eadf514729b988139351fe0e4f88c9a208367f01f45f506ecdb9a.webp",
+        "alt_text": "A pale ink painting of tall bamboo, a thatched pavilion and distant hills by a lake, with long columns of calligraphy above.",
+        "width": 970,
+        "height": 1920,
+        "orientation": "portrait",
+        "focal_x": 0.5,
+        "focal_y": 0.5,
+        "mean_colour": "#cdb793",
+        "placard": {
+          "title": "Tall Bamboo and Distant Mountains, after Wang Meng",
+          "creator": "Wang Hui (Chinese, 1632–1717)",
+          "date": "1694",
+          "medium": "Hanging scroll; ink on paper",
+          "dimensions": "Painting: 79.6 x 39.4 cm (31 5/16 x 15 1/2 in.); Overall with knobs: 215.8 x 61.6 cm (84 15/16 x 24 1/4 in.)",
+          "institution": "The Cleveland Museum of Art",
+          "canonical_url": "https://clevelandart.org/art/1953.629"
+        },
+        "rights": {
+          "license": "CC0-1.0",
+          "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "evidence": {
+            "provider_field": "share_license_status",
+            "provider_value": "CC0",
+            "image_url": "https://openaccess-cdn.clevelandart.org/1953.629/1953.629_print.jpg",
+            "observed_at": "2026-10-06T11:49:26+00:00",
+            "image_field": null,
+            "uuid": null
+          }
+        }
+      },
+      {
+        "id": "cleveland-115067",
+        "image": "assets/9e57a2e99d09ba511c937e8f510fad1bee2649984976de6497899131356edaae.jpg",
+        "thumbnail": "assets/4f2091d4494160c8706050fc37d99bc1f160130307dc978fb111a2c4964f263e.webp",
+        "alt_text": "A white vase holding a loose bouquet of red, orange, blue and white flowers against a glowing orange and pink background.",
+        "width": 1080,
+        "height": 1469,
+        "orientation": "portrait",
+        "focal_x": 0.5,
+        "focal_y": 0.5,
+        "mean_colour": "#8f633d",
+        "placard": {
+          "title": "Vase of Flowers",
+          "creator": "Odilon Redon (French, 1840–1916)",
+          "date": "c. 1905",
+          "medium": "oil on fabric",
+          "dimensions": "Framed: 90.8 x 62.2 x 10.2 cm (35 3/4 x 24 1/2 x 4 in.); Unframed: 73 x 59 cm (28 3/4 x 23 1/4 in.)",
+          "institution": "The Cleveland Museum of Art",
+          "canonical_url": "https://clevelandart.org/art/1935.233"
+        },
+        "rights": {
+          "license": "CC0-1.0",
+          "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "evidence": {
+            "provider_field": "share_license_status",
+            "provider_value": "CC0",
+            "image_url": "https://openaccess-cdn.clevelandart.org/1935.233/1935.233_print.jpg",
+            "observed_at": "2026-10-06T11:49:29+00:00",
+            "image_field": null,
+            "uuid": null
+          }
+        }
+      },
+      {
+        "id": "aic-146953",
+        "image": "assets/b235f84993129f3d7b54432969d52fc7b351dffde8ddd3b596bdfe5fe3c9bc1e.jpg",
+        "thumbnail": "assets/2b122ba35865f9c9df956ad0b86058f210330c35ec12aa960671cb3376571a46.webp",
+        "alt_text": "Two cows and a young bull resting in a meadow beside a broken tree and a wooden fence, under a large sky of white clouds.",
+        "width": 1080,
+        "height": 1435,
+        "orientation": "portrait",
+        "focal_x": 0.5,
+        "focal_y": 0.5,
+        "mean_colour": "#927f64",
+        "placard": {
+          "title": "Two Cows and a Young Bull beside a Fence in a Meadow",
+          "creator": "Paulus Potter (Dutch, 1625–1654)",
+          "date": "1647",
+          "medium": "Oil on panel",
+          "dimensions": "49.5 × 37.2 cm (19 1/2 × 14 3/4 in.); Framed: 70.2 × 58.1 × 4.5 cm (27 5/8 × 22 7/8 × 1 3/4 in.)",
+          "institution": "Art Institute of Chicago",
+          "canonical_url": "https://www.artic.edu/artworks/146953"
+        },
+        "rights": {
+          "license": "CC0-1.0",
+          "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "evidence": {
+            "provider_field": "is_public_domain",
+            "provider_value": true,
+            "image_url": "https://www.artic.edu/iiif/2/5de78980-17d7-8fb5-83de-7b2ae4e997f2/full/1686,/0/default.jpg",
+            "observed_at": "2026-10-06T11:49:33+00:00",
+            "image_field": null,
+            "uuid": null
+          }
+        }
+      },
+      {
+        "id": "cleveland-152828",
+        "image": "assets/6b4048cb404b3e07018726807e5ad900a7accf3027e4da8f378fd19b69d6b49c.jpg",
+        "thumbnail": "assets/4d2f3186224f3a950bd917841d4c82f56791c2f4fa453714431ea76f5910cd5a.webp",
+        "alt_text": "An ink landscape of tall craggy rocks, a small house and a row of trees, drawn with loose grey brushwork on white paper.",
+        "width": 1080,
+        "height": 1682,
+        "orientation": "portrait",
+        "focal_x": 0.5,
+        "focal_y": 0.5,
+        "mean_colour": "#ccbfaf",
+        "placard": {
+          "title": "Landscape after Mi Fu",
+          "creator": "Min Zhen (Chinese, 1730–after 1788)",
+          "date": "1788",
+          "medium": "album leaf, ink on paper",
+          "dimensions": "Sheet: 29 x 18.4 cm (11 7/16 x 7 1/4 in.)",
+          "institution": "The Cleveland Museum of Art",
+          "canonical_url": "https://clevelandart.org/art/1985.71.4"
+        },
+        "rights": {
+          "license": "CC0-1.0",
+          "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "evidence": {
+            "provider_field": "share_license_status",
+            "provider_value": "CC0",
+            "image_url": "https://openaccess-cdn.clevelandart.org/1985.71.4/1985.71.4_print.jpg",
+            "observed_at": "2026-10-06T11:49:36+00:00",
+            "image_field": null,
+            "uuid": null
+          }
+        }
+      },
+      {
+        "id": "aic-151108",
+        "image": "assets/917dfaba9f90bd5e87ec235b485be6fe54119ce3d1df8f30a792598dc1f72d52.jpg",
+        "thumbnail": "assets/a14107e7a06b4d4a4f01443064ca52208f5b038fea3b0418a5931d433b66d951.webp",
+        "alt_text": "A flaming orange autumn tree beside a green meadow and a mill pond, with golden woods and a patch of blue sky.",
+        "width": 1080,
+        "height": 1408,
+        "orientation": "portrait",
+        "focal_x": 0.5,
+        "focal_y": 0.5,
+        "mean_colour": "#634a27",
+        "placard": {
+          "title": "The Mill Pond",
+          "creator": "George Inness (American, 1825–1894)",
+          "date": "1889",
+          "medium": "Oil on canvas",
+          "dimensions": "95.9 × 75.6 cm (37 3/4 × 29 3/4 in.)",
+          "institution": "Art Institute of Chicago",
+          "canonical_url": "https://www.artic.edu/artworks/151108"
+        },
+        "rights": {
+          "license": "CC0-1.0",
+          "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "evidence": {
+            "provider_field": "is_public_domain",
+            "provider_value": true,
+            "image_url": "https://www.artic.edu/iiif/2/f837e639-5a6c-3043-3c2c-a4d5ece3bf1d/full/1686,/0/default.jpg",
+            "observed_at": "2026-10-06T11:49:39+00:00",
+            "image_field": null,
+            "uuid": null
+          }
+        }
+      },
+      {
+        "id": "cleveland-153351",
+        "image": "assets/d6495e1c5d9abed521400ce50a439e1b7eff5f143073762b02318567f0c56cee.jpg",
+        "thumbnail": "assets/ca7f3e4e716e7f84ba1aa966ef80bd401bce5286f59c5d2263c11b2f926569fa.webp",
+        "alt_text": "A soft ink and colour landscape on golden silk with misty mountains, a lake, willows and pines, and a short poem at the top left.",
+        "width": 1080,
+        "height": 1409,
+        "orientation": "portrait",
+        "focal_x": 0.5,
+        "focal_y": 0.5,
+        "mean_colour": "#9c7c55",
+        "placard": {
+          "title": "Landscape",
+          "creator": "Zhai Dakun (Chinese, d. 1804)",
+          "date": "1775",
+          "medium": "album leaf; ink and color on silk",
+          "dimensions": "Overall: 41.2 x 31.5 cm (16 1/4 x 12 3/8 in.)",
+          "institution": "The Cleveland Museum of Art",
+          "canonical_url": "https://clevelandart.org/art/1986.49.3"
+        },
+        "rights": {
+          "license": "CC0-1.0",
+          "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "evidence": {
+            "provider_field": "share_license_status",
+            "provider_value": "CC0",
+            "image_url": "https://openaccess-cdn.clevelandart.org/1986.49.3/1986.49.3_print.jpg",
+            "observed_at": "2026-10-06T11:49:43+00:00",
+            "image_field": null,
+            "uuid": null
+          }
+        }
+      },
+      {
+        "id": "aic-111081",
+        "image": "assets/33a258a2f14226cb91f43d924eb70ef726acd83704fbed5f72bbc105111a9778.jpg",
+        "thumbnail": "assets/f72994f2dcc8e0c51b50f248bb438284de0fdcd7bf3de40a3b2e7f7cfad98b3c.webp",
+        "alt_text": "A colour lithograph looking down on a garden of green lawns and bushes in front of a studio with a tall glass window, with a figure resting on a rug on the grass.",
+        "width": 1080,
+        "height": 1398,
+        "orientation": "portrait",
+        "focal_x": 0.5,
+        "focal_y": 0.5,
+        "mean_colour": "#c4bb9c",
+        "placard": {
+          "title": "The Garden in Front of the Studio",
+          "creator": "Edouard Jean Vuillard (French, 1868-1940)",
+          "date": "printed 1901",
+          "medium": "Color lithograph on grayish-ivory China paper",
+          "dimensions": "Image: 63 × 47.2 cm (24 13/16 × 18 5/8 in.); Sheet: 67.4 × 51.6 cm (26 9/16 × 20 3/8 in.)",
+          "institution": "Art Institute of Chicago",
+          "canonical_url": "https://www.artic.edu/artworks/111081"
+        },
+        "rights": {
+          "license": "CC0-1.0",
+          "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "evidence": {
+            "provider_field": "is_public_domain",
+            "provider_value": true,
+            "image_url": "https://www.artic.edu/iiif/2/097a6aca-d36f-0fca-a438-e7942ad6d79d/full/1686,/0/default.jpg",
+            "observed_at": "2026-10-06T11:49:45+00:00",
+            "image_field": null,
+            "uuid": null
+          }
+        }
+      },
+      {
+        "id": "aic-19018",
+        "image": "assets/19e0807032a1cc96ac543e30c389f52ae6075e461cd494ed81275c97abe182bb.jpg",
+        "thumbnail": "assets/9b0db2fc2dd6d1f1e95b55ad260b84c5da17300c4ebf20b8808eabd49501b37f.webp",
+        "alt_text": "A woodblock print of a green Japanese white-eye perched on a slender branch of pink and white blossoms below a deep blue sky.",
+        "width": 1080,
+        "height": 1515,
+        "orientation": "portrait",
+        "focal_x": 0.5,
+        "focal_y": 0.5,
+        "mean_colour": "#b5b69b",
+        "placard": {
+          "title": "Japanese white-eye on flowering branch",
+          "creator": "Utagawa Hiroshige 歌川 広重 (Japanese, 1797-1858)",
+          "date": "1830s–1840s",
+          "medium": "Color woodblock print; yotsugiriban",
+          "dimensions": "17.5 × 12.3 cm (7 × 4 3/4 in.)",
+          "institution": "Art Institute of Chicago",
+          "canonical_url": "https://www.artic.edu/artworks/19018"
+        },
+        "rights": {
+          "license": "CC0-1.0",
+          "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "evidence": {
+            "provider_field": "is_public_domain",
+            "provider_value": true,
+            "image_url": "https://www.artic.edu/iiif/2/19c28462-767d-b09b-f560-b4572406696a/full/1686,/0/default.jpg",
+            "observed_at": "2026-10-06T11:49:48+00:00",
+            "image_field": null,
+            "uuid": null
+          }
+        }
+      },
+      {
+        "id": "cleveland-130391",
+        "image": "assets/e88a5dd121fba3b1511616ca9492a65667a50421f293045bdc311f52a9cc7b7d.jpg",
+        "thumbnail": "assets/19a3cd5d73fc543c39ab517638e4b2b8d1a447e8c7f5c816566d3a1ad18e9ace.webp",
+        "alt_text": "A tumble of white peonies, white guelder roses, red tulips, blue morning glories and green leaves in a basket against a dark background.",
+        "width": 1080,
+        "height": 1418,
+        "orientation": "portrait",
+        "focal_x": 0.5,
+        "focal_y": 0.5,
+        "mean_colour": "#3c3227",
+        "placard": {
+          "title": "Spring Flowers",
+          "creator": "Claude Monet (French, 1840–1926)",
+          "date": "1864",
+          "medium": "oil on canvas",
+          "dimensions": "Framed: 144.5 x 117.2 x 12.1 cm (56 7/8 x 46 1/8 x 4 3/4 in.); Unframed: 116.8 x 90.5 cm (46 x 35 5/8 in.)",
+          "institution": "The Cleveland Museum of Art",
+          "canonical_url": "https://clevelandart.org/art/1953.155"
+        },
+        "rights": {
+          "license": "CC0-1.0",
+          "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "evidence": {
+            "provider_field": "share_license_status",
+            "provider_value": "CC0",
+            "image_url": "https://openaccess-cdn.clevelandart.org/1953.155/1953.155_print.jpg",
+            "observed_at": "2026-10-06T11:49:51+00:00",
+            "image_field": null,
+            "uuid": null
+          }
+        }
+      },
+      {
+        "id": "cleveland-151005",
+        "image": "assets/86aa3add3e2e7008d65a834a64e1de49b7f705fa713d08ecaa5955768bc30aa8.jpg",
+        "thumbnail": "assets/0bfb57cb5f8844e074c4c9e714fd2f66c69c0f939683b09e345f30a06c0d5059.webp",
+        "alt_text": "A soft ink painting of a magpie perched on a thin willow branch, with faint willow leaves above on stained pale brown paper.",
+        "width": 979,
+        "height": 1920,
+        "orientation": "portrait",
+        "focal_x": 0.5,
+        "focal_y": 0.5,
+        "mean_colour": "#9e8b79",
+        "placard": {
+          "title": "Willow and Magpie",
+          "creator": "Fachang Muqi (Chinese, 1220–1280)",
+          "date": "mid-1200s",
+          "medium": "hanging scroll; ink on paper",
+          "dimensions": "Image: 60.4 x 30.9 cm (23 3/4 x 12 3/16 in.); Overall: 137.2 x 48.3 cm (54 x 19 in.)",
+          "institution": "The Cleveland Museum of Art",
+          "canonical_url": "https://clevelandart.org/art/1982.53"
+        },
+        "rights": {
+          "license": "CC0-1.0",
+          "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "evidence": {
+            "provider_field": "share_license_status",
+            "provider_value": "CC0",
+            "image_url": "https://openaccess-cdn.clevelandart.org/1982.53/1982.53_print.jpg",
+            "observed_at": "2026-10-06T11:49:55+00:00",
+            "image_field": null,
+            "uuid": null
+          }
+        }
+      },
+      {
+        "id": "cleveland-102023",
+        "image": "assets/b6a1dfbb7f729579ff00e77d99156b4a2978b81712178bb4ff9d504d54e67b37.jpg",
+        "thumbnail": "assets/46d7fa9212fa1130687a9ffa722f970bd2de80653c755d869c6850eaf6cc10c3.webp",
+        "alt_text": "An etching of a quiet garden with a large leafy tree, a tub of plants and a path leading to a sunny opening beyond.",
+        "width": 1080,
+        "height": 1433,
+        "orientation": "portrait",
+        "focal_x": 0.5,
+        "focal_y": 0.5,
+        "mean_colour": "#959386",
+        "placard": {
+          "title": "In my Bordeaux Garden",
+          "creator": "Maxime Lalanne (French, 1827–1886)",
+          "date": "1872",
+          "medium": "etching",
+          "dimensions": null,
+          "institution": "The Cleveland Museum of Art",
+          "canonical_url": "https://clevelandart.org/art/1920.684"
+        },
+        "rights": {
+          "license": "CC0-1.0",
+          "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "evidence": {
+            "provider_field": "share_license_status",
+            "provider_value": "CC0",
+            "image_url": "https://openaccess-cdn.clevelandart.org/1920.684/1920.684_print.jpg",
+            "observed_at": "2026-10-06T11:49:58+00:00",
+            "image_field": null,
+            "uuid": null
+          }
+        }
+      }
+    ]
+  }
+}

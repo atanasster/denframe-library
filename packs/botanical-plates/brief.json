@@ -1,0 +1,70 @@
+{
+  "slug": "botanical-plates",
+  "id": "denframe/botanical-plates",
+  "version": "1.0.0",
+  "name": "Botanical plates",
+  "description": "Hand-coloured botanical plates and studies of flowers, fruit and plants, from Dutch tulip books to the great Paris flower folios.",
+  "shape": "portrait",
+  "works": [
+    {
+      "provider": "cleveland",
+      "object_id": "135614",
+      "alt_text": "A botanical plate of a pink wild rose on a leafy stem against cream paper."
+    },
+    {
+      "provider": "cleveland",
+      "object_id": "132850",
+      "alt_text": "Purple, blue and golden plums on leafy twigs against a dark brown background."
+    },
+    {
+      "provider": "cleveland",
+      "object_id": "127079",
+      "alt_text": "A cluster of yellow narcissus flowers rising from a bulb, painted on cream paper."
+    },
+    {
+      "provider": "cleveland",
+      "object_id": "118189",
+      "alt_text": "White and pale blue passion flowers with dark green leaves and an orange fruit, climbing a dark fluted column against a cloudy sky."
+    },
+    {
+      "provider": "cleveland",
+      "object_id": "329319",
+      "alt_text": "A single red and white striped tulip on a long green stem, painted on pale paper."
+    },
+    {
+      "provider": "cleveland",
+      "object_id": "128284",
+      "alt_text": "A rounded head of lilac rhododendron flowers above long dark leaves, with a butterfly and a bee, against a cloudy sky and hills."
+    },
+    {
+      "provider": "cleveland",
+      "object_id": "127082",
+      "alt_text": "A leafy plant with pink and white trumpet flowers, a yellow-flowered sprig and two butterflies, on cream paper with a Latin title."
+    },
+    {
+      "provider": "cleveland",
+      "object_id": "118172",
+      "alt_text": "A woven basket on a stone ledge holding large ruffled marigolds with anemones, tulips and sprays of white jasmine."
+    },
+    {
+      "provider": "cleveland",
+      "object_id": "141708",
+      "alt_text": "Two deep crimson and purple roses with buds and green leaves on cream paper."
+    },
+    {
+      "provider": "cleveland",
+      "object_id": "118188",
+      "alt_text": "A climbing morning glory vine with blue and purple flowers and heart-shaped leaves on cream paper."
+    },
+    {
+      "provider": "cleveland",
+      "object_id": "118182",
+      "alt_text": "A crown imperial plant with a ring of coral-red bell-shaped flowers beneath a tuft of green leaves."
+    },
+    {
+      "provider": "cleveland",
+      "object_id": "329309",
+      "alt_text": "A single pink and red carnation with frilled petals on a slender stem, its name written in brown script below."
+    }
+  ]
+}

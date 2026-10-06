@@ -1,0 +1,783 @@
+{
+  "schema_version": 1,
+  "slug": "still-life",
+  "name": "Still life",
+  "description": "Fruit, flowers and laid tables from four centuries of painting, drawing and printmaking, from bright Impressionist tables to quieter Dutch and Spanish still lifes.",
+  "shape": "landscape",
+  "curated_on": "2026-10-06",
+  "strip": "assets/f659dd0c6566c3613084310fc8306c03a94db792f6dbe5801491669f074873ec.webp",
+  "works": [
+    {
+      "provider": "met",
+      "object_id": "436528",
+      "file": "assets/cff4b11862dbcf331496c703ddc202e2421f887caf44fd1e38e654a690415fc4.jpg",
+      "sha256": "cff4b11862dbcf331496c703ddc202e2421f887caf44fd1e38e654a690415fc4",
+      "length": 380871,
+      "width": 1362,
+      "height": 1080,
+      "orientation": "landscape",
+      "mean_colour": "#a2ada9",
+      "thumbnail": "assets/4af6a5c425562db74df6382257d4be44df7b00be64671b9c60e5d30539043a8b.webp",
+      "alt_text": "A white jug crowded with blue-violet irises and long green leaves against a pale off-white wall, on a green table.",
+      "placard": {
+        "title": "Irises",
+        "creator": "Vincent van Gogh (Dutch, Zundert 1853–1890 Auvers-sur-Oise)",
+        "date": "1890",
+        "medium": "Oil on canvas",
+        "dimensions": "29 x 36 1/4 in. (73.7 x 92.1 cm)",
+        "institution": "The Metropolitan Museum of Art",
+        "canonical_url": "https://www.metmuseum.org/art/collection/search/436528"
+      },
+      "rights": {
+        "license": "CC0-1.0",
+        "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "evidence": {
+          "provider_field": "isPublicDomain",
+          "provider_value": true,
+          "image_url": "https://images.metmuseum.org/CRDImages/ep/original/DP346474.jpg",
+          "observed_at": "2026-10-06T11:44:32+00:00",
+          "image_field": "primaryImage"
+        }
+      }
+    },
+    {
+      "provider": "aic",
+      "object_id": "16629",
+      "file": "assets/d08a63b96f8de6b61fd6a38c7d94eaa4f135c43c7c0880b412650d05391c3860.jpg",
+      "sha256": "d08a63b96f8de6b61fd6a38c7d94eaa4f135c43c7c0880b412650d05391c3860",
+      "length": 269463,
+      "width": 1401,
+      "height": 1080,
+      "orientation": "landscape",
+      "mean_colour": "#959683",
+      "thumbnail": "assets/5351ee28785bc3b014bfbde4997cabc70ea610ba892ac2453c30b108d25bf1f0.webp",
+      "alt_text": "Peppers, lemons, tomatoes, an aubergine and pomegranates heaped on and around a blue and white dish on a white cloth.",
+      "placard": {
+        "title": "Fruits of the Midi",
+        "creator": "Pierre-Auguste Renoir (French, 1841–1919)",
+        "date": "1881",
+        "medium": "Oil on canvas",
+        "dimensions": "51 × 65 cm (20 1/16 × 25 5/8 in.); Framed: 70.2 × 85.1 × 8.9 cm (27 5/8 × 33 1/2 × 3 1/2 in.)",
+        "institution": "Art Institute of Chicago",
+        "canonical_url": "https://www.artic.edu/artworks/16629"
+      },
+      "rights": {
+        "license": "CC0-1.0",
+        "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "evidence": {
+          "provider_field": "is_public_domain",
+          "provider_value": true,
+          "image_url": "https://www.artic.edu/iiif/2/3e005f8a-d37f-871b-15bb-89756f1ed2e9/full/1686,/0/default.jpg",
+          "observed_at": "2026-10-06T11:44:34+00:00"
+        }
+      }
+    },
+    {
+      "provider": "cleveland",
+      "object_id": "123249",
+      "file": "assets/c4769394dd7352b6090c7f028f7ae2d68112720588d0e70c1e4fa4e226eeac73.jpg",
+      "sha256": "c4769394dd7352b6090c7f028f7ae2d68112720588d0e70c1e4fa4e226eeac73",
+      "length": 220505,
+      "width": 1442,
+      "height": 1080,
+      "orientation": "landscape",
+      "mean_colour": "#b3a08b",
+      "thumbnail": "assets/35424271c75264fab4c7ac52ac91325ed329674069022e07a5987c92866236fd.webp",
+      "alt_text": "A woodblock print of white and coral pink peonies in a long woven basket, with a poem in flowing calligraphy above.",
+      "placard": {
+        "title": "Basket of Peonies",
+        "creator": "Katsushika Hokusai (Japanese, 1760–1849)",
+        "date": "1810 or 1814",
+        "medium": "color woodblock print; surimono",
+        "dimensions": "Sheet: 52.1 x 38.3 cm (20 1/2 x 15 1/16 in.)",
+        "institution": "The Cleveland Museum of Art",
+        "canonical_url": "https://clevelandart.org/art/1943.5"
+      },
+      "rights": {
+        "license": "CC0-1.0",
+        "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "evidence": {
+          "provider_field": "share_license_status",
+          "provider_value": "CC0",
+          "image_url": "https://openaccess-cdn.clevelandart.org/1943.5/1943.5_print.jpg",
+          "observed_at": "2026-10-06T11:44:36+00:00"
+        }
+      }
+    },
+    {
+      "provider": "aic",
+      "object_id": "16549",
+      "file": "assets/a3136fc60c0ae471e55971abb65b5d2de50605eb650535228076989cecec18b7.jpg",
+      "sha256": "a3136fc60c0ae471e55971abb65b5d2de50605eb650535228076989cecec18b7",
+      "length": 291644,
+      "width": 1351,
+      "height": 1080,
+      "orientation": "landscape",
+      "mean_colour": "#7a7673",
+      "thumbnail": "assets/96ecda88b4cf32357d373de0aaa9672c60e37cd4549fbc9d1763fab142491fb2.webp",
+      "alt_text": "Green and red apples and a basket of purple and green grapes on a white tablecloth with pale blue shadows.",
+      "placard": {
+        "title": "Apples and Grapes",
+        "creator": "Claude Monet (French, 1840–1926)",
+        "date": "1880",
+        "medium": "Oil on canvas",
+        "dimensions": "66.5 × 82.5 cm (26 3/16 × 32 1/2 in.); Framed: 88 × 103.9 × 10.2 cm (34 5/8 × 40 7/8 × 4 in.)",
+        "institution": "Art Institute of Chicago",
+        "canonical_url": "https://www.artic.edu/artworks/16549"
+      },
+      "rights": {
+        "license": "CC0-1.0",
+        "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "evidence": {
+          "provider_field": "is_public_domain",
+          "provider_value": true,
+          "image_url": "https://www.artic.edu/iiif/2/c12058f4-188f-c6ed-f0fe-52b32acfb296/full/1686,/0/default.jpg",
+          "observed_at": "2026-10-06T11:44:39+00:00"
+        }
+      }
+    },
+    {
+      "provider": "aic",
+      "object_id": "62450",
+      "file": "assets/c46abe3d7227949d47fdd799c791ea86e3f8bec2492193535adfca3bb9d5c430.jpg",
+      "sha256": "c46abe3d7227949d47fdd799c791ea86e3f8bec2492193535adfca3bb9d5c430",
+      "length": 217753,
+      "width": 1500,
+      "height": 1080,
+      "orientation": "landscape",
+      "mean_colour": "#41251f",
+      "thumbnail": "assets/a07d635aa7a67ab2cd081d1795774bbedd85d353f02d25592c3c8f510c484f80.webp",
+      "alt_text": "A woven basket of peaches, plums, cherries and grapes beside a bundle of white asparagus on a wooden ledge.",
+      "placard": {
+        "title": "Still Life with a Basket of Fruit and a Bunch of Asparagus",
+        "creator": "Louise Moillon (French, 1610–1696)",
+        "date": "1630",
+        "medium": "Oil on panel",
+        "dimensions": "53.3 × 71.3 cm (21 × 28 1/2 in.); Framed: 67.7 × 85.5 cm (26 5/8 × 33 5/8 in.)",
+        "institution": "Art Institute of Chicago",
+        "canonical_url": "https://www.artic.edu/artworks/62450"
+      },
+      "rights": {
+        "license": "CC0-1.0",
+        "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "evidence": {
+          "provider_field": "is_public_domain",
+          "provider_value": true,
+          "image_url": "https://www.artic.edu/iiif/2/87d426ca-4537-1386-50bf-6c2d5a5d7d17/full/1686,/0/default.jpg",
+          "observed_at": "2026-10-06T11:44:41+00:00"
+        }
+      }
+    },
+    {
+      "provider": "aic",
+      "object_id": "111436",
+      "file": "assets/ecb57f381bcf389abc20ea74058e34b2feaf9e271667be469ae8d2234e94fa5f.jpg",
+      "sha256": "ecb57f381bcf389abc20ea74058e34b2feaf9e271667be469ae8d2234e94fa5f",
+      "length": 205273,
+      "width": 1353,
+      "height": 1080,
+      "orientation": "landscape",
+      "mean_colour": "#7a7563",
+      "thumbnail": "assets/7ccfe5ce8421138b155463e7e220bc4fe4a5e3059ed830b61dcba472f3925ecf.webp",
+      "alt_text": "A tilted basket of apples, a dark bottle, a plate of biscuits and loose fruit on a white cloth on a wooden table.",
+      "placard": {
+        "title": "The Basket of Apples",
+        "creator": "Paul Cezanne (French, 1839–1906)",
+        "date": "c. 1893",
+        "medium": "Oil on canvas",
+        "dimensions": "65 × 80 cm (25 7/16 × 31 1/2 in.); Framed: 88 × 104.2 × 9.6 cm (34 5/8 × 41 × 3 3/4 in.)",
+        "institution": "Art Institute of Chicago",
+        "canonical_url": "https://www.artic.edu/artworks/111436"
+      },
+      "rights": {
+        "license": "CC0-1.0",
+        "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "evidence": {
+          "provider_field": "is_public_domain",
+          "provider_value": true,
+          "image_url": "https://www.artic.edu/iiif/2/52ac8996-3460-cf71-cb42-5c4d0aa29b74/full/1686,/0/default.jpg",
+          "observed_at": "2026-10-06T11:44:44+00:00"
+        }
+      }
+    },
+    {
+      "provider": "cleveland",
+      "object_id": "132616",
+      "file": "assets/68757afeaa734232494640c62180300e171c995c1646d4b5dc4d0927841d1d2a.jpg",
+      "sha256": "68757afeaa734232494640c62180300e171c995c1646d4b5dc4d0927841d1d2a",
+      "length": 422440,
+      "width": 1719,
+      "height": 1080,
+      "orientation": "landscape",
+      "mean_colour": "#a6927b",
+      "thumbnail": "assets/960fadf2502ad23287a096456a0346739b0e66036390c07a49a7bf4d14c1634a.webp",
+      "alt_text": "A watercolour of small birds, including goldfinches and a bee-eater, among pears, plums, a peach and a fig on a grey ground.",
+      "placard": {
+        "title": "Still Life with Birds and Fruit",
+        "creator": "Giovanna Garzoni (Italian, 1600–1670)",
+        "date": "c. 1650",
+        "medium": "watercolor with graphite, heightened with lead white",
+        "dimensions": "Sheet: 25.7 x 41.6 cm (10 1/8 x 16 3/8 in.)",
+        "institution": "The Cleveland Museum of Art",
+        "canonical_url": "https://clevelandart.org/art/1955.140"
+      },
+      "rights": {
+        "license": "CC0-1.0",
+        "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "evidence": {
+          "provider_field": "share_license_status",
+          "provider_value": "CC0",
+          "image_url": "https://openaccess-cdn.clevelandart.org/1955.140/1955.140_print.jpg",
+          "observed_at": "2026-10-06T11:44:47+00:00"
+        }
+      }
+    },
+    {
+      "provider": "met",
+      "object_id": "436963",
+      "file": "assets/4c3dccde893a99c8b4ec837eeda4dfb85416d4245609e0deba46e05cb2eff6a0.jpg",
+      "sha256": "4c3dccde893a99c8b4ec837eeda4dfb85416d4245609e0deba46e05cb2eff6a0",
+      "length": 325250,
+      "width": 1400,
+      "height": 1080,
+      "orientation": "landscape",
+      "mean_colour": "#735b47",
+      "thumbnail": "assets/5c87c5824e5ee6d92fb2a6b2d6c5749065c312da42849b5d8c1050a6546b0f34.webp",
+      "alt_text": "A woven basket heaped with ripe red strawberries on a pale table against a grey wall.",
+      "placard": {
+        "title": "Strawberries",
+        "creator": "Edouard Manet (French, Paris 1832–1883 Paris)",
+        "date": "ca. 1882",
+        "medium": "Oil on canvas",
+        "dimensions": "8 3/8 x 10 1/2 in. (21.3 x 26.7 cm)",
+        "institution": "The Metropolitan Museum of Art",
+        "canonical_url": "https://www.metmuseum.org/art/collection/search/436963"
+      },
+      "rights": {
+        "license": "CC0-1.0",
+        "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "evidence": {
+          "provider_field": "isPublicDomain",
+          "provider_value": true,
+          "image_url": "https://images.metmuseum.org/CRDImages/ep/original/ep56.230.1.R.jpg",
+          "observed_at": "2026-10-06T11:44:50+00:00",
+          "image_field": "primaryImage"
+        }
+      }
+    },
+    {
+      "provider": "aic",
+      "object_id": "75507",
+      "file": "assets/0d2e3ee5f7e5477c423dc569f51281b1d8c49023cc08e3f19ae1abca090dc7d4.jpg",
+      "sha256": "0d2e3ee5f7e5477c423dc569f51281b1d8c49023cc08e3f19ae1abca090dc7d4",
+      "length": 264668,
+      "width": 1412,
+      "height": 1080,
+      "orientation": "landscape",
+      "mean_colour": "#64665d",
+      "thumbnail": "assets/e9d8aefa0d964392bc855dd881b584bbf7fade963f24e2f16f7cf818217cc14b.webp",
+      "alt_text": "A table with a white cloth set with a glass jug, wine glass, teacup, silver pot and a bowl of fruit, with a flowering rhododendron in front.",
+      "placard": {
+        "title": "Still Life: Corner of a Table",
+        "creator": "Henri Fantin-Latour (French, 1836–1904)",
+        "date": "1873",
+        "medium": "Oil on canvas",
+        "dimensions": "96.4 × 125 cm (37 15/16 × 49 3/16 in.); Framed: 122 × 152.4 × 9.6 cm (48 × 60 × 3 3/4 in.)",
+        "institution": "Art Institute of Chicago",
+        "canonical_url": "https://www.artic.edu/artworks/75507"
+      },
+      "rights": {
+        "license": "CC0-1.0",
+        "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "evidence": {
+          "provider_field": "is_public_domain",
+          "provider_value": true,
+          "image_url": "https://www.artic.edu/iiif/2/85d05bad-1205-6de5-e75c-ec9113a626ab/full/1686,/0/default.jpg",
+          "observed_at": "2026-10-06T11:44:52+00:00"
+        }
+      }
+    },
+    {
+      "provider": "cleveland",
+      "object_id": "154173",
+      "file": "assets/bcb541a8581d33ff62fb750e29d73e869d01c1c2bcfa2fc0c790ee458b7c31fe.jpg",
+      "sha256": "bcb541a8581d33ff62fb750e29d73e869d01c1c2bcfa2fc0c790ee458b7c31fe",
+      "length": 205285,
+      "width": 1588,
+      "height": 1080,
+      "orientation": "landscape",
+      "mean_colour": "#b3a78c",
+      "thumbnail": "assets/bcfe584536484ddad240a4ff728add72f2b4f3f6ae7c9c38b2a9ace01c4b273d.webp",
+      "alt_text": "A round woven bamboo basket holding green leaves and a small white flower, printed on cream paper.",
+      "placard": {
+        "title": "Flowers of a Hundred Worlds (Momoyogusa): Flower Basket (Hanakago)",
+        "creator": "Kamisaka Sekka (Japanese, 1866–1942)",
+        "date": "1909–10",
+        "medium": "color woodcuts with gold and silver",
+        "dimensions": "Sheet: 29.9 x 22.1 cm (11 3/4 x 8 11/16 in.)",
+        "institution": "The Cleveland Museum of Art",
+        "canonical_url": "https://clevelandart.org/art/1988.23.3.10"
+      },
+      "rights": {
+        "license": "CC0-1.0",
+        "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "evidence": {
+          "provider_field": "share_license_status",
+          "provider_value": "CC0",
+          "image_url": "https://openaccess-cdn.clevelandart.org/1988.23.3.10/1988.23.3.10_print.jpg",
+          "observed_at": "2026-10-06T11:44:55+00:00"
+        }
+      }
+    },
+    {
+      "provider": "aic",
+      "object_id": "120154",
+      "file": "assets/cd862549730315bcc3baeb547cf88d3cc3208f6208d83b127bdc99a132540d0a.jpg",
+      "sha256": "cd862549730315bcc3baeb547cf88d3cc3208f6208d83b127bdc99a132540d0a",
+      "length": 186541,
+      "width": 1507,
+      "height": 1080,
+      "orientation": "landscape",
+      "mean_colour": "#423321",
+      "thumbnail": "assets/8ced61f45a3e23850c43c6857e434a62e45b74db419350333657e971d8e6b0c6.webp",
+      "alt_text": "A tall glass jar of strawberries, a bowl of nuts, an orange, a china sugar bowl and a white cream jug on a wooden ledge.",
+      "placard": {
+        "title": "Still Life—Strawberries, Nuts, &c.",
+        "creator": "Raphaelle Peale (American, 1774–1825)",
+        "date": "1822",
+        "medium": "Oil on wood panel",
+        "dimensions": "41.1 × 57.8 cm (16 3/16 × 22 3/4 in.)",
+        "institution": "Art Institute of Chicago",
+        "canonical_url": "https://www.artic.edu/artworks/120154"
+      },
+      "rights": {
+        "license": "CC0-1.0",
+        "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "evidence": {
+          "provider_field": "is_public_domain",
+          "provider_value": true,
+          "image_url": "https://www.artic.edu/iiif/2/1cddae1c-99d5-462f-4aa6-128c0732ac11/full/1686,/0/default.jpg",
+          "observed_at": "2026-10-06T11:44:58+00:00"
+        }
+      }
+    },
+    {
+      "provider": "cleveland",
+      "object_id": "109628",
+      "file": "assets/a8325e954756e09eca5c00144b8bc257e1a7550800f87fe7d6aa425a363bc101.jpg",
+      "sha256": "a8325e954756e09eca5c00144b8bc257e1a7550800f87fe7d6aa425a363bc101",
+      "length": 252891,
+      "width": 1630,
+      "height": 1080,
+      "orientation": "landscape",
+      "mean_colour": "#786056",
+      "thumbnail": "assets/56c024be7a3d013e2bd14d428696eeb133211b627da6cd05b87fc90c883e68dc.webp",
+      "alt_text": "A table draped in patterned cloth with a glass dish of fruit, a white jar, a jug of red and orange zinnias and scattered peaches.",
+      "placard": {
+        "title": "Fruits and Flowers",
+        "creator": "Henry Lee McFee (American, 1886–1953)",
+        "date": "1927",
+        "medium": "oil on canvas",
+        "dimensions": "Unframed: 51.5 x 77 cm (20 1/4 x 30 5/16 in.)",
+        "institution": "The Cleveland Museum of Art",
+        "canonical_url": "https://clevelandart.org/art/1928.258"
+      },
+      "rights": {
+        "license": "CC0-1.0",
+        "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "evidence": {
+          "provider_field": "share_license_status",
+          "provider_value": "CC0",
+          "image_url": "https://openaccess-cdn.clevelandart.org/1928.258/1928.258_print.jpg",
+          "observed_at": "2026-10-06T11:45:01+00:00"
+        }
+      }
+    },
+    {
+      "provider": "cleveland",
+      "object_id": "144496",
+      "file": "assets/71b1a9ef90b0b526c6af7a254a83e9ddcd9c4c618e672f0a28e7df412fa6faf9.jpg",
+      "sha256": "71b1a9ef90b0b526c6af7a254a83e9ddcd9c4c618e672f0a28e7df412fa6faf9",
+      "length": 285238,
+      "width": 1404,
+      "height": 1080,
+      "orientation": "landscape",
+      "mean_colour": "#4b392b",
+      "thumbnail": "assets/4fb7752c97a82e054bf7a6ced3391171cd2206fdf851128a2c36449012221132.webp",
+      "alt_text": "Peaches, a cantaloupe, a pear, grapes and raspberries with a wine glass and a fruit knife on a fringed white cloth.",
+      "placard": {
+        "title": "Still Life with Cantaloupe",
+        "creator": "William Mason Brown (American, 1828–1898)",
+        "date": "c. 1880",
+        "medium": "oil on canvas",
+        "dimensions": "Unframed: 35.5 x 46 cm (14 x 18 1/8 in.)",
+        "institution": "The Cleveland Museum of Art",
+        "canonical_url": "https://clevelandart.org/art/1969.20"
+      },
+      "rights": {
+        "license": "CC0-1.0",
+        "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "evidence": {
+          "provider_field": "share_license_status",
+          "provider_value": "CC0",
+          "image_url": "https://openaccess-cdn.clevelandart.org/1969.20/1969.20_print.jpg",
+          "observed_at": "2026-10-06T11:45:05+00:00"
+        }
+      }
+    },
+    {
+      "provider": "aic",
+      "object_id": "66042",
+      "file": "assets/bfa853159704df2516270b05f340e850f48d9bedf4273efec75bfaf2441d6dfb.jpg",
+      "sha256": "bfa853159704df2516270b05f340e850f48d9bedf4273efec75bfaf2441d6dfb",
+      "length": 236934,
+      "width": 1499,
+      "height": 1080,
+      "orientation": "landscape",
+      "mean_colour": "#313537",
+      "thumbnail": "assets/26599581a51656cd91b53d8b3abeb8924927743718eaa88b1a853bcf33be0525.webp",
+      "alt_text": "A garland of roses, tulips and other flowers in a dark niche, partly hidden by a blue silk curtain hanging from a brass rod.",
+      "placard": {
+        "title": "Trompe-l'Oeil Still Life with a Flower Garland and a Curtain",
+        "creator": "Adriaen van der Spelt (Dutch, 1630–1673) (Frans van Mieris (Dutch, 1635–1681))",
+        "date": "1658",
+        "medium": "Oil on panel",
+        "dimensions": "46.5 × 63.9 cm (18 1/4 × 25 1/8 in.); Framed: 69.2 × 86.7 × 8.3 cm (27 1/4 × 34 1/8 × 3 1/4 in.)",
+        "institution": "Art Institute of Chicago",
+        "canonical_url": "https://www.artic.edu/artworks/66042"
+      },
+      "rights": {
+        "license": "CC0-1.0",
+        "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "evidence": {
+          "provider_field": "is_public_domain",
+          "provider_value": true,
+          "image_url": "https://www.artic.edu/iiif/2/4a04138f-43d8-cd9f-5ac4-478cd8828210/full/1686,/0/default.jpg",
+          "observed_at": "2026-10-06T11:45:07+00:00"
+        }
+      }
+    },
+    {
+      "provider": "cleveland",
+      "object_id": "93239",
+      "file": "assets/a5de73e68c2ba346c450b3b5fcf8700baed8c4f4251733428764868c40c06f57.jpg",
+      "sha256": "a5de73e68c2ba346c450b3b5fcf8700baed8c4f4251733428764868c40c06f57",
+      "length": 230680,
+      "width": 1355,
+      "height": 1080,
+      "orientation": "landscape",
+      "mean_colour": "#605a49",
+      "thumbnail": "assets/45e1b6a44a0bfd4033154d0d1d8cf2dc80fb5fe65370f503972a26c881f0b755.webp",
+      "alt_text": "A modern still life of a brown bottle and a large white bowl holding a plum, small lemons and a green pepper on a dark cloth, with a knife.",
+      "placard": {
+        "title": "Still Life",
+        "creator": "Preston Dickinson (American, 1891–1930)",
+        "date": "c. 1924",
+        "medium": "oil on canvas",
+        "dimensions": "Framed: 75.5 x 91 x 5.5 cm (29 3/4 x 35 13/16 x 2 3/16 in.); Unframed: 61.2 x 76.5 cm (24 1/8 x 30 1/8 in.)",
+        "institution": "The Cleveland Museum of Art",
+        "canonical_url": "https://clevelandart.org/art/1926.1664"
+      },
+      "rights": {
+        "license": "CC0-1.0",
+        "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "evidence": {
+          "provider_field": "share_license_status",
+          "provider_value": "CC0",
+          "image_url": "https://openaccess-cdn.clevelandart.org/1926.1664/1926.1664_print.jpg",
+          "observed_at": "2026-10-06T11:45:11+00:00"
+        }
+      }
+    },
+    {
+      "provider": "cleveland",
+      "object_id": "173658",
+      "file": "assets/95e4ea6991f65d91fc73796e8c0d8f88e634e6868bbc55266303768a94f61022.jpg",
+      "sha256": "95e4ea6991f65d91fc73796e8c0d8f88e634e6868bbc55266303768a94f61022",
+      "length": 181440,
+      "width": 1457,
+      "height": 1080,
+      "orientation": "landscape",
+      "mean_colour": "#483d2d",
+      "thumbnail": "assets/832cfd7d4b4c50dc09481ca23f4a285006437e095567f93e30e3e42eeb782f7e.webp",
+      "alt_text": "Peaches, plums, grapes with vine leaves, a halved apple and a glass of wine beside a decanter on a marble ledge.",
+      "placard": {
+        "title": "Still Life with Fruit",
+        "creator": "Emilie Preyer (German, 1849–1930)",
+        "date": "1873",
+        "medium": "oil on fabric",
+        "dimensions": "Unframed: 35 x 46.5 cm (13 3/4 x 18 5/16 in.)",
+        "institution": "The Cleveland Museum of Art",
+        "canonical_url": "https://clevelandart.org/art/1915.723"
+      },
+      "rights": {
+        "license": "CC0-1.0",
+        "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "evidence": {
+          "provider_field": "share_license_status",
+          "provider_value": "CC0",
+          "image_url": "https://openaccess-cdn.clevelandart.org/1915.723/1915.723_print.jpg",
+          "observed_at": "2026-10-06T11:45:14+00:00"
+        }
+      }
+    },
+    {
+      "provider": "aic",
+      "object_id": "51577",
+      "file": "assets/bdae48db0ae43ebbeb0f2877edf9f6afdbea9670958e3ea9dfc3478bb1ae9280.jpg",
+      "sha256": "bdae48db0ae43ebbeb0f2877edf9f6afdbea9670958e3ea9dfc3478bb1ae9280",
+      "length": 150392,
+      "width": 1397,
+      "height": 1080,
+      "orientation": "landscape",
+      "mean_colour": "#5e5548",
+      "thumbnail": "assets/af8966f80420567f5fc94619cb07cf6ed43820d2d7cbb8c21ce25cfa20ccd895.webp",
+      "alt_text": "A small table covered with a white cloth, set with bread, a glass of red wine, a knife and a plate of sliced sausage, beside a wooden wine cooler.",
+      "placard": {
+        "title": "The White Tablecloth",
+        "creator": "Jean Siméon Chardin (French, 1699–1779)",
+        "date": "c. 1731–32",
+        "medium": "Oil on canvas",
+        "dimensions": "96.8 × 123.5 cm (38 1/8 × 48 5/16 in.); Framed: 126.7 × 154.4 × 14 cm (49 7/8 × 60 3/4 × 5 1/2 in.)",
+        "institution": "Art Institute of Chicago",
+        "canonical_url": "https://www.artic.edu/artworks/51577"
+      },
+      "rights": {
+        "license": "CC0-1.0",
+        "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "evidence": {
+          "provider_field": "is_public_domain",
+          "provider_value": true,
+          "image_url": "https://www.artic.edu/iiif/2/7085f5ee-b5da-bd9f-e8f9-b692be466ea0/full/1686,/0/default.jpg",
+          "observed_at": "2026-10-06T11:45:16+00:00"
+        }
+      }
+    },
+    {
+      "provider": "cleveland",
+      "object_id": "120286",
+      "file": "assets/ae25bd4358af52e9562eef50692834996e6c3375ebf4a207cfd25350aa9d4774.jpg",
+      "sha256": "ae25bd4358af52e9562eef50692834996e6c3375ebf4a207cfd25350aa9d4774",
+      "length": 333090,
+      "width": 1487,
+      "height": 1080,
+      "orientation": "landscape",
+      "mean_colour": "#53452b",
+      "thumbnail": "assets/d8d944aef5bef5b1c1499eef33d166e84d2dc406b711acdc45abc53ef9dff1f5.webp",
+      "alt_text": "A loose bouquet of cream, pink and deep red roses in a green vase, painted with soft brushstrokes on a warm ground.",
+      "placard": {
+        "title": "Roses in a Vase",
+        "creator": "Pierre-Auguste Renoir (French, 1841–1919)",
+        "date": "c. 1890",
+        "medium": "oil on fabric",
+        "dimensions": "Unframed: 25.5 x 34 cm (10 1/16 x 13 3/8 in.)",
+        "institution": "The Cleveland Museum of Art",
+        "canonical_url": "https://clevelandart.org/art/1941.14"
+      },
+      "rights": {
+        "license": "CC0-1.0",
+        "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "evidence": {
+          "provider_field": "share_license_status",
+          "provider_value": "CC0",
+          "image_url": "https://openaccess-cdn.clevelandart.org/1941.14/1941.14_print.jpg",
+          "observed_at": "2026-10-06T11:45:19+00:00"
+        }
+      }
+    },
+    {
+      "provider": "aic",
+      "object_id": "197867",
+      "file": "assets/42c2d2f4edb010164471dd2cca3ce3131e689503506d05252c4983ba9416bd82.jpg",
+      "sha256": "42c2d2f4edb010164471dd2cca3ce3131e689503506d05252c4983ba9416bd82",
+      "length": 374174,
+      "width": 1467,
+      "height": 1080,
+      "orientation": "landscape",
+      "mean_colour": "#55492e",
+      "thumbnail": "assets/4fadbc4e6932c7cd427d4efeaff0b408f9affc32a558d51d2a0e99600f2b8624.webp",
+      "alt_text": "A drawing of a copper cooking pot with its lid and a ladle, a cloth hanging over its side and two root vegetables beside it.",
+      "placard": {
+        "title": "Still Life with a Copper Pot and Ladle",
+        "creator": "François Bonvin (French, 1817-1887)",
+        "date": "October 10, 1879",
+        "medium": "Black and red chalk with traces of incising on tan laid paper, laid down on tan wove paper",
+        "dimensions": "14.8 × 20.2 cm (5 7/8 × 8 in.)",
+        "institution": "Art Institute of Chicago",
+        "canonical_url": "https://www.artic.edu/artworks/197867"
+      },
+      "rights": {
+        "license": "CC0-1.0",
+        "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "evidence": {
+          "provider_field": "is_public_domain",
+          "provider_value": true,
+          "image_url": "https://www.artic.edu/iiif/2/4aeb7604-49a5-82bf-f93b-eb0366ee5b0e/full/1686,/0/default.jpg",
+          "observed_at": "2026-10-06T11:45:22+00:00"
+        }
+      }
+    },
+    {
+      "provider": "cleveland",
+      "object_id": "150140",
+      "file": "assets/8630d3de5adb4b99e856ca35065254b44665bf38639d92dc65b4673013a6cb5f.jpg",
+      "sha256": "8630d3de5adb4b99e856ca35065254b44665bf38639d92dc65b4673013a6cb5f",
+      "length": 210151,
+      "width": 1819,
+      "height": 1080,
+      "orientation": "landscape",
+      "mean_colour": "#3a332b",
+      "thumbnail": "assets/aa73ed3f6ff9aa11ebb84c5b4ce0dcb1c69bc9c3f240b523297f04bbf25316d4.webp",
+      "alt_text": "Blocks of nougat and candied fruit, a glass flask and a tall goblet on boxes and dishes on a grey stone ledge.",
+      "placard": {
+        "title": "Still Life with Sweets",
+        "creator": "Juan van der Hamen y Léon (Spanish, 1596–1631)",
+        "date": "1622",
+        "medium": "oil on canvas",
+        "dimensions": "Framed: 83 x 122 x 7.5 cm (32 11/16 x 48 1/16 x 2 15/16 in.); Unframed: 58 x 97 cm (22 13/16 x 38 3/16 in.)",
+        "institution": "The Cleveland Museum of Art",
+        "canonical_url": "https://clevelandart.org/art/1980.6"
+      },
+      "rights": {
+        "license": "CC0-1.0",
+        "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "evidence": {
+          "provider_field": "share_license_status",
+          "provider_value": "CC0",
+          "image_url": "https://openaccess-cdn.clevelandart.org/1980.6/1980.6_print.jpg",
+          "observed_at": "2026-10-06T11:45:25+00:00"
+        }
+      }
+    },
+    {
+      "provider": "aic",
+      "object_id": "94240",
+      "file": "assets/f5e3de287149eac020b722e6092a302395051c16b28e6896e3a07f930cc5affd.jpg",
+      "sha256": "f5e3de287149eac020b722e6092a302395051c16b28e6896e3a07f930cc5affd",
+      "length": 194265,
+      "width": 1359,
+      "height": 1080,
+      "orientation": "landscape",
+      "mean_colour": "#282113",
+      "thumbnail": "assets/dce175f62066b3354c4bc3fa0833a1f5cfe89ac026587c722a720f00bc46d8e3.webp",
+      "alt_text": "Two red poppies and a few white daisies in a dark round jug against a deep green background.",
+      "placard": {
+        "title": "Flowers: Poppies and Daisies",
+        "creator": "Odilon Redon (French, 1840–1916)",
+        "date": "c. 1867",
+        "medium": "Oil on cardboard",
+        "dimensions": "19 × 23.5 cm (7 1/2 × 9 1/4 in.); Framed: 33.7 × 30.2 × 4.5 cm (13 1/4 × 11 7/8 × 1 3/4 in.)",
+        "institution": "Art Institute of Chicago",
+        "canonical_url": "https://www.artic.edu/artworks/94240"
+      },
+      "rights": {
+        "license": "CC0-1.0",
+        "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "evidence": {
+          "provider_field": "is_public_domain",
+          "provider_value": true,
+          "image_url": "https://www.artic.edu/iiif/2/d424c734-f5c1-5f89-3bb8-d83e4e0287e3/full/1686,/0/default.jpg",
+          "observed_at": "2026-10-06T11:45:28+00:00"
+        }
+      }
+    },
+    {
+      "provider": "cleveland",
+      "object_id": "137244",
+      "file": "assets/503d572e081c2aa6fd72e54a4c2125bfb8d0c64457cfa86e167b159fb5d8b6b9.jpg",
+      "sha256": "503d572e081c2aa6fd72e54a4c2125bfb8d0c64457cfa86e167b159fb5d8b6b9",
+      "length": 237831,
+      "width": 1530,
+      "height": 1080,
+      "orientation": "landscape",
+      "mean_colour": "#bdac91",
+      "thumbnail": "assets/4b0a361eba350d2604500328304343797a66ef7f69f7ccdcfb05815665b1a6e8.webp",
+      "alt_text": "A watercolour of peaches and blue-violet plums with leafy stems arranged on a grey marble slab, on an oval of cream paper.",
+      "placard": {
+        "title": "Fruit Arrangement: Peaches and Plumbs on a Slab of Marble",
+        "creator": "Georg Dionysius Ehret (German, 1708–1770)",
+        "date": "1742",
+        "medium": "watercolor",
+        "dimensions": "Sheet: 27.5 x 39.5 cm (10 13/16 x 15 9/16 in.)",
+        "institution": "The Cleveland Museum of Art",
+        "canonical_url": "https://clevelandart.org/art/1962.187"
+      },
+      "rights": {
+        "license": "CC0-1.0",
+        "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "evidence": {
+          "provider_field": "share_license_status",
+          "provider_value": "CC0",
+          "image_url": "https://openaccess-cdn.clevelandart.org/1962.187/1962.187_print.jpg",
+          "observed_at": "2026-10-06T11:45:31+00:00"
+        }
+      }
+    },
+    {
+      "provider": "aic",
+      "object_id": "111059",
+      "file": "assets/3fd88af9b9fab9303579b195b229dd9a65625a4518476328b265ad7fac62a895.jpg",
+      "sha256": "3fd88af9b9fab9303579b195b229dd9a65625a4518476328b265ad7fac62a895",
+      "length": 193129,
+      "width": 1430,
+      "height": 1080,
+      "orientation": "landscape",
+      "mean_colour": "#2e2319",
+      "thumbnail": "assets/eb2a4d10152995867dee194b5bb3bcf58e2a1bba4e653e7f8b761a5f31fb0f86.webp",
+      "alt_text": "A white porcelain bowl of pears and apples surrounded by roses, carnations, jasmine and lilies on a stone ledge against a dark background.",
+      "placard": {
+        "title": "Flowers and Fruit in a Porcelain Bowl",
+        "creator": "Juan de Zurbarán (Spanish, 1620–1649)",
+        "date": "c. 1645",
+        "medium": "Oil on canvas",
+        "dimensions": "82.6 × 108.6 cm (32 1/2 × 42 3/4 in.); Framed: 102.9 × 128.3 × 12.7 cm (40 1/2 × 50 1/2 × 5 in.)",
+        "institution": "Art Institute of Chicago",
+        "canonical_url": "https://www.artic.edu/artworks/111059"
+      },
+      "rights": {
+        "license": "CC0-1.0",
+        "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "evidence": {
+          "provider_field": "is_public_domain",
+          "provider_value": true,
+          "image_url": "https://www.artic.edu/iiif/2/9e4bfbcc-176f-3dac-4529-f67c9a98065c/full/1686,/0/default.jpg",
+          "observed_at": "2026-10-06T11:45:33+00:00"
+        }
+      }
+    },
+    {
+      "provider": "cleveland",
+      "object_id": "150079",
+      "file": "assets/82d59ad3530287c1c3525ecab3ff26612a22ce2771b7e24bdcfcf9cee0ef3ca4.jpg",
+      "sha256": "82d59ad3530287c1c3525ecab3ff26612a22ce2771b7e24bdcfcf9cee0ef3ca4",
+      "length": 247286,
+      "width": 1920,
+      "height": 1053,
+      "orientation": "landscape",
+      "mean_colour": "#2d230d",
+      "thumbnail": "assets/c29550cc49ecf0465e8eb5898b11e1375b8a360d38784cf2b4827a5f32dd11fa.webp",
+      "alt_text": "A bunch of white asparagus tied with string, loose spears on a plate and a green glass jug in a dim kitchen.",
+      "placard": {
+        "title": "Still Life with Asparagus",
+        "creator": "Philippe Rousseau (French, 1816–1887)",
+        "date": "c. 1880",
+        "medium": "oil on fabric",
+        "dimensions": "Unframed: 36 x 65 cm (14 3/16 x 25 9/16 in.)",
+        "institution": "The Cleveland Museum of Art",
+        "canonical_url": "https://clevelandart.org/art/1980.284"
+      },
+      "rights": {
+        "license": "CC0-1.0",
+        "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "evidence": {
+          "provider_field": "share_license_status",
+          "provider_value": "CC0",
+          "image_url": "https://openaccess-cdn.clevelandart.org/1980.284/1980.284_print.jpg",
+          "observed_at": "2026-10-06T11:45:36+00:00"
+        }
+      }
+    }
+  ],
+  "refused": [],
+  "review_notes": []
+}
