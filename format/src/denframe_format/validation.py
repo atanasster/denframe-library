@@ -27,7 +27,7 @@ from .pack_contracts import (
     MAX_PACK_DOCUMENTS,
     MAX_PACK_EXPANDED,
     MAX_PACK_FILES,
-    PackDefinition,
+    AnyPackDefinition,
     PackManifest,
 )
 from .themes import palette_verdict_for
@@ -43,7 +43,7 @@ PACK_LIMITS = ArchiveLimits(
 class Inspection:
     layers: dict[str, Verdict] = field(default_factory=lambda: dict.fromkeys(LAYERS, "not checked"))
     manifest: Manifest | PackManifest | None = None
-    definition: Definition | PackDefinition | None = None
+    definition: Definition | AnyPackDefinition | None = None
     error: str | None = None
 
     @property

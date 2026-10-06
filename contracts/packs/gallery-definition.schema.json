@@ -1,0 +1,613 @@
+{
+  "$defs": {
+    "GalleryCredit": {
+      "additionalProperties": false,
+      "if": {
+        "properties": {
+          "license": {
+            "enum": [
+              "CC-BY-4.0",
+              "MIT"
+            ]
+          }
+        }
+      },
+      "properties": {
+        "creator": {
+          "maxLength": 100,
+          "minLength": 1,
+          "pattern": "\\S",
+          "title": "Creator",
+          "type": "string"
+        },
+        "license": {
+          "const": "CC0-1.0",
+          "title": "License",
+          "type": "string"
+        },
+        "attribution": {
+          "default": "",
+          "maxLength": 500,
+          "title": "Attribution",
+          "type": "string"
+        },
+        "source": {
+          "default": "",
+          "maxLength": 500,
+          "title": "Source",
+          "type": "string"
+        },
+        "modified": {
+          "default": false,
+          "title": "Modified",
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "creator",
+        "license"
+      ],
+      "then": {
+        "properties": {
+          "attribution": {
+            "pattern": "\\S"
+          }
+        },
+        "required": [
+          "attribution"
+        ]
+      },
+      "title": "GalleryCredit",
+      "type": "object"
+    },
+    "GalleryEvidence": {
+      "additionalProperties": false,
+      "description": "What the provider answered when the work was curated: the field, its value and when.",
+      "properties": {
+        "provider_field": {
+          "maxLength": 100,
+          "minLength": 1,
+          "pattern": "\\S",
+          "title": "Provider Field",
+          "type": "string"
+        },
+        "provider_value": {
+          "anyOf": [
+            {
+              "type": "boolean"
+            },
+            {
+              "maxLength": 100,
+              "minLength": 1,
+              "pattern": "\\S",
+              "type": "string"
+            }
+          ],
+          "title": "Provider Value"
+        },
+        "image_url": {
+          "maxLength": 1000,
+          "pattern": "^https://\\S+$",
+          "title": "Image Url",
+          "type": "string"
+        },
+        "observed_at": {
+          "maxLength": 40,
+          "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}(?:\\.\\d+)?(?:Z|[+-]\\d{2}:\\d{2})$",
+          "title": "Observed At",
+          "type": "string"
+        },
+        "image_field": {
+          "anyOf": [
+            {
+              "maxLength": 100,
+              "minLength": 1,
+              "pattern": "\\S",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Image Field"
+        },
+        "uuid": {
+          "anyOf": [
+            {
+              "maxLength": 100,
+              "minLength": 1,
+              "pattern": "\\S",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Uuid"
+        }
+      },
+      "required": [
+        "provider_field",
+        "provider_value",
+        "image_url",
+        "observed_at"
+      ],
+      "title": "GalleryEvidence",
+      "type": "object"
+    },
+    "GalleryPlacard": {
+      "additionalProperties": false,
+      "properties": {
+        "title": {
+          "maxLength": 240,
+          "minLength": 1,
+          "pattern": "\\S",
+          "title": "Title",
+          "type": "string"
+        },
+        "creator": {
+          "maxLength": 240,
+          "minLength": 1,
+          "pattern": "\\S",
+          "title": "Creator",
+          "type": "string"
+        },
+        "date": {
+          "maxLength": 100,
+          "minLength": 1,
+          "pattern": "\\S",
+          "title": "Date",
+          "type": "string"
+        },
+        "medium": {
+          "anyOf": [
+            {
+              "maxLength": 240,
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Medium"
+        },
+        "dimensions": {
+          "anyOf": [
+            {
+              "maxLength": 240,
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Dimensions"
+        },
+        "institution": {
+          "maxLength": 100,
+          "minLength": 1,
+          "pattern": "\\S",
+          "title": "Institution",
+          "type": "string"
+        },
+        "canonical_url": {
+          "maxLength": 1000,
+          "pattern": "^https://\\S+$",
+          "title": "Canonical Url",
+          "type": "string"
+        }
+      },
+      "required": [
+        "title",
+        "creator",
+        "date",
+        "institution",
+        "canonical_url"
+      ],
+      "title": "GalleryPlacard",
+      "type": "object"
+    },
+    "GalleryPresentation": {
+      "additionalProperties": false,
+      "description": "How the collection is shown by default; a household changes it on its Artwork page.",
+      "properties": {
+        "fit": {
+          "default": "fit",
+          "enum": [
+            "fit",
+            "fill",
+            "smart"
+          ],
+          "title": "Fit",
+          "type": "string"
+        },
+        "mat_style": {
+          "default": "museum",
+          "enum": [
+            "full_bleed",
+            "modern",
+            "museum",
+            "shadow_box"
+          ],
+          "title": "Mat Style",
+          "type": "string"
+        },
+        "placard_seconds": {
+          "default": 12,
+          "maximum": 120,
+          "minimum": 5,
+          "title": "Placard Seconds",
+          "type": "integer"
+        },
+        "cadence_seconds": {
+          "default": 45,
+          "maximum": 86400,
+          "minimum": 15,
+          "title": "Cadence Seconds",
+          "type": "integer"
+        }
+      },
+      "title": "GalleryPresentation",
+      "type": "object"
+    },
+    "GalleryResource": {
+      "additionalProperties": false,
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "media_type": {
+                "const": "image/png"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "path": {
+                "pattern": "\\.png$"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "media_type": {
+                "const": "image/jpeg"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "path": {
+                "pattern": "\\.jpg$"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "media_type": {
+                "const": "image/webp"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "path": {
+                "pattern": "\\.webp$"
+              }
+            }
+          }
+        }
+      ],
+      "description": "A gallery's file: a work's JPEG or a WebP thumbnail or strip, dedicated to the public\ndomain (D6.1).",
+      "else": {
+        "properties": {
+          "duration_seconds": {
+            "type": "null"
+          }
+        }
+      },
+      "if": {
+        "properties": {
+          "media_type": {
+            "const": "audio/mpeg"
+          }
+        }
+      },
+      "properties": {
+        "path": {
+          "pattern": "^assets/[a-f0-9]{64}\\.(?:png|jpg|webp|mp3)$",
+          "title": "Path",
+          "type": "string"
+        },
+        "sha256": {
+          "pattern": "^[a-f0-9]{64}$",
+          "title": "Sha256",
+          "type": "string"
+        },
+        "length": {
+          "maximum": 8388608,
+          "minimum": 1,
+          "title": "Length",
+          "type": "integer"
+        },
+        "media_type": {
+          "enum": [
+            "image/jpeg",
+            "image/webp"
+          ],
+          "title": "Media Type",
+          "type": "string"
+        },
+        "duration_seconds": {
+          "anyOf": [
+            {
+              "maximum": 30,
+              "minimum": 0.01,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Duration Seconds"
+        },
+        "credit": {
+          "$ref": "#/$defs/GalleryCredit"
+        }
+      },
+      "required": [
+        "path",
+        "sha256",
+        "length",
+        "media_type",
+        "credit"
+      ],
+      "then": {
+        "properties": {
+          "length": {
+            "maximum": 2097152
+          },
+          "duration_seconds": {
+            "type": "number"
+          },
+          "path": {
+            "pattern": "\\.mp3$"
+          }
+        },
+        "required": [
+          "duration_seconds"
+        ]
+      },
+      "title": "GalleryResource",
+      "type": "object"
+    },
+    "GalleryRights": {
+      "additionalProperties": false,
+      "properties": {
+        "license": {
+          "const": "CC0-1.0",
+          "default": "CC0-1.0",
+          "title": "License",
+          "type": "string"
+        },
+        "uri": {
+          "const": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "default": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "title": "Uri",
+          "type": "string"
+        },
+        "evidence": {
+          "$ref": "#/$defs/GalleryEvidence"
+        }
+      },
+      "required": [
+        "evidence"
+      ],
+      "title": "GalleryRights",
+      "type": "object"
+    },
+    "GalleryWork": {
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "pattern": "^[a-z][a-z0-9-]{0,39}$",
+          "title": "Id",
+          "type": "string"
+        },
+        "image": {
+          "pattern": "^assets/[a-f0-9]{64}\\.jpg$",
+          "title": "Image",
+          "type": "string"
+        },
+        "thumbnail": {
+          "pattern": "^assets/[a-f0-9]{64}\\.webp$",
+          "title": "Thumbnail",
+          "type": "string"
+        },
+        "alt_text": {
+          "maxLength": 240,
+          "minLength": 1,
+          "pattern": "\\S",
+          "title": "Alt Text",
+          "type": "string"
+        },
+        "width": {
+          "maximum": 4096,
+          "minimum": 1,
+          "title": "Width",
+          "type": "integer"
+        },
+        "height": {
+          "maximum": 4096,
+          "minimum": 1,
+          "title": "Height",
+          "type": "integer"
+        },
+        "orientation": {
+          "enum": [
+            "landscape",
+            "portrait"
+          ],
+          "title": "Orientation",
+          "type": "string"
+        },
+        "focal_x": {
+          "default": 0.5,
+          "maximum": 1,
+          "minimum": 0,
+          "title": "Focal X",
+          "type": "number"
+        },
+        "focal_y": {
+          "default": 0.5,
+          "maximum": 1,
+          "minimum": 0,
+          "title": "Focal Y",
+          "type": "number"
+        },
+        "mean_colour": {
+          "pattern": "^#[0-9a-f]{6}$",
+          "title": "Mean Colour",
+          "type": "string"
+        },
+        "placard": {
+          "$ref": "#/$defs/GalleryPlacard"
+        },
+        "rights": {
+          "$ref": "#/$defs/GalleryRights"
+        }
+      },
+      "required": [
+        "id",
+        "image",
+        "thumbnail",
+        "alt_text",
+        "width",
+        "height",
+        "orientation",
+        "mean_colour",
+        "placard",
+        "rights"
+      ],
+      "title": "GalleryWork",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "description": "An art collection (art backgrounds plan, D2): works with placards and CC0 rights evidence,\nno locales and no activities. The host installs it into its gallery, never into a card.",
+  "else": {
+    "properties": {
+      "works": {
+        "items": {
+          "properties": {
+            "orientation": {
+              "const": "portrait"
+            }
+          }
+        }
+      }
+    }
+  },
+  "if": {
+    "properties": {
+      "shape": {
+        "const": "landscape"
+      }
+    }
+  },
+  "properties": {
+    "schema_version": {
+      "const": 2,
+      "default": 2,
+      "title": "Schema Version",
+      "type": "integer"
+    },
+    "kind": {
+      "const": "gallery",
+      "default": "gallery",
+      "title": "Kind",
+      "type": "string"
+    },
+    "name": {
+      "maxLength": 100,
+      "minLength": 1,
+      "pattern": "\\S",
+      "title": "Name",
+      "type": "string"
+    },
+    "description": {
+      "maxLength": 240,
+      "minLength": 1,
+      "pattern": "\\S",
+      "title": "Description",
+      "type": "string"
+    },
+    "shape": {
+      "enum": [
+        "landscape",
+        "portrait"
+      ],
+      "title": "Shape",
+      "type": "string"
+    },
+    "presentation": {
+      "$ref": "#/$defs/GalleryPresentation"
+    },
+    "strip": {
+      "pattern": "^assets/[a-f0-9]{64}\\.webp$",
+      "title": "Strip",
+      "type": "string"
+    },
+    "resources": {
+      "items": {
+        "$ref": "#/$defs/GalleryResource"
+      },
+      "maxItems": 2046,
+      "minItems": 3,
+      "title": "Resources",
+      "type": "array"
+    },
+    "works": {
+      "items": {
+        "$ref": "#/$defs/GalleryWork"
+      },
+      "maxItems": 200,
+      "minItems": 1,
+      "title": "Works",
+      "type": "array"
+    }
+  },
+  "required": [
+    "name",
+    "description",
+    "shape",
+    "strip",
+    "resources",
+    "works"
+  ],
+  "then": {
+    "properties": {
+      "works": {
+        "items": {
+          "properties": {
+            "orientation": {
+              "const": "landscape"
+            }
+          }
+        }
+      }
+    }
+  },
+  "title": "GalleryDefinition",
+  "type": "object",
+  "$schema": "https://json-schema.org/draft/2020-12/schema"
+}

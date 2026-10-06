@@ -11,13 +11,13 @@ from pathlib import Path
 from .encoding import canonical, digest, file_digest
 from .media import inspect_asset
 from .pack_archive_index import CHUNK_SIZE, open_pack_archive, resource_chunks
-from .pack_contracts import PackDefinition, PackManifest
+from .pack_contracts import AnyPackDefinition, PackManifest
 
 
 @dataclass(frozen=True)
 class ValidatedPack:
     manifest: PackManifest
-    definition: PackDefinition
+    definition: AnyPackDefinition
     archive_sha256: str
     archive_bytes: int
     expanded_bytes: int
@@ -47,7 +47,7 @@ def validate_archive(path: Path, destination: Path) -> ValidatedPack:
 
 
 def build_archive(
-    target: Path, manifest: PackManifest, definition: PackDefinition, assets: Path
+    target: Path, manifest: PackManifest, definition: AnyPackDefinition, assets: Path
 ) -> None:
     """Deterministic ZIP_STORED output; caller supplies a new output path."""
     raw = canonical(definition.model_dump(mode="json"))

@@ -525,10 +525,10 @@ def test_the_grader_fails_an_evasive_case_the_reviewer_missed(grade, container, 
 def test_conformance_expectations_are_current_and_come_from_the_corpus(grade):
     committed = json.loads((SKILL / "evals/conformance.json").read_text())
     assert grade["conformance_expectations"]() == committed
-    # One expectation per archive of the pinned public corpus (125 since the news overrides cases
-    # and the Denframe rename's legacy-format-name case).
+    # One expectation per archive of the pinned public corpus (143 since the gallery, wall and
+    # calendar-view cases).
     corpus = json.loads((SKILL.parents[2] / "contracts/format-fixtures/index.json").read_text())
-    assert len(committed) == len(corpus["archives"]) == 125
+    assert len(committed) == len(corpus["archives"]) == 143
     assert committed["mantel-unsigned"]["recommendation"] == "recommend reject"
     assert committed["traversal"]["findings"] == ["SEC-ZIP-PROFILE"]
 

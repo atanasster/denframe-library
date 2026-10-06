@@ -1,0 +1,796 @@
+{
+  "schema_version": 1,
+  "slug": "old-maps",
+  "name": "Old maps and charts",
+  "description": "Decorative maps, city plans, bird's-eye views and celestial charts made before 1900, for a screen that rewards a closer look.",
+  "shape": "landscape",
+  "curated_on": "2026-10-06",
+  "strip": "assets/825612f458414234fdc743c93728922d82e5193a5419d26ac7b6e1e1e71e0342.webp",
+  "works": [
+    {
+      "provider": "aic",
+      "object_id": "33151",
+      "file": "assets/f3ad398a9108728e0a5a1017fafe85c1fd7e8ffdbc750f2e1400cdfa840f8e14.jpg",
+      "sha256": "f3ad398a9108728e0a5a1017fafe85c1fd7e8ffdbc750f2e1400cdfa840f8e14",
+      "length": 436780,
+      "width": 1416,
+      "height": 1080,
+      "orientation": "landscape",
+      "mean_colour": "#b2ad96",
+      "thumbnail": "assets/b5ec284859c44a94be9a46aec7484c1ee59d710d26e2800315c2921a53496dd5.webp",
+      "alt_text": "A pictorial map of the Tōkaidō road crowded with tiny towns, rivers and bays in green and blue, with Mount Fuji and a red sun at the top left.",
+      "placard": {
+        "title": "The Famous Places on the Tokaido in One View (Tokaido meisho ichiran)",
+        "creator": "Katsushika Hokusai 葛飾 北斎 (Japanese, 1760-1849)",
+        "date": "1818",
+        "medium": "Color woodblock print; o-oban",
+        "dimensions": "43 × 58 cm (17 × 22 3/4 in.)",
+        "institution": "Art Institute of Chicago",
+        "canonical_url": "https://www.artic.edu/artworks/33151"
+      },
+      "rights": {
+        "license": "CC0-1.0",
+        "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "evidence": {
+          "provider_field": "is_public_domain",
+          "provider_value": true,
+          "image_url": "https://www.artic.edu/iiif/2/405d2c07-133e-016a-03bb-35b297a87f45/full/1686,/0/default.jpg",
+          "observed_at": "2026-10-06T11:42:12+00:00"
+        }
+      }
+    },
+    {
+      "provider": "met",
+      "object_id": "729610",
+      "file": "assets/388f724dc974310047773e89fe2d9446532b6e7df163a127ffd5ad16729a917f.jpg",
+      "sha256": "388f724dc974310047773e89fe2d9446532b6e7df163a127ffd5ad16729a917f",
+      "length": 330882,
+      "width": 1440,
+      "height": 1080,
+      "orientation": "landscape",
+      "mean_colour": "#c9baa6",
+      "thumbnail": "assets/f1ebb5d7f4f46c969ac14726297dead8679a97493efc0c76c080478f6147eb6c.webp",
+      "alt_text": "A hand-coloured allegorical map of a Kingdom of Love, with pastel regions, rivers, little mountains and German place names.",
+      "placard": {
+        "title": "Valentine: Map of the Kingdom of Love (Das Reich der Liebe)",
+        "creator": "Breitkopf & Härtel (German)",
+        "date": "1777",
+        "medium": "Printed on paper from type composition, hand-colored",
+        "dimensions": "Sheet: 9 1/16 × 11 7/16 in. (23 × 29 cm)",
+        "institution": "The Metropolitan Museum of Art",
+        "canonical_url": "https://www.metmuseum.org/art/collection/search/729610"
+      },
+      "rights": {
+        "license": "CC0-1.0",
+        "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "evidence": {
+          "provider_field": "isPublicDomain",
+          "provider_value": true,
+          "image_url": "https://images.metmuseum.org/CRDImages/dp/original/DP879618.jpg",
+          "observed_at": "2026-10-06T11:42:14+00:00",
+          "image_field": "primaryImage"
+        }
+      }
+    },
+    {
+      "provider": "met",
+      "object_id": "587676",
+      "file": "assets/718b1d79165edfe9d969d7ec4afab0f7294df215e3d32d2c01f663f8568683d5.jpg",
+      "sha256": "718b1d79165edfe9d969d7ec4afab0f7294df215e3d32d2c01f663f8568683d5",
+      "length": 422324,
+      "width": 1409,
+      "height": 1080,
+      "orientation": "landscape",
+      "mean_colour": "#999587",
+      "thumbnail": "assets/f42116ce0a360bfbbe822e53db8c2fdbc544b0b2151eecf876f6a50b0c760a7b.webp",
+      "alt_text": "A hand-coloured bird's-eye map of Alexandria, its walled city on a green coast with sailing ships on a blue sea.",
+      "placard": {
+        "title": "Map of Alexandria",
+        "creator": "Georg Braun (German, 1541–1622)",
+        "date": "1575",
+        "medium": "Etching, hand colored",
+        "dimensions": "Sheet: 15 3/8 in. × 20 in. (39.1 × 50.8 cm)",
+        "institution": "The Metropolitan Museum of Art",
+        "canonical_url": "https://www.metmuseum.org/art/collection/search/587676"
+      },
+      "rights": {
+        "license": "CC0-1.0",
+        "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "evidence": {
+          "provider_field": "isPublicDomain",
+          "provider_value": true,
+          "image_url": "https://images.metmuseum.org/CRDImages/dp/original/DP855367.jpg",
+          "observed_at": "2026-10-06T11:42:17+00:00",
+          "image_field": "primaryImage"
+        }
+      }
+    },
+    {
+      "provider": "met",
+      "object_id": "380748",
+      "file": "assets/c2b556acee2fb8a17435ff43fea4cf9995d458c4ee7fc89eaec80bdd115d1ef8.jpg",
+      "sha256": "c2b556acee2fb8a17435ff43fea4cf9995d458c4ee7fc89eaec80bdd115d1ef8",
+      "length": 310819,
+      "width": 1598,
+      "height": 1080,
+      "orientation": "landscape",
+      "mean_colour": "#b59f7f",
+      "thumbnail": "assets/579950daac7a35f3527432d2272f4ede84226e77639e837b4dd5cdf1f318c17e.webp",
+      "alt_text": "A coloured street map of lower Manhattan with ward boundaries, a street index at the side and small pictures of buildings along the top.",
+      "placard": {
+        "title": "The City of New York: Longworth's Explanatory Map and Plan",
+        "creator": "David Longworth (American, died 1821)",
+        "date": "1817",
+        "medium": "Hand-colored engraving",
+        "dimensions": "plate: 19 1/8 x 19 1/8 in. (48.6 x 48.6 cm)\r\nsheet: 20 x 29 3/4 in. (50.8 x 75.6 cm)",
+        "institution": "The Metropolitan Museum of Art",
+        "canonical_url": "https://www.metmuseum.org/art/collection/search/380748"
+      },
+      "rights": {
+        "license": "CC0-1.0",
+        "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "evidence": {
+          "provider_field": "isPublicDomain",
+          "provider_value": true,
+          "image_url": "https://images.metmuseum.org/CRDImages/dp/original/DP216131.jpg",
+          "observed_at": "2026-10-06T11:42:21+00:00",
+          "image_field": "primaryImage"
+        }
+      }
+    },
+    {
+      "provider": "aic",
+      "object_id": "14938",
+      "file": "assets/23335da18e64e3bd33b8490064a1ebf9d5a19f320ae5aebed8d76abf5bd06151.jpg",
+      "sha256": "23335da18e64e3bd33b8490064a1ebf9d5a19f320ae5aebed8d76abf5bd06151",
+      "length": 384529,
+      "width": 1574,
+      "height": 1080,
+      "orientation": "landscape",
+      "mean_colour": "#646a5e",
+      "thumbnail": "assets/6fea0b6fde2b99a20c10cc731bff595551877a1d50ddb24e996f35687db1c839.webp",
+      "alt_text": "A Japanese world map of two hemispheres on a dark blue ground, with continents in red, yellow and green under a red title panel.",
+      "placard": {
+        "title": "The Map of the Globe, Terminal Page of the set of eight Pictures of Foreign Ships",
+        "creator": "Unknown Artist (Japanese, date unknown)",
+        "date": "1840s–1850s",
+        "medium": "Color woodblock print",
+        "dimensions": null,
+        "institution": "Art Institute of Chicago",
+        "canonical_url": "https://www.artic.edu/artworks/14938"
+      },
+      "rights": {
+        "license": "CC0-1.0",
+        "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "evidence": {
+          "provider_field": "is_public_domain",
+          "provider_value": true,
+          "image_url": "https://www.artic.edu/iiif/2/a07e7eca-2b6d-f9c0-fc0d-4bb0d1d08b4f/full/1686,/0/default.jpg",
+          "observed_at": "2026-10-06T11:42:23+00:00"
+        }
+      }
+    },
+    {
+      "provider": "met",
+      "object_id": "403169",
+      "file": "assets/c80089aee7904a0bbbede911aeec94de40ad192fda1a048745b5fcdfe13d6564.jpg",
+      "sha256": "c80089aee7904a0bbbede911aeec94de40ad192fda1a048745b5fcdfe13d6564",
+      "length": 512593,
+      "width": 1534,
+      "height": 1080,
+      "orientation": "landscape",
+      "mean_colour": "#c2b9af",
+      "thumbnail": "assets/ee19b8de059e6a65854b7bff8b722b977681a990771f1cf00f52ddd1567db84e.webp",
+      "alt_text": "An engraved map of Greece and the Aegean Sea crowded with islands and place names, with a decorative cartouche at the lower left.",
+      "placard": {
+        "title": "Map of Greece, from \"Speculum Romanae Magnificentiae\"",
+        "creator": "Sebastiano di Re (Italian, active Rome, 1557–63)",
+        "date": "mid-16th century",
+        "medium": "Engraving",
+        "dimensions": "sheet: 16 5/16 x 23 5/16 in. (41.5 x 59.2 cm)\r\nmount: 20 x 26 3/4 in. (50.8 x 68 cm)",
+        "institution": "The Metropolitan Museum of Art",
+        "canonical_url": "https://www.metmuseum.org/art/collection/search/403169"
+      },
+      "rights": {
+        "license": "CC0-1.0",
+        "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "evidence": {
+          "provider_field": "isPublicDomain",
+          "provider_value": true,
+          "image_url": "https://images.metmuseum.org/CRDImages/dp/original/DP870391.jpg",
+          "observed_at": "2026-10-06T11:42:26+00:00",
+          "image_field": "primaryImage"
+        }
+      }
+    },
+    {
+      "provider": "met",
+      "object_id": "403213",
+      "file": "assets/68283bf51285c444f72fe28520903fdbec084674e8d5e1354ff2e5333bc595ed.jpg",
+      "sha256": "68283bf51285c444f72fe28520903fdbec084674e8d5e1354ff2e5333bc595ed",
+      "length": 412222,
+      "width": 1439,
+      "height": 1080,
+      "orientation": "landscape",
+      "mean_colour": "#d2c4b4",
+      "thumbnail": "assets/adf77fe04f791a7141b1d24bd2963d25ec82a377b944250639388e69830d8d7d.webp",
+      "alt_text": "An engraved plan of ancient Rome showing its monuments, walls and the winding Tiber, with Latin text panels.",
+      "placard": {
+        "title": "Plan of Ancient Rome, from \"Speculum Romanae Magnificentiae\"",
+        "creator": "Pirro Ligorio (Italian, Naples ca. 1512/13–1583 Ferrara)",
+        "date": "16th century",
+        "medium": "Engraving",
+        "dimensions": "sheet: 15 9/16 x 21 1/16 in. (39.5 x 53.5 cm)",
+        "institution": "The Metropolitan Museum of Art",
+        "canonical_url": "https://www.metmuseum.org/art/collection/search/403213"
+      },
+      "rights": {
+        "license": "CC0-1.0",
+        "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "evidence": {
+          "provider_field": "isPublicDomain",
+          "provider_value": true,
+          "image_url": "https://images.metmuseum.org/CRDImages/dp/original/DP870386.jpg",
+          "observed_at": "2026-10-06T11:42:30+00:00",
+          "image_field": "primaryImage"
+        }
+      }
+    },
+    {
+      "provider": "met",
+      "object_id": "336076",
+      "file": "assets/cda3758427df85adabdeae274368d1680cd5cefe1bd8d8c2dd1f3c24c623bcec.jpg",
+      "sha256": "cda3758427df85adabdeae274368d1680cd5cefe1bd8d8c2dd1f3c24c623bcec",
+      "length": 366345,
+      "width": 1750,
+      "height": 1080,
+      "orientation": "landscape",
+      "mean_colour": "#d4c9ba",
+      "thumbnail": "assets/b54072c3a4ebd90898274795200f9bb02a8d88cd83e10e9d3932b65d1b19011c.webp",
+      "alt_text": "A pale drawn map of the hills and walls of ancient Rome beside a classical monument where a man sits reading.",
+      "placard": {
+        "title": "Map of Ancient Rome Illustrating Major Monuments and the Seven Hills",
+        "creator": "Jan Goeree (Dutch, Middelburg 1670–1731 Amsterdam)",
+        "date": "before 1704",
+        "medium": "Brush and gray wash, pen and gray and brown ink over red and black chalk",
+        "dimensions": "13 x 8 1/16 in.  (33.0 x 20.5 cm)",
+        "institution": "The Metropolitan Museum of Art",
+        "canonical_url": "https://www.metmuseum.org/art/collection/search/336076"
+      },
+      "rights": {
+        "license": "CC0-1.0",
+        "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "evidence": {
+          "provider_field": "isPublicDomain",
+          "provider_value": true,
+          "image_url": "https://images.metmuseum.org/CRDImages/dp/original/DP800332.jpg",
+          "observed_at": "2026-10-06T11:42:33+00:00",
+          "image_field": "primaryImage"
+        }
+      }
+    },
+    {
+      "provider": "met",
+      "object_id": "358826",
+      "file": "assets/89442f806feb8ea59fa3faebbc1e48d422c769f9348893c559052675bcb59a08.jpg",
+      "sha256": "89442f806feb8ea59fa3faebbc1e48d422c769f9348893c559052675bcb59a08",
+      "length": 436232,
+      "width": 1605,
+      "height": 1080,
+      "orientation": "landscape",
+      "mean_colour": "#c0af96",
+      "thumbnail": "assets/7cc6fc9ea65817d8b0213159349ca9415f54ec01924c05ae991c23327cc2dde9.webp",
+      "alt_text": "An engraved plan of eighteenth-century Rome on joined sheets, with a decorative title cartouche, a compass rose and long index columns.",
+      "placard": {
+        "title": "Plan of ancient Rome with a view of the Pantheon lower left and a triumphal arch lower right",
+        "creator": "Carlo Nolli (Italian, Como 1724–after 1770 Naples)",
+        "date": "1748",
+        "medium": "Etching, sixteen separate sheets joined and backed on linen",
+        "dimensions": "18 5/16 × 27 3/8 in. (46.5 × 69.5 cm)",
+        "institution": "The Metropolitan Museum of Art",
+        "canonical_url": "https://www.metmuseum.org/art/collection/search/358826"
+      },
+      "rights": {
+        "license": "CC0-1.0",
+        "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "evidence": {
+          "provider_field": "isPublicDomain",
+          "provider_value": true,
+          "image_url": "https://images.metmuseum.org/CRDImages/dp/original/DP853988.jpg",
+          "observed_at": "2026-10-06T11:42:36+00:00",
+          "image_field": "primaryImage"
+        }
+      }
+    },
+    {
+      "provider": "met",
+      "object_id": "363048",
+      "file": "assets/ebe136b27b84af3a42fa06fc66eea6077c1c7a208b03b588f379dc6c515c25cb.jpg",
+      "sha256": "ebe136b27b84af3a42fa06fc66eea6077c1c7a208b03b588f379dc6c515c25cb",
+      "length": 526471,
+      "width": 1553,
+      "height": 1080,
+      "orientation": "landscape",
+      "mean_colour": "#b6ac96",
+      "thumbnail": "assets/062d987a05c4ef4c276c4ae3a8fb5124fb54a7617123f641371b0773d5ad8202.webp",
+      "alt_text": "A plan of ancient Rome drawn as fragments of a broken marble map, with the word ROMA in large letters across the top.",
+      "placard": {
+        "title": "Plan of Rome..., from \"Le Antichità Romane\" (Roman Antiquities)",
+        "creator": "Giovanni Battista Piranesi (Italian, Mogliano Veneto 1720–1778 Rome)",
+        "date": "ca. 1756",
+        "medium": "Etching",
+        "dimensions": "Sheet: 19 1/8 x 27 3/8 in. (48.5 x 69.5 cm)\r\nPlate: 18 5/16 x 26 3/4 in. (46.5 x 68 cm)",
+        "institution": "The Metropolitan Museum of Art",
+        "canonical_url": "https://www.metmuseum.org/art/collection/search/363048"
+      },
+      "rights": {
+        "license": "CC0-1.0",
+        "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "evidence": {
+          "provider_field": "isPublicDomain",
+          "provider_value": true,
+          "image_url": "https://images.metmuseum.org/CRDImages/dp/original/DP828235.jpg",
+          "observed_at": "2026-10-06T11:42:40+00:00",
+          "image_field": "primaryImage"
+        }
+      }
+    },
+    {
+      "provider": "met",
+      "object_id": "399284",
+      "file": "assets/5ec865e0fa6511abd1eb1e8a905912cf646cdf5d94201c5126b3e29eb36cb68c.jpg",
+      "sha256": "5ec865e0fa6511abd1eb1e8a905912cf646cdf5d94201c5126b3e29eb36cb68c",
+      "length": 437323,
+      "width": 1355,
+      "height": 1080,
+      "orientation": "landscape",
+      "mean_colour": "#b0a691",
+      "thumbnail": "assets/71f4f7032ce8592ba678369aa726dbd028c213726756d0b8b701bed95d1438d5.webp",
+      "alt_text": "A bird's-eye engraving of Venice floating in its lagoon, with mountains beyond, coats of arms at the top and Latin verses below.",
+      "placard": {
+        "title": "View of Venice",
+        "creator": "Anonymous, Dutch, 17th century",
+        "date": "mid-17th century",
+        "medium": "Etching",
+        "dimensions": "sheet: 17 11/16 x 21 7/16 in. (45 x 54.4 cm)\r\nplate: 15 15/16 x 20 1/16 in. (40.5 x 51 cm)",
+        "institution": "The Metropolitan Museum of Art",
+        "canonical_url": "https://www.metmuseum.org/art/collection/search/399284"
+      },
+      "rights": {
+        "license": "CC0-1.0",
+        "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "evidence": {
+          "provider_field": "isPublicDomain",
+          "provider_value": true,
+          "image_url": "https://images.metmuseum.org/CRDImages/dp/original/DP828280.jpg",
+          "observed_at": "2026-10-06T11:42:43+00:00",
+          "image_field": "primaryImage"
+        }
+      }
+    },
+    {
+      "provider": "met",
+      "object_id": "386248",
+      "file": "assets/94bd5786ce61a6cf44ad633792d4bd1cc7deba59f8547a5e9fed48b68b24e4df.jpg",
+      "sha256": "94bd5786ce61a6cf44ad633792d4bd1cc7deba59f8547a5e9fed48b68b24e4df",
+      "length": 278954,
+      "width": 1466,
+      "height": 1080,
+      "orientation": "landscape",
+      "mean_colour": "#d9bf9e",
+      "thumbnail": "assets/c9c77b746bcc881541fb58b7ab573cebfdbdafa3c7eb2d6167ebc3ec5ad6bca6.webp",
+      "alt_text": "A pale map of early New York at the tip of Manhattan, with streets, wharves, a large title and coats of arms.",
+      "placard": {
+        "title": "A Plan of the City of New York from an Actual Survey Made by James Lyne, 1728",
+        "creator": "James Lyne (American or British, active 1728–44)",
+        "date": "1834–72",
+        "medium": "Lithograph",
+        "dimensions": "image: 16 11/16 x 21 7/8 in. (42.4 x 55.6 cm)\r\nsheet: 19 7/8 x 27 1/4 in. (50.5 x 69.2 cm)",
+        "institution": "The Metropolitan Museum of Art",
+        "canonical_url": "https://www.metmuseum.org/art/collection/search/386248"
+      },
+      "rights": {
+        "license": "CC0-1.0",
+        "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "evidence": {
+          "provider_field": "isPublicDomain",
+          "provider_value": true,
+          "image_url": "https://images.metmuseum.org/CRDImages/dp/original/DP210604.jpg",
+          "observed_at": "2026-10-06T11:42:46+00:00",
+          "image_field": "primaryImage"
+        }
+      }
+    },
+    {
+      "provider": "met",
+      "object_id": "381082",
+      "file": "assets/c184e637b9787e528108a6cdc793ea9ae46baf13bbbd916a2a06cce307c5f57d.jpg",
+      "sha256": "c184e637b9787e528108a6cdc793ea9ae46baf13bbbd916a2a06cce307c5f57d",
+      "length": 292460,
+      "width": 1462,
+      "height": 1080,
+      "orientation": "landscape",
+      "mean_colour": "#c0b8af",
+      "thumbnail": "assets/c44783b429f859137d38d893117350411372cbad9503045c71e5406f4dd4b4b0.webp",
+      "alt_text": "A black and white bird's-eye view of New York and Brooklyn on either side of the East River, crowded with ships.",
+      "placard": {
+        "title": "Bird's Eye View of New York and Brooklyn",
+        "creator": "John Bachmann (American, born Switzerland, 1814/15–1896)",
+        "date": "1851",
+        "medium": "Lithograph with tint stone",
+        "dimensions": "image: 22 1/8 x 32 1/2 in. (56.2 x 82.6 cm)\r\nsheet: 25 1/4 x 34 1/2 in. (64.1 x 87.6 cm)",
+        "institution": "The Metropolitan Museum of Art",
+        "canonical_url": "https://www.metmuseum.org/art/collection/search/381082"
+      },
+      "rights": {
+        "license": "CC0-1.0",
+        "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "evidence": {
+          "provider_field": "isPublicDomain",
+          "provider_value": true,
+          "image_url": "https://images.metmuseum.org/CRDImages/dp/original/DP327194.jpg",
+          "observed_at": "2026-10-06T11:42:49+00:00",
+          "image_field": "primaryImage"
+        }
+      }
+    },
+    {
+      "provider": "met",
+      "object_id": "397506",
+      "file": "assets/9a159c93af331534132466fd82da1be0669f744cddd2b13b05e72e5eaf6ee54e.jpg",
+      "sha256": "9a159c93af331534132466fd82da1be0669f744cddd2b13b05e72e5eaf6ee54e",
+      "length": 504018,
+      "width": 1464,
+      "height": 1080,
+      "orientation": "landscape",
+      "mean_colour": "#b8a88e",
+      "thumbnail": "assets/deab25ddfaacd175c305bc801cdf02730ec234d1752636f1a828bcdef8460550.webp",
+      "alt_text": "An engraved view of the Inn Valley with steep alpine peaks above fields and villages, and two smaller valley scenes below.",
+      "placard": {
+        "title": "The Inn Valley from the series Civitates Orbis Terrarum, vol. V, plate 59",
+        "creator": "Simon Novellanus (Netherlandish, 16th century)",
+        "date": "1590",
+        "medium": "Etching",
+        "dimensions": "sheet: 14 15/16 x 20 5/16 in. (38 x 51.6 cm)",
+        "institution": "The Metropolitan Museum of Art",
+        "canonical_url": "https://www.metmuseum.org/art/collection/search/397506"
+      },
+      "rights": {
+        "license": "CC0-1.0",
+        "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "evidence": {
+          "provider_field": "isPublicDomain",
+          "provider_value": true,
+          "image_url": "https://images.metmuseum.org/CRDImages/dp/original/DP817444.jpg",
+          "observed_at": "2026-10-06T11:42:53+00:00",
+          "image_field": "primaryImage"
+        }
+      }
+    },
+    {
+      "provider": "met",
+      "object_id": "341751",
+      "file": "assets/e2ddd1340ba245cbfcce47cee9bbcfa6a9c6d810c52d78e71f1d7495ea86c037.jpg",
+      "sha256": "e2ddd1340ba245cbfcce47cee9bbcfa6a9c6d810c52d78e71f1d7495ea86c037",
+      "length": 439897,
+      "width": 1502,
+      "height": 1080,
+      "orientation": "landscape",
+      "mean_colour": "#8b8970",
+      "thumbnail": "assets/8a34ba43350e5679f920944aa815583aac2e520dbdc443a8b71244bbe36d6aac.webp",
+      "alt_text": "A coloured bird's-eye view of the Brooklyn Bridge lit by fireworks over a night harbour full of sailing boats and steamers.",
+      "placard": {
+        "title": "Bird's-Eye View of the Great New York and Brooklyn Bridge, and Grand Display of Fireworks on Opening Night...May 24, 1883",
+        "creator": "A. Major (New York, NY)",
+        "date": "1883",
+        "medium": "Color lithograph",
+        "dimensions": "image: 15 5/16 x 24 9/16 in. (38.9 x 62.4 cm)\r\nsheet: 18 7/8 x 26 1/4 in. (47.9 x 66.7 cm)",
+        "institution": "The Metropolitan Museum of Art",
+        "canonical_url": "https://www.metmuseum.org/art/collection/search/341751"
+      },
+      "rights": {
+        "license": "CC0-1.0",
+        "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "evidence": {
+          "provider_field": "isPublicDomain",
+          "provider_value": true,
+          "image_url": "https://images.metmuseum.org/CRDImages/dp/original/DT212585.jpg",
+          "observed_at": "2026-10-06T11:42:56+00:00",
+          "image_field": "primaryImage"
+        }
+      }
+    },
+    {
+      "provider": "aic",
+      "object_id": "31867",
+      "file": "assets/32b6f51715b58a1909b6969e0818c603df6050115152e44c03cf80bd83175880.jpg",
+      "sha256": "32b6f51715b58a1909b6969e0818c603df6050115152e44c03cf80bd83175880",
+      "length": 281666,
+      "width": 1430,
+      "height": 1080,
+      "orientation": "landscape",
+      "mean_colour": "#b6af94",
+      "thumbnail": "assets/93e02571e393dd2828c39995d04f0c2492cb92863c12ccbb8cefc9d606fbbe67.webp",
+      "alt_text": "A facsimile of an early world map on a heart-shaped projection, ringed by puffing wind heads, printed on cream paper.",
+      "placard": {
+        "title": "Map of the World: Tradewinds",
+        "creator": "Unknown Artist (English, 19th century) (published by Bernardi Sylvani (Italian, active 1511))",
+        "date": "1511, reprinted 1889",
+        "medium": "Woodcut in black on cream laid paper",
+        "dimensions": null,
+        "institution": "Art Institute of Chicago",
+        "canonical_url": "https://www.artic.edu/artworks/31867"
+      },
+      "rights": {
+        "license": "CC0-1.0",
+        "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "evidence": {
+          "provider_field": "is_public_domain",
+          "provider_value": true,
+          "image_url": "https://www.artic.edu/iiif/2/08167716-6ac1-df8c-b9df-b5572f7b30af/full/1686,/0/default.jpg",
+          "observed_at": "2026-10-06T11:42:59+00:00"
+        }
+      }
+    },
+    {
+      "provider": "aic",
+      "object_id": "152512",
+      "file": "assets/e26dc12bb2b4e247dcaae11ace8e197f520ac8789543702d9f09ea840d5fc359.jpg",
+      "sha256": "e26dc12bb2b4e247dcaae11ace8e197f520ac8789543702d9f09ea840d5fc359",
+      "length": 317452,
+      "width": 1363,
+      "height": 1080,
+      "orientation": "landscape",
+      "mean_colour": "#a49c83",
+      "thumbnail": "assets/c934682a83a9d30087027b26f9d0e0f34be12e54563219bdb40f156b19d4e8fe.webp",
+      "alt_text": "A facsimile of Mercator's map of the Arctic, a round map of the North Pole in a decorative square frame with corner roundels.",
+      "placard": {
+        "title": "Map of the Mercator Projection",
+        "creator": "Unknown Artist (English, 19th century)",
+        "date": "1595, reprinted 1889",
+        "medium": "Engraving in black on cream laid paper",
+        "dimensions": "25.6 × 32.9 cm (10 1/8 × 13 in.)",
+        "institution": "Art Institute of Chicago",
+        "canonical_url": "https://www.artic.edu/artworks/152512"
+      },
+      "rights": {
+        "license": "CC0-1.0",
+        "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "evidence": {
+          "provider_field": "is_public_domain",
+          "provider_value": true,
+          "image_url": "https://www.artic.edu/iiif/2/1127aafa-aded-ae56-d0ff-f7ac0f41ee29/full/1686,/0/default.jpg",
+          "observed_at": "2026-10-06T11:43:01+00:00"
+        }
+      }
+    },
+    {
+      "provider": "aic",
+      "object_id": "14929",
+      "file": "assets/25d790c9abfb9be42ac6f6361eeea3c591160d5286d3965f7a00146fd0c00e45.jpg",
+      "sha256": "25d790c9abfb9be42ac6f6361eeea3c591160d5286d3965f7a00146fd0c00e45",
+      "length": 290637,
+      "width": 1599,
+      "height": 1080,
+      "orientation": "landscape",
+      "mean_colour": "#696352",
+      "thumbnail": "assets/6cd6b2b7bf4551f52f32ae6d768b1166696e9653780f0d6fc3ed49688b0e66a3.webp",
+      "alt_text": "A Japanese print of an ornate celestial globe on a red stand, below a black title panel with large characters and red seals.",
+      "placard": {
+        "title": "Celestial Globe, Cover of the set of eight Pictures of Foreign Ships",
+        "creator": "Unknown Artist (Japanese, date unknown)",
+        "date": "1840s–1850s",
+        "medium": "Color woodblock print",
+        "dimensions": null,
+        "institution": "Art Institute of Chicago",
+        "canonical_url": "https://www.artic.edu/artworks/14929"
+      },
+      "rights": {
+        "license": "CC0-1.0",
+        "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "evidence": {
+          "provider_field": "is_public_domain",
+          "provider_value": true,
+          "image_url": "https://www.artic.edu/iiif/2/7ff57fd3-210d-115d-b766-0ca612d06378/full/1686,/0/default.jpg",
+          "observed_at": "2026-10-06T11:43:04+00:00"
+        }
+      }
+    },
+    {
+      "provider": "cleveland",
+      "object_id": "127251",
+      "file": "assets/cf03d14fa33ae13a15ecf5f35d931f1f35b3ae5df3ef683321be5b3623ec966a.jpg",
+      "sha256": "cf03d14fa33ae13a15ecf5f35d931f1f35b3ae5df3ef683321be5b3623ec966a",
+      "length": 448585,
+      "width": 1472,
+      "height": 1080,
+      "orientation": "landscape",
+      "mean_colour": "#908576",
+      "thumbnail": "assets/b6b48133ad6eb258796ed0158d9e3c2806d12970312df6d67db668f4369d2b85.webp",
+      "alt_text": "A woodcut bird's-eye view of part of Venice from high above, with the lagoon, distant mountains and wind heads in the clouds.",
+      "placard": {
+        "title": "View of Venice",
+        "creator": "Jacopo de' Barbari (Italian, c. 1460/70–c. 1516)",
+        "date": "1500",
+        "medium": "woodcut from six blocks on six sheets of paper",
+        "dimensions": null,
+        "institution": "The Cleveland Museum of Art",
+        "canonical_url": "https://clevelandart.org/art/1949.565.1"
+      },
+      "rights": {
+        "license": "CC0-1.0",
+        "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "evidence": {
+          "provider_field": "share_license_status",
+          "provider_value": "CC0",
+          "image_url": "https://openaccess-cdn.clevelandart.org/1949.565.1/1949.565.1_print.jpg",
+          "observed_at": "2026-10-06T11:43:06+00:00"
+        }
+      }
+    },
+    {
+      "provider": "cleveland",
+      "object_id": "127250",
+      "file": "assets/26dadde0f5d0a8df5072b9d36cd0c59ce12ff66e09ef7290388c4a026311556f.jpg",
+      "sha256": "26dadde0f5d0a8df5072b9d36cd0c59ce12ff66e09ef7290388c4a026311556f",
+      "length": 463770,
+      "width": 1920,
+      "height": 924,
+      "orientation": "landscape",
+      "mean_colour": "#a79a88",
+      "thumbnail": "assets/1836ffce7dceff091b7ef833bd4d25d6165015cb9c0f6b069143c86c0a5679c5.webp",
+      "alt_text": "A woodcut bird's-eye view of the whole of Venice set in its lagoon, surrounded by ships, clouds and small islands.",
+      "placard": {
+        "title": "View of Venice",
+        "creator": "Jacopo de' Barbari (Italian, c. 1460/70–c. 1516)",
+        "date": "1500",
+        "medium": "woodcut from six blocks on six sheets of paper",
+        "dimensions": "Overall: 132.7 x 277.5 cm (52 1/4 x 109 1/4 in.)",
+        "institution": "The Cleveland Museum of Art",
+        "canonical_url": "https://clevelandart.org/art/1949.565"
+      },
+      "rights": {
+        "license": "CC0-1.0",
+        "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "evidence": {
+          "provider_field": "share_license_status",
+          "provider_value": "CC0",
+          "image_url": "https://openaccess-cdn.clevelandart.org/1949.565/1949.565_print.jpg",
+          "observed_at": "2026-10-06T11:43:09+00:00"
+        }
+      }
+    },
+    {
+      "provider": "cleveland",
+      "object_id": "423521",
+      "file": "assets/139e5a40ccd8bdf5da8ff0c767f0949325b9085cda7fae609cb57170a43c26a9.jpg",
+      "sha256": "139e5a40ccd8bdf5da8ff0c767f0949325b9085cda7fae609cb57170a43c26a9",
+      "length": 658843,
+      "width": 1725,
+      "height": 1080,
+      "orientation": "landscape",
+      "mean_colour": "#ada397",
+      "thumbnail": "assets/e546172ddc47bc233359b84e1c655501e5a0bd9fc956cc8399e764460fbe72cb.webp",
+      "alt_text": "A section of an engraved street plan of Rome showing a bend of the Tiber, city blocks and gardens in fine black lines.",
+      "placard": {
+        "title": "Nuova pianta di Roma data in luce da Giambattista Nolli l’anno MDCCXLVII, known as La Pianta Grande di Roma",
+        "creator": "Giovanni Battista Nolli (Italian, 1701–1756)",
+        "date": "1748",
+        "medium": "etching and engraving",
+        "dimensions": "Sheet: 43.2 x 69.6 cm (17 x 27 3/8 in.)",
+        "institution": "The Cleveland Museum of Art",
+        "canonical_url": "https://clevelandart.org/art/2020.276.11"
+      },
+      "rights": {
+        "license": "CC0-1.0",
+        "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "evidence": {
+          "provider_field": "share_license_status",
+          "provider_value": "CC0",
+          "image_url": "https://openaccess-cdn.clevelandart.org/2020.276.11/2020.276.11_print.jpg",
+          "observed_at": "2026-10-06T11:43:13+00:00"
+        }
+      }
+    },
+    {
+      "provider": "cleveland",
+      "object_id": "423516",
+      "file": "assets/88942419e96e4cd462658b9e91646d075ac8551d8d3330b3e52b0198ed0896a5.jpg",
+      "sha256": "88942419e96e4cd462658b9e91646d075ac8551d8d3330b3e52b0198ed0896a5",
+      "length": 640438,
+      "width": 1659,
+      "height": 1080,
+      "orientation": "landscape",
+      "mean_colour": "#a39a8e",
+      "thumbnail": "assets/be9b3afa5283b9018aaf76a1f48349fd917138954d5b66a0eefca48b3892cf64.webp",
+      "alt_text": "A section of an engraved street plan of central Rome, densely packed with dark city blocks between pale streets and squares.",
+      "placard": {
+        "title": "Nuova pianta di Roma data in luce da Giambattista Nolli l’anno MDCCXLVII, known as La Pianta Grande di Roma",
+        "creator": "Giovanni Battista Nolli (Italian, 1701–1756)",
+        "date": "1748",
+        "medium": "etching and engraving",
+        "dimensions": "Sheet: 44.8 x 69.6 cm (17 5/8 x 27 3/8 in.)",
+        "institution": "The Cleveland Museum of Art",
+        "canonical_url": "https://clevelandart.org/art/2020.276.8"
+      },
+      "rights": {
+        "license": "CC0-1.0",
+        "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "evidence": {
+          "provider_field": "share_license_status",
+          "provider_value": "CC0",
+          "image_url": "https://openaccess-cdn.clevelandart.org/2020.276.8/2020.276.8_print.jpg",
+          "observed_at": "2026-10-06T11:43:16+00:00"
+        }
+      }
+    },
+    {
+      "provider": "met",
+      "object_id": "811116",
+      "file": "assets/01833412b5f148d48f7af9a35954efb185fadb33e746851739a8a5d9cc1fc517.jpg",
+      "sha256": "01833412b5f148d48f7af9a35954efb185fadb33e746851739a8a5d9cc1fc517",
+      "length": 237368,
+      "width": 1428,
+      "height": 1080,
+      "orientation": "landscape",
+      "mean_colour": "#aa9a8a",
+      "thumbnail": "assets/8ff7504961ae749a94e37462319b6af66aca47184c76ecbd831c35beab46e515.webp",
+      "alt_text": "A coloured view looking down on a busy London livestock market, with pens of sheep and cattle in a square ringed by houses.",
+      "placard": {
+        "title": "A Bird's Eye View of Smithfield Market, Taken from the Bear & Ragged Staff",
+        "creator": "Thomas Rowlandson (British, London 1757–1827 London)",
+        "date": "January 1, 1811",
+        "medium": "Hand-colored etching and aquatint",
+        "dimensions": "Sheet (trimmed within platemark): 14 7/16 in. × 21 in. (36.7 × 53.3 cm)",
+        "institution": "The Metropolitan Museum of Art",
+        "canonical_url": "https://www.metmuseum.org/art/collection/search/811116"
+      },
+      "rights": {
+        "license": "CC0-1.0",
+        "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "evidence": {
+          "provider_field": "isPublicDomain",
+          "provider_value": true,
+          "image_url": "https://images.metmuseum.org/CRDImages/dp/original/DP884760.jpg",
+          "observed_at": "2026-10-06T11:43:20+00:00",
+          "image_field": "primaryImage"
+        }
+      }
+    },
+    {
+      "provider": "met",
+      "object_id": "360669",
+      "file": "assets/fdd8538fd9982d6daf29b67210f2bb543cb4f1ddcbb804deef2bb15eca7e192c.jpg",
+      "sha256": "fdd8538fd9982d6daf29b67210f2bb543cb4f1ddcbb804deef2bb15eca7e192c",
+      "length": 459456,
+      "width": 1920,
+      "height": 947,
+      "orientation": "landscape",
+      "mean_colour": "#ccbda9",
+      "thumbnail": "assets/6f51a51aebdc6ce6eb78494663e0d63f1aa1c9e1402a77fd2104ec95a321c6f6.webp",
+      "alt_text": "An etched view of the walled town of Augsburg across a river, with a tall church tower rising above the roofs.",
+      "placard": {
+        "title": "Augsburg, from \"German Views\"",
+        "creator": "Wenceslaus Hollar (Bohemian, Prague 1607–1677 London)",
+        "date": "1665",
+        "medium": "Etching, only state",
+        "dimensions": "Sheet: 2 1/8 × 4 5/8 in. (5.4 × 11.7 cm)",
+        "institution": "The Metropolitan Museum of Art",
+        "canonical_url": "https://www.metmuseum.org/art/collection/search/360669"
+      },
+      "rights": {
+        "license": "CC0-1.0",
+        "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "evidence": {
+          "provider_field": "isPublicDomain",
+          "provider_value": true,
+          "image_url": "https://images.metmuseum.org/CRDImages/dp/original/DP823218.jpg",
+          "observed_at": "2026-10-06T11:43:23+00:00",
+          "image_field": "primaryImage"
+        }
+      }
+    }
+  ],
+  "refused": [],
+  "review_notes": []
+}

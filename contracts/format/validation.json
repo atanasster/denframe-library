@@ -54,6 +54,14 @@
       "setup": [],
       "source_slots": []
     },
+    "GalleryDefinition": {
+      "presentation": {
+        "cadence_seconds": 45,
+        "fit": "fit",
+        "mat_style": "museum",
+        "placard_seconds": 12
+      }
+    },
     "InstanceBinding": {
       "sources": []
     },
@@ -145,7 +153,8 @@
       "face",
       "radius",
       "overlay_corner",
-      "overlay_scrim"
+      "overlay_scrim",
+      "wall_dock"
     ]
   },
   "publicSourcePresets": {
@@ -523,7 +532,8 @@
                 "columns",
                 "stage",
                 "grid",
-                "overlay"
+                "overlay",
+                "wall"
               ],
               "title": "Layout",
               "type": "string"
@@ -589,6 +599,15 @@
               "maxProperties": 10,
               "title": "Tokens",
               "type": "object"
+            },
+            "wall_dock": {
+              "default": "top",
+              "enum": [
+                "top",
+                "side"
+              ],
+              "title": "Wall Dock",
+              "type": "string"
             }
           },
           "title": "PortableAppearance",
@@ -955,6 +974,618 @@
       "title": "Definition",
       "type": "object"
     },
+    "galleryDefinition": {
+      "$defs": {
+        "GalleryCredit": {
+          "additionalProperties": false,
+          "if": {
+            "properties": {
+              "license": {
+                "enum": [
+                  "CC-BY-4.0",
+                  "MIT"
+                ]
+              }
+            }
+          },
+          "properties": {
+            "attribution": {
+              "default": "",
+              "maxLength": 500,
+              "title": "Attribution",
+              "type": "string"
+            },
+            "creator": {
+              "maxLength": 100,
+              "minLength": 1,
+              "pattern": "\\S",
+              "title": "Creator",
+              "type": "string"
+            },
+            "license": {
+              "const": "CC0-1.0",
+              "title": "License",
+              "type": "string"
+            },
+            "modified": {
+              "default": false,
+              "title": "Modified",
+              "type": "boolean"
+            },
+            "source": {
+              "default": "",
+              "maxLength": 500,
+              "title": "Source",
+              "type": "string"
+            }
+          },
+          "required": [
+            "creator",
+            "license"
+          ],
+          "then": {
+            "properties": {
+              "attribution": {
+                "pattern": "\\S"
+              }
+            },
+            "required": [
+              "attribution"
+            ]
+          },
+          "title": "GalleryCredit",
+          "type": "object"
+        },
+        "GalleryEvidence": {
+          "additionalProperties": false,
+          "description": "What the provider answered when the work was curated: the field, its value and when.",
+          "properties": {
+            "image_field": {
+              "anyOf": [
+                {
+                  "maxLength": 100,
+                  "minLength": 1,
+                  "pattern": "\\S",
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "default": null,
+              "title": "Image Field"
+            },
+            "image_url": {
+              "maxLength": 1000,
+              "pattern": "^https://\\S+$",
+              "title": "Image Url",
+              "type": "string"
+            },
+            "observed_at": {
+              "maxLength": 40,
+              "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}(?:\\.\\d+)?(?:Z|[+-]\\d{2}:\\d{2})$",
+              "title": "Observed At",
+              "type": "string"
+            },
+            "provider_field": {
+              "maxLength": 100,
+              "minLength": 1,
+              "pattern": "\\S",
+              "title": "Provider Field",
+              "type": "string"
+            },
+            "provider_value": {
+              "anyOf": [
+                {
+                  "type": "boolean"
+                },
+                {
+                  "maxLength": 100,
+                  "minLength": 1,
+                  "pattern": "\\S",
+                  "type": "string"
+                }
+              ],
+              "title": "Provider Value"
+            },
+            "uuid": {
+              "anyOf": [
+                {
+                  "maxLength": 100,
+                  "minLength": 1,
+                  "pattern": "\\S",
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "default": null,
+              "title": "Uuid"
+            }
+          },
+          "required": [
+            "provider_field",
+            "provider_value",
+            "image_url",
+            "observed_at"
+          ],
+          "title": "GalleryEvidence",
+          "type": "object"
+        },
+        "GalleryPlacard": {
+          "additionalProperties": false,
+          "properties": {
+            "canonical_url": {
+              "maxLength": 1000,
+              "pattern": "^https://\\S+$",
+              "title": "Canonical Url",
+              "type": "string"
+            },
+            "creator": {
+              "maxLength": 240,
+              "minLength": 1,
+              "pattern": "\\S",
+              "title": "Creator",
+              "type": "string"
+            },
+            "date": {
+              "maxLength": 100,
+              "minLength": 1,
+              "pattern": "\\S",
+              "title": "Date",
+              "type": "string"
+            },
+            "dimensions": {
+              "anyOf": [
+                {
+                  "maxLength": 240,
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "default": null,
+              "title": "Dimensions"
+            },
+            "institution": {
+              "maxLength": 100,
+              "minLength": 1,
+              "pattern": "\\S",
+              "title": "Institution",
+              "type": "string"
+            },
+            "medium": {
+              "anyOf": [
+                {
+                  "maxLength": 240,
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "default": null,
+              "title": "Medium"
+            },
+            "title": {
+              "maxLength": 240,
+              "minLength": 1,
+              "pattern": "\\S",
+              "title": "Title",
+              "type": "string"
+            }
+          },
+          "required": [
+            "title",
+            "creator",
+            "date",
+            "institution",
+            "canonical_url"
+          ],
+          "title": "GalleryPlacard",
+          "type": "object"
+        },
+        "GalleryPresentation": {
+          "additionalProperties": false,
+          "description": "How the collection is shown by default; a household changes it on its Artwork page.",
+          "properties": {
+            "cadence_seconds": {
+              "default": 45,
+              "maximum": 86400,
+              "minimum": 15,
+              "title": "Cadence Seconds",
+              "type": "integer"
+            },
+            "fit": {
+              "default": "fit",
+              "enum": [
+                "fit",
+                "fill",
+                "smart"
+              ],
+              "title": "Fit",
+              "type": "string"
+            },
+            "mat_style": {
+              "default": "museum",
+              "enum": [
+                "full_bleed",
+                "modern",
+                "museum",
+                "shadow_box"
+              ],
+              "title": "Mat Style",
+              "type": "string"
+            },
+            "placard_seconds": {
+              "default": 12,
+              "maximum": 120,
+              "minimum": 5,
+              "title": "Placard Seconds",
+              "type": "integer"
+            }
+          },
+          "title": "GalleryPresentation",
+          "type": "object"
+        },
+        "GalleryResource": {
+          "additionalProperties": false,
+          "allOf": [
+            {
+              "if": {
+                "properties": {
+                  "media_type": {
+                    "const": "image/png"
+                  }
+                }
+              },
+              "then": {
+                "properties": {
+                  "path": {
+                    "pattern": "\\.png$"
+                  }
+                }
+              }
+            },
+            {
+              "if": {
+                "properties": {
+                  "media_type": {
+                    "const": "image/jpeg"
+                  }
+                }
+              },
+              "then": {
+                "properties": {
+                  "path": {
+                    "pattern": "\\.jpg$"
+                  }
+                }
+              }
+            },
+            {
+              "if": {
+                "properties": {
+                  "media_type": {
+                    "const": "image/webp"
+                  }
+                }
+              },
+              "then": {
+                "properties": {
+                  "path": {
+                    "pattern": "\\.webp$"
+                  }
+                }
+              }
+            }
+          ],
+          "description": "A gallery's file: a work's JPEG or a WebP thumbnail or strip, dedicated to the public\ndomain (D6.1).",
+          "else": {
+            "properties": {
+              "duration_seconds": {
+                "type": "null"
+              }
+            }
+          },
+          "if": {
+            "properties": {
+              "media_type": {
+                "const": "audio/mpeg"
+              }
+            }
+          },
+          "properties": {
+            "credit": {
+              "$ref": "#/$defs/GalleryCredit"
+            },
+            "duration_seconds": {
+              "anyOf": [
+                {
+                  "maximum": 30,
+                  "minimum": 0.01,
+                  "type": "number"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "default": null,
+              "title": "Duration Seconds"
+            },
+            "length": {
+              "maximum": 8388608,
+              "minimum": 1,
+              "title": "Length",
+              "type": "integer"
+            },
+            "media_type": {
+              "enum": [
+                "image/jpeg",
+                "image/webp"
+              ],
+              "title": "Media Type",
+              "type": "string"
+            },
+            "path": {
+              "pattern": "^assets/[a-f0-9]{64}\\.(?:png|jpg|webp|mp3)$",
+              "title": "Path",
+              "type": "string"
+            },
+            "sha256": {
+              "pattern": "^[a-f0-9]{64}$",
+              "title": "Sha256",
+              "type": "string"
+            }
+          },
+          "required": [
+            "path",
+            "sha256",
+            "length",
+            "media_type",
+            "credit"
+          ],
+          "then": {
+            "properties": {
+              "duration_seconds": {
+                "type": "number"
+              },
+              "length": {
+                "maximum": 2097152
+              },
+              "path": {
+                "pattern": "\\.mp3$"
+              }
+            },
+            "required": [
+              "duration_seconds"
+            ]
+          },
+          "title": "GalleryResource",
+          "type": "object"
+        },
+        "GalleryRights": {
+          "additionalProperties": false,
+          "properties": {
+            "evidence": {
+              "$ref": "#/$defs/GalleryEvidence"
+            },
+            "license": {
+              "const": "CC0-1.0",
+              "default": "CC0-1.0",
+              "title": "License",
+              "type": "string"
+            },
+            "uri": {
+              "const": "https://creativecommons.org/publicdomain/zero/1.0/",
+              "default": "https://creativecommons.org/publicdomain/zero/1.0/",
+              "title": "Uri",
+              "type": "string"
+            }
+          },
+          "required": [
+            "evidence"
+          ],
+          "title": "GalleryRights",
+          "type": "object"
+        },
+        "GalleryWork": {
+          "additionalProperties": false,
+          "properties": {
+            "alt_text": {
+              "maxLength": 240,
+              "minLength": 1,
+              "pattern": "\\S",
+              "title": "Alt Text",
+              "type": "string"
+            },
+            "focal_x": {
+              "default": 0.5,
+              "maximum": 1,
+              "minimum": 0,
+              "title": "Focal X",
+              "type": "number"
+            },
+            "focal_y": {
+              "default": 0.5,
+              "maximum": 1,
+              "minimum": 0,
+              "title": "Focal Y",
+              "type": "number"
+            },
+            "height": {
+              "maximum": 4096,
+              "minimum": 1,
+              "title": "Height",
+              "type": "integer"
+            },
+            "id": {
+              "pattern": "^[a-z][a-z0-9-]{0,39}$",
+              "title": "Id",
+              "type": "string"
+            },
+            "image": {
+              "pattern": "^assets/[a-f0-9]{64}\\.jpg$",
+              "title": "Image",
+              "type": "string"
+            },
+            "mean_colour": {
+              "pattern": "^#[0-9a-f]{6}$",
+              "title": "Mean Colour",
+              "type": "string"
+            },
+            "orientation": {
+              "enum": [
+                "landscape",
+                "portrait"
+              ],
+              "title": "Orientation",
+              "type": "string"
+            },
+            "placard": {
+              "$ref": "#/$defs/GalleryPlacard"
+            },
+            "rights": {
+              "$ref": "#/$defs/GalleryRights"
+            },
+            "thumbnail": {
+              "pattern": "^assets/[a-f0-9]{64}\\.webp$",
+              "title": "Thumbnail",
+              "type": "string"
+            },
+            "width": {
+              "maximum": 4096,
+              "minimum": 1,
+              "title": "Width",
+              "type": "integer"
+            }
+          },
+          "required": [
+            "id",
+            "image",
+            "thumbnail",
+            "alt_text",
+            "width",
+            "height",
+            "orientation",
+            "mean_colour",
+            "placard",
+            "rights"
+          ],
+          "title": "GalleryWork",
+          "type": "object"
+        }
+      },
+      "additionalProperties": false,
+      "description": "An art collection (art backgrounds plan, D2): works with placards and CC0 rights evidence,\nno locales and no activities. The host installs it into its gallery, never into a card.",
+      "else": {
+        "properties": {
+          "works": {
+            "items": {
+              "properties": {
+                "orientation": {
+                  "const": "portrait"
+                }
+              }
+            }
+          }
+        }
+      },
+      "if": {
+        "properties": {
+          "shape": {
+            "const": "landscape"
+          }
+        }
+      },
+      "properties": {
+        "description": {
+          "maxLength": 240,
+          "minLength": 1,
+          "pattern": "\\S",
+          "title": "Description",
+          "type": "string"
+        },
+        "kind": {
+          "const": "gallery",
+          "default": "gallery",
+          "title": "Kind",
+          "type": "string"
+        },
+        "name": {
+          "maxLength": 100,
+          "minLength": 1,
+          "pattern": "\\S",
+          "title": "Name",
+          "type": "string"
+        },
+        "presentation": {
+          "$ref": "#/$defs/GalleryPresentation"
+        },
+        "resources": {
+          "items": {
+            "$ref": "#/$defs/GalleryResource"
+          },
+          "maxItems": 2046,
+          "minItems": 3,
+          "title": "Resources",
+          "type": "array"
+        },
+        "schema_version": {
+          "const": 2,
+          "default": 2,
+          "title": "Schema Version",
+          "type": "integer"
+        },
+        "shape": {
+          "enum": [
+            "landscape",
+            "portrait"
+          ],
+          "title": "Shape",
+          "type": "string"
+        },
+        "strip": {
+          "pattern": "^assets/[a-f0-9]{64}\\.webp$",
+          "title": "Strip",
+          "type": "string"
+        },
+        "works": {
+          "items": {
+            "$ref": "#/$defs/GalleryWork"
+          },
+          "maxItems": 200,
+          "minItems": 1,
+          "title": "Works",
+          "type": "array"
+        }
+      },
+      "required": [
+        "name",
+        "description",
+        "shape",
+        "strip",
+        "resources",
+        "works"
+      ],
+      "then": {
+        "properties": {
+          "works": {
+            "items": {
+              "properties": {
+                "orientation": {
+                  "const": "landscape"
+                }
+              }
+            }
+          }
+        }
+      },
+      "title": "GalleryDefinition",
+      "type": "object"
+    },
     "ladder": {
       "$defs": {
         "ContentFormDeclaration": {
@@ -1208,6 +1839,18 @@
     "overrides_calendar": {
       "additionalProperties": false,
       "properties": {
+        "follow_time_of_day": {
+          "anyOf": [
+            {
+              "type": "boolean"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Follow Time Of Day"
+        },
         "horizon_days": {
           "anyOf": [
             {
@@ -1251,6 +1894,40 @@
           ],
           "default": null,
           "title": "Show All Day"
+        },
+        "view": {
+          "anyOf": [
+            {
+              "enum": [
+                "auto",
+                "next",
+                "agenda",
+                "week",
+                "columns",
+                "lanes",
+                "rolling_month",
+                "month"
+              ],
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "View"
+        },
+        "view_lock": {
+          "anyOf": [
+            {
+              "type": "boolean"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "View Lock"
         }
       },
       "title": "CalendarOverrides",
@@ -2073,10 +2750,14 @@
           "type": "string"
         },
         "required_capabilities": {
+          "contains": {
+            "const": "pack-format-v2"
+          },
           "items": {
             "enum": [
               "pack-format-v2",
-              "reveal-sequence-v1"
+              "reveal-sequence-v1",
+              "gallery-pack-v1"
             ],
             "type": "string"
           },

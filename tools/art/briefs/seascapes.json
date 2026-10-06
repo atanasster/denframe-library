@@ -1,0 +1,130 @@
+{
+  "slug": "seascapes",
+  "id": "denframe/seascapes",
+  "version": "1.0.0",
+  "name": "Seascapes",
+  "description": "Calm seas, beaches, harbours and boats in clear light, from Dutch painters to the Impressionists, chosen to bring the coast quietly into a family room.",
+  "shape": "landscape",
+  "works": [
+    {
+      "provider": "cleveland",
+      "object_id": "163456",
+      "alt_text": "Tall sailing ships rest on a glassy harbour at sunrise, with a rowing boat in front and the city faint in a peach-coloured haze."
+    },
+    {
+      "provider": "aic",
+      "object_id": "81540",
+      "alt_text": "Fishing boats with red-brown sails head out over a turquoise sea while people gather on a beach among dark thatched boat sheds."
+    },
+    {
+      "provider": "aic",
+      "object_id": "81535",
+      "alt_text": "Dark sailing boats and a small steamer trailing smoke cross a calm turquoise sea under a pale sky."
+    },
+    {
+      "provider": "aic",
+      "object_id": "14598",
+      "alt_text": "A pebble beach curves toward a distant town, with blue and brown rowing boats, a few fishermen and sailing boats on a pale green sea."
+    },
+    {
+      "provider": "cleveland",
+      "object_id": "153388",
+      "alt_text": "Tall-masted ships and barges lie along a quay on still water that reflects them, under a light, cloudy sky."
+    },
+    {
+      "provider": "aic",
+      "object_id": "16343",
+      "alt_text": "Fishing boats wait on a flat, silvery sea under a big grey cloudy sky, with men wading near a wooden jetty on the left."
+    },
+    {
+      "provider": "aic",
+      "object_id": "30361",
+      "alt_text": "A three-masted ship flying a French flag sails into a harbour past a line of white houses and green hills under a bright, cloudy sky."
+    },
+    {
+      "provider": "cleveland",
+      "object_id": "134862",
+      "alt_text": "A wide, quiet grey sea with low sand bars and a single small sail on the horizon, painted in soft, pale strokes."
+    },
+    {
+      "provider": "aic",
+      "object_id": "81572",
+      "alt_text": "Four small white sailing boats drift on a still, grey-green sea that meets a pale sky in a soft horizon."
+    },
+    {
+      "provider": "aic",
+      "object_id": "180711",
+      "alt_text": "Golden cliffs and rocky islets rise from a calm, hazy sea at sunset, with a small sailing boat near the shore."
+    },
+    {
+      "provider": "cleveland",
+      "object_id": "98000",
+      "alt_text": "Ladies with parasols in full skirts, children, a donkey and a dog gather on a beach under a broad grey-blue sky."
+    },
+    {
+      "provider": "aic",
+      "object_id": "16821",
+      "alt_text": "A watercolour of a calm blue-grey sea meeting a band of white light below grey clouds, with dark rocks in the lower left."
+    },
+    {
+      "provider": "aic",
+      "object_id": "218848",
+      "alt_text": "A broad sandy beach at low tide with pools of blue water, a beached sailing boat and tiny walkers under a clear blue sky."
+    },
+    {
+      "provider": "aic",
+      "object_id": "243811",
+      "alt_text": "Fishermen unload a boat on a rocky shore beside a ruined round tower, with tall ships in a misty harbour behind."
+    },
+    {
+      "provider": "cleveland",
+      "object_id": "134863",
+      "alt_text": "A calm, pale bay with small boats moored in rows and a long low waterfront of masts and buildings across the water."
+    },
+    {
+      "provider": "cleveland",
+      "object_id": "148966",
+      "alt_text": "Wooden boats lie on a sandy boatyard among planks and scaffolding, with a sailing ship on the water beyond."
+    },
+    {
+      "provider": "cleveland",
+      "object_id": "162089",
+      "alt_text": "Children and women in bathing dresses splash in green, white-capped surf while a girl in a red cap sits on the sand."
+    },
+    {
+      "provider": "cleveland",
+      "object_id": "150129",
+      "alt_text": "Steep reddish cliffs drop into a calm grey-blue bay, seen from a stone terrace with a few trees and white houses."
+    },
+    {
+      "provider": "cleveland",
+      "object_id": "93234",
+      "alt_text": "Groups of people in colourful dresses picnic and stroll under leafy trees beside a pale blue bay with sailing boats."
+    },
+    {
+      "provider": "aic",
+      "object_id": "16439",
+      "alt_text": "Fishermen cast lines from rocks in a hazy morning harbour, with a round stone tower on the left and a tall ship in the soft light."
+    },
+    {
+      "provider": "aic",
+      "object_id": "55621",
+      "alt_text": "The white domed church of Santa Maria della Salute stands across a sunny Venetian canal busy with gondolas and strolling figures."
+    },
+    {
+      "provider": "aic",
+      "object_id": "116240",
+      "alt_text": "A watercolour of a harbour entrance guarded by a pale stone lighthouse and fort, with ships at anchor and a small boat crossing in front."
+    },
+    {
+      "provider": "aic",
+      "object_id": "84088",
+      "alt_text": "A deep blue sea under a violet-blue sky full of small white clouds, with a few white wave crests."
+    },
+    {
+      "provider": "cleveland",
+      "object_id": "169228",
+      "alt_text": "A golden sunset glows in bands of orange and grey over a wide wet beach, with a few small figures and distant ships."
+    }
+  ]
+}

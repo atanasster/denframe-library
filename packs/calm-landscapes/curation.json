@@ -1,0 +1,525 @@
+{
+  "schema_version": 1,
+  "slug": "calm-landscapes",
+  "name": "Calm landscapes",
+  "description": "Quiet fields, rivers, coasts, gardens and skies from three centuries of painting, chosen to sit gently behind a family dashboard all day.",
+  "shape": "landscape",
+  "curated_on": "2026-10-06",
+  "strip": "assets/152917de20954e6d4b1c9b1bf7c4d98183432294d9c95f49f914830ffe142ba4.webp",
+  "works": [
+    {
+      "provider": "aic",
+      "object_id": "64715",
+      "file": "assets/aa550b2e8d0890672d4010735008bb661950ba8e6d1143905baa8329c1714f47.jpg",
+      "sha256": "aa550b2e8d0890672d4010735008bb661950ba8e6d1143905baa8329c1714f47",
+      "length": 228266,
+      "width": 1424,
+      "height": 1080,
+      "orientation": "landscape",
+      "mean_colour": "#7a8052",
+      "thumbnail": "assets/b2a5cfc0af086cc512f4b60cc1a5436b1442664b95dae715b277121ad2ed1a79.webp",
+      "alt_text": "A green summer meadow with scattered trees and a distant barn under a clearing sky, a pale rainbow arching down on the right.",
+      "placard": {
+        "title": "After a Summer Shower",
+        "creator": "George Inness (American, 1825–1894)",
+        "date": "1894",
+        "medium": "Oil on canvas",
+        "dimensions": "81.9 × 107.6 cm (32 1/4 × 42 3/8 in.)",
+        "institution": "Art Institute of Chicago",
+        "canonical_url": "https://www.artic.edu/artworks/64715"
+      },
+      "rights": {
+        "license": "CC0-1.0",
+        "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "evidence": {
+          "provider_field": "is_public_domain",
+          "provider_value": true,
+          "image_url": "https://www.artic.edu/iiif/2/a9546ba5-6191-4e04-e209-d22a10e7d0d7/full/1686,/0/default.jpg",
+          "observed_at": "2026-10-06T11:36:07+00:00"
+        }
+      }
+    },
+    {
+      "provider": "cleveland",
+      "object_id": "125234",
+      "file": "assets/34138d22cb0ae532183b0c71a8ca4676089082ba1fcc2280d8c514b3bfb1c895.jpg",
+      "sha256": "34138d22cb0ae532183b0c71a8ca4676089082ba1fcc2280d8c514b3bfb1c895",
+      "length": 274542,
+      "width": 1464,
+      "height": 1080,
+      "orientation": "landscape",
+      "mean_colour": "#64828b",
+      "thumbnail": "assets/e6e5b79ff122aeb0c6faa8fc880cd34d153639d524ab15bc768d0800a0c3670f.webp",
+      "alt_text": "A pale blue sea at low tide shimmering in sunlight, with a green headland and white cliffs in the distance.",
+      "placard": {
+        "title": "Low Tide at Pourville, near Dieppe, 1882",
+        "creator": "Claude Monet (French, 1840–1926)",
+        "date": "1882",
+        "medium": "oil on fabric",
+        "dimensions": "Framed: 65.4 x 106.7 x 10.5 cm (25 3/4 x 42 x 4 1/8 in.); Unframed: 59.9 x 81.3 cm (23 9/16 x 32 in.)",
+        "institution": "The Cleveland Museum of Art",
+        "canonical_url": "https://clevelandart.org/art/1947.196"
+      },
+      "rights": {
+        "license": "CC0-1.0",
+        "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "evidence": {
+          "provider_field": "share_license_status",
+          "provider_value": "CC0",
+          "image_url": "https://openaccess-cdn.clevelandart.org/1947.196/1947.196_print.jpg",
+          "observed_at": "2026-10-06T11:36:10+00:00"
+        }
+      }
+    },
+    {
+      "provider": "aic",
+      "object_id": "121377",
+      "file": "assets/12a1ee490bbafd2c767e911929ceee418b0efca1bb1e5f459068ea472ee73eca.jpg",
+      "sha256": "12a1ee490bbafd2c767e911929ceee418b0efca1bb1e5f459068ea472ee73eca",
+      "length": 214134,
+      "width": 1491,
+      "height": 1080,
+      "orientation": "landscape",
+      "mean_colour": "#616252",
+      "thumbnail": "assets/5bb2484d4f6bdd31d08be59b1b634212f9b74ab09eea87fea3316f4a03ce53f9.webp",
+      "alt_text": "Two rowing boats, one blue and one green, resting on the grassy bank of a calm tidal creek with houses beyond.",
+      "placard": {
+        "title": "Boats at Rest",
+        "creator": "Arthur Wesley Dow (American, 1857–1922)",
+        "date": "c. 1895",
+        "medium": "Oil on canvas",
+        "dimensions": "66 × 91.4 cm (26 × 36 in.)",
+        "institution": "Art Institute of Chicago",
+        "canonical_url": "https://www.artic.edu/artworks/121377"
+      },
+      "rights": {
+        "license": "CC0-1.0",
+        "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "evidence": {
+          "provider_field": "is_public_domain",
+          "provider_value": true,
+          "image_url": "https://www.artic.edu/iiif/2/56a4af78-1d23-3e2a-6119-8aa47e0cf285/full/1686,/0/default.jpg",
+          "observed_at": "2026-10-06T11:36:13+00:00"
+        }
+      }
+    },
+    {
+      "provider": "cleveland",
+      "object_id": "143477",
+      "file": "assets/512fc60d6b3bf63d9b3e73de70f80df50155dbc5dda30acccfcca0ba22418224.jpg",
+      "sha256": "512fc60d6b3bf63d9b3e73de70f80df50155dbc5dda30acccfcca0ba22418224",
+      "length": 233960,
+      "width": 1668,
+      "height": 1080,
+      "orientation": "landscape",
+      "mean_colour": "#86786a",
+      "thumbnail": "assets/50de1439060e39c0f075a9c0020759d7a78e94c6037f90c900dc5b431fd2570d.webp",
+      "alt_text": "A wide valley of autumn trees in red and gold stretching toward distant blue mountains under a soft sky.",
+      "placard": {
+        "title": "An October Day in the White Mountains",
+        "creator": "John Frederick Kensett (American, 1816–1872)",
+        "date": "1854",
+        "medium": "oil on canvas",
+        "dimensions": "Framed: 107.6 x 152.1 x 12.7 cm (42 3/8 x 59 7/8 x 5 in.); Unframed: 79.8 x 123.5 cm (31 7/16 x 48 5/8 in.)",
+        "institution": "The Cleveland Museum of Art",
+        "canonical_url": "https://clevelandart.org/art/1967.5"
+      },
+      "rights": {
+        "license": "CC0-1.0",
+        "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "evidence": {
+          "provider_field": "share_license_status",
+          "provider_value": "CC0",
+          "image_url": "https://openaccess-cdn.clevelandart.org/1967.5/1967.5_print.jpg",
+          "observed_at": "2026-10-06T11:36:16+00:00"
+        }
+      }
+    },
+    {
+      "provider": "aic",
+      "object_id": "238272",
+      "file": "assets/e551243c0ae7f48e7c01ecd75b52958297814f5e495c016c5790f4761490d24a.jpg",
+      "sha256": "e551243c0ae7f48e7c01ecd75b52958297814f5e495c016c5790f4761490d24a",
+      "length": 179971,
+      "width": 1547,
+      "height": 1080,
+      "orientation": "landscape",
+      "mean_colour": "#817a68",
+      "thumbnail": "assets/af32aa6a42fed8fe98fd8c8c90935a5b901f8dc0ad4bfd65c7736386f84dbb0f.webp",
+      "alt_text": "A broad, still river with fishermen in small boats, sailing boats and a distant church tower beneath a large cloudy sky.",
+      "placard": {
+        "title": "River Landscape with a View of Naarden",
+        "creator": "Salomon van Ruysdael (Dutch, about 1602–1670)",
+        "date": "1642",
+        "medium": "Oil on panel",
+        "dimensions": "59.7 × 85.1 cm (23 1/2 × 33 1/2 in.); Framed: 83.2 × 107.3 × 7 cm (32 3/4 × 42 1/4 × 2 3/4 in.)",
+        "institution": "Art Institute of Chicago",
+        "canonical_url": "https://www.artic.edu/artworks/238272"
+      },
+      "rights": {
+        "license": "CC0-1.0",
+        "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "evidence": {
+          "provider_field": "is_public_domain",
+          "provider_value": true,
+          "image_url": "https://www.artic.edu/iiif/2/10429355-e9c3-c48d-1d2a-6fef025d140e/full/1686,/0/default.jpg",
+          "observed_at": "2026-10-06T11:36:19+00:00"
+        }
+      }
+    },
+    {
+      "provider": "cleveland",
+      "object_id": "149961",
+      "file": "assets/d5fc4942a1590d74834164be35fd76806c8b69e2519ea8ad897b263bb47b3832.jpg",
+      "sha256": "d5fc4942a1590d74834164be35fd76806c8b69e2519ea8ad897b263bb47b3832",
+      "length": 282347,
+      "width": 1744,
+      "height": 1080,
+      "orientation": "landscape",
+      "mean_colour": "#beb0a1",
+      "thumbnail": "assets/df4dde6f7eb95f3328eb4226bd6227c76f1ebcdd4645339df70227116937fda7.webp",
+      "alt_text": "A pale ink painting of misty sandbanks and reeds with a line of geese descending, and calligraphy at the top right.",
+      "placard": {
+        "title": "Wild Geese Descending on a Sandbar, from Eight Views of Xiao-Xiang",
+        "creator": "Tani Bunchō (Japanese, 1763–1841)",
+        "date": "1788",
+        "medium": "album leaf remounted as a hanging scroll; ink and color on paper",
+        "dimensions": "Image: 29.5 x 49 cm (11 5/8 x 19 5/16 in.); Overall: 129 x 67 cm (50 13/16 x 26 3/8 in.)",
+        "institution": "The Cleveland Museum of Art",
+        "canonical_url": "https://clevelandart.org/art/1980.188.4"
+      },
+      "rights": {
+        "license": "CC0-1.0",
+        "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "evidence": {
+          "provider_field": "share_license_status",
+          "provider_value": "CC0",
+          "image_url": "https://openaccess-cdn.clevelandart.org/1980.188.4/1980.188.4_print.jpg",
+          "observed_at": "2026-10-06T11:36:22+00:00"
+        }
+      }
+    },
+    {
+      "provider": "cleveland",
+      "object_id": "95272",
+      "file": "assets/e8bd254ce7e770603ee2946eee4a727ca51c0f6a363f2ae5afb567704495cd69.jpg",
+      "sha256": "e8bd254ce7e770603ee2946eee4a727ca51c0f6a363f2ae5afb567704495cd69",
+      "length": 483814,
+      "width": 1519,
+      "height": 1080,
+      "orientation": "landscape",
+      "mean_colour": "#939794",
+      "thumbnail": "assets/3d91ae67aa542e422b62501fb730b8730bbd1f864fa4014871b6346f22080421.webp",
+      "alt_text": "A small house with a red roof half hidden behind pale, blossoming trees under a light spring sky.",
+      "placard": {
+        "title": "Gardener's House at Antibes",
+        "creator": "Claude Monet (French, 1840–1926)",
+        "date": "1888",
+        "medium": "oil on canvas",
+        "dimensions": "Framed: 91.1 x 118.4 x 13.7 cm (35 7/8 x 46 5/8 x 5 3/8 in.); Unframed: 66.3 x 93 cm (26 1/8 x 36 5/8 in.)",
+        "institution": "The Cleveland Museum of Art",
+        "canonical_url": "https://clevelandart.org/art/1916.1044"
+      },
+      "rights": {
+        "license": "CC0-1.0",
+        "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "evidence": {
+          "provider_field": "share_license_status",
+          "provider_value": "CC0",
+          "image_url": "https://openaccess-cdn.clevelandart.org/1916.1044/1916.1044_print.jpg",
+          "observed_at": "2026-10-06T11:36:26+00:00"
+        }
+      }
+    },
+    {
+      "provider": "cleveland",
+      "object_id": "95276",
+      "file": "assets/0524ce87ad0dce016c9702ff907cbf01444f5387c81749b8bf4e0740a2c81e56.jpg",
+      "sha256": "0524ce87ad0dce016c9702ff907cbf01444f5387c81749b8bf4e0740a2c81e56",
+      "length": 299159,
+      "width": 1802,
+      "height": 1080,
+      "orientation": "landscape",
+      "mean_colour": "#7e795b",
+      "thumbnail": "assets/a5a2db68d20cacac918b130c0d1b692e2b2d1c48fd923b4d81567430c26123fc.webp",
+      "alt_text": "A calm river at dusk with a fisherman in a boat and ducks on the water, tall trees on the left and a pale pink sky.",
+      "placard": {
+        "title": "The Hillsides of Méry-sur-Oise, Opposite Auvers",
+        "creator": "Charles François Daubigny (French, 1817–1878)",
+        "date": "1873",
+        "medium": "oil on wood panel",
+        "dimensions": "Framed: 64 x 86 x 12.5 cm (25 3/16 x 33 7/8 x 4 15/16 in.); Unframed: 34.5 x 57.1 cm (13 9/16 x 22 1/2 in.)",
+        "institution": "The Cleveland Museum of Art",
+        "canonical_url": "https://clevelandart.org/art/1916.1048"
+      },
+      "rights": {
+        "license": "CC0-1.0",
+        "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "evidence": {
+          "provider_field": "share_license_status",
+          "provider_value": "CC0",
+          "image_url": "https://openaccess-cdn.clevelandart.org/1916.1048/1916.1048_print.jpg",
+          "observed_at": "2026-10-06T11:36:29+00:00"
+        }
+      }
+    },
+    {
+      "provider": "aic",
+      "object_id": "14586",
+      "file": "assets/a384a88a04086cdfcce10b499e86051538cda569ca2fe66256daf65eff27b20b.jpg",
+      "sha256": "a384a88a04086cdfcce10b499e86051538cda569ca2fe66256daf65eff27b20b",
+      "length": 304843,
+      "width": 1367,
+      "height": 1080,
+      "orientation": "landscape",
+      "mean_colour": "#5b622d",
+      "thumbnail": "assets/9575cfbe6cfa0a50c1f4e9f9ddeb4ac3247710b14417e7000c9d1628f9d49c66.webp",
+      "alt_text": "A grassy park lawn with rounded shrubs and a weeping tree under a yellow-green sky.",
+      "placard": {
+        "title": "The Poet's Garden",
+        "creator": "Vincent van Gogh (Dutch, 1853–1890)",
+        "date": "1888",
+        "medium": "Oil on canvas",
+        "dimensions": "73 × 92.1 cm (28 3/4 × 36 1/4 in.); Framed: 96.6 × 116.9 cm (38 × 46 in.)",
+        "institution": "Art Institute of Chicago",
+        "canonical_url": "https://www.artic.edu/artworks/14586"
+      },
+      "rights": {
+        "license": "CC0-1.0",
+        "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "evidence": {
+          "provider_field": "is_public_domain",
+          "provider_value": true,
+          "image_url": "https://www.artic.edu/iiif/2/d4bc1723-7cbc-d36d-a9cb-f84553f2a6f6/full/1686,/0/default.jpg",
+          "observed_at": "2026-10-06T11:36:32+00:00"
+        }
+      }
+    },
+    {
+      "provider": "aic",
+      "object_id": "45838",
+      "file": "assets/c8320ad488d376955d2e36824ead8dbd2da7568b6f83793ac18fdeb3f53e26d7.jpg",
+      "sha256": "c8320ad488d376955d2e36824ead8dbd2da7568b6f83793ac18fdeb3f53e26d7",
+      "length": 421741,
+      "width": 1645,
+      "height": 1080,
+      "orientation": "landscape",
+      "mean_colour": "#8c8e8f",
+      "thumbnail": "assets/a1eedda75d839e89688edfe090cdb0b977a1da71dee61350a67c37e3cc0f7979.webp",
+      "alt_text": "A quiet snow-covered garden with bare winter trees, low walls and a distant house, one figure walking under a pale grey-blue sky.",
+      "placard": {
+        "title": "Snow at Louveciennes",
+        "creator": "Camille Pissarro (French, 1830–1903)",
+        "date": "c. 1870",
+        "medium": "Oil on panel",
+        "dimensions": "32.3 × 47.5 cm (12 3/4 × 18 11/16 in.); Framed: 49.6 × 64.8 × 8.3 cm (19 1/2 × 25 1/2 × 3 1/4 in.)",
+        "institution": "Art Institute of Chicago",
+        "canonical_url": "https://www.artic.edu/artworks/45838"
+      },
+      "rights": {
+        "license": "CC0-1.0",
+        "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "evidence": {
+          "provider_field": "is_public_domain",
+          "provider_value": true,
+          "image_url": "https://www.artic.edu/iiif/2/d4e43d76-594b-ce65-c1a3-45c865624f70/full/1686,/0/default.jpg",
+          "observed_at": "2026-10-06T11:36:34+00:00"
+        }
+      }
+    },
+    {
+      "provider": "cleveland",
+      "object_id": "148312",
+      "file": "assets/4be84b86cebb8c53cb0b055b959d47d55d718ed73fda6b60c4b4241b3c1b102e.jpg",
+      "sha256": "4be84b86cebb8c53cb0b055b959d47d55d718ed73fda6b60c4b4241b3c1b102e",
+      "length": 203416,
+      "width": 1729,
+      "height": 1080,
+      "orientation": "landscape",
+      "mean_colour": "#817263",
+      "thumbnail": "assets/32b8a736d757ef7b1a0358789b9a73ba0b04b014234b8312f1590909215f96d4.webp",
+      "alt_text": "A tall rock rising from a calm sea in soft pink evening light, with a sailing ship far off and a small rowing boat.",
+      "placard": {
+        "title": "Capri",
+        "creator": "William Stanley Haseltine (American, 1835–1900)",
+        "date": "1869",
+        "medium": "oil on canvas",
+        "dimensions": "Framed: 69.5 x 99.5 x 9 cm (27 3/8 x 39 3/16 x 3 9/16 in.); Unframed: 50 x 80 cm (19 11/16 x 31 1/2 in.)",
+        "institution": "The Cleveland Museum of Art",
+        "canonical_url": "https://clevelandart.org/art/1975.4"
+      },
+      "rights": {
+        "license": "CC0-1.0",
+        "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "evidence": {
+          "provider_field": "share_license_status",
+          "provider_value": "CC0",
+          "image_url": "https://openaccess-cdn.clevelandart.org/1975.4/1975.4_print.jpg",
+          "observed_at": "2026-10-06T11:36:37+00:00"
+        }
+      }
+    },
+    {
+      "provider": "cleveland",
+      "object_id": "157104",
+      "file": "assets/efa1e871392c0028c27bb64281db4e7af724e70c6506b80d5de1c6767676a91c.jpg",
+      "sha256": "efa1e871392c0028c27bb64281db4e7af724e70c6506b80d5de1c6767676a91c",
+      "length": 382879,
+      "width": 1529,
+      "height": 1080,
+      "orientation": "landscape",
+      "mean_colour": "#8e8e87",
+      "thumbnail": "assets/31b38170830c3f7941d93ccb9abfb57c4be0cfdb950c1a68ca4ffad132c7071a.webp",
+      "alt_text": "A riverside road with houses and a horse-drawn cart beside a calm river, under a blue sky with white clouds.",
+      "placard": {
+        "title": "The Seine at Bas-Meudon",
+        "creator": "Johan Barthold Jongkind (Dutch, 1819–1891)",
+        "date": "1865",
+        "medium": "oil on fabric",
+        "dimensions": "Framed: 55.6 x 69.5 x 11.1 cm (21 7/8 x 27 3/8 x 4 3/8 in.); Unframed: 34.1 x 48.1 cm (13 7/16 x 18 15/16 in.)",
+        "institution": "The Cleveland Museum of Art",
+        "canonical_url": "https://clevelandart.org/art/1993.236"
+      },
+      "rights": {
+        "license": "CC0-1.0",
+        "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "evidence": {
+          "provider_field": "share_license_status",
+          "provider_value": "CC0",
+          "image_url": "https://openaccess-cdn.clevelandart.org/1993.236/1993.236_print.jpg",
+          "observed_at": "2026-10-06T11:36:41+00:00"
+        }
+      }
+    },
+    {
+      "provider": "cleveland",
+      "object_id": "173632",
+      "file": "assets/5fd017cb9a0835f9e2b7ba4be28f474c6ba075b7bb83bacbe668d72749d39014.jpg",
+      "sha256": "5fd017cb9a0835f9e2b7ba4be28f474c6ba075b7bb83bacbe668d72749d39014",
+      "length": 332884,
+      "width": 1862,
+      "height": 1080,
+      "orientation": "landscape",
+      "mean_colour": "#706651",
+      "thumbnail": "assets/8a63394eb04225c58eef0c96a5eb3044a7d8eb2a17779da5c4ed135d92e8ee08.webp",
+      "alt_text": "A calm river winding between autumn trees, with two people in a rowing boat, under a blue sky full of white clouds.",
+      "placard": {
+        "title": "Landscape near Granby, Connecticut",
+        "creator": "Hendrik Dirk Kruseman van Elten (American, born The Netherlands, 1829–1904)",
+        "date": "1870s",
+        "medium": "oil on canvas",
+        "dimensions": "Unframed: 32 x 54.6 cm (12 5/8 x 21 1/2 in.)",
+        "institution": "The Cleveland Museum of Art",
+        "canonical_url": "https://clevelandart.org/art/1915.690"
+      },
+      "rights": {
+        "license": "CC0-1.0",
+        "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "evidence": {
+          "provider_field": "share_license_status",
+          "provider_value": "CC0",
+          "image_url": "https://openaccess-cdn.clevelandart.org/1915.690/1915.690_print.jpg",
+          "observed_at": "2026-10-06T11:36:44+00:00"
+        }
+      }
+    },
+    {
+      "provider": "cleveland",
+      "object_id": "119697",
+      "file": "assets/9dd47319bd8f31db19e88bb5db4f31fcf3fd3d67917d02f00183b99c93181a02.jpg",
+      "sha256": "9dd47319bd8f31db19e88bb5db4f31fcf3fd3d67917d02f00183b99c93181a02",
+      "length": 315495,
+      "width": 1796,
+      "height": 1080,
+      "orientation": "landscape",
+      "mean_colour": "#626e62",
+      "thumbnail": "assets/1102bd4e93360e0fb09cbfb6d9c82d544f0d583aff9281341626b634e1c956c6.webp",
+      "alt_text": "A green sea flecked with small waves, dotted with dark-sailed fishing boats out to the horizon under a pale grey sky.",
+      "placard": {
+        "title": "Boats at Berck-sur-Mer",
+        "creator": "Édouard Manet (French, 1832–1883)",
+        "date": "1873",
+        "medium": "oil on fabric",
+        "dimensions": "Framed: 52.5 x 74 x 7 cm (20 11/16 x 29 1/8 x 2 3/4 in.); Unframed: 34 x 55.8 cm (13 3/8 x 21 15/16 in.)",
+        "institution": "The Cleveland Museum of Art",
+        "canonical_url": "https://clevelandart.org/art/1940.534"
+      },
+      "rights": {
+        "license": "CC0-1.0",
+        "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "evidence": {
+          "provider_field": "share_license_status",
+          "provider_value": "CC0",
+          "image_url": "https://openaccess-cdn.clevelandart.org/1940.534/1940.534_print.jpg",
+          "observed_at": "2026-10-06T11:36:48+00:00"
+        }
+      }
+    },
+    {
+      "provider": "cleveland",
+      "object_id": "125236",
+      "file": "assets/9ce086dbe563bb2676b9c6f43ef108310845af51f2e2313dfaa5652897ec1a0f.jpg",
+      "sha256": "9ce086dbe563bb2676b9c6f43ef108310845af51f2e2313dfaa5652897ec1a0f",
+      "length": 216393,
+      "width": 1920,
+      "height": 1051,
+      "orientation": "landscape",
+      "mean_colour": "#928479",
+      "thumbnail": "assets/a04d7e4ead9127177214645005cc485b757f03e095aa0aa6af9d4fddd448ceb3.webp",
+      "alt_text": "A wide river valley with a pale lake between low reddish hills and broad fields below a blue sky with clouds.",
+      "placard": {
+        "title": "View of Lake Pepin, Minnesota",
+        "creator": "Robert S. Duncanson (American, 1821–1872)",
+        "date": "1862",
+        "medium": "oil on canvas",
+        "dimensions": "Framed: 38.5 x 63 x 6.5 cm (15 3/16 x 24 13/16 x 2 9/16 in.); Unframed: 30.2 x 54.5 cm (11 7/8 x 21 7/16 in.)",
+        "institution": "The Cleveland Museum of Art",
+        "canonical_url": "https://clevelandart.org/art/1947.198"
+      },
+      "rights": {
+        "license": "CC0-1.0",
+        "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "evidence": {
+          "provider_field": "share_license_status",
+          "provider_value": "CC0",
+          "image_url": "https://openaccess-cdn.clevelandart.org/1947.198/1947.198_print.jpg",
+          "observed_at": "2026-10-06T11:36:52+00:00"
+        }
+      }
+    },
+    {
+      "provider": "aic",
+      "object_id": "81561",
+      "file": "assets/651381b939fd8ebf32be453b6e20782e92c4b339b45d47d8eecb1bf1e672bcef.jpg",
+      "sha256": "651381b939fd8ebf32be453b6e20782e92c4b339b45d47d8eecb1bf1e672bcef",
+      "length": 277698,
+      "width": 1353,
+      "height": 1080,
+      "orientation": "landscape",
+      "mean_colour": "#97999a",
+      "thumbnail": "assets/6a3fd3aa05aa87a57d6c6fa869130da0e106da96213213e84a97e2b47a738e6c.webp",
+      "alt_text": "A sunny town street with a few walkers, white houses with blue-grey roofs and a pink brick wall beneath a pale blue sky.",
+      "placard": {
+        "title": "Street in Moret",
+        "creator": "Alfred Sisley (British, active in France, 1839–1899)",
+        "date": "c. 1890",
+        "medium": "Oil on canvas",
+        "dimensions": "60 × 73.2 cm (23 7/8 × 28 7/8 in.); Framed: 86.1 × 100.1 × 10.5 cm (33 7/8 × 39 3/8 × 4 1/8 in.)",
+        "institution": "Art Institute of Chicago",
+        "canonical_url": "https://www.artic.edu/artworks/81561"
+      },
+      "rights": {
+        "license": "CC0-1.0",
+        "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "evidence": {
+          "provider_field": "is_public_domain",
+          "provider_value": true,
+          "image_url": "https://www.artic.edu/iiif/2/c233d88b-fe56-6b9e-d5c2-47b9a7386756/full/1686,/0/default.jpg",
+          "observed_at": "2026-10-06T11:36:54+00:00"
+        }
+      }
+    }
+  ],
+  "refused": [],
+  "review_notes": []
+}

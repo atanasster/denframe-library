@@ -22,6 +22,14 @@ from typing import Final, Protocol
 #: into, and the plan (step 15) requires it not be hidden under an already-published token.
 OVERLAY_LAYOUT_CAPABILITY: Final[str] = "overlay-layout-v1"
 
+#: The calendar wall's own token (family calendar plan step 2, G2; the family itself step 12):
+#: the `wall` family -- the calendar block as the dashboard's owner, the other blocks in a
+#: measured dock -- is composed in a way a receiver that only knows `overlay-layout-v1` cannot
+#: draw, exactly as the overlay was. Unlike the overlay's, a receiver without it is not
+#: refused: the host sends it the same dashboard on Auto (`scene_for_receiver` in the host's
+#: `display_capabilities`), which is what the family falls back to on any screen anyway.
+WALL_LAYOUT_CAPABILITY: Final[str] = "wall-layout-v1"
+
 LAYOUT_ARRANGEMENT_CAPABILITY: Final[str] = "layout-arrangement-v1"
 LAYOUT_SETUP_CAPABILITY: Final[str] = "layout-setup-v1"
 LIBRARY_PROVENANCE_CAPABILITY: Final[str] = "library-provenance-v1"
@@ -33,6 +41,7 @@ LAYOUT_CAPABILITY: Final[dict[str, str]] = {
     "auto": "responsive-layout-v1",
     "grid": "grid-placement-v1",
     "overlay": OVERLAY_LAYOUT_CAPABILITY,
+    "wall": WALL_LAYOUT_CAPABILITY,
 }
 
 #: The token an authored background needs. Threaded exactly as `LAYOUT_CAPABILITY` is, but a
@@ -148,6 +157,19 @@ def overlay_requires_capability(layout: str, *, overlay_corner: str, overlay_scr
         or overlay_corner != DEFAULT_OVERLAY_CORNER
         or overlay_scrim != DEFAULT_OVERLAY_SCRIM
     )
+
+
+#: The calendar wall's dock edge default, literal for the same no-cycle reason. Mirrored by
+#: `DEFAULT_APPEARANCE` in `frontend/src/composition/appearance.ts`.
+DEFAULT_WALL_DOCK: Final[str] = "top"
+
+
+def wall_requires_capability(layout: str, *, wall_dock: str = DEFAULT_WALL_DOCK) -> bool:
+    """Whether a document needs `WALL_LAYOUT_CAPABILITY` to render as authored: the `wall`
+    family does, as `overlay` needs its own, and so does an authored dock edge under any
+    family, on the overlay settings' terms -- the serializer drops it at its default, so an
+    authored one is the wire shape an older strict parser rejects."""
+    return layout == "wall" or wall_dock != DEFAULT_WALL_DOCK
 
 
 def picture_requires_capability(kind: str, settings: Mapping[str, object]) -> bool:

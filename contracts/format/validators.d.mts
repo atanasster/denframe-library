@@ -2,6 +2,7 @@
 type Validator = ((data: unknown) => boolean) & { errors?: readonly unknown[] | null };
 export const cardSettings: Validator;
 export const definition: Validator;
+export const galleryDefinition: Validator;
 export const ladder: Validator;
 export const manifest: Validator;
 export const overrides_calendar: Validator;

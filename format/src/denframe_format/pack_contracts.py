@@ -43,6 +43,9 @@ License = Literal["CC0-1.0", "CC-BY-4.0", "MIT"]
 PACK_CAPABILITIES = {
     "pack-format-v2": "host",
     "reveal-sequence-v1": "host",
+    # An art collection installed into the host's gallery (art backgrounds plan, D2). Receivers
+    # only ever see resolved gallery windows, never the pack, so the token is the host's alone.
+    "gallery-pack-v1": "host",
     "card-v1": "receiver",
     "pack-window-v1": "receiver",
     "pack-audio-v1": "receiver",
@@ -268,6 +271,164 @@ class PackDefinition(PackModel):
         return self
 
 
+#: The most works one art collection holds.
+MAX_GALLERY_WORKS = 200
+
+#: The URI of a gallery's only licence, CC0: public domain dedication (D6.1).
+CC0_URI = "https://creativecommons.org/publicdomain/zero/1.0/"
+
+HexColour = Annotated[str, StringConstraints(pattern=r"^#[0-9a-f]{6}$")]
+HttpsUrl = Annotated[str, StringConstraints(pattern=r"^https://\S+$", max_length=1000)]
+Instant = Annotated[
+    str,
+    StringConstraints(
+        pattern=r"^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}(?:\.\d+)?(?:Z|[+-]\d{2}:\d{2})$",
+        max_length=40,
+    ),
+]
+OptionalText = Annotated[str, StringConstraints(max_length=240)] | None
+JpegPath = Annotated[str, StringConstraints(pattern=r"^assets/[a-f0-9]{64}\.jpg$")]
+WebpPath = Annotated[str, StringConstraints(pattern=r"^assets/[a-f0-9]{64}\.webp$")]
+
+
+class GalleryCredit(PackCredit):
+    license: Literal["CC0-1.0"]
+
+
+class GalleryResource(PackResource):
+    """A gallery's file: a work's JPEG or a WebP thumbnail or strip, dedicated to the public
+    domain (D6.1)."""
+
+    media_type: Literal["image/jpeg", "image/webp"]
+    credit: GalleryCredit
+
+
+class GalleryPresentation(PackModel):
+    """How the collection is shown by default; a household changes it on its Artwork page."""
+
+    fit: Literal["fit", "fill", "smart"] = "fit"
+    mat_style: Literal["full_bleed", "modern", "museum", "shadow_box"] = "museum"
+    placard_seconds: int = Field(default=12, ge=5, le=120)
+    cadence_seconds: int = Field(default=45, ge=15, le=86_400)
+
+
+class GalleryPlacard(PackModel):
+    title: DisplayText
+    creator: DisplayText
+    date: ShortText
+    medium: OptionalText = None
+    dimensions: OptionalText = None
+    institution: ShortText
+    canonical_url: HttpsUrl
+
+
+class GalleryEvidence(PackModel):
+    """What the provider answered when the work was curated: the field, its value and when."""
+
+    provider_field: ShortText
+    provider_value: bool | ShortText
+    image_url: HttpsUrl
+    observed_at: Instant
+    image_field: ShortText | None = None
+    uuid: ShortText | None = None
+
+
+class GalleryRights(PackModel):
+    license: Literal["CC0-1.0"] = "CC0-1.0"
+    uri: Literal["https://creativecommons.org/publicdomain/zero/1.0/"] = CC0_URI
+    evidence: GalleryEvidence
+
+
+class GalleryWork(PackModel):
+    id: ItemId
+    image: JpegPath
+    thumbnail: WebpPath
+    alt_text: DisplayText
+    width: int = Field(ge=1, le=4096)
+    height: int = Field(ge=1, le=4096)
+    orientation: Literal["landscape", "portrait"]
+    focal_x: float = Field(default=0.5, ge=0, le=1)
+    focal_y: float = Field(default=0.5, ge=0, le=1)
+    mean_colour: HexColour
+    placard: GalleryPlacard
+    rights: GalleryRights
+
+    @model_validator(mode="after")
+    def faces_its_way(self) -> Self:
+        if (self.height > self.width) != (self.orientation == "portrait"):
+            raise ValueError("A work's orientation must match its size")
+        return self
+
+
+class GalleryDefinition(PackModel):
+    """An art collection (art backgrounds plan, D2): works with placards and CC0 rights evidence,
+    no locales and no activities. The host installs it into its gallery, never into a card."""
+
+    model_config = ConfigDict(
+        json_schema_extra={
+            "if": {"properties": {"shape": {"const": "landscape"}}},
+            "then": {
+                "properties": {
+                    "works": {"items": {"properties": {"orientation": {"const": "landscape"}}}}
+                }
+            },
+            "else": {
+                "properties": {
+                    "works": {"items": {"properties": {"orientation": {"const": "portrait"}}}}
+                }
+            },
+        }
+    )
+
+    schema_version: Literal[2] = 2
+    kind: Literal["gallery"] = "gallery"
+    name: ShortText
+    description: DisplayText
+    shape: Literal["landscape", "portrait"]
+    presentation: GalleryPresentation = Field(default_factory=GalleryPresentation)
+    strip: WebpPath
+    resources: list[GalleryResource] = Field(min_length=3, max_length=MAX_PACK_FILES - 2)
+    works: list[GalleryWork] = Field(min_length=1, max_length=MAX_GALLERY_WORKS)
+
+    @model_validator(mode="after")
+    def references(self) -> Self:
+        paths = [r.path for r in self.resources]
+        if len(set(paths)) != len(paths) or len({w.id for w in self.works}) != len(self.works):
+            raise ValueError("Duplicate gallery identity")
+        resources = {r.path: r for r in self.resources}
+        used = {self.strip}
+        if resources.get(self.strip) is None or resources[self.strip].media_type != "image/webp":
+            raise ValueError("The strip must be a WebP resource")
+        for work in self.works:
+            image, thumbnail = resources.get(work.image), resources.get(work.thumbnail)
+            if image is None or image.media_type != "image/jpeg":
+                raise ValueError("A work's image must be a JPEG resource")
+            if thumbnail is None or thumbnail.media_type != "image/webp":
+                raise ValueError("A work's thumbnail must be a WebP resource")
+            if work.orientation != self.shape:
+                raise ValueError("Every work must face the collection's shape")
+            used.update((work.image, work.thumbnail))
+        if used != set(resources):
+            raise ValueError("Unreferenced gallery content")
+        return self
+
+
+AnyPackDefinition = PackDefinition | GalleryDefinition
+
+#: The capabilities a pack's manifest requires, by the definition it carries.
+PACK_KIND_CAPABILITIES: dict[str, tuple[str, str]] = {
+    "pack": ("pack-format-v2", "reveal-sequence-v1"),
+    "gallery": ("pack-format-v2", "gallery-pack-v1"),
+}
+
+
+def parse_pack_definition(value: object) -> AnyPackDefinition:
+    """A pack definition by its kind: an activity pack, or an art collection."""
+    if isinstance(value, dict) and value.get("kind") == "gallery":
+        return GalleryDefinition.model_validate(value)
+    return PackDefinition.model_validate(value)
+
+
 class PackManifest(PackModel):
     format: Literal["denframepack"] = "denframepack"
     schema_version: Literal[2] = 2
@@ -276,17 +437,20 @@ class PackManifest(PackModel):
     publisher: ShortText
     definition_sha256: Digest
     entrypoint: Literal["definition.json"] = "definition.json"
-    required_capabilities: list[Literal["pack-format-v2", "reveal-sequence-v1"]] = Field(
+    required_capabilities: list[
+        Literal["pack-format-v2", "reveal-sequence-v1", "gallery-pack-v1"]
+    ] = Field(
         default_factory=lambda: ["pack-format-v2", "reveal-sequence-v1"],
         min_length=2,
         max_length=2,
-        json_schema_extra={"uniqueItems": True},
+        json_schema_extra={"uniqueItems": True, "contains": {"const": "pack-format-v2"}},
     )
 
     @model_validator(mode="after")
     def capabilities(self) -> Self:
-        if set(self.required_capabilities) != {"pack-format-v2", "reveal-sequence-v1"}:
-            raise ValueError("Pack manifest requires format and activity capabilities")
+        allowed = [set(pair) for pair in PACK_KIND_CAPABILITIES.values()]
+        if set(self.required_capabilities) not in allowed:
+            raise ValueError("Pack manifest requires format and activity or gallery capabilities")
         return self
 
 
@@ -326,6 +490,7 @@ class PackAudioPolicy(PackModel):
 
 PACK_SCHEMAS = {
     "definition": PackDefinition,
+    "gallery-definition": GalleryDefinition,
     "manifest": PackManifest,
     "card-settings": CardBlockSettings,
     "audio-policy": PackAudioPolicy,

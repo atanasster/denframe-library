@@ -159,5 +159,44 @@
     "introduced": [
       "legacy-format-name"
     ]
+  },
+  {
+    "schema_sha256": "49d84ffefd2d4ca141452fff484af39676b411905cbafd8c7ddf140ebf95cd59",
+    "introduced": [
+      "calendar-view-valid",
+      "calendar-view-unknown",
+      "calendar-view-lock-string",
+      "wall-capability-unneeded"
+    ]
+  },
+  {
+    "schema_sha256": "11f0c150e19f03424ef8bc967869a7c5c4ac36226f9d70f9fefe1e805dffeb9b",
+    "introduced": [
+      "wall-layout-valid",
+      "wall-dock-valid",
+      "wall-layout-missing-capability",
+      "wall-dock-missing-capability",
+      "wall-dock-unknown"
+    ]
+  },
+  {
+    "schema_sha256": "b4b2176a8aebc33a85250e5738be0c55b445f7dd55487c888dc23480020e6922",
+    "introduced": [
+      "rewards-kind-host-only"
+    ]
+  },
+  {
+    "schema_sha256": "ba9872bfc3d6a71038f9fa945d54e38ae0847664e4ccecba3852906682c4c4cd",
+    "introduced": [
+      "gallery-valid",
+      "gallery-activity-capabilities",
+      "gallery-portrait-in-landscape",
+      "gallery-not-cc0",
+      "gallery-missing-work-image",
+      "gallery-canonical",
+      "gallery-orientation-contradicts-size",
+      "gallery-unreferenced-resource",
+      "gallery-duplicate-work"
+    ]
   }
 ]

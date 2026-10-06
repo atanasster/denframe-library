@@ -1,0 +1,130 @@
+{
+  "slug": "night-and-winter",
+  "id": "denframe/night-and-winter",
+  "version": "1.0.0",
+  "name": "Night and winter",
+  "description": "Snowy villages, frosty mornings, moonlit rivers and winter dusks, chosen to stay light enough to read a dashboard over.",
+  "shape": "landscape",
+  "works": [
+    {
+      "provider": "aic",
+      "object_id": "86998",
+      "alt_text": "A Norwegian village under deep snow, with houses touched with red, a small arched bridge and frosted birch trees below a blue wooded hill."
+    },
+    {
+      "provider": "cleveland",
+      "object_id": "140331",
+      "alt_text": "A frosted valley in pale blues and pinks, with autumn trees in red and gold and two small figures walking along a path."
+    },
+    {
+      "provider": "aic",
+      "object_id": "19037",
+      "alt_text": "A woodblock print of a snowy riverbank with pines, stone lanterns and a gate, a deep blue river and white hills beyond under falling snow."
+    },
+    {
+      "provider": "aic",
+      "object_id": "81545",
+      "alt_text": "Two snow-covered stacks of wheat in a field glowing violet and blue under an orange and pink sunset sky."
+    },
+    {
+      "provider": "aic",
+      "object_id": "64476",
+      "alt_text": "A winding river with ice floes between snowy banks, bare trees and a farmhouse in low golden winter sunlight."
+    },
+    {
+      "provider": "aic",
+      "object_id": "25613",
+      "alt_text": "A woodblock print of a village at night under heavy snow, with travellers holding hats and umbrellas walking up a white slope."
+    },
+    {
+      "provider": "aic",
+      "object_id": "80475",
+      "alt_text": "A waterfall tumbling through snow-covered rocks, with pink mill buildings on the bank and wooded blue hills behind."
+    },
+    {
+      "provider": "aic",
+      "object_id": "127733",
+      "alt_text": "A stylised print of grey plovers flying over a teal river that curves between white banks of snow-laden reeds."
+    },
+    {
+      "provider": "cleveland",
+      "object_id": "104197",
+      "alt_text": "A French village street after snowfall, with tall pale houses, bare trees and a snowy hillside rising behind."
+    },
+    {
+      "provider": "aic",
+      "object_id": "89593",
+      "alt_text": "A blue and white woodblock print of a riverside village and pine trees under snow, a small boat on the pale water below."
+    },
+    {
+      "provider": "cleveland",
+      "object_id": "162905",
+      "alt_text": "A colour print of tall green-trunked beech trees in a snowy wood, with two people carrying bundles of firewood on the right."
+    },
+    {
+      "provider": "aic",
+      "object_id": "32271",
+      "alt_text": "A woodblock print of boats on a broad river under a full moon, a castle with tiled roofs on the right and pale fields beyond."
+    },
+    {
+      "provider": "cleveland",
+      "object_id": "109239",
+      "alt_text": "A winter marsh at sunset, with a red sun low behind dark bushes, a band of glowing cloud and a river edged with snow."
+    },
+    {
+      "provider": "aic",
+      "object_id": "66515",
+      "alt_text": "A photograph of a small white house deep in fresh snow, with a pole in front, frosted trees and a wooded hill behind."
+    },
+    {
+      "provider": "cleveland",
+      "object_id": "152477",
+      "alt_text": "A woodblock print of a ferry crowded with passengers in straw hats crossing a deep blue river, with snowy pines and houses on the far bank."
+    },
+    {
+      "provider": "aic",
+      "object_id": "109780",
+      "alt_text": "A crowd of skaters in bright winter coats on a frozen pond, with dark blue wooded hills and a snowy slope behind."
+    },
+    {
+      "provider": "cleveland",
+      "object_id": "329324",
+      "alt_text": "A pen and wash drawing of a Dutch village in winter, with bare trees, cottages, a church spire and a skater by a small arched bridge."
+    },
+    {
+      "provider": "aic",
+      "object_id": "127736",
+      "alt_text": "A large silver moon rising behind tall white and black grasses against a soft grey sky."
+    },
+    {
+      "provider": "cleveland",
+      "object_id": "141168",
+      "alt_text": "Snow-capped Alpine peaks above a dark green valley and lake, with goats and a resting herder on the grassy slope in front."
+    },
+    {
+      "provider": "aic",
+      "object_id": "24696",
+      "alt_text": "A woodblock print of a ferry with passengers crossing a blue river at dusk, a long wooden bridge and the dark cone of Mount Fuji beyond."
+    },
+    {
+      "provider": "cleveland",
+      "object_id": "157126",
+      "alt_text": "A photograph of a snowy path through a winter field, with bare trees and low hills under a pale grey sky."
+    },
+    {
+      "provider": "cleveland",
+      "object_id": "114493",
+      "alt_text": "A pencil drawing of a white snow-covered building with a small bell tower and a signpost in a snowstorm, with bare trees on a pale hillside."
+    },
+    {
+      "provider": "aic",
+      "object_id": "23845",
+      "alt_text": "A pale print of a barge being towed along a snowy riverbank, with willows heavy with snow and white hills behind."
+    },
+    {
+      "provider": "aic",
+      "object_id": "66264",
+      "alt_text": "A black and white photograph of snowy, glacier-covered mountains beneath a sky of small rippled clouds."
+    }
+  ]
+}

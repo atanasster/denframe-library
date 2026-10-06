@@ -1,0 +1,130 @@
+{
+  "slug": "impressionist-gardens",
+  "id": "denframe/impressionist-gardens",
+  "version": "1.0.0",
+  "name": "Impressionist gardens",
+  "description": "Gardens, parks, flower fields and orchards by the Impressionists and the painters and printmakers around them, chosen for a bright, unhurried screen.",
+  "shape": "landscape",
+  "works": [
+    {
+      "provider": "aic",
+      "object_id": "4783",
+      "alt_text": "A field of red poppies stretches under a blue sky with soft clouds, lined with tall poplars and round green trees."
+    },
+    {
+      "provider": "aic",
+      "object_id": "28849",
+      "alt_text": "A sunny gravel path curves through a city park past green lawns, palms and flower beds, with a woman resting on a bench."
+    },
+    {
+      "provider": "aic",
+      "object_id": "97292",
+      "alt_text": "A sunlit orchard of young blossoming trees beside a pink-walled farmhouse, with a path through bright green grass."
+    },
+    {
+      "provider": "aic",
+      "object_id": "97933",
+      "alt_text": "Pink and white water lilies float on a pond that reflects green and violet foliage, painted in loose, layered strokes."
+    },
+    {
+      "provider": "cleveland",
+      "object_id": "85861",
+      "alt_text": "Terraced orchards and garden plots in autumn yellows, oranges and greens slope down a hillside beside a grey path."
+    },
+    {
+      "provider": "cleveland",
+      "object_id": "128072",
+      "alt_text": "A woman in a white dress sits reading on a green lawn, with a fan and a parasol beside her and a meadow beyond."
+    },
+    {
+      "provider": "aic",
+      "object_id": "55494",
+      "alt_text": "A young woman in white sits on a stone wall beside a small tree of pink peach blossom, with green hills behind."
+    },
+    {
+      "provider": "aic",
+      "object_id": "105462",
+      "alt_text": "A small blue pond lies among rocks, grasses and white wild roses, with the sea and a low island beyond."
+    },
+    {
+      "provider": "aic",
+      "object_id": "30928",
+      "alt_text": "Crowds of children and adults in summer clothes stroll down a broad stone terrace staircase in a leafy park."
+    },
+    {
+      "provider": "cleveland",
+      "object_id": "108452",
+      "alt_text": "Children in white and pink dresses dance around ribboned maypoles on a wide green lawn in a park."
+    },
+    {
+      "provider": "cleveland",
+      "object_id": "129371",
+      "alt_text": "Women in pale robes walk beneath tall blue cypress trees beside a bay with sailing boats, all drawn in coloured dots."
+    },
+    {
+      "provider": "cleveland",
+      "object_id": "133102",
+      "alt_text": "A nursemaid in a blue cape watches a child playing beside a red toy horse under chestnut trees, drawn in soft coloured dots."
+    },
+    {
+      "provider": "cleveland",
+      "object_id": "120812",
+      "alt_text": "Ladies stroll past a round bed of white flowers on a pale lawn in a city garden, with white pigeons in the foreground."
+    },
+    {
+      "provider": "aic",
+      "object_id": "133456",
+      "alt_text": "A sunlit stone terrace with a row of pale columns looks onto a garden of bright green leaves and shrubs."
+    },
+    {
+      "provider": "aic",
+      "object_id": "53231",
+      "alt_text": "A small girl in white walks down broad stone steps through a green park lined with tall trees."
+    },
+    {
+      "provider": "cleveland",
+      "object_id": "79235",
+      "alt_text": "Young women in long pale dresses play blindman's buff on a park lawn, one of them blindfolded at the centre, with autumn trees beyond."
+    },
+    {
+      "provider": "cleveland",
+      "object_id": "125923",
+      "alt_text": "Figures, carriages and a dog move along a sandy avenue under bare trees, in a printed tan and brown haze."
+    },
+    {
+      "provider": "aic",
+      "object_id": "19339",
+      "alt_text": "Women in dark shawls walk through a public garden past a red fence, a green bush and two cone-shaped orange shrubs."
+    },
+    {
+      "provider": "cleveland",
+      "object_id": "167981",
+      "alt_text": "Women in pale draped dresses sail toy boats in a round pond among white-trunked trees and potted orange trees."
+    },
+    {
+      "provider": "cleveland",
+      "object_id": "166354",
+      "alt_text": "Families sit on chairs and stroll beneath tall trees in a city garden, with a fountain and buildings beyond, in black and white."
+    },
+    {
+      "provider": "cleveland",
+      "object_id": "146242",
+      "alt_text": "A mother and three children sit close together on a garden bench under dark leaves, in a soft black and white print."
+    },
+    {
+      "provider": "aic",
+      "object_id": "151512",
+      "alt_text": "People sit at tables in the dappled shade of tall trees in a beer garden, drawn in dense black lines."
+    },
+    {
+      "provider": "cleveland",
+      "object_id": "107727",
+      "alt_text": "A mother and children gather around a round table on a vine-covered terrace above a valley with cypress trees and a distant city."
+    },
+    {
+      "provider": "aic",
+      "object_id": "52733",
+      "alt_text": "A rounded tree with drooping branches stands in a garden of tall grasses and shrubs, drawn in bold black reed-pen strokes."
+    }
+  ]
+}

@@ -1,0 +1,781 @@
+{
+  "schema_version": 1,
+  "slug": "abstract-and-colour",
+  "name": "Abstract and colour",
+  "description": "Colour studies, flattened shapes and landscapes on the way to abstraction, from Japanese design prints to early modern painting, chosen for their colour behind a dashboard.",
+  "shape": "landscape",
+  "curated_on": "2026-10-06",
+  "strip": "assets/609aefbdce0073a8395e515a7419963d995140d7b3198c23a3ed3e6d2a512dea.webp",
+  "works": [
+    {
+      "provider": "aic",
+      "object_id": "129849",
+      "file": "assets/8f1827d1bb907a7c9990cb63ed095aa1757f190394695c13fe03274409be0258.jpg",
+      "sha256": "8f1827d1bb907a7c9990cb63ed095aa1757f190394695c13fe03274409be0258",
+      "length": 286663,
+      "width": 1402,
+      "height": 1080,
+      "orientation": "landscape",
+      "mean_colour": "#736235",
+      "thumbnail": "assets/6a418d98da84ddc00fe73a9440793a16170aeecc668b5ca9e9636388dd33aabb.webp",
+      "alt_text": "Yellow and pink houses on a hillside above a sloping golden field, painted in thick strokes of bright yellow, blue, green and red.",
+      "placard": {
+        "title": "Houses at Murnau",
+        "creator": "Vasily Kandinsky (Born Moscow (formerly Russian Empire, now Russia), 1866; died Neuilly-sur-Seine, France, 1944)",
+        "date": "1909",
+        "medium": "Oil on cardboard",
+        "dimensions": "49 × 64 cm (19 1/4 × 25 in.)",
+        "institution": "Art Institute of Chicago",
+        "canonical_url": "https://www.artic.edu/artworks/129849"
+      },
+      "rights": {
+        "license": "CC0-1.0",
+        "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "evidence": {
+          "provider_field": "is_public_domain",
+          "provider_value": true,
+          "image_url": "https://www.artic.edu/iiif/2/3f732b69-0ae7-7d1e-ad53-e20b0cc2de72/full/1686,/0/default.jpg",
+          "observed_at": "2026-10-06T11:45:39+00:00"
+        }
+      }
+    },
+    {
+      "provider": "cleveland",
+      "object_id": "154147",
+      "file": "assets/a367a6c75b0568c584ade540f39087eb06719d7f23444b74af7df9d776dad268.jpg",
+      "sha256": "a367a6c75b0568c584ade540f39087eb06719d7f23444b74af7df9d776dad268",
+      "length": 165097,
+      "width": 1585,
+      "height": 1080,
+      "orientation": "landscape",
+      "mean_colour": "#999991",
+      "thumbnail": "assets/84f24fa5445301a2ff66d460e30f22189171ff7918f41f889d8153695181f49d.webp",
+      "alt_text": "A stylised cream wave curling across a dark blue ground in front of a large silver moon.",
+      "placard": {
+        "title": "Flowers of a Hundred Worlds (Momoyogusa): Rising Waves (Tachinami)",
+        "creator": "Kamisaka Sekka (Japanese, 1866–1942)",
+        "date": "1909–10",
+        "medium": "color woodcuts with gold and silver",
+        "dimensions": "Sheet: 29.9 x 22.1 cm (11 3/4 x 8 11/16 in.)",
+        "institution": "The Cleveland Museum of Art",
+        "canonical_url": "https://clevelandart.org/art/1988.23.1.7"
+      },
+      "rights": {
+        "license": "CC0-1.0",
+        "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "evidence": {
+          "provider_field": "share_license_status",
+          "provider_value": "CC0",
+          "image_url": "https://openaccess-cdn.clevelandart.org/1988.23.1.7/1988.23.1.7_print.jpg",
+          "observed_at": "2026-10-06T11:45:41+00:00"
+        }
+      }
+    },
+    {
+      "provider": "aic",
+      "object_id": "65937",
+      "file": "assets/e29c0241a7ba6f7931b9dc9f33b8f811e27f7da2515bf7f084a5d17962267898.jpg",
+      "sha256": "e29c0241a7ba6f7931b9dc9f33b8f811e27f7da2515bf7f084a5d17962267898",
+      "length": 260017,
+      "width": 1390,
+      "height": 1080,
+      "orientation": "landscape",
+      "mean_colour": "#96877d",
+      "thumbnail": "assets/8a2779000e06acfa89918f02757a8095602913caf4752b0a1809d03ead08d50b.webp",
+      "alt_text": "Rounded New Mexico hills built from patches of pink, ochre and green under swirling white and blue clouds.",
+      "placard": {
+        "title": "Landscape No. 3, Cash Entry Mines, New Mexico",
+        "creator": "Marsden Hartley (American, 1877–1943)",
+        "date": "1920",
+        "medium": "Oil on canvas",
+        "dimensions": "70.6 × 90.8 cm (27 3/4 × 35 3/4 in.)",
+        "institution": "Art Institute of Chicago",
+        "canonical_url": "https://www.artic.edu/artworks/65937"
+      },
+      "rights": {
+        "license": "CC0-1.0",
+        "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "evidence": {
+          "provider_field": "is_public_domain",
+          "provider_value": true,
+          "image_url": "https://www.artic.edu/iiif/2/9b6f838e-5424-d030-2d2f-c9380830d631/full/1686,/0/default.jpg",
+          "observed_at": "2026-10-06T11:45:44+00:00"
+        }
+      }
+    },
+    {
+      "provider": "cleveland",
+      "object_id": "130974",
+      "file": "assets/e028544585ed2ef68bf4c3b2fc56c422ed59fdf1b4789740ae2074d523d1ff97.jpg",
+      "sha256": "e028544585ed2ef68bf4c3b2fc56c422ed59fdf1b4789740ae2074d523d1ff97",
+      "length": 425874,
+      "width": 1623,
+      "height": 1080,
+      "orientation": "landscape",
+      "mean_colour": "#898b85",
+      "thumbnail": "assets/9838779e291707f473ae75328f7fcd2495d1d32a871c9c9cc35ff7fc4ae146b3.webp",
+      "alt_text": "A watercolour of red and orange rocks along a deep blue sea, with a small lighthouse island under a streaky pink and blue sky.",
+      "placard": {
+        "title": "The Rocky Seashore",
+        "creator": "Maurice Prendergast (American, born Newfoundland [now Canada], 1858–1924)",
+        "date": "c. 1907–10",
+        "medium": "watercolor with traces of graphite",
+        "dimensions": "Sheet: 38.3 x 55.6 cm (15 1/16 x 21 7/8 in.)",
+        "institution": "The Cleveland Museum of Art",
+        "canonical_url": "https://clevelandart.org/art/1953.655"
+      },
+      "rights": {
+        "license": "CC0-1.0",
+        "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "evidence": {
+          "provider_field": "share_license_status",
+          "provider_value": "CC0",
+          "image_url": "https://openaccess-cdn.clevelandart.org/1953.655/1953.655_print.jpg",
+          "observed_at": "2026-10-06T11:45:47+00:00"
+        }
+      }
+    },
+    {
+      "provider": "aic",
+      "object_id": "8360",
+      "file": "assets/11e80237bcb2f26388a4113a7524a9c9940e32d0838bf81d90306fdba8aa3b1b.jpg",
+      "sha256": "11e80237bcb2f26388a4113a7524a9c9940e32d0838bf81d90306fdba8aa3b1b",
+      "length": 277636,
+      "width": 1464,
+      "height": 1080,
+      "orientation": "landscape",
+      "mean_colour": "#56564c",
+      "thumbnail": "assets/9b87e5ee5aa880b6e70064cd34bca33b4f8327ae2a7c124486c9894fd42a411c.webp",
+      "alt_text": "A Tahitian shore in flat areas of deep green, violet and ochre, with a large tree, a thatched hut, fallen branches and a pale blue bay.",
+      "placard": {
+        "title": "Te burao (The Hibiscus Tree)",
+        "creator": "Paul Gauguin (French, 1848–1903)",
+        "date": "1892",
+        "medium": "Oil on canvas",
+        "dimensions": "68 × 90.7 cm (26 3/4 × 35 11/16 in.); Framed: 86.4 × 109.3 × 8.9 cm (34 × 43 × 3 1/2 in.)",
+        "institution": "Art Institute of Chicago",
+        "canonical_url": "https://www.artic.edu/artworks/8360"
+      },
+      "rights": {
+        "license": "CC0-1.0",
+        "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "evidence": {
+          "provider_field": "is_public_domain",
+          "provider_value": true,
+          "image_url": "https://www.artic.edu/iiif/2/604fe021-6008-f666-bce8-456b2fdc9bd4/full/1686,/0/default.jpg",
+          "observed_at": "2026-10-06T11:45:49+00:00"
+        }
+      }
+    },
+    {
+      "provider": "cleveland",
+      "object_id": "86501",
+      "file": "assets/c0ff877e0837cace5a635420f1155f746a8a5946b6790df06add53f638fe51fd.jpg",
+      "sha256": "c0ff877e0837cace5a635420f1155f746a8a5946b6790df06add53f638fe51fd",
+      "length": 347510,
+      "width": 1734,
+      "height": 1080,
+      "orientation": "landscape",
+      "mean_colour": "#797e72",
+      "thumbnail": "assets/05365927c2b4af369fed73d4e70a9ec0f8833698255a1f6bd632b29de0279235.webp",
+      "alt_text": "A colour woodcut of a pale dirt road curving between green fields and dark trees, with an orange sunset band on the horizon.",
+      "placard": {
+        "title": "The Long Road or Argilla Road",
+        "creator": "Arthur Wesley Dow (American, 1857–1922)",
+        "date": "c. 1898",
+        "medium": "Color woodcut",
+        "dimensions": "Image: 10.7 x 17.8 cm (4 3/16 x 7 in.); Sheet: 16 x 23.3 cm (6 5/16 x 9 3/16 in.)",
+        "institution": "The Cleveland Museum of Art",
+        "canonical_url": "https://clevelandart.org/art/2016.1"
+      },
+      "rights": {
+        "license": "CC0-1.0",
+        "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "evidence": {
+          "provider_field": "share_license_status",
+          "provider_value": "CC0",
+          "image_url": "https://openaccess-cdn.clevelandart.org/2016.1/2016.1_print.jpg",
+          "observed_at": "2026-10-06T11:45:52+00:00"
+        }
+      }
+    },
+    {
+      "provider": "aic",
+      "object_id": "122130",
+      "file": "assets/39a27f72aca5bf39514bc59159978dd0a066241137d98934f234b07c3b084b67.jpg",
+      "sha256": "39a27f72aca5bf39514bc59159978dd0a066241137d98934f234b07c3b084b67",
+      "length": 550301,
+      "width": 1652,
+      "height": 1080,
+      "orientation": "landscape",
+      "mean_colour": "#b2b09a",
+      "thumbnail": "assets/9f353a52971e90c9e68f2e20cd295ec7cec8f13535beefde859ae0623cc44b2d.webp",
+      "alt_text": "A riverside village with a church spire below striped hillside fields, painted in small dots of blue, pink, green and cream.",
+      "placard": {
+        "title": "Les Andelys, Côte d'Aval",
+        "creator": "Paul Signac (French, 1863-1935)",
+        "date": "1886",
+        "medium": "Oil on canvas",
+        "dimensions": "60 × 92 cm (23 5/8 × 36 1/4 in.); Framed: 77.5 × 109.6 × 6.4 cm (30 1/2 × 43 1/8 × 2 1/2 in.)",
+        "institution": "Art Institute of Chicago",
+        "canonical_url": "https://www.artic.edu/artworks/122130"
+      },
+      "rights": {
+        "license": "CC0-1.0",
+        "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "evidence": {
+          "provider_field": "is_public_domain",
+          "provider_value": true,
+          "image_url": "https://www.artic.edu/iiif/2/43fcfad0-8256-4923-9f9c-03ca90417907/full/1686,/0/default.jpg",
+          "observed_at": "2026-10-06T11:45:55+00:00"
+        }
+      }
+    },
+    {
+      "provider": "cleveland",
+      "object_id": "154163",
+      "file": "assets/7afd378b50584f9ab3730b36751054adc50afe2bf170a3ef397cb5aacb19efd7.jpg",
+      "sha256": "7afd378b50584f9ab3730b36751054adc50afe2bf170a3ef397cb5aacb19efd7",
+      "length": 165746,
+      "width": 1585,
+      "height": 1080,
+      "orientation": "landscape",
+      "mean_colour": "#c5b9a1",
+      "thumbnail": "assets/6a74fef6da3339b694ead2119878c8d70b290b5b4da66fabfc4412d97592606f.webp",
+      "alt_text": "Bands of pale silver waves crossing a calm sand-coloured ground in a simple, almost abstract print.",
+      "placard": {
+        "title": "Flowers of a Hundred Worlds (Momoyogusa): Small Waves (Komani)",
+        "creator": "Kamisaka Sekka (Japanese, 1866–1942)",
+        "date": "1909–10",
+        "medium": "color woodcuts with gold and silver",
+        "dimensions": "Sheet: 29.9 x 22.1 cm (11 3/4 x 8 11/16 in.)",
+        "institution": "The Cleveland Museum of Art",
+        "canonical_url": "https://clevelandart.org/art/1988.23.2.20"
+      },
+      "rights": {
+        "license": "CC0-1.0",
+        "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "evidence": {
+          "provider_field": "share_license_status",
+          "provider_value": "CC0",
+          "image_url": "https://openaccess-cdn.clevelandart.org/1988.23.2.20/1988.23.2.20_print.jpg",
+          "observed_at": "2026-10-06T11:45:58+00:00"
+        }
+      }
+    },
+    {
+      "provider": "aic",
+      "object_id": "144467",
+      "file": "assets/9ebb3ef4dc82426181b377829c07e30dcd2f4f72e13ce0447c0ff764817c4afe.jpg",
+      "sha256": "9ebb3ef4dc82426181b377829c07e30dcd2f4f72e13ce0447c0ff764817c4afe",
+      "length": 303423,
+      "width": 1360,
+      "height": 1080,
+      "orientation": "landscape",
+      "mean_colour": "#977f71",
+      "thumbnail": "assets/72d9c5cb2e5cec1a42fa93c2731cd0f2a87e97a8c1fd4d23d3a369a824049c3d.webp",
+      "alt_text": "A farmhouse among bare, interlacing trees reflected in still water, painted in soft pinks, oranges and greys.",
+      "placard": {
+        "title": "Farm near Duivendrecht",
+        "creator": "Piet Mondrian (Dutch, 1872–1944)",
+        "date": "c. 1916",
+        "medium": "Oil on canvas",
+        "dimensions": "86.3 × 107.9 cm (34 × 42 1/2 in.)",
+        "institution": "Art Institute of Chicago",
+        "canonical_url": "https://www.artic.edu/artworks/144467"
+      },
+      "rights": {
+        "license": "CC0-1.0",
+        "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "evidence": {
+          "provider_field": "is_public_domain",
+          "provider_value": true,
+          "image_url": "https://www.artic.edu/iiif/2/b8ca5039-1d0c-648d-ad46-838ecea3e14c/full/1686,/0/default.jpg",
+          "observed_at": "2026-10-06T11:46:01+00:00"
+        }
+      }
+    },
+    {
+      "provider": "aic",
+      "object_id": "25115",
+      "file": "assets/40dcf43b2fa18f7a58add8bd9b27bfa76dfaca836019959b0c76b7d54f8bd5a1.jpg",
+      "sha256": "40dcf43b2fa18f7a58add8bd9b27bfa76dfaca836019959b0c76b7d54f8bd5a1",
+      "length": 235438,
+      "width": 1583,
+      "height": 1080,
+      "orientation": "landscape",
+      "mean_colour": "#b3b5a1",
+      "thumbnail": "assets/4a24c38f3d5457928bed06dc97c7bc388c45708b0555bd660f6ffa6f7022e974.webp",
+      "alt_text": "A woodblock print of coral orange lilies on tall stems with long dark green leaves against a pale turquoise ground.",
+      "placard": {
+        "title": "Orange Orchids, from an untitled series of flowers",
+        "creator": "Katsushika Hokusai 葛飾 北斎 (Japanese, 1760-1849, Publisher: Hibino Yohachi, Japanese, unknown)",
+        "date": "c. 1832",
+        "medium": "Color woodblock print; oban",
+        "dimensions": "25.5 × 37.7 cm (10 × 14 1/2 in.)",
+        "institution": "Art Institute of Chicago",
+        "canonical_url": "https://www.artic.edu/artworks/25115"
+      },
+      "rights": {
+        "license": "CC0-1.0",
+        "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "evidence": {
+          "provider_field": "is_public_domain",
+          "provider_value": true,
+          "image_url": "https://www.artic.edu/iiif/2/5df159e9-0f5f-b093-b11e-57c41348657b/full/1686,/0/default.jpg",
+          "observed_at": "2026-10-06T11:46:03+00:00"
+        }
+      }
+    },
+    {
+      "provider": "cleveland",
+      "object_id": "131338",
+      "file": "assets/2d49e7b092e9a50597208791468a222145db022d31b0d4dbbac55d501ee55d67.jpg",
+      "sha256": "2d49e7b092e9a50597208791468a222145db022d31b0d4dbbac55d501ee55d67",
+      "length": 296198,
+      "width": 1766,
+      "height": 1080,
+      "orientation": "landscape",
+      "mean_colour": "#c1a884",
+      "thumbnail": "assets/9630ce8749ec6c2507c470256d8f1082e10ab9bd57fe491414d6360c55e30817.webp",
+      "alt_text": "A watercolour of a lakeside town in a haze of gold and pale blue light, with mountains dissolving into mist.",
+      "placard": {
+        "title": "Flüelen, from the Lake of Lucerne",
+        "creator": "Joseph Mallord William Turner (British, 1775–1851)",
+        "date": "1845",
+        "medium": "watercolor with gouache and scratch-away",
+        "dimensions": "Sheet: 29.2 x 47.9 cm (11 1/2 x 18 7/8 in.)",
+        "institution": "The Cleveland Museum of Art",
+        "canonical_url": "https://clevelandart.org/art/1954.129"
+      },
+      "rights": {
+        "license": "CC0-1.0",
+        "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "evidence": {
+          "provider_field": "share_license_status",
+          "provider_value": "CC0",
+          "image_url": "https://openaccess-cdn.clevelandart.org/1954.129/1954.129_print.jpg",
+          "observed_at": "2026-10-06T11:46:06+00:00"
+        }
+      }
+    },
+    {
+      "provider": "aic",
+      "object_id": "25108",
+      "file": "assets/eccf7e0281c04f18d34093c0a6ab66da387eba070a0cbc7bf4758862e12c908c.jpg",
+      "sha256": "eccf7e0281c04f18d34093c0a6ab66da387eba070a0cbc7bf4758862e12c908c",
+      "length": 282946,
+      "width": 1554,
+      "height": 1080,
+      "orientation": "landscape",
+      "mean_colour": "#afb2a0",
+      "thumbnail": "assets/2293c96a970b0956ffe3aa76a6a8af86b674116a35a452ba5f8d54db7aff48e4.webp",
+      "alt_text": "A woodblock print of coral pink poppies with spiky blue-green leaves on a pale turquoise ground.",
+      "placard": {
+        "title": "Poppies, from an untitled series of flowers",
+        "creator": "Katsushika Hokusai 葛飾 北斎 (Japanese, 1760-1849)",
+        "date": "c. 1832",
+        "medium": "Color woodblock print; oban",
+        "dimensions": "25.4 × 36.5 cm (10 × 14 3/8 in.)",
+        "institution": "Art Institute of Chicago",
+        "canonical_url": "https://www.artic.edu/artworks/25108"
+      },
+      "rights": {
+        "license": "CC0-1.0",
+        "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "evidence": {
+          "provider_field": "is_public_domain",
+          "provider_value": true,
+          "image_url": "https://www.artic.edu/iiif/2/a4796b47-0881-4d27-8f10-186f4af524c7/full/1686,/0/default.jpg",
+          "observed_at": "2026-10-06T11:46:09+00:00"
+        }
+      }
+    },
+    {
+      "provider": "cleveland",
+      "object_id": "129169",
+      "file": "assets/30cea058788a95a9753207d71cf8e620e67ebbf4c8dd74762c1144ab6d070db9.jpg",
+      "sha256": "30cea058788a95a9753207d71cf8e620e67ebbf4c8dd74762c1144ab6d070db9",
+      "length": 332059,
+      "width": 1397,
+      "height": 1080,
+      "orientation": "landscape",
+      "mean_colour": "#b0c1ba",
+      "thumbnail": "assets/8db404704f63978bf08573ec8612ffdc7929db6d29a55422abf8525131ad4806.webp",
+      "alt_text": "A colour lithograph of figures walking through a flowering green meadow under long streaks of blue cloud.",
+      "placard": {
+        "title": "Across the Fields",
+        "creator": "Édouard Vuillard (French, 1868–1940)",
+        "date": "1899",
+        "medium": "color lithograph",
+        "dimensions": null,
+        "institution": "The Cleveland Museum of Art",
+        "canonical_url": "https://clevelandart.org/art/1951.65.4"
+      },
+      "rights": {
+        "license": "CC0-1.0",
+        "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "evidence": {
+          "provider_field": "share_license_status",
+          "provider_value": "CC0",
+          "image_url": "https://openaccess-cdn.clevelandart.org/1951.65.4/1951.65.4_print.jpg",
+          "observed_at": "2026-10-06T11:46:12+00:00"
+        }
+      }
+    },
+    {
+      "provider": "aic",
+      "object_id": "90207",
+      "file": "assets/9fd398bd26c88b094340d682c4319829c7ae732e7a1265099773479733ce1a8f.jpg",
+      "sha256": "9fd398bd26c88b094340d682c4319829c7ae732e7a1265099773479733ce1a8f",
+      "length": 216901,
+      "width": 1354,
+      "height": 1080,
+      "orientation": "landscape",
+      "mean_colour": "#877d73",
+      "thumbnail": "assets/99a38ab649a9e2211c96dac76cd3af93eace54ec8cbcd1691de756453152507f.webp",
+      "alt_text": "A cubist still life of a pear and two bananas on a white napkin and a round dark plate, broken into flat white, grey and ochre shapes.",
+      "placard": {
+        "title": "Movement No. 10",
+        "creator": "Marsden Hartley (American, 1877–1943)",
+        "date": "1917",
+        "medium": "Oil on composition board",
+        "dimensions": "38.7 × 49.5 cm (15 1/4 × 19 1/2 in.)",
+        "institution": "Art Institute of Chicago",
+        "canonical_url": "https://www.artic.edu/artworks/90207"
+      },
+      "rights": {
+        "license": "CC0-1.0",
+        "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "evidence": {
+          "provider_field": "is_public_domain",
+          "provider_value": true,
+          "image_url": "https://www.artic.edu/iiif/2/768387ba-f972-b43b-39f7-98cb37dad883/full/1686,/0/default.jpg",
+          "observed_at": "2026-10-06T11:46:15+00:00"
+        }
+      }
+    },
+    {
+      "provider": "cleveland",
+      "object_id": "127226",
+      "file": "assets/021359bd15bf746bcc7215edfb4989079e7290ffdd99811e6434d38dff2bbc7b.jpg",
+      "sha256": "021359bd15bf746bcc7215edfb4989079e7290ffdd99811e6434d38dff2bbc7b",
+      "length": 442813,
+      "width": 1540,
+      "height": 1080,
+      "orientation": "landscape",
+      "mean_colour": "#919189",
+      "thumbnail": "assets/aacfc5ff29865ca1b9345789c9ae6a578ab1e4bc5879697d00f3338a90b9ade7.webp",
+      "alt_text": "A watercolour of a bright blue bay with a stone fort on rocks, and beachgoers with red and blue parasols on the sand in the foreground.",
+      "placard": {
+        "title": "Beach, St. Malo",
+        "creator": "Maurice Prendergast (American, born Newfoundland [now Canada], 1858–1924)",
+        "date": "c. 1907",
+        "medium": "watercolor with gouache over graphite",
+        "dimensions": "Sheet: 34.9 x 50.5 cm (13 3/4 x 19 7/8 in.)",
+        "institution": "The Cleveland Museum of Art",
+        "canonical_url": "https://clevelandart.org/art/1949.543"
+      },
+      "rights": {
+        "license": "CC0-1.0",
+        "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "evidence": {
+          "provider_field": "share_license_status",
+          "provider_value": "CC0",
+          "image_url": "https://openaccess-cdn.clevelandart.org/1949.543/1949.543_print.jpg",
+          "observed_at": "2026-10-06T11:46:18+00:00"
+        }
+      }
+    },
+    {
+      "provider": "aic",
+      "object_id": "16544",
+      "file": "assets/95602f4cceb1df40fdbbe10e0e17dac4da427720e047b9feafdaed8a0a9e57ff.jpg",
+      "sha256": "95602f4cceb1df40fdbbe10e0e17dac4da427720e047b9feafdaed8a0a9e57ff",
+      "length": 197033,
+      "width": 1547,
+      "height": 1080,
+      "orientation": "landscape",
+      "mean_colour": "#98978a",
+      "thumbnail": "assets/413527fafe7f8fbc8a92b9c5651e6b91de33efce2423a225addb68645cc3e3e3.webp",
+      "alt_text": "A bridge and the towers of Westminster dissolving into a hazy fog of pale yellow, lilac and green.",
+      "placard": {
+        "title": "Charing Cross Bridge, London",
+        "creator": "Claude Monet (French, 1840–1926)",
+        "date": "1901",
+        "medium": "Oil on canvas",
+        "dimensions": "65 × 92.2 cm (25 5/8 × 36 5/16 in.); Framed: 87 × 113.1 × 11.2 cm (34 1/4 × 44 1/2 × 4 3/8 in.)",
+        "institution": "Art Institute of Chicago",
+        "canonical_url": "https://www.artic.edu/artworks/16544"
+      },
+      "rights": {
+        "license": "CC0-1.0",
+        "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "evidence": {
+          "provider_field": "is_public_domain",
+          "provider_value": true,
+          "image_url": "https://www.artic.edu/iiif/2/e9179922-f68d-34c5-481d-abf49e046863/full/1686,/0/default.jpg",
+          "observed_at": "2026-10-06T11:46:20+00:00"
+        }
+      }
+    },
+    {
+      "provider": "cleveland",
+      "object_id": "161230",
+      "file": "assets/70e2019370040daf8b06b29957ccd8b5bcc16c79f6bedb681378eb6525b09eac.jpg",
+      "sha256": "70e2019370040daf8b06b29957ccd8b5bcc16c79f6bedb681378eb6525b09eac",
+      "length": 391567,
+      "width": 1738,
+      "height": 1080,
+      "orientation": "landscape",
+      "mean_colour": "#a0938e",
+      "thumbnail": "assets/6726530ed40ba5133557d3403e72ead651ad71e1ca93642e5cbb7fa76bd6e66f.webp",
+      "alt_text": "A colour woodcut of a white moon rising behind red rocks on a low sandbar, reflected in calm violet-grey water.",
+      "placard": {
+        "title": "Moonrise",
+        "creator": "Arthur Wesley Dow (American, 1857–1922)",
+        "date": "c. 1915",
+        "medium": "color woodcut",
+        "dimensions": "Sheet: 15.1 x 24 cm (5 15/16 x 9 7/16 in.); Image: 10.8 x 17.7 cm (4 1/4 x 6 15/16 in.)",
+        "institution": "The Cleveland Museum of Art",
+        "canonical_url": "https://clevelandart.org/art/1999.324"
+      },
+      "rights": {
+        "license": "CC0-1.0",
+        "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "evidence": {
+          "provider_field": "share_license_status",
+          "provider_value": "CC0",
+          "image_url": "https://openaccess-cdn.clevelandart.org/1999.324/1999.324_print.jpg",
+          "observed_at": "2026-10-06T11:46:23+00:00"
+        }
+      }
+    },
+    {
+      "provider": "aic",
+      "object_id": "111062",
+      "file": "assets/fd5b4d31e8bbf0a308899d5a2ddbad70d44567af869885a268b8fac8259c7294.jpg",
+      "sha256": "fd5b4d31e8bbf0a308899d5a2ddbad70d44567af869885a268b8fac8259c7294",
+      "length": 409214,
+      "width": 1369,
+      "height": 1080,
+      "orientation": "landscape",
+      "mean_colour": "#69735e",
+      "thumbnail": "assets/1c2083f53b9b33961b0c2b6082afb97b135095e21f139e490fe370847ef799be.webp",
+      "alt_text": "A Tahitian garden of tall pale tree trunks, broad leaves and thatched huts, with figures resting on the green grass in bright, flat colour.",
+      "placard": {
+        "title": "Te raau rahi (The Big Tree)",
+        "creator": "Paul Gauguin (French, 1848–1903)",
+        "date": "1891",
+        "medium": "Oil on jute canvas",
+        "dimensions": "72.5 × 91.5 cm (28 9/16 × 36 in.); Framed: 96.6 × 115.6 × 11.5 cm (38 × 45 1/2 × 4 1/2 in.)",
+        "institution": "Art Institute of Chicago",
+        "canonical_url": "https://www.artic.edu/artworks/111062"
+      },
+      "rights": {
+        "license": "CC0-1.0",
+        "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "evidence": {
+          "provider_field": "is_public_domain",
+          "provider_value": true,
+          "image_url": "https://www.artic.edu/iiif/2/916405d1-1407-d90e-1be8-f8c77f26f546/full/1686,/0/default.jpg",
+          "observed_at": "2026-10-06T11:46:26+00:00"
+        }
+      }
+    },
+    {
+      "provider": "cleveland",
+      "object_id": "162907",
+      "file": "assets/9d06e04bb95825e6c28d47f2ded2ec0480ef185c3e0e53339426a3825ef9fc46.jpg",
+      "sha256": "9d06e04bb95825e6c28d47f2ded2ec0480ef185c3e0e53339426a3825ef9fc46",
+      "length": 241957,
+      "width": 1506,
+      "height": 1080,
+      "orientation": "landscape",
+      "mean_colour": "#bdad89",
+      "thumbnail": "assets/df90f5501cc74e433b97198e231ee5f821e5e498e9ed417ebf20f4ed313f2abf.webp",
+      "alt_text": "A colour print of a pine-framed cove with pink rocks, small sailing boats on pale green water and islands under soft clouds.",
+      "placard": {
+        "title": "Aspects of Nature: The Island",
+        "creator": "Henri Rivière (French, 1864–1951)",
+        "date": "1898",
+        "medium": "color lithograph",
+        "dimensions": "Sheet: 64.2 x 90 cm (25 1/4 x 35 7/16 in.); Image: 54.5 x 83 cm (21 7/16 x 32 11/16 in.)",
+        "institution": "The Cleveland Museum of Art",
+        "canonical_url": "https://clevelandart.org/art/2003.385"
+      },
+      "rights": {
+        "license": "CC0-1.0",
+        "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "evidence": {
+          "provider_field": "share_license_status",
+          "provider_value": "CC0",
+          "image_url": "https://openaccess-cdn.clevelandart.org/2003.385/2003.385_print.jpg",
+          "observed_at": "2026-10-06T11:46:29+00:00"
+        }
+      }
+    },
+    {
+      "provider": "aic",
+      "object_id": "8980",
+      "file": "assets/2a94dc8258d45eac3689c01998f7ee97ddb61f6c25355bd9215d434aff9d977c.jpg",
+      "sha256": "2a94dc8258d45eac3689c01998f7ee97ddb61f6c25355bd9215d434aff9d977c",
+      "length": 297825,
+      "width": 1371,
+      "height": 1080,
+      "orientation": "landscape",
+      "mean_colour": "#6d6555",
+      "thumbnail": "assets/7b179c579559dd59d3f4d1c5bc647486f1310e0e1598ddb78c874ebfd1033278.webp",
+      "alt_text": "A village landscape broken into bold blocks of red, blue, green and yellow, with two tall poplar trees.",
+      "placard": {
+        "title": "Landscape with Two Poplars",
+        "creator": "Vasily Kandinsky (Born Moscow (formerly Russian Empire, now Russia), 1866; died Neuilly-sur-Seine, France, 1944)",
+        "date": "1912",
+        "medium": "Oil on canvas",
+        "dimensions": "78.8 × 100.4 cm (31 × 39 1/2 in.)",
+        "institution": "Art Institute of Chicago",
+        "canonical_url": "https://www.artic.edu/artworks/8980"
+      },
+      "rights": {
+        "license": "CC0-1.0",
+        "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "evidence": {
+          "provider_field": "is_public_domain",
+          "provider_value": true,
+          "image_url": "https://www.artic.edu/iiif/2/9694ca0c-c4c4-e48d-566f-4d248990cff4/full/1686,/0/default.jpg",
+          "observed_at": "2026-10-06T11:46:32+00:00"
+        }
+      }
+    },
+    {
+      "provider": "aic",
+      "object_id": "12601",
+      "file": "assets/b015f846b3916ff113aef5cfa4a46abc366f7507d9b2c49745686ef6bada4c8e.jpg",
+      "sha256": "b015f846b3916ff113aef5cfa4a46abc366f7507d9b2c49745686ef6bada4c8e",
+      "length": 178163,
+      "width": 1424,
+      "height": 1080,
+      "orientation": "landscape",
+      "mean_colour": "#cbccbe",
+      "thumbnail": "assets/bcf4d5083f0f1a62639a99d1142faf238f5c5e58688213586c271b7b37fc167f.webp",
+      "alt_text": "A pale colour lithograph of a harbour at evening, with a pier, a lighthouse tower and sailing boats drawn in small dabs of blue and yellow.",
+      "placard": {
+        "title": "Evening",
+        "creator": "Paul Signac (French, 1863-1935) (printed by Auguste Clot (French, 1858-1936))",
+        "date": "1898",
+        "medium": "Lithograph in five colors (light blue, blue, yellow, pink and green) on ivory wove chine",
+        "dimensions": "Image: 19.5 × 25.4 cm (7 11/16 × 10 in.); Sheet: 19.5 × 25.4 cm (7 11/16 × 10 in.)",
+        "institution": "Art Institute of Chicago",
+        "canonical_url": "https://www.artic.edu/artworks/12601"
+      },
+      "rights": {
+        "license": "CC0-1.0",
+        "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "evidence": {
+          "provider_field": "is_public_domain",
+          "provider_value": true,
+          "image_url": "https://www.artic.edu/iiif/2/45f84c65-657f-482b-1b49-16d4a2caab01/full/1686,/0/default.jpg",
+          "observed_at": "2026-10-06T11:46:34+00:00"
+        }
+      }
+    },
+    {
+      "provider": "cleveland",
+      "object_id": "128074",
+      "file": "assets/70f64e0861d2c285b06c1f636f63fa8809fa329a8d06b2103482d25bb8baca8d.jpg",
+      "sha256": "70f64e0861d2c285b06c1f636f63fa8809fa329a8d06b2103482d25bb8baca8d",
+      "length": 466336,
+      "width": 1789,
+      "height": 1080,
+      "orientation": "landscape",
+      "mean_colour": "#967d61",
+      "thumbnail": "assets/9f23770873c1a4ca0678178a4ae865eac6470a5696bb461134c261790533f1ec.webp",
+      "alt_text": "A bustling Paris café interior glowing with pink and gold light, with white tables and bentwood chairs in the foreground.",
+      "placard": {
+        "title": "Café Wepler",
+        "creator": "Édouard Vuillard (French, 1868–1940)",
+        "date": "c. 1908–10, reworked in 1912",
+        "medium": "oil on fabric",
+        "dimensions": "Framed: 91.8 x 132.7 x 13 cm (36 1/8 x 52 1/4 x 5 1/8 in.); Unframed: 62.2 x 103.2 cm (24 1/2 x 40 5/8 in.)",
+        "institution": "The Cleveland Museum of Art",
+        "canonical_url": "https://clevelandart.org/art/1950.90"
+      },
+      "rights": {
+        "license": "CC0-1.0",
+        "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "evidence": {
+          "provider_field": "share_license_status",
+          "provider_value": "CC0",
+          "image_url": "https://openaccess-cdn.clevelandart.org/1950.90/1950.90_print.jpg",
+          "observed_at": "2026-10-06T11:46:37+00:00"
+        }
+      }
+    },
+    {
+      "provider": "aic",
+      "object_id": "186314",
+      "file": "assets/16949871116cec66edce5a4e80ca6b3880c123f550579ba059d0729548b3de03.jpg",
+      "sha256": "16949871116cec66edce5a4e80ca6b3880c123f550579ba059d0729548b3de03",
+      "length": 312562,
+      "width": 1588,
+      "height": 1080,
+      "orientation": "landscape",
+      "mean_colour": "#aca487",
+      "thumbnail": "assets/3f74b65c6bd105b839f1795e84100ef3d046e87a7d14ecf8d6a2d57877df458f.webp",
+      "alt_text": "A watercolour of pollarded willows and bare trees along a still canal, with boats moored and a distant city skyline.",
+      "placard": {
+        "title": "Amsterdam Skyline Viewed from the West",
+        "creator": "Piet Mondrian (Dutch, 1872–1944)",
+        "date": "c. 1899",
+        "medium": "Watercolor, gouache, and fabricated black chalk, with erasures, on cream wove paper",
+        "dimensions": "39.9 × 58.8 cm (15 3/4 × 23 3/16 in.)",
+        "institution": "Art Institute of Chicago",
+        "canonical_url": "https://www.artic.edu/artworks/186314"
+      },
+      "rights": {
+        "license": "CC0-1.0",
+        "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "evidence": {
+          "provider_field": "is_public_domain",
+          "provider_value": true,
+          "image_url": "https://www.artic.edu/iiif/2/133d4a6e-7be9-a652-f3db-34be49c671c8/full/1686,/0/default.jpg",
+          "observed_at": "2026-10-06T11:46:40+00:00"
+        }
+      }
+    },
+    {
+      "provider": "cleveland",
+      "object_id": "162906",
+      "file": "assets/225d92a2e7e463a162a32f6a12d514fe0ef1ff676e7bc26ed57035fc30f61b27.jpg",
+      "sha256": "225d92a2e7e463a162a32f6a12d514fe0ef1ff676e7bc26ed57035fc30f61b27",
+      "length": 351445,
+      "width": 1605,
+      "height": 1080,
+      "orientation": "landscape",
+      "mean_colour": "#a3926d",
+      "thumbnail": "assets/203e060c376bdc145eb971455dd91b9cf7e89fc80e8eaaab17affca84de6c1b3.webp",
+      "alt_text": "A colour print of green, moss-covered cliffs above a pale foaming sea, with a herder and animals grazing on the clifftop.",
+      "placard": {
+        "title": "Aspects of Nature: The Cliff",
+        "creator": "Henri Rivière (French, 1864–1951)",
+        "date": "1897",
+        "medium": "color lithograph",
+        "dimensions": "Sheet: 64.2 x 89.8 cm (25 1/4 x 35 3/8 in.); Image: 55 x 82.7 cm (21 5/8 x 32 9/16 in.)",
+        "institution": "The Cleveland Museum of Art",
+        "canonical_url": "https://clevelandart.org/art/2003.384"
+      },
+      "rights": {
+        "license": "CC0-1.0",
+        "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "evidence": {
+          "provider_field": "share_license_status",
+          "provider_value": "CC0",
+          "image_url": "https://openaccess-cdn.clevelandart.org/2003.384/2003.384_print.jpg",
+          "observed_at": "2026-10-06T11:46:43+00:00"
+        }
+      }
+    }
+  ],
+  "refused": [],
+  "review_notes": []
+}

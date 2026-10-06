@@ -1,0 +1,781 @@
+{
+  "schema_version": 1,
+  "slug": "impressionist-gardens",
+  "name": "Impressionist gardens",
+  "description": "Gardens, parks, flower fields and orchards by the Impressionists and the painters and printmakers around them, chosen for a bright, unhurried screen.",
+  "shape": "landscape",
+  "curated_on": "2026-10-06",
+  "strip": "assets/7cc241df5a8d42c316b304b0904ee2eee5f663e9d88e03a1dba2f8b57999d576.webp",
+  "works": [
+    {
+      "provider": "aic",
+      "object_id": "4783",
+      "file": "assets/2acdcaffbbeaa557b169781b2d572deaab294778eb841a1cdf1afb1a44d0527d.jpg",
+      "sha256": "2acdcaffbbeaa557b169781b2d572deaab294778eb841a1cdf1afb1a44d0527d",
+      "length": 263792,
+      "width": 1663,
+      "height": 1080,
+      "orientation": "landscape",
+      "mean_colour": "#75879c",
+      "thumbnail": "assets/23ab9d552b5c1b55570356c361273d10fbcc1bb5eca0a684eafc266c6e33a5d0.webp",
+      "alt_text": "A field of red poppies stretches under a blue sky with soft clouds, lined with tall poplars and round green trees.",
+      "placard": {
+        "title": "Poppy Field (Giverny)",
+        "creator": "Claude Monet (French, 1840–1926)",
+        "date": "1890–91",
+        "medium": "Oil on canvas",
+        "dimensions": "61.2 × 93.4 cm (24 1/16 × 36 3/4 in.); Framed: 77.5 × 109.3 × 7 cm (30 1/2 × 43 × 2 3/4 in.)",
+        "institution": "Art Institute of Chicago",
+        "canonical_url": "https://www.artic.edu/artworks/4783"
+      },
+      "rights": {
+        "license": "CC0-1.0",
+        "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "evidence": {
+          "provider_field": "is_public_domain",
+          "provider_value": true,
+          "image_url": "https://www.artic.edu/iiif/2/db94c894-a24c-c2e0-9db9-0506567a0152/full/1686,/0/default.jpg",
+          "observed_at": "2026-10-06T11:39:52+00:00"
+        }
+      }
+    },
+    {
+      "provider": "aic",
+      "object_id": "28849",
+      "file": "assets/e1b1880b240607eedec4c179cb5cfcca5777a50dfa1d0bc6b26a0d8c1d78dadf.jpg",
+      "sha256": "e1b1880b240607eedec4c179cb5cfcca5777a50dfa1d0bc6b26a0d8c1d78dadf",
+      "length": 333670,
+      "width": 1558,
+      "height": 1080,
+      "orientation": "landscape",
+      "mean_colour": "#a3a47d",
+      "thumbnail": "assets/2e6e7b2ea66ab394484d0906bb497b60e458a451abced76997b441c90bfbc3ed.webp",
+      "alt_text": "A sunny gravel path curves through a city park past green lawns, palms and flower beds, with a woman resting on a bench.",
+      "placard": {
+        "title": "A City Park",
+        "creator": "William Merritt Chase (American, 1849–1916)",
+        "date": "c. 1887",
+        "medium": "Oil on canvas",
+        "dimensions": "34.6 × 49.9 cm (13 5/8 × 19 5/8 in.)",
+        "institution": "Art Institute of Chicago",
+        "canonical_url": "https://www.artic.edu/artworks/28849"
+      },
+      "rights": {
+        "license": "CC0-1.0",
+        "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "evidence": {
+          "provider_field": "is_public_domain",
+          "provider_value": true,
+          "image_url": "https://www.artic.edu/iiif/2/72a76270-d6f4-e744-d47b-307873a8e8ff/full/1686,/0/default.jpg",
+          "observed_at": "2026-10-06T11:39:54+00:00"
+        }
+      }
+    },
+    {
+      "provider": "aic",
+      "object_id": "97292",
+      "file": "assets/200548503648196ebae90a5c61d4d6f8d4037714e769c3d153f2d1f7c50b8494.jpg",
+      "sha256": "200548503648196ebae90a5c61d4d6f8d4037714e769c3d153f2d1f7c50b8494",
+      "length": 381064,
+      "width": 1566,
+      "height": 1080,
+      "orientation": "landscape",
+      "mean_colour": "#b3a766",
+      "thumbnail": "assets/40524edd77933617e1bc1131ff31c75710d92dc4e4b8671d04a8c3c2c9b849ca.webp",
+      "alt_text": "A sunlit orchard of young blossoming trees beside a pink-walled farmhouse, with a path through bright green grass.",
+      "placard": {
+        "title": "Spring in France",
+        "creator": "Robert William Vonnoh (American, 1858–1933)",
+        "date": "1890",
+        "medium": "Oil on canvas",
+        "dimensions": "38.7 × 55.9 cm (15 1/4 × 22 in.)",
+        "institution": "Art Institute of Chicago",
+        "canonical_url": "https://www.artic.edu/artworks/97292"
+      },
+      "rights": {
+        "license": "CC0-1.0",
+        "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "evidence": {
+          "provider_field": "is_public_domain",
+          "provider_value": true,
+          "image_url": "https://www.artic.edu/iiif/2/0787ea3c-9c03-65a2-adeb-5f5343794324/full/1686,/0/default.jpg",
+          "observed_at": "2026-10-06T11:39:57+00:00"
+        }
+      }
+    },
+    {
+      "provider": "aic",
+      "object_id": "97933",
+      "file": "assets/edf64a46be815e8806098db71ab38a4a5618a8c73ac82b905d0b15d7ebc32158.jpg",
+      "sha256": "edf64a46be815e8806098db71ab38a4a5618a8c73ac82b905d0b15d7ebc32158",
+      "length": 301117,
+      "width": 1675,
+      "height": 1080,
+      "orientation": "landscape",
+      "mean_colour": "#736e51",
+      "thumbnail": "assets/5abd79af88a5179fff5323ed9bb135332d0978fe3d2acf1031bc8b736150d95f.webp",
+      "alt_text": "Pink and white water lilies float on a pond that reflects green and violet foliage, painted in loose, layered strokes.",
+      "placard": {
+        "title": "Water Lily Pond",
+        "creator": "Claude Monet (French, 1840–1926)",
+        "date": "1917–19",
+        "medium": "Oil on canvas",
+        "dimensions": "130.2 × 201.9 cm (51 1/2 × 79 1/2 in.); Framed: 147.4 × 218.5 × 9.9 cm (58 × 86 × 3 7/8 in.)",
+        "institution": "Art Institute of Chicago",
+        "canonical_url": "https://www.artic.edu/artworks/97933"
+      },
+      "rights": {
+        "license": "CC0-1.0",
+        "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "evidence": {
+          "provider_field": "is_public_domain",
+          "provider_value": true,
+          "image_url": "https://www.artic.edu/iiif/2/7a23ad22-2044-6d7d-6315-9b101dadc559/full/1686,/0/default.jpg",
+          "observed_at": "2026-10-06T11:39:59+00:00"
+        }
+      }
+    },
+    {
+      "provider": "cleveland",
+      "object_id": "85861",
+      "file": "assets/83d28e3d7b3d84a1c336cc59875910fb2aaf88948bbc7d19305b93a806a11f47.jpg",
+      "sha256": "83d28e3d7b3d84a1c336cc59875910fb2aaf88948bbc7d19305b93a806a11f47",
+      "length": 236673,
+      "width": 1438,
+      "height": 1080,
+      "orientation": "landscape",
+      "mean_colour": "#7e6d58",
+      "thumbnail": "assets/42ea011eb0bbd8c089f44f8209cce069b08c2ffe6bfca6fd631b590418588a6c.webp",
+      "alt_text": "Terraced orchards and garden plots in autumn yellows, oranges and greens slope down a hillside beside a grey path.",
+      "placard": {
+        "title": "Orchard",
+        "creator": "Édouard Vuillard (French, 1868–1940)",
+        "date": "1897",
+        "medium": "oil on board",
+        "dimensions": "Unframed: 22.4 x 29.4 cm (8 13/16 x 11 9/16 in.)",
+        "institution": "The Cleveland Museum of Art",
+        "canonical_url": "https://clevelandart.org/art/2020.120"
+      },
+      "rights": {
+        "license": "CC0-1.0",
+        "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "evidence": {
+          "provider_field": "share_license_status",
+          "provider_value": "CC0",
+          "image_url": "https://openaccess-cdn.clevelandart.org/2020.120/2020.120_print.jpg",
+          "observed_at": "2026-10-06T11:40:01+00:00"
+        }
+      }
+    },
+    {
+      "provider": "cleveland",
+      "object_id": "128072",
+      "file": "assets/0fedaf03f7397746ec70c282e6fcacef36ac3651e49da95d125cab2e0064da13.jpg",
+      "sha256": "0fedaf03f7397746ec70c282e6fcacef36ac3651e49da95d125cab2e0064da13",
+      "length": 272969,
+      "width": 1689,
+      "height": 1080,
+      "orientation": "landscape",
+      "mean_colour": "#6c7665",
+      "thumbnail": "assets/df8e2745039207e7198c9c16c16fb4210901bde08e77295f82ca1c74011bb7a4.webp",
+      "alt_text": "A woman in a white dress sits reading on a green lawn, with a fan and a parasol beside her and a meadow beyond.",
+      "placard": {
+        "title": "Reading",
+        "creator": "Berthe Morisot (French, 1841–1895)",
+        "date": "1873",
+        "medium": "oil on canvas",
+        "dimensions": "Framed: 74.3 x 100.3 x 12.1 cm (29 1/4 x 39 1/2 x 4 3/4 in.); Unframed: 46 x 71.8 cm (18 1/8 x 28 1/4 in.)",
+        "institution": "The Cleveland Museum of Art",
+        "canonical_url": "https://clevelandart.org/art/1950.89"
+      },
+      "rights": {
+        "license": "CC0-1.0",
+        "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "evidence": {
+          "provider_field": "share_license_status",
+          "provider_value": "CC0",
+          "image_url": "https://openaccess-cdn.clevelandart.org/1950.89/1950.89_print.jpg",
+          "observed_at": "2026-10-06T11:40:05+00:00"
+        }
+      }
+    },
+    {
+      "provider": "aic",
+      "object_id": "55494",
+      "file": "assets/31b6e5d8217cf9d0f7247c22331dfa9d50f4cddff02b0279e7234059bed0f7f3.jpg",
+      "sha256": "31b6e5d8217cf9d0f7247c22331dfa9d50f4cddff02b0279e7234059bed0f7f3",
+      "length": 249642,
+      "width": 1621,
+      "height": 1080,
+      "orientation": "landscape",
+      "mean_colour": "#5d6454",
+      "thumbnail": "assets/c1653c68dc9a4560be000212ae8730bd26ec140b032a7886a6ba33f95f1007fa.webp",
+      "alt_text": "A young woman in white sits on a stone wall beside a small tree of pink peach blossom, with green hills behind.",
+      "placard": {
+        "title": "Peach Blossoms",
+        "creator": "Winslow Homer (American, 1836–1910)",
+        "date": "1878",
+        "medium": "Oil on canvas",
+        "dimensions": "33.7 × 49 cm (13 1/4 × 19 5/8 in.)",
+        "institution": "Art Institute of Chicago",
+        "canonical_url": "https://www.artic.edu/artworks/55494"
+      },
+      "rights": {
+        "license": "CC0-1.0",
+        "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "evidence": {
+          "provider_field": "is_public_domain",
+          "provider_value": true,
+          "image_url": "https://www.artic.edu/iiif/2/6efc1bea-c900-28c5-e02a-c14189b10fb3/full/1686,/0/default.jpg",
+          "observed_at": "2026-10-06T11:40:08+00:00"
+        }
+      }
+    },
+    {
+      "provider": "aic",
+      "object_id": "105462",
+      "file": "assets/d2c1039d871600aa2041e39d74e9fd73a613364d592de71cb2dbdd4657b6118b.jpg",
+      "sha256": "d2c1039d871600aa2041e39d74e9fd73a613364d592de71cb2dbdd4657b6118b",
+      "length": 283878,
+      "width": 1506,
+      "height": 1080,
+      "orientation": "landscape",
+      "mean_colour": "#b9c5be",
+      "thumbnail": "assets/37898d8d3bc3bd29f69326f23e674901648f6d4e6a29f5dfb16b03e0cbe2738e.webp",
+      "alt_text": "A small blue pond lies among rocks, grasses and white wild roses, with the sea and a low island beyond.",
+      "placard": {
+        "title": "The Little Pond, Appledore",
+        "creator": "Childe Hassam (American, 1859–1935)",
+        "date": "1890",
+        "medium": "Oil on canvas",
+        "dimensions": "40.6 × 55.8 cm (16 × 22 in.)",
+        "institution": "Art Institute of Chicago",
+        "canonical_url": "https://www.artic.edu/artworks/105462"
+      },
+      "rights": {
+        "license": "CC0-1.0",
+        "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "evidence": {
+          "provider_field": "is_public_domain",
+          "provider_value": true,
+          "image_url": "https://www.artic.edu/iiif/2/b4ee4891-5d7b-11ad-93df-2b64e34de991/full/1686,/0/default.jpg",
+          "observed_at": "2026-10-06T11:40:11+00:00"
+        }
+      }
+    },
+    {
+      "provider": "aic",
+      "object_id": "30928",
+      "file": "assets/f045a0e18698296fa8aabeffaa6f26ac1d96ed21d11fb179111793f562c74377.jpg",
+      "sha256": "f045a0e18698296fa8aabeffaa6f26ac1d96ed21d11fb179111793f562c74377",
+      "length": 413170,
+      "width": 1574,
+      "height": 1080,
+      "orientation": "landscape",
+      "mean_colour": "#938d7c",
+      "thumbnail": "assets/f7b8c6a1e8f4e6d76607e9a250b81fa38587336de4ed2af7600bb897e88bb1ca.webp",
+      "alt_text": "Crowds of children and adults in summer clothes stroll down a broad stone terrace staircase in a leafy park.",
+      "placard": {
+        "title": "The Terrace Bridge, Central Park",
+        "creator": "Maurice Prendergast (American, 1858-1924)",
+        "date": "1901",
+        "medium": "Watercolor, over graphite, on ivory wove paper",
+        "dimensions": "38.8 × 56.9 cm (15 5/16 × 22 7/16 in.)",
+        "institution": "Art Institute of Chicago",
+        "canonical_url": "https://www.artic.edu/artworks/30928"
+      },
+      "rights": {
+        "license": "CC0-1.0",
+        "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "evidence": {
+          "provider_field": "is_public_domain",
+          "provider_value": true,
+          "image_url": "https://www.artic.edu/iiif/2/7182fe78-c4dd-c30d-2ae7-d1e018aacfd8/full/1686,/0/default.jpg",
+          "observed_at": "2026-10-06T11:40:13+00:00"
+        }
+      }
+    },
+    {
+      "provider": "cleveland",
+      "object_id": "108452",
+      "file": "assets/86220b159b31a27222b0aaff5910a97a94e823b1a699888147c0863480b8ca44.jpg",
+      "sha256": "86220b159b31a27222b0aaff5910a97a94e823b1a699888147c0863480b8ca44",
+      "length": 366207,
+      "width": 1522,
+      "height": 1080,
+      "orientation": "landscape",
+      "mean_colour": "#8e8367",
+      "thumbnail": "assets/c805472c11fdb7e3a303c3f25a2d7b40d9d7aabc81d30545165611ebe4bc43bc.webp",
+      "alt_text": "Children in white and pink dresses dance around ribboned maypoles on a wide green lawn in a park.",
+      "placard": {
+        "title": "May Day, Central Park",
+        "creator": "Maurice Prendergast (American, born Newfoundland [now Canada], 1858–1924)",
+        "date": "1901",
+        "medium": "watercolor over graphite",
+        "dimensions": "Sheet: 35.4 x 50.6 cm (13 15/16 x 19 15/16 in.)",
+        "institution": "The Cleveland Museum of Art",
+        "canonical_url": "https://clevelandart.org/art/1926.17"
+      },
+      "rights": {
+        "license": "CC0-1.0",
+        "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "evidence": {
+          "provider_field": "share_license_status",
+          "provider_value": "CC0",
+          "image_url": "https://openaccess-cdn.clevelandart.org/1926.17/1926.17_print.jpg",
+          "observed_at": "2026-10-06T11:40:16+00:00"
+        }
+      }
+    },
+    {
+      "provider": "cleveland",
+      "object_id": "129371",
+      "file": "assets/dae81b80c469c44d98b19ce7921650894629b7b14b359aacd34d43c84fb6e3bf.jpg",
+      "sha256": "dae81b80c469c44d98b19ce7921650894629b7b14b359aacd34d43c84fb6e3bf",
+      "length": 418834,
+      "width": 1545,
+      "height": 1080,
+      "orientation": "landscape",
+      "mean_colour": "#9aa9b3",
+      "thumbnail": "assets/6ad6fb82906d1cf1458e9d1e8ab7889413b900b31ed6e3c7f8a468163a0c86c7.webp",
+      "alt_text": "Women in pale robes walk beneath tall blue cypress trees beside a bay with sailing boats, all drawn in coloured dots.",
+      "placard": {
+        "title": "The Promenade (Landscape with Cypresses)",
+        "creator": "Henri-Edmond Cross (French, 1856–1910)",
+        "date": "1897",
+        "medium": "color lithograph on chine collé",
+        "dimensions": null,
+        "institution": "The Cleveland Museum of Art",
+        "canonical_url": "https://clevelandart.org/art/1952.209"
+      },
+      "rights": {
+        "license": "CC0-1.0",
+        "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "evidence": {
+          "provider_field": "share_license_status",
+          "provider_value": "CC0",
+          "image_url": "https://openaccess-cdn.clevelandart.org/1952.209/1952.209_print.jpg",
+          "observed_at": "2026-10-06T11:40:19+00:00"
+        }
+      }
+    },
+    {
+      "provider": "cleveland",
+      "object_id": "133102",
+      "file": "assets/d025bb031a875209f9c7b8805bc15a5cdef5695608da21450d966186575f423f.jpg",
+      "sha256": "d025bb031a875209f9c7b8805bc15a5cdef5695608da21450d966186575f423f",
+      "length": 243334,
+      "width": 1387,
+      "height": 1080,
+      "orientation": "landscape",
+      "mean_colour": "#a8a89b",
+      "thumbnail": "assets/bcac49f1bc25aa8845d58c93247f06020431d327c2987df77618c903e1afb1d8.webp",
+      "alt_text": "A nursemaid in a blue cape watches a child playing beside a red toy horse under chestnut trees, drawn in soft coloured dots.",
+      "placard": {
+        "title": "In the Park",
+        "creator": "Henri-Edmond Cross (French, 1856–1910)",
+        "date": "c. 1890s",
+        "medium": "color lithograph",
+        "dimensions": null,
+        "institution": "The Cleveland Museum of Art",
+        "canonical_url": "https://clevelandart.org/art/1955.501"
+      },
+      "rights": {
+        "license": "CC0-1.0",
+        "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "evidence": {
+          "provider_field": "share_license_status",
+          "provider_value": "CC0",
+          "image_url": "https://openaccess-cdn.clevelandart.org/1955.501/1955.501_print.jpg",
+          "observed_at": "2026-10-06T11:40:23+00:00"
+        }
+      }
+    },
+    {
+      "provider": "cleveland",
+      "object_id": "120812",
+      "file": "assets/6eb25dfa3898435acf7138a6355d063ef21adcd6d857223a607094ac82409574.jpg",
+      "sha256": "6eb25dfa3898435acf7138a6355d063ef21adcd6d857223a607094ac82409574",
+      "length": 208448,
+      "width": 1543,
+      "height": 1080,
+      "orientation": "landscape",
+      "mean_colour": "#c8c9c0",
+      "thumbnail": "assets/15d91134533e61324173a25dcee8ba064697eff8e53591ccd3d21ec35b305180.webp",
+      "alt_text": "Ladies stroll past a round bed of white flowers on a pale lawn in a city garden, with white pigeons in the foreground.",
+      "placard": {
+        "title": "The Tuileries Garden",
+        "creator": "Édouard Vuillard (French, 1868–1940)",
+        "date": "1896",
+        "medium": "color lithograph",
+        "dimensions": "Image: 28.4 x 42.9 cm (11 3/16 x 16 7/8 in.); Sheet: 42.8 x 55.7 cm (16 7/8 x 21 15/16 in.)",
+        "institution": "The Cleveland Museum of Art",
+        "canonical_url": "https://clevelandart.org/art/1941.539"
+      },
+      "rights": {
+        "license": "CC0-1.0",
+        "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "evidence": {
+          "provider_field": "share_license_status",
+          "provider_value": "CC0",
+          "image_url": "https://openaccess-cdn.clevelandart.org/1941.539/1941.539_print.jpg",
+          "observed_at": "2026-10-06T11:40:27+00:00"
+        }
+      }
+    },
+    {
+      "provider": "aic",
+      "object_id": "133456",
+      "file": "assets/2ed651384ba9a90c51053aeb50ec1ff6b8f70cab99d02f11824bb5d75172d7ab.jpg",
+      "sha256": "2ed651384ba9a90c51053aeb50ec1ff6b8f70cab99d02f11824bb5d75172d7ab",
+      "length": 305170,
+      "width": 1607,
+      "height": 1080,
+      "orientation": "landscape",
+      "mean_colour": "#93876c",
+      "thumbnail": "assets/844de64594397fc9943f334ced5025a7941832cf28b8a0a29ef8ee8e98f393b6.webp",
+      "alt_text": "A sunlit stone terrace with a row of pale columns looks onto a garden of bright green leaves and shrubs.",
+      "placard": {
+        "title": "Tarragona Terrace and Garden",
+        "creator": "John Singer Sargent (American, 1856-1925)",
+        "date": "c. 1908",
+        "medium": "Watercolor and opaque watercolor with printed paper fragments over traces of graphite on ivory wove paper",
+        "dimensions": "30.5 × 45.9 cm (12 1/4 × 18 in.)",
+        "institution": "Art Institute of Chicago",
+        "canonical_url": "https://www.artic.edu/artworks/133456"
+      },
+      "rights": {
+        "license": "CC0-1.0",
+        "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "evidence": {
+          "provider_field": "is_public_domain",
+          "provider_value": true,
+          "image_url": "https://www.artic.edu/iiif/2/931edccd-9a37-bfa7-d9a5-13d644956b40/full/1686,/0/default.jpg",
+          "observed_at": "2026-10-06T11:40:30+00:00"
+        }
+      }
+    },
+    {
+      "provider": "aic",
+      "object_id": "53231",
+      "file": "assets/f3f1268564824105976fe47e0f58ee2ada98660234419a900492e3c657b46176.jpg",
+      "sha256": "f3f1268564824105976fe47e0f58ee2ada98660234419a900492e3c657b46176",
+      "length": 369016,
+      "width": 1639,
+      "height": 1080,
+      "orientation": "landscape",
+      "mean_colour": "#7e7e4d",
+      "thumbnail": "assets/f096a6d320a162a6d6c0b72b0a23d4d341b5974c475d581b723045f8e7424526.webp",
+      "alt_text": "A small girl in white walks down broad stone steps through a green park lined with tall trees.",
+      "placard": {
+        "title": "Saint-Cloud",
+        "creator": "Childe Hassam (American, 1859-1935)",
+        "date": "1889",
+        "medium": "Watercolor on paper",
+        "dimensions": "18 × 27.5 cm (7 1/8 × 10 7/8 in.)",
+        "institution": "Art Institute of Chicago",
+        "canonical_url": "https://www.artic.edu/artworks/53231"
+      },
+      "rights": {
+        "license": "CC0-1.0",
+        "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "evidence": {
+          "provider_field": "is_public_domain",
+          "provider_value": true,
+          "image_url": "https://www.artic.edu/iiif/2/c6f933da-b9af-0c38-340c-0e2bc737ad1e/full/1686,/0/default.jpg",
+          "observed_at": "2026-10-06T11:40:32+00:00"
+        }
+      }
+    },
+    {
+      "provider": "cleveland",
+      "object_id": "79235",
+      "file": "assets/cd178203d9d3edb209054377de3bb443eb75f0d84e62de6bfc7adcaff76178aa.jpg",
+      "sha256": "cd178203d9d3edb209054377de3bb443eb75f0d84e62de6bfc7adcaff76178aa",
+      "length": 249467,
+      "width": 1423,
+      "height": 1080,
+      "orientation": "landscape",
+      "mean_colour": "#beb58a",
+      "thumbnail": "assets/9b13627708fda80b1ad9180ad049042b7134b46598c2723d4a6a5babbe14dcd6.webp",
+      "alt_text": "Young women in long pale dresses play blindman's buff on a park lawn, one of them blindfolded at the centre, with autumn trees beyond.",
+      "placard": {
+        "title": "Blind Man's Bluff",
+        "creator": "Alexandre Lunois (French, 1863–1916)",
+        "date": "1897",
+        "medium": "color lithograph",
+        "dimensions": null,
+        "institution": "The Cleveland Museum of Art",
+        "canonical_url": "https://clevelandart.org/art/2016.218"
+      },
+      "rights": {
+        "license": "CC0-1.0",
+        "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "evidence": {
+          "provider_field": "share_license_status",
+          "provider_value": "CC0",
+          "image_url": "https://openaccess-cdn.clevelandart.org/2016.218/2016.218_print.jpg",
+          "observed_at": "2026-10-06T11:40:35+00:00"
+        }
+      }
+    },
+    {
+      "provider": "cleveland",
+      "object_id": "125923",
+      "file": "assets/3e873e1658f3ee380afa23fe791c6bc0ef00ecb2bdd24c28f63672e8ca1d7a2b.jpg",
+      "sha256": "3e873e1658f3ee380afa23fe791c6bc0ef00ecb2bdd24c28f63672e8ca1d7a2b",
+      "length": 376872,
+      "width": 1536,
+      "height": 1080,
+      "orientation": "landscape",
+      "mean_colour": "#c9aa8d",
+      "thumbnail": "assets/cec0c9d6f9de4967c166c133b4df1366530a20ea05bfb2962ed09f7831274dec.webp",
+      "alt_text": "Figures, carriages and a dog move along a sandy avenue under bare trees, in a printed tan and brown haze.",
+      "placard": {
+        "title": "Avenue du Bois de Boulogne",
+        "creator": "Pierre Bonnard (French, 1867–1947)",
+        "date": "1899",
+        "medium": "lithograph",
+        "dimensions": "Sheet: 41.4 x 53.2 cm (16 5/16 x 20 15/16 in.); Image: 31 x 46 cm (12 3/16 x 18 1/8 in.)",
+        "institution": "The Cleveland Museum of Art",
+        "canonical_url": "https://clevelandart.org/art/1948.156.2"
+      },
+      "rights": {
+        "license": "CC0-1.0",
+        "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "evidence": {
+          "provider_field": "share_license_status",
+          "provider_value": "CC0",
+          "image_url": "https://openaccess-cdn.clevelandart.org/1948.156.2/1948.156.2_print.jpg",
+          "observed_at": "2026-10-06T11:40:39+00:00"
+        }
+      }
+    },
+    {
+      "provider": "aic",
+      "object_id": "19339",
+      "file": "assets/4001e5347d61f4da07295b29543eedaae95071198516690ec693984da7aa64c1.jpg",
+      "sha256": "4001e5347d61f4da07295b29543eedaae95071198516690ec693984da7aa64c1",
+      "length": 293815,
+      "width": 1366,
+      "height": 1080,
+      "orientation": "landscape",
+      "mean_colour": "#6f6a4a",
+      "thumbnail": "assets/f28eb60e11302c058aa1c0df75d92cd696d526ecb3d7ff6a7242a166f5310f9d.webp",
+      "alt_text": "Women in dark shawls walk through a public garden past a red fence, a green bush and two cone-shaped orange shrubs.",
+      "placard": {
+        "title": "Arlésiennes (Mistral)",
+        "creator": "Paul Gauguin (French, 1848–1903)",
+        "date": "1888",
+        "medium": "Oil on jute canvas",
+        "dimensions": "73 × 92 cm (28 3/4 × 36 3/16 in.); Framed: 97.5 × 116.6 × 8 cm (38 3/8 × 45 7/8 × 3 1/8 in.)",
+        "institution": "Art Institute of Chicago",
+        "canonical_url": "https://www.artic.edu/artworks/19339"
+      },
+      "rights": {
+        "license": "CC0-1.0",
+        "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "evidence": {
+          "provider_field": "is_public_domain",
+          "provider_value": true,
+          "image_url": "https://www.artic.edu/iiif/2/ae6ac285-6887-dd76-4570-d379c786dfae/full/1686,/0/default.jpg",
+          "observed_at": "2026-10-06T11:40:42+00:00"
+        }
+      }
+    },
+    {
+      "provider": "cleveland",
+      "object_id": "167981",
+      "file": "assets/513123396e8ecdbee5e0003faf9245ef0577eb28b1eec956bf5346586fdf1750.jpg",
+      "sha256": "513123396e8ecdbee5e0003faf9245ef0577eb28b1eec956bf5346586fdf1750",
+      "length": 408349,
+      "width": 1434,
+      "height": 1080,
+      "orientation": "landscape",
+      "mean_colour": "#b8a572",
+      "thumbnail": "assets/32f172c9bb8ab94bc1193b3822739ef0782f19a387b40eafe000f727222a1bef.webp",
+      "alt_text": "Women in pale draped dresses sail toy boats in a round pond among white-trunked trees and potted orange trees.",
+      "placard": {
+        "title": "The Park",
+        "creator": "Gaston de Latenay (French, 1859–1943)",
+        "date": "1897",
+        "medium": "color lithograph",
+        "dimensions": "Sheet: 30.5 x 40.5 cm (12 x 15 15/16 in.); Image: 24.5 x 32.9 cm (9 5/8 x 12 15/16 in.)",
+        "institution": "The Cleveland Museum of Art",
+        "canonical_url": "https://clevelandart.org/art/2009.562"
+      },
+      "rights": {
+        "license": "CC0-1.0",
+        "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "evidence": {
+          "provider_field": "share_license_status",
+          "provider_value": "CC0",
+          "image_url": "https://openaccess-cdn.clevelandart.org/2009.562/2009.562_print.jpg",
+          "observed_at": "2026-10-06T11:40:45+00:00"
+        }
+      }
+    },
+    {
+      "provider": "cleveland",
+      "object_id": "166354",
+      "file": "assets/5935ec73888d22f9f499a3fb1ab3cf2eca4b1ad7b4240a594ff1101d92f5b77e.jpg",
+      "sha256": "5935ec73888d22f9f499a3fb1ab3cf2eca4b1ad7b4240a594ff1101d92f5b77e",
+      "length": 453339,
+      "width": 1488,
+      "height": 1080,
+      "orientation": "landscape",
+      "mean_colour": "#a59e96",
+      "thumbnail": "assets/7ebf2156d7333d874775bda72f443dd2f31ac5a962b83e222f9a986c95c38636.webp",
+      "alt_text": "Families sit on chairs and stroll beneath tall trees in a city garden, with a fountain and buildings beyond, in black and white.",
+      "placard": {
+        "title": "Tuileries Gardens",
+        "creator": "Léon Augustin Lhermitte (French, 1844–1925)",
+        "date": "1884",
+        "medium": "etching",
+        "dimensions": "Platemark: 20 x 25.3 cm (7 7/8 x 9 15/16 in.); Sheet: 26.1 x 36.3 cm (10 1/4 x 14 5/16 in.)",
+        "institution": "The Cleveland Museum of Art",
+        "canonical_url": "https://clevelandart.org/art/2008.191"
+      },
+      "rights": {
+        "license": "CC0-1.0",
+        "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "evidence": {
+          "provider_field": "share_license_status",
+          "provider_value": "CC0",
+          "image_url": "https://openaccess-cdn.clevelandart.org/2008.191/2008.191_print.jpg",
+          "observed_at": "2026-10-06T11:40:48+00:00"
+        }
+      }
+    },
+    {
+      "provider": "cleveland",
+      "object_id": "146242",
+      "file": "assets/25c15a572c449ad8de799260644bfde090272f6761a679f9c5f0990483d713fb.jpg",
+      "sha256": "25c15a572c449ad8de799260644bfde090272f6761a679f9c5f0990483d713fb",
+      "length": 244004,
+      "width": 1451,
+      "height": 1080,
+      "orientation": "landscape",
+      "mean_colour": "#6c5f52",
+      "thumbnail": "assets/d4881bcaa516f17eb2b4ea12b2d768c49c6c9d0625d7e809741ec76b128109d6.webp",
+      "alt_text": "A mother and three children sit close together on a garden bench under dark leaves, in a soft black and white print.",
+      "placard": {
+        "title": "The Garden Bench",
+        "creator": "James Tissot (French, 1836–1902)",
+        "date": "1883",
+        "medium": "mezzotint",
+        "dimensions": "Sheet: 54.7 x 72.2 cm (21 9/16 x 28 7/16 in.); Platemark: 41.6 x 56.2 cm (16 3/8 x 22 1/8 in.)",
+        "institution": "The Cleveland Museum of Art",
+        "canonical_url": "https://clevelandart.org/art/1972.1025"
+      },
+      "rights": {
+        "license": "CC0-1.0",
+        "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "evidence": {
+          "provider_field": "share_license_status",
+          "provider_value": "CC0",
+          "image_url": "https://openaccess-cdn.clevelandart.org/1972.1025/1972.1025_print.jpg",
+          "observed_at": "2026-10-06T11:40:51+00:00"
+        }
+      }
+    },
+    {
+      "provider": "aic",
+      "object_id": "151512",
+      "file": "assets/8d7677ddcaa24edca9348ca214fb4daf53ad9889ab9ce50cee5f978cb8dfe753.jpg",
+      "sha256": "8d7677ddcaa24edca9348ca214fb4daf53ad9889ab9ce50cee5f978cb8dfe753",
+      "length": 494833,
+      "width": 1364,
+      "height": 1080,
+      "orientation": "landscape",
+      "mean_colour": "#6c6350",
+      "thumbnail": "assets/712eb0c6e6ae747fead79bdde995314917726e8f5051e1d03f05052c573acd89.webp",
+      "alt_text": "People sit at tables in the dappled shade of tall trees in a beer garden, drawn in dense black lines.",
+      "placard": {
+        "title": "Beer Garden in Rosenheim",
+        "creator": "Max Liebermann (German, 1847-1935) (later published by Pan (German and French, 1895-1900))",
+        "date": "1895",
+        "medium": "Etching on cream laid paper",
+        "dimensions": "Image/plate: 17.8 × 22.6 cm (7 1/16 × 8 15/16 in.); Sheet: 28.3 × 37.6 cm (11 3/16 × 14 13/16 in.)",
+        "institution": "Art Institute of Chicago",
+        "canonical_url": "https://www.artic.edu/artworks/151512"
+      },
+      "rights": {
+        "license": "CC0-1.0",
+        "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "evidence": {
+          "provider_field": "is_public_domain",
+          "provider_value": true,
+          "image_url": "https://www.artic.edu/iiif/2/ff1f84a4-fa89-0782-0b2b-e1e1d6b0aeb4/full/1686,/0/default.jpg",
+          "observed_at": "2026-10-06T11:40:54+00:00"
+        }
+      }
+    },
+    {
+      "provider": "cleveland",
+      "object_id": "107727",
+      "file": "assets/255af1c4f5a82bc3e82ac5e2047140266ec80d733b9c45cd20a06e1d2f840528.jpg",
+      "sha256": "255af1c4f5a82bc3e82ac5e2047140266ec80d733b9c45cd20a06e1d2f840528",
+      "length": 320601,
+      "width": 1497,
+      "height": 1080,
+      "orientation": "landscape",
+      "mean_colour": "#9a9890",
+      "thumbnail": "assets/3a9daa4e742630e980899c1c85743a4ecea6f954488045ff8ab77a89298db322.webp",
+      "alt_text": "A mother and children gather around a round table on a vine-covered terrace above a valley with cypress trees and a distant city.",
+      "placard": {
+        "title": "The Terrace",
+        "creator": "Maurice Denis (French, 1870–1943)",
+        "date": "1923, published 1924",
+        "medium": "lithograph",
+        "dimensions": null,
+        "institution": "The Cleveland Museum of Art",
+        "canonical_url": "https://clevelandart.org/art/1925.37"
+      },
+      "rights": {
+        "license": "CC0-1.0",
+        "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "evidence": {
+          "provider_field": "share_license_status",
+          "provider_value": "CC0",
+          "image_url": "https://openaccess-cdn.clevelandart.org/1925.37/1925.37_print.jpg",
+          "observed_at": "2026-10-06T11:40:58+00:00"
+        }
+      }
+    },
+    {
+      "provider": "aic",
+      "object_id": "52733",
+      "file": "assets/8bf69b0abcd5f3ad1d3052e83b182fad7b68bbe8bd6ddc10f3af6a7c55fa2d77.jpg",
+      "sha256": "8bf69b0abcd5f3ad1d3052e83b182fad7b68bbe8bd6ddc10f3af6a7c55fa2d77",
+      "length": 391290,
+      "width": 1351,
+      "height": 1080,
+      "orientation": "landscape",
+      "mean_colour": "#7a7061",
+      "thumbnail": "assets/5fc7ac6abfeccd18305785f7b4b50e3bfdd395a3ec6b40b2932347c76ca3e35e.webp",
+      "alt_text": "A rounded tree with drooping branches stands in a garden of tall grasses and shrubs, drawn in bold black reed-pen strokes.",
+      "placard": {
+        "title": "Weeping Tree",
+        "creator": "Vincent van Gogh (Dutch, 1853-1890)",
+        "date": "1889",
+        "medium": "Reed pen and black-brown ink, with black chalk on off-white wove paper",
+        "dimensions": "49.3 × 61.3 cm (19 7/16 × 24 3/16 in.)",
+        "institution": "Art Institute of Chicago",
+        "canonical_url": "https://www.artic.edu/artworks/52733"
+      },
+      "rights": {
+        "license": "CC0-1.0",
+        "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "evidence": {
+          "provider_field": "is_public_domain",
+          "provider_value": true,
+          "image_url": "https://www.artic.edu/iiif/2/34f09257-4c7f-3421-7396-e9dba321258a/full/1686,/0/default.jpg",
+          "observed_at": "2026-10-06T11:41:01+00:00"
+        }
+      }
+    }
+  ],
+  "refused": [],
+  "review_notes": []
+}

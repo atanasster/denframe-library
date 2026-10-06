@@ -1,0 +1,769 @@
+{
+  "id": "denframe/botanical-plates",
+  "version": "1.0.0",
+  "publisher": "Denframe",
+  "definition": {
+    "schema_version": 2,
+    "kind": "gallery",
+    "name": "Botanical plates",
+    "description": "Hand-coloured botanical plates and studies of flowers, fruit and plants, from Dutch tulip books to the great Paris flower folios.",
+    "shape": "portrait",
+    "presentation": {
+      "fit": "fit",
+      "mat_style": "museum",
+      "placard_seconds": 12,
+      "cadence_seconds": 45
+    },
+    "strip": "assets/aa804e8f4d546cdce6628f7d966aef42a0af0d8ce94f73d78d57c54cec00c6bd.webp",
+    "resources": [
+      {
+        "path": "assets/cc8f13ee1668ab5e01b476533f5a63ef82ef271f30f907f952d1cfc11332bdf9.jpg",
+        "sha256": "cc8f13ee1668ab5e01b476533f5a63ef82ef271f30f907f952d1cfc11332bdf9",
+        "length": 216586,
+        "media_type": "image/jpeg",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Pierre-Joseph Redouté (French, 1759–1840)",
+          "license": "CC0-1.0",
+          "attribution": "Pasture Rose (Rosa Carolina Corymbosa) · Pierre-Joseph Redouté (French, 1759–1840) · The Cleveland Museum of Art · CC0",
+          "source": "https://clevelandart.org/art/1959.15",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/05f768cb53c56e9a0a52b6e8119e0df4058f4e02416cf3e281ea518d1ea80542.webp",
+        "sha256": "05f768cb53c56e9a0a52b6e8119e0df4058f4e02416cf3e281ea518d1ea80542",
+        "length": 13674,
+        "media_type": "image/webp",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Pierre-Joseph Redouté (French, 1759–1840)",
+          "license": "CC0-1.0",
+          "attribution": "Pasture Rose (Rosa Carolina Corymbosa) · Pierre-Joseph Redouté (French, 1759–1840) · The Cleveland Museum of Art · CC0",
+          "source": "https://clevelandart.org/art/1959.15",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/23d9a46acf2a71c1f09cfd7890d843e9ea46e9d74e030fb2fa077eae1f843d60.jpg",
+        "sha256": "23d9a46acf2a71c1f09cfd7890d843e9ea46e9d74e030fb2fa077eae1f843d60",
+        "length": 222791,
+        "media_type": "image/jpeg",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "George Brookshaw (British, 1751–1823)",
+          "license": "CC0-1.0",
+          "attribution": "Pomona Britannica: No. 17 - Plums · George Brookshaw (British, 1751–1823) · The Cleveland Museum of Art · CC0",
+          "source": "https://clevelandart.org/art/1955.310",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/4d0348214f0dab0c2d5b463a095909e4b165b0bc2c5941ae5dbf1e840cec82a0.webp",
+        "sha256": "4d0348214f0dab0c2d5b463a095909e4b165b0bc2c5941ae5dbf1e840cec82a0",
+        "length": 13440,
+        "media_type": "image/webp",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "George Brookshaw (British, 1751–1823)",
+          "license": "CC0-1.0",
+          "attribution": "Pomona Britannica: No. 17 - Plums · George Brookshaw (British, 1751–1823) · The Cleveland Museum of Art · CC0",
+          "source": "https://clevelandart.org/art/1955.310",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/f6ec624cdc350d98216c3dedd3f23dc3adef39449808ec1e99ad3c660608339a.jpg",
+        "sha256": "f6ec624cdc350d98216c3dedd3f23dc3adef39449808ec1e99ad3c660608339a",
+        "length": 193934,
+        "media_type": "image/jpeg",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Pancrace Bessa (French, 1772–1846)",
+          "license": "CC0-1.0",
+          "attribution": "Polyanthus or Cluster Narcissus (Botanical: Narcissus tazetta) · Pancrace Bessa (French, 1772–1846) · The Cleveland Museum of Art · CC0",
+          "source": "https://clevelandart.org/art/1949.411",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/04d84962ebf26ffbb49072fcd210bb155692d3ce1790cc33146da2de25b604f3.webp",
+        "sha256": "04d84962ebf26ffbb49072fcd210bb155692d3ce1790cc33146da2de25b604f3",
+        "length": 12392,
+        "media_type": "image/webp",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Pancrace Bessa (French, 1772–1846)",
+          "license": "CC0-1.0",
+          "attribution": "Polyanthus or Cluster Narcissus (Botanical: Narcissus tazetta) · Pancrace Bessa (French, 1772–1846) · The Cleveland Museum of Art · CC0",
+          "source": "https://clevelandart.org/art/1949.411",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/cfe51546890fcbdda04a5504f84e063cd8d1e3e688ee99e281aaa2a8b6174b2f.jpg",
+        "sha256": "cfe51546890fcbdda04a5504f84e063cd8d1e3e688ee99e281aaa2a8b6174b2f",
+        "length": 282648,
+        "media_type": "image/jpeg",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Robert John Thornton (British, 1768–1837)",
+          "license": "CC0-1.0",
+          "attribution": "The Blue Passion-flower · Robert John Thornton (British, 1768–1837) · The Cleveland Museum of Art · CC0",
+          "source": "https://clevelandart.org/art/1939.293",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/d4f18a434b7b68889aafe05ffa3601be446e82682d80fbf6748837907c982843.webp",
+        "sha256": "d4f18a434b7b68889aafe05ffa3601be446e82682d80fbf6748837907c982843",
+        "length": 25310,
+        "media_type": "image/webp",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Robert John Thornton (British, 1768–1837)",
+          "license": "CC0-1.0",
+          "attribution": "The Blue Passion-flower · Robert John Thornton (British, 1768–1837) · The Cleveland Museum of Art · CC0",
+          "source": "https://clevelandart.org/art/1939.293",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/af52c2502b7d557da849c11e2ce05d7acc5ea54b46362c900d70c4ea63944aef.jpg",
+        "sha256": "af52c2502b7d557da849c11e2ce05d7acc5ea54b46362c900d70c4ea63944aef",
+        "length": 184383,
+        "media_type": "image/jpeg",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Pieter Holsteyn II (Dutch, c.1612–1673)",
+          "license": "CC0-1.0",
+          "attribution": "Study of a Tulip (Gemarmerde van Jasper) · Pieter Holsteyn II (Dutch, c.1612–1673) · The Cleveland Museum of Art · CC0",
+          "source": "https://clevelandart.org/art/2019.5",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/13ec291450c216f27ae479d7a7c466bab2cc165019a86b483f5470440c029600.webp",
+        "sha256": "13ec291450c216f27ae479d7a7c466bab2cc165019a86b483f5470440c029600",
+        "length": 11328,
+        "media_type": "image/webp",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Pieter Holsteyn II (Dutch, c.1612–1673)",
+          "license": "CC0-1.0",
+          "attribution": "Study of a Tulip (Gemarmerde van Jasper) · Pieter Holsteyn II (Dutch, c.1612–1673) · The Cleveland Museum of Art · CC0",
+          "source": "https://clevelandart.org/art/2019.5",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/5b3b55b47b3be6cce538c3f15df7aeb4429efc179fba6c092e576954c22f55cf.jpg",
+        "sha256": "5b3b55b47b3be6cce538c3f15df7aeb4429efc179fba6c092e576954c22f55cf",
+        "length": 226878,
+        "media_type": "image/jpeg",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Robert John Thornton (British, 1768–1837)",
+          "license": "CC0-1.0",
+          "attribution": "The Temple of Flora, or Garden of Nature: The Pontic Rhododendron · Robert John Thornton (British, 1768–1837) · The Cleveland Museum of Art · CC0",
+          "source": "https://clevelandart.org/art/1951.276",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/24af33ff7a0d158c85354d28e8fa091d791a357824e83b50216d50a8eaf0f958.webp",
+        "sha256": "24af33ff7a0d158c85354d28e8fa091d791a357824e83b50216d50a8eaf0f958",
+        "length": 16824,
+        "media_type": "image/webp",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Robert John Thornton (British, 1768–1837)",
+          "license": "CC0-1.0",
+          "attribution": "The Temple of Flora, or Garden of Nature: The Pontic Rhododendron · Robert John Thornton (British, 1768–1837) · The Cleveland Museum of Art · CC0",
+          "source": "https://clevelandart.org/art/1951.276",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/b5081007a8ddd9e3277273a43cfaa55b291dfe64fb1e175db6183f56139e9bb9.jpg",
+        "sha256": "b5081007a8ddd9e3277273a43cfaa55b291dfe64fb1e175db6183f56139e9bb9",
+        "length": 313358,
+        "media_type": "image/jpeg",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Georg Dionysius Ehret (German, 1708–1770)",
+          "license": "CC0-1.0",
+          "attribution": "Plantae et Papiliones rariores: Martynia · Georg Dionysius Ehret (German, 1708–1770) · The Cleveland Museum of Art · CC0",
+          "source": "https://clevelandart.org/art/1949.414",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/7a057b81e735aa51e1a80f6e8a325384e3c9571a9123cfcffbb257d34b1783bf.webp",
+        "sha256": "7a057b81e735aa51e1a80f6e8a325384e3c9571a9123cfcffbb257d34b1783bf",
+        "length": 22288,
+        "media_type": "image/webp",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Georg Dionysius Ehret (German, 1708–1770)",
+          "license": "CC0-1.0",
+          "attribution": "Plantae et Papiliones rariores: Martynia · Georg Dionysius Ehret (German, 1708–1770) · The Cleveland Museum of Art · CC0",
+          "source": "https://clevelandart.org/art/1949.414",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/77dfe308dcb2606618f6323704f95a95f5837cdf5b7aacc660c36ae69098ad32.jpg",
+        "sha256": "77dfe308dcb2606618f6323704f95a95f5837cdf5b7aacc660c36ae69098ad32",
+        "length": 414928,
+        "media_type": "image/jpeg",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Jean-Baptiste I Monnoyer (French, c. 1636–1699)",
+          "license": "CC0-1.0",
+          "attribution": "Marigolds, single Anemone, Jasmine. . . . · Jean-Baptiste I Monnoyer (French, c. 1636–1699) · The Cleveland Museum of Art · CC0",
+          "source": "https://clevelandart.org/art/1939.278",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/b18a2c433339a35a17a2d79262fcb584c46e320cbe1720ffc065c472ea1ec131.webp",
+        "sha256": "b18a2c433339a35a17a2d79262fcb584c46e320cbe1720ffc065c472ea1ec131",
+        "length": 35270,
+        "media_type": "image/webp",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Jean-Baptiste I Monnoyer (French, c. 1636–1699)",
+          "license": "CC0-1.0",
+          "attribution": "Marigolds, single Anemone, Jasmine. . . . · Jean-Baptiste I Monnoyer (French, c. 1636–1699) · The Cleveland Museum of Art · CC0",
+          "source": "https://clevelandart.org/art/1939.278",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/3341ea13ee80db94e9b7535f9504f035fbed864c1deb9c1876da71e600d79efb.jpg",
+        "sha256": "3341ea13ee80db94e9b7535f9504f035fbed864c1deb9c1876da71e600d79efb",
+        "length": 173522,
+        "media_type": "image/jpeg",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Langlois (French)",
+          "license": "CC0-1.0",
+          "attribution": "The Roses: Rosa Gallica Purpurea Velutina Parva · Langlois (French) · The Cleveland Museum of Art · CC0",
+          "source": "https://clevelandart.org/art/1965.293",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/928fe596c4c5df997841f9021ff6333f7ed5ddac85d135c1b784ee59407495e7.webp",
+        "sha256": "928fe596c4c5df997841f9021ff6333f7ed5ddac85d135c1b784ee59407495e7",
+        "length": 12558,
+        "media_type": "image/webp",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Langlois (French)",
+          "license": "CC0-1.0",
+          "attribution": "The Roses: Rosa Gallica Purpurea Velutina Parva · Langlois (French) · The Cleveland Museum of Art · CC0",
+          "source": "https://clevelandart.org/art/1965.293",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/88be8c3bb96bb6a63cb8ac69ecbb1ebb2ea32e310dc67e2143fce11a80444caf.jpg",
+        "sha256": "88be8c3bb96bb6a63cb8ac69ecbb1ebb2ea32e310dc67e2143fce11a80444caf",
+        "length": 193013,
+        "media_type": "image/jpeg",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Henri Joseph Redouté (French, 1766–1853)",
+          "license": "CC0-1.0",
+          "attribution": "Star-glory Morning-glory · Henri Joseph Redouté (French, 1766–1853) · The Cleveland Museum of Art · CC0",
+          "source": "https://clevelandart.org/art/1939.292",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/f55e64d9950aa62b1ca8654a65a0018d939230c626dc38438828fc3481fc3866.webp",
+        "sha256": "f55e64d9950aa62b1ca8654a65a0018d939230c626dc38438828fc3481fc3866",
+        "length": 12322,
+        "media_type": "image/webp",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Henri Joseph Redouté (French, 1766–1853)",
+          "license": "CC0-1.0",
+          "attribution": "Star-glory Morning-glory · Henri Joseph Redouté (French, 1766–1853) · The Cleveland Museum of Art · CC0",
+          "source": "https://clevelandart.org/art/1939.292",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/04e35b99f0195cbc2b56ff8131585121d49b58440386449ba6fdbf36ef7fdfbd.jpg",
+        "sha256": "04e35b99f0195cbc2b56ff8131585121d49b58440386449ba6fdbf36ef7fdfbd",
+        "length": 203840,
+        "media_type": "image/jpeg",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Henri Joseph Redouté (French, 1766–1853)",
+          "license": "CC0-1.0",
+          "attribution": "Crown Imperial Fritillary · Henri Joseph Redouté (French, 1766–1853) · The Cleveland Museum of Art · CC0",
+          "source": "https://clevelandart.org/art/1939.287",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/02252ff90b248c587c7f04e6d978e131c83864a91420726b4d7d1a62545820af.webp",
+        "sha256": "02252ff90b248c587c7f04e6d978e131c83864a91420726b4d7d1a62545820af",
+        "length": 13116,
+        "media_type": "image/webp",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Henri Joseph Redouté (French, 1766–1853)",
+          "license": "CC0-1.0",
+          "attribution": "Crown Imperial Fritillary · Henri Joseph Redouté (French, 1766–1853) · The Cleveland Museum of Art · CC0",
+          "source": "https://clevelandart.org/art/1939.287",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/54c3c1711aa8b72c8a3cfe43eb1f5a87baede3e96b2a11525175f6f75eb677f6.jpg",
+        "sha256": "54c3c1711aa8b72c8a3cfe43eb1f5a87baede3e96b2a11525175f6f75eb677f6",
+        "length": 191419,
+        "media_type": "image/jpeg",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Balthasar van der Ast (Dutch, 1593/94–1657)",
+          "license": "CC0-1.0",
+          "attribution": "De Poolse Muts · Balthasar van der Ast (Dutch, 1593/94–1657) · The Cleveland Museum of Art · CC0",
+          "source": "https://clevelandart.org/art/2019.1",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/d6ab5e32ccb14b819997f0d892547adf45e20f2f3ac6c6698afb3f56e18c4809.webp",
+        "sha256": "d6ab5e32ccb14b819997f0d892547adf45e20f2f3ac6c6698afb3f56e18c4809",
+        "length": 9710,
+        "media_type": "image/webp",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Balthasar van der Ast (Dutch, 1593/94–1657)",
+          "license": "CC0-1.0",
+          "attribution": "De Poolse Muts · Balthasar van der Ast (Dutch, 1593/94–1657) · The Cleveland Museum of Art · CC0",
+          "source": "https://clevelandart.org/art/2019.1",
+          "modified": true
+        }
+      },
+      {
+        "path": "assets/aa804e8f4d546cdce6628f7d966aef42a0af0d8ce94f73d78d57c54cec00c6bd.webp",
+        "sha256": "aa804e8f4d546cdce6628f7d966aef42a0af0d8ce94f73d78d57c54cec00c6bd",
+        "length": 8204,
+        "media_type": "image/webp",
+        "duration_seconds": null,
+        "credit": {
+          "creator": "Denframe",
+          "license": "CC0-1.0",
+          "attribution": "The collection's first works, side by side.",
+          "source": "",
+          "modified": true
+        }
+      }
+    ],
+    "works": [
+      {
+        "id": "cleveland-135614",
+        "image": "assets/cc8f13ee1668ab5e01b476533f5a63ef82ef271f30f907f952d1cfc11332bdf9.jpg",
+        "thumbnail": "assets/05f768cb53c56e9a0a52b6e8119e0df4058f4e02416cf3e281ea518d1ea80542.webp",
+        "alt_text": "A botanical plate of a pink wild rose on a leafy stem against cream paper.",
+        "width": 1080,
+        "height": 1565,
+        "orientation": "portrait",
+        "focal_x": 0.5,
+        "focal_y": 0.5,
+        "mean_colour": "#c1baae",
+        "placard": {
+          "title": "Pasture Rose (Rosa Carolina Corymbosa)",
+          "creator": "Pierre-Joseph Redouté (French, 1759–1840)",
+          "date": "1817–24",
+          "medium": "watercolor",
+          "dimensions": null,
+          "institution": "The Cleveland Museum of Art",
+          "canonical_url": "https://clevelandart.org/art/1959.15"
+        },
+        "rights": {
+          "license": "CC0-1.0",
+          "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "evidence": {
+            "provider_field": "share_license_status",
+            "provider_value": "CC0",
+            "image_url": "https://openaccess-cdn.clevelandart.org/1959.15/1959.15_print.jpg",
+            "observed_at": "2026-10-06T11:36:57+00:00",
+            "image_field": null,
+            "uuid": null
+          }
+        }
+      },
+      {
+        "id": "cleveland-132850",
+        "image": "assets/23d9a46acf2a71c1f09cfd7890d843e9ea46e9d74e030fb2fa077eae1f843d60.jpg",
+        "thumbnail": "assets/4d0348214f0dab0c2d5b463a095909e4b165b0bc2c5941ae5dbf1e840cec82a0.webp",
+        "alt_text": "Purple, blue and golden plums on leafy twigs against a dark brown background.",
+        "width": 1080,
+        "height": 1405,
+        "orientation": "portrait",
+        "focal_x": 0.5,
+        "focal_y": 0.5,
+        "mean_colour": "#645d52",
+        "placard": {
+          "title": "Pomona Britannica: No. 17 - Plums",
+          "creator": "George Brookshaw (British, 1751–1823)",
+          "date": "1806",
+          "medium": "aquatint",
+          "dimensions": null,
+          "institution": "The Cleveland Museum of Art",
+          "canonical_url": "https://clevelandart.org/art/1955.310"
+        },
+        "rights": {
+          "license": "CC0-1.0",
+          "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "evidence": {
+            "provider_field": "share_license_status",
+            "provider_value": "CC0",
+            "image_url": "https://openaccess-cdn.clevelandart.org/1955.310/1955.310_print.jpg",
+            "observed_at": "2026-10-06T11:37:00+00:00",
+            "image_field": null,
+            "uuid": null
+          }
+        }
+      },
+      {
+        "id": "cleveland-127079",
+        "image": "assets/f6ec624cdc350d98216c3dedd3f23dc3adef39449808ec1e99ad3c660608339a.jpg",
+        "thumbnail": "assets/04d84962ebf26ffbb49072fcd210bb155692d3ce1790cc33146da2de25b604f3.webp",
+        "alt_text": "A cluster of yellow narcissus flowers rising from a bulb, painted on cream paper.",
+        "width": 1080,
+        "height": 1644,
+        "orientation": "portrait",
+        "focal_x": 0.5,
+        "focal_y": 0.5,
+        "mean_colour": "#d4cfa8",
+        "placard": {
+          "title": "Polyanthus or Cluster Narcissus (Botanical: Narcissus tazetta)",
+          "creator": "Pancrace Bessa (French, 1772–1846)",
+          "date": "1836",
+          "medium": "pencil and watercolor",
+          "dimensions": null,
+          "institution": "The Cleveland Museum of Art",
+          "canonical_url": "https://clevelandart.org/art/1949.411"
+        },
+        "rights": {
+          "license": "CC0-1.0",
+          "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "evidence": {
+            "provider_field": "share_license_status",
+            "provider_value": "CC0",
+            "image_url": "https://openaccess-cdn.clevelandart.org/1949.411/1949.411_print.jpg",
+            "observed_at": "2026-10-06T11:37:04+00:00",
+            "image_field": null,
+            "uuid": null
+          }
+        }
+      },
+      {
+        "id": "cleveland-118189",
+        "image": "assets/cfe51546890fcbdda04a5504f84e063cd8d1e3e688ee99e281aaa2a8b6174b2f.jpg",
+        "thumbnail": "assets/d4f18a434b7b68889aafe05ffa3601be446e82682d80fbf6748837907c982843.webp",
+        "alt_text": "White and pale blue passion flowers with dark green leaves and an orange fruit, climbing a dark fluted column against a cloudy sky.",
+        "width": 1080,
+        "height": 1446,
+        "orientation": "portrait",
+        "focal_x": 0.5,
+        "focal_y": 0.5,
+        "mean_colour": "#797e71",
+        "placard": {
+          "title": "The Blue Passion-flower",
+          "creator": "Robert John Thornton (British, 1768–1837)",
+          "date": "1799–1807",
+          "medium": "aquatint, stipple, line engraving, etching and roulette",
+          "dimensions": null,
+          "institution": "The Cleveland Museum of Art",
+          "canonical_url": "https://clevelandart.org/art/1939.293"
+        },
+        "rights": {
+          "license": "CC0-1.0",
+          "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "evidence": {
+            "provider_field": "share_license_status",
+            "provider_value": "CC0",
+            "image_url": "https://openaccess-cdn.clevelandart.org/1939.293/1939.293_print.jpg",
+            "observed_at": "2026-10-06T11:37:07+00:00",
+            "image_field": null,
+            "uuid": null
+          }
+        }
+      },
+      {
+        "id": "cleveland-329319",
+        "image": "assets/af52c2502b7d557da849c11e2ce05d7acc5ea54b46362c900d70c4ea63944aef.jpg",
+        "thumbnail": "assets/13ec291450c216f27ae479d7a7c466bab2cc165019a86b483f5470440c029600.webp",
+        "alt_text": "A single red and white striped tulip on a long green stem, painted on pale paper.",
+        "width": 1080,
+        "height": 1578,
+        "orientation": "portrait",
+        "focal_x": 0.5,
+        "focal_y": 0.5,
+        "mean_colour": "#d4c9c1",
+        "placard": {
+          "title": "Study of a Tulip (Gemarmerde van Jasper)",
+          "creator": "Pieter Holsteyn II (Dutch, c.1612–1673)",
+          "date": "c. 1645",
+          "medium": "brush and watercolor in crimson, gray, and green over traces of charcoal on antique laid paper",
+          "dimensions": "Sheet: 32 x 21.1 cm (12 5/8 x 8 5/16 in.)",
+          "institution": "The Cleveland Museum of Art",
+          "canonical_url": "https://clevelandart.org/art/2019.5"
+        },
+        "rights": {
+          "license": "CC0-1.0",
+          "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "evidence": {
+            "provider_field": "share_license_status",
+            "provider_value": "CC0",
+            "image_url": "https://openaccess-cdn.clevelandart.org/2019.5/2019.5_print.jpg",
+            "observed_at": "2026-10-06T11:37:10+00:00",
+            "image_field": null,
+            "uuid": null
+          }
+        }
+      },
+      {
+        "id": "cleveland-128284",
+        "image": "assets/5b3b55b47b3be6cce538c3f15df7aeb4429efc179fba6c092e576954c22f55cf.jpg",
+        "thumbnail": "assets/24af33ff7a0d158c85354d28e8fa091d791a357824e83b50216d50a8eaf0f958.webp",
+        "alt_text": "A rounded head of lilac rhododendron flowers above long dark leaves, with a butterfly and a bee, against a cloudy sky and hills.",
+        "width": 1080,
+        "height": 1450,
+        "orientation": "portrait",
+        "focal_x": 0.5,
+        "focal_y": 0.5,
+        "mean_colour": "#949489",
+        "placard": {
+          "title": "The Temple of Flora, or Garden of Nature: The Pontic Rhododendron",
+          "creator": "Robert John Thornton (British, 1768–1837)",
+          "date": "1799–1807",
+          "medium": "aquatint, stipple and line engraving",
+          "dimensions": null,
+          "institution": "The Cleveland Museum of Art",
+          "canonical_url": "https://clevelandart.org/art/1951.276"
+        },
+        "rights": {
+          "license": "CC0-1.0",
+          "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "evidence": {
+            "provider_field": "share_license_status",
+            "provider_value": "CC0",
+            "image_url": "https://openaccess-cdn.clevelandart.org/1951.276/1951.276_print.jpg",
+            "observed_at": "2026-10-06T11:37:14+00:00",
+            "image_field": null,
+            "uuid": null
+          }
+        }
+      },
+      {
+        "id": "cleveland-127082",
+        "image": "assets/b5081007a8ddd9e3277273a43cfaa55b291dfe64fb1e175db6183f56139e9bb9.jpg",
+        "thumbnail": "assets/7a057b81e735aa51e1a80f6e8a325384e3c9571a9123cfcffbb257d34b1783bf.webp",
+        "alt_text": "A leafy plant with pink and white trumpet flowers, a yellow-flowered sprig and two butterflies, on cream paper with a Latin title.",
+        "width": 1080,
+        "height": 1589,
+        "orientation": "portrait",
+        "focal_x": 0.5,
+        "focal_y": 0.5,
+        "mean_colour": "#bcb5a2",
+        "placard": {
+          "title": "Plantae et Papiliones rariores: Martynia",
+          "creator": "Georg Dionysius Ehret (German, 1708–1770)",
+          "date": "1748",
+          "medium": "engraving, hand-colored",
+          "dimensions": null,
+          "institution": "The Cleveland Museum of Art",
+          "canonical_url": "https://clevelandart.org/art/1949.414"
+        },
+        "rights": {
+          "license": "CC0-1.0",
+          "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "evidence": {
+            "provider_field": "share_license_status",
+            "provider_value": "CC0",
+            "image_url": "https://openaccess-cdn.clevelandart.org/1949.414/1949.414_print.jpg",
+            "observed_at": "2026-10-06T11:37:18+00:00",
+            "image_field": null,
+            "uuid": null
+          }
+        }
+      },
+      {
+        "id": "cleveland-118172",
+        "image": "assets/77dfe308dcb2606618f6323704f95a95f5837cdf5b7aacc660c36ae69098ad32.jpg",
+        "thumbnail": "assets/b18a2c433339a35a17a2d79262fcb584c46e320cbe1720ffc065c472ea1ec131.webp",
+        "alt_text": "A woven basket on a stone ledge holding large ruffled marigolds with anemones, tulips and sprays of white jasmine.",
+        "width": 1080,
+        "height": 1427,
+        "orientation": "portrait",
+        "focal_x": 0.5,
+        "focal_y": 0.5,
+        "mean_colour": "#9b917e",
+        "placard": {
+          "title": "Marigolds, single Anemone, Jasmine. . . .",
+          "creator": "Jean-Baptiste I Monnoyer (French, c. 1636–1699)",
+          "date": "c. 1680–95",
+          "medium": "etching and engraving, hand colored",
+          "dimensions": null,
+          "institution": "The Cleveland Museum of Art",
+          "canonical_url": "https://clevelandart.org/art/1939.278"
+        },
+        "rights": {
+          "license": "CC0-1.0",
+          "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "evidence": {
+            "provider_field": "share_license_status",
+            "provider_value": "CC0",
+            "image_url": "https://openaccess-cdn.clevelandart.org/1939.278/1939.278_print.jpg",
+            "observed_at": "2026-10-06T11:37:22+00:00",
+            "image_field": null,
+            "uuid": null
+          }
+        }
+      },
+      {
+        "id": "cleveland-141708",
+        "image": "assets/3341ea13ee80db94e9b7535f9504f035fbed864c1deb9c1876da71e600d79efb.jpg",
+        "thumbnail": "assets/928fe596c4c5df997841f9021ff6333f7ed5ddac85d135c1b784ee59407495e7.webp",
+        "alt_text": "Two deep crimson and purple roses with buds and green leaves on cream paper.",
+        "width": 1080,
+        "height": 1433,
+        "orientation": "portrait",
+        "focal_x": 0.5,
+        "focal_y": 0.5,
+        "mean_colour": "#c5bdaf",
+        "placard": {
+          "title": "The Roses: Rosa Gallica Purpurea Velutina Parva",
+          "creator": "Langlois (French)",
+          "date": "1817–24",
+          "medium": "color stipple engraving with watercolor added by hand",
+          "dimensions": "Sheet: 53.5 x 33.8 cm (21 1/16 x 13 5/16 in.); Platemark: 34.9 x 25.9 cm (13 3/4 x 10 3/16 in.)",
+          "institution": "The Cleveland Museum of Art",
+          "canonical_url": "https://clevelandart.org/art/1965.293"
+        },
+        "rights": {
+          "license": "CC0-1.0",
+          "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "evidence": {
+            "provider_field": "share_license_status",
+            "provider_value": "CC0",
+            "image_url": "https://openaccess-cdn.clevelandart.org/1965.293/1965.293_print.jpg",
+            "observed_at": "2026-10-06T11:37:26+00:00",
+            "image_field": null,
+            "uuid": null
+          }
+        }
+      },
+      {
+        "id": "cleveland-118188",
+        "image": "assets/88be8c3bb96bb6a63cb8ac69ecbb1ebb2ea32e310dc67e2143fce11a80444caf.jpg",
+        "thumbnail": "assets/f55e64d9950aa62b1ca8654a65a0018d939230c626dc38438828fc3481fc3866.webp",
+        "alt_text": "A climbing morning glory vine with blue and purple flowers and heart-shaped leaves on cream paper.",
+        "width": 1080,
+        "height": 1361,
+        "orientation": "portrait",
+        "focal_x": 0.5,
+        "focal_y": 0.5,
+        "mean_colour": "#c5bbac",
+        "placard": {
+          "title": "Star-glory Morning-glory",
+          "creator": "Henri Joseph Redouté (French, 1766–1853)",
+          "date": "1827",
+          "medium": "stipple, roulette and line engraving with hand coloring",
+          "dimensions": null,
+          "institution": "The Cleveland Museum of Art",
+          "canonical_url": "https://clevelandart.org/art/1939.292"
+        },
+        "rights": {
+          "license": "CC0-1.0",
+          "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "evidence": {
+            "provider_field": "share_license_status",
+            "provider_value": "CC0",
+            "image_url": "https://openaccess-cdn.clevelandart.org/1939.292/1939.292_print.jpg",
+            "observed_at": "2026-10-06T11:37:30+00:00",
+            "image_field": null,
+            "uuid": null
+          }
+        }
+      },
+      {
+        "id": "cleveland-118182",
+        "image": "assets/04e35b99f0195cbc2b56ff8131585121d49b58440386449ba6fdbf36ef7fdfbd.jpg",
+        "thumbnail": "assets/02252ff90b248c587c7f04e6d978e131c83864a91420726b4d7d1a62545820af.webp",
+        "alt_text": "A crown imperial plant with a ring of coral-red bell-shaped flowers beneath a tuft of green leaves.",
+        "width": 1080,
+        "height": 1373,
+        "orientation": "portrait",
+        "focal_x": 0.5,
+        "focal_y": 0.5,
+        "mean_colour": "#c3b3a2",
+        "placard": {
+          "title": "Crown Imperial Fritillary",
+          "creator": "Henri Joseph Redouté (French, 1766–1853)",
+          "date": "1827",
+          "medium": "stipple, roulette and line engraving with hand coloring",
+          "dimensions": null,
+          "institution": "The Cleveland Museum of Art",
+          "canonical_url": "https://clevelandart.org/art/1939.287"
+        },
+        "rights": {
+          "license": "CC0-1.0",
+          "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "evidence": {
+            "provider_field": "share_license_status",
+            "provider_value": "CC0",
+            "image_url": "https://openaccess-cdn.clevelandart.org/1939.287/1939.287_print.jpg",
+            "observed_at": "2026-10-06T11:37:34+00:00",
+            "image_field": null,
+            "uuid": null
+          }
+        }
+      },
+      {
+        "id": "cleveland-329309",
+        "image": "assets/54c3c1711aa8b72c8a3cfe43eb1f5a87baede3e96b2a11525175f6f75eb677f6.jpg",
+        "thumbnail": "assets/d6ab5e32ccb14b819997f0d892547adf45e20f2f3ac6c6698afb3f56e18c4809.webp",
+        "alt_text": "A single pink and red carnation with frilled petals on a slender stem, its name written in brown script below.",
+        "width": 1080,
+        "height": 1617,
+        "orientation": "portrait",
+        "focal_x": 0.5,
+        "focal_y": 0.5,
+        "mean_colour": "#e1cec3",
+        "placard": {
+          "title": "De Poolse Muts",
+          "creator": "Balthasar van der Ast (Dutch, 1593/94–1657)",
+          "date": "c. 1620–30",
+          "medium": "brush and watercolor in red, green, and yellow with white heightening or grey wash on antique laid cream paper",
+          "dimensions": "Support: 37.5 x 26.7 cm (14 3/4 x 10 1/2 in.); Matted: 49.7 x 39.1 x 0.3 cm (19 9/16 x 15 3/8 x 1/8 in.); Image: 30.3 x 19.9 cm (11 15/16 x 7 13/16 in.)",
+          "institution": "The Cleveland Museum of Art",
+          "canonical_url": "https://clevelandart.org/art/2019.1"
+        },
+        "rights": {
+          "license": "CC0-1.0",
+          "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "evidence": {
+            "provider_field": "share_license_status",
+            "provider_value": "CC0",
+            "image_url": "https://openaccess-cdn.clevelandart.org/2019.1/2019.1_print.jpg",
+            "observed_at": "2026-10-06T11:37:38+00:00",
+            "image_field": null,
+            "uuid": null
+          }
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,130 @@
+{
+  "slug": "abstract-and-colour",
+  "id": "denframe/abstract-and-colour",
+  "version": "1.0.0",
+  "name": "Abstract and colour",
+  "description": "Colour studies, flattened shapes and landscapes on the way to abstraction, from Japanese design prints to early modern painting, chosen for their colour behind a dashboard.",
+  "shape": "landscape",
+  "works": [
+    {
+      "provider": "aic",
+      "object_id": "129849",
+      "alt_text": "Yellow and pink houses on a hillside above a sloping golden field, painted in thick strokes of bright yellow, blue, green and red."
+    },
+    {
+      "provider": "cleveland",
+      "object_id": "154147",
+      "alt_text": "A stylised cream wave curling across a dark blue ground in front of a large silver moon."
+    },
+    {
+      "provider": "aic",
+      "object_id": "65937",
+      "alt_text": "Rounded New Mexico hills built from patches of pink, ochre and green under swirling white and blue clouds."
+    },
+    {
+      "provider": "cleveland",
+      "object_id": "130974",
+      "alt_text": "A watercolour of red and orange rocks along a deep blue sea, with a small lighthouse island under a streaky pink and blue sky."
+    },
+    {
+      "provider": "aic",
+      "object_id": "8360",
+      "alt_text": "A Tahitian shore in flat areas of deep green, violet and ochre, with a large tree, a thatched hut, fallen branches and a pale blue bay."
+    },
+    {
+      "provider": "cleveland",
+      "object_id": "86501",
+      "alt_text": "A colour woodcut of a pale dirt road curving between green fields and dark trees, with an orange sunset band on the horizon."
+    },
+    {
+      "provider": "aic",
+      "object_id": "122130",
+      "alt_text": "A riverside village with a church spire below striped hillside fields, painted in small dots of blue, pink, green and cream."
+    },
+    {
+      "provider": "cleveland",
+      "object_id": "154163",
+      "alt_text": "Bands of pale silver waves crossing a calm sand-coloured ground in a simple, almost abstract print."
+    },
+    {
+      "provider": "aic",
+      "object_id": "144467",
+      "alt_text": "A farmhouse among bare, interlacing trees reflected in still water, painted in soft pinks, oranges and greys."
+    },
+    {
+      "provider": "aic",
+      "object_id": "25115",
+      "alt_text": "A woodblock print of coral orange lilies on tall stems with long dark green leaves against a pale turquoise ground."
+    },
+    {
+      "provider": "cleveland",
+      "object_id": "131338",
+      "alt_text": "A watercolour of a lakeside town in a haze of gold and pale blue light, with mountains dissolving into mist."
+    },
+    {
+      "provider": "aic",
+      "object_id": "25108",
+      "alt_text": "A woodblock print of coral pink poppies with spiky blue-green leaves on a pale turquoise ground."
+    },
+    {
+      "provider": "cleveland",
+      "object_id": "129169",
+      "alt_text": "A colour lithograph of figures walking through a flowering green meadow under long streaks of blue cloud."
+    },
+    {
+      "provider": "aic",
+      "object_id": "90207",
+      "alt_text": "A cubist still life of a pear and two bananas on a white napkin and a round dark plate, broken into flat white, grey and ochre shapes."
+    },
+    {
+      "provider": "cleveland",
+      "object_id": "127226",
+      "alt_text": "A watercolour of a bright blue bay with a stone fort on rocks, and beachgoers with red and blue parasols on the sand in the foreground."
+    },
+    {
+      "provider": "aic",
+      "object_id": "16544",
+      "alt_text": "A bridge and the towers of Westminster dissolving into a hazy fog of pale yellow, lilac and green."
+    },
+    {
+      "provider": "cleveland",
+      "object_id": "161230",
+      "alt_text": "A colour woodcut of a white moon rising behind red rocks on a low sandbar, reflected in calm violet-grey water."
+    },
+    {
+      "provider": "aic",
+      "object_id": "111062",
+      "alt_text": "A Tahitian garden of tall pale tree trunks, broad leaves and thatched huts, with figures resting on the green grass in bright, flat colour."
+    },
+    {
+      "provider": "cleveland",
+      "object_id": "162907",
+      "alt_text": "A colour print of a pine-framed cove with pink rocks, small sailing boats on pale green water and islands under soft clouds."
+    },
+    {
+      "provider": "aic",
+      "object_id": "8980",
+      "alt_text": "A village landscape broken into bold blocks of red, blue, green and yellow, with two tall poplar trees."
+    },
+    {
+      "provider": "aic",
+      "object_id": "12601",
+      "alt_text": "A pale colour lithograph of a harbour at evening, with a pier, a lighthouse tower and sailing boats drawn in small dabs of blue and yellow."
+    },
+    {
+      "provider": "cleveland",
+      "object_id": "128074",
+      "alt_text": "A bustling Paris café interior glowing with pink and gold light, with white tables and bentwood chairs in the foreground."
+    },
+    {
+      "provider": "aic",
+      "object_id": "186314",
+      "alt_text": "A watercolour of pollarded willows and bare trees along a still canal, with boats moored and a distant city skyline."
+    },
+    {
+      "provider": "cleveland",
+      "object_id": "162906",
+      "alt_text": "A colour print of green, moss-covered cliffs above a pale foaming sea, with a herder and animals grazing on the clifftop."
+    }
+  ]
+}

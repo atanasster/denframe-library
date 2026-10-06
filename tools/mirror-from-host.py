@@ -16,6 +16,8 @@ MAPPINGS = {
     # workflow runs.
     "scripts/scriptlib/tuf_repository.py": "tools/tuf_repository.py",
     "scripts/scriptlib/library_served.py": "tools/library_served.py",
+    # The art collection curation tool, so it travels with the collections it curated.
+    "scripts/art": "tools/art",
 }
 
 
