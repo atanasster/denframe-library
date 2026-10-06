@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "host_commit": "673ae710c100da8b608c405026e84b84cec90fb3",
+  "host_commit": "db996a6681e7531baee6039070510953fffff3f2",
   "files": {
     "contracts/composition/appearance-cases.json": "f785173ef2025f5b6e36a41ed2d932e32640dc021601b3e765f6fb049bd27618",
     "contracts/composition/block-instance.schema.json": "d19fd3ba3b62285bad903cf4d96c0b823fd572a3455b2fd4d22bf4499cdad6b7",
@@ -245,9 +245,9 @@
     "tools/art/briefs/calm-landscapes.json": "1e8b6300298b082fc72a3706a4e04901929537b3a486b8c93d88a6344fca1f39",
     "tools/art/briefs/impressionist-gardens.json": "3c9029d0304b3f141b3d11b02354492edacaa6556089a6881501acc5cbf7c743",
     "tools/art/briefs/japanese-woodblocks.json": "5e191c53bee0d424da5bd617bf8fa42ea1c10089d4a50b5d56b264e672259374",
-    "tools/art/briefs/night-and-winter.json": "c7190cf2b1e28b0b7f2561055828d75f592f69c8e86cb7ed5dff0dfe85f3ffcb",
+    "tools/art/briefs/night-and-winter.json": "78bbd51ef9ed24cf55c327a839e8db83597141b9fccbf579cabe73b69d2052b4",
     "tools/art/briefs/old-maps.json": "4979411c77ca58d973351019973a04e6aaac6c7925152999f2bd2b5748ba6b47",
-    "tools/art/briefs/patterns-and-textiles.json": "1b68dbf6cedcaded403bcf66fc31e69bab320f7a407a7e7482b34e727f865874",
+    "tools/art/briefs/patterns-and-textiles.json": "4bded6555b121b6561977110f8e00a042760faae8e29d086779bc1da48c1344e",
     "tools/art/briefs/portrait-wall.json": "03e72171cf37ff328e4d3d1d5296fe7d08e5cebecd66988b2b1978f62fe094ec",
     "tools/art/briefs/seascapes.json": "375d4df08611f39e6236f611d3a4bd2e136e095fac9326c4708f9b811c7893a0",
     "tools/art/briefs/still-life.json": "9bda88139a7608739fbc9fb6e012af20faf516b3433bdf30f205acec154f6cd0",
