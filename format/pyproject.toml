@@ -1,5 +1,5 @@
 [build-system]
-requires = ["setuptools==84.0.0"]
+requires = ["setuptools==84.2.1"]
 build-backend = "setuptools.build_meta"
 
 [project]
@@ -15,7 +15,7 @@ dependencies = ["pydantic>=2.9,<3", "pillow>=11,<13"]
 denframe-author = "denframe_format.cli:main"
 
 [project.optional-dependencies]
-dev = ["setuptools==84.0.0"]
+dev = ["setuptools==84.2.1"]
 
 [tool.setuptools.packages.find]
 where = ["src"]
