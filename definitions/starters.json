@@ -612,6 +612,114 @@
     }
   },
   {
+    "slug": "family-calendar",
+    "id": "denframe/family-calendar",
+    "version": "1.0.0",
+    "mood": "Everyday",
+    "description": "The family's calendars across the whole screen, with the time and the weather along the top.",
+    "recipe": {
+      "id": "family-calendar",
+      "version": 1,
+      "required_inputs": [
+        "location",
+        "weather_units"
+      ],
+      "optional_inputs": [],
+      "useful_content": "The household's own calendars as the wall, with the clock and confirmed local weather in the dock",
+      "fallback": "Keep the clock and weather, and connect a calendar later; with no events the dashboard is on Auto."
+    },
+    "definition": {
+      "schema_version": 1,
+      "kind": "content",
+      "name": "Family Calendar",
+      "look": "modern",
+      "appearance": {
+        "layout": "wall",
+        "background": "theme",
+        "font": "theme",
+        "spacing": "standard",
+        "tokens": {},
+        "margin": "tight"
+      },
+      "blocks": [
+        {
+          "id": "clock",
+          "kind": "clock",
+          "enabled": true,
+          "settings": {},
+          "source_slot": null,
+          "symbols": null,
+          "placement": {
+            "region": "secondary",
+            "importance": "required"
+          }
+        },
+        {
+          "id": "weather",
+          "kind": "weather",
+          "enabled": true,
+          "settings": {},
+          "source_slot": "weather",
+          "symbols": null,
+          "placement": {
+            "region": "secondary",
+            "importance": "normal"
+          }
+        },
+        {
+          "id": "calendar",
+          "kind": "calendar",
+          "enabled": true,
+          "settings": {
+            "overrides": {
+              "view": "auto",
+              "follow_time_of_day": true
+            }
+          },
+          "source_slot": "calendar",
+          "symbols": null,
+          "placement": {
+            "region": "main",
+            "importance": "required"
+          }
+        }
+      ],
+      "source_slots": [
+        {
+          "id": "calendar",
+          "kind": "calendar",
+          "required": true,
+          "suggested_source": {
+            "kind": "calendar",
+            "preset_id": null
+          }
+        },
+        {
+          "id": "weather",
+          "kind": "weather",
+          "required": true,
+          "suggested_source": {
+            "kind": "weather",
+            "preset_id": null
+          }
+        }
+      ],
+      "purpose": "home",
+      "setup": [
+        {
+          "source_slot": "weather",
+          "field": "city",
+          "required": true
+        },
+        {
+          "source_slot": "weather",
+          "field": "units",
+          "required": true
+        }
+      ]
+    }
+  },
+  {
     "slug": "starter-glass",
     "id": "denframe/starter-glass",
     "version": "1.0.0",
