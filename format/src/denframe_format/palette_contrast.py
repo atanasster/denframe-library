@@ -48,7 +48,7 @@ class PaletteContrastError(ValueError):
 
     Raised inside model validation, so a request whose body is refused while FastAPI parses it
     still reaches the client as the structured `palette-contrast` reason
-    (`routes.http_errors`), never as the validator's internals."""
+    (`http.http_errors`), never as the validator's internals."""
 
     def __init__(self, verdict: PaletteVerdict) -> None:
         super().__init__("Theme colours must meet minimum contrast on their surfaces")

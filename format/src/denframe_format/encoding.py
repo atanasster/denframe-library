@@ -1,7 +1,11 @@
 """Dependency-free canonical package encoding and streaming content hashes."""
 
 import hashlib
+import io
 import json
+import stat
+import zipfile
+from collections.abc import Iterable
 from pathlib import Path
 from typing import Any
 
@@ -10,6 +14,34 @@ def canonical(value: Any) -> bytes:
     return json.dumps(
         value, sort_keys=True, separators=(",", ":"), ensure_ascii=False, allow_nan=False
     ).encode()
+
+
+#: Every element archive entry's time: fixed, so the same documents always zip to the same bytes.
+ELEMENT_ZIP_TIME = (2026, 1, 1, 0, 0, 0)
+#: A pack archive entry's time, which the released packs' digests were computed with.
+PACK_ZIP_TIME = (1980, 1, 1, 0, 0, 0)
+
+
+def zip_entry(name: str, date_time: tuple[int, int, int, int, int, int]) -> zipfile.ZipInfo:
+    """A deterministic archive entry: stored (not compressed), a regular 0644 file, at a fixed
+    time."""
+    info = zipfile.ZipInfo(name, date_time=date_time)
+    info.external_attr = (stat.S_IFREG | 0o644) << 16
+    return info
+
+
+def deterministic_zip(
+    entries: Iterable[tuple[str, bytes]],
+    *,
+    date_time: tuple[int, int, int, int, int, int] = ELEMENT_ZIP_TIME,
+) -> bytes:
+    """`entries` as an archive whose bytes depend on nothing but the names, the contents and
+    their order."""
+    output = io.BytesIO()
+    with zipfile.ZipFile(output, "w") as archive:
+        for name, content in entries:
+            archive.writestr(zip_entry(name, date_time), content)
+    return output.getvalue()
 
 
 def digest(data: bytes) -> str:
@@ -55,8 +87,5 @@ def strict_json(data: bytes) -> Any:
 
 
 def file_digest(path: Path) -> str:
-    checksum = hashlib.sha256()
     with path.open("rb") as source:
-        while chunk := source.read(64 * 1024):
-            checksum.update(chunk)
-    return checksum.hexdigest()
+        return hashlib.file_digest(source, "sha256").hexdigest()

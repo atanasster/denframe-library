@@ -1,6 +1,6 @@
 {
   "format_tool_version": "0.3.0",
-  "host_version": "0.1.0",
+  "host_version": "0.2.0-beta.3",
   "limits": [
     [
       "Installed v1 elements (current host)",
@@ -210,6 +210,16 @@
         "accent",
         "string; choices: [\"inherit\", \"accent\", \"muted\"]; default: \"inherit\"",
         "optional"
+      ],
+      [
+        "stand_out",
+        "string; choices: [\"off\", \"on\"]; default: \"off\"",
+        "optional"
+      ],
+      [
+        "fit",
+        "string; choices: [\"cell\", \"content\"]; default: \"cell\"",
+        "optional"
       ]
     ],
     "LayoutArrangement": [
@@ -289,12 +299,27 @@
       ],
       [
         "face",
-        "string; choices: [\"look\", \"card\", \"transparent\", \"outlined\"]; default: \"look\"",
+        "string; choices: [\"look\", \"card\", \"veil\", \"transparent\", \"outlined\"]; default: \"look\"",
         "optional"
       ],
       [
         "radius",
         "string; choices: [\"look\", \"square\", \"soft\", \"round\"]; default: \"look\"",
+        "optional"
+      ],
+      [
+        "picture_show",
+        "string; choices: [\"around\", \"behind\", \"featured\"]; default: \"around\"",
+        "optional"
+      ],
+      [
+        "background_dim",
+        "string; choices: [\"off\", \"soft\", \"strong\"]; default: \"off\"",
+        "optional"
+      ],
+      [
+        "picture_text",
+        "string; choices: [\"auto\", \"light\", \"dark\"]; default: \"auto\"",
         "optional"
       ],
       [
@@ -1279,7 +1304,7 @@
     ],
     [
       "block-style-v1",
-      "Any non-default block style; or appearance.margin != standard; or appearance.face != look; or appearance.radius != look",
+      "Any non-default block style; or appearance.margin != standard; or appearance.face != look; or appearance.radius != look; or appearance.picture_show != around; or appearance.background_dim != off; or appearance.picture_text != auto",
       "0.1.0"
     ],
     [
@@ -1336,6 +1361,11 @@
       "overlay-layout-v1",
       "appearance.layout = overlay; or overlay_corner != bottom-left; or overlay_scrim != standard.",
       "0.1.0"
+    ],
+    [
+      "overlay-placement-v1",
+      "appearance.layout = overlay and its blocks are in cells (a layout's arrangement).",
+      "0.4.0"
     ],
     [
       "pack-audio-v1",

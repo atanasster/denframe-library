@@ -3,12 +3,11 @@
 from __future__ import annotations
 
 import os
-import stat
 import zipfile
 from dataclasses import dataclass
 from pathlib import Path
 
-from .encoding import canonical, digest, file_digest
+from .encoding import PACK_ZIP_TIME, canonical, digest, file_digest, zip_entry
 from .media import inspect_asset
 from .pack_archive_index import CHUNK_SIZE, open_pack_archive, resource_chunks
 from .pack_contracts import AnyPackDefinition, PackManifest
@@ -61,9 +60,7 @@ def build_archive(
                 "definition.json": raw,
             }
             for name in sorted([*documents, *(resource.path for resource in definition.resources)]):
-                info = zipfile.ZipInfo(name, (1980, 1, 1, 0, 0, 0))
-                info.external_attr = (stat.S_IFREG | 0o644) << 16
-                with archive.open(info, "w") as sink:
+                with archive.open(zip_entry(name, PACK_ZIP_TIME), "w") as sink:
                     if name in documents:
                         sink.write(documents[name])
                     else:

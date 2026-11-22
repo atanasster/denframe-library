@@ -889,6 +889,149 @@
    "trust": "not checked"
   }
  },
+ "surface-veil-stand-out-valid": {
+  "recommendation": "recommend approve",
+  "findings": [],
+  "layers": {
+   "archive": "pass",
+   "json": "pass",
+   "schema": "pass",
+   "capabilities": "pass",
+   "contrast": "pass",
+   "media": "not applicable",
+   "trust": "not checked"
+  }
+ },
+ "surface-veil-missing-capability": {
+  "recommendation": "changes requested",
+  "findings": [],
+  "layers": {
+   "archive": "pass",
+   "json": "pass",
+   "schema": "pass",
+   "capabilities": "fail",
+   "contrast": "not checked",
+   "media": "not checked",
+   "trust": "not checked"
+  }
+ },
+ "picture-behind-valid": {
+  "recommendation": "recommend approve",
+  "findings": [],
+  "layers": {
+   "archive": "pass",
+   "json": "pass",
+   "schema": "pass",
+   "capabilities": "pass",
+   "contrast": "pass",
+   "media": "not applicable",
+   "trust": "not checked"
+  }
+ },
+ "picture-behind-missing-capability": {
+  "recommendation": "changes requested",
+  "findings": [],
+  "layers": {
+   "archive": "pass",
+   "json": "pass",
+   "schema": "pass",
+   "capabilities": "fail",
+   "contrast": "not checked",
+   "media": "not checked",
+   "trust": "not checked"
+  }
+ },
+ "block-fit-content-valid": {
+  "recommendation": "recommend approve",
+  "findings": [],
+  "layers": {
+   "archive": "pass",
+   "json": "pass",
+   "schema": "pass",
+   "capabilities": "pass",
+   "contrast": "pass",
+   "media": "not applicable",
+   "trust": "not checked"
+  }
+ },
+ "block-fit-content-missing-capability": {
+  "recommendation": "changes requested",
+  "findings": [],
+  "layers": {
+   "archive": "pass",
+   "json": "pass",
+   "schema": "pass",
+   "capabilities": "fail",
+   "contrast": "not checked",
+   "media": "not checked",
+   "trust": "not checked"
+  }
+ },
+ "background-dim-valid": {
+  "recommendation": "recommend approve",
+  "findings": [],
+  "layers": {
+   "archive": "pass",
+   "json": "pass",
+   "schema": "pass",
+   "capabilities": "pass",
+   "contrast": "pass",
+   "media": "not applicable",
+   "trust": "not checked"
+  }
+ },
+ "background-dim-missing-capability": {
+  "recommendation": "changes requested",
+  "findings": [],
+  "layers": {
+   "archive": "pass",
+   "json": "pass",
+   "schema": "pass",
+   "capabilities": "fail",
+   "contrast": "not checked",
+   "media": "not checked",
+   "trust": "not checked"
+  }
+ },
+ "picture-text-valid": {
+  "recommendation": "recommend approve",
+  "findings": [],
+  "layers": {
+   "archive": "pass",
+   "json": "pass",
+   "schema": "pass",
+   "capabilities": "pass",
+   "contrast": "pass",
+   "media": "not applicable",
+   "trust": "not checked"
+  }
+ },
+ "picture-text-missing-capability": {
+  "recommendation": "changes requested",
+  "findings": [],
+  "layers": {
+   "archive": "pass",
+   "json": "pass",
+   "schema": "pass",
+   "capabilities": "fail",
+   "contrast": "not checked",
+   "media": "not checked",
+   "trust": "not checked"
+  }
+ },
+ "picture-featured-valid": {
+  "recommendation": "recommend approve",
+  "findings": [],
+  "layers": {
+   "archive": "pass",
+   "json": "pass",
+   "schema": "pass",
+   "capabilities": "pass",
+   "contrast": "pass",
+   "media": "not applicable",
+   "trust": "not checked"
+  }
+ },
  "wall-dock-missing-capability": {
   "recommendation": "changes requested",
   "findings": [],
@@ -1553,6 +1696,45 @@
   }
  },
  "layout-coerced-cell": {
+  "recommendation": "changes requested",
+  "findings": [],
+  "layers": {
+   "archive": "pass",
+   "json": "pass",
+   "schema": "fail",
+   "capabilities": "not checked",
+   "contrast": "not checked",
+   "media": "not checked",
+   "trust": "not checked"
+  }
+ },
+ "overlay-placement-valid": {
+  "recommendation": "recommend approve",
+  "findings": [],
+  "layers": {
+   "archive": "pass",
+   "json": "pass",
+   "schema": "pass",
+   "capabilities": "pass",
+   "contrast": "pass",
+   "media": "not applicable",
+   "trust": "not checked"
+  }
+ },
+ "overlay-placement-missing-capability": {
+  "recommendation": "changes requested",
+  "findings": [],
+  "layers": {
+   "archive": "pass",
+   "json": "pass",
+   "schema": "pass",
+   "capabilities": "fail",
+   "contrast": "not checked",
+   "media": "not checked",
+   "trust": "not checked"
+  }
+ },
+ "overlay-placement-picture-cell": {
   "recommendation": "changes requested",
   "findings": [],
   "layers": {

@@ -124,6 +124,7 @@
           "enum": [
             "look",
             "card",
+            "veil",
             "transparent",
             "outlined"
           ],
@@ -139,6 +140,36 @@
             "round"
           ],
           "title": "Radius",
+          "type": "string"
+        },
+        "picture_show": {
+          "default": "around",
+          "enum": [
+            "around",
+            "behind",
+            "featured"
+          ],
+          "title": "Picture Show",
+          "type": "string"
+        },
+        "background_dim": {
+          "default": "off",
+          "enum": [
+            "off",
+            "soft",
+            "strong"
+          ],
+          "title": "Background Dim",
+          "type": "string"
+        },
+        "picture_text": {
+          "default": "auto",
+          "enum": [
+            "auto",
+            "light",
+            "dark"
+          ],
+          "title": "Picture Text",
           "type": "string"
         },
         "overlay_corner": {
@@ -250,6 +281,24 @@
             "muted"
           ],
           "title": "Accent",
+          "type": "string"
+        },
+        "stand_out": {
+          "default": "off",
+          "enum": [
+            "off",
+            "on"
+          ],
+          "title": "Stand Out",
+          "type": "string"
+        },
+        "fit": {
+          "default": "cell",
+          "enum": [
+            "cell",
+            "content"
+          ],
+          "title": "Fit",
           "type": "string"
         }
       },
@@ -415,7 +464,7 @@
     },
     "Placement": {
       "additionalProperties": false,
-      "description": "One block's placement.\n\n`region` and `importance` are the legacy v2 vocabulary and keep their meaning for the\nflow/columns/auto families: importance controls survival under pressure, never reading\norder. The span fields are additive and only consulted by the authored grid family;\nevery other layout ignores them, which is why adding them cannot change an existing\ndocument's rendering.\n\nOn the grid, `col_start`/`row_start`/`col_span`/`row_span` are the block's cell rectangle\n-- authoritative coordinates on a `GRID_COLUMNS` x `GRID_ROWS` grid whose cells scale\nwith the canvas, never packing hints. A grid document names both starts on every placement it\ncarries and no two rectangles overlap; `CompositionDocument.consistent` enforces that, since it\nis a property of the map.",
+      "description": "One block's placement.\n\n`region` and `importance` are the legacy v2 vocabulary and keep their meaning for the\nflow/columns/auto families: importance controls survival under pressure, never reading\norder. The span fields are additive and only consulted by the authored grid family and\nby an overlay whose blocks are placed by hand; every other layout ignores them, which is\nwhy adding them cannot change an existing document's rendering.\n\nOn the grid, `col_start`/`row_start`/`col_span`/`row_span` are the block's cell rectangle\n-- authoritative coordinates on a `GRID_COLUMNS` x `GRID_ROWS` grid whose cells scale\nwith the canvas, never packing hints. A grid document names both starts on every placement it\ncarries and no two rectangles overlap; `CompositionDocument.consistent` enforces that, since it\nis a property of the map. On an overlay a cell is where a block placed by hand reads; a\nplacement may have none (the picture owner never does), and no two cells overlap.",
       "properties": {
         "region": {
           "default": "auto",

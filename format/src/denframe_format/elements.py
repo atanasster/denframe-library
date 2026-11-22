@@ -2,7 +2,6 @@
 
 from __future__ import annotations
 
-import io
 import zipfile
 import zlib
 from typing import Annotated, Any, Literal, Self
@@ -33,9 +32,12 @@ from .capabilities import (
     LAYOUT_CAPABILITY,
     LAYOUT_SETUP_CAPABILITY,
     OVERLAY_LAYOUT_CAPABILITY,
+    OVERLAY_PLACEMENT_CAPABILITY,
     PICTURE_FILL_CAPABILITY,
+    PICTURE_KINDS,
     WALL_LAYOUT_CAPABILITY,
     background_requires_capability,
+    overlay_placement_requires_capability,
     overlay_requires_capability,
     picture_capabilities,
     wall_requires_capability,
@@ -68,6 +70,7 @@ from .content_ladder import (
     wire_ladder,
 )
 from .encoding import canonical as canonical
+from .encoding import deterministic_zip
 from .encoding import digest as digest
 from .encoding import strict_json as strict_json
 from .layout_arrangement import LayoutArrangement, LayoutPurpose
@@ -75,6 +78,7 @@ from .localized_text import LOCALIZED_TEXT_CAPABILITY, Localized
 from .pack_contracts import CardBlockSettings
 from .themes import validate_palette
 from .vocabulary import (
+    BackgroundDim,
     BackgroundKind,
     Face,
     Font,
@@ -83,6 +87,8 @@ from .vocabulary import (
     MatStyle,
     OverlayCorner,
     OverlayScrim,
+    PictureShow,
+    PictureText,
     Radius,
     Spacing,
     WallDock,
@@ -276,6 +282,9 @@ class PortableAppearance(BaseModel):
     margin: Margin = "standard"
     face: Face = "look"
     radius: Radius = "look"
+    picture_show: PictureShow = "around"
+    background_dim: BackgroundDim = "off"
+    picture_text: PictureText = "auto"
     # The ambient overlay's two settings are design too, on exactly the canvas's terms: a
     # recipe that composes over its own artwork ships the corner it was arranged for.
     # Omitted at their defaults, so every package published before they existed keeps its bytes.
@@ -415,9 +424,15 @@ class Definition(BaseModel):
         if self.kind != "content" and (self.purpose is not None or self.arrangement is not None):
             raise ValueError("Only layouts declare purpose or arrangement")
         if self.arrangement is not None:
-            if self.appearance.layout != "grid":
-                raise ValueError("An arrangement requires grid layout")
-            ids = {block.id for block in self.blocks}
+            if self.appearance.layout not in {"grid", "overlay"}:
+                raise ValueError("An arrangement requires grid or overlay layout")
+            # On an overlay the picture is behind the placed blocks and has no cell (overlay
+            # placement plan D9); every other block has one.
+            ids = {
+                block.id
+                for block in self.blocks
+                if self.appearance.layout == "grid" or block.kind not in PICTURE_KINDS
+            }
             if set(self.arrangement.landscape) != ids or not set(self.arrangement.portrait) <= ids:
                 raise ValueError("Arrangement cells must name the layout's blocks")
         if len({b.id for b in self.blocks}) != len(self.blocks) or len(
@@ -501,6 +516,15 @@ def read_package(data: bytes) -> tuple[Manifest, Definition]:
                 raise ValueError(
                     "Layout purpose or arrangement requires "
                     f"{LAYOUT_ARRANGEMENT_CAPABILITY} capability"
+                )
+            if (
+                overlay_placement_requires_capability(
+                    definition.appearance.layout, placed=definition.arrangement is not None
+                )
+                and OVERLAY_PLACEMENT_CAPABILITY not in manifest.required_capabilities
+            ):
+                raise ValueError(
+                    f"Blocks placed on an overlay require {OVERLAY_PLACEMENT_CAPABILITY} capability"
                 )
             if (
                 definition.localized is not None
@@ -616,6 +640,13 @@ def required_capabilities(definition: Definition) -> list[str]:
             else []
         ),
         *(
+            [OVERLAY_PLACEMENT_CAPABILITY]
+            if overlay_placement_requires_capability(
+                definition.appearance.layout, placed=definition.arrangement is not None
+            )
+            else []
+        ),
+        *(
             [BACKGROUND_CANVAS_CAPABILITY]
             if background_requires_capability(
                 definition.appearance.background,
@@ -703,16 +734,9 @@ def build_element(manifest: Manifest, definition: Definition) -> bytes:
     raw = canonical(definition.model_dump(mode="json"))
     if manifest.definition_sha256 != digest(raw):
         raise ValueError("Definition hash mismatch")
-    output = io.BytesIO()
-    with zipfile.ZipFile(output, "w", compression=zipfile.ZIP_DEFLATED) as archive:
-        for name, content in [
-            ("manifest.json", canonical(manifest.model_dump(mode="json"))),
-            ("definition.json", raw),
-        ]:
-            info = zipfile.ZipInfo(name, date_time=(2026, 1, 1, 0, 0, 0))
-            info.external_attr = 0o100644 << 16
-            archive.writestr(info, content)
-    return output.getvalue()
+    return deterministic_zip(
+        [("manifest.json", canonical(manifest.model_dump(mode="json"))), ("definition.json", raw)]
+    )
 
 
 def _block_carries_overrides(block: PortableBlock) -> bool:

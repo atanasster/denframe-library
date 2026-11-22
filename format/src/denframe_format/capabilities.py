@@ -30,6 +30,12 @@ OVERLAY_LAYOUT_CAPABILITY: Final[str] = "overlay-layout-v1"
 #: `display_capabilities`), which is what the family falls back to on any screen anyway.
 WALL_LAYOUT_CAPABILITY: Final[str] = "wall-layout-v1"
 
+#: Blocks placed by hand on the overlay (overlay placement plan D9): an overlay whose blocks
+#: carry grid cells draws each one in its cell over its own scrim instead of stacking them in
+#: one corner. A receiver without it is not refused: the host sends it the same dashboard with
+#: the cells taken off, which that receiver draws as the corner it already knows.
+OVERLAY_PLACEMENT_CAPABILITY: Final[str] = "overlay-placement-v1"
+
 LAYOUT_ARRANGEMENT_CAPABILITY: Final[str] = "layout-arrangement-v1"
 LAYOUT_SETUP_CAPABILITY: Final[str] = "layout-setup-v1"
 LIBRARY_PROVENANCE_CAPABILITY: Final[str] = "library-provenance-v1"
@@ -76,6 +82,9 @@ BLOCK_STYLE_CAPABILITY: Final[str] = "block-style-v1"
 DEFAULT_MARGIN: Final[str] = "standard"
 DEFAULT_FACE: Final[str] = "look"
 DEFAULT_RADIUS: Final[str] = "look"
+DEFAULT_PICTURE_SHOW: Final[str] = "around"
+DEFAULT_BACKGROUND_DIM: Final[str] = "off"
+DEFAULT_PICTURE_TEXT: Final[str] = "auto"
 
 #: The token a picture that fills needs (fill plan D7): a tile that bleeds to the glass, an
 #: image fitted `smart`, or an explicit `soft` radius (2u, no longer "the look's own"). Derived
@@ -121,20 +130,49 @@ def background_requires_capability(
     )
 
 
-def canvas_requires_capability(*, margin: str, face: str, radius: str) -> bool:
+def canvas_requires_capability(
+    *,
+    margin: str,
+    face: str,
+    radius: str,
+    picture_show: str,
+    background_dim: str,
+    picture_text: str,
+) -> bool:
     """Whether the canvas fields are authored away from the values every receiver draws."""
-    return margin != DEFAULT_MARGIN or face != DEFAULT_FACE or radius != DEFAULT_RADIUS
+    return (
+        margin != DEFAULT_MARGIN
+        or face != DEFAULT_FACE
+        or radius != DEFAULT_RADIUS
+        or picture_show != DEFAULT_PICTURE_SHOW
+        or background_dim != DEFAULT_BACKGROUND_DIM
+        or picture_text != DEFAULT_PICTURE_TEXT
+    )
 
 
 def block_style_requires_capability(
-    *, margin: str, face: str, radius: str, styled_blocks: int
+    *,
+    margin: str,
+    face: str,
+    radius: str,
+    styled_blocks: int,
+    picture_show: str,
+    background_dim: str,
+    picture_text: str,
 ) -> bool:
     """Whether a document needs `BLOCK_STYLE_CAPABILITY` to render as authored.
 
     `styled_blocks` is the number of block styles that are not all-default -- the serializer
     drops those, so on the wire it is simply the size of the `styles` map.
     """
-    return styled_blocks > 0 or canvas_requires_capability(margin=margin, face=face, radius=radius)
+    return styled_blocks > 0 or canvas_requires_capability(
+        margin=margin,
+        face=face,
+        radius=radius,
+        picture_show=picture_show,
+        background_dim=background_dim,
+        picture_text=picture_text,
+    )
 
 
 #: The overlay settings' defaults, literal for the same no-cycle reason as the canvas ones.
@@ -157,6 +195,12 @@ def overlay_requires_capability(layout: str, *, overlay_corner: str, overlay_scr
         or overlay_corner != DEFAULT_OVERLAY_CORNER
         or overlay_scrim != DEFAULT_OVERLAY_SCRIM
     )
+
+
+def overlay_placement_requires_capability(layout: str, *, placed: bool) -> bool:
+    """Whether a document needs `OVERLAY_PLACEMENT_CAPABILITY`: an overlay with any block in a
+    cell. Cells under any other family are the grid's (or inert), so they need nothing here."""
+    return layout == "overlay" and placed
 
 
 #: The calendar wall's dock edge default, literal for the same no-cycle reason. Mirrored by

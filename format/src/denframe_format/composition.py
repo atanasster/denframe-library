@@ -24,18 +24,22 @@ from .capabilities import (
     LAYOUT_CAPABILITY,
     LIBRARY_PROVENANCE_CAPABILITY,
     OVERLAY_LAYOUT_CAPABILITY,
+    OVERLAY_PLACEMENT_CAPABILITY,
     PICTURE_FILL_CAPABILITY,
     WALL_LAYOUT_CAPABILITY,
     background_requires_capability,
     block_style_requires_capability,
+    overlay_placement_requires_capability,
     overlay_requires_capability,
     wall_requires_capability,
 )
 from .vocabulary import (
     Accent,
     Align,
+    BackgroundDim,
     BackgroundKind,
     BlockFace,
+    BlockFit,
     BlockPadding,
     Detail,
     Face,
@@ -47,9 +51,12 @@ from .vocabulary import (
     MatStyle,
     OverlayCorner,
     OverlayScrim,
+    PictureShow,
+    PictureText,
     Radius,
     Region,
     Spacing,
+    StandOut,
     TextSize,
     WallDock,
 )
@@ -143,7 +150,14 @@ BACKGROUND_FIELDS = (
 GRID_FIELDS = ("grid_collision",)
 # The canvas settings: their defaults are exactly what every dashboard rendered before they existed,
 # so an unauthored one stays byte-identical.
-CANVAS_FIELDS = ("margin", "face", "radius")
+CANVAS_FIELDS = (
+    "margin",
+    "face",
+    "radius",
+    "picture_show",
+    "background_dim",
+    "picture_text",
+)
 # The overlay family's two settings (legibility step 14), omitted at their defaults for the
 # same byte-identity reason: a document that never authored an overlay is unchanged on the
 # wire, and an older receiver's strict parser never sees a field it would refuse.
@@ -221,15 +235,16 @@ class Placement(BaseModel):
 
     `region` and `importance` are the legacy v2 vocabulary and keep their meaning for the
     flow/columns/auto families: importance controls survival under pressure, never reading
-    order. The span fields are additive and only consulted by the authored grid family;
-    every other layout ignores them, which is why adding them cannot change an existing
-    document's rendering.
+    order. The span fields are additive and only consulted by the authored grid family and
+    by an overlay whose blocks are placed by hand; every other layout ignores them, which is
+    why adding them cannot change an existing document's rendering.
 
     On the grid, `col_start`/`row_start`/`col_span`/`row_span` are the block's cell rectangle
     -- authoritative coordinates on a `GRID_COLUMNS` x `GRID_ROWS` grid whose cells scale
     with the canvas, never packing hints. A grid document names both starts on every placement it
     carries and no two rectangles overlap; `CompositionDocument.consistent` enforces that, since it
-    is a property of the map.
+    is a property of the map. On an overlay a cell is where a block placed by hand reads; a
+    placement may have none (the picture owner never does), and no two cells overlap.
     """
 
     model_config = ConfigDict(extra="forbid")
@@ -312,6 +327,28 @@ def validate_grid_placement_map(placements: Mapping[str, Placement], shape: str)
             raise ValueError(f"Grid placements overlap in {shape}: {block_id!r} and {other_id!r}")
 
 
+def validate_overlay_placement_map(placements: Mapping[str, Placement], shape: str) -> None:
+    """The overlay's map rule (overlay placement plan D9): no two cells overlap. Unlike the
+    grid's, a placement may have no cell -- the picture owner never has one, and a block
+    without one is the resolver's to seat -- and which block owns the picture is the host's to
+    check, since a composition carries no blocks."""
+    for (block_id, placement), (other_id, other) in combinations(placements.items(), 2):
+        if placement.overlaps(other):
+            raise ValueError(
+                f"Overlay placements overlap in {shape}: {block_id!r} and {other_id!r}"
+            )
+
+
+def has_placed_cells(
+    placements: Mapping[str, Placement],
+    shape_placements: Mapping[GridShape, Mapping[str, Placement]],
+) -> bool:
+    """Whether any placement, landscape or a shape's, names a cell."""
+    return any(placement.has_cell() for placement in placements.values()) or any(
+        placement.has_cell() for shape in shape_placements.values() for placement in shape.values()
+    )
+
+
 class Appearance(BaseModel):
     """One scene's paint and layout settings.
 
@@ -355,6 +392,11 @@ class Appearance(BaseModel):
     margin: Margin = "standard"
     face: Face = "look"
     radius: Radius = "look"
+    # How the blocks meet a photographic background (block surfaces plan §4.5).
+    picture_show: PictureShow = "around"
+    background_dim: BackgroundDim = "off"
+    # Which ink the text over a photographic background takes (picture ink plan).
+    picture_text: PictureText = "auto"
     # The ambient overlay's appearance (legibility step 14, plan §3.5): which corner of the
     # safe area holds the text stack, and how strongly the scrim under it darkens the media.
     # Where the corner actually lands and how large it is are measured geometry
@@ -423,6 +465,8 @@ class BlockStyle(BaseModel):
     heading: Heading = "inherit"
     align: Align = "start"
     accent: Accent = "inherit"
+    stand_out: StandOut = "off"
+    fit: BlockFit = "cell"
 
     def is_default(self) -> bool:
         return self == BlockStyle()
@@ -444,6 +488,9 @@ def requires_block_style(
         margin=appearance.margin,
         face=appearance.face,
         radius=appearance.radius,
+        picture_show=appearance.picture_show,
+        background_dim=appearance.background_dim,
+        picture_text=appearance.picture_text,
         styled_blocks=sum(1 for style in styles if not style.is_default()),
     )
 
@@ -486,9 +533,10 @@ class CompositionDocument(BaseModel):
     appearance: Appearance = Field(default_factory=Appearance)
     placements: dict[str, Placement] = Field(default_factory=dict, max_length=MAX_PLACEMENTS)
     # Per-shape overrides of the landscape `placements` on the authored grid. Absent shapes
-    # are derived from landscape at render time; landscape and square never carry an override. Inert
-    # outside `layout: "grid"`, so a dashboard that leaves the grid and returns keeps its portrait
-    # arrangement.
+    # are derived from landscape at render time; landscape and square never carry an override. Read
+    # by the grid and by an overlay whose blocks are placed by hand (overlay placement plan D7);
+    # inert under every other family, so a dashboard that leaves the grid and returns keeps its
+    # portrait arrangement.
     shape_placements: dict[
         GridShape, Annotated[dict[str, PortraitPlacement], Field(max_length=MAX_PLACEMENTS)]
     ] = Field(default_factory=dict)
@@ -553,6 +601,20 @@ class CompositionDocument(BaseModel):
             validate_grid_placement_map(self.placements, "landscape")
             for shape, placements in self.shape_placements.items():
                 validate_grid_placement_map(placements, shape)
+        if self.appearance.layout == "overlay":
+            validate_overlay_placement_map(self.placements, "landscape")
+            for shape, placements in self.shape_placements.items():
+                validate_overlay_placement_map(placements, shape)
+            if (
+                overlay_placement_requires_capability(
+                    self.appearance.layout,
+                    placed=has_placed_cells(self.placements, self.shape_placements),
+                )
+                and OVERLAY_PLACEMENT_CAPABILITY not in self.required_capabilities
+            ):
+                raise ValueError(
+                    f"Blocks placed on an overlay require {OVERLAY_PLACEMENT_CAPABILITY} capability"
+                )
         if (
             background_requires_capability(
                 self.appearance.background,

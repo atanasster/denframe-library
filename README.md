@@ -22,7 +22,7 @@ runtime. See [format/README.md](format/README.md) and the
   `distribution` says where it goes: `included` ships inside Denframe, `library` is offered
   online only. An optional `min_host` is catalog metadata; an optional `manifest` keeps an
   author's own manifest (publisher, licence, attribution) so the entry rebuilds their archive.
-- `definitions/starters.json`: nine included layout sources, currently development releases.
+- `definitions/starters.json`: ten included layout sources, currently development releases.
 - `definitions/collections.json`: the collections the online library shows on *Get more*: an
   id, a title, one sentence and, in order, 2 to 24 ids the two catalogs list (definitions and
   activities alike). Host builds sign it as a target of its own; see *Collections* below.

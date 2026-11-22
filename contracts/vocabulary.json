@@ -368,6 +368,7 @@
   "FACES": [
     "look",
     "card",
+    "veil",
     "transparent",
     "outlined"
   ],
@@ -415,6 +416,29 @@
     "accent",
     "muted"
   ],
+  "STAND_OUTS": [
+    "off",
+    "on"
+  ],
+  "PICTURE_SHOWS": [
+    "around",
+    "behind",
+    "featured"
+  ],
+  "BLOCK_FITS": [
+    "cell",
+    "content"
+  ],
+  "BACKGROUND_DIMS": [
+    "off",
+    "soft",
+    "strong"
+  ],
+  "PICTURE_TEXTS": [
+    "auto",
+    "light",
+    "dark"
+  ],
   "DISPLAY_VARIANTS": [
     "glance",
     "line",
@@ -449,6 +473,7 @@
   "BACKGROUND_CANVAS_CAPABILITY": "background-canvas-v1",
   "BLOCK_STYLE_CAPABILITY": "block-style-v1",
   "OVERLAY_LAYOUT_CAPABILITY": "overlay-layout-v1",
+  "OVERLAY_PLACEMENT_CAPABILITY": "overlay-placement-v1",
   "PICTURE_FILL_CAPABILITY": "picture-fill-v1",
   "WALL_LAYOUT_CAPABILITY": "wall-layout-v1",
   "WALL_TOUCH_ACTION_PREFIXES": [
@@ -476,7 +501,9 @@
     "detail": "auto",
     "heading": "inherit",
     "align": "start",
-    "accent": "inherit"
+    "accent": "inherit",
+    "stand_out": "off",
+    "fit": "cell"
   },
   "DEFAULT_APPEARANCE": {
     "layout": "flow",
@@ -492,6 +519,9 @@
     "margin": "standard",
     "face": "look",
     "radius": "look",
+    "picture_show": "around",
+    "background_dim": "off",
+    "picture_text": "auto",
     "overlay_corner": "bottom-left",
     "overlay_scrim": "standard",
     "wall_dock": "top"
@@ -506,6 +536,7 @@
     "layout-setup-v1",
     "library-provenance-v1",
     "overlay-layout-v1",
+    "overlay-placement-v1",
     "pack-audio-v1",
     "pack-window-v1",
     "picture-fill-v1",
