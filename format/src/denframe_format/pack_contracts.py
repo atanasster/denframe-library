@@ -292,15 +292,15 @@ WebpPath = Annotated[str, StringConstraints(pattern=r"^assets/[a-f0-9]{64}\.webp
 
 
 class GalleryCredit(PackCredit):
-    license: Literal["CC0-1.0"]
+    license: Literal["CC0-1.0"]  # pyright: ignore[reportIncompatibleVariableOverride]
 
 
 class GalleryResource(PackResource):
     """A gallery's file: a work's JPEG or a WebP thumbnail or strip, dedicated to the public
     domain (D6.1)."""
 
-    media_type: Literal["image/jpeg", "image/webp"]
-    credit: GalleryCredit
+    media_type: Literal["image/jpeg", "image/webp"]  # pyright: ignore[reportIncompatibleVariableOverride]
+    credit: GalleryCredit  # pyright: ignore[reportIncompatibleVariableOverride]
 
 
 class GalleryPresentation(PackModel):

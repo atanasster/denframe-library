@@ -555,5 +555,26 @@
       "radius": "soft"
     },
     "accept": true
+  },
+  {
+    "name": "text over the picture chosen dark (picture ink step 9)",
+    "input": {
+      "picture_text": "dark"
+    },
+    "accept": true
+  },
+  {
+    "name": "text over the picture left to the picture",
+    "input": {
+      "picture_text": "auto"
+    },
+    "accept": true
+  },
+  {
+    "name": "text over the picture outside its vocabulary",
+    "input": {
+      "picture_text": "bright"
+    },
+    "accept": false
   }
 ]

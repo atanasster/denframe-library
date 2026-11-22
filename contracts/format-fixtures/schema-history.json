@@ -198,5 +198,54 @@
       "gallery-unreferenced-resource",
       "gallery-duplicate-work"
     ]
+  },
+  {
+    "schema_sha256": "4e69f26bf7a0b55d07ca4827cda964cb8a9fbb81e10b0e5f5a56215ece443d09",
+    "introduced": [
+      "surface-veil-stand-out-valid",
+      "surface-veil-missing-capability"
+    ]
+  },
+  {
+    "schema_sha256": "34955283cce57529d49027706a909244dfdcc07b77c4f08b53d084095de8dde0",
+    "introduced": [
+      "picture-behind-valid",
+      "picture-behind-missing-capability"
+    ]
+  },
+  {
+    "schema_sha256": "1e9de62ce4c6f7177d78f9235790604eb7cccee14c4c5d84d94675526d058ce2",
+    "introduced": [
+      "block-fit-content-valid",
+      "block-fit-content-missing-capability"
+    ]
+  },
+  {
+    "schema_sha256": "a7c40ae60f63d4c0f0a45cfb78f96ed9de36e89ae626275a6fdd41a12a85fc83",
+    "introduced": [
+      "background-dim-valid",
+      "background-dim-missing-capability"
+    ]
+  },
+  {
+    "schema_sha256": "3066be605fc6b0086c78780107fdcf83bad19ff736e0404f53829ef47b1b9787",
+    "introduced": [
+      "picture-featured-valid"
+    ]
+  },
+  {
+    "schema_sha256": "8fec873ada35b02aa86e7403f3bdbda909e88fc9f0f70dd13b37aa6d3842fa29",
+    "introduced": [
+      "overlay-placement-valid",
+      "overlay-placement-missing-capability",
+      "overlay-placement-picture-cell"
+    ]
+  },
+  {
+    "schema_sha256": "0a0f75dfcc915b8d639ce7c8163b2c6ba28f9f203de0defb7f32855106c76756",
+    "introduced": [
+      "picture-text-valid",
+      "picture-text-missing-capability"
+    ]
   }
 ]

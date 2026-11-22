@@ -35,10 +35,26 @@ SPACINGS: tuple[Spacing, ...] = get_args(Spacing)
 Margin = Literal["none", "tight", "standard", "wide"]
 MARGINS: tuple[Margin, ...] = get_args(Margin)
 
-# The block surface every block inherits: `look` is whatever the look draws (Painting's
-# transparent-over-shade, Glass's blurred panel); the others override it.
-Face = Literal["look", "card", "transparent", "outlined"]
+# The block surface every block inherits (block surfaces plan §4.1): `look` is the look's own
+# default surface (Painting's transparent-over-shade, Glass's blurred panel); the others
+# override it. `veil` is one shared translucent tint over the background.
+Face = Literal["look", "card", "veil", "transparent", "outlined"]
 FACES: tuple[Face, ...] = get_args(Face)
+
+# How the blocks meet a photographic background (block surfaces plan §4.5): `around` backs
+# only their text (caption plates, with the text-heavy kinds backed whole), `behind` backs every
+# block whole, and `featured` is `around` with picture breaks -- the blocks stepping aside on a
+# schedule, all night and on a tap. Inert on any other background.
+PictureShow = Literal["around", "behind", "featured"]
+PICTURE_SHOWS: tuple[PictureShow, ...] = get_args(PictureShow)
+# How far a photographic background recedes towards the look's own background (block surfaces
+# plan §4.5): not at all, `soft`ly or `strong`ly. Inert on any other background.
+BackgroundDim = Literal["off", "soft", "strong"]
+BACKGROUND_DIMS: tuple[BackgroundDim, ...] = get_args(BackgroundDim)
+# Which ink the text over a photographic background takes: `auto` whichever the picture under
+# the blocks reads best with, or always `light` or `dark`. Inert on any other background.
+PictureText = Literal["auto", "light", "dark"]
+PICTURE_TEXTS: tuple[PictureText, ...] = get_args(PictureText)
 
 # Corner radius of block faces and picture tiles. `look` is the look's own radius (the
 # default, never on the wire); `soft` is an explicit 2u since fill step 4, when it stopped
@@ -69,6 +85,14 @@ Align = Literal["start", "center", "end"]
 ALIGNS: tuple[Align, ...] = get_args(Align)
 Accent = Literal["inherit", "accent", "muted"]
 ACCENTS: tuple[Accent, ...] = get_args(Accent)
+# Whether one block stands one step out of the dashboard's surface (block surfaces plan §4.2):
+# Bare and Outlined take the veil, the veil takes cards, cards take the accent card.
+StandOut = Literal["off", "on"]
+STAND_OUTS: tuple[StandOut, ...] = get_args(StandOut)
+# How much of its cell a block paints (block surfaces plan §4.5): the whole `cell`, or only its
+# measured `content`, centred in the cell. The cell, the grid and every charge are the same.
+BlockFit = Literal["cell", "content"]
+BLOCK_FITS: tuple[BlockFit, ...] = get_args(BlockFit)
 
 #: The authored composition families. `overlay` (legibility step 14, plan §3.5) is the
 #: ambient one: a single media owner full-bleed with the other blocks' glance forms stacked

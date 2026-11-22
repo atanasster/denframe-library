@@ -31,7 +31,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 from art_derive import STRIP_WORKS, derivative, mean_colour, sha256, strip, thumbnail
 from art_rules import Shape, check_work, normalised_creator
 from art_source import write_source
-from art_works import Provider, Refused
+from art_works import Provider, RefusedError
 from PIL import Image, ImageOps, UnidentifiedImageError
 
 #: The only licence an art collection's works carry (D6.1).
@@ -100,7 +100,7 @@ def curate(
         asked.add(provider_name)
         try:
             work = provider.fetch(object_id)
-        except Refused as exc:
+        except RefusedError as exc:
             curation.refused.append({**refusal, "reasons": [str(exc)]})
             continue
         if work.rights.get("license") != LICENCE:

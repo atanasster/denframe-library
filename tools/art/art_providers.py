@@ -16,7 +16,7 @@ from pathlib import Path
 from typing import Any
 
 from art_fetch import IMAGE_BYTES, USER_AGENT, Fetcher, FetchError, Response, fetch_https
-from art_works import Provider, ProviderWork, Refused
+from art_works import Provider, ProviderWork, RefusedError
 
 CC0_URI = "https://creativecommons.org/publicdomain/zero/1.0/"
 
@@ -30,20 +30,20 @@ def _get(fetch: Fetcher, url: str, hosts: frozenset[str], **options: Any) -> Res
     try:
         return fetch(url, allowed_hosts=hosts, **options)
     except FetchError as exc:
-        raise Refused(str(exc)) from exc
+        raise RefusedError(str(exc)) from exc
 
 
 def _json(response: Response, what: str) -> dict[str, Any]:
     if response.status in (404, 410):
-        raise Refused(f"{what} is gone (HTTP {response.status})")
+        raise RefusedError(f"{what} is gone (HTTP {response.status})")
     if response.status != 200:
-        raise Refused(f"{what} answered HTTP {response.status}")
+        raise RefusedError(f"{what} answered HTTP {response.status}")
     try:
         payload = json.loads(response.body)
     except (UnicodeDecodeError, json.JSONDecodeError) as exc:
-        raise Refused(f"{what} is not JSON") from exc
+        raise RefusedError(f"{what} is not JSON") from exc
     if not isinstance(payload, dict):
-        raise Refused(f"{what} is not an object")
+        raise RefusedError(f"{what} is not an object")
     return payload
 
 
@@ -57,7 +57,7 @@ def _text(value: object) -> str | None:
 def _image(fetch: Fetcher, url: str, hosts: frozenset[str], headers: dict[str, str]) -> bytes:
     response = _get(fetch, url, hosts, max_bytes=IMAGE_BYTES, headers=headers)
     if response.status != 200 or not response.body:
-        raise Refused(f"the image answered HTTP {response.status}")
+        raise RefusedError(f"the image answered HTTP {response.status}")
     return response.body
 
 
@@ -92,12 +92,12 @@ class Met:
             f"The Met object {object_id}",
         )
         if str(record.get("objectID")) != object_id:
-            raise Refused("the record names another object")
+            raise RefusedError("the record names another object")
         if record.get("isPublicDomain") is not True:
-            raise Refused("isPublicDomain is not true")
+            raise RefusedError("isPublicDomain is not true")
         image_url = record.get("primaryImage") or record.get("primaryImageSmall")
         if not isinstance(image_url, str) or not image_url:
-            raise Refused("no Open Access image")
+            raise RefusedError("no Open Access image")
         image = _image(self._fetch, image_url, self.IMAGE_HOSTS, {})
         creator = _text(record.get("artistDisplayName"))
         bio = _text(record.get("artistDisplayBio"))
@@ -156,12 +156,12 @@ class ArtInstitute:
         )
         record = payload.get("data")
         if not isinstance(record, dict) or str(record.get("id")) != object_id:
-            raise Refused("the record names another object")
+            raise RefusedError("the record names another object")
         if record.get("is_public_domain") is not True:
-            raise Refused("is_public_domain is not true")
+            raise RefusedError("is_public_domain is not true")
         image_id = record.get("image_id")
         if not isinstance(image_id, str) or not image_id:
-            raise Refused("no image")
+            raise RefusedError("no image")
         image_url = self.IMAGE.format(image_id=image_id)
         image = _image(self._fetch, image_url, self.IMAGE_HOSTS, {"AIC-User-Agent": USER_AGENT})
         return ProviderWork(
@@ -199,9 +199,9 @@ class Cleveland:
         )
         record = payload.get("data")
         if not isinstance(record, dict) or str(record.get("id")) != object_id:
-            raise Refused("the record names another object")
+            raise RefusedError("the record names another object")
         if record.get("share_license_status") != "CC0":
-            raise Refused("share_license_status is not CC0")
+            raise RefusedError("share_license_status is not CC0")
         images = record.get("images")
         images = images if isinstance(images, dict) else {}
         image_url = None
@@ -211,7 +211,7 @@ class Cleveland:
                 image_url = candidate["url"]
                 break
         if not image_url:
-            raise Refused("no image")
+            raise RefusedError("no image")
         image = _image(self._fetch, image_url, self.IMAGE_HOSTS, {})
         creators = record.get("creators")
         creator = (
@@ -262,7 +262,7 @@ class NationalGallery:
             if not all(
                 (tables / name).is_file() for name in ("objects.csv", "published_images.csv")
             ):
-                raise Refused("NGA_OPENDATA does not point at the NGA open data")
+                raise RefusedError("NGA_OPENDATA does not point at the NGA open data")
             with (tables / "objects.csv").open(encoding="utf-8", newline="") as handle:
                 self._objects = {row["objectid"]: row for row in csv.DictReader(handle)}
             with (tables / "published_images.csv").open(encoding="utf-8", newline="") as handle:
@@ -278,12 +278,12 @@ class NationalGallery:
         record = objects.get(object_id)
         published = images.get(object_id)
         if record is None:
-            raise Refused("no such object")
+            raise RefusedError("no such object")
         if published is None or published.get("openaccess") != "1":
-            raise Refused("openaccess is not 1")
+            raise RefusedError("openaccess is not 1")
         base = (published.get("iiifurl") or "").rstrip("/")
         if not base:
-            raise Refused("no image")
+            raise RefusedError("no image")
         image_url = f"{base}/full/{self.IMAGE_SIZE}/0/default.jpg"
         image = _image(self._fetch, image_url, self.IMAGE_HOSTS, {})
         return ProviderWork(

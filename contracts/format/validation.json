@@ -143,7 +143,9 @@
       "detail",
       "heading",
       "align",
-      "accent"
+      "accent",
+      "stand_out",
+      "fit"
     ],
     "PortableAppearance": [
       "background_mat",
@@ -152,6 +154,9 @@
       "margin",
       "face",
       "radius",
+      "picture_show",
+      "background_dim",
+      "picture_text",
       "overlay_corner",
       "overlay_scrim",
       "wall_dock"
@@ -341,6 +346,15 @@
               "title": "Face",
               "type": "string"
             },
+            "fit": {
+              "default": "cell",
+              "enum": [
+                "cell",
+                "content"
+              ],
+              "title": "Fit",
+              "type": "string"
+            },
             "heading": {
               "default": "inherit",
               "enum": [
@@ -360,6 +374,15 @@
                 "roomy"
               ],
               "title": "Padding",
+              "type": "string"
+            },
+            "stand_out": {
+              "default": "off",
+              "enum": [
+                "off",
+                "on"
+              ],
+              "title": "Stand Out",
               "type": "string"
             },
             "text_size": {
@@ -487,6 +510,16 @@
               "title": "Background Cadence Seconds",
               "type": "integer"
             },
+            "background_dim": {
+              "default": "off",
+              "enum": [
+                "off",
+                "soft",
+                "strong"
+              ],
+              "title": "Background Dim",
+              "type": "string"
+            },
             "background_mat": {
               "default": "museum",
               "enum": [
@@ -508,6 +541,7 @@
               "enum": [
                 "look",
                 "card",
+                "veil",
                 "transparent",
                 "outlined"
               ],
@@ -568,6 +602,26 @@
                 "strong"
               ],
               "title": "Overlay Scrim",
+              "type": "string"
+            },
+            "picture_show": {
+              "default": "around",
+              "enum": [
+                "around",
+                "behind",
+                "featured"
+              ],
+              "title": "Picture Show",
+              "type": "string"
+            },
+            "picture_text": {
+              "default": "auto",
+              "enum": [
+                "auto",
+                "light",
+                "dark"
+              ],
+              "title": "Picture Text",
               "type": "string"
             },
             "radius": {

@@ -114,6 +114,24 @@
           ],
           "title": "Accent",
           "type": "string"
+        },
+        "stand_out": {
+          "default": "off",
+          "enum": [
+            "off",
+            "on"
+          ],
+          "title": "Stand Out",
+          "type": "string"
+        },
+        "fit": {
+          "default": "cell",
+          "enum": [
+            "cell",
+            "content"
+          ],
+          "title": "Fit",
+          "type": "string"
         }
       },
       "title": "BlockStyle",
@@ -305,6 +323,7 @@
           "enum": [
             "look",
             "card",
+            "veil",
             "transparent",
             "outlined"
           ],
@@ -320,6 +339,36 @@
             "round"
           ],
           "title": "Radius",
+          "type": "string"
+        },
+        "picture_show": {
+          "default": "around",
+          "enum": [
+            "around",
+            "behind",
+            "featured"
+          ],
+          "title": "Picture Show",
+          "type": "string"
+        },
+        "background_dim": {
+          "default": "off",
+          "enum": [
+            "off",
+            "soft",
+            "strong"
+          ],
+          "title": "Background Dim",
+          "type": "string"
+        },
+        "picture_text": {
+          "default": "auto",
+          "enum": [
+            "auto",
+            "light",
+            "dark"
+          ],
+          "title": "Picture Text",
           "type": "string"
         },
         "overlay_corner": {

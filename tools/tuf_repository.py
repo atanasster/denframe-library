@@ -88,7 +88,7 @@ CHANNELS = ("dev", "test", "production")
 # until the real launch, then production -- never dev. At the launch this narrows to
 # ("production",) (docs/operations/LIBRARY_TUF_OPERATIONS.md, *At the real launch*). The host
 # backend keeps its own copy (`online_catalog.RELEASABLE_CHANNELS`), pinned to this by a test.
-LIVE_CHANNELS = ("test", "production")
+LIVE_CHANNELS = ("production",)
 # The public test key's seed text: its Ed25519 private key is the SHA-256 of these bytes (UTF-8).
 # Public and constant on purpose, so anyone can reproduce every test signature.
 PUBLIC_TEST_SEED = "denframe-library public test key v1"

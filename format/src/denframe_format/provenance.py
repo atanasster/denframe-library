@@ -59,5 +59,5 @@ def record_application(
         }
     )
     document.library_applications[identifier] = application
-    document.block_origins.update({local: ref for local in blocks.values()})
+    document.block_origins.update(dict.fromkeys(blocks.values(), ref))
     return identifier

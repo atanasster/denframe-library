@@ -448,7 +448,8 @@ class Hosting:
                 raw = response.read(1024 * 1024)
         except urllib.error.HTTPError as error:
             raise ServedError(
-                f"Firebase Hosting answered {error.code} to {method} {_redact(url)}."
+                f"Firebase Hosting answered {error.code} to {method} {_redact(url)}"
+                f"{_google_reason(error)}."
             ) from error
         except (urllib.error.URLError, OSError) as error:
             raise ServedError(f"Firebase Hosting could not be reached ({error}).") from error
@@ -531,6 +532,19 @@ class Hosting:
 
 def _redact(url: str) -> str:
     return url.split("?", 1)[0]
+
+
+def _google_reason(error: urllib.error.HTTPError) -> str:
+    """Google's own `error.message` (e.g. the permission a 403 lacks) as one bounded line, or
+    nothing. The answer never echoes the bearer token, and only the message field is kept."""
+    try:
+        message = json.loads(error.read(64 * 1024))["error"]["message"]
+    except (OSError, ValueError, TypeError, KeyError):
+        return ""
+    if not isinstance(message, str) or not message.strip():
+        return ""
+    line = " ".join(message.split())
+    return f": {line[:300]}"
 
 
 def _unchanged_since_pull(fetch: Fetch, base: str, record: dict) -> None:
